@@ -150,6 +150,7 @@ class Parser{
 
     protected function cleanFile(array $rows):array
     {
+        // This is as far as I got!!!! Eats the memory!! Need to re-think this!!!
         // Cleans the Fail2ban log file.
         // Fail2ban errors are writing to multiple lines in the file.
         // Creates errors when parsing the file.
