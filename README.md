@@ -16,6 +16,11 @@ Log Parser App Setup & Usage
         Currently this app will only run on php8.1!!!
         Explanations and an example are provided.
         Read through your log files a little first to spot dicrepencies.
+        I included the following files just so you can see how my setup was:
+            /var/www/LogParserApp/app/src/logs/activity.txt
+            /var/www/LogParserApp/app/src/structure_files/flattened.txt
+            /var/www/LogParserApp/app/src/structure_files/result.txt
+            /var/www/LogParserApp/app/src/structure_files/tree.txt
         Discrepencies can result in the failing of the parser.
 
 -----------------------------------------------------------------------------------------------
