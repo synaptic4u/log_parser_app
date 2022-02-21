@@ -4,10 +4,12 @@ Log Parser App Setup & Usage
     Intro:
     -------
     
-    I will be updating this when I have the chance to do so. There's still documentation I need to do for it!
-    This is all running on a demo server where Im practicing my server administration and doing a little pentesting.
-    I ended up with thousands of log files with hundreds of thousands of entries while I was testing. 
-    I'm not a regex ninja, so I wrote this to be able to query everything from my DB where I am a ninja.
+        I will be updating this when I have the chance to do so. There's still documentation I need to do for it!
+        This is all running on a demo server where Im practicing my server administration and doing a little pentesting.
+        I ended up with thousands of log files with hundreds of thousands of entries while I was testing. 
+        I'm not a regex ninja, so I wrote this to be able to query everything from my DB where I am a ninja. 
+        I have procedures where I clean the data and remove possible duplicates. 
+        This is just something I whipped up to get it started.
     
     Setup:
     ------
