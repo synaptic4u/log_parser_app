@@ -90,7 +90,7 @@ Log Structure
     4   File Exclude - file_exclude_types.
 
     Log Include
-
+        Please rewad through the config.json file to see how I setup mine. My Apache2 log files are custom log files.
 
     Log Exclude
         This is a list of files that are on your server that you do not want to parse.
