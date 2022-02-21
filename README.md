@@ -2,6 +2,7 @@
 Log Parser App Setup & Usage
 -----------------------------------------------------------------------------------------------
 
+    I will be updating this when I have the chance to do so. There's still documentation I need to do for it!
     Setup:
     ------
         The setup is comprised of 3 configuration files:
