@@ -49,6 +49,7 @@ class Tables{
         $sql = 'CREATE TABLE IF NOT EXISTS '.$table->alias.'( `logid` int(11) auto_increment primary key,';
 
         foreach($table->columns as $key => $column){
+            $columns[] = $columns
             if($column == 'loggedon'){
                 $sql .= '`'.$column.'` datetime(6) default null, index `'.$column.'`(`'.$column.'`),';
             }else{
@@ -64,7 +65,7 @@ class Tables{
             }
         }
 
-        $sql .= ');';
+        $sql .= ',unique key(`loggedon`, '.implode(",",$columns).'));';
 
         $result = $this->db->query([], $sql);
 
@@ -114,7 +115,7 @@ class Tables{
 
     public function createLogDump():mixed
     {
-        $sql = "CREATE TABLE IF NOT EXISTS log_dump (`dumpid` int(11) NOT NULL AUTO_INCREMENT,`dumpdate` datetime default current_timestamp,`file` text not null,`contents` text default NULL,PRIMARY KEY (`dumpid`),KEY `dumpdate` (`dumpdate`),KEY `content` (`contents`(768)),KEY `file` (`contents`(768)));";
+        $sql = "CREATE TABLE IF NOT EXISTS log_dump (`dumpid` int(11) NOT NULL AUTO_INCREMENT,`dumpdate` datetime default current_timestamp,`file` text not null,`contents` text default NULL,PRIMARY KEY (`dumpid`),KEY `dumpdate` (`dumpdate`),KEY `content` (`contents`(768)),KEY `file` (`contents`(768)), ,unique key(`dumpdate`, `contents`));";
 
         $result = $this->db->query([], $sql);
 
