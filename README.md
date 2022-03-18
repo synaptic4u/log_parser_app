@@ -16,6 +16,7 @@ Log Parser App Setup & Usage
         IMPORTANT!!! 
         This will produce duplicates, you will need to clean your data in mysql!!!!
         This is just something to get it started. My application logic still needs to be polished. 
+            ex: in my "debug" log files it is including modsec-debug file, which should be in it's own table.
         I'll let you know when it is finished, hope it helps & have fun.
     
     Setup:
