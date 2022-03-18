@@ -1,0 +1,3803 @@
+
+2022 / 03 / 18 : 17 02 19
+Nu: 0 Created: auth: {"alias":"auth","count":0,"success":"true"}
+
+2022 / 03 / 18 : 17 02 19
+Nu: 1 Created: alternatives: {"alias":"alternatives","count":0,"success":"true"}
+
+2022 / 03 / 18 : 17 02 20
+Nu: 2 Created: daemon: {"alias":"daemon","count":0,"success":"true"}
+
+2022 / 03 / 18 : 17 02 20
+Nu: 3 Created: debug: {"alias":"debug","count":0,"success":"true"}
+
+2022 / 03 / 18 : 17 02 20
+Nu: 4 Created: dpkg: {"alias":"dpkg","count":0,"success":"true"}
+
+2022 / 03 / 18 : 17 02 20
+Nu: 5 Created: fail2ban: {"alias":"fail2ban","count":0,"success":"true"}
+
+2022 / 03 / 18 : 17 02 21
+Nu: 6 Created: kern: {"alias":"kern","count":0,"success":"true"}
+
+2022 / 03 / 18 : 17 02 21
+Nu: 7 Created: mail_info: {"alias":"mail_info","count":0,"success":"true"}
+
+2022 / 03 / 18 : 17 02 21
+Nu: 8 Created: mail_log: {"alias":"mail_log","count":0,"success":"true"}
+
+2022 / 03 / 18 : 17 02 21
+Nu: 9 Created: mail_warn: {"alias":"mail_warn","count":0,"success":"true"}
+
+2022 / 03 / 18 : 17 02 22
+Nu: 10 Created: messages: {"alias":"messages","count":0,"success":"true"}
+
+2022 / 03 / 18 : 17 02 22
+Nu: 11 Created: syslog: {"alias":"syslog","count":0,"success":"true"}
+
+2022 / 03 / 18 : 17 02 23
+Nu: 12 Created: ufw: {"alias":"ufw","count":0,"success":"true"}
+
+2022 / 03 / 18 : 17 02 23
+Nu: 13 Created: user: {"alias":"user","count":0,"success":"true"}
+
+2022 / 03 / 18 : 17 02 24
+Nu: 14 Created: daemon_access: {"alias":"daemon_access","count":0,"success":"true"}
+
+2022 / 03 / 18 : 17 02 24
+Nu: 15 Created: daemon_error: {"alias":"daemon_error","count":0,"success":"true"}
+
+2022 / 03 / 18 : 17 02 25
+Nu: 16 Created: daemon_perf: {"alias":"daemon_perf","count":0,"success":"true"}
+
+2022 / 03 / 18 : 17 02 25
+Nu: 17 Created: modsec_perf: {"alias":"modsec_perf","count":0,"success":"true"}
+
+2022 / 03 / 18 : 17 02 25
+Nu: 18 Created: modsec_audit: {"alias":"modsec_audit","count":0,"success":"true"}
+
+2022 / 03 / 18 : 17 02 25
+{
+    "Location": "Synaptic4UParser\\Parser\\Parser::loadLogs() : \/media\/mila\/data\/linode_logs\/20220130\/",
+    "Accepted log files parsed to own tables": {
+        "auth.log-20220130": "auth",
+        "auth.log": "auth",
+        "alternatives.log": "alternatives",
+        "daemon.log": "daemon",
+        "daemon.log-20220130": "daemon",
+        "debug": "debug",
+        "modsec_debug.log": "debug",
+        "debug-20220130": "debug",
+        "unattended-upgrades-dpkg.log": "dpkg",
+        "dpkg.log": "dpkg",
+        "fail2ban.log-20220130": "fail2ban",
+        "fail2ban.log": "fail2ban",
+        "kern.log-20220130": "kern",
+        "kern.log": "kern",
+        "mail.info": "mail_info",
+        "mail.info-20220130": "mail_info",
+        "mail.log": "mail_log",
+        "mail.log-20220130": "mail_log",
+        "mail.warn-20220130": "mail_warn",
+        "mail.warn": "mail_warn",
+        "messages-20220130": "messages",
+        "messages": "messages",
+        "syslog.1": "syslog",
+        "syslog-20220130": "syslog",
+        "syslog-20220129": "syslog",
+        "syslog.2": "syslog",
+        "syslog": "syslog",
+        "user.log": "user",
+        "user.log-20220130": "user",
+        "daemon-access.log": "daemon_access",
+        "daemon-error.log": "daemon_error",
+        "daemon-perf.log": "daemon_perf",
+        "modsec-perf.log": "modsec_perf",
+        "modsec_audit.log": "modsec_audit"
+    },
+    "Log files to be rejected:": {
+        "btmp": "btmp",
+        "wtmp": "wtmp",
+        "cloud-init.log": "cloud-init.log",
+        "cloud-init-output.log": "cloud-init-output.log",
+        "faillog": "faillog",
+        "lastlog": "lastlog",
+        "lynis.log": "lynis.log",
+        "lynis-report.dat": "lynis-report.dat",
+        "other_vhosts_access.log": "access.log",
+        "access.log": "access.log",
+        "error.log": "error.log",
+        "error.log-20220130": "error.log",
+        "error.log.1": "error.log",
+        "error.log-20220129": "error.log",
+        "www-data-global.dir": "www-data-global.dir",
+        "www-data-global": "www-data-global",
+        "www-data-global.pag": "www-data-global.pag",
+        "www-data-ip.pag": "www-data-ip.pag",
+        "www-data-ip": "www-data-ip",
+        "www-data-ip.dir": "www-data-ip.dir",
+        "20220130-034158-YfXs5WCdWW6ZH-BpZLLsaQAAAAQ": "sa"
+    },
+    "Log files parsed to log_dump": {
+        "letsencrypt.log.7": "\/media\/mila\/data\/linode_logs\/20220130\/log\/letsencrypt\/letsencrypt.log.7",
+        "letsencrypt.log": "\/media\/mila\/data\/linode_logs\/20220130\/log\/letsencrypt\/letsencrypt.log",
+        "letsencrypt.log.3": "\/media\/mila\/data\/linode_logs\/20220130\/log\/letsencrypt\/letsencrypt.log.3",
+        "letsencrypt.log.1": "\/media\/mila\/data\/linode_logs\/20220130\/log\/letsencrypt\/letsencrypt.log.1",
+        "letsencrypt.log.2": "\/media\/mila\/data\/linode_logs\/20220130\/log\/letsencrypt\/letsencrypt.log.2",
+        "letsencrypt.log.5": "\/media\/mila\/data\/linode_logs\/20220130\/log\/letsencrypt\/letsencrypt.log.5",
+        "letsencrypt.log.6": "\/media\/mila\/data\/linode_logs\/20220130\/log\/letsencrypt\/letsencrypt.log.6",
+        "letsencrypt.log.4": "\/media\/mila\/data\/linode_logs\/20220130\/log\/letsencrypt\/letsencrypt.log.4",
+        "unattended-upgrades-shutdown.log": "\/media\/mila\/data\/linode_logs\/20220130\/log\/unattended-upgrades\/unattended-upgrades-shutdown.log",
+        "unattended-upgrades.log": "\/media\/mila\/data\/linode_logs\/20220130\/log\/unattended-upgrades\/unattended-upgrades.log",
+        "longview.log": "\/media\/mila\/data\/linode_logs\/20220130\/log\/linode\/longview.log",
+        "eipp.log": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apt\/eipp.log",
+        "history.log": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apt\/history.log",
+        "term.log": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apt\/term.log",
+        "modsec-perflog.log": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/modsec-perflog.log",
+        "20220129-093853-YfTvDWn5bboX4n22DJTKJgAAABc": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-0938\/20220129-093853-YfTvDWn5bboX4n22DJTKJgAAABc",
+        "20220129-212015-YfWTbzL8bH@IRaKBSo0P2gAAAAA": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-2120\/20220129-212015-YfWTbzL8bH@IRaKBSo0P2gAAAAA",
+        "20220129-072621-YfTP-WcIjq2fNRg3HkNoTQAAAA8": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-0726\/20220129-072621-YfTP-WcIjq2fNRg3HkNoTQAAAA8",
+        "20220129-175701-YfVjzULf70l1lvk4quiEPQAAAA8": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-1757\/20220129-175701-YfVjzULf70l1lvk4quiEPQAAAA8",
+        "20220129-024803-YfSOw9C4keg8ftCm@cC@GQAAAAs": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-0248\/20220129-024803-YfSOw9C4keg8ftCm@cC@GQAAAAs",
+        "20220129-200949-YfWC7XxiwdG8gwM4IOrR2gAAABI": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-2009\/20220129-200949-YfWC7XxiwdG8gwM4IOrR2gAAABI",
+        "20220129-000152-YfRn0PdXLiLNhC@TomPzHwAAAAQ": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-0001\/20220129-000152-YfRn0PdXLiLNhC@TomPzHwAAAAQ",
+        "20220129-200841-YfWCqWO8sRC9mMMks6MThwAAABM": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-2008\/20220129-200841-YfWCqWO8sRC9mMMks6MThwAAABM",
+        "20220129-212610-YfWU0oCkdVPYqbRVT1t7pwAAAAA": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-2126\/20220129-212610-YfWU0oCkdVPYqbRVT1t7pwAAAAA",
+        "20220129-200725-YfWCXY75HIQwPAa-kYJIPgAAABE": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-2007\/20220129-200725-YfWCXY75HIQwPAa-kYJIPgAAABE",
+        "20220129-230907-YfWs83UKtckUsJ9CSr7OnwAAAAQ": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-2309\/20220129-230907-YfWs83UKtckUsJ9CSr7OnwAAAAQ",
+        "20220129-230907-YfWs81hyEjBGAM-V8JH6QgAAAAM": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-2309\/20220129-230907-YfWs81hyEjBGAM-V8JH6QgAAAAM",
+        "20220129-230905-YfWs8TEHzxllOlPaTGqJ8gAAAAE": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-2309\/20220129-230905-YfWs8TEHzxllOlPaTGqJ8gAAAAE",
+        "20220129-230908-YfWs9PLyctZ@O0WK71JqGQAAAAU": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-2309\/20220129-230908-YfWs9PLyctZ@O0WK71JqGQAAAAU",
+        "20220129-230906-YfWs8p8gRiaVSDJdWaIOngAAAAI": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-2309\/20220129-230906-YfWs8p8gRiaVSDJdWaIOngAAAAI",
+        "20220129-230919-YfWs-wZ2dA3JFeNnlLrrygAAAAk": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-2309\/20220129-230919-YfWs-wZ2dA3JFeNnlLrrygAAAAk",
+        "20220129-002342-YfRs7q@FOhI6Yj05PCBhRgAAABA": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-0023\/20220129-002342-YfRs7q@FOhI6Yj05PCBhRgAAABA",
+        "20220129-221828-YfWhFIPykygvimIH2AlH7QAAAAI": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-2218\/20220129-221828-YfWhFIPykygvimIH2AlH7QAAAAI",
+        "20220129-221828-YfWhFEEla1jFUTKcX5qtEQAAAAM": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-2218\/20220129-221828-YfWhFEEla1jFUTKcX5qtEQAAAAM",
+        "20220129-210202-YfWPKr8R6iVV-XOSYxhqvAAAAAA": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-2102\/20220129-210202-YfWPKr8R6iVV-XOSYxhqvAAAAAA",
+        "20220129-192619-YfV4u1zwZfxtKpy-Fwt7sgAAAAM": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-1926\/20220129-192619-YfV4u1zwZfxtKpy-Fwt7sgAAAAM",
+        "20220129-192602-YfV4qk6DTuykChw4zUZsJAAAAAI": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-1926\/20220129-192602-YfV4qk6DTuykChw4zUZsJAAAAAI",
+        "20220129-192735-YfV5B3UdLz1OQuKObpNwPAAAABQ": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-1927\/20220129-192735-YfV5B3UdLz1OQuKObpNwPAAAABQ",
+        "20220129-014636-YfSAXGn5bboX4n22DJTKJAAAABc": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-0146\/20220129-014636-YfSAXGn5bboX4n22DJTKJAAAABc",
+        "20220129-232828-YfWxfKblqFSU@5HAMoF1wwAAAAA": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-2328\/20220129-232828-YfWxfKblqFSU@5HAMoF1wwAAAAA",
+        "20220129-232821-YfWxdUFvf-vFAHm1QUxdyQAAAA0": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-2328\/20220129-232821-YfWxdUFvf-vFAHm1QUxdyQAAAA0",
+        "20220129-232822-YfWxdg0abeUjBLtNFIiKyAAAAA4": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-2328\/20220129-232822-YfWxdg0abeUjBLtNFIiKyAAAAA4",
+        "20220129-232823-YfWxd4afwrKYFE8tY9gcbAAAABA": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-2328\/20220129-232823-YfWxd4afwrKYFE8tY9gcbAAAABA",
+        "20220129-232820-YfWxdDiaHZIpQcCsmDjxYAAAAAw": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-2328\/20220129-232820-YfWxdDiaHZIpQcCsmDjxYAAAAAw",
+        "20220129-023432-YfSLmGtP7GsCVy3wz4eVDQAAAAo": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-0234\/20220129-023432-YfSLmGtP7GsCVy3wz4eVDQAAAAo",
+        "20220129-023432-YfSLmOJOUywSQhDbJLVirAAAAAk": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-0234\/20220129-023432-YfSLmOJOUywSQhDbJLVirAAAAAk",
+        "20220129-232758-YfWxXgvOSH0CsJES37ITjwAAAA8": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-2327\/20220129-232758-YfWxXgvOSH0CsJES37ITjwAAAA8",
+        "20220129-050550-YfSvDq@FOhI6Yj05PCBhRwAAABA": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-0505\/20220129-050550-YfSvDq@FOhI6Yj05PCBhRwAAABA",
+        "20220129-201608-YfWEaGOGJqaUDWjDarpHlwAAAAA": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-2016\/20220129-201608-YfWEaGOGJqaUDWjDarpHlwAAAAA",
+        "20220129-201446-YfWEFjbDHakFgPUs619g1gAAAAE": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-2014\/20220129-201446-YfWEFjbDHakFgPUs619g1gAAAAE",
+        "20220129-171655-YfVaZwzVRmOk8j9EDGMi9QAAAAw": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-1716\/20220129-171655-YfVaZwzVRmOk8j9EDGMi9QAAAAw",
+        "20220129-171654-YfVaZj7CUcmDC5i2x@gLuQAAAAo": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-1716\/20220129-171654-YfVaZj7CUcmDC5i2x@gLuQAAAAo",
+        "20220129-171656-YfVaaAYN2jvmagGMN7NmGgAAAA0": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-1716\/20220129-171656-YfVaaAYN2jvmagGMN7NmGgAAAA0",
+        "20220129-212401-YfWUUTeJVdv7mbgKf-mKlgAAAAM": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-2124\/20220129-212401-YfWUUTeJVdv7mbgKf-mKlgAAAAM",
+        "20220129-081638-YfTbxuJOUywSQhDbJLVirgAAAAk": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-0816\/20220129-081638-YfTbxuJOUywSQhDbJLVirgAAAAk",
+        "20220129-145110-YfU4PtC4keg8ftCm@cC@HgAAAAs": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-1451\/20220129-145110-YfU4PtC4keg8ftCm@cC@HgAAAAs",
+        "20220129-220025-YfWc2VO@3VD5OkB1JeLb1QAAAAM": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-2200\/20220129-220025-YfWc2VO@3VD5OkB1JeLb1QAAAAM",
+        "20220129-223129-YfWkIQ99DldFd6d6mszoFAAAAAw": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-2231\/20220129-223129-YfWkIQ99DldFd6d6mszoFAAAAAw",
+        "20220129-233137-YfWyOXUKtckUsJ9CSr7OpAAAAAQ": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-2331\/20220129-233137-YfWyOXUKtckUsJ9CSr7OpAAAAAQ",
+        "20220129-233138-YfWyOqY58kGBvCoQSgaG8gAAABY": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-2331\/20220129-233138-YfWyOqY58kGBvCoQSgaG8gAAABY",
+        "20220129-233136-YfWyOJ8gRiaVSDJdWaIOowAAAAI": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-2331\/20220129-233136-YfWyOJ8gRiaVSDJdWaIOowAAAAI",
+        "20220129-233135-YfWyN4jjbG3tUGyBOJa7vAAAABU": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-2331\/20220129-233135-YfWyN4jjbG3tUGyBOJa7vAAAABU",
+        "20220129-084954-YfTjkokeQPUTWKDbM4jQCQAAAA0": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-0849\/20220129-084954-YfTjkokeQPUTWKDbM4jQCQAAAA0",
+        "20220129-213640-YfWXSNbjsmXqk00YgfPovgAAAAA": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-2136\/20220129-213640-YfWXSNbjsmXqk00YgfPovgAAAAA",
+        "20220129-003802-YfRwSjN70ctT33KzTira9gAAAAE": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-0038\/20220129-003802-YfRwSjN70ctT33KzTira9gAAAAE",
+        "20220129-020324-YfSETKgkDFaVor1xa10F9gAAAAU": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-0203\/20220129-020324-YfSETKgkDFaVor1xa10F9gAAAAU",
+        "20220129-142939-YfUzM2HSCpttVrvmvTzR6gAAAA4": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-1429\/20220129-142939-YfUzM2HSCpttVrvmvTzR6gAAAA4",
+        "20220129-130758-YfUgDp8uF1Bx30lO0XbJwwAAAAg": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-1307\/20220129-130758-YfUgDp8uF1Bx30lO0XbJwwAAAAg",
+        "20220129-113514-YfUKUtXzw5MVbcsl1H5ONwAAABM": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-1135\/20220129-113514-YfUKUtXzw5MVbcsl1H5ONwAAABM",
+        "20220129-121743-YfUURzN70ctT33KzTira@AAAAAE": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-1217\/20220129-121743-YfUURzN70ctT33KzTira@AAAAAE",
+        "20220129-201100-YfWDNIJpwLmgvudsVTaBYQAAABQ": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-2011\/20220129-201100-YfWDNIJpwLmgvudsVTaBYQAAABQ",
+        "20220129-221351-YfWf-1FzVZZnxk4lyrrhOgAAAAA": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-2213\/20220129-221351-YfWf-1FzVZZnxk4lyrrhOgAAAAA",
+        "20220129-113455-YfUKP@JOUywSQhDbJLVisAAAAAk": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-1134\/20220129-113455-YfUKP@JOUywSQhDbJLVisAAAAAk",
+        "20220129-113455-YfUKP2tP7GsCVy3wz4eVEQAAAAo": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-1134\/20220129-113455-YfUKP2tP7GsCVy3wz4eVEQAAAAo",
+        "20220129-113424-YfUKIGcIjq2fNRg3HkNoTwAAAA8": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-1134\/20220129-113424-YfUKIGcIjq2fNRg3HkNoTwAAAA8",
+        "20220129-113456-YfUKQNC4keg8ftCm@cC@HQAAAAs": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-1134\/20220129-113456-YfUKQNC4keg8ftCm@cC@HQAAAAs",
+        "20220129-113455-YfUKPx5hPYqDYZUuDye16QAAABQ": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-1134\/20220129-113455-YfUKPx5hPYqDYZUuDye16QAAABQ",
+        "20220129-180230-YfVlFiiZetyWwGe@Ci-xYgAAABA": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-1802\/20220129-180230-YfVlFiiZetyWwGe@Ci-xYgAAABA",
+        "20220129-211319-YfWRzxoOuCPMbt-5MFIYXgAAAAI": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-2113\/20220129-211319-YfWRzxoOuCPMbt-5MFIYXgAAAAI",
+        "20220129-211318-YfWRzhoOuCPMbt-5MFIYXQAAAAI": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-2113\/20220129-211318-YfWRzhoOuCPMbt-5MFIYXQAAAAI",
+        "20220129-211318-YfWRzhoOuCPMbt-5MFIYXAAAAAI": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-2113\/20220129-211318-YfWRzhoOuCPMbt-5MFIYXAAAAAI",
+        "20220129-211315-YfWRy6afsLr8VRXfsdlVCQAAAAE": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-2113\/20220129-211315-YfWRy6afsLr8VRXfsdlVCQAAAAE",
+        "20220129-073634-YfTSYuELTvn0PBMd0O7INQAAABY": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-0736\/20220129-073634-YfTSYuELTvn0PBMd0O7INQAAABY",
+        "20220129-071749-YfTN-eJOUywSQhDbJLVirQAAAAk": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-0717\/20220129-071749-YfTN-eJOUywSQhDbJLVirQAAAAk",
+        "20220129-071749-YfTN-T9LPLExY@LS8O-zKQAAAAw": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-0717\/20220129-071749-YfTN-T9LPLExY@LS8O-zKQAAAAw",
+        "20220129-203803-YfWJi2y09JTl5vCjaYwgBwAAAAA": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-2038\/20220129-203803-YfWJi2y09JTl5vCjaYwgBwAAAAA",
+        "20220129-202112-YfWFmItyYWDTqA4W4mwd@QAAAAI": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-2021\/20220129-202112-YfWFmItyYWDTqA4W4mwd@QAAAAI",
+        "20220129-001832-YfRruGHSCpttVrvmvTzR4wAAAA4": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-0018\/20220129-001832-YfRruGHSCpttVrvmvTzR4wAAAA4",
+        "20220129-001833-YfRruWcIjq2fNRg3HkNoSwAAAA8": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-0018\/20220129-001833-YfRruWcIjq2fNRg3HkNoSwAAAA8",
+        "20220129-011004-YfR3zM6ztRbT2uTxtfh42AAAAAA": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-0110\/20220129-011004-YfR3zM6ztRbT2uTxtfh42AAAAAA",
+        "20220129-042557-YfSltVTHghFPHQrLY9kPiAAAABo": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-0425\/20220129-042557-YfSltVTHghFPHQrLY9kPiAAAABo",
+        "20220129-042556-YfSltNXzw5MVbcsl1H5ONQAAABM": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-0425\/20220129-042556-YfSltNXzw5MVbcsl1H5ONQAAABM",
+        "20220129-202806-YfWHNhL1QAToPDS-440HsgAAAAE": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-2028\/20220129-202806-YfWHNhL1QAToPDS-440HsgAAAAE",
+        "20220129-202844-YfWHXIPVySN@jmdVfQ1WyQAAAAI": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-2028\/20220129-202844-YfWHXIPVySN@jmdVfQ1WyQAAAAI",
+        "20220129-202801-YfWHMXtE7IOJvjEZFRl62wAAAAA": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-2028\/20220129-202801-YfWHMXtE7IOJvjEZFRl62wAAAAA",
+        "20220129-180324-YfVlTHQw@0c0WIwjfDCrUgAAAAY": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-1803\/20220129-180324-YfVlTHQw@0c0WIwjfDCrUgAAAAY",
+        "20220129-180324-YfVlTATaRuQSoIr25JKb1wAAAAU": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-1803\/20220129-180324-YfVlTATaRuQSoIr25JKb1wAAAAU",
+        "20220129-180317-YfVlRXUdLz1OQuKObpNwOgAAABQ": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-1803\/20220129-180317-YfVlRXUdLz1OQuKObpNwOgAAABQ",
+        "20220129-180323-YfVlS3UdLz1OQuKObpNwOwAAABQ": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-1803\/20220129-180323-YfVlS3UdLz1OQuKObpNwOwAAABQ",
+        "20220129-180327-YfVlT8FGMEzih5whWhf1lQAAABI": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-1803\/20220129-180327-YfVlT8FGMEzih5whWhf1lQAAABI",
+        "20220129-180324-YfVlTAKC9-6l71U5gXTcLQAAAAQ": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-1803\/20220129-180324-YfVlTAKC9-6l71U5gXTcLQAAAAQ",
+        "20220129-015913-YfSDUedb2yCjn1AK8TD-uAAAAAY": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-0159\/20220129-015913-YfSDUedb2yCjn1AK8TD-uAAAAAY",
+        "20220129-015913-YfSDUeELTvn0PBMd0O7IMwAAABY": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-0159\/20220129-015913-YfSDUeELTvn0PBMd0O7IMwAAABY",
+        "20220129-230234-YfWraqblqFSU@5HAMoF1vgAAAAA": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-2302\/20220129-230234-YfWraqblqFSU@5HAMoF1vgAAAAA",
+        "20220129-195436-YfV-XHQ@jAhXJZk2-ec29gAAAAc": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-1954\/20220129-195436-YfV-XHQ@jAhXJZk2-ec29gAAAAc",
+        "20220129-195429-YfV-VY5tVBkmpq0LhLQSOgAAAAU": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-1954\/20220129-195429-YfV-VY5tVBkmpq0LhLQSOgAAAAU",
+        "20220129-195416-YfV-SItyYWDTqA4W4mwd@AAAAAI": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-1954\/20220129-195416-YfV-SItyYWDTqA4W4mwd@AAAAAI",
+        "20220129-195426-YfV-UqXJdaQGl9h6miD@WwAAAAM": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-1954\/20220129-195426-YfV-UqXJdaQGl9h6miD@WwAAAAM",
+        "20220129-111027-YfUEg9C4keg8ftCm@cC@HAAAAAs": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-1110\/20220129-111027-YfUEg9C4keg8ftCm@cC@HAAAAAs",
+        "20220129-145219-YfU4g48kcSj-I5Noy8RskAAAABI": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-1452\/20220129-145219-YfU4g48kcSj-I5Noy8RskAAAABI",
+        "20220129-145254-YfU4pvk09KJsz8p@RdMKIgAAAAI": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-1452\/20220129-145254-YfU4pvk09KJsz8p@RdMKIgAAAAI",
+        "20220129-145221-YfU4hYkeQPUTWKDbM4jQCgAAAA0": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-1452\/20220129-145221-YfU4hYkeQPUTWKDbM4jQCgAAAA0",
+        "20220129-145251-YfU4o6@FOhI6Yj05PCBhSQAAABA": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-1452\/20220129-145251-YfU4o6@FOhI6Yj05PCBhSQAAABA",
+        "20220129-145255-YfU4p5SVTRnSzEgYuQWtoAAAAAM": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-1452\/20220129-145255-YfU4p5SVTRnSzEgYuQWtoAAAAAM",
+        "20220129-175908-YfVkTITwMdyr0ZaQypcN6QAAAA4": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-1759\/20220129-175908-YfVkTITwMdyr0ZaQypcN6QAAAA4",
+        "20220129-212338-YfWUOjW0MjkacSVXbGG0HwAAAAA": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-2123\/20220129-212338-YfWUOjW0MjkacSVXbGG0HwAAAAA",
+        "20220129-135642-YfUrentMGxfs-vOV45DcHwAAABE": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220129\/20220129-1356\/20220129-135642-YfUrentMGxfs-vOV45DcHwAAABE",
+        "20220130-025503-YfXh55cATE5ecnaRfF2bpQAAAAA": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220130\/20220130-0255\/20220130-025503-YfXh55cATE5ecnaRfF2bpQAAAAA",
+        "20220130-030656-YfXksC5CaEA8DLZrBkqriQAAAAM": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220130\/20220130-0306\/20220130-030656-YfXksC5CaEA8DLZrBkqriQAAAAM",
+        "20220130-030655-YfXkr4ldVEaRlOl4U6gBtAAAAAI": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220130\/20220130-0306\/20220130-030655-YfXkr4ldVEaRlOl4U6gBtAAAAAI",
+        "20220130-030612-YfXkhDr3FGeRAj3YKvxiAAAAAAA": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220130\/20220130-0306\/20220130-030612-YfXkhDr3FGeRAj3YKvxiAAAAAAA",
+        "20220130-030537-YfXkYYGQeUaN0@DriFQGzAAAAAE": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220130\/20220130-0305\/20220130-030537-YfXkYYGQeUaN0@DriFQGzAAAAAE",
+        "20220130-000928-YfW7GDEHzxllOlPaTGqJ9wAAAAE": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220130\/20220130-0009\/20220130-000928-YfW7GDEHzxllOlPaTGqJ9wAAAAE",
+        "20220130-000929-YfW7GfLyctZ@O0WK71JqHgAAAAU": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220130\/20220130-0009\/20220130-000929-YfW7GfLyctZ@O0WK71JqHgAAAAU",
+        "20220130-000928-YfW7GFhyEjBGAM-V8JH6RwAAAAM": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220130\/20220130-0009\/20220130-000928-YfW7GFhyEjBGAM-V8JH6RwAAAAM",
+        "20220130-000928-YfW7GCz8lZOT0bU8Pmc86QAAABc": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220130\/20220130-0009\/20220130-000928-YfW7GCz8lZOT0bU8Pmc86QAAABc",
+        "20220130-033818-YfXsCgB6ntM45R0HVsVxTAAAAAE": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220130\/20220130-0338\/20220130-033818-YfXsCgB6ntM45R0HVsVxTAAAAAE",
+        "20220130-033817-YfXsCSXIXKvwr@b7JFPc3QAAAAA": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220130\/20220130-0338\/20220130-033817-YfXsCSXIXKvwr@b7JFPc3QAAAAA",
+        "20220130-034148-YfXs3FrC4t9rRyJMRup-3gAAAAI": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220130\/20220130-0341\/20220130-034148-YfXs3FrC4t9rRyJMRup-3gAAAAI",
+        "20220130-034149-YfXs3TJsqcO7zGl2g4ZfFwAAAAM": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220130\/20220130-0341\/20220130-034149-YfXs3TJsqcO7zGl2g4ZfFwAAAAM",
+        "20220130-034158-YfXs5tzRJzwgvHvUFhX-CQAAAAU": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220130\/20220130-0341\/20220130-034158-YfXs5tzRJzwgvHvUFhX-CQAAAAU",
+        "20220130-034158-YfXs5mu-Z1RtoYfIKJZdAAAAAAc": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220130\/20220130-0341\/20220130-034158-YfXs5mu-Z1RtoYfIKJZdAAAAAAc",
+        "20220130-001324-YfW8BISO1sVBR-z6viGqkwAAAAc": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220130\/20220130-0013\/20220130-001324-YfW8BISO1sVBR-z6viGqkwAAAAc",
+        "20220130-001952-YfW9iGDTNb4a2jAI8@kvEgAAAAA": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220130\/20220130-0019\/20220130-001952-YfW9iGDTNb4a2jAI8@kvEgAAAAA",
+        "20220130-010814-YfXI3nIU1Z2mb4IT@34A3QAAAAE": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220130\/20220130-0108\/20220130-010814-YfXI3nIU1Z2mb4IT@34A3QAAAAE",
+        "20220130-001042-YfW7Yl0kP4nFuspQ07sCvAAAAAY": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220130\/20220130-0010\/20220130-001042-YfW7Yl0kP4nFuspQ07sCvAAAAAY",
+        "20220130-004447-YfXDX8lu-r1U5pcla2RZqgAAAAE": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220130\/20220130-0044\/20220130-004447-YfXDX8lu-r1U5pcla2RZqgAAAAE",
+        "20220130-004447-YfXDX8lu-r1U5pcla2RZqQAAAAE": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220130\/20220130-0044\/20220130-004447-YfXDX8lu-r1U5pcla2RZqQAAAAE",
+        "20220128-184051-YfQckx5hPYqDYZUuDye11QAAABQ": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220128\/20220128-1840\/20220128-184051-YfQckx5hPYqDYZUuDye11QAAABQ",
+        "20220128-204608-YfQ58KgkDFaVor1xa10F6wAAAAU": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220128\/20220128-2046\/20220128-204608-YfQ58KgkDFaVor1xa10F6wAAAAU",
+        "20220128-165954-YfQE6jN70ctT33KzTira3QAAAAE": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220128\/20220128-1659\/20220128-165954-YfQE6jN70ctT33KzTira3QAAAAE",
+        "20220128-231619-YfRdI9C4keg8ftCm@cC@FwAAAAs": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220128\/20220128-2316\/20220128-231619-YfRdI9C4keg8ftCm@cC@FwAAAAs",
+        "20220128-163210-YfP@amcIjq2fNRg3HkNoMgAAAA8": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220128\/20220128-1632\/20220128-163210-YfP@amcIjq2fNRg3HkNoMgAAAA8",
+        "20220128-183102-YfQaRmHSCpttVrvmvTzR0wAAAA4": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220128\/20220128-1831\/20220128-183102-YfQaRmHSCpttVrvmvTzR0wAAAA4",
+        "20220128-181004-YfQVXD9LPLExY@LS8O-zFgAAAAw": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220128\/20220128-1810\/20220128-181004-YfQVXD9LPLExY@LS8O-zFgAAAAw",
+        "20220128-221206-YfROFvk09KJsz8p@RdMKGgAAAAI": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220128\/20220128-2212\/20220128-221206-YfROFvk09KJsz8p@RdMKGgAAAAI",
+        "20220128-223512-YfRTgM5UwLjLXhAp7EyngAAAAAc": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220128\/20220128-2235\/20220128-223512-YfRTgM5UwLjLXhAp7EyngAAAAAc",
+        "20220128-184215-YfQc52cIjq2fNRg3HkNoPAAAAA8": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220128\/20220128-1842\/20220128-184215-YfQc52cIjq2fNRg3HkNoPAAAAA8",
+        "20220128-234434-YfRjwqgkDFaVor1xa10F9QAAAAU": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220128\/20220128-2344\/20220128-234434-YfRjwqgkDFaVor1xa10F9QAAAAU",
+        "20220128-010446-YfMlDnZulatuuFp@EYq8wAAAAAM": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220128\/20220128-0104\/20220128-010446-YfMlDnZulatuuFp@EYq8wAAAAAM",
+        "20220128-183957-YfQcXWtP7GsCVy3wz4eU-gAAAAo": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220128\/20220128-1839\/20220128-183957-YfQcXWtP7GsCVy3wz4eU-gAAAAo",
+        "20220128-171434-YfQIWokeQPUTWKDbM4jP8QAAAA0": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220128\/20220128-1714\/20220128-171434-YfQIWokeQPUTWKDbM4jP8QAAAA0",
+        "20220128-013552-YfMsWPioyZrMb6OVxyeuWgAAAAU": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220128\/20220128-0135\/20220128-013552-YfMsWPioyZrMb6OVxyeuWgAAAAU",
+        "20220128-232320-YfReyOELTvn0PBMd0O7IMgAAABY": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220128\/20220128-2323\/20220128-232320-YfReyOELTvn0PBMd0O7IMgAAABY",
+        "20220128-222957-YfRSRa@FOhI6Yj05PCBhQwAAABA": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220128\/20220128-2229\/20220128-222957-YfRSRa@FOhI6Yj05PCBhQwAAABA",
+        "20220128-010607-YfMlX0XfCdTFZpImCSksWQAAAAQ": "\/media\/mila\/data\/linode_logs\/20220130\/log\/apache2\/audit\/www-data\/20220128\/20220128-0106\/20220128-010607-YfMlX0XfCdTFZpImCSksWQAAAAQ"
+    }
+}
+
+2022 / 03 / 18 : 17 02 26
+Location: Synaptic4UParser\Parser\Parser::parseLog(): auth.log-20220130
+alias: auth
+
+2022 / 03 / 18 : 17 03 34
+Location: Synaptic4UParser\Parser\Parser::parseLog(): auth.log-20220130
+alias: auth
+result: {
+    "auth.log-20220130": {
+        "start": 1647615746.171493,
+        "finish": 1647615814.552486,
+        "duration min:sec": "1:8",
+        "duration sec.microseconds": 68.3809928894043,
+        "nu_rows": 5488,
+        "nu_result": 5488
+    }
+}
+
+2022 / 03 / 18 : 17 03 34
+Location: Synaptic4UParser\Parser\Parser::parseLog(): auth.log
+alias: auth
+
+2022 / 03 / 18 : 17 03 37
+Location: Synaptic4UParser\Parser\Parser::parseLog(): auth.log
+alias: auth
+result: {
+    "auth.log": {
+        "start": 1647615814.552933,
+        "finish": 1647615817.023169,
+        "duration min:sec": "0:2",
+        "duration sec.microseconds": 2.47023606300354,
+        "nu_rows": 201,
+        "nu_result": 201
+    }
+}
+
+2022 / 03 / 18 : 17 03 37
+Location: Synaptic4UParser\Parser\Parser::parseLog(): alternatives.log
+alias: alternatives
+
+2022 / 03 / 18 : 17 03 37
+Location: Synaptic4UParser\Parser\Parser::parseLog(): alternatives.log
+alias: alternatives
+result: {
+    "alternatives.log": {
+        "start": 1647615817.023527,
+        "finish": 1647615817.76557,
+        "duration min:sec": "0:0",
+        "duration sec.microseconds": 0.7420430183410645,
+        "nu_rows": 66,
+        "nu_result": 66
+    }
+}
+
+2022 / 03 / 18 : 17 03 37
+Location: Synaptic4UParser\Parser\Parser::parseLog(): daemon.log
+alias: daemon
+
+2022 / 03 / 18 : 17 03 40
+Location: Synaptic4UParser\Parser\Parser::parseLog(): daemon.log
+alias: daemon
+result: {
+    "daemon.log": {
+        "start": 1647615817.765989,
+        "finish": 1647615820.270094,
+        "duration min:sec": "0:2",
+        "duration sec.microseconds": 2.5041048526763916,
+        "nu_rows": 205,
+        "nu_result": 205
+    }
+}
+
+2022 / 03 / 18 : 17 03 40
+Location: Synaptic4UParser\Parser\Parser::parseLog(): daemon.log-20220130
+alias: daemon
+
+2022 / 03 / 18 : 17 04 49
+Location: Synaptic4UParser\Parser\Parser::parseLog(): daemon.log-20220130
+alias: daemon
+result: {
+    "daemon.log-20220130": {
+        "start": 1647615820.270486,
+        "finish": 1647615889.682249,
+        "duration min:sec": "1:9",
+        "duration sec.microseconds": 69.41176295280457,
+        "nu_rows": 5593,
+        "nu_result": 5593
+    }
+}
+
+2022 / 03 / 18 : 17 04 49
+Location: Synaptic4UParser\Parser\Parser::parseLog(): debug
+alias: debug
+
+2022 / 03 / 18 : 17 04 49
+Location: Synaptic4UParser\Parser\Parser::parseLog(): debug
+alias: debug
+result: {
+    "debug": {
+        "start": 1647615889.682652,
+        "finish": 1647615889.727063,
+        "duration min:sec": "0:0",
+        "duration sec.microseconds": 0.04441094398498535,
+        "nu_rows": 4,
+        "nu_result": 4
+    }
+}
+
+2022 / 03 / 18 : 17 04 49
+Location: Synaptic4UParser\Parser\Parser::parseLog(): modsec_debug.log
+alias: debug
+
+2022 / 03 / 18 : 17 21 59
+Location: Synaptic4UParser\Parser\Parser::parseLog(): modsec_debug.log
+alias: debug
+result: {
+    "modsec_debug.log": {
+        "start": 1647615889.727637,
+        "finish": 1647616919.469027,
+        "duration min:sec": "17:9",
+        "duration sec.microseconds": 1029.741389989853,
+        "nu_rows": 81893,
+        "nu_result": 81893
+    }
+}
+
+2022 / 03 / 18 : 17 21 59
+Location: Synaptic4UParser\Parser\Parser::parseLog(): debug-20220130
+alias: debug
+
+2022 / 03 / 18 : 17 22 20
+Location: Synaptic4UParser\Parser\Parser::parseLog(): debug-20220130
+alias: debug
+result: {
+    "debug-20220130": {
+        "start": 1647616919.470778,
+        "finish": 1647616940.427521,
+        "duration min:sec": "0:20",
+        "duration sec.microseconds": 20.956743001937866,
+        "nu_rows": 1659,
+        "nu_result": 1659
+    }
+}
+
+2022 / 03 / 18 : 17 22 20
+Location: Synaptic4UParser\Parser\Parser::parseLog(): unattended-upgrades-dpkg.log
+alias: dpkg
+
+2022 / 03 / 18 : 17 22 20
+Location: Synaptic4UParser\Parser\Parser::parseLog(): unattended-upgrades-dpkg.log
+alias: dpkg
+result: {
+    "unattended-upgrades-dpkg.log": {
+        "start": 1647616940.428216,
+        "finish": 1647616940.428871,
+        "duration min:sec": "0:0",
+        "duration sec.microseconds": 0.0006549358367919922,
+        "nu_rows": "File is empty or the row length is less then 10 charachters.",
+        "nu_result": 0
+    }
+}
+
+2022 / 03 / 18 : 17 22 20
+Location: Synaptic4UParser\Parser\Parser::parseLog(): dpkg.log
+alias: dpkg
+
+2022 / 03 / 18 : 17 22 52
+Location: Synaptic4UParser\Parser\Parser::parseLog(): dpkg.log
+alias: dpkg
+result: {
+    "dpkg.log": {
+        "start": 1647616940.429424,
+        "finish": 1647616972.363839,
+        "duration min:sec": "0:31",
+        "duration sec.microseconds": 31.934414863586426,
+        "nu_rows": 2535,
+        "nu_result": 2535
+    }
+}
+
+2022 / 03 / 18 : 17 22 52
+Location: Synaptic4UParser\Parser\Parser::parseLog(): fail2ban.log-20220130
+alias: fail2ban
+
+2022 / 03 / 18 : 17 22 56
+Location: Synaptic4UParser\Parser\Parser::parseLog(): fail2ban.log-20220130
+alias: fail2ban
+result: {
+    "fail2ban.log-20220130": {
+        "start": 1647616972.364548,
+        "finish": 1647616976.633649,
+        "duration min:sec": "0:4",
+        "duration sec.microseconds": 4.269101142883301,
+        "nu_rows": 351,
+        "nu_result": 351
+    }
+}
+
+2022 / 03 / 18 : 17 22 56
+Location: Synaptic4UParser\Parser\Parser::parseLog(): fail2ban.log
+alias: fail2ban
+
+2022 / 03 / 18 : 17 22 56
+Location: Synaptic4UParser\Parser\Parser::parseLog(): fail2ban.log
+alias: fail2ban
+result: {
+    "fail2ban.log": {
+        "start": 1647616976.634264,
+        "finish": 1647616976.644818,
+        "duration min:sec": "0:0",
+        "duration sec.microseconds": 0.010554075241088867,
+        "nu_rows": 1,
+        "nu_result": 1
+    }
+}
+
+2022 / 03 / 18 : 17 22 56
+Location: Synaptic4UParser\Parser\Parser::parseLog(): kern.log-20220130
+alias: kern
+
+2022 / 03 / 18 : 17 24 18
+Location: Synaptic4UParser\Parser\Parser::parseLog(): kern.log-20220130
+alias: kern
+result: {
+    "kern.log-20220130": {
+        "start": 1647616976.645409,
+        "finish": 1647617058.973972,
+        "duration min:sec": "1:22",
+        "duration sec.microseconds": 82.32856297492981,
+        "nu_rows": 6433,
+        "nu_result": 6433
+    }
+}
+
+2022 / 03 / 18 : 17 24 18
+Location: Synaptic4UParser\Parser\Parser::parseLog(): kern.log
+alias: kern
+
+2022 / 03 / 18 : 17 24 18
+Location: Synaptic4UParser\Parser\Parser::parseLog(): kern.log
+alias: kern
+result: {
+    "kern.log": {
+        "start": 1647617058.974766,
+        "finish": 1647617058.975334,
+        "duration min:sec": "0:0",
+        "duration sec.microseconds": 0.0005679130554199219,
+        "nu_rows": "File is empty or the row length is less then 10 charachters.",
+        "nu_result": 0
+    }
+}
+
+2022 / 03 / 18 : 17 24 18
+Location: Synaptic4UParser\Parser\Parser::parseLog(): mail.info
+alias: mail_info
+
+2022 / 03 / 18 : 17 24 19
+Location: Synaptic4UParser\Parser\Parser::parseLog(): mail.info
+alias: mail_info
+result: {
+    "mail.info": {
+        "start": 1647617058.975824,
+        "finish": 1647617059.074464,
+        "duration min:sec": "0:0",
+        "duration sec.microseconds": 0.09863996505737305,
+        "nu_rows": 7,
+        "nu_result": 7
+    }
+}
+
+2022 / 03 / 18 : 17 24 19
+Location: Synaptic4UParser\Parser\Parser::parseLog(): mail.info-20220130
+alias: mail_info
+
+2022 / 03 / 18 : 17 24 27
+Location: Synaptic4UParser\Parser\Parser::parseLog(): mail.info-20220130
+alias: mail_info
+result: {
+    "mail.info-20220130": {
+        "start": 1647617059.075044,
+        "finish": 1647617067.915884,
+        "duration min:sec": "0:8",
+        "duration sec.microseconds": 8.840840101242065,
+        "nu_rows": 625,
+        "nu_result": 625
+    }
+}
+
+2022 / 03 / 18 : 17 24 27
+Location: Synaptic4UParser\Parser\Parser::parseLog(): mail.log
+alias: mail_log
+
+2022 / 03 / 18 : 17 24 27
+Location: Synaptic4UParser\Parser\Parser::parseLog(): mail.log
+alias: mail_log
+result: {
+    "mail.log": {
+        "start": 1647617067.916523,
+        "finish": 1647617067.994334,
+        "duration min:sec": "0:0",
+        "duration sec.microseconds": 0.07781100273132324,
+        "nu_rows": 7,
+        "nu_result": 7
+    }
+}
+
+2022 / 03 / 18 : 17 24 27
+Location: Synaptic4UParser\Parser\Parser::parseLog(): mail.log-20220130
+alias: mail_log
+
+2022 / 03 / 18 : 17 24 36
+Location: Synaptic4UParser\Parser\Parser::parseLog(): mail.log-20220130
+alias: mail_log
+result: {
+    "mail.log-20220130": {
+        "start": 1647617067.994911,
+        "finish": 1647617076.228029,
+        "duration min:sec": "0:8",
+        "duration sec.microseconds": 8.233118057250977,
+        "nu_rows": 625,
+        "nu_result": 625
+    }
+}
+
+2022 / 03 / 18 : 17 24 36
+Location: Synaptic4UParser\Parser\Parser::parseLog(): mail.warn-20220130
+alias: mail_warn
+
+2022 / 03 / 18 : 17 24 37
+Location: Synaptic4UParser\Parser\Parser::parseLog(): mail.warn-20220130
+alias: mail_warn
+result: {
+    "mail.warn-20220130": {
+        "start": 1647617076.229695,
+        "finish": 1647617077.092447,
+        "duration min:sec": "0:0",
+        "duration sec.microseconds": 0.8627519607543945,
+        "nu_rows": 65,
+        "nu_result": 65
+    }
+}
+
+2022 / 03 / 18 : 17 24 37
+Location: Synaptic4UParser\Parser\Parser::parseLog(): mail.warn
+alias: mail_warn
+
+2022 / 03 / 18 : 17 24 37
+Location: Synaptic4UParser\Parser\Parser::parseLog(): mail.warn
+alias: mail_warn
+result: {
+    "mail.warn": {
+        "start": 1647617077.093085,
+        "finish": 1647617077.104017,
+        "duration min:sec": "0:0",
+        "duration sec.microseconds": 0.010931968688964844,
+        "nu_rows": 1,
+        "nu_result": 1
+    }
+}
+
+2022 / 03 / 18 : 17 24 37
+Location: Synaptic4UParser\Parser\Parser::parseLog(): messages-20220130
+alias: messages
+
+2022 / 03 / 18 : 17 25 53
+Location: Synaptic4UParser\Parser\Parser::parseLog(): messages-20220130
+alias: messages
+result: {
+    "messages-20220130": {
+        "start": 1647617077.105087,
+        "finish": 1647617153.336557,
+        "duration min:sec": "1:16",
+        "duration sec.microseconds": 76.23146986961365,
+        "nu_rows": 5345,
+        "nu_result": 5345
+    }
+}
+
+2022 / 03 / 18 : 17 25 53
+Location: Synaptic4UParser\Parser\Parser::parseLog(): messages
+alias: messages
+
+2022 / 03 / 18 : 17 25 53
+Location: Synaptic4UParser\Parser\Parser::parseLog(): messages
+alias: messages
+result: {
+    "messages": {
+        "start": 1647617153.337237,
+        "finish": 1647617153.347318,
+        "duration min:sec": "0:0",
+        "duration sec.microseconds": 0.010081052780151367,
+        "nu_rows": 1,
+        "nu_result": 1
+    }
+}
+
+2022 / 03 / 18 : 17 25 53
+Location: Synaptic4UParser\Parser\Parser::parseLog(): syslog.1
+alias: syslog
+
+2022 / 03 / 18 : 17 27 30
+Location: Synaptic4UParser\Parser\Parser::parseLog(): syslog.1
+alias: syslog
+result: {
+    "syslog.1": {
+        "start": 1647617153.348164,
+        "finish": 1647617250.911713,
+        "duration min:sec": "1:37",
+        "duration sec.microseconds": 97.56354880332947,
+        "nu_rows": 7325,
+        "nu_result": 7325
+    }
+}
+
+2022 / 03 / 18 : 17 27 30
+Location: Synaptic4UParser\Parser\Parser::parseLog(): syslog-20220130
+alias: syslog
+
+2022 / 03 / 18 : 17 27 50
+Location: Synaptic4UParser\Parser\Parser::parseLog(): syslog-20220130
+alias: syslog
+result: {
+    "syslog-20220130": {
+        "start": 1647617250.912829,
+        "finish": 1647617270.790599,
+        "duration min:sec": "0:19",
+        "duration sec.microseconds": 19.87777018547058,
+        "nu_rows": 1538,
+        "nu_result": 1538
+    }
+}
+
+2022 / 03 / 18 : 17 27 50
+Location: Synaptic4UParser\Parser\Parser::parseLog(): syslog-20220129
+alias: syslog
+
+2022 / 03 / 18 : 17 28 12
+Location: Synaptic4UParser\Parser\Parser::parseLog(): syslog-20220129
+alias: syslog
+result: {
+    "syslog-20220129": {
+        "start": 1647617270.791457,
+        "finish": 1647617292.588822,
+        "duration min:sec": "0:21",
+        "duration sec.microseconds": 21.797364950180054,
+        "nu_rows": 1670,
+        "nu_result": 1670
+    }
+}
+
+2022 / 03 / 18 : 17 28 12
+Location: Synaptic4UParser\Parser\Parser::parseLog(): syslog.2
+alias: syslog
+
+2022 / 03 / 18 : 17 28 55
+Location: Synaptic4UParser\Parser\Parser::parseLog(): syslog.2
+alias: syslog
+result: {
+    "syslog.2": {
+        "start": 1647617292.589794,
+        "finish": 1647617335.708318,
+        "duration min:sec": "0:43",
+        "duration sec.microseconds": 43.11852407455444,
+        "nu_rows": 2866,
+        "nu_result": 2866
+    }
+}
+
+2022 / 03 / 18 : 17 28 55
+Location: Synaptic4UParser\Parser\Parser::parseLog(): syslog
+alias: syslog
+
+2022 / 03 / 18 : 17 28 59
+Location: Synaptic4UParser\Parser\Parser::parseLog(): syslog
+alias: syslog
+result: {
+    "syslog": {
+        "start": 1647617335.709074,
+        "finish": 1647617339.368371,
+        "duration min:sec": "0:3",
+        "duration sec.microseconds": 3.659296989440918,
+        "nu_rows": 250,
+        "nu_result": 250
+    }
+}
+
+2022 / 03 / 18 : 17 28 59
+Location: Synaptic4UParser\Parser\Parser::parseLog(): user.log
+alias: user
+
+2022 / 03 / 18 : 17 28 59
+Location: Synaptic4UParser\Parser\Parser::parseLog(): user.log
+alias: user
+result: {
+    "user.log": {
+        "start": 1647617339.368978,
+        "finish": 1647617339.369426,
+        "duration min:sec": "0:0",
+        "duration sec.microseconds": 0.00044798851013183594,
+        "nu_rows": "File is empty or the row length is less then 10 charachters.",
+        "nu_result": 0
+    }
+}
+
+2022 / 03 / 18 : 17 28 59
+Location: Synaptic4UParser\Parser\Parser::parseLog(): user.log-20220130
+alias: user
+
+2022 / 03 / 18 : 17 28 59
+Location: Synaptic4UParser\Parser\Parser::parseLog(): user.log-20220130
+alias: user
+result: {
+    "user.log-20220130": {
+        "start": 1647617339.369758,
+        "finish": 1647617339.680558,
+        "duration min:sec": "0:0",
+        "duration sec.microseconds": 0.31080007553100586,
+        "nu_rows": 9,
+        "nu_result": 9
+    }
+}
+
+2022 / 03 / 18 : 17 28 59
+Location: Synaptic4UParser\Parser\Parser::parseLog(): daemon-access.log
+alias: daemon_access
+
+2022 / 03 / 18 : 17 30 19
+Location: Synaptic4UParser\Parser\Parser::parseLog(): daemon-access.log
+alias: daemon_access
+result: {
+    "daemon-access.log": {
+        "start": 1647617339.681231,
+        "finish": 1647617419.191845,
+        "duration min:sec": "1:19",
+        "duration sec.microseconds": 79.51061391830444,
+        "nu_rows": 4902,
+        "nu_result": 4902
+    }
+}
+
+2022 / 03 / 18 : 17 30 19
+Location: Synaptic4UParser\Parser\Parser::parseLog(): daemon-error.log
+alias: daemon_error
+
+2022 / 03 / 18 : 17 35 03
+Location: Synaptic4UParser\Parser\Parser::parseLog(): daemon-error.log
+alias: daemon_error
+result: {
+    "daemon-error.log": {
+        "start": 1647617419.19267,
+        "finish": 1647617703.112691,
+        "duration min:sec": "4:43",
+        "duration sec.microseconds": 283.9200208187103,
+        "nu_rows": 21235,
+        "nu_result": 21235
+    }
+}
+
+2022 / 03 / 18 : 17 35 03
+Location: Synaptic4UParser\Parser\Parser::parseLog(): daemon-perf.log
+alias: daemon_perf
+
+2022 / 03 / 18 : 17 35 21
+Location: Synaptic4UParser\Parser\Parser::parseLog(): daemon-perf.log
+alias: daemon_perf
+result: {
+    "daemon-perf.log": {
+        "start": 1647617703.114283,
+        "finish": 1647617721.237274,
+        "duration min:sec": "0:18",
+        "duration sec.microseconds": 18.12299084663391,
+        "nu_rows": 1250,
+        "nu_result": 1250
+    }
+}
+
+2022 / 03 / 18 : 17 35 21
+Location: Synaptic4UParser\Parser\Parser::parseLog(): modsec-perf.log
+alias: modsec_perf
+
+2022 / 03 / 18 : 17 35 21
+Location: Synaptic4UParser\Parser\Parser::parseLog(): modsec-perf.log
+alias: modsec_perf
+result: {
+    "modsec-perf.log": {
+        "start": 1647617721.237972,
+        "finish": 1647617721.384513,
+        "duration min:sec": "0:0",
+        "duration sec.microseconds": 0.14654088020324707,
+        "nu_rows": 12,
+        "nu_result": 12
+    }
+}
+
+2022 / 03 / 18 : 17 35 21
+Location: Synaptic4UParser\Parser\Parser::parseLog(): modsec_audit.log
+alias: modsec_audit
+
+2022 / 03 / 18 : 17 35 23
+Location: Synaptic4UParser\Parser\Parser::parseLog(): modsec_audit.log
+alias: modsec_audit
+result: {
+    "modsec_audit.log": {
+        "start": 1647617721.385095,
+        "finish": 1647617723.471882,
+        "duration min:sec": "0:2",
+        "duration sec.microseconds": 2.086787223815918,
+        "nu_rows": 140,
+        "nu_result": 140
+    }
+}
+
+2022 / 03 / 18 : 17 35 23
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.7
+
+2022 / 03 / 18 : 17 35 23
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.7
+result: {
+    "letsencrypt.log.7": {
+        "nu_rows": 1,
+        "nu_result": 0
+    }
+}
+start: 1647617723.4731
+finish: 1647617723.4734
+duration min:sec: 0:0
+duration sec.microseconds: 0.00028705596923828
+
+2022 / 03 / 18 : 17 35 23
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log
+
+2022 / 03 / 18 : 17 35 23
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log
+result: {
+    "letsencrypt.log": {
+        "nu_rows": 28,
+        "nu_result": 26
+    }
+}
+start: 1647617723.4742
+finish: 1647617723.9531
+duration min:sec: 0:0
+duration sec.microseconds: 0.47882008552551
+
+2022 / 03 / 18 : 17 35 23
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.3
+
+2022 / 03 / 18 : 17 35 24
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.3
+result: {
+    "letsencrypt.log.3": {
+        "nu_rows": 28,
+        "nu_result": 26
+    }
+}
+start: 1647617723.9542
+finish: 1647617724.3571
+duration min:sec: 0:0
+duration sec.microseconds: 0.40288496017456
+
+2022 / 03 / 18 : 17 35 24
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.1
+
+2022 / 03 / 18 : 17 35 24
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.1
+result: {
+    "letsencrypt.log.1": {
+        "nu_rows": 28,
+        "nu_result": 26
+    }
+}
+start: 1647617724.3582
+finish: 1647617724.6934
+duration min:sec: 0:0
+duration sec.microseconds: 0.33525013923645
+
+2022 / 03 / 18 : 17 35 24
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.2
+
+2022 / 03 / 18 : 17 35 25
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.2
+result: {
+    "letsencrypt.log.2": {
+        "nu_rows": 28,
+        "nu_result": 26
+    }
+}
+start: 1647617724.6946
+finish: 1647617725.0853
+duration min:sec: 0:0
+duration sec.microseconds: 0.39068603515625
+
+2022 / 03 / 18 : 17 35 25
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.5
+
+2022 / 03 / 18 : 17 35 30
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.5
+result: {
+    "letsencrypt.log.5": {
+        "nu_rows": 573,
+        "nu_result": 370
+    }
+}
+start: 1647617725.0862
+finish: 1647617730.4935
+duration min:sec: 0:5
+duration sec.microseconds: 5.4073040485382
+
+2022 / 03 / 18 : 17 35 30
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.6
+
+2022 / 03 / 18 : 17 35 37
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.6
+result: {
+    "letsencrypt.log.6": {
+        "nu_rows": 590,
+        "nu_result": 381
+    }
+}
+start: 1647617730.4945
+finish: 1647617737.3972
+duration min:sec: 0:6
+duration sec.microseconds: 6.9026169776917
+
+2022 / 03 / 18 : 17 35 37
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.4
+
+2022 / 03 / 18 : 17 35 38
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.4
+result: {
+    "letsencrypt.log.4": {
+        "nu_rows": 28,
+        "nu_result": 26
+    }
+}
+start: 1647617737.398
+finish: 1647617738.0316
+duration min:sec: 0:0
+duration sec.microseconds: 0.63357400894165
+
+2022 / 03 / 18 : 17 35 38
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): unattended-upgrades-shutdown.log
+
+2022 / 03 / 18 : 17 35 38
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): unattended-upgrades-shutdown.log
+result: {
+    "unattended-upgrades-shutdown.log": {
+        "nu_rows": 1,
+        "nu_result": 0
+    }
+}
+start: 1647617738.0325
+finish: 1647617738.0327
+duration min:sec: 0:0
+duration sec.microseconds: 0.00021004676818848
+
+2022 / 03 / 18 : 17 35 38
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): unattended-upgrades.log
+
+2022 / 03 / 18 : 17 35 38
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): unattended-upgrades.log
+result: {
+    "unattended-upgrades.log": {
+        "nu_rows": 34,
+        "nu_result": 33
+    }
+}
+start: 1647617738.0334
+finish: 1647617738.469
+duration min:sec: 0:0
+duration sec.microseconds: 0.43558478355408
+
+2022 / 03 / 18 : 17 35 38
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): longview.log
+
+2022 / 03 / 18 : 17 35 38
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): longview.log
+result: {
+    "longview.log": {
+        "nu_rows": 1711,
+        "nu_result": 0
+    }
+}
+start: 1647617738.4703
+finish: 1647617738.5021
+duration min:sec: 0:0
+duration sec.microseconds: 0.031780004501343
+
+2022 / 03 / 18 : 17 35 38
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): eipp.log
+
+2022 / 03 / 18 : 17 36 34
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): eipp.log
+result: {
+    "eipp.log": {
+        "nu_rows": 4860,
+        "nu_result": 4267
+    }
+}
+start: 1647617738.5029
+finish: 1647617794.0366
+duration min:sec: 0:55
+duration sec.microseconds: 55.533649206161
+
+2022 / 03 / 18 : 17 36 34
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): history.log
+
+2022 / 03 / 18 : 17 36 36
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): history.log
+result: {
+    "history.log": {
+        "nu_rows": 202,
+        "nu_result": 166
+    }
+}
+start: 1647617794.0374
+finish: 1647617796.4022
+duration min:sec: 0:2
+duration sec.microseconds: 2.3647828102112
+
+2022 / 03 / 18 : 17 36 36
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): term.log
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): term.log
+result: {
+    "term.log": {
+        "nu_rows": 1741,
+        "nu_result": 1540
+    }
+}
+start: 1647617796.4031
+finish: 1647617816.0563
+duration min:sec: 0:19
+duration sec.microseconds: 19.653207063675
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): modsec-perflog.log
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): modsec-perflog.log
+result: {
+    "modsec-perflog.log": {
+        "nu_rows": 1,
+        "nu_result": 0
+    }
+}
+start: 1647617816.0571
+finish: 1647617816.0573
+duration min:sec: 0:0
+duration sec.microseconds: 0.00020098686218262
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-093853-YfTvDWn5bboX4n22DJTKJgAAABc
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-093853-YfTvDWn5bboX4n22DJTKJgAAABc
+result: {
+    "20220129-093853-YfTvDWn5bboX4n22DJTKJgAAABc": {
+        "id": 6888,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617816.0579
+finish: 1647617816.0896
+duration min:sec: 0:0
+duration sec.microseconds: 0.031625032424927
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-212015-YfWTbzL8bH@IRaKBSo0P2gAAAAA
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-212015-YfWTbzL8bH@IRaKBSo0P2gAAAAA
+result: {
+    "20220129-212015-YfWTbzL8bH@IRaKBSo0P2gAAAAA": {
+        "id": 6889,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617816.0905
+finish: 1647617816.1247
+duration min:sec: 0:0
+duration sec.microseconds: 0.034210920333862
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-072621-YfTP-WcIjq2fNRg3HkNoTQAAAA8
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-072621-YfTP-WcIjq2fNRg3HkNoTQAAAA8
+result: {
+    "20220129-072621-YfTP-WcIjq2fNRg3HkNoTQAAAA8": {
+        "id": 6890,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617816.1256
+finish: 1647617816.1358
+duration min:sec: 0:0
+duration sec.microseconds: 0.010223150253296
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-175701-YfVjzULf70l1lvk4quiEPQAAAA8
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-175701-YfVjzULf70l1lvk4quiEPQAAAA8
+result: {
+    "20220129-175701-YfVjzULf70l1lvk4quiEPQAAAA8": {
+        "id": 6891,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617816.137
+finish: 1647617816.1472
+duration min:sec: 0:0
+duration sec.microseconds: 0.010203838348389
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-024803-YfSOw9C4keg8ftCm@cC@GQAAAAs
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-024803-YfSOw9C4keg8ftCm@cC@GQAAAAs
+result: {
+    "20220129-024803-YfSOw9C4keg8ftCm@cC@GQAAAAs": {
+        "id": 6892,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617816.1483
+finish: 1647617816.1699
+duration min:sec: 0:0
+duration sec.microseconds: 0.021564960479736
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-200949-YfWC7XxiwdG8gwM4IOrR2gAAABI
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-200949-YfWC7XxiwdG8gwM4IOrR2gAAABI
+result: {
+    "20220129-200949-YfWC7XxiwdG8gwM4IOrR2gAAABI": {
+        "id": 6893,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617816.1707
+finish: 1647617816.2479
+duration min:sec: 0:0
+duration sec.microseconds: 0.077166080474854
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-000152-YfRn0PdXLiLNhC@TomPzHwAAAAQ
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-000152-YfRn0PdXLiLNhC@TomPzHwAAAAQ
+result: {
+    "20220129-000152-YfRn0PdXLiLNhC@TomPzHwAAAAQ": {
+        "id": 6894,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617816.2488
+finish: 1647617816.259
+duration min:sec: 0:0
+duration sec.microseconds: 0.010228157043457
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-200841-YfWCqWO8sRC9mMMks6MThwAAABM
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-200841-YfWCqWO8sRC9mMMks6MThwAAABM
+result: {
+    "20220129-200841-YfWCqWO8sRC9mMMks6MThwAAABM": {
+        "id": 6895,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617816.2599
+finish: 1647617816.2816
+duration min:sec: 0:0
+duration sec.microseconds: 0.021642923355103
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-212610-YfWU0oCkdVPYqbRVT1t7pwAAAAA
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-212610-YfWU0oCkdVPYqbRVT1t7pwAAAAA
+result: {
+    "20220129-212610-YfWU0oCkdVPYqbRVT1t7pwAAAAA": {
+        "id": 6896,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617816.2824
+finish: 1647617816.2928
+duration min:sec: 0:0
+duration sec.microseconds: 0.010378837585449
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-200725-YfWCXY75HIQwPAa-kYJIPgAAABE
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-200725-YfWCXY75HIQwPAa-kYJIPgAAABE
+result: {
+    "20220129-200725-YfWCXY75HIQwPAa-kYJIPgAAABE": {
+        "id": 6897,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617816.2936
+finish: 1647617816.3153
+duration min:sec: 0:0
+duration sec.microseconds: 0.021651983261108
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-230907-YfWs83UKtckUsJ9CSr7OnwAAAAQ
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-230907-YfWs83UKtckUsJ9CSr7OnwAAAAQ
+result: {
+    "20220129-230907-YfWs83UKtckUsJ9CSr7OnwAAAAQ": {
+        "id": 6898,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617816.3165
+finish: 1647617816.3405
+duration min:sec: 0:0
+duration sec.microseconds: 0.024034976959229
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-230907-YfWs81hyEjBGAM-V8JH6QgAAAAM
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-230907-YfWs81hyEjBGAM-V8JH6QgAAAAM
+result: {
+    "20220129-230907-YfWs81hyEjBGAM-V8JH6QgAAAAM": {
+        "id": 6899,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617816.3416
+finish: 1647617816.3602
+duration min:sec: 0:0
+duration sec.microseconds: 0.018560886383057
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-230905-YfWs8TEHzxllOlPaTGqJ8gAAAAE
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-230905-YfWs8TEHzxllOlPaTGqJ8gAAAAE
+result: {
+    "20220129-230905-YfWs8TEHzxllOlPaTGqJ8gAAAAE": {
+        "id": 6900,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617816.3613
+finish: 1647617816.3826
+duration min:sec: 0:0
+duration sec.microseconds: 0.021329879760742
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-230908-YfWs9PLyctZ@O0WK71JqGQAAAAU
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-230908-YfWs9PLyctZ@O0WK71JqGQAAAAU
+result: {
+    "20220129-230908-YfWs9PLyctZ@O0WK71JqGQAAAAU": {
+        "id": 6901,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617816.3837
+finish: 1647617816.5051
+duration min:sec: 0:0
+duration sec.microseconds: 0.12143206596375
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-230906-YfWs8p8gRiaVSDJdWaIOngAAAAI
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-230906-YfWs8p8gRiaVSDJdWaIOngAAAAI
+result: {
+    "20220129-230906-YfWs8p8gRiaVSDJdWaIOngAAAAI": {
+        "id": 6902,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617816.5063
+finish: 1647617816.5276
+duration min:sec: 0:0
+duration sec.microseconds: 0.021261930465698
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-230919-YfWs-wZ2dA3JFeNnlLrrygAAAAk
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-230919-YfWs-wZ2dA3JFeNnlLrrygAAAAk
+result: {
+    "20220129-230919-YfWs-wZ2dA3JFeNnlLrrygAAAAk": {
+        "id": 6903,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617816.5288
+finish: 1647617816.5499
+duration min:sec: 0:0
+duration sec.microseconds: 0.021186828613281
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-002342-YfRs7q@FOhI6Yj05PCBhRgAAABA
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-002342-YfRs7q@FOhI6Yj05PCBhRgAAABA
+result: {
+    "20220129-002342-YfRs7q@FOhI6Yj05PCBhRgAAABA": {
+        "id": 6904,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617816.551
+finish: 1647617816.5724
+duration min:sec: 0:0
+duration sec.microseconds: 0.021358966827393
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-221828-YfWhFIPykygvimIH2AlH7QAAAAI
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-221828-YfWhFIPykygvimIH2AlH7QAAAAI
+result: {
+    "20220129-221828-YfWhFIPykygvimIH2AlH7QAAAAI": {
+        "id": 6905,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617816.5735
+finish: 1647617816.606
+duration min:sec: 0:0
+duration sec.microseconds: 0.032587051391602
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-221828-YfWhFEEla1jFUTKcX5qtEQAAAAM
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-221828-YfWhFEEla1jFUTKcX5qtEQAAAAM
+result: {
+    "20220129-221828-YfWhFEEla1jFUTKcX5qtEQAAAAM": {
+        "id": 6906,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617816.6072
+finish: 1647617816.695
+duration min:sec: 0:0
+duration sec.microseconds: 0.087785959243774
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-210202-YfWPKr8R6iVV-XOSYxhqvAAAAAA
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-210202-YfWPKr8R6iVV-XOSYxhqvAAAAAA
+result: {
+    "20220129-210202-YfWPKr8R6iVV-XOSYxhqvAAAAAA": {
+        "id": 6907,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617816.6961
+finish: 1647617816.7176
+duration min:sec: 0:0
+duration sec.microseconds: 0.021408081054688
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-192619-YfV4u1zwZfxtKpy-Fwt7sgAAAAM
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-192619-YfV4u1zwZfxtKpy-Fwt7sgAAAAM
+result: {
+    "20220129-192619-YfV4u1zwZfxtKpy-Fwt7sgAAAAM": {
+        "id": 6908,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617816.7186
+finish: 1647617816.7626
+duration min:sec: 0:0
+duration sec.microseconds: 0.043972015380859
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-192602-YfV4qk6DTuykChw4zUZsJAAAAAI
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-192602-YfV4qk6DTuykChw4zUZsJAAAAAI
+result: {
+    "20220129-192602-YfV4qk6DTuykChw4zUZsJAAAAAI": {
+        "id": 6909,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617816.7637
+finish: 1647617816.7738
+duration min:sec: 0:0
+duration sec.microseconds: 0.010067939758301
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-192735-YfV5B3UdLz1OQuKObpNwPAAAABQ
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-192735-YfV5B3UdLz1OQuKObpNwPAAAABQ
+result: {
+    "20220129-192735-YfV5B3UdLz1OQuKObpNwPAAAABQ": {
+        "id": 6910,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617816.7748
+finish: 1647617816.785
+duration min:sec: 0:0
+duration sec.microseconds: 0.010190010070801
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-014636-YfSAXGn5bboX4n22DJTKJAAAABc
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-014636-YfSAXGn5bboX4n22DJTKJAAAABc
+result: {
+    "20220129-014636-YfSAXGn5bboX4n22DJTKJAAAABc": {
+        "id": 6911,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617816.7861
+finish: 1647617816.7962
+duration min:sec: 0:0
+duration sec.microseconds: 0.010118007659912
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-232828-YfWxfKblqFSU@5HAMoF1wwAAAAA
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-232828-YfWxfKblqFSU@5HAMoF1wwAAAAA
+result: {
+    "20220129-232828-YfWxfKblqFSU@5HAMoF1wwAAAAA": {
+        "id": 6912,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617816.7973
+finish: 1647617816.8187
+duration min:sec: 0:0
+duration sec.microseconds: 0.021419048309326
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-232821-YfWxdUFvf-vFAHm1QUxdyQAAAA0
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-232821-YfWxdUFvf-vFAHm1QUxdyQAAAA0
+result: {
+    "20220129-232821-YfWxdUFvf-vFAHm1QUxdyQAAAA0": {
+        "id": 6913,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617816.8198
+finish: 1647617816.8412
+duration min:sec: 0:0
+duration sec.microseconds: 0.021363019943237
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-232822-YfWxdg0abeUjBLtNFIiKyAAAAA4
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-232822-YfWxdg0abeUjBLtNFIiKyAAAAA4
+result: {
+    "20220129-232822-YfWxdg0abeUjBLtNFIiKyAAAAA4": {
+        "id": 6914,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617816.8423
+finish: 1647617816.8636
+duration min:sec: 0:0
+duration sec.microseconds: 0.021284103393555
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-232823-YfWxd4afwrKYFE8tY9gcbAAAABA
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-232823-YfWxd4afwrKYFE8tY9gcbAAAABA
+result: {
+    "20220129-232823-YfWxd4afwrKYFE8tY9gcbAAAABA": {
+        "id": 6915,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617816.8646
+finish: 1647617816.8861
+duration min:sec: 0:0
+duration sec.microseconds: 0.02154016494751
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-232820-YfWxdDiaHZIpQcCsmDjxYAAAAAw
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-232820-YfWxdDiaHZIpQcCsmDjxYAAAAAw
+result: {
+    "20220129-232820-YfWxdDiaHZIpQcCsmDjxYAAAAAw": {
+        "id": 6916,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617816.8871
+finish: 1647617816.9086
+duration min:sec: 0:0
+duration sec.microseconds: 0.021545886993408
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-023432-YfSLmGtP7GsCVy3wz4eVDQAAAAo
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-023432-YfSLmGtP7GsCVy3wz4eVDQAAAAo
+result: {
+    "20220129-023432-YfSLmGtP7GsCVy3wz4eVDQAAAAo": {
+        "id": 6917,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617816.9098
+finish: 1647617816.9309
+duration min:sec: 0:0
+duration sec.microseconds: 0.021147012710571
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-023432-YfSLmOJOUywSQhDbJLVirAAAAAk
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-023432-YfSLmOJOUywSQhDbJLVirAAAAAk
+result: {
+    "20220129-023432-YfSLmOJOUywSQhDbJLVirAAAAAk": {
+        "id": 6918,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617816.9321
+finish: 1647617816.942
+duration min:sec: 0:0
+duration sec.microseconds: 0.0099310874938965
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-232758-YfWxXgvOSH0CsJES37ITjwAAAA8
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-232758-YfWxXgvOSH0CsJES37ITjwAAAA8
+result: {
+    "20220129-232758-YfWxXgvOSH0CsJES37ITjwAAAA8": {
+        "id": 6919,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617816.9431
+finish: 1647617816.9746
+duration min:sec: 0:0
+duration sec.microseconds: 0.031471014022827
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-050550-YfSvDq@FOhI6Yj05PCBhRwAAABA
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-050550-YfSvDq@FOhI6Yj05PCBhRwAAABA
+result: {
+    "20220129-050550-YfSvDq@FOhI6Yj05PCBhRwAAABA": {
+        "id": 6920,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617816.9757
+finish: 1647617816.9981
+duration min:sec: 0:0
+duration sec.microseconds: 0.022341966629028
+
+2022 / 03 / 18 : 17 36 56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-201608-YfWEaGOGJqaUDWjDarpHlwAAAAA
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-201608-YfWEaGOGJqaUDWjDarpHlwAAAAA
+result: {
+    "20220129-201608-YfWEaGOGJqaUDWjDarpHlwAAAAA": {
+        "id": 6921,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617816.9992
+finish: 1647617817.0873
+duration min:sec: 0:0
+duration sec.microseconds: 0.08815598487854
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-201446-YfWEFjbDHakFgPUs619g1gAAAAE
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-201446-YfWEFjbDHakFgPUs619g1gAAAAE
+result: {
+    "20220129-201446-YfWEFjbDHakFgPUs619g1gAAAAE": {
+        "id": 6922,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617817.0885
+finish: 1647617817.1209
+duration min:sec: 0:0
+duration sec.microseconds: 0.03246808052063
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-171655-YfVaZwzVRmOk8j9EDGMi9QAAAAw
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-171655-YfVaZwzVRmOk8j9EDGMi9QAAAAw
+result: {
+    "20220129-171655-YfVaZwzVRmOk8j9EDGMi9QAAAAw": {
+        "id": 6923,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617817.1218
+finish: 1647617817.1322
+duration min:sec: 0:0
+duration sec.microseconds: 0.01041316986084
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-171654-YfVaZj7CUcmDC5i2x@gLuQAAAAo
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-171654-YfVaZj7CUcmDC5i2x@gLuQAAAAo
+result: {
+    "20220129-171654-YfVaZj7CUcmDC5i2x@gLuQAAAAo": {
+        "id": 6924,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617817.133
+finish: 1647617817.1433
+duration min:sec: 0:0
+duration sec.microseconds: 0.010218143463135
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-171656-YfVaaAYN2jvmagGMN7NmGgAAAA0
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-171656-YfVaaAYN2jvmagGMN7NmGgAAAA0
+result: {
+    "20220129-171656-YfVaaAYN2jvmagGMN7NmGgAAAA0": {
+        "id": 6925,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617817.1446
+finish: 1647617817.1545
+duration min:sec: 0:0
+duration sec.microseconds: 0.0099129676818848
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-212401-YfWUUTeJVdv7mbgKf-mKlgAAAAM
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-212401-YfWUUTeJVdv7mbgKf-mKlgAAAAM
+result: {
+    "20220129-212401-YfWUUTeJVdv7mbgKf-mKlgAAAAM": {
+        "id": 6926,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617817.1555
+finish: 1647617817.1771
+duration min:sec: 0:0
+duration sec.microseconds: 0.021550893783569
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-081638-YfTbxuJOUywSQhDbJLVirgAAAAk
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-081638-YfTbxuJOUywSQhDbJLVirgAAAAk
+result: {
+    "20220129-081638-YfTbxuJOUywSQhDbJLVirgAAAAk": {
+        "id": 6927,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617817.178
+finish: 1647617817.1884
+duration min:sec: 0:0
+duration sec.microseconds: 0.01039719581604
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-145110-YfU4PtC4keg8ftCm@cC@HgAAAAs
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-145110-YfU4PtC4keg8ftCm@cC@HgAAAAs
+result: {
+    "20220129-145110-YfU4PtC4keg8ftCm@cC@HgAAAAs": {
+        "id": 6928,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617817.1891
+finish: 1647617817.1994
+duration min:sec: 0:0
+duration sec.microseconds: 0.010277032852173
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-220025-YfWc2VO@3VD5OkB1JeLb1QAAAAM
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-220025-YfWc2VO@3VD5OkB1JeLb1QAAAAM
+result: {
+    "20220129-220025-YfWc2VO@3VD5OkB1JeLb1QAAAAM": {
+        "id": 6929,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617817.2011
+finish: 1647617817.2219
+duration min:sec: 0:0
+duration sec.microseconds: 0.020746946334839
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-223129-YfWkIQ99DldFd6d6mszoFAAAAAw
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-223129-YfWkIQ99DldFd6d6mszoFAAAAAw
+result: {
+    "20220129-223129-YfWkIQ99DldFd6d6mszoFAAAAAw": {
+        "id": 6930,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617817.2231
+finish: 1647617817.2445
+duration min:sec: 0:0
+duration sec.microseconds: 0.02142596244812
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-233137-YfWyOXUKtckUsJ9CSr7OpAAAAAQ
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-233137-YfWyOXUKtckUsJ9CSr7OpAAAAAQ
+result: {
+    "20220129-233137-YfWyOXUKtckUsJ9CSr7OpAAAAAQ": {
+        "id": 6931,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617817.2454
+finish: 1647617817.2669
+duration min:sec: 0:0
+duration sec.microseconds: 0.021525144577026
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-233138-YfWyOqY58kGBvCoQSgaG8gAAABY
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-233138-YfWyOqY58kGBvCoQSgaG8gAAABY
+result: {
+    "20220129-233138-YfWyOqY58kGBvCoQSgaG8gAAABY": {
+        "id": 6932,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617817.2678
+finish: 1647617817.2895
+duration min:sec: 0:0
+duration sec.microseconds: 0.021625995635986
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-233136-YfWyOJ8gRiaVSDJdWaIOowAAAAI
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-233136-YfWyOJ8gRiaVSDJdWaIOowAAAAI
+result: {
+    "20220129-233136-YfWyOJ8gRiaVSDJdWaIOowAAAAI": {
+        "id": 6933,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617817.2905
+finish: 1647617817.312
+duration min:sec: 0:0
+duration sec.microseconds: 0.021515846252441
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-233135-YfWyN4jjbG3tUGyBOJa7vAAAABU
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-233135-YfWyN4jjbG3tUGyBOJa7vAAAABU
+result: {
+    "20220129-233135-YfWyN4jjbG3tUGyBOJa7vAAAABU": {
+        "id": 6934,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617817.3129
+finish: 1647617817.3343
+duration min:sec: 0:0
+duration sec.microseconds: 0.02140998840332
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-084954-YfTjkokeQPUTWKDbM4jQCQAAAA0
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-084954-YfTjkokeQPUTWKDbM4jQCQAAAA0
+result: {
+    "20220129-084954-YfTjkokeQPUTWKDbM4jQCQAAAA0": {
+        "id": 6935,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617817.3354
+finish: 1647617817.3455
+duration min:sec: 0:0
+duration sec.microseconds: 0.010143995285034
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-213640-YfWXSNbjsmXqk00YgfPovgAAAAA
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-213640-YfWXSNbjsmXqk00YgfPovgAAAAA
+result: {
+    "20220129-213640-YfWXSNbjsmXqk00YgfPovgAAAAA": {
+        "id": 6936,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617817.3464
+finish: 1647617817.4349
+duration min:sec: 0:0
+duration sec.microseconds: 0.088450908660889
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-003802-YfRwSjN70ctT33KzTira9gAAAAE
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-003802-YfRwSjN70ctT33KzTira9gAAAAE
+result: {
+    "20220129-003802-YfRwSjN70ctT33KzTira9gAAAAE": {
+        "id": 6937,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617817.4358
+finish: 1647617817.4462
+duration min:sec: 0:0
+duration sec.microseconds: 0.010442972183228
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-020324-YfSETKgkDFaVor1xa10F9gAAAAU
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-020324-YfSETKgkDFaVor1xa10F9gAAAAU
+result: {
+    "20220129-020324-YfSETKgkDFaVor1xa10F9gAAAAU": {
+        "id": 6938,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617817.4471
+finish: 1647617817.4572
+duration min:sec: 0:0
+duration sec.microseconds: 0.010180950164795
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-142939-YfUzM2HSCpttVrvmvTzR6gAAAA4
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-142939-YfUzM2HSCpttVrvmvTzR6gAAAA4
+result: {
+    "20220129-142939-YfUzM2HSCpttVrvmvTzR6gAAAA4": {
+        "id": 6939,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617817.458
+finish: 1647617817.4685
+duration min:sec: 0:0
+duration sec.microseconds: 0.010447025299072
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-130758-YfUgDp8uF1Bx30lO0XbJwwAAAAg
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-130758-YfUgDp8uF1Bx30lO0XbJwwAAAAg
+result: {
+    "20220129-130758-YfUgDp8uF1Bx30lO0XbJwwAAAAg": {
+        "id": 6940,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617817.4694
+finish: 1647617817.4796
+duration min:sec: 0:0
+duration sec.microseconds: 0.010195970535278
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-113514-YfUKUtXzw5MVbcsl1H5ONwAAABM
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-113514-YfUKUtXzw5MVbcsl1H5ONwAAABM
+result: {
+    "20220129-113514-YfUKUtXzw5MVbcsl1H5ONwAAABM": {
+        "id": 6941,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617817.4806
+finish: 1647617817.491
+duration min:sec: 0:0
+duration sec.microseconds: 0.010426044464111
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-121743-YfUURzN70ctT33KzTira@AAAAAE
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-121743-YfUURzN70ctT33KzTira@AAAAAE
+result: {
+    "20220129-121743-YfUURzN70ctT33KzTira@AAAAAE": {
+        "id": 6942,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617817.4921
+finish: 1647617817.5021
+duration min:sec: 0:0
+duration sec.microseconds: 0.0099959373474121
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-201100-YfWDNIJpwLmgvudsVTaBYQAAABQ
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-201100-YfWDNIJpwLmgvudsVTaBYQAAABQ
+result: {
+    "20220129-201100-YfWDNIJpwLmgvudsVTaBYQAAABQ": {
+        "id": 6943,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617817.503
+finish: 1647617817.5264
+duration min:sec: 0:0
+duration sec.microseconds: 0.023404121398926
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-221351-YfWf-1FzVZZnxk4lyrrhOgAAAAA
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-221351-YfWf-1FzVZZnxk4lyrrhOgAAAAA
+result: {
+    "20220129-221351-YfWf-1FzVZZnxk4lyrrhOgAAAAA": {
+        "id": 6944,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617817.5275
+finish: 1647617817.5488
+duration min:sec: 0:0
+duration sec.microseconds: 0.021270990371704
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-113455-YfUKP@JOUywSQhDbJLVisAAAAAk
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-113455-YfUKP@JOUywSQhDbJLVisAAAAAk
+result: {
+    "20220129-113455-YfUKP@JOUywSQhDbJLVisAAAAAk": {
+        "id": 6945,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617817.5498
+finish: 1647617817.5604
+duration min:sec: 0:0
+duration sec.microseconds: 0.010513067245483
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-113455-YfUKP2tP7GsCVy3wz4eVEQAAAAo
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-113455-YfUKP2tP7GsCVy3wz4eVEQAAAAo
+result: {
+    "20220129-113455-YfUKP2tP7GsCVy3wz4eVEQAAAAo": {
+        "id": 6946,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617817.5616
+finish: 1647617817.5822
+duration min:sec: 0:0
+duration sec.microseconds: 0.020637035369873
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-113424-YfUKIGcIjq2fNRg3HkNoTwAAAA8
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-113424-YfUKIGcIjq2fNRg3HkNoTwAAAA8
+result: {
+    "20220129-113424-YfUKIGcIjq2fNRg3HkNoTwAAAA8": {
+        "id": 6947,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617817.5833
+finish: 1647617817.6047
+duration min:sec: 0:0
+duration sec.microseconds: 0.021305084228516
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-113456-YfUKQNC4keg8ftCm@cC@HQAAAAs
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-113456-YfUKQNC4keg8ftCm@cC@HQAAAAs
+result: {
+    "20220129-113456-YfUKQNC4keg8ftCm@cC@HQAAAAs": {
+        "id": 6948,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617817.6058
+finish: 1647617817.6157
+duration min:sec: 0:0
+duration sec.microseconds: 0.0099191665649414
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-113455-YfUKPx5hPYqDYZUuDye16QAAABQ
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-113455-YfUKPx5hPYqDYZUuDye16QAAABQ
+result: {
+    "20220129-113455-YfUKPx5hPYqDYZUuDye16QAAABQ": {
+        "id": 6949,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617817.6169
+finish: 1647617817.6383
+duration min:sec: 0:0
+duration sec.microseconds: 0.021331071853638
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-180230-YfVlFiiZetyWwGe@Ci-xYgAAABA
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-180230-YfVlFiiZetyWwGe@Ci-xYgAAABA
+result: {
+    "20220129-180230-YfVlFiiZetyWwGe@Ci-xYgAAABA": {
+        "id": 6950,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617817.6392
+finish: 1647617817.6495
+duration min:sec: 0:0
+duration sec.microseconds: 0.010262966156006
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-211319-YfWRzxoOuCPMbt-5MFIYXgAAAAI
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-211319-YfWRzxoOuCPMbt-5MFIYXgAAAAI
+result: {
+    "20220129-211319-YfWRzxoOuCPMbt-5MFIYXgAAAAI": {
+        "id": 6951,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617817.6504
+finish: 1647617817.6719
+duration min:sec: 0:0
+duration sec.microseconds: 0.021537065505981
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-211318-YfWRzhoOuCPMbt-5MFIYXQAAAAI
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-211318-YfWRzhoOuCPMbt-5MFIYXQAAAAI
+result: {
+    "20220129-211318-YfWRzhoOuCPMbt-5MFIYXQAAAAI": {
+        "id": 6952,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617817.6731
+finish: 1647617817.6945
+duration min:sec: 0:0
+duration sec.microseconds: 0.021366119384766
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-211318-YfWRzhoOuCPMbt-5MFIYXAAAAAI
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-211318-YfWRzhoOuCPMbt-5MFIYXAAAAAI
+result: {
+    "20220129-211318-YfWRzhoOuCPMbt-5MFIYXAAAAAI": {
+        "id": 6953,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617817.6955
+finish: 1647617817.7169
+duration min:sec: 0:0
+duration sec.microseconds: 0.021420955657959
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-211315-YfWRy6afsLr8VRXfsdlVCQAAAAE
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-211315-YfWRy6afsLr8VRXfsdlVCQAAAAE
+result: {
+    "20220129-211315-YfWRy6afsLr8VRXfsdlVCQAAAAE": {
+        "id": 6954,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617817.7177
+finish: 1647617817.806
+duration min:sec: 0:0
+duration sec.microseconds: 0.088353157043457
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-073634-YfTSYuELTvn0PBMd0O7INQAAABY
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-073634-YfTSYuELTvn0PBMd0O7INQAAABY
+result: {
+    "20220129-073634-YfTSYuELTvn0PBMd0O7INQAAABY": {
+        "id": 6955,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617817.8071
+finish: 1647617817.8172
+duration min:sec: 0:0
+duration sec.microseconds: 0.010169982910156
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-071749-YfTN-eJOUywSQhDbJLVirQAAAAk
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-071749-YfTN-eJOUywSQhDbJLVirQAAAAk
+result: {
+    "20220129-071749-YfTN-eJOUywSQhDbJLVirQAAAAk": {
+        "id": 6956,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617817.8181
+finish: 1647617817.8286
+duration min:sec: 0:0
+duration sec.microseconds: 0.010457992553711
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-071749-YfTN-T9LPLExY@LS8O-zKQAAAAw
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-071749-YfTN-T9LPLExY@LS8O-zKQAAAAw
+result: {
+    "20220129-071749-YfTN-T9LPLExY@LS8O-zKQAAAAw": {
+        "id": 6957,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617817.8294
+finish: 1647617817.8397
+duration min:sec: 0:0
+duration sec.microseconds: 0.010302066802979
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-203803-YfWJi2y09JTl5vCjaYwgBwAAAAA
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-203803-YfWJi2y09JTl5vCjaYwgBwAAAAA
+result: {
+    "20220129-203803-YfWJi2y09JTl5vCjaYwgBwAAAAA": {
+        "id": 6958,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617817.8407
+finish: 1647617817.8621
+duration min:sec: 0:0
+duration sec.microseconds: 0.021427154541016
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-202112-YfWFmItyYWDTqA4W4mwd@QAAAAI
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-202112-YfWFmItyYWDTqA4W4mwd@QAAAAI
+result: {
+    "20220129-202112-YfWFmItyYWDTqA4W4mwd@QAAAAI": {
+        "id": 6959,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617817.8634
+finish: 1647617817.8845
+duration min:sec: 0:0
+duration sec.microseconds: 0.021152019500732
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-001832-YfRruGHSCpttVrvmvTzR4wAAAA4
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-001832-YfRruGHSCpttVrvmvTzR4wAAAA4
+result: {
+    "20220129-001832-YfRruGHSCpttVrvmvTzR4wAAAA4": {
+        "id": 6960,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617817.8856
+finish: 1647617817.8957
+duration min:sec: 0:0
+duration sec.microseconds: 0.010061025619507
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-001833-YfRruWcIjq2fNRg3HkNoSwAAAA8
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-001833-YfRruWcIjq2fNRg3HkNoSwAAAA8
+result: {
+    "20220129-001833-YfRruWcIjq2fNRg3HkNoSwAAAA8": {
+        "id": 6961,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617817.8966
+finish: 1647617817.9295
+duration min:sec: 0:0
+duration sec.microseconds: 0.032976865768433
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-011004-YfR3zM6ztRbT2uTxtfh42AAAAAA
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-011004-YfR3zM6ztRbT2uTxtfh42AAAAAA
+result: {
+    "20220129-011004-YfR3zM6ztRbT2uTxtfh42AAAAAA": {
+        "id": 6962,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617817.9303
+finish: 1647617817.9406
+duration min:sec: 0:0
+duration sec.microseconds: 0.010294198989868
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-042557-YfSltVTHghFPHQrLY9kPiAAAABo
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-042557-YfSltVTHghFPHQrLY9kPiAAAABo
+result: {
+    "20220129-042557-YfSltVTHghFPHQrLY9kPiAAAABo": {
+        "id": 6963,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617817.9415
+finish: 1647617817.9522
+duration min:sec: 0:0
+duration sec.microseconds: 0.010761976242065
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-042556-YfSltNXzw5MVbcsl1H5ONQAAABM
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-042556-YfSltNXzw5MVbcsl1H5ONQAAABM
+result: {
+    "20220129-042556-YfSltNXzw5MVbcsl1H5ONQAAABM": {
+        "id": 6964,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617817.9532
+finish: 1647617817.9632
+duration min:sec: 0:0
+duration sec.microseconds: 0.01001501083374
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-202806-YfWHNhL1QAToPDS-440HsgAAAAE
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-202806-YfWHNhL1QAToPDS-440HsgAAAAE
+result: {
+    "20220129-202806-YfWHNhL1QAToPDS-440HsgAAAAE": {
+        "id": 6965,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617817.964
+finish: 1647617817.9857
+duration min:sec: 0:0
+duration sec.microseconds: 0.021723985671997
+
+2022 / 03 / 18 : 17 36 57
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-202844-YfWHXIPVySN@jmdVfQ1WyQAAAAI
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-202844-YfWHXIPVySN@jmdVfQ1WyQAAAAI
+result: {
+    "20220129-202844-YfWHXIPVySN@jmdVfQ1WyQAAAAI": {
+        "id": 6966,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617817.9869
+finish: 1647617818.0081
+duration min:sec: 0:0
+duration sec.microseconds: 0.021181106567383
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-202801-YfWHMXtE7IOJvjEZFRl62wAAAAA
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-202801-YfWHMXtE7IOJvjEZFRl62wAAAAA
+result: {
+    "20220129-202801-YfWHMXtE7IOJvjEZFRl62wAAAAA": {
+        "id": 6967,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617818.0089
+finish: 1647617818.0307
+duration min:sec: 0:0
+duration sec.microseconds: 0.021775007247925
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-180324-YfVlTHQw@0c0WIwjfDCrUgAAAAY
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-180324-YfVlTHQw@0c0WIwjfDCrUgAAAAY
+result: {
+    "20220129-180324-YfVlTHQw@0c0WIwjfDCrUgAAAAY": {
+        "id": 6968,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617818.0316
+finish: 1647617818.0419
+duration min:sec: 0:0
+duration sec.microseconds: 0.010313034057617
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-180324-YfVlTATaRuQSoIr25JKb1wAAAAU
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-180324-YfVlTATaRuQSoIr25JKb1wAAAAU
+result: {
+    "20220129-180324-YfVlTATaRuQSoIr25JKb1wAAAAU": {
+        "id": 6969,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617818.043
+finish: 1647617818.053
+duration min:sec: 0:0
+duration sec.microseconds: 0.0099730491638184
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-180317-YfVlRXUdLz1OQuKObpNwOgAAABQ
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-180317-YfVlRXUdLz1OQuKObpNwOgAAABQ
+result: {
+    "20220129-180317-YfVlRXUdLz1OQuKObpNwOgAAABQ": {
+        "id": 6970,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617818.054
+finish: 1647617818.1421
+duration min:sec: 0:0
+duration sec.microseconds: 0.088181018829346
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-180323-YfVlS3UdLz1OQuKObpNwOwAAABQ
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-180323-YfVlS3UdLz1OQuKObpNwOwAAABQ
+result: {
+    "20220129-180323-YfVlS3UdLz1OQuKObpNwOwAAABQ": {
+        "id": 6971,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617818.1432
+finish: 1647617818.1534
+duration min:sec: 0:0
+duration sec.microseconds: 0.010268211364746
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-180327-YfVlT8FGMEzih5whWhf1lQAAABI
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-180327-YfVlT8FGMEzih5whWhf1lQAAABI
+result: {
+    "20220129-180327-YfVlT8FGMEzih5whWhf1lQAAABI": {
+        "id": 6972,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617818.1543
+finish: 1647617818.1646
+duration min:sec: 0:0
+duration sec.microseconds: 0.010297060012817
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-180324-YfVlTAKC9-6l71U5gXTcLQAAAAQ
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-180324-YfVlTAKC9-6l71U5gXTcLQAAAAQ
+result: {
+    "20220129-180324-YfVlTAKC9-6l71U5gXTcLQAAAAQ": {
+        "id": 6973,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617818.1654
+finish: 1647617818.1756
+duration min:sec: 0:0
+duration sec.microseconds: 0.010159969329834
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-015913-YfSDUedb2yCjn1AK8TD-uAAAAAY
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-015913-YfSDUedb2yCjn1AK8TD-uAAAAAY
+result: {
+    "20220129-015913-YfSDUedb2yCjn1AK8TD-uAAAAAY": {
+        "id": 6974,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617818.1764
+finish: 1647617818.187
+duration min:sec: 0:0
+duration sec.microseconds: 0.010586977005005
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-015913-YfSDUeELTvn0PBMd0O7IMwAAABY
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-015913-YfSDUeELTvn0PBMd0O7IMwAAABY
+result: {
+    "20220129-015913-YfSDUeELTvn0PBMd0O7IMwAAABY": {
+        "id": 6975,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617818.1879
+finish: 1647617818.1982
+duration min:sec: 0:0
+duration sec.microseconds: 0.010344982147217
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-230234-YfWraqblqFSU@5HAMoF1vgAAAAA
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-230234-YfWraqblqFSU@5HAMoF1vgAAAAA
+result: {
+    "20220129-230234-YfWraqblqFSU@5HAMoF1vgAAAAA": {
+        "id": 6976,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617818.1992
+finish: 1647617818.2207
+duration min:sec: 0:0
+duration sec.microseconds: 0.021461963653564
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-195436-YfV-XHQ@jAhXJZk2-ec29gAAAAc
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-195436-YfV-XHQ@jAhXJZk2-ec29gAAAAc
+result: {
+    "20220129-195436-YfV-XHQ@jAhXJZk2-ec29gAAAAc": {
+        "id": 6977,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617818.2219
+finish: 1647617818.2433
+duration min:sec: 0:0
+duration sec.microseconds: 0.02138090133667
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-195429-YfV-VY5tVBkmpq0LhLQSOgAAAAU
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-195429-YfV-VY5tVBkmpq0LhLQSOgAAAAU
+result: {
+    "20220129-195429-YfV-VY5tVBkmpq0LhLQSOgAAAAU": {
+        "id": 6978,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617818.2441
+finish: 1647617818.2656
+duration min:sec: 0:0
+duration sec.microseconds: 0.021505117416382
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-195416-YfV-SItyYWDTqA4W4mwd@AAAAAI
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-195416-YfV-SItyYWDTqA4W4mwd@AAAAAI
+result: {
+    "20220129-195416-YfV-SItyYWDTqA4W4mwd@AAAAAI": {
+        "id": 6979,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617818.2665
+finish: 1647617818.2883
+duration min:sec: 0:0
+duration sec.microseconds: 0.021797895431519
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-195426-YfV-UqXJdaQGl9h6miD@WwAAAAM
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-195426-YfV-UqXJdaQGl9h6miD@WwAAAAM
+result: {
+    "20220129-195426-YfV-UqXJdaQGl9h6miD@WwAAAAM": {
+        "id": 6980,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617818.2893
+finish: 1647617818.3108
+duration min:sec: 0:0
+duration sec.microseconds: 0.021435976028442
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-111027-YfUEg9C4keg8ftCm@cC@HAAAAAs
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-111027-YfUEg9C4keg8ftCm@cC@HAAAAAs
+result: {
+    "20220129-111027-YfUEg9C4keg8ftCm@cC@HAAAAAs": {
+        "id": 6981,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617818.3116
+finish: 1647617818.3218
+duration min:sec: 0:0
+duration sec.microseconds: 0.010241031646729
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-145219-YfU4g48kcSj-I5Noy8RskAAAABI
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-145219-YfU4g48kcSj-I5Noy8RskAAAABI
+result: {
+    "20220129-145219-YfU4g48kcSj-I5Noy8RskAAAABI": {
+        "id": 6982,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617818.323
+finish: 1647617818.333
+duration min:sec: 0:0
+duration sec.microseconds: 0.0099930763244629
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-145254-YfU4pvk09KJsz8p@RdMKIgAAAAI
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-145254-YfU4pvk09KJsz8p@RdMKIgAAAAI
+result: {
+    "20220129-145254-YfU4pvk09KJsz8p@RdMKIgAAAAI": {
+        "id": 6983,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617818.3341
+finish: 1647617818.3443
+duration min:sec: 0:0
+duration sec.microseconds: 0.010200023651123
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-145221-YfU4hYkeQPUTWKDbM4jQCgAAAA0
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-145221-YfU4hYkeQPUTWKDbM4jQCgAAAA0
+result: {
+    "20220129-145221-YfU4hYkeQPUTWKDbM4jQCgAAAA0": {
+        "id": 6984,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617818.3454
+finish: 1647617818.3554
+duration min:sec: 0:0
+duration sec.microseconds: 0.01006007194519
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-145251-YfU4o6@FOhI6Yj05PCBhSQAAABA
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-145251-YfU4o6@FOhI6Yj05PCBhSQAAABA
+result: {
+    "20220129-145251-YfU4o6@FOhI6Yj05PCBhSQAAABA": {
+        "id": 6985,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617818.3567
+finish: 1647617818.3667
+duration min:sec: 0:0
+duration sec.microseconds: 0.010042905807495
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-145255-YfU4p5SVTRnSzEgYuQWtoAAAAAM
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-145255-YfU4p5SVTRnSzEgYuQWtoAAAAAM
+result: {
+    "20220129-145255-YfU4p5SVTRnSzEgYuQWtoAAAAAM": {
+        "id": 6986,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617818.3678
+finish: 1647617818.3779
+duration min:sec: 0:0
+duration sec.microseconds: 0.010097026824951
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-175908-YfVkTITwMdyr0ZaQypcN6QAAAA4
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-175908-YfVkTITwMdyr0ZaQypcN6QAAAA4
+result: {
+    "20220129-175908-YfVkTITwMdyr0ZaQypcN6QAAAA4": {
+        "id": 6987,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617818.3804
+finish: 1647617818.3891
+duration min:sec: 0:0
+duration sec.microseconds: 0.0086631774902344
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-212338-YfWUOjW0MjkacSVXbGG0HwAAAAA
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-212338-YfWUOjW0MjkacSVXbGG0HwAAAAA
+result: {
+    "20220129-212338-YfWUOjW0MjkacSVXbGG0HwAAAAA": {
+        "id": 6988,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617818.3901
+finish: 1647617818.4116
+duration min:sec: 0:0
+duration sec.microseconds: 0.021531820297241
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-135642-YfUrentMGxfs-vOV45DcHwAAABE
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-135642-YfUrentMGxfs-vOV45DcHwAAABE
+result: {
+    "20220129-135642-YfUrentMGxfs-vOV45DcHwAAABE": {
+        "id": 6989,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617818.4126
+finish: 1647617818.4231
+duration min:sec: 0:0
+duration sec.microseconds: 0.0104660987854
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-025503-YfXh55cATE5ecnaRfF2bpQAAAAA
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-025503-YfXh55cATE5ecnaRfF2bpQAAAAA
+result: {
+    "20220130-025503-YfXh55cATE5ecnaRfF2bpQAAAAA": {
+        "id": 6990,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617818.4239
+finish: 1647617818.5123
+duration min:sec: 0:0
+duration sec.microseconds: 0.088334798812866
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-030656-YfXksC5CaEA8DLZrBkqriQAAAAM
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-030656-YfXksC5CaEA8DLZrBkqriQAAAAM
+result: {
+    "20220130-030656-YfXksC5CaEA8DLZrBkqriQAAAAM": {
+        "id": 6991,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617818.5131
+finish: 1647617818.5346
+duration min:sec: 0:0
+duration sec.microseconds: 0.021553993225098
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-030655-YfXkr4ldVEaRlOl4U6gBtAAAAAI
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-030655-YfXkr4ldVEaRlOl4U6gBtAAAAAI
+result: {
+    "20220130-030655-YfXkr4ldVEaRlOl4U6gBtAAAAAI": {
+        "id": 6992,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617818.5355
+finish: 1647617818.5679
+duration min:sec: 0:0
+duration sec.microseconds: 0.032440900802612
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-030612-YfXkhDr3FGeRAj3YKvxiAAAAAAA
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-030612-YfXkhDr3FGeRAj3YKvxiAAAAAAA
+result: {
+    "20220130-030612-YfXkhDr3FGeRAj3YKvxiAAAAAAA": {
+        "id": 6993,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617818.569
+finish: 1647617818.5904
+duration min:sec: 0:0
+duration sec.microseconds: 0.021384000778198
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-030537-YfXkYYGQeUaN0@DriFQGzAAAAAE
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-030537-YfXkYYGQeUaN0@DriFQGzAAAAAE
+result: {
+    "20220130-030537-YfXkYYGQeUaN0@DriFQGzAAAAAE": {
+        "id": 6994,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617818.5915
+finish: 1647617818.6016
+duration min:sec: 0:0
+duration sec.microseconds: 0.01003885269165
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-000928-YfW7GDEHzxllOlPaTGqJ9wAAAAE
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-000928-YfW7GDEHzxllOlPaTGqJ9wAAAAE
+result: {
+    "20220130-000928-YfW7GDEHzxllOlPaTGqJ9wAAAAE": {
+        "id": 6995,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617818.603
+finish: 1647617818.6241
+duration min:sec: 0:0
+duration sec.microseconds: 0.021132946014404
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-000929-YfW7GfLyctZ@O0WK71JqHgAAAAU
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-000929-YfW7GfLyctZ@O0WK71JqHgAAAAU
+result: {
+    "20220130-000929-YfW7GfLyctZ@O0WK71JqHgAAAAU": {
+        "id": 6996,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617818.6254
+finish: 1647617818.6466
+duration min:sec: 0:0
+duration sec.microseconds: 0.021193027496338
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-000928-YfW7GFhyEjBGAM-V8JH6RwAAAAM
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-000928-YfW7GFhyEjBGAM-V8JH6RwAAAAM
+result: {
+    "20220130-000928-YfW7GFhyEjBGAM-V8JH6RwAAAAM": {
+        "id": 6997,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617818.6477
+finish: 1647617818.6692
+duration min:sec: 0:0
+duration sec.microseconds: 0.021430015563965
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-000928-YfW7GCz8lZOT0bU8Pmc86QAAABc
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-000928-YfW7GCz8lZOT0bU8Pmc86QAAABc
+result: {
+    "20220130-000928-YfW7GCz8lZOT0bU8Pmc86QAAABc": {
+        "id": 6998,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617818.67
+finish: 1647617818.6916
+duration min:sec: 0:0
+duration sec.microseconds: 0.021561145782471
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-033818-YfXsCgB6ntM45R0HVsVxTAAAAAE
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-033818-YfXsCgB6ntM45R0HVsVxTAAAAAE
+result: {
+    "20220130-033818-YfXsCgB6ntM45R0HVsVxTAAAAAE": {
+        "id": 6999,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617818.6927
+finish: 1647617818.7142
+duration min:sec: 0:0
+duration sec.microseconds: 0.021451950073242
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-033817-YfXsCSXIXKvwr@b7JFPc3QAAAAA
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-033817-YfXsCSXIXKvwr@b7JFPc3QAAAAA
+result: {
+    "20220130-033817-YfXsCSXIXKvwr@b7JFPc3QAAAAA": {
+        "id": 7000,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617818.7151
+finish: 1647617818.7366
+duration min:sec: 0:0
+duration sec.microseconds: 0.02148699760437
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-034148-YfXs3FrC4t9rRyJMRup-3gAAAAI
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-034148-YfXs3FrC4t9rRyJMRup-3gAAAAI
+result: {
+    "20220130-034148-YfXs3FrC4t9rRyJMRup-3gAAAAI": {
+        "id": 7001,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617818.7374
+finish: 1647617818.7479
+duration min:sec: 0:0
+duration sec.microseconds: 0.010487794876099
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-034149-YfXs3TJsqcO7zGl2g4ZfFwAAAAM
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-034149-YfXs3TJsqcO7zGl2g4ZfFwAAAAM
+result: {
+    "20220130-034149-YfXs3TJsqcO7zGl2g4ZfFwAAAAM": {
+        "id": 7002,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617818.7489
+finish: 1647617818.7703
+duration min:sec: 0:0
+duration sec.microseconds: 0.021371841430664
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-034158-YfXs5tzRJzwgvHvUFhX-CQAAAAU
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-034158-YfXs5tzRJzwgvHvUFhX-CQAAAAU
+result: {
+    "20220130-034158-YfXs5tzRJzwgvHvUFhX-CQAAAAU": {
+        "id": 7003,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617818.7711
+finish: 1647617818.7927
+duration min:sec: 0:0
+duration sec.microseconds: 0.021600961685181
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-034158-YfXs5mu-Z1RtoYfIKJZdAAAAAAc
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-034158-YfXs5mu-Z1RtoYfIKJZdAAAAAAc
+result: {
+    "20220130-034158-YfXs5mu-Z1RtoYfIKJZdAAAAAAc": {
+        "id": 7004,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617818.7936
+finish: 1647617818.8835
+duration min:sec: 0:0
+duration sec.microseconds: 0.089915990829468
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-001324-YfW8BISO1sVBR-z6viGqkwAAAAc
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-001324-YfW8BISO1sVBR-z6viGqkwAAAAc
+result: {
+    "20220130-001324-YfW8BISO1sVBR-z6viGqkwAAAAc": {
+        "id": 7005,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617818.8846
+finish: 1647617818.906
+duration min:sec: 0:0
+duration sec.microseconds: 0.021405935287476
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-001952-YfW9iGDTNb4a2jAI8@kvEgAAAAA
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-001952-YfW9iGDTNb4a2jAI8@kvEgAAAAA
+result: {
+    "20220130-001952-YfW9iGDTNb4a2jAI8@kvEgAAAAA": {
+        "id": 7006,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617818.9068
+finish: 1647617818.9284
+duration min:sec: 0:0
+duration sec.microseconds: 0.021593809127808
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-010814-YfXI3nIU1Z2mb4IT@34A3QAAAAE
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-010814-YfXI3nIU1Z2mb4IT@34A3QAAAAE
+result: {
+    "20220130-010814-YfXI3nIU1Z2mb4IT@34A3QAAAAE": {
+        "id": 7007,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617818.9292
+finish: 1647617818.9396
+duration min:sec: 0:0
+duration sec.microseconds: 0.010382890701294
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-001042-YfW7Yl0kP4nFuspQ07sCvAAAAAY
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-001042-YfW7Yl0kP4nFuspQ07sCvAAAAAY
+result: {
+    "20220130-001042-YfW7Yl0kP4nFuspQ07sCvAAAAAY": {
+        "id": 7008,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617818.9407
+finish: 1647617818.9622
+duration min:sec: 0:0
+duration sec.microseconds: 0.021478891372681
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-004447-YfXDX8lu-r1U5pcla2RZqgAAAAE
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-004447-YfXDX8lu-r1U5pcla2RZqgAAAAE
+result: {
+    "20220130-004447-YfXDX8lu-r1U5pcla2RZqgAAAAE": {
+        "id": 7009,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617818.9632
+finish: 1647617818.9849
+duration min:sec: 0:0
+duration sec.microseconds: 0.021669864654541
+
+2022 / 03 / 18 : 17 36 58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-004447-YfXDX8lu-r1U5pcla2RZqQAAAAE
+
+2022 / 03 / 18 : 17 36 59
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-004447-YfXDX8lu-r1U5pcla2RZqQAAAAE
+result: {
+    "20220130-004447-YfXDX8lu-r1U5pcla2RZqQAAAAE": {
+        "id": 7010,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617818.986
+finish: 1647617819.0072
+duration min:sec: 0:0
+duration sec.microseconds: 0.021136999130249
+
+2022 / 03 / 18 : 17 36 59
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-184051-YfQckx5hPYqDYZUuDye11QAAABQ
+
+2022 / 03 / 18 : 17 36 59
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-184051-YfQckx5hPYqDYZUuDye11QAAABQ
+result: {
+    "20220128-184051-YfQckx5hPYqDYZUuDye11QAAABQ": {
+        "id": 7011,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617819.0084
+finish: 1647617819.0184
+duration min:sec: 0:0
+duration sec.microseconds: 0.010020017623901
+
+2022 / 03 / 18 : 17 36 59
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-204608-YfQ58KgkDFaVor1xa10F6wAAAAU
+
+2022 / 03 / 18 : 17 36 59
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-204608-YfQ58KgkDFaVor1xa10F6wAAAAU
+result: {
+    "20220128-204608-YfQ58KgkDFaVor1xa10F6wAAAAU": {
+        "id": 7012,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617819.0194
+finish: 1647617819.0296
+duration min:sec: 0:0
+duration sec.microseconds: 0.010196924209595
+
+2022 / 03 / 18 : 17 36 59
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-165954-YfQE6jN70ctT33KzTira3QAAAAE
+
+2022 / 03 / 18 : 17 36 59
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-165954-YfQE6jN70ctT33KzTira3QAAAAE
+result: {
+    "20220128-165954-YfQE6jN70ctT33KzTira3QAAAAE": {
+        "id": 7013,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617819.0304
+finish: 1647617819.041
+duration min:sec: 0:0
+duration sec.microseconds: 0.010622978210449
+
+2022 / 03 / 18 : 17 36 59
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-231619-YfRdI9C4keg8ftCm@cC@FwAAAAs
+
+2022 / 03 / 18 : 17 36 59
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-231619-YfRdI9C4keg8ftCm@cC@FwAAAAs
+result: {
+    "20220128-231619-YfRdI9C4keg8ftCm@cC@FwAAAAs": {
+        "id": 7014,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617819.042
+finish: 1647617819.0522
+duration min:sec: 0:0
+duration sec.microseconds: 0.010237216949463
+
+2022 / 03 / 18 : 17 36 59
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-163210-YfP@amcIjq2fNRg3HkNoMgAAAA8
+
+2022 / 03 / 18 : 17 36 59
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-163210-YfP@amcIjq2fNRg3HkNoMgAAAA8
+result: {
+    "20220128-163210-YfP@amcIjq2fNRg3HkNoMgAAAA8": {
+        "id": 7015,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617819.0532
+finish: 1647617819.0633
+duration min:sec: 0:0
+duration sec.microseconds: 0.01006817817688
+
+2022 / 03 / 18 : 17 36 59
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-183102-YfQaRmHSCpttVrvmvTzR0wAAAA4
+
+2022 / 03 / 18 : 17 36 59
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-183102-YfQaRmHSCpttVrvmvTzR0wAAAA4
+result: {
+    "20220128-183102-YfQaRmHSCpttVrvmvTzR0wAAAA4": {
+        "id": 7016,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617819.0642
+finish: 1647617819.0972
+duration min:sec: 0:0
+duration sec.microseconds: 0.032986164093018
+
+2022 / 03 / 18 : 17 36 59
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-181004-YfQVXD9LPLExY@LS8O-zFgAAAAw
+
+2022 / 03 / 18 : 17 36 59
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-181004-YfQVXD9LPLExY@LS8O-zFgAAAAw
+result: {
+    "20220128-181004-YfQVXD9LPLExY@LS8O-zFgAAAAw": {
+        "id": 7017,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617819.098
+finish: 1647617819.1084
+duration min:sec: 0:0
+duration sec.microseconds: 0.010420083999634
+
+2022 / 03 / 18 : 17 36 59
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-221206-YfROFvk09KJsz8p@RdMKGgAAAAI
+
+2022 / 03 / 18 : 17 36 59
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-221206-YfROFvk09KJsz8p@RdMKGgAAAAI
+result: {
+    "20220128-221206-YfROFvk09KJsz8p@RdMKGgAAAAI": {
+        "id": 7018,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617819.1093
+finish: 1647617819.1975
+duration min:sec: 0:0
+duration sec.microseconds: 0.088212966918945
+
+2022 / 03 / 18 : 17 36 59
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-223512-YfRTgM5UwLjLXhAp7EyngAAAAAc
+
+2022 / 03 / 18 : 17 36 59
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-223512-YfRTgM5UwLjLXhAp7EyngAAAAAc
+result: {
+    "20220128-223512-YfRTgM5UwLjLXhAp7EyngAAAAAc": {
+        "id": 7019,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617819.1983
+finish: 1647617819.2088
+duration min:sec: 0:0
+duration sec.microseconds: 0.010457992553711
+
+2022 / 03 / 18 : 17 36 59
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-184215-YfQc52cIjq2fNRg3HkNoPAAAAA8
+
+2022 / 03 / 18 : 17 36 59
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-184215-YfQc52cIjq2fNRg3HkNoPAAAAA8
+result: {
+    "20220128-184215-YfQc52cIjq2fNRg3HkNoPAAAAA8": {
+        "id": 7020,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617819.2098
+finish: 1647617819.2199
+duration min:sec: 0:0
+duration sec.microseconds: 0.01016902923584
+
+2022 / 03 / 18 : 17 36 59
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-234434-YfRjwqgkDFaVor1xa10F9QAAAAU
+
+2022 / 03 / 18 : 17 36 59
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-234434-YfRjwqgkDFaVor1xa10F9QAAAAU
+result: {
+    "20220128-234434-YfRjwqgkDFaVor1xa10F9QAAAAU": {
+        "id": 7021,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617819.221
+finish: 1647617819.231
+duration min:sec: 0:0
+duration sec.microseconds: 0.010020017623901
+
+2022 / 03 / 18 : 17 36 59
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-010446-YfMlDnZulatuuFp@EYq8wAAAAAM
+
+2022 / 03 / 18 : 17 36 59
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-010446-YfMlDnZulatuuFp@EYq8wAAAAAM
+result: {
+    "20220128-010446-YfMlDnZulatuuFp@EYq8wAAAAAM": {
+        "id": 7022,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617819.2319
+finish: 1647617819.2425
+duration min:sec: 0:0
+duration sec.microseconds: 0.010589122772217
+
+2022 / 03 / 18 : 17 36 59
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-183957-YfQcXWtP7GsCVy3wz4eU-gAAAAo
+
+2022 / 03 / 18 : 17 36 59
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-183957-YfQcXWtP7GsCVy3wz4eU-gAAAAo
+result: {
+    "20220128-183957-YfQcXWtP7GsCVy3wz4eU-gAAAAo": {
+        "id": 7023,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617819.2434
+finish: 1647617819.3536
+duration min:sec: 0:0
+duration sec.microseconds: 0.11022210121155
+
+2022 / 03 / 18 : 17 36 59
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-171434-YfQIWokeQPUTWKDbM4jP8QAAAA0
+
+2022 / 03 / 18 : 17 36 59
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-171434-YfQIWokeQPUTWKDbM4jP8QAAAA0
+result: {
+    "20220128-171434-YfQIWokeQPUTWKDbM4jP8QAAAA0": {
+        "id": 7024,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617819.3547
+finish: 1647617819.3648
+duration min:sec: 0:0
+duration sec.microseconds: 0.010098934173584
+
+2022 / 03 / 18 : 17 36 59
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-013552-YfMsWPioyZrMb6OVxyeuWgAAAAU
+
+2022 / 03 / 18 : 17 36 59
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-013552-YfMsWPioyZrMb6OVxyeuWgAAAAU
+result: {
+    "20220128-013552-YfMsWPioyZrMb6OVxyeuWgAAAAU": {
+        "id": 7025,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617819.3659
+finish: 1647617819.376
+duration min:sec: 0:0
+duration sec.microseconds: 0.01012921333313
+
+2022 / 03 / 18 : 17 36 59
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-232320-YfReyOELTvn0PBMd0O7IMgAAABY
+
+2022 / 03 / 18 : 17 36 59
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-232320-YfReyOELTvn0PBMd0O7IMgAAABY
+result: {
+    "20220128-232320-YfReyOELTvn0PBMd0O7IMgAAABY": {
+        "id": 7026,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617819.3771
+finish: 1647617819.3873
+duration min:sec: 0:0
+duration sec.microseconds: 0.010173082351685
+
+2022 / 03 / 18 : 17 36 59
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-222957-YfRSRa@FOhI6Yj05PCBhQwAAABA
+
+2022 / 03 / 18 : 17 36 59
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-222957-YfRSRa@FOhI6Yj05PCBhQwAAABA
+result: {
+    "20220128-222957-YfRSRa@FOhI6Yj05PCBhQwAAABA": {
+        "id": 7027,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617819.3883
+finish: 1647617819.3984
+duration min:sec: 0:0
+duration sec.microseconds: 0.01009202003479
+
+2022 / 03 / 18 : 17 36 59
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-010607-YfMlX0XfCdTFZpImCSksWQAAAAQ
+
+2022 / 03 / 18 : 17 36 59
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-010607-YfMlX0XfCdTFZpImCSksWQAAAAQ
+result: {
+    "20220128-010607-YfMlX0XfCdTFZpImCSksWQAAAAQ": {
+        "id": 7028,
+        "special_log_type": "audit\/www-data"
+    }
+}
+start: 1647617819.3995
+finish: 1647617819.443
+duration min:sec: 0:0
+duration sec.microseconds: 0.043580055236816
+
+2022 / 03 / 18 : 17 36 59
+Location: Synaptic4UParser\Core\App::__construct()
+config: {
+    "IMPORTANT_NOTE_alias": "alias must be one word, no hyphens or spaces. Accepted values: tree or tree_log",
+    "IMPORTANT_NOTE for Parser::parseLine() method": "Some of the logs are so custom, I couldn't catch everything with generic program logic without doing major checking in the parsing.",
+    "IMPORTANT_NOTE_database_primary_key": "A auto_increment primary key is automatically named logid (int) auto_increment primary key",
+    "IMPORTANT_NOTE_columns_date_variables": "columns: date variable for database table must be named: loggedon.",
+    "IMPORTANT_NOTE_columns_last_variable_in_list": "columns: Last column will be made a text column, the rest are varchar(255).",
+    "log_include": {
+        "auth": {
+            "alias": "auth",
+            "directory": "\/var\/log",
+            "name": "auth.log",
+            "columns": [
+                "loggedon",
+                "server",
+                "session",
+                "user",
+                "command_action"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "alternatives": {
+            "alias": "alternatives",
+            "directory": "\/var\/log",
+            "name": "alternatives.log",
+            "columns": [
+                "update_alternatives",
+                "loggedon",
+                "log"
+            ],
+            "loggedon_format": "YYYY-MM-DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "daemon": {
+            "alias": "daemon",
+            "directory": "\/var\/log",
+            "name": "daemon.log",
+            "columns": [
+                "loggedon",
+                "server",
+                "application",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "debug": {
+            "alias": "debug",
+            "directory": "\/var\/log",
+            "name": "debug",
+            "columns": [
+                "loggedon",
+                "server",
+                "application",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": "Gets a false positive for apache modsec_debug.log then breaks. Will still need to programmatically fix it."
+        },
+        "dpkg": {
+            "alias": "dpkg",
+            "directory": "\/var\/log",
+            "name": "dpkg.log",
+            "columns": [
+                "loggedon",
+                "process",
+                "log"
+            ],
+            "loggedon_format": "YYYY-MM-DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "fail2ban": {
+            "alias": "fail2ban",
+            "directory": "\/var\/log",
+            "name": "fail2ban.log",
+            "columns": [
+                "loggedon",
+                "process",
+                "id",
+                "type",
+                "log"
+            ],
+            "loggedon_format": "YYYY-MM-DD HH:mm:ss,m-3",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": "Some files have the emails logged to them so it messes everything up! Occaisonal occurence, I just deleted the few offenders manually in the file."
+        },
+        "kern": {
+            "alias": "kern",
+            "directory": "\/var\/log",
+            "name": "kern.log",
+            "columns": [
+                "loggedon",
+                "server",
+                "process",
+                "id",
+                "application",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "mail_info": {
+            "alias": "mail_info",
+            "directory": "\/var\/log",
+            "name": "mail.info",
+            "columns": [
+                "loggedon",
+                "server",
+                "process",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "mail_log": {
+            "alias": "mail_log",
+            "directory": "\/var\/log",
+            "name": "mail.log",
+            "columns": [
+                "loggedon",
+                "server",
+                "process",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "mail_warn": {
+            "alias": "mail_warn",
+            "directory": "\/var\/log",
+            "name": "mail.warn",
+            "columns": [
+                "loggedon",
+                "server",
+                "process",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "messages": {
+            "alias": "messages",
+            "directory": "\/var\/log",
+            "name": "messages",
+            "columns": [
+                "loggedon",
+                "server",
+                "process",
+                "id",
+                "application",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "syslog": {
+            "alias": "syslog",
+            "directory": "\/var\/log",
+            "name": "syslog",
+            "columns": [
+                "loggedon",
+                "server",
+                "process",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "ufw": {
+            "alias": "ufw",
+            "directory": "\/var\/log",
+            "name": "ufw.log",
+            "columns": [
+                "loggedon",
+                "server",
+                "process",
+                "id",
+                "ufw",
+                "in",
+                "out",
+                "mac",
+                "src",
+                "dst",
+                "len",
+                "tos",
+                "prec",
+                "ttl",
+                "id2",
+                "prot",
+                "spt",
+                "dpt",
+                "window",
+                "res",
+                "syn",
+                "urgp",
+                "hoplimit",
+                "flowlbl"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": "Fields are not in a unified order, need to match!"
+        },
+        "user": {
+            "alias": "user",
+            "directory": "\/var\/log",
+            "name": "user.log",
+            "columns": [
+                "loggedon",
+                "server",
+                "process",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "daemon_access": {
+            "alias": "daemon_access",
+            "directory": "\/var\/log\/apache2",
+            "name": "daemon-access.log",
+            "columns": [
+                "ip",
+                "logname",
+                "country_code",
+                "loggedon",
+                "method_params",
+                "http_response",
+                "calculated_bytes",
+                "referer",
+                "user_agent",
+                "content_type",
+                "client_port",
+                "canonical_host_name",
+                "server_IP",
+                "server_port",
+                "handler",
+                "forward_requests",
+                "tcp_connection",
+                "cookie",
+                "unique_id",
+                "SSL_PROTOCOL",
+                "SSL_CIPHER",
+                "in_bytes_tot",
+                "out_bytes_tot",
+                "compression_ratio",
+                "duration_micro_sec",
+                "modsec_time_in",
+                "app_time",
+                "modsec_time_out",
+                "modsec_anomaly_in_pls",
+                "modsec_anomaly_out_pls",
+                "modsec_anomaly_in",
+                "modsec_anomaly_out"
+            ],
+            "loggedon_format": "YYYY-MM-DD HH:mm:ss.m-6",
+            "field_encapsulated": "double quotes",
+            "field_delimiter": "space",
+            "quirk": "The column: method_params was changed in the program to a text field in the DB, MySQL was truncating the column. This is my apache virtualhost log. Variations of different date formats in logs: DD\/MMM\/YYYY:HH:mm:ss +d-4 || YYYY-MM-DD HH:mm:ss.m-6"
+        },
+        "daemon_error": {
+            "alias": "daemon_error",
+            "directory": "\/var\/log\/apache2",
+            "name": "daemon-error.log",
+            "columns": [
+                "loggedon",
+                "error",
+                "client_ip",
+                "unique_id",
+                "log"
+            ],
+            "loggedon_format": "YYYY-MM-DD HH:mm:ss.m-6",
+            "field_encapsulated": "brackets or double quotes",
+            "field_delimiter": "space",
+            "quirk": "Unique_id & client_ip_port could be anywhere, we'll just search for those values after error column. Date formatted as either: [Day MMM DD HH:mm:ss.m-6 YYYY] || [Day MMM DD HH:mm:ss.m-6 YYYY]"
+        },
+        "daemon_perf": {
+            "alias": "daemon_perf",
+            "directory": "\/var\/log\/apache2",
+            "name": "daemon-perf.log",
+            "columns": [
+                "loggedon",
+                "unique_id",
+                "duration_microsec",
+                "PerfModSecInbound",
+                "PerfAppl",
+                "PerfModSecOutbound",
+                "TS_Phase1",
+                "TS_Phase2",
+                "TS_Phase3",
+                "TS_Phase4",
+                "TS_Phase5",
+                "Perf_Phase1",
+                "Perf_Phase2",
+                "Perf_Phase3",
+                "Perf_Phase4",
+                "Perf_Phase5",
+                "Perf_ReadingStorage",
+                "Perf_WritingStorage",
+                "Perf_GarbageCollection",
+                "Perf_ModSecLogging",
+                "Perf_ModSecCombined"
+            ],
+            "loggedon_format": "YYYY-MM-DD HH:mm:ss.m-6",
+            "field_encapsulated": "brackets sometimes",
+            "field_delimiter": "space",
+            "quirk": "after PerfModSecInbound every second field is part of the previous so I join those two fields together when parsing. Fields can be encapsulated with brackets sometimes - do my best to parse them out"
+        },
+        "modsec_perf": {
+            "alias": "modsec_perf",
+            "directory": "\/var\/log\/apache2",
+            "name": "modsec-perf.log",
+            "columns": [
+                "loggedon",
+                "unique_id",
+                "duration_microsec",
+                "PerfModSecInbound",
+                "PerfAppl",
+                "PerfModSecOutbound",
+                "TS_Phase1",
+                "TS_Phase2",
+                "TS_Phase3",
+                "TS_Phase4",
+                "TS_Phase5",
+                "Perf_Phase1",
+                "Perf_Phase2",
+                "Perf_Phase3",
+                "Perf_Phase4",
+                "Perf_Phase5",
+                "Perf_ReadingStorage",
+                "Perf_WritingStorage",
+                "Perf_GarbageCollection",
+                "Perf_ModSecLogging",
+                "Perf_ModSecCombined"
+            ],
+            "loggedon_format": "YYYY-MM-DD HH:mm:ss.m-6",
+            "field_encapsulated": "brackets",
+            "field_delimiter": "space",
+            "quirk": "after PerfModSecInbound every second field is part of the previous so I join those two fields together when parsing. Fields can be encapsulated with brackets sometimes - do my best to parse them out"
+        },
+        "modsec_audit": {
+            "alias": "modsec_audit",
+            "directory": "\/var\/log\/apache2",
+            "name": "modsec_audit.log",
+            "columns": [
+                "modsecurity",
+                "client_ip",
+                "domain_ip",
+                "https_response",
+                "audit_file",
+                "log"
+            ],
+            "loggedon_format": "null",
+            "field_encapsulated": "brackets",
+            "field_delimiter": "space",
+            "quirk": ""
+        }
+    },
+    "log_exclude": [
+        "btmp",
+        "wtmp",
+        "cloud-init.log",
+        "cloud-init-output.log",
+        "faillog",
+        "lastlog",
+        "lynis.log",
+        "lynis-report.dat",
+        "wtmp",
+        "access.log",
+        "error.log",
+        "other_vhostsaccess.log",
+        "www-data-global",
+        "www-data-global.dir",
+        "www-data-global.pag",
+        "www-data-ip",
+        "www-data-ip.dir",
+        "www-data-ip.pag",
+        "pacct",
+        "sa",
+        "sar"
+    ],
+    "log_dump": [],
+    "file_exclude_types": [
+        ".zip",
+        ".tar",
+        ".gz",
+        ".xz"
+    ]
+}
