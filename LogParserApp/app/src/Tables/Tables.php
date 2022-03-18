@@ -2,11 +2,11 @@
 
 namespace Synaptic4UParser\Tables;
 
-use Synaptic4UParser\DB\DB;
 use Synaptic4UParser\Core\Log;
+use Synaptic4UParser\DB\DB;
 
-class Tables{
-
+class Tables
+{
     protected $db;
 
     public function __construct()
@@ -14,7 +14,7 @@ class Tables{
         $this->db = new DB();
     }
 
-    public function readTablesList():mixed
+    public function readTablesList(): mixed
     {
         $table_list = [];
         $sql = 'show tables where 1=?;';
@@ -26,9 +26,10 @@ class Tables{
         }
 
         return $table_list;
+        // print_r(json_encode($table_list, JSON_PRETTY_PRINT).PHP_EOL);
     }
 
-    public function readTableColumns($table):mixed
+    public function readTableColumns($table): mixed
     {
         $columns = [];
         $sql = 'show columns from '.$table->alias.' where 1=?;';
@@ -39,56 +40,56 @@ class Tables{
             $columns[] = $res[0];
         }
 
+        // print_r(json_encode($columns, JSON_PRETTY_PRINT).PHP_EOL);
         array_shift($columns);
 
         return $columns;
     }
 
-    public function createTable($table):array
+    public function createTable($table): array
     {
         $sql = 'CREATE TABLE IF NOT EXISTS '.$table->alias.'( `logid` int(11) auto_increment primary key,';
 
-        foreach($table->columns as $key => $column){
-            $columns[] = $columns
-            if($column == 'loggedon'){
+        foreach ($table->columns as $key => $column) {
+            if ('loggedon' == $column) {
                 $sql .= '`'.$column.'` datetime(6) default null, index `'.$column.'`(`'.$column.'`),';
-            }else{
-                if($key === array_key_last($table->columns)){
-                    $sql .= '`'.$column.'` text default null, index `'.$column.'`(`'.$column.'`)';
-                }else{
-                    if($table->alias === 'daemon_access' && $column == 'method_params'){
-                        $sql .= '`'.$column.'` text default null, index `'.$column.'`(`'.$column.'`),';
-                    }else{
-                        $sql .= '`'.$column.'` text default null, index `'.$column.'`(`'.$column.'`),';
+            } else {
+                if ($key === array_key_last($table->columns)) {
+                    $sql .= '`'.$column.'` longtext default null, index `'.$column.'`(`'.$column.'`)';
+                } else {
+                    if ('daemon_access' === $table->alias && 'method_params' == $column) {
+                        $sql .= '`'.$column.'` longtext default null, index `'.$column.'`(`'.$column.'`),';
+                    } else {
+                        $sql .= '`'.$column.'` longtext default null, index `'.$column.'`(`'.$column.'`),';
                     }
                 }
             }
         }
 
-        $sql .= ',unique key(`loggedon`, '.implode(",",$columns).'));';
+        $sql .= ');';
 
         $result = $this->db->query([], $sql);
 
         $count = $this->db->getrowCount();
         $success = $this->db->getStatus();
-        
+
         return [
             'alias' => $table->alias,
-            'count' => $count, 
-            'success' => $success
+            'count' => $count,
+            'success' => $success,
         ];
     }
 
-    public function insertLog(array $columns, string $alias):int
+    public function insertLog(array $columns, string $alias): int
     {
-        $sql = 'replace into '.$alias.'( ';
+        $sql = 'insert into '.$alias.'( ';
         $param = '';
 
-        foreach($columns as $key => $column){
-            if($key === array_key_last($columns)){
+        foreach ($columns as $key => $column) {
+            if ($key === array_key_last($columns)) {
                 $sql .= '`'.$key.'`';
                 $param .= '?';
-            }else{
+            } else {
                 $sql .= '`'.$key.'`,';
                 $param .= '?,';
             }
@@ -101,21 +102,21 @@ class Tables{
         return $this->db->getLastId();
     }
 
-    public function dumpLog(string $line, string $file):int
+    public function dumpLog(string $line, string $file): int
     {
-        $sql = "replace into log_dump(`file`, `contents`)values(?, ?);";
+        $sql = 'replace into log_dump(`file`, `contents`)values(?, ?);';
 
         $result = $this->db->query([
             $file,
-            $line
+            $line,
         ], $sql);
 
         return $this->db->getLastId();
     }
 
-    public function createLogDump():mixed
+    public function createLogDump(): mixed
     {
-        $sql = "CREATE TABLE IF NOT EXISTS log_dump (`dumpid` int(11) NOT NULL AUTO_INCREMENT,`dumpdate` datetime default current_timestamp,`file` text not null,`contents` text default NULL,PRIMARY KEY (`dumpid`),KEY `dumpdate` (`dumpdate`),KEY `content` (`contents`(768)),KEY `file` (`contents`(768)), ,unique key(`dumpdate`, `contents`));";
+        $sql = 'CREATE TABLE IF NOT EXISTS log_dump (`dumpid` int(11) NOT NULL AUTO_INCREMENT,`dumpdate` datetime default current_timestamp,`file` text not null,`contents` longtext default NULL,PRIMARY KEY (`dumpid`),KEY `dumpdate` (`dumpdate`),KEY `content` (`contents`(768)),KEY `file` (`contents`(768)));';
 
         $result = $this->db->query([], $sql);
 
@@ -132,5 +133,3 @@ class Tables{
         new Log($msg, 'activity');
     }
 }
-
-?>
