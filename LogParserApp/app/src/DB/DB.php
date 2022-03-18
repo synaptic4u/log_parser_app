@@ -16,12 +16,15 @@ class DB
     public function __construct()
     {
         try {
+            // $root = dirname(__FILE__, 1) . '/Models/;
             $filepath =  dirname(__FILE__, 4) .'/db_config.json';
 
+            // $db_json = file_get_contents($root.$app."db.json");
             $this->conn = json_decode(file_get_contents($filepath), true);
 
             $dsn = 'mysql:host='.$this->conn['host'].';dbname='.$this->conn['dbname'];
 
+            //Create PDO
             $this->pdo = new PDO($dsn, $this->conn['user'], $this->conn['pass']);
         } catch (Exception $e) {
             exit(json_encode([

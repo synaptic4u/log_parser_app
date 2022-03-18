@@ -29,7 +29,6 @@ class Tables
         // print_r(json_encode($table_list, JSON_PRETTY_PRINT).PHP_EOL);
     }
 
-    
     public function readTableColumns($table): mixed
     {
         $columns = [];
