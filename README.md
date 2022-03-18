@@ -3,13 +3,20 @@ Log Parser App Setup & Usage
 -----------------------------------------------------------------------------------------------
     Intro:
     -------
-    
+        Please note that there are great log parsing applications, but most will give you a web interface to use.
+        A web interface is something that I wish to avoid, the goal will be a CLI application, I will be aiming for something like htop.
+
         I will be updating this when I have the chance to do so. There's still documentation I need to do for it!
         This is all running on a demo server where Im practicing my server administration and doing a little pentesting.
+
         I ended up with thousands of log files with hundreds of thousands of entries while I was testing. 
         I'm not a regex ninja, so I wrote this to be able to query everything from my DB where I am a ninja. 
         I have procedures where I clean the data and remove possible duplicates. 
-        This is just something I whipped up to get it started.
+
+        IMPORTANT!!! 
+        This will produce duplicates, you will need to clean your data in mysql!!!!
+        This is just something to get it started. My application logic still needs to be polished. 
+        I'll let you know when it is finished, hope it helps & have fun.
     
     Setup:
     ------
@@ -81,6 +88,7 @@ Log Directories
     This is the path to where the parent directory houses all the log files.
     The application will recursively cycle through all child directories and,
     creates a structured list of every file.
+    I have all my log backups and I parse each parent_log_directory.
 
     Then the application attempts to parse each file, either by line or whole file dumps.
     The parsing rules are configured in the Log Structure.
@@ -99,6 +107,9 @@ Log Structure
 
     Log Include
         Please rewad through the config.json file to see how I setup mine. My Apache2 log files are custom log files.
+        Some of my log files have different formatting, I had changed the formatting a number of times. 
+        It's noticeable in my Apache logs, I implement web server firewalls and auditing, so it writes lots of entries.
+        I'm still playing with the structures and parsing.
 
     Log Exclude
         This is a list of files that are on your server that you do not want to parse.
