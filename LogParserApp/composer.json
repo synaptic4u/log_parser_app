@@ -1,0 +1,18 @@
+{
+    "name": "mila/synaptic4u.co.za",
+    "description": "Synaptic Log Parser Application",
+    "type": "project",
+    "license": "GPL-3",
+    "authors": [
+        {
+            "name": "Emile De Wilde",
+            "email": "emile@synaptic4u.co.za"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Synaptic4UParser\\": "./app/src"
+        }
+    }
+}
