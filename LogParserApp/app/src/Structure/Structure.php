@@ -1,11 +1,13 @@
 <?php
+
 namespace Synaptic4UParser\Structure;
 
-use Synaptic4UParser\DB\DB;
 use Synaptic4UParser\Core\Log;
+use Synaptic4UParser\DB\DB;
 use Synaptic4UParser\Tables\Tables;
 
-class Structure{
+class Structure
+{
     protected $config;
     protected $db;
     protected $tables;
@@ -29,18 +31,21 @@ class Structure{
         $create = [];
         $cnt = 0;
 
-        foreach($this->config->log_include as $key => $table){
-            if(in_array($table->alias, $this->table_list)){
-                
+        foreach ($this->config->log_include as $key => $table) {
+            if (in_array($table->alias, $this->table_list)) {
                 $diff[$key] = $this->compareStructure($table);
-                
-                print_r('Nu: '.$cnt.' Exists: '.$key.': '.json_encode($diff[$key]).PHP_EOL);
-            }else{
+
+                $message = 'Nu: '.$cnt.' Exists: '.$key.': '.json_encode($diff[$key], JSON_PRETTY_PRINT);
+                $this->log($message);
+                print_r($message.PHP_EOL);
+            } else {
                 $create[$key] = $this->tables->createTable($table);
 
-                print_r('Nu: '.$cnt.' Created: '.$key.': '.json_encode($create[$key]).PHP_EOL);
+                $message = 'Nu: '.$cnt.' Created: '.$key.': '.json_encode($create[$key]);
+                $this->log($message);
+                print_r($message.PHP_EOL);
             }
-            $cnt++;
+            ++$cnt;
         }
         // print_r(json_encode($this->config->log_include, JSON_PRETTY_PRINT));
         // print_r(json_encode($this->config->log_exclude, JSON_PRETTY_PRINT));
@@ -57,19 +62,43 @@ class Structure{
 
         $result = [
             'alias' => $table->alias,
-            'check' => sizeof($diff) + sizeof($diff2), 
-            'config_diff' => $diff, 
-            'db_diff' => $diff2
+            'nu of rows' => $this->getRowCount($table->alias),
+            'max logid' => $this->getMaxLogID($table->alias),
+            'config structure variance' => (sizeof($diff) > 0) ? $diff : 'None',
+            'database structure variance' => (sizeof($diff2) > 0) ? $diff2 : 'None',
         ];
 
-        if($result['check'] > 0){
-            print_r("There's a difference".PHP_EOL);
-            print_r(json_encode([$result, $columns, $table->columns], JSON_PRETTY_PRINT).PHP_EOL);
-
-            // Add alter table functionality here.
+        if ((sizeof($diff) + sizeof($diff2)) > 0) {
+            $result['variance'] = json_encode([$columns, $table->columns], JSON_PRETTY_PRINT);
         }
 
         return $result;
+    }
+
+    protected function getRowCount($table)
+    {
+        $sql = 'select count(*) as nu_rows from '.$table.' where 1 = ?;';
+
+        $result = $this->db->query([1], $sql);
+
+        foreach ($result as $res) {
+            $count = $res['nu_rows'];
+        }
+
+        return $count;
+    }
+
+    protected function getMaxLogID($table)
+    {
+        $sql = 'select max(logid) as max_logid from '.$table.' where 1 = ?;';
+
+        $result = $this->db->query([1], $sql);
+
+        foreach ($result as $res) {
+            $id = $res['max_logid'];
+        }
+
+        return $id;
     }
 
     protected function error($msg)
@@ -82,4 +111,3 @@ class Structure{
         new Log($msg, 'activity');
     }
 }
-?>
