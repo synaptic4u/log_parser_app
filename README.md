@@ -18,6 +18,7 @@ Log Parser App Setup & Usage
         This is just something to get it started. My application logic still needs to be polished. 
             ex: in my "debug" log files it is including modsec-debug file, which should be in it's own table.
         I'll let you know when it is finished, hope it helps & have fun.
+        I will also be adding commenting to the code as soon as possible.
     
     Setup:
     ------
