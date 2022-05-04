@@ -194,7 +194,7 @@ Side Note
 Contact
 -----------------------------------------------------------------------------------------------
 
-    If you have feedback; drop me a mail at emiledev@synaptic4u.co.za
+    If you have feedback; drop me a mail at emile@synaptic4u.co.za
 
     Thanks
     Emile De Wilde
