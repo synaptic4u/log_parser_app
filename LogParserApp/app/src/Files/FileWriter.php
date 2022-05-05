@@ -7,27 +7,21 @@ use Synaptic4UParser\Core\Log;
 /**
  * Class::FileWriter
  * Handles all the file writing functionality.
+ *
  * FileWriter::setPath()
  * FileWriter::appendArrayToFile()
  * FileWriter::writeArrayToFile()
  * FileWriter::appendTextToFile()
  * FileWriter::writeTextToFile()
  */
-class FileWriter{
-
+class FileWriter
+{
     protected $path;
-
-    protected function setPath(string $file)
-    {
-        // Must accept the directory beginning with a "/".
-        // Travels 2 directories up.
-        $this->path = dirname(__FILE__, 2).$file;
-    }
 
     public function appendArrayToFile(string $file, array $params)
     {
         $this->setPath($file);
-        
+
         $log = fopen($this->path, 'a');
 
         $content = json_encode($params, JSON_PRETTY_PRINT).PHP_EOL;
@@ -40,7 +34,7 @@ class FileWriter{
     public function writeArrayToFile(string $file, array $params)
     {
         $this->setPath($file);
-        
+
         $log = fopen($this->path, 'w');
 
         $content = json_encode($params, JSON_PRETTY_PRINT);
@@ -72,6 +66,13 @@ class FileWriter{
         fclose($log);
     }
 
+    protected function setPath(string $file)
+    {
+        // Must accept the directory beginning with a "/".
+        // Travels 2 directories up.
+        $this->path = dirname(__FILE__, 2).$file;
+    }
+
     protected function error($msg)
     {
         new Log($msg, 'error');
@@ -82,5 +83,3 @@ class FileWriter{
         new Log($msg, 'activity');
     }
 }
-
-?>

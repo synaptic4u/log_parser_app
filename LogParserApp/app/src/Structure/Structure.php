@@ -6,6 +6,20 @@ use Synaptic4UParser\Core\Log;
 use Synaptic4UParser\DB\DB;
 use Synaptic4UParser\Tables\Tables;
 
+/**
+ * Structure::parse() :
+ * Compares DB schema and config structure. Creates non-existant tables.
+ *
+ * Structure::compareStructure() :
+ * Compares the config and db table structure. Reports variance.
+ * NB! Still need to write alter table functionality
+ *
+ * Structure::getRowCount() :
+ * Queries the given table for total number of rows.
+ *
+ * Structure::getMaxLogID() :
+ * Queries table for the max primary key : logid.
+ */
 class Structure
 {
     protected $config;
@@ -14,6 +28,13 @@ class Structure
     protected $table_list;
     protected $log_structure;
 
+    /**
+     * Creates DB instance for the db member.
+     *
+     * Creates Table instance for the tables member.
+     *
+     * @param mixed $config : JSON Object from config file
+     */
     public function __construct($config)
     {
         $this->config = $config;
@@ -25,6 +46,10 @@ class Structure
         $this->table_list = $this->tables->readTablesList();
     }
 
+    /**
+     * Compares the existing database schema with the config include structure.
+     * Creates the database table from the config structure.
+     */
     public function parse()
     {
         $diff = [];
@@ -51,10 +76,16 @@ class Structure
         // print_r(json_encode($this->config->log_exclude, JSON_PRETTY_PRINT));
     }
 
-    public function compareStructure($table)
+    /**
+     * Compares the config and db table structure.
+     * Creates a report for any differences.
+     *
+     * @param mixed $table : Std::Class object containg the table structure
+     *
+     * @return array : Associative array with the structure variance
+     */
+    public function compareStructure($table): array
     {
-        // Comparison evaluated on using the config & db as the source, it will report any differences.
-        // Will later write alter table functionality.
         $columns = $this->tables->readTableColumns($table);
 
         $diff = array_diff($table->columns, $columns);
@@ -75,7 +106,14 @@ class Structure
         return $result;
     }
 
-    protected function getRowCount($table)
+    /**
+     * Queries the given table for total number of rows.
+     *
+     * @param mixed $table
+     *
+     * @return int : Number of table rows
+     */
+    protected function getRowCount($table): int
     {
         $sql = 'select count(*) as nu_rows from '.$table.' where 1 = ?;';
 
@@ -88,7 +126,12 @@ class Structure
         return $count;
     }
 
-    protected function getMaxLogID($table)
+    /**
+     * Queries table for the max primary key : logid.
+     *
+     * @param mixed $table : std::Class
+     */
+    protected function getMaxLogID($table): int
     {
         $sql = 'select max(logid) as max_logid from '.$table.' where 1 = ?;';
 
@@ -101,11 +144,21 @@ class Structure
         return $id;
     }
 
+    /**
+     * Prepped to later introduce error logging. Not functional in this version.
+     *
+     * @param array $msg : Error message
+     */
     protected function error($msg)
     {
         new Log($msg, 'error');
     }
 
+    /**
+     * Activity logging. Not fully functional in this version.
+     *
+     * @param array $msg : Message
+     */
     protected function log($msg)
     {
         new Log($msg, 'activity');

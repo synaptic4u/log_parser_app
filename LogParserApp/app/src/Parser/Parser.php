@@ -7,6 +7,26 @@ use Synaptic4UParser\Core\Log;
 use Synaptic4UParser\Files\FileReader;
 use Synaptic4UParser\Tables\Tables;
 
+/**
+ * Parser::loadLogs() :
+ * Loads the file & logs the result.
+ *
+ * Parser::parseLog() :
+ * Parses the file into an array. Parses into accepted MySQL format.
+ *
+ * Parser::cleanFile() :
+ * Method not working! Cleans the array of extra lines and into the expected log format.
+ *
+ * Parser::stringClean() :
+ *
+ * Parser::parseLine() :
+ *
+ * Parser::dumpLog() :
+ *
+ * Parser::insertLog() :
+ *
+ * Parser::insertDump() :
+ */
 class Parser
 {
     protected $file_reader;
@@ -15,6 +35,13 @@ class Parser
     protected $path;
     protected $tables;
 
+    /**
+     * Creates DB instance for the db member.
+     * Creates Table instance for the tables member.
+     *
+     * @param mixed  $config
+     * @param string $path
+     */
     public function __construct($config, $path)
     {
         $this->config = $config;
@@ -23,6 +50,14 @@ class Parser
         $this->tables = new Tables();
     }
 
+    /**
+     * Creates 3 lists from tree structure : accept, reject, dump -> loads the file & logs the result.
+     * accept : Loops through accepted files -> Parser::parseLog().
+     * dump : checks if table exists and attempts to create it.
+     * Loops through dump files -> Parser::dumpLog().
+     *
+     * @return array : Returns the result array
+     */
     public function loadLogs(array $tree): array
     {
         $result = [];
@@ -89,6 +124,18 @@ class Parser
         return $result;
     }
 
+    /**
+     * Parses the file into an array. Each file row is a array item.
+     * Cleans each row of unwanted white space.
+     * Parses each line into accepted MySQL format.
+     * Inserts the row into database table.
+     * Returns the inserted number of results.
+     *
+     * @param string $file  : Path to file
+     * @param string $alias : Name of table
+     *
+     * @return array : Returns the result array
+     */
     protected function parseLog(string $file, string $alias): array
     {
         $start = microtime(true);
@@ -143,12 +190,16 @@ class Parser
         return $result;
     }
 
+    /**
+     * Cleans the array of extra lines and into the expected log format.
+     * Some error messages contain multiple lines.
+     * Method not working!!!
+     * Fail2ban log file, logs the email error on multiple lines and it's a problem to parse.
+     *
+     * @return array : Returns a cleaned array
+     */
     protected function cleanFile(array $rows): array
     {
-        // Cleans the Fail2ban log file.
-        // Fail2ban errors are writing to multiple lines in the file.
-        // Creates errors when parsing the file.
-
         $rows_result = [];
         $rows_reverse = [];
         $buffer = '';
@@ -167,10 +218,17 @@ class Parser
         return $rows_result;
     }
 
+    /**
+     * Sanitizes the string of certain characters : ",',\,,`,[]
+     * Had an issue when importing MySQL data dump files.
+     * Still need to prove that it was because of unwanted characters.
+     *
+     * @param array $columns : Array of a file line
+     *
+     * @return array : Returns cleaned array
+     */
     protected function stringClean(array $columns): array
     {
-        // Sanitizes the string - Been having issues with mysql importing database from a mysql dump file.
-        // Still going to fiddle here and see what is what!!!
         foreach ($columns as $key => $string) {
             $columns[$key] = str_replace('"', '', $string);
             $columns[$key] = str_replace("'", '', $string);
@@ -182,6 +240,17 @@ class Parser
         return $columns;
     }
 
+    /**
+     * Parses and formats each line into the correct MySQL format.
+     * Uses the formatting for each table from the config.json file.
+     * Creates the correct date types from log files date column.
+     * Checks the $table->field_encapsulated to see if there is a specific field delineator.
+     *
+     * @param string $line  : Single line from file
+     * @param string $alias : Name of log or table name
+     *
+     * @return array : Returns an array of columns formatted for MySQL insertion
+     */
     protected function parseLine(string $line, string $alias): array
     {
         $columns = [];
@@ -312,7 +381,16 @@ class Parser
         return $this->stringClean($columns);
     }
 
-    protected function dumpLog(string $file)
+    /**
+     * Generic dump method to store whole files or lines into MySQL from log file.
+     * 1. Parses the whole file to a field in the log_dump table : Used for the firewall audit log files.
+     * 2. Parses a single line from a log file into the log field of the log_dump table.
+     *
+     * @param string $file : File path
+     *
+     * @return array : Return the result array
+     */
+    protected function dumpLog(string $file): array
     {
         $this->log([
             'Location' => __METHOD__.'(): '.substr($file, strripos($file, '/') + 1),
@@ -370,21 +448,49 @@ class Parser
         return $result;
     }
 
+    /**
+     * Calls the Table:insertLog method.
+     * Stores the columns into the table.
+     *
+     * @param array  $columns : Array of fields for the table columns
+     * @param string $alias   : The table's name
+     *
+     * @return int : Returns the last able insert ID
+     */
     protected function insertLog(array $columns, string $alias): int
     {
         return $this->tables->insertLog($columns, $alias);
     }
 
+    /**
+     * Calls the Table:dumpLog method.
+     * Stores the file / line into the table.
+     *
+     * @param string $line : File contents or line
+     * @param string $file : Full file path
+     *
+     * @return int : Returns the last able insert ID
+     */
     protected function insertDump(string $line, string $file): int
     {
         return $this->tables->dumpLog($line, $file);
     }
 
+    /**
+     * Prepped to later introduce error logging. Not functional in this version.
+     *
+     * @param array $msg : Error message
+     */
     protected function error($msg)
     {
         new Log($msg, 'error');
     }
 
+    /**
+     * Activity logging. Not fully functional in this version.
+     *
+     * @param array $msg : Message
+     */
     protected function log($msg)
     {
         new Log($msg, 'activity');

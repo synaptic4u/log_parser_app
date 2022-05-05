@@ -95,6 +95,7 @@ class App
                 'config' => json_encode($this->config, JSON_PRETTY_PRINT),
             ]);
         } catch (Exception $e) {
+            // Errors currently print to screen
             $this->error([
                 'Location' => __METHOD__.'()',
                 'error' => $e->__toString(),
@@ -139,12 +140,22 @@ class App
         $this->file_writer->writeArrayToFile('/structure_files/flattened.txt', $this->flat_tree);
     }
 
+    /**
+     * Builds a comparison data structure between the config.json file & the mysql database.
+     * Then attempts to create the tables in the database that do not exist from the alias structure in the config file.
+     * Lastly writes the structure to the screen and log file.
+     */
     protected function buildStructure()
     {
         $structure = new Structure($this->config);
         $structure->parse();
     }
 
+    /**
+     * Cycles through the tree array and parses each log file into the database.
+     *
+     * @return array : Associative array with results
+     */
     protected function loadLogs(): array
     {
         return $this->parser->loadLogs($this->flat_tree);
@@ -161,7 +172,7 @@ class App
     }
 
     /**
-     * Prepped to later introduce logging. Not functional in this version.
+     * Activity logging. Not fully functional in this version.
      *
      * @param array $msg : Message
      */
