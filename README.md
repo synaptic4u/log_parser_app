@@ -3,6 +3,9 @@ Log Parser App Setup & Usage
 -----------------------------------------------------------------------------------------------
     Intro:
     -------
+        NB! -> I'm just adding comments and adding the return types to methods. Should still run.
+
+
         Please note that there are great log parsing applications, but most will give you a web interface to use.
         A web interface is something that I wish to avoid, the goal will be a CLI application, I will be aiming for something like htop.
 
