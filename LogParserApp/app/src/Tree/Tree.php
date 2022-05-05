@@ -4,58 +4,90 @@ namespace Synaptic4UParser\Tree;
 
 use Synaptic4UParser\Core\Log;
 
-class Tree{
-
-    public function buildTree(string $path, array $tree)
+/**
+ * Tree::buildTree : Walks through directory and builds multi-dimensional array of file name paths.
+ * Tree::flattenTree : flattens the multi-dimensional array into a single dimensional array.
+ */
+class Tree
+{
+    /**
+     * Recursive method : Cycles through children directories to build multi-dimensional array of file paths.
+     * Need to update it to have an ignore list set out in the main config.json,
+     * currently it is hard coded.
+     *
+     * @param string $path : Parent directory path to loop through
+     * @param array  $tree : Empty initialised array
+     *
+     * @return array : A associative multi-dimensional array of all files
+     */
+    public function buildTree(string $path, array $tree): array
     {
         $cnt = 0;
         if (is_dir($path)) {
             if ($dh = opendir($path)) {
                 while (($file = readdir($dh)) !== false) {
-                    if ($file !== ".") {
-                        if ($file !== "..") {
+                    if ('.' !== $file) {
+                        if ('..' !== $file) {
                             $newfile = $path.$file;
-                            $newpath = $newfile."/";
+                            $newpath = $newfile.'/';
                             if (is_dir($newpath)) {
                                 $tree[$path][$file] = $this->buildTree($newpath, []);
                             } else {
-                                if(substr_count($newfile, '.xz') === 0 && substr($newfile, strripos($newfile, ".")) != '.xz'){
-                                    if(substr_count($newfile,'.gz') === 0 && substr($newfile, strripos($newfile, ".")) != '.gz'){
-                                        if(substr_count($newfile,'.tar') === 0 && substr($newfile, strripos($newfile, ".")) != '.tar'){
-                                            if(substr_count($newfile,'.zip') === 0 && substr($newfile, strripos($newfile, ".")) != '.zip'){
+                                if (0 === substr_count($newfile, '.xz') && '.xz' != substr($newfile, strripos($newfile, '.'))) {
+                                    if (0 === substr_count($newfile, '.gz') && '.gz' != substr($newfile, strripos($newfile, '.'))) {
+                                        if (0 === substr_count($newfile, '.tar') && '.tar' != substr($newfile, strripos($newfile, '.'))) {
+                                            if (0 === substr_count($newfile, '.zip') && '.zip' != substr($newfile, strripos($newfile, '.'))) {
                                                 $tree[$path][$file] = $newfile;
                                             }
                                         }
-                                    }   
+                                    }
                                 }
                             }
                         }
                     }
-                    $cnt++;
+                    ++$cnt;
                 }
                 closedir($dh);
             }
         }
+
         return $tree;
     }
 
-    public function flattenTree(array $tree){
-        $flat_tree = array();
+    /**
+     * Method flattens a multi-dimensional array into a associative single dimensional array.
+     *
+     * @param array $tree : Associative multi-dimensional array
+     *
+     * @return array : Single dimensional associative array
+     */
+    public function flattenTree(array $tree): array
+    {
+        $flat_tree = [];
         array_walk_recursive($tree, function ($value, $key) use (&$flat_tree) {
             $flat_tree[$key] = $value;
         });
+
         return $flat_tree;
     }
 
-    protected function error($msg)
+    /**
+     * Prepped to later introduce error logging. Not functional in this version.
+     *
+     * @param array $msg : Error message
+     */
+    protected function error(array $msg): void
     {
         new Log($msg, 'error');
     }
 
+    /**
+     * Prepped to later introduce logging. Not functional in this version.
+     *
+     * @param array $msg : Message
+     */
     protected function log($msg)
     {
         new Log($msg, 'activity');
     }
 }
-
-?>

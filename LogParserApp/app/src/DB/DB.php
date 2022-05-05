@@ -2,8 +2,8 @@
 
 namespace Synaptic4UParser\DB;
 
-use PDO;
 use Exception;
+use PDO;
 
 class DB
 {
@@ -16,26 +16,25 @@ class DB
     public function __construct()
     {
         try {
-            // $root = dirname(__FILE__, 1) . '/Models/;
-            $filepath =  dirname(__FILE__, 4) .'/db_config.json';
+            $filepath = dirname(__FILE__, 4).'/db_config.json';
 
-            // $db_json = file_get_contents($root.$app."db.json");
+            //  Returns associative array.
             $this->conn = json_decode(file_get_contents($filepath), true);
 
             $dsn = 'mysql:host='.$this->conn['host'].';dbname='.$this->conn['dbname'];
 
-            //Create PDO
+            //  Create PDO instance.
             $this->pdo = new PDO($dsn, $this->conn['user'], $this->conn['pass']);
         } catch (Exception $e) {
             exit(json_encode([
-                $this->pdo->errorInfo()
+                $this->pdo->errorInfo(),
             ], JSON_PRETTY_PRINT));
 
             $result = null;
         }
     }
 
-    public function query($params, $sql):mixed
+    public function query($params, $sql): mixed
     {
         try {
             $this->pdo->beginTransaction();
@@ -46,7 +45,7 @@ class DB
 
             $this->lastinsertid = $this->pdo->lastInsertId();
 
-            if(sizeof($params) > 0){
+            if (sizeof($params) > 0) {
                 $this->pdo->commit();
             }
 
@@ -61,7 +60,7 @@ class DB
                 'error' => $e->__toString(),
                 'stmt' => $stmt,
                 'sql' => $sql,
-                'params' => $params
+                'params' => $params,
             ], JSON_PRETTY_PRINT));
 
             $result = null;
@@ -72,17 +71,17 @@ class DB
         }
     }
 
-    public function getLastId():int
+    public function getLastId(): int
     {
         return $this->lastinsertid;
     }
 
-    public function getrowCount():int
+    public function getrowCount(): int
     {
         return $this->rowcount;
     }
 
-    public function getStatus():mixed
+    public function getStatus(): mixed
     {
         return $this->status;
     }

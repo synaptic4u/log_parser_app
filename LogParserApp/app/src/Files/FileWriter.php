@@ -4,6 +4,15 @@ namespace Synaptic4UParser\Files;
 
 use Synaptic4UParser\Core\Log;
 
+/**
+ * Class::FileWriter
+ * Handles all the file writing functionality.
+ * FileWriter::setPath()
+ * FileWriter::appendArrayToFile()
+ * FileWriter::writeArrayToFile()
+ * FileWriter::appendTextToFile()
+ * FileWriter::writeTextToFile()
+ */
 class FileWriter{
 
     protected $path;

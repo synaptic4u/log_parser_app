@@ -1,5 +1,7 @@
 <?php
-
+/**
+ * Initial test script - Depreciated! Not used!
+ */
 if (file_exists(dirname(__FILE__, 1).'/vendor/autoload.php')) {
     require_once dirname(__FILE__, 1).'/vendor/autoload.php';
     // var_dump(dirname(__FILE__, 1).'/vendor/autoload.php');
@@ -10,10 +12,11 @@ use Synaptic4UParser\DB\DB;
 
     function flatten(array $array)
     {
-        $return = array();
+        $return = [];
         array_walk_recursive($array, function ($a) use (&$return) {
             $return[] = $a;
         });
+
         return $return;
     }
 
@@ -23,10 +26,10 @@ use Synaptic4UParser\DB\DB;
         if (is_dir($path)) {
             if ($dh = opendir($path)) {
                 while (($file = readdir($dh)) !== false) {
-                    if ($file !== ".") {
-                        if ($file !== "..") {
+                    if ('.' !== $file) {
+                        if ('..' !== $file) {
                             $newfile = $path.$file;
-                            $newpath = $newfile."/";
+                            $newpath = $newfile.'/';
                             if (is_dir($newpath)) {
                                 $tree[$path][$file] = dir_cursor($newpath, []);
                             } else {
@@ -34,11 +37,12 @@ use Synaptic4UParser\DB\DB;
                             }
                         }
                     }
-                    $cnt++;
+                    ++$cnt;
                 }
                 closedir($dh);
             }
         }
+
         return $tree;
     }
 
@@ -55,9 +59,7 @@ use Synaptic4UParser\DB\DB;
     {
         $log_txt = file_get_contents($file);
 
-        $rows = explode("\n", $log_txt);
-
-        return $rows;
+        return explode("\n", $log_txt);
     }
 
     function parse_system_log(string $file)
@@ -69,9 +71,9 @@ use Synaptic4UParser\DB\DB;
 
         foreach ($rows as $row) {
             if (strlen($row > 10)) {
-                $line = explode(" ", string_clear($row));
+                $line = explode(' ', string_clear($row));
                 // Jan 29 23:52:44
-                $columns['loggedon'] = date_format(date_create(implode(" ", array_slice($line, 0, 3))), "Y-m-d H:i:s");
+                $columns['loggedon'] = date_format(date_create(implode(' ', array_slice($line, 0, 3))), 'Y-m-d H:i:s');
                 $txt = array_slice($line, 3);
                 $columns['server'] = array_shift($txt);
                 $columns['session'] = array_shift($txt);
@@ -79,10 +81,10 @@ use Synaptic4UParser\DB\DB;
                     $columns['user'] = array_shift($txt);
                 // $id = insert_auth_log($columns);
                 } else {
-                    $columns['file'] = substr($file, strripos($file, "/")+1);
+                    $columns['file'] = substr($file, strripos($file, '/') + 1);
                     // $id = insert_system_log($columns);
                 }
-                $columns['command_action'] = implode(" ", $txt);
+                $columns['command_action'] = implode(' ', $txt);
 
                 $id = (strpos($file, 'auth.log') > 0) ? insert_auth_log($columns) : insert_system_log($columns);
                 array_push($list, $id);
@@ -90,19 +92,17 @@ use Synaptic4UParser\DB\DB;
         }
         $rows = null;
 
-        $result = [
-            substr($file, strripos($file, "/")+1) => [
+        return [
+            substr($file, strripos($file, '/') + 1) => [
                 'nu_rows' => $nu_rows,
-                'nu_result' => sizeof($list)
-            ]
+                'nu_result' => sizeof($list),
+            ],
         ];
 
         // $result = [
         //     'nu_rows' => $nu_rows,
         //     'nu_result' => sizeof($list)
         // ];
-
-        return $result;
     }
 
     function insert_auth_log(array $params)
@@ -133,7 +133,7 @@ use Synaptic4UParser\DB\DB;
 
     function string_clear(string $string)
     {
-        return str_replace("     ", " ", str_replace("    ", " ", str_replace("   ", " ", str_replace("  ", " ", str_replace(" :", ":", str_replace(" ;", ";", $string))))));
+        return str_replace('     ', ' ', str_replace('    ', ' ', str_replace('   ', ' ', str_replace('  ', ' ', str_replace(' :', ':', str_replace(' ;', ';', $string))))));
     }
 
     function walk_thru_logs($tree)
@@ -148,13 +148,13 @@ use Synaptic4UParser\DB\DB;
             'mail.warn',
             'messages',
             'syslog',
-            'user.log'
+            'user.log',
         ];
         $alternatives = [
-            'alternatives.log'
+            'alternatives.log',
         ];
         $dpkg = [
-            'dpkg.log'
+            'dpkg.log',
         ];
         $apache = [
             'access.log',
@@ -168,14 +168,14 @@ use Synaptic4UParser\DB\DB;
             'other_vhosts_access.log',
         ];
         $ufw = [
-            'ufw.log'
+            'ufw.log',
         ];
         $fail2ban = [
-            'fail2ban.log'
+            'fail2ban.log',
         ];
         $lynis = [
             'lynis.log',
-            'lynis-report.dat'
+            'lynis-report.dat',
         ];
         $ignore = [
             'btmp',
@@ -189,7 +189,7 @@ use Synaptic4UParser\DB\DB;
             'www-data-ip.pag',
             'www-data-global.pag',
             'www-data-global.dir',
-            'www-data-global'
+            'www-data-global',
         ];
 
         $result = [];
@@ -198,9 +198,9 @@ use Synaptic4UParser\DB\DB;
                 // if(strpos($node, $log) > 0){
                 //     $result[substr($node,strripos($node, "/")+1)] = parse_system_log($node);
                 // }
-                if ((strpos($node, $log) > 0) && (strpos($node, 'apache2') == false)) {
+                if ((strpos($node, $log) > 0) && (false == strpos($node, 'apache2'))) {
                     // $result[substr($node,strripos($node, "/")+1)] = $node;
-                    $result[substr($node, strripos($node, "/")+1)] = parse_system_log($node);
+                    $result[substr($node, strripos($node, '/') + 1)] = parse_system_log($node);
                 }
             }
         }
@@ -218,9 +218,9 @@ use Synaptic4UParser\DB\DB;
 
         fclose($log);
     }
-    
+
     $tree = [];
-    $file = "/home/mila/linode_backup/var/log/apache2/audit/www-data/20220130/20220130-0604/20220130-060418-YfYOQrud27QUzxDFRrx4AwAAAIU";
+    $file = '/home/mila/linode_backup/var/log/apache2/audit/www-data/20220130/20220130-0604/20220130-060418-YfYOQrud27QUzxDFRrx4AwAAAIU';
 
     $path = '/home/mila/linode_backup/var/log/';
 

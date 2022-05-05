@@ -25,6 +25,11 @@ class App
     protected $parser;
     protected $result;
 
+    /**
+     * Constructor will load all the config files:
+     * 1. config_path_list.json -> JSON list of all the directories to step through to build the file list.
+     * 2. config.json -> JSON object of log files to parse.
+     */
     public function __construct()
     {
         try {
@@ -49,6 +54,7 @@ class App
                 $start_loop = microtime(true);
 
                 print_r($path.PHP_EOL);
+
                 $this->getTree($path);
 
                 $this->writeTree();
@@ -107,6 +113,13 @@ class App
         return $this->file_reader->readJSONFile($config_path, 1);
     }
 
+    /**
+     * Creates new Tree instance.
+     * $tree->buildTree() -> Builds the tree which is a multi-dimensional array of all the files to be parsed.
+     * $tree->flattenTree() -> Results in a one dimensional array of files to be parsed.
+     *
+     * @param mixed $path : linux formatted directory path string
+     */
     protected function getTree($path)
     {
         $tree = new Tree();
@@ -116,6 +129,9 @@ class App
         $this->flat_tree = $tree->flattenTree($this->tree);
     }
 
+    /**
+     * Writes both tree structures to file.
+     */
     protected function writeTree()
     {
         $this->file_writer->writeArrayToFile('/structure_files/tree.txt', $this->tree);
@@ -134,11 +150,21 @@ class App
         return $this->parser->loadLogs($this->flat_tree);
     }
 
+    /**
+     * Prepped to later introduce error logging. Not functional in this version.
+     *
+     * @param array $msg : Error message
+     */
     protected function error($msg)
     {
         new Log($msg, 'error');
     }
 
+    /**
+     * Prepped to later introduce logging. Not functional in this version.
+     *
+     * @param array $msg : Message
+     */
     protected function log($msg)
     {
         new Log($msg, 'activity');

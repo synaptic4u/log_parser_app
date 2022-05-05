@@ -1,5 +1,10 @@
 <?php
-
+/**
+ * Application entry script.
+ * Called from the command line.
+ * Shows the user the link to the Progress Report and activity log.
+ * Creates an instance of the App class.
+ */
 if (file_exists(dirname(__FILE__, 1).'/vendor/autoload.php')) {
     require_once dirname(__FILE__, 1).'/vendor/autoload.php';
 }
@@ -27,6 +32,7 @@ try {
 
     $app = new App();
 
+    // End output of app.
     print_r('Completed without breaking!'.PHP_EOL.PHP_EOL);
 } catch (Exception $e) {
     new Log([
