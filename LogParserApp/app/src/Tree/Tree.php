@@ -5,6 +5,9 @@ namespace Synaptic4UParser\Tree;
 use Synaptic4UParser\Core\Log;
 
 /**
+ * Class::Tree :
+ * Builds and flattens associative arrays created from directory structure compared to config structure.
+ *
  * Tree::buildTree : Walks through directory and builds multi-dimensional array of file name paths.
  * Tree::flattenTree : flattens the multi-dimensional array into a single dimensional array.
  */

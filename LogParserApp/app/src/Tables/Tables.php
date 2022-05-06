@@ -14,6 +14,11 @@ class Tables
         $this->db = new DB();
     }
 
+    /**
+     * Reads all the tables from the database.
+     *
+     * @return mixed : Returns a std::Class object of results
+     */
     public function readTablesList(): mixed
     {
         $table_list = [];
@@ -29,6 +34,13 @@ class Tables
         // print_r(json_encode($table_list, JSON_PRETTY_PRINT).PHP_EOL);
     }
 
+    /**
+     * Reads all the column names from the given table.
+     *
+     * @param mixed $table : a std::Class object
+     *
+     * @return mixed : array containing the table's column names with logid column removed
+     */
     public function readTableColumns($table): mixed
     {
         $columns = [];
@@ -40,12 +52,19 @@ class Tables
             $columns[] = $res[0];
         }
 
-        // print_r(json_encode($columns, JSON_PRETTY_PRINT).PHP_EOL);
         array_shift($columns);
 
         return $columns;
     }
 
+    /**
+     * Creates the table in the database.
+     * COlumn names are dynamically allocated from the $table->columns property.
+     *
+     * @param [type] $table : std::Class object containing the table's alias and columns
+     *
+     * @return array : array containing table name, row count and success status
+     */
     public function createTable($table): array
     {
         $sql = 'CREATE TABLE IF NOT EXISTS '.$table->alias.'( `logid` int(11) auto_increment primary key,';
