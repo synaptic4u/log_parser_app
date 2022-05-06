@@ -3,14 +3,14 @@ Log Parser App Setup & Usage
 -----------------------------------------------------------------------------------------------
     Intro:
     -------
-        NB! -> I'm just adding comments and adding the return types to methods. Should still run.
+        NB! -> I'm just adding comments. Should still run.
 
 
         Please note that there are great log parsing applications, but most will give you a web interface to use.
         A web interface is something that I wish to avoid, the goal will be a CLI application, I will be aiming for something like htop.
 
         I will be updating this when I have the chance to do so. There's still documentation I need to do for it!
-        This is all running on a demo server where Im practicing my server administration and doing a little pentesting.
+        This is all running on a server where Im practicing my server administration and doing a little pentesting.
 
         I ended up with thousands of log files with hundreds of thousands of entries while I was testing. 
         I'm not a regex ninja, so I wrote this to be able to query everything from my DB where I am a ninja. 
