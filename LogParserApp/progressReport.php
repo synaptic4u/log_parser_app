@@ -44,6 +44,7 @@ function getCount(): mixed
 }
 
 try {
+    print_r('App timer: '.date('Y-m-d H:i:s').PHP_EOL);
     $start = microtime(true);
 
     print_r('The report sleeps for 10 sec to calculate the active process.'.PHP_EOL);
@@ -71,7 +72,7 @@ try {
     $finish = microtime(true);
 
     $app_timer = [
-        'Date & Time:               ' => date('Y-m-d H:i:s'),
+        'Date & Time:               ' => date('Y-m-d H:i:s', time()),
         'Total records:             ' => number_format($tot_records),
         // 'Start:                     ' => $start,
         // 'Finish:                    ' => $finish,
@@ -79,7 +80,6 @@ try {
         'Duration sec.microseconds: ' => $finish - $start,
     ];
 
-    print_r('App timer: '.date('Y-m-d H:i:s').PHP_EOL);
     print_r('Total records: '.number_format($tot_records).PHP_EOL);
     print_r('App Stats: '.json_encode($app_timer, JSON_PRETTY_PRINT).PHP_EOL.PHP_EOL);
 

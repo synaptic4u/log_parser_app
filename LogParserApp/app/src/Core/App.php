@@ -12,6 +12,34 @@ use Synaptic4UParser\Tree\Tree;
 // To call from the CLI: php /var/www/LogParserApp/app.php
 // CREATE DATABASE /*!32312 IF NOT EXISTS*/ `logs` /*!40100 DEFAULT CHARACTER SET utf8mb4 */;
 
+/**
+ * Class::App :
+ * Contains the functionality to initialise and run the whole app to parse all log files.
+ *
+ * App::construct() :
+ * Constructor will load all the config files.
+ * Creates the FileReader, FileWriter & Parser instances.
+ * Calls the main Parser::loadLogs to run the log parsing.
+ *
+ * App::showReport() :
+ * Writes the final result to file and prints to screen.
+ *
+ * App::readConfig() :
+ * Reads the config_path file.
+ *
+ * App::getTree() :
+ * Builds the tree of all the files to be parsed.
+ *
+ * App::writeTree() :
+ * Writes tree structures to file.
+ *
+ * App::buildStructure() :
+ * Checks the variance between the config.json file & the mysql database structure.
+ * Attempts to create non-existant tables.
+ *
+ * App::loadLogs() :
+ * Cycles through the tree array and parses each log file into the database.
+ */
 class App
 {
     protected $config_path;
@@ -29,6 +57,8 @@ class App
      * Constructor will load all the config files:
      * 1. config_path_list.json -> JSON list of all the directories to step through to build the file list.
      * 2. config.json -> JSON object of log files to parse.
+     * Creates the FileReader, FileWriter & Parser instances.
+     * Calls the main Parser::loadLogs to run the log parsing.
      */
     public function __construct()
     {
@@ -103,12 +133,20 @@ class App
         }
     }
 
+    /**
+     * Writes the final result to file: result.txt.
+     * Calls FileWriter::appendArrayToFile()
+     * Prints the final result to the screen.
+     */
     public function showReport()
     {
         $this->file_writer->appendArrayToFile('/structure_files/result.txt', $this->result);
         print_r(json_encode($this->result, JSON_PRETTY_PRINT).PHP_EOL);
     }
 
+    /**
+     * Reads the config_path file -> List of all directories to search through.
+     */
     protected function readConfig(string $config_path): mixed
     {
         return $this->file_reader->readJSONFile($config_path, 1);

@@ -7,6 +7,9 @@ use Synaptic4UParser\DB\DB;
 use Synaptic4UParser\Tables\Tables;
 
 /**
+ * Class::Structure :
+ * Contains the functionality to read and compare the structure between the config and database.
+ *
  * Structure::parse() :
  * Compares DB schema and config structure. Creates non-existant tables.
  *
@@ -131,7 +134,7 @@ class Structure
      *
      * @param mixed $table : std::Class
      */
-    protected function getMaxLogID($table): int
+    protected function getMaxLogID($table): mixed
     {
         $sql = 'select max(logid) as max_logid from '.$table.' where 1 = ?;';
 
