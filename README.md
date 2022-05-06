@@ -135,9 +135,9 @@ Log Structure
                     I plan to use this to differentiate log files with the same name based upon their directory path.
             ->  "name" : "daemon-error.log" -> The full name of the log file.
             ->  "columns" : ["loggedon", "error", "client_ip", "unique_id", "log"] -> The expected columns.
-                    These will become the field name in the database table.
+                    These will become the field names in the database table.
                     The last column "log" will default to all content in the row of the file as it is parsed. So after the initial named columns, 
-                    all remaining content will be included into the :log" column.
+                    all remaining content will be included into the "log" column.
             ->  "loggedon_format" : "YYYY-MM-DD HH:mm:ss.m-6" -> This is the expected date format in the file. 
                     Different applications use a different format and it can be problematic. 
                     I changed the way of creating dates in PHP to be more generic, but couldn't catch all the variances. 
@@ -160,7 +160,7 @@ Log Structure
             ->  "field_delimiter" : "space" > Fields are normally delimited by a "space"
             ->  "quirk" : "Unique_id & client_ip_port could be anywhere, we'll search for those values after error column. 
                            Date formatted as either: [Day MMM DD HH:mm:ss.m-6 YYYY] || [Day MMM DD HH:mm:ss.m-6 YYYY]" 
-                    -> "quirk" helped me to keep track of difference in formatting, which happened when I changed some applications log formatting.
+                    -> "quirk" helped me to keep track of differences in formatting, which happened when I changed some application's log formatting.
                             Namely Apache2. I experimented with different formats.
                             I also experienced quirks when some applications would write their own errors to the log file, which used a different format,
                             like Fail2Ban for example.
