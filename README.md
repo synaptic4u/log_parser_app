@@ -139,7 +139,9 @@ Log Structure
                     The last column "log" will default to all content in the row of the file as it is parsed. So after the initial named columns, 
                     all remaining content will be included into the :log" column.
             ->  "loggedon_format" : "YYYY-MM-DD HH:mm:ss.m-6" -> This is the expected date format in the file. 
-                    Different applications use a different format and it can be problematic.
+                    Different applications use a different format and it can be problematic. 
+                    I changed the way of creating dates in PHP to be more generic, but couldn't catch all the variances. 
+                    If you encounter a different format, please email me and I will adjust the code.
                     So far I've encountered these variations in my log files:
                         "MMM DD HH:mm:ss"
                         "YYYY-MM-DD HH:mm:ss"
