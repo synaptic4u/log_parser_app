@@ -237,6 +237,10 @@ Side Note
     I do have DB experience and my mind thinks in structured sets. 
     Tidy little rows and columns.
     
+    You will notice that PHPMailer is included in the dependancies. It is depreciated I think...
+    I was planning to email reports at a later stage.
+    Other dependancy that is used is composer's PSR4 autoloading.
+    
     I will be maintaining this project and refractoring it. 
     I wanted it to be something useful and something I could share.
     I hope that this is simple for you.
