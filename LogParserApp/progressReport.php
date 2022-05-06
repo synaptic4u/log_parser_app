@@ -20,7 +20,7 @@ use Synaptic4UParser\DB\DB;
  *
  * @return $table_report object - each row in object has row count
  */
-function getCount()
+function getCount(): mixed
 {
     $db = new DB();
 

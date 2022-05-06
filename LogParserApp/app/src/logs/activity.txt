@@ -1,64 +1,64 @@
 
-2022 / 03 / 18 : 17 02 19
+2022 / 05 / 06 : 13 22 07
 Nu: 0 Created: auth: {"alias":"auth","count":0,"success":"true"}
 
-2022 / 03 / 18 : 17 02 19
+2022 / 05 / 06 : 13 22 07
 Nu: 1 Created: alternatives: {"alias":"alternatives","count":0,"success":"true"}
 
-2022 / 03 / 18 : 17 02 20
+2022 / 05 / 06 : 13 22 07
 Nu: 2 Created: daemon: {"alias":"daemon","count":0,"success":"true"}
 
-2022 / 03 / 18 : 17 02 20
+2022 / 05 / 06 : 13 22 08
 Nu: 3 Created: debug: {"alias":"debug","count":0,"success":"true"}
 
-2022 / 03 / 18 : 17 02 20
+2022 / 05 / 06 : 13 22 08
 Nu: 4 Created: dpkg: {"alias":"dpkg","count":0,"success":"true"}
 
-2022 / 03 / 18 : 17 02 20
+2022 / 05 / 06 : 13 22 08
 Nu: 5 Created: fail2ban: {"alias":"fail2ban","count":0,"success":"true"}
 
-2022 / 03 / 18 : 17 02 21
+2022 / 05 / 06 : 13 22 09
 Nu: 6 Created: kern: {"alias":"kern","count":0,"success":"true"}
 
-2022 / 03 / 18 : 17 02 21
+2022 / 05 / 06 : 13 22 09
 Nu: 7 Created: mail_info: {"alias":"mail_info","count":0,"success":"true"}
 
-2022 / 03 / 18 : 17 02 21
+2022 / 05 / 06 : 13 22 09
 Nu: 8 Created: mail_log: {"alias":"mail_log","count":0,"success":"true"}
 
-2022 / 03 / 18 : 17 02 21
+2022 / 05 / 06 : 13 22 09
 Nu: 9 Created: mail_warn: {"alias":"mail_warn","count":0,"success":"true"}
 
-2022 / 03 / 18 : 17 02 22
+2022 / 05 / 06 : 13 22 10
 Nu: 10 Created: messages: {"alias":"messages","count":0,"success":"true"}
 
-2022 / 03 / 18 : 17 02 22
+2022 / 05 / 06 : 13 22 10
 Nu: 11 Created: syslog: {"alias":"syslog","count":0,"success":"true"}
 
-2022 / 03 / 18 : 17 02 23
+2022 / 05 / 06 : 13 22 11
 Nu: 12 Created: ufw: {"alias":"ufw","count":0,"success":"true"}
 
-2022 / 03 / 18 : 17 02 23
+2022 / 05 / 06 : 13 22 11
 Nu: 13 Created: user: {"alias":"user","count":0,"success":"true"}
 
-2022 / 03 / 18 : 17 02 24
+2022 / 05 / 06 : 13 22 12
 Nu: 14 Created: daemon_access: {"alias":"daemon_access","count":0,"success":"true"}
 
-2022 / 03 / 18 : 17 02 24
+2022 / 05 / 06 : 13 22 12
 Nu: 15 Created: daemon_error: {"alias":"daemon_error","count":0,"success":"true"}
 
-2022 / 03 / 18 : 17 02 25
+2022 / 05 / 06 : 13 22 13
 Nu: 16 Created: daemon_perf: {"alias":"daemon_perf","count":0,"success":"true"}
 
-2022 / 03 / 18 : 17 02 25
+2022 / 05 / 06 : 13 22 14
 Nu: 17 Created: modsec_perf: {"alias":"modsec_perf","count":0,"success":"true"}
 
-2022 / 03 / 18 : 17 02 25
+2022 / 05 / 06 : 13 22 14
 Nu: 18 Created: modsec_audit: {"alias":"modsec_audit","count":0,"success":"true"}
 
-2022 / 03 / 18 : 17 02 25
+2022 / 05 / 06 : 13 22 14
 {
-    "Location": "Synaptic4UParser\\Parser\\Parser::loadLogs() : \/media\/mila\/data\/linode_logs\/20220130\/",
+    "Location": "Synaptic4UParser\\Parser\\Parser::loadLogs() : \/media\/mila\/data\/linode_logs\/20220130\/log\/",
     "Accepted log files parsed to own tables": {
         "auth.log-20220130": "auth",
         "auth.log": "auth",
@@ -278,622 +278,622 @@ Nu: 18 Created: modsec_audit: {"alias":"modsec_audit","count":0,"success":"true"
     }
 }
 
-2022 / 03 / 18 : 17 02 26
+2022 / 05 / 06 : 13 22 14
 Location: Synaptic4UParser\Parser\Parser::parseLog(): auth.log-20220130
 alias: auth
 
-2022 / 03 / 18 : 17 03 34
+2022 / 05 / 06 : 13 23 27
 Location: Synaptic4UParser\Parser\Parser::parseLog(): auth.log-20220130
 alias: auth
 result: {
     "auth.log-20220130": {
-        "start": 1647615746.171493,
-        "finish": 1647615814.552486,
-        "duration min:sec": "1:8",
-        "duration sec.microseconds": 68.3809928894043,
+        "start": 1651836134.969158,
+        "finish": 1651836207.164391,
+        "duration min:sec": "1:12",
+        "duration sec.microseconds": 72.19523310661316,
         "nu_rows": 5488,
         "nu_result": 5488
     }
 }
 
-2022 / 03 / 18 : 17 03 34
+2022 / 05 / 06 : 13 23 27
 Location: Synaptic4UParser\Parser\Parser::parseLog(): auth.log
 alias: auth
 
-2022 / 03 / 18 : 17 03 37
+2022 / 05 / 06 : 13 23 29
 Location: Synaptic4UParser\Parser\Parser::parseLog(): auth.log
 alias: auth
 result: {
     "auth.log": {
-        "start": 1647615814.552933,
-        "finish": 1647615817.023169,
+        "start": 1651836207.164796,
+        "finish": 1651836209.915481,
         "duration min:sec": "0:2",
-        "duration sec.microseconds": 2.47023606300354,
+        "duration sec.microseconds": 2.750684976577759,
         "nu_rows": 201,
         "nu_result": 201
     }
 }
 
-2022 / 03 / 18 : 17 03 37
+2022 / 05 / 06 : 13 23 29
 Location: Synaptic4UParser\Parser\Parser::parseLog(): alternatives.log
 alias: alternatives
 
-2022 / 03 / 18 : 17 03 37
+2022 / 05 / 06 : 13 23 30
 Location: Synaptic4UParser\Parser\Parser::parseLog(): alternatives.log
 alias: alternatives
 result: {
     "alternatives.log": {
-        "start": 1647615817.023527,
-        "finish": 1647615817.76557,
+        "start": 1651836209.915808,
+        "finish": 1651836210.658002,
         "duration min:sec": "0:0",
-        "duration sec.microseconds": 0.7420430183410645,
+        "duration sec.microseconds": 0.7421939373016357,
         "nu_rows": 66,
         "nu_result": 66
     }
 }
 
-2022 / 03 / 18 : 17 03 37
+2022 / 05 / 06 : 13 23 30
 Location: Synaptic4UParser\Parser\Parser::parseLog(): daemon.log
 alias: daemon
 
-2022 / 03 / 18 : 17 03 40
+2022 / 05 / 06 : 13 23 33
 Location: Synaptic4UParser\Parser\Parser::parseLog(): daemon.log
 alias: daemon
 result: {
     "daemon.log": {
-        "start": 1647615817.765989,
-        "finish": 1647615820.270094,
+        "start": 1651836210.658348,
+        "finish": 1651836213.326977,
         "duration min:sec": "0:2",
-        "duration sec.microseconds": 2.5041048526763916,
+        "duration sec.microseconds": 2.6686289310455322,
         "nu_rows": 205,
         "nu_result": 205
     }
 }
 
-2022 / 03 / 18 : 17 03 40
+2022 / 05 / 06 : 13 23 33
 Location: Synaptic4UParser\Parser\Parser::parseLog(): daemon.log-20220130
 alias: daemon
 
-2022 / 03 / 18 : 17 04 49
+2022 / 05 / 06 : 13 24 47
 Location: Synaptic4UParser\Parser\Parser::parseLog(): daemon.log-20220130
 alias: daemon
 result: {
     "daemon.log-20220130": {
-        "start": 1647615820.270486,
-        "finish": 1647615889.682249,
-        "duration min:sec": "1:9",
-        "duration sec.microseconds": 69.41176295280457,
+        "start": 1651836213.328106,
+        "finish": 1651836287.050355,
+        "duration min:sec": "1:13",
+        "duration sec.microseconds": 73.7222490310669,
         "nu_rows": 5593,
         "nu_result": 5593
     }
 }
 
-2022 / 03 / 18 : 17 04 49
+2022 / 05 / 06 : 13 24 47
 Location: Synaptic4UParser\Parser\Parser::parseLog(): debug
 alias: debug
 
-2022 / 03 / 18 : 17 04 49
+2022 / 05 / 06 : 13 24 47
 Location: Synaptic4UParser\Parser\Parser::parseLog(): debug
 alias: debug
 result: {
     "debug": {
-        "start": 1647615889.682652,
-        "finish": 1647615889.727063,
+        "start": 1651836287.050865,
+        "finish": 1651836287.106252,
         "duration min:sec": "0:0",
-        "duration sec.microseconds": 0.04441094398498535,
+        "duration sec.microseconds": 0.055387020111083984,
         "nu_rows": 4,
         "nu_result": 4
     }
 }
 
-2022 / 03 / 18 : 17 04 49
+2022 / 05 / 06 : 13 24 47
 Location: Synaptic4UParser\Parser\Parser::parseLog(): modsec_debug.log
 alias: debug
 
-2022 / 03 / 18 : 17 21 59
+2022 / 05 / 06 : 13 43 40
 Location: Synaptic4UParser\Parser\Parser::parseLog(): modsec_debug.log
 alias: debug
 result: {
     "modsec_debug.log": {
-        "start": 1647615889.727637,
-        "finish": 1647616919.469027,
-        "duration min:sec": "17:9",
-        "duration sec.microseconds": 1029.741389989853,
+        "start": 1651836287.106478,
+        "finish": 1651837420.197566,
+        "duration min:sec": "18:53",
+        "duration sec.microseconds": 1133.0910880565643,
         "nu_rows": 81893,
         "nu_result": 81893
     }
 }
 
-2022 / 03 / 18 : 17 21 59
+2022 / 05 / 06 : 13 43 40
 Location: Synaptic4UParser\Parser\Parser::parseLog(): debug-20220130
 alias: debug
 
-2022 / 03 / 18 : 17 22 20
+2022 / 05 / 06 : 13 44 01
 Location: Synaptic4UParser\Parser\Parser::parseLog(): debug-20220130
 alias: debug
 result: {
     "debug-20220130": {
-        "start": 1647616919.470778,
-        "finish": 1647616940.427521,
-        "duration min:sec": "0:20",
-        "duration sec.microseconds": 20.956743001937866,
+        "start": 1651837420.198482,
+        "finish": 1651837441.786091,
+        "duration min:sec": "0:21",
+        "duration sec.microseconds": 21.58760905265808,
         "nu_rows": 1659,
         "nu_result": 1659
     }
 }
 
-2022 / 03 / 18 : 17 22 20
+2022 / 05 / 06 : 13 44 01
 Location: Synaptic4UParser\Parser\Parser::parseLog(): unattended-upgrades-dpkg.log
 alias: dpkg
 
-2022 / 03 / 18 : 17 22 20
+2022 / 05 / 06 : 13 44 01
 Location: Synaptic4UParser\Parser\Parser::parseLog(): unattended-upgrades-dpkg.log
 alias: dpkg
 result: {
     "unattended-upgrades-dpkg.log": {
-        "start": 1647616940.428216,
-        "finish": 1647616940.428871,
+        "start": 1651837441.786469,
+        "finish": 1651837441.786785,
         "duration min:sec": "0:0",
-        "duration sec.microseconds": 0.0006549358367919922,
+        "duration sec.microseconds": 0.0003159046173095703,
         "nu_rows": "File is empty or the row length is less then 10 charachters.",
         "nu_result": 0
     }
 }
 
-2022 / 03 / 18 : 17 22 20
+2022 / 05 / 06 : 13 44 01
 Location: Synaptic4UParser\Parser\Parser::parseLog(): dpkg.log
 alias: dpkg
 
-2022 / 03 / 18 : 17 22 52
+2022 / 05 / 06 : 13 44 40
 Location: Synaptic4UParser\Parser\Parser::parseLog(): dpkg.log
 alias: dpkg
 result: {
     "dpkg.log": {
-        "start": 1647616940.429424,
-        "finish": 1647616972.363839,
-        "duration min:sec": "0:31",
-        "duration sec.microseconds": 31.934414863586426,
+        "start": 1651837441.787066,
+        "finish": 1651837480.484136,
+        "duration min:sec": "0:38",
+        "duration sec.microseconds": 38.69707012176514,
         "nu_rows": 2535,
         "nu_result": 2535
     }
 }
 
-2022 / 03 / 18 : 17 22 52
+2022 / 05 / 06 : 13 44 40
 Location: Synaptic4UParser\Parser\Parser::parseLog(): fail2ban.log-20220130
 alias: fail2ban
 
-2022 / 03 / 18 : 17 22 56
+2022 / 05 / 06 : 13 44 44
 Location: Synaptic4UParser\Parser\Parser::parseLog(): fail2ban.log-20220130
 alias: fail2ban
 result: {
     "fail2ban.log-20220130": {
-        "start": 1647616972.364548,
-        "finish": 1647616976.633649,
+        "start": 1651837480.484512,
+        "finish": 1651837484.898638,
         "duration min:sec": "0:4",
-        "duration sec.microseconds": 4.269101142883301,
+        "duration sec.microseconds": 4.414125919342041,
         "nu_rows": 351,
         "nu_result": 351
     }
 }
 
-2022 / 03 / 18 : 17 22 56
+2022 / 05 / 06 : 13 44 44
 Location: Synaptic4UParser\Parser\Parser::parseLog(): fail2ban.log
 alias: fail2ban
 
-2022 / 03 / 18 : 17 22 56
+2022 / 05 / 06 : 13 44 44
 Location: Synaptic4UParser\Parser\Parser::parseLog(): fail2ban.log
 alias: fail2ban
 result: {
     "fail2ban.log": {
-        "start": 1647616976.634264,
-        "finish": 1647616976.644818,
+        "start": 1651837484.898993,
+        "finish": 1651837484.9098,
         "duration min:sec": "0:0",
-        "duration sec.microseconds": 0.010554075241088867,
+        "duration sec.microseconds": 0.010807037353515625,
         "nu_rows": 1,
         "nu_result": 1
     }
 }
 
-2022 / 03 / 18 : 17 22 56
+2022 / 05 / 06 : 13 44 44
 Location: Synaptic4UParser\Parser\Parser::parseLog(): kern.log-20220130
 alias: kern
 
-2022 / 03 / 18 : 17 24 18
+2022 / 05 / 06 : 13 46 17
 Location: Synaptic4UParser\Parser\Parser::parseLog(): kern.log-20220130
 alias: kern
 result: {
     "kern.log-20220130": {
-        "start": 1647616976.645409,
-        "finish": 1647617058.973972,
-        "duration min:sec": "1:22",
-        "duration sec.microseconds": 82.32856297492981,
+        "start": 1651837484.910191,
+        "finish": 1651837577.859277,
+        "duration min:sec": "1:32",
+        "duration sec.microseconds": 92.94908595085144,
         "nu_rows": 6433,
         "nu_result": 6433
     }
 }
 
-2022 / 03 / 18 : 17 24 18
+2022 / 05 / 06 : 13 46 17
 Location: Synaptic4UParser\Parser\Parser::parseLog(): kern.log
 alias: kern
 
-2022 / 03 / 18 : 17 24 18
+2022 / 05 / 06 : 13 46 17
 Location: Synaptic4UParser\Parser\Parser::parseLog(): kern.log
 alias: kern
 result: {
     "kern.log": {
-        "start": 1647617058.974766,
-        "finish": 1647617058.975334,
+        "start": 1651837577.859778,
+        "finish": 1651837577.860219,
         "duration min:sec": "0:0",
-        "duration sec.microseconds": 0.0005679130554199219,
+        "duration sec.microseconds": 0.0004410743713378906,
         "nu_rows": "File is empty or the row length is less then 10 charachters.",
         "nu_result": 0
     }
 }
 
-2022 / 03 / 18 : 17 24 18
+2022 / 05 / 06 : 13 46 17
 Location: Synaptic4UParser\Parser\Parser::parseLog(): mail.info
 alias: mail_info
 
-2022 / 03 / 18 : 17 24 19
+2022 / 05 / 06 : 13 46 18
 Location: Synaptic4UParser\Parser\Parser::parseLog(): mail.info
 alias: mail_info
 result: {
     "mail.info": {
-        "start": 1647617058.975824,
-        "finish": 1647617059.074464,
+        "start": 1651837577.860548,
+        "finish": 1651837578.060643,
         "duration min:sec": "0:0",
-        "duration sec.microseconds": 0.09863996505737305,
+        "duration sec.microseconds": 0.20009493827819824,
         "nu_rows": 7,
         "nu_result": 7
     }
 }
 
-2022 / 03 / 18 : 17 24 19
+2022 / 05 / 06 : 13 46 18
 Location: Synaptic4UParser\Parser\Parser::parseLog(): mail.info-20220130
 alias: mail_info
 
-2022 / 03 / 18 : 17 24 27
+2022 / 05 / 06 : 13 46 29
 Location: Synaptic4UParser\Parser\Parser::parseLog(): mail.info-20220130
 alias: mail_info
 result: {
     "mail.info-20220130": {
-        "start": 1647617059.075044,
-        "finish": 1647617067.915884,
-        "duration min:sec": "0:8",
-        "duration sec.microseconds": 8.840840101242065,
+        "start": 1651837578.061138,
+        "finish": 1651837589.687569,
+        "duration min:sec": "0:11",
+        "duration sec.microseconds": 11.626430988311768,
         "nu_rows": 625,
         "nu_result": 625
     }
 }
 
-2022 / 03 / 18 : 17 24 27
+2022 / 05 / 06 : 13 46 29
 Location: Synaptic4UParser\Parser\Parser::parseLog(): mail.log
 alias: mail_log
 
-2022 / 03 / 18 : 17 24 27
+2022 / 05 / 06 : 13 46 29
 Location: Synaptic4UParser\Parser\Parser::parseLog(): mail.log
 alias: mail_log
 result: {
     "mail.log": {
-        "start": 1647617067.916523,
-        "finish": 1647617067.994334,
+        "start": 1651837589.687948,
+        "finish": 1651837589.766216,
         "duration min:sec": "0:0",
-        "duration sec.microseconds": 0.07781100273132324,
+        "duration sec.microseconds": 0.07826805114746094,
         "nu_rows": 7,
         "nu_result": 7
     }
 }
 
-2022 / 03 / 18 : 17 24 27
+2022 / 05 / 06 : 13 46 29
 Location: Synaptic4UParser\Parser\Parser::parseLog(): mail.log-20220130
 alias: mail_log
 
-2022 / 03 / 18 : 17 24 36
+2022 / 05 / 06 : 13 46 40
 Location: Synaptic4UParser\Parser\Parser::parseLog(): mail.log-20220130
 alias: mail_log
 result: {
     "mail.log-20220130": {
-        "start": 1647617067.994911,
-        "finish": 1647617076.228029,
-        "duration min:sec": "0:8",
-        "duration sec.microseconds": 8.233118057250977,
+        "start": 1651837589.766574,
+        "finish": 1651837600.102121,
+        "duration min:sec": "0:10",
+        "duration sec.microseconds": 10.33554720878601,
         "nu_rows": 625,
         "nu_result": 625
     }
 }
 
-2022 / 03 / 18 : 17 24 36
+2022 / 05 / 06 : 13 46 40
 Location: Synaptic4UParser\Parser\Parser::parseLog(): mail.warn-20220130
 alias: mail_warn
 
-2022 / 03 / 18 : 17 24 37
+2022 / 05 / 06 : 13 46 41
 Location: Synaptic4UParser\Parser\Parser::parseLog(): mail.warn-20220130
 alias: mail_warn
 result: {
     "mail.warn-20220130": {
-        "start": 1647617076.229695,
-        "finish": 1647617077.092447,
+        "start": 1651837600.102474,
+        "finish": 1651837601.022466,
         "duration min:sec": "0:0",
-        "duration sec.microseconds": 0.8627519607543945,
+        "duration sec.microseconds": 0.9199919700622559,
         "nu_rows": 65,
         "nu_result": 65
     }
 }
 
-2022 / 03 / 18 : 17 24 37
+2022 / 05 / 06 : 13 46 41
 Location: Synaptic4UParser\Parser\Parser::parseLog(): mail.warn
 alias: mail_warn
 
-2022 / 03 / 18 : 17 24 37
+2022 / 05 / 06 : 13 46 41
 Location: Synaptic4UParser\Parser\Parser::parseLog(): mail.warn
 alias: mail_warn
 result: {
     "mail.warn": {
-        "start": 1647617077.093085,
-        "finish": 1647617077.104017,
+        "start": 1651837601.022813,
+        "finish": 1651837601.033618,
         "duration min:sec": "0:0",
-        "duration sec.microseconds": 0.010931968688964844,
+        "duration sec.microseconds": 0.010804891586303711,
         "nu_rows": 1,
         "nu_result": 1
     }
 }
 
-2022 / 03 / 18 : 17 24 37
+2022 / 05 / 06 : 13 46 41
 Location: Synaptic4UParser\Parser\Parser::parseLog(): messages-20220130
 alias: messages
 
-2022 / 03 / 18 : 17 25 53
+2022 / 05 / 06 : 13 47 52
 Location: Synaptic4UParser\Parser\Parser::parseLog(): messages-20220130
 alias: messages
 result: {
     "messages-20220130": {
-        "start": 1647617077.105087,
-        "finish": 1647617153.336557,
-        "duration min:sec": "1:16",
-        "duration sec.microseconds": 76.23146986961365,
+        "start": 1651837601.033959,
+        "finish": 1651837672.554924,
+        "duration min:sec": "1:11",
+        "duration sec.microseconds": 71.52096509933472,
         "nu_rows": 5345,
         "nu_result": 5345
     }
 }
 
-2022 / 03 / 18 : 17 25 53
+2022 / 05 / 06 : 13 47 52
 Location: Synaptic4UParser\Parser\Parser::parseLog(): messages
 alias: messages
 
-2022 / 03 / 18 : 17 25 53
+2022 / 05 / 06 : 13 47 52
 Location: Synaptic4UParser\Parser\Parser::parseLog(): messages
 alias: messages
 result: {
     "messages": {
-        "start": 1647617153.337237,
-        "finish": 1647617153.347318,
+        "start": 1651837672.555361,
+        "finish": 1651837672.566004,
         "duration min:sec": "0:0",
-        "duration sec.microseconds": 0.010081052780151367,
+        "duration sec.microseconds": 0.01064300537109375,
         "nu_rows": 1,
         "nu_result": 1
     }
 }
 
-2022 / 03 / 18 : 17 25 53
+2022 / 05 / 06 : 13 47 52
 Location: Synaptic4UParser\Parser\Parser::parseLog(): syslog.1
 alias: syslog
 
-2022 / 03 / 18 : 17 27 30
+2022 / 05 / 06 : 13 49 34
 Location: Synaptic4UParser\Parser\Parser::parseLog(): syslog.1
 alias: syslog
 result: {
     "syslog.1": {
-        "start": 1647617153.348164,
-        "finish": 1647617250.911713,
-        "duration min:sec": "1:37",
-        "duration sec.microseconds": 97.56354880332947,
+        "start": 1651837672.566349,
+        "finish": 1651837774.693996,
+        "duration min:sec": "1:42",
+        "duration sec.microseconds": 102.12764692306519,
         "nu_rows": 7325,
         "nu_result": 7325
     }
 }
 
-2022 / 03 / 18 : 17 27 30
+2022 / 05 / 06 : 13 49 34
 Location: Synaptic4UParser\Parser\Parser::parseLog(): syslog-20220130
 alias: syslog
 
-2022 / 03 / 18 : 17 27 50
+2022 / 05 / 06 : 13 49 54
 Location: Synaptic4UParser\Parser\Parser::parseLog(): syslog-20220130
 alias: syslog
 result: {
     "syslog-20220130": {
-        "start": 1647617250.912829,
-        "finish": 1647617270.790599,
+        "start": 1651837774.69449,
+        "finish": 1651837794.361578,
         "duration min:sec": "0:19",
-        "duration sec.microseconds": 19.87777018547058,
+        "duration sec.microseconds": 19.6670880317688,
         "nu_rows": 1538,
         "nu_result": 1538
     }
 }
 
-2022 / 03 / 18 : 17 27 50
+2022 / 05 / 06 : 13 49 54
 Location: Synaptic4UParser\Parser\Parser::parseLog(): syslog-20220129
 alias: syslog
 
-2022 / 03 / 18 : 17 28 12
+2022 / 05 / 06 : 13 50 15
 Location: Synaptic4UParser\Parser\Parser::parseLog(): syslog-20220129
 alias: syslog
 result: {
     "syslog-20220129": {
-        "start": 1647617270.791457,
-        "finish": 1647617292.588822,
+        "start": 1651837794.36196,
+        "finish": 1651837815.877932,
         "duration min:sec": "0:21",
-        "duration sec.microseconds": 21.797364950180054,
+        "duration sec.microseconds": 21.515972137451172,
         "nu_rows": 1670,
         "nu_result": 1670
     }
 }
 
-2022 / 03 / 18 : 17 28 12
+2022 / 05 / 06 : 13 50 15
 Location: Synaptic4UParser\Parser\Parser::parseLog(): syslog.2
 alias: syslog
 
-2022 / 03 / 18 : 17 28 55
+2022 / 05 / 06 : 13 50 53
 Location: Synaptic4UParser\Parser\Parser::parseLog(): syslog.2
 alias: syslog
 result: {
     "syslog.2": {
-        "start": 1647617292.589794,
-        "finish": 1647617335.708318,
-        "duration min:sec": "0:43",
-        "duration sec.microseconds": 43.11852407455444,
+        "start": 1651837815.878308,
+        "finish": 1651837853.594677,
+        "duration min:sec": "0:37",
+        "duration sec.microseconds": 37.71636891365051,
         "nu_rows": 2866,
         "nu_result": 2866
     }
 }
 
-2022 / 03 / 18 : 17 28 55
+2022 / 05 / 06 : 13 50 53
 Location: Synaptic4UParser\Parser\Parser::parseLog(): syslog
 alias: syslog
 
-2022 / 03 / 18 : 17 28 59
+2022 / 05 / 06 : 13 50 56
 Location: Synaptic4UParser\Parser\Parser::parseLog(): syslog
 alias: syslog
 result: {
     "syslog": {
-        "start": 1647617335.709074,
-        "finish": 1647617339.368371,
+        "start": 1651837853.59511,
+        "finish": 1651837856.873063,
         "duration min:sec": "0:3",
-        "duration sec.microseconds": 3.659296989440918,
+        "duration sec.microseconds": 3.2779531478881836,
         "nu_rows": 250,
         "nu_result": 250
     }
 }
 
-2022 / 03 / 18 : 17 28 59
+2022 / 05 / 06 : 13 50 56
 Location: Synaptic4UParser\Parser\Parser::parseLog(): user.log
 alias: user
 
-2022 / 03 / 18 : 17 28 59
+2022 / 05 / 06 : 13 50 56
 Location: Synaptic4UParser\Parser\Parser::parseLog(): user.log
 alias: user
 result: {
     "user.log": {
-        "start": 1647617339.368978,
-        "finish": 1647617339.369426,
+        "start": 1651837856.87342,
+        "finish": 1651837856.873718,
         "duration min:sec": "0:0",
-        "duration sec.microseconds": 0.00044798851013183594,
+        "duration sec.microseconds": 0.0002980232238769531,
         "nu_rows": "File is empty or the row length is less then 10 charachters.",
         "nu_result": 0
     }
 }
 
-2022 / 03 / 18 : 17 28 59
+2022 / 05 / 06 : 13 50 56
 Location: Synaptic4UParser\Parser\Parser::parseLog(): user.log-20220130
 alias: user
 
-2022 / 03 / 18 : 17 28 59
+2022 / 05 / 06 : 13 50 57
 Location: Synaptic4UParser\Parser\Parser::parseLog(): user.log-20220130
 alias: user
 result: {
     "user.log-20220130": {
-        "start": 1647617339.369758,
-        "finish": 1647617339.680558,
+        "start": 1651837856.87394,
+        "finish": 1651837857.018335,
         "duration min:sec": "0:0",
-        "duration sec.microseconds": 0.31080007553100586,
+        "duration sec.microseconds": 0.144395112991333,
         "nu_rows": 9,
         "nu_result": 9
     }
 }
 
-2022 / 03 / 18 : 17 28 59
+2022 / 05 / 06 : 13 50 57
 Location: Synaptic4UParser\Parser\Parser::parseLog(): daemon-access.log
 alias: daemon_access
 
-2022 / 03 / 18 : 17 30 19
+2022 / 05 / 06 : 13 52 08
 Location: Synaptic4UParser\Parser\Parser::parseLog(): daemon-access.log
 alias: daemon_access
 result: {
     "daemon-access.log": {
-        "start": 1647617339.681231,
-        "finish": 1647617419.191845,
-        "duration min:sec": "1:19",
-        "duration sec.microseconds": 79.51061391830444,
+        "start": 1651837857.018449,
+        "finish": 1651837928.166751,
+        "duration min:sec": "1:11",
+        "duration sec.microseconds": 71.14830183982849,
         "nu_rows": 4902,
         "nu_result": 4902
     }
 }
 
-2022 / 03 / 18 : 17 30 19
+2022 / 05 / 06 : 13 52 08
 Location: Synaptic4UParser\Parser\Parser::parseLog(): daemon-error.log
 alias: daemon_error
 
-2022 / 03 / 18 : 17 35 03
+2022 / 05 / 06 : 13 57 11
 Location: Synaptic4UParser\Parser\Parser::parseLog(): daemon-error.log
 alias: daemon_error
 result: {
     "daemon-error.log": {
-        "start": 1647617419.19267,
-        "finish": 1647617703.112691,
-        "duration min:sec": "4:43",
-        "duration sec.microseconds": 283.9200208187103,
+        "start": 1651837928.167194,
+        "finish": 1651838231.631019,
+        "duration min:sec": "5:3",
+        "duration sec.microseconds": 303.4638252258301,
         "nu_rows": 21235,
         "nu_result": 21235
     }
 }
 
-2022 / 03 / 18 : 17 35 03
+2022 / 05 / 06 : 13 57 11
 Location: Synaptic4UParser\Parser\Parser::parseLog(): daemon-perf.log
 alias: daemon_perf
 
-2022 / 03 / 18 : 17 35 21
+2022 / 05 / 06 : 13 57 28
 Location: Synaptic4UParser\Parser\Parser::parseLog(): daemon-perf.log
 alias: daemon_perf
 result: {
     "daemon-perf.log": {
-        "start": 1647617703.114283,
-        "finish": 1647617721.237274,
-        "duration min:sec": "0:18",
-        "duration sec.microseconds": 18.12299084663391,
+        "start": 1651838231.631717,
+        "finish": 1651838248.866649,
+        "duration min:sec": "0:17",
+        "duration sec.microseconds": 17.23493194580078,
         "nu_rows": 1250,
         "nu_result": 1250
     }
 }
 
-2022 / 03 / 18 : 17 35 21
+2022 / 05 / 06 : 13 57 28
 Location: Synaptic4UParser\Parser\Parser::parseLog(): modsec-perf.log
 alias: modsec_perf
 
-2022 / 03 / 18 : 17 35 21
+2022 / 05 / 06 : 13 57 29
 Location: Synaptic4UParser\Parser\Parser::parseLog(): modsec-perf.log
 alias: modsec_perf
 result: {
     "modsec-perf.log": {
-        "start": 1647617721.237972,
-        "finish": 1647617721.384513,
+        "start": 1651838248.866896,
+        "finish": 1651838249.001536,
         "duration min:sec": "0:0",
-        "duration sec.microseconds": 0.14654088020324707,
+        "duration sec.microseconds": 0.13463997840881348,
         "nu_rows": 12,
         "nu_result": 12
     }
 }
 
-2022 / 03 / 18 : 17 35 21
+2022 / 05 / 06 : 13 57 29
 Location: Synaptic4UParser\Parser\Parser::parseLog(): modsec_audit.log
 alias: modsec_audit
 
-2022 / 03 / 18 : 17 35 23
+2022 / 05 / 06 : 13 57 30
 Location: Synaptic4UParser\Parser\Parser::parseLog(): modsec_audit.log
 alias: modsec_audit
 result: {
     "modsec_audit.log": {
-        "start": 1647617721.385095,
-        "finish": 1647617723.471882,
-        "duration min:sec": "0:2",
-        "duration sec.microseconds": 2.086787223815918,
+        "start": 1651838249.001894,
+        "finish": 1651838250.979935,
+        "duration min:sec": "0:1",
+        "duration sec.microseconds": 1.9780409336090088,
         "nu_rows": 140,
         "nu_result": 140
     }
 }
 
-2022 / 03 / 18 : 17 35 23
+2022 / 05 / 06 : 13 57 30
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.7
 
-2022 / 03 / 18 : 17 35 23
+2022 / 05 / 06 : 13 57 30
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.7
 result: {
     "letsencrypt.log.7": {
@@ -901,15 +901,15 @@ result: {
         "nu_result": 0
     }
 }
-start: 1647617723.4731
-finish: 1647617723.4734
+start: 1651838250.9805
+finish: 1651838250.9806
 duration min:sec: 0:0
-duration sec.microseconds: 0.00028705596923828
+duration sec.microseconds: 0.00014305114746094
 
-2022 / 03 / 18 : 17 35 23
+2022 / 05 / 06 : 13 57 30
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log
 
-2022 / 03 / 18 : 17 35 23
+2022 / 05 / 06 : 13 57 31
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log
 result: {
     "letsencrypt.log": {
@@ -917,15 +917,15 @@ result: {
         "nu_result": 26
     }
 }
-start: 1647617723.4742
-finish: 1647617723.9531
+start: 1651838250.9811
+finish: 1651838251.4051
 duration min:sec: 0:0
-duration sec.microseconds: 0.47882008552551
+duration sec.microseconds: 0.42408800125122
 
-2022 / 03 / 18 : 17 35 23
+2022 / 05 / 06 : 13 57 31
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.3
 
-2022 / 03 / 18 : 17 35 24
+2022 / 05 / 06 : 13 57 31
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.3
 result: {
     "letsencrypt.log.3": {
@@ -933,15 +933,15 @@ result: {
         "nu_result": 26
     }
 }
-start: 1647617723.9542
-finish: 1647617724.3571
+start: 1651838251.4057
+finish: 1651838251.7209
 duration min:sec: 0:0
-duration sec.microseconds: 0.40288496017456
+duration sec.microseconds: 0.31518888473511
 
-2022 / 03 / 18 : 17 35 24
+2022 / 05 / 06 : 13 57 31
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.1
 
-2022 / 03 / 18 : 17 35 24
+2022 / 05 / 06 : 13 57 32
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.1
 result: {
     "letsencrypt.log.1": {
@@ -949,15 +949,15 @@ result: {
         "nu_result": 26
     }
 }
-start: 1647617724.3582
-finish: 1647617724.6934
+start: 1651838251.7216
+finish: 1651838252.0464
 duration min:sec: 0:0
-duration sec.microseconds: 0.33525013923645
+duration sec.microseconds: 0.32484292984009
 
-2022 / 03 / 18 : 17 35 24
+2022 / 05 / 06 : 13 57 32
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.2
 
-2022 / 03 / 18 : 17 35 25
+2022 / 05 / 06 : 13 57 32
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.2
 result: {
     "letsencrypt.log.2": {
@@ -965,15 +965,15 @@ result: {
         "nu_result": 26
     }
 }
-start: 1647617724.6946
-finish: 1647617725.0853
+start: 1651838252.047
+finish: 1651838252.3607
 duration min:sec: 0:0
-duration sec.microseconds: 0.39068603515625
+duration sec.microseconds: 0.31371092796326
 
-2022 / 03 / 18 : 17 35 25
+2022 / 05 / 06 : 13 57 32
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.5
 
-2022 / 03 / 18 : 17 35 30
+2022 / 05 / 06 : 13 57 37
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.5
 result: {
     "letsencrypt.log.5": {
@@ -981,15 +981,15 @@ result: {
         "nu_result": 370
     }
 }
-start: 1647617725.0862
-finish: 1647617730.4935
+start: 1651838252.3613
+finish: 1651838257.441
 duration min:sec: 0:5
-duration sec.microseconds: 5.4073040485382
+duration sec.microseconds: 5.0796360969543
 
-2022 / 03 / 18 : 17 35 30
+2022 / 05 / 06 : 13 57 37
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.6
 
-2022 / 03 / 18 : 17 35 37
+2022 / 05 / 06 : 13 57 43
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.6
 result: {
     "letsencrypt.log.6": {
@@ -997,15 +997,15 @@ result: {
         "nu_result": 381
     }
 }
-start: 1647617730.4945
-finish: 1647617737.3972
+start: 1651838257.4412
+finish: 1651838263.9128
 duration min:sec: 0:6
-duration sec.microseconds: 6.9026169776917
+duration sec.microseconds: 6.4716639518738
 
-2022 / 03 / 18 : 17 35 37
+2022 / 05 / 06 : 13 57 43
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.4
 
-2022 / 03 / 18 : 17 35 38
+2022 / 05 / 06 : 13 57 44
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.4
 result: {
     "letsencrypt.log.4": {
@@ -1013,15 +1013,15 @@ result: {
         "nu_result": 26
     }
 }
-start: 1647617737.398
-finish: 1647617738.0316
+start: 1651838263.9135
+finish: 1651838264.2848
 duration min:sec: 0:0
-duration sec.microseconds: 0.63357400894165
+duration sec.microseconds: 0.3713538646698
 
-2022 / 03 / 18 : 17 35 38
+2022 / 05 / 06 : 13 57 44
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): unattended-upgrades-shutdown.log
 
-2022 / 03 / 18 : 17 35 38
+2022 / 05 / 06 : 13 57 44
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): unattended-upgrades-shutdown.log
 result: {
     "unattended-upgrades-shutdown.log": {
@@ -1029,15 +1029,15 @@ result: {
         "nu_result": 0
     }
 }
-start: 1647617738.0325
-finish: 1647617738.0327
+start: 1651838264.2854
+finish: 1651838264.2855
 duration min:sec: 0:0
-duration sec.microseconds: 0.00021004676818848
+duration sec.microseconds: 0.00014281272888184
 
-2022 / 03 / 18 : 17 35 38
+2022 / 05 / 06 : 13 57 44
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): unattended-upgrades.log
 
-2022 / 03 / 18 : 17 35 38
+2022 / 05 / 06 : 13 57 44
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): unattended-upgrades.log
 result: {
     "unattended-upgrades.log": {
@@ -1045,15 +1045,15 @@ result: {
         "nu_result": 33
     }
 }
-start: 1647617738.0334
-finish: 1647617738.469
+start: 1651838264.2859
+finish: 1651838264.8001
 duration min:sec: 0:0
-duration sec.microseconds: 0.43558478355408
+duration sec.microseconds: 0.51427507400513
 
-2022 / 03 / 18 : 17 35 38
+2022 / 05 / 06 : 13 57 44
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): longview.log
 
-2022 / 03 / 18 : 17 35 38
+2022 / 05 / 06 : 13 57 44
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): longview.log
 result: {
     "longview.log": {
@@ -1061,15 +1061,15 @@ result: {
         "nu_result": 0
     }
 }
-start: 1647617738.4703
-finish: 1647617738.5021
+start: 1651838264.8007
+finish: 1651838264.8223
 duration min:sec: 0:0
-duration sec.microseconds: 0.031780004501343
+duration sec.microseconds: 0.021631956100464
 
-2022 / 03 / 18 : 17 35 38
+2022 / 05 / 06 : 13 57 44
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): eipp.log
 
-2022 / 03 / 18 : 17 36 34
+2022 / 05 / 06 : 13 58 45
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): eipp.log
 result: {
     "eipp.log": {
@@ -1077,15 +1077,15 @@ result: {
         "nu_result": 4267
     }
 }
-start: 1647617738.5029
-finish: 1647617794.0366
-duration min:sec: 0:55
-duration sec.microseconds: 55.533649206161
+start: 1651838264.8228
+finish: 1651838325.7601
+duration min:sec: 1:0
+duration sec.microseconds: 60.937371969223
 
-2022 / 03 / 18 : 17 36 34
+2022 / 05 / 06 : 13 58 45
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): history.log
 
-2022 / 03 / 18 : 17 36 36
+2022 / 05 / 06 : 13 58 48
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): history.log
 result: {
     "history.log": {
@@ -1093,15 +1093,15 @@ result: {
         "nu_result": 166
     }
 }
-start: 1647617794.0374
-finish: 1647617796.4022
+start: 1651838325.7608
+finish: 1651838328.333
 duration min:sec: 0:2
-duration sec.microseconds: 2.3647828102112
+duration sec.microseconds: 2.5722379684448
 
-2022 / 03 / 18 : 17 36 36
+2022 / 05 / 06 : 13 58 48
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): term.log
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 11
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): term.log
 result: {
     "term.log": {
@@ -1109,15 +1109,15 @@ result: {
         "nu_result": 1540
     }
 }
-start: 1647617796.4031
-finish: 1647617816.0563
-duration min:sec: 0:19
-duration sec.microseconds: 19.653207063675
+start: 1651838328.3336
+finish: 1651838351.4479
+duration min:sec: 0:23
+duration sec.microseconds: 23.114279031754
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 11
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): modsec-perflog.log
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 11
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): modsec-perflog.log
 result: {
     "modsec-perflog.log": {
@@ -1125,15 +1125,15 @@ result: {
         "nu_result": 0
     }
 }
-start: 1647617816.0571
-finish: 1647617816.0573
+start: 1651838351.4485
+finish: 1651838351.4486
 duration min:sec: 0:0
-duration sec.microseconds: 0.00020098686218262
+duration sec.microseconds: 0.00015711784362793
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 11
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-093853-YfTvDWn5bboX4n22DJTKJgAAABc
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 11
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-093853-YfTvDWn5bboX4n22DJTKJgAAABc
 result: {
     "20220129-093853-YfTvDWn5bboX4n22DJTKJgAAABc": {
@@ -1141,15 +1141,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617816.0579
-finish: 1647617816.0896
+start: 1651838351.4492
+finish: 1651838351.4813
 duration min:sec: 0:0
-duration sec.microseconds: 0.031625032424927
+duration sec.microseconds: 0.032088041305542
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 11
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-212015-YfWTbzL8bH@IRaKBSo0P2gAAAAA
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 11
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-212015-YfWTbzL8bH@IRaKBSo0P2gAAAAA
 result: {
     "20220129-212015-YfWTbzL8bH@IRaKBSo0P2gAAAAA": {
@@ -1157,15 +1157,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617816.0905
-finish: 1647617816.1247
+start: 1651838351.4818
+finish: 1651838351.5151
 duration min:sec: 0:0
-duration sec.microseconds: 0.034210920333862
+duration sec.microseconds: 0.033249855041504
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 11
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-072621-YfTP-WcIjq2fNRg3HkNoTQAAAA8
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 11
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-072621-YfTP-WcIjq2fNRg3HkNoTQAAAA8
 result: {
     "20220129-072621-YfTP-WcIjq2fNRg3HkNoTQAAAA8": {
@@ -1173,15 +1173,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617816.1256
-finish: 1647617816.1358
+start: 1651838351.5155
+finish: 1651838351.5262
 duration min:sec: 0:0
-duration sec.microseconds: 0.010223150253296
+duration sec.microseconds: 0.010629892349243
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 11
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-175701-YfVjzULf70l1lvk4quiEPQAAAA8
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 11
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-175701-YfVjzULf70l1lvk4quiEPQAAAA8
 result: {
     "20220129-175701-YfVjzULf70l1lvk4quiEPQAAAA8": {
@@ -1189,15 +1189,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617816.137
-finish: 1647617816.1472
+start: 1651838351.5267
+finish: 1651838351.5375
 duration min:sec: 0:0
-duration sec.microseconds: 0.010203838348389
+duration sec.microseconds: 0.010747194290161
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 11
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-024803-YfSOw9C4keg8ftCm@cC@GQAAAAs
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 11
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-024803-YfSOw9C4keg8ftCm@cC@GQAAAAs
 result: {
     "20220129-024803-YfSOw9C4keg8ftCm@cC@GQAAAAs": {
@@ -1205,15 +1205,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617816.1483
-finish: 1647617816.1699
+start: 1651838351.5382
+finish: 1651838351.5597
 duration min:sec: 0:0
-duration sec.microseconds: 0.021564960479736
+duration sec.microseconds: 0.021498918533325
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 11
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-200949-YfWC7XxiwdG8gwM4IOrR2gAAABI
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 11
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-200949-YfWC7XxiwdG8gwM4IOrR2gAAABI
 result: {
     "20220129-200949-YfWC7XxiwdG8gwM4IOrR2gAAABI": {
@@ -1221,15 +1221,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617816.1707
-finish: 1647617816.2479
+start: 1651838351.5601
+finish: 1651838351.6727
 duration min:sec: 0:0
-duration sec.microseconds: 0.077166080474854
+duration sec.microseconds: 0.11256003379822
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 11
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-000152-YfRn0PdXLiLNhC@TomPzHwAAAAQ
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 11
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-000152-YfRn0PdXLiLNhC@TomPzHwAAAAQ
 result: {
     "20220129-000152-YfRn0PdXLiLNhC@TomPzHwAAAAQ": {
@@ -1237,15 +1237,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617816.2488
-finish: 1647617816.259
+start: 1651838351.6733
+finish: 1651838351.6838
 duration min:sec: 0:0
-duration sec.microseconds: 0.010228157043457
+duration sec.microseconds: 0.01050591468811
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 11
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-200841-YfWCqWO8sRC9mMMks6MThwAAABM
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 11
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-200841-YfWCqWO8sRC9mMMks6MThwAAABM
 result: {
     "20220129-200841-YfWCqWO8sRC9mMMks6MThwAAABM": {
@@ -1253,15 +1253,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617816.2599
-finish: 1647617816.2816
+start: 1651838351.6842
+finish: 1651838351.6953
 duration min:sec: 0:0
-duration sec.microseconds: 0.021642923355103
+duration sec.microseconds: 0.011082172393799
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 11
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-212610-YfWU0oCkdVPYqbRVT1t7pwAAAAA
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 11
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-212610-YfWU0oCkdVPYqbRVT1t7pwAAAAA
 result: {
     "20220129-212610-YfWU0oCkdVPYqbRVT1t7pwAAAAA": {
@@ -1269,15 +1269,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617816.2824
-finish: 1647617816.2928
+start: 1651838351.6958
+finish: 1651838351.7066
 duration min:sec: 0:0
-duration sec.microseconds: 0.010378837585449
+duration sec.microseconds: 0.01088809967041
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 11
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-200725-YfWCXY75HIQwPAa-kYJIPgAAABE
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 11
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-200725-YfWCXY75HIQwPAa-kYJIPgAAABE
 result: {
     "20220129-200725-YfWCXY75HIQwPAa-kYJIPgAAABE": {
@@ -1285,15 +1285,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617816.2936
-finish: 1647617816.3153
+start: 1651838351.7073
+finish: 1651838351.7179
 duration min:sec: 0:0
-duration sec.microseconds: 0.021651983261108
+duration sec.microseconds: 0.01059889793396
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 11
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-230907-YfWs83UKtckUsJ9CSr7OnwAAAAQ
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 11
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-230907-YfWs83UKtckUsJ9CSr7OnwAAAAQ
 result: {
     "20220129-230907-YfWs83UKtckUsJ9CSr7OnwAAAAQ": {
@@ -1301,15 +1301,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617816.3165
-finish: 1647617816.3405
+start: 1651838351.7184
+finish: 1651838351.7293
 duration min:sec: 0:0
-duration sec.microseconds: 0.024034976959229
+duration sec.microseconds: 0.010921001434326
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 11
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-230907-YfWs81hyEjBGAM-V8JH6QgAAAAM
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 11
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-230907-YfWs81hyEjBGAM-V8JH6QgAAAAM
 result: {
     "20220129-230907-YfWs81hyEjBGAM-V8JH6QgAAAAM": {
@@ -1317,15 +1317,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617816.3416
-finish: 1647617816.3602
+start: 1651838351.7298
+finish: 1651838351.7406
 duration min:sec: 0:0
-duration sec.microseconds: 0.018560886383057
+duration sec.microseconds: 0.010838031768799
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 11
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-230905-YfWs8TEHzxllOlPaTGqJ8gAAAAE
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 11
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-230905-YfWs8TEHzxllOlPaTGqJ8gAAAAE
 result: {
     "20220129-230905-YfWs8TEHzxllOlPaTGqJ8gAAAAE": {
@@ -1333,15 +1333,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617816.3613
-finish: 1647617816.3826
+start: 1651838351.7411
+finish: 1651838351.752
 duration min:sec: 0:0
-duration sec.microseconds: 0.021329879760742
+duration sec.microseconds: 0.010870933532715
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 11
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-230908-YfWs9PLyctZ@O0WK71JqGQAAAAU
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 11
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-230908-YfWs9PLyctZ@O0WK71JqGQAAAAU
 result: {
     "20220129-230908-YfWs9PLyctZ@O0WK71JqGQAAAAU": {
@@ -1349,15 +1349,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617816.3837
-finish: 1647617816.5051
+start: 1651838351.7526
+finish: 1651838351.7633
 duration min:sec: 0:0
-duration sec.microseconds: 0.12143206596375
+duration sec.microseconds: 0.010667085647583
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 11
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-230906-YfWs8p8gRiaVSDJdWaIOngAAAAI
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 11
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-230906-YfWs8p8gRiaVSDJdWaIOngAAAAI
 result: {
     "20220129-230906-YfWs8p8gRiaVSDJdWaIOngAAAAI": {
@@ -1365,15 +1365,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617816.5063
-finish: 1647617816.5276
+start: 1651838351.7637
+finish: 1651838351.7747
 duration min:sec: 0:0
-duration sec.microseconds: 0.021261930465698
+duration sec.microseconds: 0.011026859283447
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 11
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-230919-YfWs-wZ2dA3JFeNnlLrrygAAAAk
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 11
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-230919-YfWs-wZ2dA3JFeNnlLrrygAAAAk
 result: {
     "20220129-230919-YfWs-wZ2dA3JFeNnlLrrygAAAAk": {
@@ -1381,15 +1381,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617816.5288
-finish: 1647617816.5499
+start: 1651838351.7753
+finish: 1651838351.8083
 duration min:sec: 0:0
-duration sec.microseconds: 0.021186828613281
+duration sec.microseconds: 0.032989978790283
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 11
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-002342-YfRs7q@FOhI6Yj05PCBhRgAAABA
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 11
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-002342-YfRs7q@FOhI6Yj05PCBhRgAAABA
 result: {
     "20220129-002342-YfRs7q@FOhI6Yj05PCBhRgAAABA": {
@@ -1397,15 +1397,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617816.551
-finish: 1647617816.5724
+start: 1651838351.8089
+finish: 1651838351.8193
 duration min:sec: 0:0
-duration sec.microseconds: 0.021358966827393
+duration sec.microseconds: 0.010471105575562
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 11
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-221828-YfWhFIPykygvimIH2AlH7QAAAAI
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 11
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-221828-YfWhFIPykygvimIH2AlH7QAAAAI
 result: {
     "20220129-221828-YfWhFIPykygvimIH2AlH7QAAAAI": {
@@ -1413,15 +1413,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617816.5735
-finish: 1647617816.606
+start: 1651838351.8199
+finish: 1651838351.8308
 duration min:sec: 0:0
-duration sec.microseconds: 0.032587051391602
+duration sec.microseconds: 0.010968923568726
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 11
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-221828-YfWhFEEla1jFUTKcX5qtEQAAAAM
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 11
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-221828-YfWhFEEla1jFUTKcX5qtEQAAAAM
 result: {
     "20220129-221828-YfWhFEEla1jFUTKcX5qtEQAAAAM": {
@@ -1429,15 +1429,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617816.6072
-finish: 1647617816.695
+start: 1651838351.8314
+finish: 1651838351.8424
 duration min:sec: 0:0
-duration sec.microseconds: 0.087785959243774
+duration sec.microseconds: 0.010973930358887
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 11
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-210202-YfWPKr8R6iVV-XOSYxhqvAAAAAA
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 11
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-210202-YfWPKr8R6iVV-XOSYxhqvAAAAAA
 result: {
     "20220129-210202-YfWPKr8R6iVV-XOSYxhqvAAAAAA": {
@@ -1445,15 +1445,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617816.6961
-finish: 1647617816.7176
+start: 1651838351.8429
+finish: 1651838351.8871
 duration min:sec: 0:0
-duration sec.microseconds: 0.021408081054688
+duration sec.microseconds: 0.044198036193848
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 11
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-192619-YfV4u1zwZfxtKpy-Fwt7sgAAAAM
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 11
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-192619-YfV4u1zwZfxtKpy-Fwt7sgAAAAM
 result: {
     "20220129-192619-YfV4u1zwZfxtKpy-Fwt7sgAAAAM": {
@@ -1461,15 +1461,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617816.7186
-finish: 1647617816.7626
+start: 1651838351.8877
+finish: 1651838351.9215
 duration min:sec: 0:0
-duration sec.microseconds: 0.043972015380859
+duration sec.microseconds: 0.03377890586853
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 11
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-192602-YfV4qk6DTuykChw4zUZsJAAAAAI
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 11
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-192602-YfV4qk6DTuykChw4zUZsJAAAAAI
 result: {
     "20220129-192602-YfV4qk6DTuykChw4zUZsJAAAAAI": {
@@ -1477,15 +1477,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617816.7637
-finish: 1647617816.7738
+start: 1651838351.922
+finish: 1651838351.9327
 duration min:sec: 0:0
-duration sec.microseconds: 0.010067939758301
+duration sec.microseconds: 0.01068902015686
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 11
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-192735-YfV5B3UdLz1OQuKObpNwPAAAABQ
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 11
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-192735-YfV5B3UdLz1OQuKObpNwPAAAABQ
 result: {
     "20220129-192735-YfV5B3UdLz1OQuKObpNwPAAAABQ": {
@@ -1493,15 +1493,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617816.7748
-finish: 1647617816.785
+start: 1651838351.9331
+finish: 1651838351.9439
 duration min:sec: 0:0
-duration sec.microseconds: 0.010190010070801
+duration sec.microseconds: 0.010735988616943
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 11
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-014636-YfSAXGn5bboX4n22DJTKJAAAABc
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 11
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-014636-YfSAXGn5bboX4n22DJTKJAAAABc
 result: {
     "20220129-014636-YfSAXGn5bboX4n22DJTKJAAAABc": {
@@ -1509,15 +1509,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617816.7861
-finish: 1647617816.7962
+start: 1651838351.9443
+finish: 1651838351.9552
 duration min:sec: 0:0
-duration sec.microseconds: 0.010118007659912
+duration sec.microseconds: 0.010864019393921
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 11
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-232828-YfWxfKblqFSU@5HAMoF1wwAAAAA
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 11
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-232828-YfWxfKblqFSU@5HAMoF1wwAAAAA
 result: {
     "20220129-232828-YfWxfKblqFSU@5HAMoF1wwAAAAA": {
@@ -1525,15 +1525,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617816.7973
-finish: 1647617816.8187
+start: 1651838351.9557
+finish: 1651838351.9665
 duration min:sec: 0:0
-duration sec.microseconds: 0.021419048309326
+duration sec.microseconds: 0.01082181930542
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 11
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-232821-YfWxdUFvf-vFAHm1QUxdyQAAAA0
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 11
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-232821-YfWxdUFvf-vFAHm1QUxdyQAAAA0
 result: {
     "20220129-232821-YfWxdUFvf-vFAHm1QUxdyQAAAA0": {
@@ -1541,15 +1541,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617816.8198
-finish: 1647617816.8412
+start: 1651838351.9669
+finish: 1651838351.9779
 duration min:sec: 0:0
-duration sec.microseconds: 0.021363019943237
+duration sec.microseconds: 0.010946035385132
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 11
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-232822-YfWxdg0abeUjBLtNFIiKyAAAAA4
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 11
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-232822-YfWxdg0abeUjBLtNFIiKyAAAAA4
 result: {
     "20220129-232822-YfWxdg0abeUjBLtNFIiKyAAAAA4": {
@@ -1557,15 +1557,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617816.8423
-finish: 1647617816.8636
+start: 1651838351.9785
+finish: 1651838351.9893
 duration min:sec: 0:0
-duration sec.microseconds: 0.021284103393555
+duration sec.microseconds: 0.010776042938232
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 11
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-232823-YfWxd4afwrKYFE8tY9gcbAAAABA
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-232823-YfWxd4afwrKYFE8tY9gcbAAAABA
 result: {
     "20220129-232823-YfWxd4afwrKYFE8tY9gcbAAAABA": {
@@ -1573,15 +1573,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617816.8646
-finish: 1647617816.8861
+start: 1651838351.9898
+finish: 1651838352.0005
 duration min:sec: 0:0
-duration sec.microseconds: 0.02154016494751
+duration sec.microseconds: 0.010707139968872
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-232820-YfWxdDiaHZIpQcCsmDjxYAAAAAw
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-232820-YfWxdDiaHZIpQcCsmDjxYAAAAAw
 result: {
     "20220129-232820-YfWxdDiaHZIpQcCsmDjxYAAAAAw": {
@@ -1589,15 +1589,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617816.8871
-finish: 1647617816.9086
+start: 1651838352.0011
+finish: 1651838352.0118
 duration min:sec: 0:0
-duration sec.microseconds: 0.021545886993408
+duration sec.microseconds: 0.010763883590698
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-023432-YfSLmGtP7GsCVy3wz4eVDQAAAAo
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-023432-YfSLmGtP7GsCVy3wz4eVDQAAAAo
 result: {
     "20220129-023432-YfSLmGtP7GsCVy3wz4eVDQAAAAo": {
@@ -1605,15 +1605,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617816.9098
-finish: 1647617816.9309
+start: 1651838352.0124
+finish: 1651838352.0457
 duration min:sec: 0:0
-duration sec.microseconds: 0.021147012710571
+duration sec.microseconds: 0.033302068710327
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-023432-YfSLmOJOUywSQhDbJLVirAAAAAk
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-023432-YfSLmOJOUywSQhDbJLVirAAAAAk
 result: {
     "20220129-023432-YfSLmOJOUywSQhDbJLVirAAAAAk": {
@@ -1621,15 +1621,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617816.9321
-finish: 1647617816.942
+start: 1651838352.0462
+finish: 1651838352.0582
 duration min:sec: 0:0
-duration sec.microseconds: 0.0099310874938965
+duration sec.microseconds: 0.011965990066528
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-232758-YfWxXgvOSH0CsJES37ITjwAAAA8
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-232758-YfWxXgvOSH0CsJES37ITjwAAAA8
 result: {
     "20220129-232758-YfWxXgvOSH0CsJES37ITjwAAAA8": {
@@ -1637,15 +1637,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617816.9431
-finish: 1647617816.9746
+start: 1651838352.0587
+finish: 1651838352.0695
 duration min:sec: 0:0
-duration sec.microseconds: 0.031471014022827
+duration sec.microseconds: 0.01084303855896
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-050550-YfSvDq@FOhI6Yj05PCBhRwAAABA
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-050550-YfSvDq@FOhI6Yj05PCBhRwAAABA
 result: {
     "20220129-050550-YfSvDq@FOhI6Yj05PCBhRwAAABA": {
@@ -1653,15 +1653,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617816.9757
-finish: 1647617816.9981
+start: 1651838352.0702
+finish: 1651838352.0807
 duration min:sec: 0:0
-duration sec.microseconds: 0.022341966629028
+duration sec.microseconds: 0.01059103012085
 
-2022 / 03 / 18 : 17 36 56
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-201608-YfWEaGOGJqaUDWjDarpHlwAAAAA
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-201608-YfWEaGOGJqaUDWjDarpHlwAAAAA
 result: {
     "20220129-201608-YfWEaGOGJqaUDWjDarpHlwAAAAA": {
@@ -1669,15 +1669,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617816.9992
-finish: 1647617817.0873
+start: 1651838352.0813
+finish: 1651838352.1145
 duration min:sec: 0:0
-duration sec.microseconds: 0.08815598487854
+duration sec.microseconds: 0.033203125
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-201446-YfWEFjbDHakFgPUs619g1gAAAAE
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-201446-YfWEFjbDHakFgPUs619g1gAAAAE
 result: {
     "20220129-201446-YfWEFjbDHakFgPUs619g1gAAAAE": {
@@ -1685,15 +1685,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617817.0885
-finish: 1647617817.1209
+start: 1651838352.1151
+finish: 1651838352.1259
 duration min:sec: 0:0
-duration sec.microseconds: 0.03246808052063
+duration sec.microseconds: 0.010825872421265
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-171655-YfVaZwzVRmOk8j9EDGMi9QAAAAw
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-171655-YfVaZwzVRmOk8j9EDGMi9QAAAAw
 result: {
     "20220129-171655-YfVaZwzVRmOk8j9EDGMi9QAAAAw": {
@@ -1701,15 +1701,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617817.1218
-finish: 1647617817.1322
+start: 1651838352.1264
+finish: 1651838352.1371
 duration min:sec: 0:0
-duration sec.microseconds: 0.01041316986084
+duration sec.microseconds: 0.010663986206055
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-171654-YfVaZj7CUcmDC5i2x@gLuQAAAAo
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-171654-YfVaZj7CUcmDC5i2x@gLuQAAAAo
 result: {
     "20220129-171654-YfVaZj7CUcmDC5i2x@gLuQAAAAo": {
@@ -1717,15 +1717,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617817.133
-finish: 1647617817.1433
+start: 1651838352.1376
+finish: 1651838352.1593
 duration min:sec: 0:0
-duration sec.microseconds: 0.010218143463135
+duration sec.microseconds: 0.021694898605347
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-171656-YfVaaAYN2jvmagGMN7NmGgAAAA0
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-171656-YfVaaAYN2jvmagGMN7NmGgAAAA0
 result: {
     "20220129-171656-YfVaaAYN2jvmagGMN7NmGgAAAA0": {
@@ -1733,15 +1733,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617817.1446
-finish: 1647617817.1545
+start: 1651838352.1598
+finish: 1651838352.1707
 duration min:sec: 0:0
-duration sec.microseconds: 0.0099129676818848
+duration sec.microseconds: 0.010885000228882
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-212401-YfWUUTeJVdv7mbgKf-mKlgAAAAM
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-212401-YfWUUTeJVdv7mbgKf-mKlgAAAAM
 result: {
     "20220129-212401-YfWUUTeJVdv7mbgKf-mKlgAAAAM": {
@@ -1749,15 +1749,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617817.1555
-finish: 1647617817.1771
+start: 1651838352.1713
+finish: 1651838352.1821
 duration min:sec: 0:0
-duration sec.microseconds: 0.021550893783569
+duration sec.microseconds: 0.010790109634399
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-081638-YfTbxuJOUywSQhDbJLVirgAAAAk
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-081638-YfTbxuJOUywSQhDbJLVirgAAAAk
 result: {
     "20220129-081638-YfTbxuJOUywSQhDbJLVirgAAAAk": {
@@ -1765,15 +1765,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617817.178
-finish: 1647617817.1884
+start: 1651838352.1825
+finish: 1651838352.1933
 duration min:sec: 0:0
-duration sec.microseconds: 0.01039719581604
+duration sec.microseconds: 0.010756015777588
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-145110-YfU4PtC4keg8ftCm@cC@HgAAAAs
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-145110-YfU4PtC4keg8ftCm@cC@HgAAAAs
 result: {
     "20220129-145110-YfU4PtC4keg8ftCm@cC@HgAAAAs": {
@@ -1781,15 +1781,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617817.1891
-finish: 1647617817.1994
+start: 1651838352.1938
+finish: 1651838352.2045
 duration min:sec: 0:0
-duration sec.microseconds: 0.010277032852173
+duration sec.microseconds: 0.01072096824646
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-220025-YfWc2VO@3VD5OkB1JeLb1QAAAAM
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-220025-YfWc2VO@3VD5OkB1JeLb1QAAAAM
 result: {
     "20220129-220025-YfWc2VO@3VD5OkB1JeLb1QAAAAM": {
@@ -1797,15 +1797,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617817.2011
-finish: 1647617817.2219
+start: 1651838352.2051
+finish: 1651838352.2158
 duration min:sec: 0:0
-duration sec.microseconds: 0.020746946334839
+duration sec.microseconds: 0.01075005531311
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-223129-YfWkIQ99DldFd6d6mszoFAAAAAw
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-223129-YfWkIQ99DldFd6d6mszoFAAAAAw
 result: {
     "20220129-223129-YfWkIQ99DldFd6d6mszoFAAAAAw": {
@@ -1813,15 +1813,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617817.2231
-finish: 1647617817.2445
+start: 1651838352.2165
+finish: 1651838352.2271
 duration min:sec: 0:0
-duration sec.microseconds: 0.02142596244812
+duration sec.microseconds: 0.010604858398438
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-233137-YfWyOXUKtckUsJ9CSr7OpAAAAAQ
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-233137-YfWyOXUKtckUsJ9CSr7OpAAAAAQ
 result: {
     "20220129-233137-YfWyOXUKtckUsJ9CSr7OpAAAAAQ": {
@@ -1829,15 +1829,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617817.2454
-finish: 1647617817.2669
+start: 1651838352.2273
+finish: 1651838352.2386
 duration min:sec: 0:0
-duration sec.microseconds: 0.021525144577026
+duration sec.microseconds: 0.01131796836853
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-233138-YfWyOqY58kGBvCoQSgaG8gAAABY
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-233138-YfWyOqY58kGBvCoQSgaG8gAAABY
 result: {
     "20220129-233138-YfWyOqY58kGBvCoQSgaG8gAAABY": {
@@ -1845,15 +1845,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617817.2678
-finish: 1647617817.2895
+start: 1651838352.2388
+finish: 1651838352.2502
 duration min:sec: 0:0
-duration sec.microseconds: 0.021625995635986
+duration sec.microseconds: 0.011318922042847
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-233136-YfWyOJ8gRiaVSDJdWaIOowAAAAI
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-233136-YfWyOJ8gRiaVSDJdWaIOowAAAAI
 result: {
     "20220129-233136-YfWyOJ8gRiaVSDJdWaIOowAAAAI": {
@@ -1861,15 +1861,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617817.2905
-finish: 1647617817.312
+start: 1651838352.2503
+finish: 1651838352.263
 duration min:sec: 0:0
-duration sec.microseconds: 0.021515846252441
+duration sec.microseconds: 0.012665033340454
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-233135-YfWyN4jjbG3tUGyBOJa7vAAAABU
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-233135-YfWyN4jjbG3tUGyBOJa7vAAAABU
 result: {
     "20220129-233135-YfWyN4jjbG3tUGyBOJa7vAAAABU": {
@@ -1877,15 +1877,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617817.3129
-finish: 1647617817.3343
+start: 1651838352.2632
+finish: 1651838352.2742
 duration min:sec: 0:0
-duration sec.microseconds: 0.02140998840332
+duration sec.microseconds: 0.011068820953369
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-084954-YfTjkokeQPUTWKDbM4jQCQAAAA0
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-084954-YfTjkokeQPUTWKDbM4jQCQAAAA0
 result: {
     "20220129-084954-YfTjkokeQPUTWKDbM4jQCQAAAA0": {
@@ -1893,15 +1893,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617817.3354
-finish: 1647617817.3455
+start: 1651838352.2744
+finish: 1651838352.2855
 duration min:sec: 0:0
-duration sec.microseconds: 0.010143995285034
+duration sec.microseconds: 0.011109828948975
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-213640-YfWXSNbjsmXqk00YgfPovgAAAAA
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-213640-YfWXSNbjsmXqk00YgfPovgAAAAA
 result: {
     "20220129-213640-YfWXSNbjsmXqk00YgfPovgAAAAA": {
@@ -1909,15 +1909,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617817.3464
-finish: 1647617817.4349
+start: 1651838352.2857
+finish: 1651838352.2971
 duration min:sec: 0:0
-duration sec.microseconds: 0.088450908660889
+duration sec.microseconds: 0.011466026306152
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-003802-YfRwSjN70ctT33KzTira9gAAAAE
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-003802-YfRwSjN70ctT33KzTira9gAAAAE
 result: {
     "20220129-003802-YfRwSjN70ctT33KzTira9gAAAAE": {
@@ -1925,15 +1925,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617817.4358
-finish: 1647617817.4462
+start: 1651838352.2976
+finish: 1651838352.3083
 duration min:sec: 0:0
-duration sec.microseconds: 0.010442972183228
+duration sec.microseconds: 0.010683059692383
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-020324-YfSETKgkDFaVor1xa10F9gAAAAU
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-020324-YfSETKgkDFaVor1xa10F9gAAAAU
 result: {
     "20220129-020324-YfSETKgkDFaVor1xa10F9gAAAAU": {
@@ -1941,15 +1941,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617817.4471
-finish: 1647617817.4572
+start: 1651838352.309
+finish: 1651838352.3197
 duration min:sec: 0:0
-duration sec.microseconds: 0.010180950164795
+duration sec.microseconds: 0.010746002197266
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-142939-YfUzM2HSCpttVrvmvTzR6gAAAA4
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-142939-YfUzM2HSCpttVrvmvTzR6gAAAA4
 result: {
     "20220129-142939-YfUzM2HSCpttVrvmvTzR6gAAAA4": {
@@ -1957,15 +1957,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617817.458
-finish: 1647617817.4685
+start: 1651838352.3202
+finish: 1651838352.3549
 duration min:sec: 0:0
-duration sec.microseconds: 0.010447025299072
+duration sec.microseconds: 0.03462290763855
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-130758-YfUgDp8uF1Bx30lO0XbJwwAAAAg
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-130758-YfUgDp8uF1Bx30lO0XbJwwAAAAg
 result: {
     "20220129-130758-YfUgDp8uF1Bx30lO0XbJwwAAAAg": {
@@ -1973,15 +1973,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617817.4694
-finish: 1647617817.4796
+start: 1651838352.3554
+finish: 1651838352.3646
 duration min:sec: 0:0
-duration sec.microseconds: 0.010195970535278
+duration sec.microseconds: 0.0091681480407715
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-113514-YfUKUtXzw5MVbcsl1H5ONwAAABM
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-113514-YfUKUtXzw5MVbcsl1H5ONwAAABM
 result: {
     "20220129-113514-YfUKUtXzw5MVbcsl1H5ONwAAABM": {
@@ -1989,15 +1989,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617817.4806
-finish: 1647617817.491
+start: 1651838352.3651
+finish: 1651838352.3758
 duration min:sec: 0:0
-duration sec.microseconds: 0.010426044464111
+duration sec.microseconds: 0.010751008987427
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-121743-YfUURzN70ctT33KzTira@AAAAAE
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-121743-YfUURzN70ctT33KzTira@AAAAAE
 result: {
     "20220129-121743-YfUURzN70ctT33KzTira@AAAAAE": {
@@ -2005,15 +2005,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617817.4921
-finish: 1647617817.5021
+start: 1651838352.3762
+finish: 1651838352.3872
 duration min:sec: 0:0
-duration sec.microseconds: 0.0099959373474121
+duration sec.microseconds: 0.011036157608032
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-201100-YfWDNIJpwLmgvudsVTaBYQAAABQ
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-201100-YfWDNIJpwLmgvudsVTaBYQAAABQ
 result: {
     "20220129-201100-YfWDNIJpwLmgvudsVTaBYQAAABQ": {
@@ -2021,15 +2021,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617817.503
-finish: 1647617817.5264
+start: 1651838352.3878
+finish: 1651838352.3985
 duration min:sec: 0:0
-duration sec.microseconds: 0.023404121398926
+duration sec.microseconds: 0.01069712638855
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-221351-YfWf-1FzVZZnxk4lyrrhOgAAAAA
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-221351-YfWf-1FzVZZnxk4lyrrhOgAAAAA
 result: {
     "20220129-221351-YfWf-1FzVZZnxk4lyrrhOgAAAAA": {
@@ -2037,15 +2037,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617817.5275
-finish: 1647617817.5488
+start: 1651838352.3991
+finish: 1651838352.4099
 duration min:sec: 0:0
-duration sec.microseconds: 0.021270990371704
+duration sec.microseconds: 0.010815858840942
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-113455-YfUKP@JOUywSQhDbJLVisAAAAAk
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-113455-YfUKP@JOUywSQhDbJLVisAAAAAk
 result: {
     "20220129-113455-YfUKP@JOUywSQhDbJLVisAAAAAk": {
@@ -2053,15 +2053,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617817.5498
-finish: 1647617817.5604
+start: 1651838352.4105
+finish: 1651838352.4211
 duration min:sec: 0:0
-duration sec.microseconds: 0.010513067245483
+duration sec.microseconds: 0.010621070861816
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-113455-YfUKP2tP7GsCVy3wz4eVEQAAAAo
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-113455-YfUKP2tP7GsCVy3wz4eVEQAAAAo
 result: {
     "20220129-113455-YfUKP2tP7GsCVy3wz4eVEQAAAAo": {
@@ -2069,15 +2069,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617817.5616
-finish: 1647617817.5822
+start: 1651838352.4217
+finish: 1651838352.4324
 duration min:sec: 0:0
-duration sec.microseconds: 0.020637035369873
+duration sec.microseconds: 0.01062798500061
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-113424-YfUKIGcIjq2fNRg3HkNoTwAAAA8
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-113424-YfUKIGcIjq2fNRg3HkNoTwAAAA8
 result: {
     "20220129-113424-YfUKIGcIjq2fNRg3HkNoTwAAAA8": {
@@ -2085,15 +2085,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617817.5833
-finish: 1647617817.6047
+start: 1651838352.4328
+finish: 1651838352.4437
 duration min:sec: 0:0
-duration sec.microseconds: 0.021305084228516
+duration sec.microseconds: 0.010863065719604
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-113456-YfUKQNC4keg8ftCm@cC@HQAAAAs
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-113456-YfUKQNC4keg8ftCm@cC@HQAAAAs
 result: {
     "20220129-113456-YfUKQNC4keg8ftCm@cC@HQAAAAs": {
@@ -2101,15 +2101,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617817.6058
-finish: 1647617817.6157
+start: 1651838352.4442
+finish: 1651838352.455
 duration min:sec: 0:0
-duration sec.microseconds: 0.0099191665649414
+duration sec.microseconds: 0.010809898376465
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-113455-YfUKPx5hPYqDYZUuDye16QAAABQ
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-113455-YfUKPx5hPYqDYZUuDye16QAAABQ
 result: {
     "20220129-113455-YfUKPx5hPYqDYZUuDye16QAAABQ": {
@@ -2117,15 +2117,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617817.6169
-finish: 1647617817.6383
+start: 1651838352.4555
+finish: 1651838352.4662
 duration min:sec: 0:0
-duration sec.microseconds: 0.021331071853638
+duration sec.microseconds: 0.010653018951416
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-180230-YfVlFiiZetyWwGe@Ci-xYgAAABA
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-180230-YfVlFiiZetyWwGe@Ci-xYgAAABA
 result: {
     "20220129-180230-YfVlFiiZetyWwGe@Ci-xYgAAABA": {
@@ -2133,15 +2133,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617817.6392
-finish: 1647617817.6495
+start: 1651838352.4668
+finish: 1651838352.4774
 duration min:sec: 0:0
-duration sec.microseconds: 0.010262966156006
+duration sec.microseconds: 0.010668992996216
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-211319-YfWRzxoOuCPMbt-5MFIYXgAAAAI
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-211319-YfWRzxoOuCPMbt-5MFIYXgAAAAI
 result: {
     "20220129-211319-YfWRzxoOuCPMbt-5MFIYXgAAAAI": {
@@ -2149,15 +2149,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617817.6504
-finish: 1647617817.6719
+start: 1651838352.4779
+finish: 1651838352.4888
 duration min:sec: 0:0
-duration sec.microseconds: 0.021537065505981
+duration sec.microseconds: 0.010884046554565
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-211318-YfWRzhoOuCPMbt-5MFIYXQAAAAI
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-211318-YfWRzhoOuCPMbt-5MFIYXQAAAAI
 result: {
     "20220129-211318-YfWRzhoOuCPMbt-5MFIYXQAAAAI": {
@@ -2165,15 +2165,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617817.6731
-finish: 1647617817.6945
+start: 1651838352.4894
+finish: 1651838352.5003
 duration min:sec: 0:0
-duration sec.microseconds: 0.021366119384766
+duration sec.microseconds: 0.010963916778564
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-211318-YfWRzhoOuCPMbt-5MFIYXAAAAAI
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-211318-YfWRzhoOuCPMbt-5MFIYXAAAAAI
 result: {
     "20220129-211318-YfWRzhoOuCPMbt-5MFIYXAAAAAI": {
@@ -2181,15 +2181,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617817.6955
-finish: 1647617817.7169
+start: 1651838352.5008
+finish: 1651838352.5117
 duration min:sec: 0:0
-duration sec.microseconds: 0.021420955657959
+duration sec.microseconds: 0.010909080505371
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-211315-YfWRy6afsLr8VRXfsdlVCQAAAAE
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-211315-YfWRy6afsLr8VRXfsdlVCQAAAAE
 result: {
     "20220129-211315-YfWRy6afsLr8VRXfsdlVCQAAAAE": {
@@ -2197,15 +2197,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617817.7177
-finish: 1647617817.806
+start: 1651838352.5122
+finish: 1651838352.543
 duration min:sec: 0:0
-duration sec.microseconds: 0.088353157043457
+duration sec.microseconds: 0.030825138092041
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-073634-YfTSYuELTvn0PBMd0O7INQAAABY
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-073634-YfTSYuELTvn0PBMd0O7INQAAABY
 result: {
     "20220129-073634-YfTSYuELTvn0PBMd0O7INQAAABY": {
@@ -2213,15 +2213,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617817.8071
-finish: 1647617817.8172
+start: 1651838352.5437
+finish: 1651838352.557
 duration min:sec: 0:0
-duration sec.microseconds: 0.010169982910156
+duration sec.microseconds: 0.013297080993652
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-071749-YfTN-eJOUywSQhDbJLVirQAAAAk
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-071749-YfTN-eJOUywSQhDbJLVirQAAAAk
 result: {
     "20220129-071749-YfTN-eJOUywSQhDbJLVirQAAAAk": {
@@ -2229,15 +2229,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617817.8181
-finish: 1647617817.8286
+start: 1651838352.5576
+finish: 1651838352.5682
 duration min:sec: 0:0
-duration sec.microseconds: 0.010457992553711
+duration sec.microseconds: 0.010542869567871
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-071749-YfTN-T9LPLExY@LS8O-zKQAAAAw
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-071749-YfTN-T9LPLExY@LS8O-zKQAAAAw
 result: {
     "20220129-071749-YfTN-T9LPLExY@LS8O-zKQAAAAw": {
@@ -2245,15 +2245,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617817.8294
-finish: 1647617817.8397
+start: 1651838352.5688
+finish: 1651838352.5795
 duration min:sec: 0:0
-duration sec.microseconds: 0.010302066802979
+duration sec.microseconds: 0.010686874389648
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-203803-YfWJi2y09JTl5vCjaYwgBwAAAAA
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-203803-YfWJi2y09JTl5vCjaYwgBwAAAAA
 result: {
     "20220129-203803-YfWJi2y09JTl5vCjaYwgBwAAAAA": {
@@ -2261,15 +2261,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617817.8407
-finish: 1647617817.8621
+start: 1651838352.58
+finish: 1651838352.5909
 duration min:sec: 0:0
-duration sec.microseconds: 0.021427154541016
+duration sec.microseconds: 0.010854959487915
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-202112-YfWFmItyYWDTqA4W4mwd@QAAAAI
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-202112-YfWFmItyYWDTqA4W4mwd@QAAAAI
 result: {
     "20220129-202112-YfWFmItyYWDTqA4W4mwd@QAAAAI": {
@@ -2277,15 +2277,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617817.8634
-finish: 1647617817.8845
+start: 1651838352.5914
+finish: 1651838352.6022
 duration min:sec: 0:0
-duration sec.microseconds: 0.021152019500732
+duration sec.microseconds: 0.010802030563354
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-001832-YfRruGHSCpttVrvmvTzR4wAAAA4
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-001832-YfRruGHSCpttVrvmvTzR4wAAAA4
 result: {
     "20220129-001832-YfRruGHSCpttVrvmvTzR4wAAAA4": {
@@ -2293,15 +2293,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617817.8856
-finish: 1647617817.8957
+start: 1651838352.6027
+finish: 1651838352.6134
 duration min:sec: 0:0
-duration sec.microseconds: 0.010061025619507
+duration sec.microseconds: 0.01068115234375
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-001833-YfRruWcIjq2fNRg3HkNoSwAAAA8
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-001833-YfRruWcIjq2fNRg3HkNoSwAAAA8
 result: {
     "20220129-001833-YfRruWcIjq2fNRg3HkNoSwAAAA8": {
@@ -2309,15 +2309,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617817.8966
-finish: 1647617817.9295
+start: 1651838352.6139
+finish: 1651838352.6472
 duration min:sec: 0:0
-duration sec.microseconds: 0.032976865768433
+duration sec.microseconds: 0.033295869827271
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-011004-YfR3zM6ztRbT2uTxtfh42AAAAAA
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-011004-YfR3zM6ztRbT2uTxtfh42AAAAAA
 result: {
     "20220129-011004-YfR3zM6ztRbT2uTxtfh42AAAAAA": {
@@ -2325,15 +2325,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617817.9303
-finish: 1647617817.9406
+start: 1651838352.6474
+finish: 1651838352.6584
 duration min:sec: 0:0
-duration sec.microseconds: 0.010294198989868
+duration sec.microseconds: 0.010926961898804
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-042557-YfSltVTHghFPHQrLY9kPiAAAABo
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-042557-YfSltVTHghFPHQrLY9kPiAAAABo
 result: {
     "20220129-042557-YfSltVTHghFPHQrLY9kPiAAAABo": {
@@ -2341,15 +2341,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617817.9415
-finish: 1647617817.9522
+start: 1651838352.6586
+finish: 1651838352.6696
 duration min:sec: 0:0
-duration sec.microseconds: 0.010761976242065
+duration sec.microseconds: 0.011085987091064
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-042556-YfSltNXzw5MVbcsl1H5ONQAAABM
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-042556-YfSltNXzw5MVbcsl1H5ONQAAABM
 result: {
     "20220129-042556-YfSltNXzw5MVbcsl1H5ONQAAABM": {
@@ -2357,15 +2357,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617817.9532
-finish: 1647617817.9632
+start: 1651838352.6698
+finish: 1651838352.6809
 duration min:sec: 0:0
-duration sec.microseconds: 0.01001501083374
+duration sec.microseconds: 0.011132955551147
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-202806-YfWHNhL1QAToPDS-440HsgAAAAE
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-202806-YfWHNhL1QAToPDS-440HsgAAAAE
 result: {
     "20220129-202806-YfWHNhL1QAToPDS-440HsgAAAAE": {
@@ -2373,15 +2373,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617817.964
-finish: 1647617817.9857
+start: 1651838352.6811
+finish: 1651838352.6922
 duration min:sec: 0:0
-duration sec.microseconds: 0.021723985671997
+duration sec.microseconds: 0.011076927185059
 
-2022 / 03 / 18 : 17 36 57
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-202844-YfWHXIPVySN@jmdVfQ1WyQAAAAI
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-202844-YfWHXIPVySN@jmdVfQ1WyQAAAAI
 result: {
     "20220129-202844-YfWHXIPVySN@jmdVfQ1WyQAAAAI": {
@@ -2389,15 +2389,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617817.9869
-finish: 1647617818.0081
+start: 1651838352.6923
+finish: 1651838352.7147
 duration min:sec: 0:0
-duration sec.microseconds: 0.021181106567383
+duration sec.microseconds: 0.022406101226807
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-202801-YfWHMXtE7IOJvjEZFRl62wAAAAA
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-202801-YfWHMXtE7IOJvjEZFRl62wAAAAA
 result: {
     "20220129-202801-YfWHMXtE7IOJvjEZFRl62wAAAAA": {
@@ -2405,15 +2405,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617818.0089
-finish: 1647617818.0307
+start: 1651838352.7149
+finish: 1651838352.7262
 duration min:sec: 0:0
-duration sec.microseconds: 0.021775007247925
+duration sec.microseconds: 0.011317014694214
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-180324-YfVlTHQw@0c0WIwjfDCrUgAAAAY
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-180324-YfVlTHQw@0c0WIwjfDCrUgAAAAY
 result: {
     "20220129-180324-YfVlTHQw@0c0WIwjfDCrUgAAAAY": {
@@ -2421,15 +2421,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617818.0316
-finish: 1647617818.0419
+start: 1651838352.7264
+finish: 1651838352.7373
 duration min:sec: 0:0
-duration sec.microseconds: 0.010313034057617
+duration sec.microseconds: 0.010945081710815
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-180324-YfVlTATaRuQSoIr25JKb1wAAAAU
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-180324-YfVlTATaRuQSoIr25JKb1wAAAAU
 result: {
     "20220129-180324-YfVlTATaRuQSoIr25JKb1wAAAAU": {
@@ -2437,15 +2437,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617818.043
-finish: 1647617818.053
+start: 1651838352.7378
+finish: 1651838352.7488
 duration min:sec: 0:0
-duration sec.microseconds: 0.0099730491638184
+duration sec.microseconds: 0.010963916778564
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-180317-YfVlRXUdLz1OQuKObpNwOgAAABQ
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-180317-YfVlRXUdLz1OQuKObpNwOgAAABQ
 result: {
     "20220129-180317-YfVlRXUdLz1OQuKObpNwOgAAABQ": {
@@ -2453,15 +2453,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617818.054
-finish: 1647617818.1421
+start: 1651838352.7494
+finish: 1651838352.76
 duration min:sec: 0:0
-duration sec.microseconds: 0.088181018829346
+duration sec.microseconds: 0.010588884353638
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-180323-YfVlS3UdLz1OQuKObpNwOwAAABQ
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-180323-YfVlS3UdLz1OQuKObpNwOwAAABQ
 result: {
     "20220129-180323-YfVlS3UdLz1OQuKObpNwOwAAABQ": {
@@ -2469,15 +2469,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617818.1432
-finish: 1647617818.1534
+start: 1651838352.7607
+finish: 1651838352.7935
 duration min:sec: 0:0
-duration sec.microseconds: 0.010268211364746
+duration sec.microseconds: 0.032801866531372
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-180327-YfVlT8FGMEzih5whWhf1lQAAABI
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-180327-YfVlT8FGMEzih5whWhf1lQAAABI
 result: {
     "20220129-180327-YfVlT8FGMEzih5whWhf1lQAAABI": {
@@ -2485,15 +2485,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617818.1543
-finish: 1647617818.1646
+start: 1651838352.794
+finish: 1651838352.8046
 duration min:sec: 0:0
-duration sec.microseconds: 0.010297060012817
+duration sec.microseconds: 0.010622024536133
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-180324-YfVlTAKC9-6l71U5gXTcLQAAAAQ
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-180324-YfVlTAKC9-6l71U5gXTcLQAAAAQ
 result: {
     "20220129-180324-YfVlTAKC9-6l71U5gXTcLQAAAAQ": {
@@ -2501,15 +2501,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617818.1654
-finish: 1647617818.1756
+start: 1651838352.8051
+finish: 1651838352.8159
 duration min:sec: 0:0
-duration sec.microseconds: 0.010159969329834
+duration sec.microseconds: 0.010771036148071
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-015913-YfSDUedb2yCjn1AK8TD-uAAAAAY
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-015913-YfSDUedb2yCjn1AK8TD-uAAAAAY
 result: {
     "20220129-015913-YfSDUedb2yCjn1AK8TD-uAAAAAY": {
@@ -2517,15 +2517,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617818.1764
-finish: 1647617818.187
+start: 1651838352.8165
+finish: 1651838352.8272
 duration min:sec: 0:0
-duration sec.microseconds: 0.010586977005005
+duration sec.microseconds: 0.010663986206055
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-015913-YfSDUeELTvn0PBMd0O7IMwAAABY
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-015913-YfSDUeELTvn0PBMd0O7IMwAAABY
 result: {
     "20220129-015913-YfSDUeELTvn0PBMd0O7IMwAAABY": {
@@ -2533,15 +2533,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617818.1879
-finish: 1647617818.1982
+start: 1651838352.8277
+finish: 1651838352.8383
 duration min:sec: 0:0
-duration sec.microseconds: 0.010344982147217
+duration sec.microseconds: 0.010637044906616
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-230234-YfWraqblqFSU@5HAMoF1vgAAAAA
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-230234-YfWraqblqFSU@5HAMoF1vgAAAAA
 result: {
     "20220129-230234-YfWraqblqFSU@5HAMoF1vgAAAAA": {
@@ -2549,15 +2549,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617818.1992
-finish: 1647617818.2207
+start: 1651838352.8388
+finish: 1651838352.8496
 duration min:sec: 0:0
-duration sec.microseconds: 0.021461963653564
+duration sec.microseconds: 0.010776042938232
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-195436-YfV-XHQ@jAhXJZk2-ec29gAAAAc
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-195436-YfV-XHQ@jAhXJZk2-ec29gAAAAc
 result: {
     "20220129-195436-YfV-XHQ@jAhXJZk2-ec29gAAAAc": {
@@ -2565,15 +2565,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617818.2219
-finish: 1647617818.2433
+start: 1651838352.8502
+finish: 1651838352.861
 duration min:sec: 0:0
-duration sec.microseconds: 0.02138090133667
+duration sec.microseconds: 0.010747909545898
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-195429-YfV-VY5tVBkmpq0LhLQSOgAAAAU
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-195429-YfV-VY5tVBkmpq0LhLQSOgAAAAU
 result: {
     "20220129-195429-YfV-VY5tVBkmpq0LhLQSOgAAAAU": {
@@ -2581,15 +2581,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617818.2441
-finish: 1647617818.2656
+start: 1651838352.8616
+finish: 1651838352.8724
 duration min:sec: 0:0
-duration sec.microseconds: 0.021505117416382
+duration sec.microseconds: 0.010818004608154
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-195416-YfV-SItyYWDTqA4W4mwd@AAAAAI
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-195416-YfV-SItyYWDTqA4W4mwd@AAAAAI
 result: {
     "20220129-195416-YfV-SItyYWDTqA4W4mwd@AAAAAI": {
@@ -2597,15 +2597,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617818.2665
-finish: 1647617818.2883
+start: 1651838352.8729
+finish: 1651838352.8838
 duration min:sec: 0:0
-duration sec.microseconds: 0.021797895431519
+duration sec.microseconds: 0.010936975479126
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-195426-YfV-UqXJdaQGl9h6miD@WwAAAAM
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-195426-YfV-UqXJdaQGl9h6miD@WwAAAAM
 result: {
     "20220129-195426-YfV-UqXJdaQGl9h6miD@WwAAAAM": {
@@ -2613,15 +2613,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617818.2893
-finish: 1647617818.3108
+start: 1651838352.8844
+finish: 1651838352.8951
 duration min:sec: 0:0
-duration sec.microseconds: 0.021435976028442
+duration sec.microseconds: 0.01076078414917
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-111027-YfUEg9C4keg8ftCm@cC@HAAAAAs
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-111027-YfUEg9C4keg8ftCm@cC@HAAAAAs
 result: {
     "20220129-111027-YfUEg9C4keg8ftCm@cC@HAAAAAs": {
@@ -2629,15 +2629,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617818.3116
-finish: 1647617818.3218
+start: 1651838352.8956
+finish: 1651838352.9063
 duration min:sec: 0:0
-duration sec.microseconds: 0.010241031646729
+duration sec.microseconds: 0.01068902015686
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-145219-YfU4g48kcSj-I5Noy8RskAAAABI
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-145219-YfU4g48kcSj-I5Noy8RskAAAABI
 result: {
     "20220129-145219-YfU4g48kcSj-I5Noy8RskAAAABI": {
@@ -2645,15 +2645,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617818.323
-finish: 1647617818.333
+start: 1651838352.9069
+finish: 1651838352.9175
 duration min:sec: 0:0
-duration sec.microseconds: 0.0099930763244629
+duration sec.microseconds: 0.010594129562378
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-145254-YfU4pvk09KJsz8p@RdMKIgAAAAI
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-145254-YfU4pvk09KJsz8p@RdMKIgAAAAI
 result: {
     "20220129-145254-YfU4pvk09KJsz8p@RdMKIgAAAAI": {
@@ -2661,15 +2661,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617818.3341
-finish: 1647617818.3443
+start: 1651838352.918
+finish: 1651838352.94
 duration min:sec: 0:0
-duration sec.microseconds: 0.010200023651123
+duration sec.microseconds: 0.021999835968018
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-145221-YfU4hYkeQPUTWKDbM4jQCgAAAA0
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-145221-YfU4hYkeQPUTWKDbM4jQCgAAAA0
 result: {
     "20220129-145221-YfU4hYkeQPUTWKDbM4jQCgAAAA0": {
@@ -2677,15 +2677,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617818.3454
-finish: 1647617818.3554
+start: 1651838352.9403
+finish: 1651838352.9511
 duration min:sec: 0:0
-duration sec.microseconds: 0.01006007194519
+duration sec.microseconds: 0.010807991027832
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-145251-YfU4o6@FOhI6Yj05PCBhSQAAABA
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-145251-YfU4o6@FOhI6Yj05PCBhSQAAABA
 result: {
     "20220129-145251-YfU4o6@FOhI6Yj05PCBhSQAAABA": {
@@ -2693,15 +2693,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617818.3567
-finish: 1647617818.3667
+start: 1651838352.9515
+finish: 1651838352.9624
 duration min:sec: 0:0
-duration sec.microseconds: 0.010042905807495
+duration sec.microseconds: 0.010946989059448
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-145255-YfU4p5SVTRnSzEgYuQWtoAAAAAM
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-145255-YfU4p5SVTRnSzEgYuQWtoAAAAAM
 result: {
     "20220129-145255-YfU4p5SVTRnSzEgYuQWtoAAAAAM": {
@@ -2709,15 +2709,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617818.3678
-finish: 1647617818.3779
+start: 1651838352.963
+finish: 1651838352.9736
 duration min:sec: 0:0
-duration sec.microseconds: 0.010097026824951
+duration sec.microseconds: 0.010605096817017
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-175908-YfVkTITwMdyr0ZaQypcN6QAAAA4
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-175908-YfVkTITwMdyr0ZaQypcN6QAAAA4
 result: {
     "20220129-175908-YfVkTITwMdyr0ZaQypcN6QAAAA4": {
@@ -2725,15 +2725,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617818.3804
-finish: 1647617818.3891
+start: 1651838352.9741
+finish: 1651838352.9849
 duration min:sec: 0:0
-duration sec.microseconds: 0.0086631774902344
+duration sec.microseconds: 0.010729789733887
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-212338-YfWUOjW0MjkacSVXbGG0HwAAAAA
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-212338-YfWUOjW0MjkacSVXbGG0HwAAAAA
 result: {
     "20220129-212338-YfWUOjW0MjkacSVXbGG0HwAAAAA": {
@@ -2741,15 +2741,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617818.3901
-finish: 1647617818.4116
+start: 1651838352.9854
+finish: 1651838352.9979
 duration min:sec: 0:0
-duration sec.microseconds: 0.021531820297241
+duration sec.microseconds: 0.012494087219238
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 12
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-135642-YfUrentMGxfs-vOV45DcHwAAABE
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220129-135642-YfUrentMGxfs-vOV45DcHwAAABE
 result: {
     "20220129-135642-YfUrentMGxfs-vOV45DcHwAAABE": {
@@ -2757,15 +2757,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617818.4126
-finish: 1647617818.4231
+start: 1651838352.9984
+finish: 1651838353.009
 duration min:sec: 0:0
-duration sec.microseconds: 0.0104660987854
+duration sec.microseconds: 0.010579109191895
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-025503-YfXh55cATE5ecnaRfF2bpQAAAAA
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-025503-YfXh55cATE5ecnaRfF2bpQAAAAA
 result: {
     "20220130-025503-YfXh55cATE5ecnaRfF2bpQAAAAA": {
@@ -2773,15 +2773,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617818.4239
-finish: 1647617818.5123
+start: 1651838353.0094
+finish: 1651838353.0427
 duration min:sec: 0:0
-duration sec.microseconds: 0.088334798812866
+duration sec.microseconds: 0.033278942108154
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-030656-YfXksC5CaEA8DLZrBkqriQAAAAM
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-030656-YfXksC5CaEA8DLZrBkqriQAAAAM
 result: {
     "20220130-030656-YfXksC5CaEA8DLZrBkqriQAAAAM": {
@@ -2789,15 +2789,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617818.5131
-finish: 1647617818.5346
+start: 1651838353.0433
+finish: 1651838353.0541
 duration min:sec: 0:0
-duration sec.microseconds: 0.021553993225098
+duration sec.microseconds: 0.010812044143677
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-030655-YfXkr4ldVEaRlOl4U6gBtAAAAAI
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-030655-YfXkr4ldVEaRlOl4U6gBtAAAAAI
 result: {
     "20220130-030655-YfXkr4ldVEaRlOl4U6gBtAAAAAI": {
@@ -2805,15 +2805,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617818.5355
-finish: 1647617818.5679
+start: 1651838353.0546
+finish: 1651838353.0653
 duration min:sec: 0:0
-duration sec.microseconds: 0.032440900802612
+duration sec.microseconds: 0.010740041732788
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-030612-YfXkhDr3FGeRAj3YKvxiAAAAAAA
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-030612-YfXkhDr3FGeRAj3YKvxiAAAAAAA
 result: {
     "20220130-030612-YfXkhDr3FGeRAj3YKvxiAAAAAAA": {
@@ -2821,15 +2821,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617818.569
-finish: 1647617818.5904
+start: 1651838353.0658
+finish: 1651838353.0766
 duration min:sec: 0:0
-duration sec.microseconds: 0.021384000778198
+duration sec.microseconds: 0.010751962661743
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-030537-YfXkYYGQeUaN0@DriFQGzAAAAAE
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-030537-YfXkYYGQeUaN0@DriFQGzAAAAAE
 result: {
     "20220130-030537-YfXkYYGQeUaN0@DriFQGzAAAAAE": {
@@ -2837,15 +2837,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617818.5915
-finish: 1647617818.6016
+start: 1651838353.0771
+finish: 1651838353.0877
 duration min:sec: 0:0
-duration sec.microseconds: 0.01003885269165
+duration sec.microseconds: 0.010607004165649
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-000928-YfW7GDEHzxllOlPaTGqJ9wAAAAE
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-000928-YfW7GDEHzxllOlPaTGqJ9wAAAAE
 result: {
     "20220130-000928-YfW7GDEHzxllOlPaTGqJ9wAAAAE": {
@@ -2853,15 +2853,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617818.603
-finish: 1647617818.6241
+start: 1651838353.0882
+finish: 1651838353.1215
 duration min:sec: 0:0
-duration sec.microseconds: 0.021132946014404
+duration sec.microseconds: 0.033302068710327
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-000929-YfW7GfLyctZ@O0WK71JqHgAAAAU
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-000929-YfW7GfLyctZ@O0WK71JqHgAAAAU
 result: {
     "20220130-000929-YfW7GfLyctZ@O0WK71JqHgAAAAU": {
@@ -2869,15 +2869,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617818.6254
-finish: 1647617818.6466
+start: 1651838353.1221
+finish: 1651838353.1328
 duration min:sec: 0:0
-duration sec.microseconds: 0.021193027496338
+duration sec.microseconds: 0.010746002197266
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-000928-YfW7GFhyEjBGAM-V8JH6RwAAAAM
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-000928-YfW7GFhyEjBGAM-V8JH6RwAAAAM
 result: {
     "20220130-000928-YfW7GFhyEjBGAM-V8JH6RwAAAAM": {
@@ -2885,15 +2885,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617818.6477
-finish: 1647617818.6692
+start: 1651838353.1335
+finish: 1651838353.1443
 duration min:sec: 0:0
-duration sec.microseconds: 0.021430015563965
+duration sec.microseconds: 0.010769128799438
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-000928-YfW7GCz8lZOT0bU8Pmc86QAAABc
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-000928-YfW7GCz8lZOT0bU8Pmc86QAAABc
 result: {
     "20220130-000928-YfW7GCz8lZOT0bU8Pmc86QAAABc": {
@@ -2901,15 +2901,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617818.67
-finish: 1647617818.6916
+start: 1651838353.1448
+finish: 1651838353.1556
 duration min:sec: 0:0
-duration sec.microseconds: 0.021561145782471
+duration sec.microseconds: 0.010865926742554
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-033818-YfXsCgB6ntM45R0HVsVxTAAAAAE
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-033818-YfXsCgB6ntM45R0HVsVxTAAAAAE
 result: {
     "20220130-033818-YfXsCgB6ntM45R0HVsVxTAAAAAE": {
@@ -2917,15 +2917,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617818.6927
-finish: 1647617818.7142
+start: 1651838353.1562
+finish: 1651838353.1782
 duration min:sec: 0:0
-duration sec.microseconds: 0.021451950073242
+duration sec.microseconds: 0.021960973739624
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-033817-YfXsCSXIXKvwr@b7JFPc3QAAAAA
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-033817-YfXsCSXIXKvwr@b7JFPc3QAAAAA
 result: {
     "20220130-033817-YfXsCSXIXKvwr@b7JFPc3QAAAAA": {
@@ -2933,15 +2933,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617818.7151
-finish: 1647617818.7366
+start: 1651838353.1788
+finish: 1651838353.1894
 duration min:sec: 0:0
-duration sec.microseconds: 0.02148699760437
+duration sec.microseconds: 0.010586023330688
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-034148-YfXs3FrC4t9rRyJMRup-3gAAAAI
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-034148-YfXs3FrC4t9rRyJMRup-3gAAAAI
 result: {
     "20220130-034148-YfXs3FrC4t9rRyJMRup-3gAAAAI": {
@@ -2949,15 +2949,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617818.7374
-finish: 1647617818.7479
+start: 1651838353.1899
+finish: 1651838353.2008
 duration min:sec: 0:0
-duration sec.microseconds: 0.010487794876099
+duration sec.microseconds: 0.010869026184082
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-034149-YfXs3TJsqcO7zGl2g4ZfFwAAAAM
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-034149-YfXs3TJsqcO7zGl2g4ZfFwAAAAM
 result: {
     "20220130-034149-YfXs3TJsqcO7zGl2g4ZfFwAAAAM": {
@@ -2965,15 +2965,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617818.7489
-finish: 1647617818.7703
+start: 1651838353.2013
+finish: 1651838353.2121
 duration min:sec: 0:0
-duration sec.microseconds: 0.021371841430664
+duration sec.microseconds: 0.010808944702148
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-034158-YfXs5tzRJzwgvHvUFhX-CQAAAAU
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-034158-YfXs5tzRJzwgvHvUFhX-CQAAAAU
 result: {
     "20220130-034158-YfXs5tzRJzwgvHvUFhX-CQAAAAU": {
@@ -2981,15 +2981,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617818.7711
-finish: 1647617818.7927
+start: 1651838353.2126
+finish: 1651838353.2235
 duration min:sec: 0:0
-duration sec.microseconds: 0.021600961685181
+duration sec.microseconds: 0.010856151580811
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-034158-YfXs5mu-Z1RtoYfIKJZdAAAAAAc
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-034158-YfXs5mu-Z1RtoYfIKJZdAAAAAAc
 result: {
     "20220130-034158-YfXs5mu-Z1RtoYfIKJZdAAAAAAc": {
@@ -2997,15 +2997,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617818.7936
-finish: 1647617818.8835
+start: 1651838353.224
+finish: 1651838353.2348
 duration min:sec: 0:0
-duration sec.microseconds: 0.089915990829468
+duration sec.microseconds: 0.01075291633606
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-001324-YfW8BISO1sVBR-z6viGqkwAAAAc
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-001324-YfW8BISO1sVBR-z6viGqkwAAAAc
 result: {
     "20220130-001324-YfW8BISO1sVBR-z6viGqkwAAAAc": {
@@ -3013,15 +3013,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617818.8846
-finish: 1647617818.906
+start: 1651838353.2353
+finish: 1651838353.2461
 duration min:sec: 0:0
-duration sec.microseconds: 0.021405935287476
+duration sec.microseconds: 0.010791063308716
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-001952-YfW9iGDTNb4a2jAI8@kvEgAAAAA
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-001952-YfW9iGDTNb4a2jAI8@kvEgAAAAA
 result: {
     "20220130-001952-YfW9iGDTNb4a2jAI8@kvEgAAAAA": {
@@ -3029,15 +3029,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617818.9068
-finish: 1647617818.9284
+start: 1651838353.2466
+finish: 1651838353.2576
 duration min:sec: 0:0
-duration sec.microseconds: 0.021593809127808
+duration sec.microseconds: 0.01092004776001
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-010814-YfXI3nIU1Z2mb4IT@34A3QAAAAE
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-010814-YfXI3nIU1Z2mb4IT@34A3QAAAAE
 result: {
     "20220130-010814-YfXI3nIU1Z2mb4IT@34A3QAAAAE": {
@@ -3045,15 +3045,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617818.9292
-finish: 1647617818.9396
+start: 1651838353.2581
+finish: 1651838353.2689
 duration min:sec: 0:0
-duration sec.microseconds: 0.010382890701294
+duration sec.microseconds: 0.010859966278076
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-001042-YfW7Yl0kP4nFuspQ07sCvAAAAAY
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-001042-YfW7Yl0kP4nFuspQ07sCvAAAAAY
 result: {
     "20220130-001042-YfW7Yl0kP4nFuspQ07sCvAAAAAY": {
@@ -3061,15 +3061,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617818.9407
-finish: 1647617818.9622
+start: 1651838353.2695
+finish: 1651838353.2804
 duration min:sec: 0:0
-duration sec.microseconds: 0.021478891372681
+duration sec.microseconds: 0.010863065719604
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-004447-YfXDX8lu-r1U5pcla2RZqgAAAAE
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-004447-YfXDX8lu-r1U5pcla2RZqgAAAAE
 result: {
     "20220130-004447-YfXDX8lu-r1U5pcla2RZqgAAAAE": {
@@ -3077,15 +3077,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617818.9632
-finish: 1647617818.9849
+start: 1651838353.281
+finish: 1651838353.2917
 duration min:sec: 0:0
-duration sec.microseconds: 0.021669864654541
+duration sec.microseconds: 0.010720014572144
 
-2022 / 03 / 18 : 17 36 58
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-004447-YfXDX8lu-r1U5pcla2RZqQAAAAE
 
-2022 / 03 / 18 : 17 36 59
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220130-004447-YfXDX8lu-r1U5pcla2RZqQAAAAE
 result: {
     "20220130-004447-YfXDX8lu-r1U5pcla2RZqQAAAAE": {
@@ -3093,15 +3093,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617818.986
-finish: 1647617819.0072
+start: 1651838353.2922
+finish: 1651838353.303
 duration min:sec: 0:0
-duration sec.microseconds: 0.021136999130249
+duration sec.microseconds: 0.010765075683594
 
-2022 / 03 / 18 : 17 36 59
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-184051-YfQckx5hPYqDYZUuDye11QAAABQ
 
-2022 / 03 / 18 : 17 36 59
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-184051-YfQckx5hPYqDYZUuDye11QAAABQ
 result: {
     "20220128-184051-YfQckx5hPYqDYZUuDye11QAAABQ": {
@@ -3109,15 +3109,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617819.0084
-finish: 1647617819.0184
+start: 1651838353.3036
+finish: 1651838353.3254
 duration min:sec: 0:0
-duration sec.microseconds: 0.010020017623901
+duration sec.microseconds: 0.021829843521118
 
-2022 / 03 / 18 : 17 36 59
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-204608-YfQ58KgkDFaVor1xa10F6wAAAAU
 
-2022 / 03 / 18 : 17 36 59
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-204608-YfQ58KgkDFaVor1xa10F6wAAAAU
 result: {
     "20220128-204608-YfQ58KgkDFaVor1xa10F6wAAAAU": {
@@ -3125,15 +3125,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617819.0194
-finish: 1647617819.0296
+start: 1651838353.3259
+finish: 1651838353.3367
 duration min:sec: 0:0
-duration sec.microseconds: 0.010196924209595
+duration sec.microseconds: 0.010740041732788
 
-2022 / 03 / 18 : 17 36 59
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-165954-YfQE6jN70ctT33KzTira3QAAAAE
 
-2022 / 03 / 18 : 17 36 59
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-165954-YfQE6jN70ctT33KzTira3QAAAAE
 result: {
     "20220128-165954-YfQE6jN70ctT33KzTira3QAAAAE": {
@@ -3141,15 +3141,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617819.0304
-finish: 1647617819.041
+start: 1651838353.3373
+finish: 1651838353.3478
 duration min:sec: 0:0
-duration sec.microseconds: 0.010622978210449
+duration sec.microseconds: 0.010483980178833
 
-2022 / 03 / 18 : 17 36 59
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-231619-YfRdI9C4keg8ftCm@cC@FwAAAAs
 
-2022 / 03 / 18 : 17 36 59
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-231619-YfRdI9C4keg8ftCm@cC@FwAAAAs
 result: {
     "20220128-231619-YfRdI9C4keg8ftCm@cC@FwAAAAs": {
@@ -3157,15 +3157,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617819.042
-finish: 1647617819.0522
+start: 1651838353.3483
+finish: 1651838353.4592
 duration min:sec: 0:0
-duration sec.microseconds: 0.010237216949463
+duration sec.microseconds: 0.11084699630737
 
-2022 / 03 / 18 : 17 36 59
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-163210-YfP@amcIjq2fNRg3HkNoMgAAAA8
 
-2022 / 03 / 18 : 17 36 59
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-163210-YfP@amcIjq2fNRg3HkNoMgAAAA8
 result: {
     "20220128-163210-YfP@amcIjq2fNRg3HkNoMgAAAA8": {
@@ -3173,15 +3173,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617819.0532
-finish: 1647617819.0633
+start: 1651838353.4598
+finish: 1651838353.4703
 duration min:sec: 0:0
-duration sec.microseconds: 0.01006817817688
+duration sec.microseconds: 0.010480880737305
 
-2022 / 03 / 18 : 17 36 59
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-183102-YfQaRmHSCpttVrvmvTzR0wAAAA4
 
-2022 / 03 / 18 : 17 36 59
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-183102-YfQaRmHSCpttVrvmvTzR0wAAAA4
 result: {
     "20220128-183102-YfQaRmHSCpttVrvmvTzR0wAAAA4": {
@@ -3189,15 +3189,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617819.0642
-finish: 1647617819.0972
+start: 1651838353.4708
+finish: 1651838353.5042
 duration min:sec: 0:0
-duration sec.microseconds: 0.032986164093018
+duration sec.microseconds: 0.033397912979126
 
-2022 / 03 / 18 : 17 36 59
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-181004-YfQVXD9LPLExY@LS8O-zFgAAAAw
 
-2022 / 03 / 18 : 17 36 59
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-181004-YfQVXD9LPLExY@LS8O-zFgAAAAw
 result: {
     "20220128-181004-YfQVXD9LPLExY@LS8O-zFgAAAAw": {
@@ -3205,15 +3205,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617819.098
-finish: 1647617819.1084
+start: 1651838353.5048
+finish: 1651838353.5154
 duration min:sec: 0:0
-duration sec.microseconds: 0.010420083999634
+duration sec.microseconds: 0.010557889938354
 
-2022 / 03 / 18 : 17 36 59
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-221206-YfROFvk09KJsz8p@RdMKGgAAAAI
 
-2022 / 03 / 18 : 17 36 59
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-221206-YfROFvk09KJsz8p@RdMKGgAAAAI
 result: {
     "20220128-221206-YfROFvk09KJsz8p@RdMKGgAAAAI": {
@@ -3221,15 +3221,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617819.1093
-finish: 1647617819.1975
+start: 1651838353.5159
+finish: 1651838353.5267
 duration min:sec: 0:0
-duration sec.microseconds: 0.088212966918945
+duration sec.microseconds: 0.010762214660645
 
-2022 / 03 / 18 : 17 36 59
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-223512-YfRTgM5UwLjLXhAp7EyngAAAAAc
 
-2022 / 03 / 18 : 17 36 59
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-223512-YfRTgM5UwLjLXhAp7EyngAAAAAc
 result: {
     "20220128-223512-YfRTgM5UwLjLXhAp7EyngAAAAAc": {
@@ -3237,15 +3237,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617819.1983
-finish: 1647617819.2088
+start: 1651838353.5272
+finish: 1651838353.5453
 duration min:sec: 0:0
-duration sec.microseconds: 0.010457992553711
+duration sec.microseconds: 0.018105030059814
 
-2022 / 03 / 18 : 17 36 59
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-184215-YfQc52cIjq2fNRg3HkNoPAAAAA8
 
-2022 / 03 / 18 : 17 36 59
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-184215-YfQc52cIjq2fNRg3HkNoPAAAAA8
 result: {
     "20220128-184215-YfQc52cIjq2fNRg3HkNoPAAAAA8": {
@@ -3253,15 +3253,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617819.2098
-finish: 1647617819.2199
+start: 1651838353.5459
+finish: 1651838353.5603
 duration min:sec: 0:0
-duration sec.microseconds: 0.01016902923584
+duration sec.microseconds: 0.014393091201782
 
-2022 / 03 / 18 : 17 36 59
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-234434-YfRjwqgkDFaVor1xa10F9QAAAAU
 
-2022 / 03 / 18 : 17 36 59
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-234434-YfRjwqgkDFaVor1xa10F9QAAAAU
 result: {
     "20220128-234434-YfRjwqgkDFaVor1xa10F9QAAAAU": {
@@ -3269,15 +3269,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617819.221
-finish: 1647617819.231
+start: 1651838353.5609
+finish: 1651838353.5715
 duration min:sec: 0:0
-duration sec.microseconds: 0.010020017623901
+duration sec.microseconds: 0.010617017745972
 
-2022 / 03 / 18 : 17 36 59
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-010446-YfMlDnZulatuuFp@EYq8wAAAAAM
 
-2022 / 03 / 18 : 17 36 59
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-010446-YfMlDnZulatuuFp@EYq8wAAAAAM
 result: {
     "20220128-010446-YfMlDnZulatuuFp@EYq8wAAAAAM": {
@@ -3285,15 +3285,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617819.2319
-finish: 1647617819.2425
+start: 1651838353.5722
+finish: 1651838353.5828
 duration min:sec: 0:0
-duration sec.microseconds: 0.010589122772217
+duration sec.microseconds: 0.010605096817017
 
-2022 / 03 / 18 : 17 36 59
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-183957-YfQcXWtP7GsCVy3wz4eU-gAAAAo
 
-2022 / 03 / 18 : 17 36 59
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-183957-YfQcXWtP7GsCVy3wz4eU-gAAAAo
 result: {
     "20220128-183957-YfQcXWtP7GsCVy3wz4eU-gAAAAo": {
@@ -3301,15 +3301,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617819.2434
-finish: 1647617819.3536
+start: 1651838353.5833
+finish: 1651838353.594
 duration min:sec: 0:0
-duration sec.microseconds: 0.11022210121155
+duration sec.microseconds: 0.010657072067261
 
-2022 / 03 / 18 : 17 36 59
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-171434-YfQIWokeQPUTWKDbM4jP8QAAAA0
 
-2022 / 03 / 18 : 17 36 59
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-171434-YfQIWokeQPUTWKDbM4jP8QAAAA0
 result: {
     "20220128-171434-YfQIWokeQPUTWKDbM4jP8QAAAA0": {
@@ -3317,15 +3317,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617819.3547
-finish: 1647617819.3648
+start: 1651838353.5946
+finish: 1651838353.6053
 duration min:sec: 0:0
-duration sec.microseconds: 0.010098934173584
+duration sec.microseconds: 0.010699033737183
 
-2022 / 03 / 18 : 17 36 59
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-013552-YfMsWPioyZrMb6OVxyeuWgAAAAU
 
-2022 / 03 / 18 : 17 36 59
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-013552-YfMsWPioyZrMb6OVxyeuWgAAAAU
 result: {
     "20220128-013552-YfMsWPioyZrMb6OVxyeuWgAAAAU": {
@@ -3333,15 +3333,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617819.3659
-finish: 1647617819.376
+start: 1651838353.6059
+finish: 1651838353.6163
 duration min:sec: 0:0
-duration sec.microseconds: 0.01012921333313
+duration sec.microseconds: 0.010441064834595
 
-2022 / 03 / 18 : 17 36 59
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-232320-YfReyOELTvn0PBMd0O7IMgAAABY
 
-2022 / 03 / 18 : 17 36 59
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-232320-YfReyOELTvn0PBMd0O7IMgAAABY
 result: {
     "20220128-232320-YfReyOELTvn0PBMd0O7IMgAAABY": {
@@ -3349,15 +3349,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617819.3771
-finish: 1647617819.3873
+start: 1651838353.6166
+finish: 1651838353.6275
 duration min:sec: 0:0
-duration sec.microseconds: 0.010173082351685
+duration sec.microseconds: 0.010931015014648
 
-2022 / 03 / 18 : 17 36 59
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-222957-YfRSRa@FOhI6Yj05PCBhQwAAABA
 
-2022 / 03 / 18 : 17 36 59
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-222957-YfRSRa@FOhI6Yj05PCBhQwAAABA
 result: {
     "20220128-222957-YfRSRa@FOhI6Yj05PCBhQwAAABA": {
@@ -3365,15 +3365,15 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617819.3883
-finish: 1647617819.3984
+start: 1651838353.6278
+finish: 1651838353.6387
 duration min:sec: 0:0
-duration sec.microseconds: 0.01009202003479
+duration sec.microseconds: 0.010937929153442
 
-2022 / 03 / 18 : 17 36 59
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-010607-YfMlX0XfCdTFZpImCSksWQAAAAQ
 
-2022 / 03 / 18 : 17 36 59
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220128-010607-YfMlX0XfCdTFZpImCSksWQAAAAQ
 result: {
     "20220128-010607-YfMlX0XfCdTFZpImCSksWQAAAAQ": {
@@ -3381,12 +3381,12 @@ result: {
         "special_log_type": "audit\/www-data"
     }
 }
-start: 1647617819.3995
-finish: 1647617819.443
+start: 1651838353.639
+finish: 1651838353.6724
 duration min:sec: 0:0
-duration sec.microseconds: 0.043580055236816
+duration sec.microseconds: 0.033434867858887
 
-2022 / 03 / 18 : 17 36 59
+2022 / 05 / 06 : 13 59 13
 Location: Synaptic4UParser\Core\App::__construct()
 config: {
     "IMPORTANT_NOTE_alias": "alias must be one word, no hyphens or spaces. Accepted values: tree or tree_log",

@@ -8,6 +8,11 @@ use Synaptic4UParser\Files\FileReader;
 use Synaptic4UParser\Tables\Tables;
 
 /**
+ * Class::Parser :
+ * Contains all parsing functionality.
+ *
+ * Methods :
+ *
  * Parser::loadLogs() :
  * Loads the file & logs the result.
  *
@@ -18,14 +23,22 @@ use Synaptic4UParser\Tables\Tables;
  * Method not working! Cleans the array of extra lines and into the expected log format.
  *
  * Parser::stringClean() :
+ * Sanitizes the string of certain characters : ",',\,,`,[]
  *
  * Parser::parseLine() :
+ * Parses and formats each line into the correct MySQL format.
+ * Uses the formatting for each table from the config.json file.
  *
  * Parser::dumpLog() :
+ * Method to parse files or lines from log file.
  *
  * Parser::insertLog() :
+ * Calls the Table:insertLog method.
+ * Stores the columns into the table.
  *
  * Parser::insertDump() :
+ * Calls the Table:dumpLog method.
+ * Stores the file / line into the table.
  */
 class Parser
 {
@@ -36,7 +49,7 @@ class Parser
     protected $tables;
 
     /**
-     * Creates DB instance for the db member.
+     * Creates FileReader instance for the file_reader member.
      * Creates Table instance for the tables member.
      *
      * @param mixed  $config
@@ -263,8 +276,9 @@ class Parser
             if ($key >= sizeof($columns_raw)) {
                 break;
             }
-            // Normal date parsing
+
             if ('loggedon' === $column) {
+                // Normal date parsing
                 // First test the format
                 $check = str_replace('[', '', str_replace(']', '', $columns_raw[0]));
 
@@ -342,6 +356,7 @@ class Parser
                     } else {
                         $temp = [];
 
+                        // Field encapsulation == brackets
                         if (1 === substr_count($table->field_encapsulated, 'brackets')) {
                             // print_r("brackets".PHP_EOL);
                             if (substr_count($columns_raw[0], '[') > 0 && substr_count($columns_raw[0], ']') > 0) {
@@ -356,6 +371,7 @@ class Parser
                                 }
                                 $columns[$column] = implode(' ', $temp);
                             }
+                            // Field encapsulation == double quotes
                         } elseif (1 === substr_count($table->field_encapsulated, 'double quotes')) {
                             // print_r("double quotes".PHP_EOL);
                             if (2 === substr_count($columns_raw[0], '"') || 0 === substr_count($columns_raw[0], '"')) {
@@ -382,7 +398,7 @@ class Parser
     }
 
     /**
-     * Generic dump method to store whole files or lines into MySQL from log file.
+     * Method to parse files or lines from log file.
      * 1. Parses the whole file to a field in the log_dump table : Used for the firewall audit log files.
      * 2. Parses a single line from a log file into the log field of the log_dump table.
      *

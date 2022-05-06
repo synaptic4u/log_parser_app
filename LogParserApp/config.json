@@ -1,9 +1,8 @@
 {
     "IMPORTANT_NOTE_alias" : "alias must be one word, no hyphens or spaces. Accepted values: tree or tree_log",
-    "IMPORTANT_NOTE for Parser::parseLine() method" : "Some of the logs are so custom, I couldn't catch everything with generic program logic without doing major checking in the parsing.",
+    "IMPORTANT_NOTE for Parser::parseLine() method" : "Some of the logs are so custom, I couldn't catch everything with generic program logic without doing extensive checking in the parsing.",
     "IMPORTANT_NOTE_database_primary_key" : "A auto_increment primary key is automatically named logid (int) auto_increment primary key",
     "IMPORTANT_NOTE_columns_date_variables" : "columns: date variable for database table must be named: loggedon.",
-    "IMPORTANT_NOTE_columns_last_variable_in_list" : "columns: Last column will be made a text column, the rest are varchar(255).",
     "log_include" : {
         "auth" : {
             "alias" : "auth",
