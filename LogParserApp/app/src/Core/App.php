@@ -55,8 +55,8 @@ class App
 
     /**
      * Constructor will load all the config files:
-     * 1. config_path_list.json -> JSON list of all the directories to step through to build the file list.
-     * 2. config.json -> JSON object of log files to parse.
+     * config_path_list.json -> JSON list of all the directories to step through to build the file list.
+     * config.json -> JSON object of log files to parse.
      * Creates the FileReader, FileWriter & Parser instances.
      * Calls the main Parser::loadLogs to run the log parsing.
      */
