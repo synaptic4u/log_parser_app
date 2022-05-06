@@ -175,9 +175,9 @@ Log Structure
         You can specify files that you want to be dumped. 
         This is useful for log files whose structure is not consistent and may change.
         I find it useful for concurrent logging, where my auditing system will make an individual file for a single log.
-        A log file can be parsed in two ways, where each line is inserted into a single column 
+        A log file can be parsed in two ways, where each line is inserted into a single field 
         in the database or where the whole file is in a single column.
-        With the dump functionality, the file name is included into the row in another column.
+        With the dump functionality, the file name is included into the row in another fieild.
         Further then that the file is not parsed.
         Line by line parsing uses the "\n" to extract lines.
 
@@ -185,8 +185,8 @@ Log Structure
         Some files will be ignored automatically; like compressed archive files.
         Namely: ".zip", ".tar", ".gz", ".xz".
         The four types previously mentioned are hard coded to be ignored.
-        I haven't written the application to parse anything other the UTF8 encoded file types.
-        The code will break if it attempts to parse any other file encoding.
+        I haven't written the application to parse anything other then the UTF8 encoded file types.
+        The code will break if it attempts to parse any other file encoding like binary.
         You can add to the list file types to be excluded.
 
 -----------------------------------------------------------------------------------------------
@@ -202,7 +202,7 @@ Further Considerations
     My knowledge of linux and logging is limited, some of the system log file columns I couldn't find adequate 
     explanations for them, so I guessed.
     I did notice that linux applications do follow their own format, the goal was to provide a generic architecture 
-    that would parse all variations of log files. At this point that goal is not yet achievable.
+    that would parse all variations of log files. At this point that goal is not yet achieved.
 
     PLEASE NOTE!
     -------------
@@ -221,7 +221,7 @@ Further Considerations
 
         User Interface
             I will introduce a user interface in time.
-            Friendly interaction withh the app is a goal for this.
+            Friendly user experience with the app is a goal for this.
 -----------------------------------------------------------------------------------------------
 Side Note
 -----------------------------------------------------------------------------------------------
@@ -233,20 +233,19 @@ Side Note
     The first time I ran this I had 80,000 log files; the largest having 200,000 lines.
     The size of the DB it generated was 4GB more or less.
 
-    I have little experience with sysadmin, so I'm not a regex ninja, (which I find a little confusing...).
+    I have little experience with sysadmin, so I'm not a regex ninja, (which I still need to learn properly).
     I do have DB experience and my mind thinks in structured sets. 
     Tidy little rows and columns.
     
     I will be maintaining this project and refractoring it. 
-    I wanted it to be something useful and something I could share. 
-    I combed the internet looking for something free and simple to use.
+    I wanted it to be something useful and something I could share.
     I hope that this is simple for you.
 
 -----------------------------------------------------------------------------------------------
 Contact
 -----------------------------------------------------------------------------------------------
 
-    If you have feedback; drop me a mail at emile@synaptic4u.co.za
+    If you have feedback; drop me a mail at emile@synaptic4u.co.za or emiledewilde2@gmail.com
 
     Thanks
     Emile De Wilde
