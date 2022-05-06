@@ -21,7 +21,6 @@ Log Parser App Setup & Usage
         This is just something to get it started. My application logic still needs to be polished. 
             ex: in my "debug" log files it is including modsec-debug file, which should be in it's own table.
         I'll let you know when it is finished, hope it helps & have fun.
-        I will also be adding commenting to the code as soon as possible.
     
     Setup:
     ------
@@ -103,6 +102,7 @@ Log Structure
 -----------------------------------------------------------------------------------------------
 
     This is the main configuration file for the application.
+    It is written in JSON formatting, which is read by the app and used as a std object.
     The configuration consists of 4 main aspects:
 
     1   Log Include - log_include.
@@ -111,10 +111,57 @@ Log Structure
     4   File Exclude - file_exclude_types.
 
     Log Include
-        Please rewad through the config.json file to see how I setup mine. My Apache2 log files are custom log files.
-        Some of my log files have different formatting, I had changed the formatting a number of times. 
+        Please read through the config.json file to see how I setup mine. My Apache2 log files are custom log files.
+        Some of my log files have a different formatting, I have changed the formatting a number of times. 
         It's noticeable in my Apache logs, I implement web server firewalls and auditing, so it writes lots of entries.
         I'm still playing with the structures and parsing.
+        
+        Structure:
+            "daemon_error" : {
+                "alias" : "daemon_error",
+                "directory" :"/var/log/apache2",
+                "name" : "daemon-error.log",
+                "columns" : ["loggedon", "error", "client_ip", "unique_id", "log"],
+                "loggedon_format" : "YYYY-MM-DD HH:mm:ss.m-6",
+                "field_encapsulated" : "brackets or double quotes",
+                "field_delimiter" : "space",
+                "quirk" : "Unique_id & client_ip_port could be anywhere, we'll search for those values after error column. 
+                           Date formatted as either: [Day MMM DD HH:mm:ss.m-6 YYYY] || [Day MMM DD HH:mm:ss.m-6 YYYY]" 
+            },
+            
+            -> "daemon_error" -> The name of the log file.
+            -> "alias" : "daemon_error" -> This is used as the alias for the database table name.
+            -> "directory" :"/var/log/apache2" -> The expected directory. 
+                    I plan to use this to differentiate log files with the same name based upon their directory path.
+            ->  "name" : "daemon-error.log" -> The full name of the log file.
+            ->  "columns" : ["loggedon", "error", "client_ip", "unique_id", "log"] -> The expected columns.
+                    These will become the field name in the database table.
+                    The last column "log" will default to all content in the row of the file as it is parsed. So after the initial named columns, 
+                    all remaining content will be included into the :log" column.
+            ->  "loggedon_format" : "YYYY-MM-DD HH:mm:ss.m-6" -> This is the expected date format in the file. 
+                    Different applications use a different format and it can be problematic.
+                    So far I've encountered these variations in my log files:
+                        "MMM DD HH:mm:ss"
+                        "YYYY-MM-DD HH:mm:ss"
+                        "YYYY-MM-DD HH:mm:ss,m-3"
+                        "YYYY-MM-DD HH:mm:ss.m-6"
+                    The differences formats used are parsed according to their letters with hyphens.
+                        "YYYY" -> 2022
+                        "MMM" -> Apr
+                        "MM" -> 04
+                        "DD" -> 24
+                        "HH" -> 24 format
+                        "ss,m-3" or "ss.m-6" -> Seconds with micro-seconds, deliminited by either a "," or "." and to the 3rd or 6th decimal place
+            ->  "field_encapsulated" : "brackets or double quotes" ->   Fields are encapsulated with brackets or double quotes.
+                    Some fields even though the "space" is used to delimit fields can be arranged in a group, 
+                    yet still with spaces used as a delimiter in the group.
+            ->  "field_delimiter" : "space" > Fields are normally delimited by a "space"
+            ->  "quirk" : "Unique_id & client_ip_port could be anywhere, we'll search for those values after error column. 
+                           Date formatted as either: [Day MMM DD HH:mm:ss.m-6 YYYY] || [Day MMM DD HH:mm:ss.m-6 YYYY]" 
+                    -> "quirk" helped me to keep track of difference in formatting, which happened when I changed some applications log formatting.
+                            Namely Apache2. I experimented with different formats.
+                            I also experienced quirks when some applications would write their own errors to the log file, which used a different format,
+                            like Fail2Ban for example.
 
     Log Exclude
         This is a list of files that are on your server that you do not want to parse.
