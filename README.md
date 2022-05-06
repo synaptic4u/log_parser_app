@@ -7,7 +7,8 @@ Log Parser App Setup & Usage
 
 
         Please note that there are great log parsing applications, but most will give you a web interface to use.
-        A web interface is something that I wish to avoid, the goal will be a CLI application, I will be aiming for something like htop.
+        A web interface is something that I wish to avoid, the goal will be a CLI application. 
+        I will be aiming for something like htop.
 
         I will be updating this when I have the chance to do so. There's still documentation I need to do for it!
         This is all running on a server where Im practicing my server administration and doing a little pentesting.
@@ -131,6 +132,8 @@ Log Structure
             
             -> "daemon_error" -> The name of the log file.
             -> "alias" : "daemon_error" -> This is used as the alias for the database table name.
+                    Alias must be one word, no hyphens or spaces!
+                    Accepted values: tree or tree_log.
             -> "directory" :"/var/log/apache2" -> The expected directory. 
                     I plan to use this to differentiate log files with the same name based upon their directory path.
             ->  "name" : "daemon-error.log" -> The full name of the log file.
