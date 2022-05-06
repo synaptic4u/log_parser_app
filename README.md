@@ -77,6 +77,9 @@ Database
     grant all priviliges for the user on the database you just created.
     Lastly we flush the priviliges to the database configuration.
 
+    NB! Please note that in each table a primary key with auto incrementing is created.
+        It will be named "logid" for all user defined tables or "dumpid" for the generic "log_dump" table.
+
 -----------------------------------------------------------------------------------------------
 Log Directories
 -----------------------------------------------------------------------------------------------
