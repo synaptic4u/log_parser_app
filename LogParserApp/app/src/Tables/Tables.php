@@ -5,17 +5,45 @@ namespace Synaptic4UParser\Tables;
 use Synaptic4UParser\Core\Log;
 use Synaptic4UParser\DB\DB;
 
+/**
+ * Class::Tables :
+ * Primary class to handle database table interactions : reading, creating, inserting.
+ *
+ * Table::construct() :
+ * Initializes Class::DB.
+ *
+ * Table::readTablesList() :
+ * Reads a list of all the tables from the database.
+ *
+ * Table::readTableColumns() :
+ * Reads all the column names from the given table.
+ *
+ * Table::createTable() :
+ * Creates the table in the database with dynamic table alias and field names.
+ *
+ * Table::insertLog() :
+ * Creates a MySQL insert statements dynamically.
+ *
+ * Table::dumpLog() :
+ * Creates insert statement for log_dump table.
+ *
+ * Table::createLogDump() :
+ * Creates the log_dump table.
+ */
 class Tables
 {
     protected $db;
 
+    /**
+     * Initialises DB class.
+     */
     public function __construct()
     {
         $this->db = new DB();
     }
 
     /**
-     * Reads all the tables from the database.
+     * Reads a list of all the tables from the database.
      *
      * @return mixed : Returns a std::Class object of results
      */
@@ -59,7 +87,7 @@ class Tables
 
     /**
      * Creates the table in the database.
-     * COlumn names are dynamically allocated from the $table->columns property.
+     * Column names are dynamically allocated from the $table->columns property.
      *
      * @param [type] $table : std::Class object containing the table's alias and columns
      *
@@ -99,6 +127,14 @@ class Tables
         ];
     }
 
+    /**
+     * Creates a MySQL insert statements dynamically.
+     *
+     * @param array  $columns : Associative array of table's column names and field content
+     * @param string $alias   : Table name
+     *
+     * @return int : The last inserted ID
+     */
     public function insertLog(array $columns, string $alias): int
     {
         $sql = 'insert into '.$alias.'( ';
@@ -121,9 +157,17 @@ class Tables
         return $this->db->getLastId();
     }
 
+    /**
+     * Creates insert statement for log_dump table.
+     *
+     * @param string $line : Field contents (log file row or entire log file)
+     * @param string $file : full path name of file
+     *
+     * @return int : The last inserted ID
+     */
     public function dumpLog(string $line, string $file): int
     {
-        $sql = 'replace into log_dump(`file`, `contents`)values(?, ?);';
+        $sql = 'insert into log_dump(`file`, `contents`)values(?, ?);';
 
         $result = $this->db->query([
             $file,
@@ -133,6 +177,11 @@ class Tables
         return $this->db->getLastId();
     }
 
+    /**
+     * Creates the log_dump table.
+     *
+     * @return mixed : Return the query's status
+     */
     public function createLogDump(): mixed
     {
         $sql = 'CREATE TABLE IF NOT EXISTS log_dump (`dumpid` int(11) NOT NULL AUTO_INCREMENT,`dumpdate` datetime default current_timestamp,`file` text not null,`contents` longtext default NULL,PRIMARY KEY (`dumpid`),KEY `dumpdate` (`dumpdate`),KEY `content` (`contents`(768)),KEY `file` (`contents`(768)));';
