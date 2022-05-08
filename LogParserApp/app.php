@@ -9,6 +9,7 @@ if (file_exists(dirname(__FILE__, 1).'/vendor/autoload.php')) {
     require_once dirname(__FILE__, 1).'/vendor/autoload.php';
 }
 
+// use Exception;
 use Synaptic4UParser\Core\App;
 use Synaptic4UParser\Core\Log;
 
@@ -27,8 +28,11 @@ try {
     print_r($base_dir.'/progressReport.php'.PHP_EOL.PHP_EOL);
     print_r('You can view the live activity log here: '.PHP_EOL.$base_dir.'/logs/activity.txt'.PHP_EOL.PHP_EOL);
 
+    // Reads the setup file for runtime options.
+    $setup = json_decode(file_get_contents(dirname(__FILE__, 1).'/setup.json'), false);
+
     // Initiates Class::App
-    $app = new App();
+    $app = new App($setup);
 
     // End output of app.
     print_r('Completed without breaking!'.PHP_EOL.PHP_EOL);

@@ -42,6 +42,7 @@ use Synaptic4UParser\Tree\Tree;
  */
 class App
 {
+    protected $setup;
     protected $config_path;
     protected $config_path_list = [];
     protected $config_log_path;
@@ -52,6 +53,7 @@ class App
     protected $file_writer;
     protected $parser;
     protected $result;
+    protected $options;
 
     /**
      * Constructor will load all the config files:
@@ -59,11 +61,28 @@ class App
      * config.json -> JSON object of log files to parse.
      * Creates the FileReader, FileWriter & Parser instances.
      * Calls the main Parser::loadLogs to run the log parsing.
+     *
+     * @param mixed $setup
      */
-    public function __construct()
+    public function __construct(object $setup)
     {
         try {
             $start = microtime(true);
+
+            $this->setup = $setup;
+            foreach ($setup->options as $option => $type) {
+                foreach ($type as $key => $value) {
+                    if (1 === (int) $value) {
+                        print_r(strtoupper($key).' '.$value.PHP_EOL);
+                        $class = strtoupper($key);
+
+                        $full_class = '\Synaptic4UParser\\'.$option.'\\'.$class.'\\'.$class;
+                        print_r('Class: '.$class.' Full class: '.$full_class.PHP_EOL);
+                        $this->options[$option] = ('DB' === (string) $option) ? $full_class : new $full_class();
+                    }
+                }
+            }
+            print_r($this->options);
 
             $this->result = [
                 'app_timer' => [],
@@ -200,7 +219,7 @@ class App
     }
 
     /**
-     * Prepped to later introduce error logging. Not functional in this version.
+     * Error logging.
      *
      * @param array $msg : Error message
      */
@@ -210,7 +229,7 @@ class App
     }
 
     /**
-     * Activity logging. Not fully functional in this version.
+     * Activity logging.
      *
      * @param array $msg : Message
      */

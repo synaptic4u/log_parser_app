@@ -4,6 +4,7 @@ namespace Synaptic4UParser\DB;
 
 use Exception;
 use PDO;
+use Synaptic4UParser\Core\Log;
 
 class DB
 {
@@ -26,8 +27,13 @@ class DB
             //  Create PDO instance.
             $this->pdo = new PDO($dsn, $this->conn['user'], $this->conn['pass']);
         } catch (Exception $e) {
+            $this->error([
+                'Location' => __METHOD__.'()',
+                'error' => $e->__toString(),
+            ]);
+
             exit(json_encode([
-                $this->pdo->errorInfo(),
+                'error' => $e->__toString(),
             ], JSON_PRETTY_PRINT));
 
             $result = null;
@@ -55,6 +61,15 @@ class DB
 
             $stmt = null;
         } catch (Exception $e) {
+            $this->error([
+                'Location' => __METHOD__.'()',
+                'pdo->errorInfo' => $this->pdo->errorInfo(),
+                'error' => $e->__toString(),
+                'stmt' => $stmt,
+                'sql' => $sql,
+                'params' => $params,
+            ]);
+
             exit(json_encode([
                 'pdo->errorInfo' => $this->pdo->errorInfo(),
                 'error' => $e->__toString(),
@@ -84,5 +99,10 @@ class DB
     public function getStatus(): mixed
     {
         return $this->status;
+    }
+
+    protected function error($msg)
+    {
+        new Log($msg, 'error');
     }
 }

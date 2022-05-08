@@ -1,0 +1,45 @@
+
+2022-05-06 22:52:41
+Location: Synaptic4UParser\DB\DB::query()
+pdo->errorInfo: [
+    "00000",
+    null,
+    null
+]
+error: PDOException: There is already an active transaction in /var/www/LogParserApp/app/src/DB/DB.php:46
+Stack trace:
+#0 /var/www/LogParserApp/app/src/DB/DB.php(46): PDO->beginTransaction()
+#1 /var/www/LogParserApp/app/src/Tables/Tables.php(155): Synaptic4UParser\DB\DB->query()
+#2 /var/www/LogParserApp/app/src/Parser/Parser.php(478): Synaptic4UParser\Tables\Tables->insertLog()
+#3 /var/www/LogParserApp/app/src/Parser/Parser.php(174): Synaptic4UParser\Parser\Parser->insertLog()
+#4 /var/www/LogParserApp/app/src/Parser/Parser.php(128): Synaptic4UParser\Parser\Parser->parseLog()
+#5 /var/www/LogParserApp/app/src/Core/App.php(199): Synaptic4UParser\Parser\Parser->loadLogs()
+#6 /var/www/LogParserApp/app/src/Core/App.php(96): Synaptic4UParser\Core\App->loadLogs()
+#7 /var/www/LogParserApp/app.php(32): Synaptic4UParser\Core\App->__construct()
+#8 {main}
+stmt: 
+sql: insert into dpkg( `process`,`log`)values(?,?);
+params: [
+    "Setting",
+    "up linux-image-amd64 (4.19+105+deb10u14) ...\r"
+]
+
+2022-05-08 18:05:48
+Location: Synaptic4UParser\DB\DB::__construct()
+error: PDOException: SQLSTATE[HY000] [2002] No such file or directory in /var/www/LogParserApp/app/src/DB/DB.php:28
+Stack trace:
+#0 /var/www/LogParserApp/app/src/DB/DB.php(28): PDO->__construct()
+#1 /var/www/LogParserApp/app/src/Structure/Structure.php(45): Synaptic4UParser\DB\DB->__construct()
+#2 /var/www/LogParserApp/app/src/Core/App.php(188): Synaptic4UParser\Structure\Structure->__construct()
+#3 /var/www/LogParserApp/app/src/Core/App.php(92): Synaptic4UParser\Core\App->buildStructure()
+#4 /var/www/LogParserApp/app.php(32): Synaptic4UParser\Core\App->__construct()
+#5 {main}
+
+2022-05-08 20:20:41
+Location: Synaptic4UParser\DB\MYSQL\MYSQL::__construct()
+error: PDOException: SQLSTATE[HY000] [2002] No such file or directory in /var/www/LogParserApp/app/src/DB/MYSQL/MYSQL.php:28
+Stack trace:
+#0 /var/www/LogParserApp/app/src/DB/MYSQL/MYSQL.php(28): PDO->__construct()
+#1 /var/www/LogParserApp/app/src/Core/App.php(81): Synaptic4UParser\DB\MYSQL\MYSQL->__construct()
+#2 /var/www/LogParserApp/app.php(35): Synaptic4UParser\Core\App->__construct()
+#3 {main}
