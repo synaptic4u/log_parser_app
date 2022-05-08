@@ -2,9 +2,9 @@
 
 namespace Synaptic4UParser\UI\DESKTOP;
 
-use Synaptic4UParser\UI\UIInterface;
+use Synaptic4UParser\UI\IUIInterface;
 
-class DESKTOP implements UIInterface
+class DESKTOP implements IUIInterface
 {
     public function display()
     {

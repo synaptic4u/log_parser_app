@@ -5,9 +5,9 @@ namespace Synaptic4UParser\DB\SQLITE;
 use Exception;
 use PDO;
 use Synaptic4UParser\Core\Log;
-use Synaptic4UParser\DB\DBInterface;
+use Synaptic4UParser\DB\IDBInterface;
 
-class SQLITE implements DBInterface
+class SQLITE implements IDBInterface
 {
     protected $lastinsertid = -1;
     protected $rowcount = -1;

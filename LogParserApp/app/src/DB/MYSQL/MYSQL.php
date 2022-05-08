@@ -5,9 +5,9 @@ namespace Synaptic4UParser\DB\MYSQL;
 use Exception;
 use PDO;
 use Synaptic4UParser\Core\Log;
-use Synaptic4UParser\DB\DBInterface;
+use Synaptic4UParser\DB\IDBInterface;
 
-class MYSQL implements DBInterface
+class MYSQL implements IDBInterface
 {
     protected $lastinsertid = -1;
     protected $rowcount = -1;

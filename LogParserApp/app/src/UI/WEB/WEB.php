@@ -2,9 +2,9 @@
 
 namespace Synaptic4UParser\UI\WEB;
 
-use Synaptic4UParser\UI\UIInterface;
+use Synaptic4UParser\UI\IUIInterface;
 
-class WEB implements UIInterface
+class WEB implements IUIInterface
 {
     public function display()
     {

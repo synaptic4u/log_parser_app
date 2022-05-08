@@ -2,9 +2,9 @@
 
 namespace Synaptic4UParser\UI\CLI;
 
-use Synaptic4UParser\UI\UIInterface;
+use Synaptic4UParser\UI\IUIInterface;
 
-class CLI implements UIInterface
+class CLI implements IUIInterface
 {
     public function display()
     {
