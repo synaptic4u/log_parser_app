@@ -7,6 +7,9 @@ Log Parser App Setup & Usage
             New options.json file.
             You can choose what type of user interface you want to select: Web, CLI or Desktop.
             Can also choose what type of database to use: MSSQL, MySQL, PostgreSQL, SQLite.
+            Contemplating to add the option for a local or remote database connection???
+            Local will always be more secure.
+            Remote may provide easier accessibilty, less secure; Plan to use encrypted connections for it.
             Will be refactoring the code for those options.
 
 
