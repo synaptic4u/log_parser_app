@@ -3,7 +3,11 @@ Log Parser App Setup & Usage
 -----------------------------------------------------------------------------------------------
     Intro:
     -------
-        NB! -> I'm just adding comments. Should still run.
+        NB! -> I'm adding user interface & database options in "dev" branch.
+            New options.json file.
+            You can choose what type of user interface you want to select: Web, CLI or Desktop.
+            Can also choose what type of database to use: MSSQL, MySQL, PostgreSQL, SQLite.
+            Will be refactoring the code for those options.
 
 
         Please note that there are great log parsing applications, but most will give you a web interface to use.
