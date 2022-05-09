@@ -70,19 +70,19 @@ class App
             $start = microtime(true);
 
             $this->setup = $setup;
+
             foreach ($setup->options as $option => $type) {
                 foreach ($type as $key => $value) {
                     if (1 === (int) $value) {
-                        print_r(strtoupper($key).' '.$value.PHP_EOL);
+                        // print_r(strtoupper($key).' '.$value.PHP_EOL);
                         $class = strtoupper($key);
 
                         $full_class = '\Synaptic4UParser\\'.$option.'\\'.$class.'\\'.$class;
-                        print_r('Class: '.$class.' Full class: '.$full_class.PHP_EOL);
+                        // print_r('Class: '.$class.' Full class: '.$full_class.PHP_EOL);
                         $this->options[$option] = ('DB' === (string) $option) ? $full_class : new $full_class();
                     }
                 }
             }
-            print_r($this->options);
 
             $this->result = [
                 'app_timer' => [],
@@ -99,33 +99,33 @@ class App
             $this->config = $this->readConfig($this->config_path);
             $this->config_path_list = $this->readConfig($this->config_log_path);
 
-            foreach ($this->config_path_list->log_path as $path) {
-                $start_loop = microtime(true);
+            // foreach ($this->config_path_list->log_path as $path) {
+            //     $start_loop = microtime(true);
 
-                print_r($path.PHP_EOL);
+            //     print_r($path.PHP_EOL);
 
-                $this->getTree($path);
+            //     $this->getTree($path);
 
-                $this->writeTree();
+            //     $this->writeTree();
 
-                $this->buildStructure();
+            //     $this->buildStructure();
 
-                $this->parser = new Parser($this->config, $path);
+            //     $this->parser = new Parser($this->config, $path);
 
-                $this->result['log_files'] = $this->loadLogs();
-                $finish_loop = microtime(true);
+            //     $this->result['log_files'] = $this->loadLogs();
+            //     $finish_loop = microtime(true);
 
-                $result['app_timer'] = [
-                    'Date & Time' => date('Y-m-d H:i:s'),
-                    'Log Path' => $path,
-                    'Start' => $start_loop,
-                    'Finish' => $finish_loop,
-                    'Duration min:sec' => (($finish_loop - $start_loop) > 60) ? (floor(($finish_loop - $start_loop) / 60)).':'.(($finish_loop - $start_loop) % 60) : '0:'.(($finish_loop - $start_loop) % 60),
-                    'Duration sec.microseconds' => $finish_loop - $start_loop,
-                ];
+            //     $result['app_timer'] = [
+            //         'Date & Time' => date('Y-m-d H:i:s'),
+            //         'Log Path' => $path,
+            //         'Start' => $start_loop,
+            //         'Finish' => $finish_loop,
+            //         'Duration min:sec' => (($finish_loop - $start_loop) > 60) ? (floor(($finish_loop - $start_loop) / 60)).':'.(($finish_loop - $start_loop) % 60) : '0:'.(($finish_loop - $start_loop) % 60),
+            //         'Duration sec.microseconds' => $finish_loop - $start_loop,
+            //     ];
 
-                print_r(json_encode($result, JSON_PRETTY_PRINT).PHP_EOL);
-            }
+            //     print_r(json_encode($result, JSON_PRETTY_PRINT).PHP_EOL);
+            // }
 
             $finish = microtime(true);
 
