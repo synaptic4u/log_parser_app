@@ -6,15 +6,16 @@ Log Parser App Setup & Usage
         NB! -> I'm adding user interface & database options in "dev" branch.
             New options.json file.
             You can choose what type of user interface you want to select: Web, CLI or Desktop.
-            Can also choose what type of database to use: MSSQL, MySQL, PostgreSQL, SQLite.
-            Contemplating to add the option for a local or remote database connection???
-            Local will always be more secure.
-            Remote may provide easier accessibilty, less secure; Plan to use encrypted connections for it.
+            Can also choose what type of database to use: MySQL, PostgreSQL, SQLite.
             Will be refactoring the code for those options.
 
 
+    Reason:
+    -------
         Please note that there are great log parsing applications, but most will give you a web interface to use.
-        A web interface is something that I wish to avoid, the goal will be a CLI application. 
+        I wanted a CLI option, as I dont want to open another door on the server that I need to protect.
+        A web interface is something that I wish to avoid, the goal will be a CLI application and later bring in a web and desktop interface.
+        Web & Desktop interface for running logs on local machines.
         I will be aiming for something like htop.
 
         I will be updating this when I have the chance to do so. There's still documentation I need to do for it!
@@ -24,6 +25,8 @@ Log Parser App Setup & Usage
         I'm not a regex ninja, so I wrote this to be able to query everything from my DB where I am a ninja. 
         I have procedures where I clean the data and remove possible duplicates. 
 
+    Please NB!!!
+    ------------
         IMPORTANT!!! 
         This will produce duplicates, you will need to clean your data in mysql!!!!
         This is just something to get it started. My application logic still needs to be polished. 
