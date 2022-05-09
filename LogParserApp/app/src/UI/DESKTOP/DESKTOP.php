@@ -2,15 +2,15 @@
 
 namespace Synaptic4UParser\UI\DESKTOP;
 
-use Synaptic4UParser\UI\IUIInterface;
+use Synaptic4UParser\UI\IUserInterface;
 
-class DESKTOP implements IUIInterface
+class DESKTOP implements IUserInterface
 {
-    public function display()
+    public function display(string $dir, array $params = [])
     {
     }
 
-    public function success()
+    public function finished(string $dir, array $params = [])
     {
     }
 }
