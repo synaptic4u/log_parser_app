@@ -1,0 +1,9 @@
+
+2022-05-10 16:52:10
+Location: Synaptic4UParser\DB\DB::__construct()
+error: PDOException: SQLSTATE[HY000] [2002] No such file or directory in /var/www/LogParserApp/app/src/DB/DB.php:28
+Stack trace:
+#0 /var/www/LogParserApp/app/src/DB/DB.php(28): PDO->__construct()
+#1 /var/www/LogParserApp/progressReport.php(23): Synaptic4UParser\DB\DB->__construct()
+#2 /var/www/LogParserApp/progressReport.php(50): getCount()
+#3 {main}

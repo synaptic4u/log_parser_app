@@ -89,7 +89,7 @@ class App
 
             $this->options = $this->buildOptions();
 
-            $full_class = '\\Synaptic4UParser\\FrontTemplate\\'.$this->options['UI'];
+            $full_class = '\\Synaptic4UParser\\FrontTemplate\\Views\\'.$this->options['UI'];
 
             $this->front_template = new FrontTemplate(new $full_class());
 
