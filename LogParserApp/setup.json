@@ -1,0 +1,15 @@
+{
+    "options" : {
+        "UI" : {
+            "cli" : 1,
+            "web" : 0,
+            "desktop" : 0
+        },
+        "DB" : {
+            "mysql" : 1,
+            "postgresql" : 0,
+            "sqllite" : 0
+        }
+    }
+
+}

@@ -5,6 +5,7 @@ namespace Synaptic4UParser\Core;
 use Exception;
 use Synaptic4UParser\Files\FileReader;
 use Synaptic4UParser\Files\FileWriter;
+use Synaptic4UParser\FrontTemplate\FrontTemplate;
 use Synaptic4UParser\Parser\Parser;
 use Synaptic4UParser\Structure\Structure;
 use Synaptic4UParser\Tree\Tree;
@@ -42,6 +43,9 @@ use Synaptic4UParser\Tree\Tree;
  */
 class App
 {
+    protected $setup;
+    protected $setup_path;
+    protected $options;
     protected $config_path;
     protected $config_path_list = [];
     protected $config_log_path;
@@ -57,8 +61,9 @@ class App
      * Constructor will load all the config files:
      * config_path_list.json -> JSON list of all the directories to step through to build the file list.
      * config.json -> JSON object of log files to parse.
-     * Creates the FileReader, FileWriter & Parser instances.
-     * Calls the main Parser::loadLogs to run the log parsing.
+     * Creates the FileReader, FileWriter instances.
+     *
+     * @param mixed $setup
      */
     public function __construct()
     {
@@ -72,6 +77,7 @@ class App
 
             $this->config_log_path = dirname(__FILE__, 4).'/config_path_list.json';
             $this->config_path = dirname(__FILE__, 4).'/config.json';
+            $this->setup_path = dirname(__FILE__, 4).'/setup.json';
 
             $this->file_reader = new FileReader();
 
@@ -79,34 +85,17 @@ class App
 
             $this->config = $this->readConfig($this->config_path);
             $this->config_path_list = $this->readConfig($this->config_log_path);
+            $this->setup = $this->readConfig($this->setup_path);
 
-            foreach ($this->config_path_list->log_path as $path) {
-                $start_loop = microtime(true);
+            $this->options = $this->buildOptions();
 
-                print_r($path.PHP_EOL);
+            $full_class = '\\Synaptic4UParser\\FrontTemplate\\'.$this->options['UI'];
 
-                $this->getTree($path);
+            $this->front_template = new FrontTemplate(new $full_class());
 
-                $this->writeTree();
+            $this->displayInit();
 
-                $this->buildStructure();
-
-                $this->parser = new Parser($this->config, $path);
-
-                $this->result['log_files'] = $this->loadLogs();
-                $finish_loop = microtime(true);
-
-                $result['app_timer'] = [
-                    'Date & Time' => date('Y-m-d H:i:s'),
-                    'Log Path' => $path,
-                    'Start' => $start_loop,
-                    'Finish' => $finish_loop,
-                    'Duration min:sec' => (($finish_loop - $start_loop) > 60) ? (floor(($finish_loop - $start_loop) / 60)).':'.(($finish_loop - $start_loop) % 60) : '0:'.(($finish_loop - $start_loop) % 60),
-                    'Duration sec.microseconds' => $finish_loop - $start_loop,
-                ];
-
-                print_r(json_encode($result, JSON_PRETTY_PRINT).PHP_EOL);
-            }
+            $this->cyclePathList();
 
             $finish = microtime(true);
 
@@ -119,6 +108,8 @@ class App
             ];
 
             $this->showReport();
+
+            $this->displayComplete();
 
             $this->log([
                 'Location' => __METHOD__.'()',
@@ -142,6 +133,72 @@ class App
     {
         $this->file_writer->appendArrayToFile('/structure_files/result.txt', $this->result);
         print_r(json_encode($this->result, JSON_PRETTY_PRINT).PHP_EOL);
+    }
+
+    /**
+     * Cycles through the path list.
+     * Calls geTree(),  writeTree() & buildStructure().
+     * Creates Parser instance.
+     * Calls the main Parser::loadLogs to run the log parsing.
+     */
+    protected function cyclePathList()
+    {
+        foreach ($this->config_path_list->log_path as $path) {
+            $start_loop = microtime(true);
+
+            print_r($path.PHP_EOL);
+
+            $this->getTree($path);
+
+            $this->writeTree();
+
+            $this->buildStructure();
+
+            $this->parser = new Parser($this->config, $path);
+
+            $this->result['log_files'] = $this->loadLogs();
+            $finish_loop = microtime(true);
+
+            $result['app_timer'] = [
+                'Date & Time' => date('Y-m-d H:i:s'),
+                'Log Path' => $path,
+                'Start' => $start_loop,
+                'Finish' => $finish_loop,
+                'Duration min:sec' => (($finish_loop - $start_loop) > 60) ? (floor(($finish_loop - $start_loop) / 60)).':'.(($finish_loop - $start_loop) % 60) : '0:'.(($finish_loop - $start_loop) % 60),
+                'Duration sec.microseconds' => $finish_loop - $start_loop,
+            ];
+
+            print_r(json_encode($result, JSON_PRETTY_PRINT).PHP_EOL);
+        }
+    }
+
+    protected function displayComplete()
+    {
+        $this->front_template->finished();
+    }
+
+    protected function displayInit()
+    {
+        $this->front_template->display();
+    }
+
+    protected function buildOptions(): array
+    {
+        $options = [];
+
+        foreach ($this->setup->options as $option => $type) {
+            foreach ($type as $key => $value) {
+                if (1 === (int) $value) {
+                    $class = strtoupper($key);
+
+                    $full_class = '\Synaptic4UParser\\'.$option.'\\'.$class.'\\'.$class;
+                    print_r('Class: '.$class.PHP_EOL);
+                    $options[$option] = $class;
+                }
+            }
+        }
+
+        return $options;
     }
 
     /**
@@ -200,7 +257,7 @@ class App
     }
 
     /**
-     * Prepped to later introduce error logging. Not functional in this version.
+     * Error logging.
      *
      * @param array $msg : Error message
      */
@@ -210,7 +267,7 @@ class App
     }
 
     /**
-     * Activity logging. Not fully functional in this version.
+     * Activity logging.
      *
      * @param array $msg : Message
      */

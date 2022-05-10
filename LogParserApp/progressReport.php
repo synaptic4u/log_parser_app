@@ -10,8 +10,6 @@ if (file_exists(dirname(__FILE__, 1).'/vendor/autoload.php')) {
     // var_dump(dirname(__FILE__, 1).'/vendor/autoload.php');
 }
 
-// use Exception;
-use Synaptic4UParser\Core\Log;
 use Synaptic4UParser\DB\DB;
 
 /**
@@ -43,7 +41,6 @@ function getCount(): mixed
     return $table_report;
 }
 
-try {
     print_r('App timer: '.date('Y-m-d H:i:s').PHP_EOL);
     $start = microtime(true);
 
@@ -88,9 +85,3 @@ try {
     ], $report);
 
     print_r('DB Stats: '.json_encode($report, JSON_PRETTY_PRINT).PHP_EOL);
-} catch (Exception $e) {
-    new Log([
-        'Location' => dirname(__FILE__, 1).'/app.php',
-        'Exception' => $e->__toString(),
-    ], 'error');
-}

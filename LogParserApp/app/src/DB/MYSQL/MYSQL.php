@@ -1,12 +1,13 @@
 <?php
 
-namespace Synaptic4UParser\DB;
+namespace Synaptic4UParser\DB\MYSQL;
 
 use Exception;
 use PDO;
 use Synaptic4UParser\Core\Log;
+use Synaptic4UParser\DB\IDBInterface;
 
-class DB
+class MYSQL implements IDBInterface
 {
     protected $lastinsertid = -1;
     protected $rowcount = -1;
@@ -17,7 +18,7 @@ class DB
     public function __construct()
     {
         try {
-            $filepath = dirname(__FILE__, 4).'/db_config.json';
+            $filepath = dirname(__FILE__, 5).'/db_config.json';
 
             //  Returns associative array.
             $this->conn = json_decode(file_get_contents($filepath), true);
@@ -101,7 +102,7 @@ class DB
         return $this->status;
     }
 
-    protected function error($msg)
+    public function error($msg)
     {
         new Log($msg, 'error');
     }
