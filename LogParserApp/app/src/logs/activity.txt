@@ -52293,3 +52293,165 @@ result: {
 2022-05-10 21:30:47
 Location: Synaptic4UParser\Parser\Parser::parseLog(): kern.log
 alias: kern
+
+2022-05-10 21:39:38
+Location: Synaptic4UParser\Parser\Parser::parseLog(): kern.log
+alias: kern
+result: {
+    "kern.log": {
+        "start": 1652211047.535353,
+        "finish": 1652211578.361634,
+        "duration min:sec": "8:50",
+        "duration sec.microseconds": 530.8262810707092,
+        "nu_rows": 22066,
+        "nu_result": 22066
+    }
+}
+
+2022-05-10 21:39:38
+Location: Synaptic4UParser\Parser\Parser::parseLog(): mail.info
+alias: mail_info
+
+2022-05-10 21:40:27
+Location: Synaptic4UParser\Parser\Parser::parseLog(): mail.info
+alias: mail_info
+result: {
+    "mail.info": {
+        "start": 1652211578.362284,
+        "finish": 1652211627.790394,
+        "duration min:sec": "0:49",
+        "duration sec.microseconds": 49.428110122680664,
+        "nu_rows": 3789,
+        "nu_result": 3789
+    }
+}
+
+2022-05-10 21:40:27
+Location: Synaptic4UParser\Parser\Parser::parseLog(): mail.log
+alias: mail_log
+
+2022-05-10 21:41:16
+Location: Synaptic4UParser\Parser\Parser::parseLog(): mail.log
+alias: mail_log
+result: {
+    "mail.log": {
+        "start": 1652211627.790828,
+        "finish": 1652211676.719653,
+        "duration min:sec": "0:48",
+        "duration sec.microseconds": 48.92882490158081,
+        "nu_rows": 3789,
+        "nu_result": 3789
+    }
+}
+
+2022-05-10 21:41:16
+Location: Synaptic4UParser\Parser\Parser::parseLog(): mail.warn
+alias: mail_warn
+
+2022-05-10 21:41:22
+Location: Synaptic4UParser\Parser\Parser::parseLog(): mail.warn
+alias: mail_warn
+result: {
+    "mail.warn": {
+        "start": 1652211676.720114,
+        "finish": 1652211682.409663,
+        "duration min:sec": "0:5",
+        "duration sec.microseconds": 5.689548969268799,
+        "nu_rows": 433,
+        "nu_result": 433
+    }
+}
+
+2022-05-10 21:41:22
+Location: Synaptic4UParser\Parser\Parser::parseLog(): messages
+alias: messages
+
+2022-05-10 21:46:18
+Location: Synaptic4UParser\Parser\Parser::parseLog(): messages
+alias: messages
+result: {
+    "messages": {
+        "start": 1652211682.410022,
+        "finish": 1652211978.272033,
+        "duration min:sec": "4:55",
+        "duration sec.microseconds": 295.86201095581055,
+        "nu_rows": 21843,
+        "nu_result": 21843
+    }
+}
+
+2022-05-10 21:46:18
+Location: Synaptic4UParser\Parser\Parser::parseLog(): syslog-20220217
+alias: syslog
+
+2022-05-10 21:47:48
+Location: Synaptic4UParser\Parser\Parser::parseLog(): syslog-20220217
+alias: syslog
+result: {
+    "syslog-20220217": {
+        "start": 1652211978.272636,
+        "finish": 1652212068.088654,
+        "duration min:sec": "1:29",
+        "duration sec.microseconds": 89.81601810455322,
+        "nu_rows": 6742,
+        "nu_result": 6742
+    }
+}
+
+2022-05-10 21:47:48
+Location: Synaptic4UParser\Parser\Parser::parseLog(): syslog-20220215
+alias: syslog
+
+2022-05-10 21:49:30
+Location: Synaptic4UParser\Parser\Parser::parseLog(): syslog-20220215
+alias: syslog
+result: {
+    "syslog-20220215": {
+        "start": 1652212068.089144,
+        "finish": 1652212170.675101,
+        "duration min:sec": "1:42",
+        "duration sec.microseconds": 102.58595705032349,
+        "nu_rows": 7816,
+        "nu_result": 7816
+    }
+}
+
+2022-05-10 21:49:30
+Location: Synaptic4UParser\Parser\Parser::parseLog(): syslog-20220216
+alias: syslog
+
+2022-05-10 21:50:54
+Location: Synaptic4UParser\Parser\Parser::parseLog(): syslog-20220216
+alias: syslog
+result: {
+    "syslog-20220216": {
+        "start": 1652212170.675654,
+        "finish": 1652212254.870885,
+        "duration min:sec": "1:24",
+        "duration sec.microseconds": 84.19523096084595,
+        "nu_rows": 6803,
+        "nu_result": 6803
+    }
+}
+
+2022-05-10 21:50:54
+Location: Synaptic4UParser\Parser\Parser::parseLog(): syslog
+alias: syslog
+
+2022-05-10 21:50:59
+Location: Synaptic4UParser\Parser\Parser::parseLog(): syslog
+alias: syslog
+result: {
+    "syslog": {
+        "start": 1652212254.871342,
+        "finish": 1652212259.884063,
+        "duration min:sec": "0:5",
+        "duration sec.microseconds": 5.012721061706543,
+        "nu_rows": 390,
+        "nu_result": 390
+    }
+}
+
+2022-05-10 21:50:59
+Location: Synaptic4UParser\Parser\Parser::parseLog(): ufw.log
+alias: ufw
