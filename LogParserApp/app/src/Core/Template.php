@@ -35,10 +35,14 @@ class Template
 {
     protected $folder;
 
-    public function build(string $dir_path, string $name, array $array = []): string
+    public function __construct($dir_path)
+    {
+        $this->folder = $dir_path;
+    }
+
+    public function build(string $name, array $array = []): string
     {
         try {
-            $this->folder = $dir_path;
             $template = $this->get_template($name);
 
             $output = '';
@@ -65,7 +69,7 @@ class Template
 
     protected function get_template(string $name): mixed
     {
-        $file = $this->folder.'/'.$name.'.php';
+        $file = $this->folder.$name.'.php';
 
         if (file_exists($file)) {
             return $file;

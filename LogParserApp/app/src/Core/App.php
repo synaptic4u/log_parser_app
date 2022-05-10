@@ -61,8 +61,7 @@ class App
      * Constructor will load all the config files:
      * config_path_list.json -> JSON list of all the directories to step through to build the file list.
      * config.json -> JSON object of log files to parse.
-     * Creates the FileReader, FileWriter & Parser instances.
-     * Calls the main Parser::loadLogs to run the log parsing.
+     * Creates the FileReader, FileWriter instances.
      *
      * @param mixed $setup
      */
@@ -90,9 +89,11 @@ class App
 
             $this->options = $this->buildOptions();
 
-            $this->front_template = new FrontTemplate($this->options['UI']);
+            $full_class = '\\Synaptic4UParser\\FrontTemplate\\'.$this->options['UI'];
 
-            $this->initDisplay();
+            $this->front_template = new FrontTemplate(new $full_class());
+
+            $this->displayInit();
 
             $this->cyclePathList();
 
@@ -108,7 +109,7 @@ class App
 
             $this->showReport();
 
-            $this->displayFinished();
+            $this->displayComplete();
 
             $this->log([
                 'Location' => __METHOD__.'()',
@@ -134,6 +135,12 @@ class App
         print_r(json_encode($this->result, JSON_PRETTY_PRINT).PHP_EOL);
     }
 
+    /**
+     * Cycles through the path list.
+     * Calls geTree(),  writeTree() & buildStructure().
+     * Creates Parser instance.
+     * Calls the main Parser::loadLogs to run the log parsing.
+     */
     protected function cyclePathList()
     {
         foreach ($this->config_path_list->log_path as $path) {
@@ -165,12 +172,12 @@ class App
         }
     }
 
-    protected function displayFinished()
+    protected function displayComplete()
     {
         $this->front_template->finished();
     }
 
-    protected function initDisplay()
+    protected function displayInit()
     {
         $this->front_template->display();
     }
@@ -185,8 +192,8 @@ class App
                     $class = strtoupper($key);
 
                     $full_class = '\Synaptic4UParser\\'.$option.'\\'.$class.'\\'.$class;
-                    print_r('Class: '.$class.' Full class: '.$full_class.PHP_EOL);
-                    $options[$option] = ('DB' === (string) $option) ? $full_class : new $full_class();
+                    print_r('Class: '.$class.PHP_EOL);
+                    $options[$option] = $class;
                 }
             }
         }
