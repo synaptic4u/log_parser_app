@@ -3,7 +3,8 @@ Log Parser App Setup & Usage
 -----------------------------------------------------------------------------------------------
     Intro:
     -------
-        NB! -> I'm adding user interface & database options in "dev" branch.
+        NB! -> Working in "dev" branch, will merge "dev" to "master" periodically. 
+            Merged initial changes to master.
             New options.json file.
             You can choose what type of user interface you want to select: Web, CLI or Desktop.
             Can also choose what type of database to use: MySQL, PostgreSQL, SQLite.
