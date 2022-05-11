@@ -24,20 +24,20 @@ class CLI implements IUserInterface
     public function display(array $params = [])
     {
         $template['base_dir'] = dirname(__FILE__, 4);
-        $template['eol'] = '~~~~~';
+        $template['eol'] = PHP_EOL;
 
         print_r($this->replaceEOL($this->template->build('front_template', $template)));
     }
 
     public function finished(array $params = [])
     {
-        $template['eol'] = '~~~~~';
+        $template['eol'] = PHP_EOL;
         print_r($this->replaceEOL($this->template->build('finished', $template)));
     }
 
     protected function replaceEOL(string $string): string
     {
-        return str_replace('~~~~~', PHP_EOL, $string);
+        return $string; // str_replace('~~~~~', PHP_EOL, $string);
     }
 
     /**

@@ -10,7 +10,7 @@ use Exception;
  * Writes php variables into a template and returns the result.
  *
  * Template::__construct() :
- * Initializes object. Receives the directory path to the template.
+ * Initializes object. Assigns the directory path to classes attribute.
  *
  * Template::build() :
  * Calls Template::get_template() and Template::build_template().
@@ -25,9 +25,6 @@ use Exception;
  * Template::build_template() :
  * Creates object buffer, cycles through paramater array and inserts variables in template.
  *
- * Template::escape() :
- * Parse string and escapes htmlspecialchars();
- *
  * Template::error() :
  * Logs an error message.
  */
@@ -35,11 +32,23 @@ class Template
 {
     protected $folder;
 
-    public function __construct($dir_path)
+    /**
+     * Assigns directory path to attribute.
+     */
+    public function __construct(string $dir_path)
     {
         $this->folder = $dir_path;
     }
 
+    /**
+     * Calls Template::get_template.
+     * Calls Template::build_template to parse the template writing the params array.
+     *
+     * @param string $name  : Template file to retrieve
+     * @param array  $array : Associtive array of values to be written to template
+     *
+     * @return string : returns a string
+     */
     public function build(string $name, array $array = []): string
     {
         try {
@@ -62,11 +71,28 @@ class Template
         }
     }
 
+    /**
+     * Trims unnessary new lines and whitespace.
+     * Doesn't work well with CLI PHP_EOL.
+     * Will perfect solution when I add html templates.
+     *
+     * @param string $buffer : Output of object buffer
+     *
+     * @return string : Trimmed string
+     */
     public function string_replace(string $buffer): string
     {
-        return str_replace("\n", '', str_replace('  ', ' ', $buffer));
+        return $buffer; // str_replace("\n", '', str_replace('  ', ' ', $buffer));
     }
 
+    /**
+     * Gets the template to parse.
+     * Checks if template exists.
+     *
+     * @param string $name : Template name
+     *
+     * @return mixed : Returns file or null
+     */
     protected function get_template(string $name): mixed
     {
         $file = $this->folder.$name.'.php';
@@ -78,7 +104,15 @@ class Template
         return null;
     }
 
-    protected function build_template($template, $array = []): string
+    /**
+     * Parses the template file through the object buffer and writes param array to template in the ob.
+     *
+     * @param string $template : full path to the template file
+     * @param array  $array    : Associative array of values to write to template
+     *
+     * @return string : Returns the parsed object buffer as string
+     */
+    protected function build_template(string $template, $array = []): string
     {
         $contents = '';
 
@@ -95,11 +129,6 @@ class Template
         ob_end_clean();
 
         return $this->string_replace($contents);
-    }
-
-    protected function escape(string $variable): string
-    {
-        return htmlspecialchars($variable, ENT_QUOTES, 'UTF-8');
     }
 
     /**

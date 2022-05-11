@@ -95,7 +95,7 @@ class App
 
             $this->displayInit();
 
-            $this->cyclePathList();
+            // $this->cyclePathList();
 
             $finish = microtime(true);
 
