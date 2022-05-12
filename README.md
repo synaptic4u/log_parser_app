@@ -8,7 +8,7 @@ Log Parser App Setup & Usage
             New options.json file.
             You can choose what type of user interface you want to select: Web, CLI or Desktop.
             Can also choose what type of database to use: MySQL, PostgreSQL, SQLite.
-            Will be refactoring the code for those options.
+            Will be refactoring the code for those options and also decoupling into behavioural patterns.
 
 
     Reason:
