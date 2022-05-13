@@ -8,16 +8,18 @@ Log Parser App Setup & Usage
             New options.json file.
             You can choose what type of user interface you want to select: Web, CLI or Desktop.
             Can also choose what type of database to use: MySQL, PostgreSQL, SQLite.
-            Will be refactoring the code for those options and also decoupling into behavioural patterns.
+            I will be refactoring the code using different design patterns as I get the chance, (Its a work in progress).
+            Initially I will refactor the user interface -> MVC approach.
+            Following that will be refactoring the behaviour and then I will code the DB layer.
+            Everything is tightly coupled, I wrote this to fill an immediate need of just getting my important logs into the DB.
 
 
     Reason:
     -------
         Please note that there are great log parsing applications, but most will give you a web interface to use.
-        I wanted a CLI option, as I dont want to open another door on the server that I need to protect.
-        A web interface is something that I wish to avoid, the goal will be a CLI application and later bring in a web and desktop interface.
-        Web & Desktop interface for running logs on local machines.
-        I will be aiming for something like htop.
+        I wanted a CLI option.
+
+        I will be refactoring the code using different design patterns as I get the chance, (Its a work in progress).
 
         I will be updating this when I have the chance to do so. There's still documentation I need to do for it!
         This is all running on a server where Im practicing my server administration and doing a little pentesting.
