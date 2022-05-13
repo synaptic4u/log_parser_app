@@ -8,9 +8,10 @@ Log Parser App Setup & Usage
             New options.json file.
             You can choose what type of user interface you want to select: Web, CLI or Desktop.
             Can also choose what type of database to use: MySQL, PostgreSQL, SQLite.
-            I will be refactoring the code using different design patterns as I get the chance, (Its a work in progress).
+            I will be refactoring the code using different design patterns as I get the chance, 
+            (Its a work in progress).
             Initially I will refactor the user interface -> MVC approach.
-            Following that will be refactoring the behaviour and then I will code the DB layer.
+            Following that I will be refactoring the behaviour and then coding the DB abstraction layer.
             Everything is tightly coupled, I wrote this to fill an immediate need of just getting my important logs into the DB.
 
 
