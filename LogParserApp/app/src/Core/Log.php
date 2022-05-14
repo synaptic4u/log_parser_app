@@ -3,6 +3,8 @@
 namespace Synaptic4UParser\Core;
 
 use Exception;
+use Synaptic4UParser\Files\Writer\FileWriter;
+use Synaptic4UParser\Files\Writer\FileWriterText;
 
 /**
  * Class::Log :
@@ -25,7 +27,8 @@ use Exception;
 class Log
 {
     protected $msg;
-    protected $file;
+    protected $path;
+    protected $file_writer;
 
     /**
      * Saves paramaters to local variables.
@@ -36,7 +39,9 @@ class Log
         try {
             $this->msg = $msg;
 
-            $this->file = $file;
+            $this->path = $file;
+
+            $this->file_writer = new FileWriter();
 
             $this->writeLog();
         } catch (Exception $e) {
@@ -49,23 +54,23 @@ class Log
      */
     protected function writeLog()
     {
-        $log = fopen($this->buildPath(), 'a');
-
-        fwrite($log, $this->buildMessage());
-
-        fclose($log);
+        $this->file_writer->appendToFile(
+            new FileWriterText(),
+            $this->path,
+            $this->buildMessage()
+        );
     }
 
     /**
-     * Builds the directory path for the file.
+     * Builds the partial path for the file.
+     *
+     * @param mixed $file
      *
      * @return string : Path to file
      */
-    protected function buildPath(): string
+    protected function buildPath($file): string
     {
-        $path = dirname(__FILE__, 2).'/logs/';
-
-        return $path.$this->file.'.txt';
+        return '/logs/'.$file.'.txt';
     }
 
     /**
@@ -80,13 +85,9 @@ class Log
 
         $message = "\n".$date."\n";
 
-        if (1 == is_array($this->msg)) {
-            foreach ($this->msg as $key => $value) {
-                $value = (1 == is_array($value)) ? json_encode($value, JSON_PRETTY_PRINT) : $value;
-                $message .= $key.': '.$value."\n";
-            }
-        } else {
-            $message .= $this->msg."\n";
+        foreach ($this->msg as $key => $value) {
+            $value = (1 == is_array($value)) ? json_encode($value, JSON_PRETTY_PRINT) : $value;
+            $message .= $key.': '.$value."\n";
         }
 
         return $message;

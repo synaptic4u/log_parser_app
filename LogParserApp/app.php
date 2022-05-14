@@ -11,7 +11,8 @@ if (file_exists(dirname(__FILE__, 1).'/vendor/autoload.php')) {
 
 // use Exception;
 use Synaptic4UParser\Core\App;
-use Synaptic4UParser\Core\Log;
+use Synaptic4UParser\Logs\Error;
+use Synaptic4UParser\Logs\Log;
 
 try {
     // Initiates Class::App
@@ -20,5 +21,5 @@ try {
     new Log([
         'Location' => dirname(__FILE__, 1).'/app.php',
         'Exception' => $e->__toString(),
-    ], 'error');
+    ], new Error());
 }

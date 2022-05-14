@@ -2,8 +2,10 @@
 
 namespace Synaptic4UParser\Tables;
 
-use Synaptic4UParser\Core\Log;
 use Synaptic4UParser\DB\DB;
+use Synaptic4UParser\Logs\Activity;
+use Synaptic4UParser\Logs\Error;
+use Synaptic4UParser\Logs\Log;
 
 /**
  * Class::Tables :
@@ -36,10 +38,12 @@ class Tables
 
     /**
      * Initialises DB class.
+     *
+     * @param mixed $options
      */
-    public function __construct()
+    public function __construct($options)
     {
-        $this->db = new DB();
+        $this->db = new DB(new ($options['DB'])());
     }
 
     /**
@@ -121,6 +125,8 @@ class Tables
         $success = $this->db->getStatus();
 
         return [
+            'nu' => null,
+            'created' => null,
             'alias' => $table->alias,
             'count' => $count,
             'success' => $success,
@@ -191,13 +197,23 @@ class Tables
         return $this->db->getStatus();
     }
 
+    /**
+     * Error logging.
+     *
+     * @param array $msg : Error message
+     */
     protected function error($msg)
     {
-        new Log($msg, 'error');
+        new Log($msg, new Error());
     }
 
+    /**
+     * Activity logging.
+     *
+     * @param array $msg : Message
+     */
     protected function log($msg)
     {
-        new Log($msg, 'activity');
+        new Log($msg, new Activity());
     }
 }

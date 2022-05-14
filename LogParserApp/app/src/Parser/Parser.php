@@ -3,8 +3,10 @@
 namespace Synaptic4UParser\Parser;
 
 use DateTime;
-use Synaptic4UParser\Core\Log;
-use Synaptic4UParser\Files\FileReader;
+use Synaptic4UParser\Files\Reader\FileReader;
+use Synaptic4UParser\Logs\Activity;
+use Synaptic4UParser\Logs\Error;
+use Synaptic4UParser\Logs\Log;
 use Synaptic4UParser\Tables\Tables;
 
 /**
@@ -54,13 +56,14 @@ class Parser
      *
      * @param mixed  $config
      * @param string $path
+     * @param mixed  $options
      */
-    public function __construct($config, $path)
+    public function __construct($config, $path, $options)
     {
         $this->config = $config;
         $this->path = $path;
         $this->file_reader = new FileReader();
-        $this->tables = new Tables();
+        $this->tables = new Tables($options);
     }
 
     /**
@@ -115,12 +118,12 @@ class Parser
             }
         }
 
-        $this->log(json_encode([
+        $this->log([
             'Location' => __METHOD__.'() : '.$this->path,
             'Accepted log files parsed to own tables' => (sizeof($accept) > 0) ? $accept : 'No files to log',
             'Log files to be rejected:' => (sizeof($reject) > 0) ? $reject : 'No files to log',
             'Log files parsed to log_dump' => (sizeof($dump) > 0) ? $dump : 'No files to log',
-        ], JSON_PRETTY_PRINT));
+        ]);
 
         (sizeof($dump) > 0) ? $this->tables->createLogDump() : '';
 
@@ -187,8 +190,8 @@ class Parser
             substr($file, strripos($file, '/') + 1) => [
                 'start' => $start,
                 'finish' => $finish,
-                'duration min:sec' => (($finish - $start) > 60) ? (floor(($finish - $start) / 60)).':'.(($finish - $start) % 60) : '0:'.(($finish - $start) % 60),
-                'duration sec.microseconds' => $finish - $start,
+                'duration_min_sec' => (($finish - $start) > 60) ? (floor(($finish - $start) / 60)).':'.(($finish - $start) % 60) : '0:'.(($finish - $start) % 60),
+                'duration_sec_microseconds' => $finish - $start,
                 'nu_rows' => ($nu_rows > 0) ? $nu_rows : 'File is empty or the row length is less then 10 charachters.',
                 'nu_result' => sizeof($list),
             ],
@@ -251,6 +254,26 @@ class Parser
         }
 
         return $columns;
+    }
+
+    /**
+     * Sanitizes the string of certain characters : ",',\,,`,[]
+     * Had an issue when importing MySQL data dump files.
+     * Still need to prove that it was because of unwanted characters.
+     *
+     * @param string $columns : string of a file line
+     *
+     * @return string : Returns cleaned string
+     */
+    protected function blobClean(string $blob): string
+    {
+        $blob = str_replace('"', '~~~dblquote~~~', $blob);
+        $blob = str_replace("'", '~~~sngquote~~~', $blob);
+        $blob = str_replace(',', '~~~comma~~~', $blob);
+        $blob = str_replace('`', '~~~backtick~~~', $blob);
+        $blob = str_replace('\\', '~~~backslash~~~', $blob);
+
+        return str_replace('[', '~~~lbracket~~~', str_replace(']', '~~~rbracket~~~', $blob));
     }
 
     /**
@@ -417,7 +440,7 @@ class Parser
         $rows = $this->file_reader->parseFile($file);
 
         if (substr_count($file, 'apache2/audit/www-data') > 0) {
-            $blob = implode(' ', $rows);
+            $blob = $this->blobClean(implode(' ', $rows));
 
             $id = $this->insertDump($blob, $file);
 
@@ -434,7 +457,7 @@ class Parser
 
             foreach ($rows as $row) {
                 if (strlen($row > 10)) {
-                    $line = $this->file_reader->stringClear($row);
+                    $line = $this->blobClean($this->file_reader->stringClear($row));
 
                     $id = $this->insertDump($line, $file);
                     array_push($list, $id);
@@ -457,8 +480,8 @@ class Parser
             'result' => json_encode($result, JSON_PRETTY_PRINT),
             'start' => $start,
             'finish' => $finish,
-            'duration min:sec' => (($finish - $start) > 60) ? (floor(($finish - $start) / 60)).':'.(($finish - $start) % 60) : '0:'.(($finish - $start) % 60),
-            'duration sec.microseconds' => $finish - $start,
+            'duration_min_sec' => (($finish - $start) > 60) ? (floor(($finish - $start) / 60)).':'.(($finish - $start) % 60) : '0:'.(($finish - $start) % 60),
+            'duration_sec_microseconds' => $finish - $start,
         ]);
 
         return $result;
@@ -493,22 +516,22 @@ class Parser
     }
 
     /**
-     * Prepped to later introduce error logging. Not functional in this version.
+     * Error logging.
      *
      * @param array $msg : Error message
      */
     protected function error($msg)
     {
-        new Log($msg, 'error');
+        new Log($msg, new Error());
     }
 
     /**
-     * Activity logging. Not fully functional in this version.
+     * Activity logging.
      *
      * @param array $msg : Message
      */
     protected function log($msg)
     {
-        new Log($msg, 'activity');
+        new Log($msg, new Activity());
     }
 }

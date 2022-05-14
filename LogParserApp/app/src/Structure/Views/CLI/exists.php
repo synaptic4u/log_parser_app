@@ -1,0 +1,1 @@
+Configuration alias : <?php echo $alias; ?><?php echo $eol; ?>

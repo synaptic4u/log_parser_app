@@ -2,7 +2,9 @@
 
 namespace Synaptic4UParser\Tree;
 
-use Synaptic4UParser\Core\Log;
+use Synaptic4UParser\Logs\Activity;
+use Synaptic4UParser\Logs\Error;
+use Synaptic4UParser\Logs\Log;
 
 /**
  * Class::Tree :
@@ -75,22 +77,22 @@ class Tree
     }
 
     /**
-     * Prepped to later introduce error logging. Not functional in this version.
+     * Error logging.
      *
      * @param array $msg : Error message
      */
-    protected function error(array $msg): void
+    protected function error($msg)
     {
-        new Log($msg, 'error');
+        new Log($msg, new Error());
     }
 
     /**
-     * Prepped to later introduce logging. Not functional in this version.
+     * Activity logging.
      *
      * @param array $msg : Message
      */
     protected function log($msg)
     {
-        new Log($msg, 'activity');
+        new Log($msg, new Activity());
     }
 }
