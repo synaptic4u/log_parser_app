@@ -4,14 +4,11 @@ NOTA BENA!!!
 
         NB! -> 
             Developing in "dev" branch, will merge "dev" to "master" periodically. 
-            Refactoring in "dev" -> It will break!!!
-            Merged initial changes to master.
-            New options.json file.
-            You can choose what type of user interface you want to select: Web, CLI or Desktop.
-            Can also choose what type of database to use: MySQL, PostgreSQL, SQLite.
-            I will be refactoring the code as I get the chance, 
-
-            Everything is tightly coupled, I wrote this to fill an immediate need of just getting my important logs into the DB.
+            Refactoring in "dev" -> Do NOT use; It will break!!!
+            Decoupling my presentation layer and database layer.
+            First just for the CLI & MySQL, once that is purring like a lion...
+                then I'll do the rest, but completing the database abstraction
+                and then to the presentation.
             
 
 -----------------------------------------------------------------------------------------------
@@ -22,9 +19,7 @@ Log Parser App Setup & Usage
         Please note that there are great log parsing applications, but most will give you a web interface to use.
         I wanted a CLI option.
 
-        I will be refactoring the code using different design patterns as I get the chance, (Its a work in progress).
-
-        I will be updating this when I have the chance to do so. There's still documentation I need to do for it!
+        I will be updating this when I have the chance to do so. 
         This is all running on a server where Im practicing my server administration and doing a little pentesting.
 
         I ended up with thousands of log files with hundreds of thousands of entries while I was testing. 
