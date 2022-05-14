@@ -1,21 +1,23 @@
 -----------------------------------------------------------------------------------------------
-Log Parser App Setup & Usage
+NOTA BENA!!!
 -----------------------------------------------------------------------------------------------
-    Intro:
-    -------
-        NB! -> Working in "dev" branch, will merge "dev" to "master" periodically. 
+
+        NB! -> 
+            Developing in "dev" branch, will merge "dev" to "master" periodically. 
+            Refactoring in "dev" -> It will break!!!
             Merged initial changes to master.
             New options.json file.
             You can choose what type of user interface you want to select: Web, CLI or Desktop.
             Can also choose what type of database to use: MySQL, PostgreSQL, SQLite.
-            I will be refactoring the code using different design patterns as I get the chance, 
-            (Its a work in progress).
-            Initially I will refactor the user interface -> MVC approach.
-            Following that I will be refactoring the behaviour and then coding the DB abstraction layer.
+            I will be refactoring the code as I get the chance, 
+
             Everything is tightly coupled, I wrote this to fill an immediate need of just getting my important logs into the DB.
+            
 
-
-    Reason:
+-----------------------------------------------------------------------------------------------
+Log Parser App Setup & Usage
+-----------------------------------------------------------------------------------------------
+    Intro:
     -------
         Please note that there are great log parsing applications, but most will give you a web interface to use.
         I wanted a CLI option.
