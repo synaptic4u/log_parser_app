@@ -154,7 +154,6 @@ class App
     protected function cyclePathList()
     {
         foreach ($this->config_path_list->log_path as $path) {
-            $start_loop = microtime(true);
 
             print_r($path.PHP_EOL);
 
@@ -167,18 +166,6 @@ class App
             $this->parser = new Parser($this->config, $path, $this->options);
 
             $this->result['log_files'] = $this->loadLogs();
-            $finish_loop = microtime(true);
-
-            $result['app_timer'] = [
-                'Date & Time' => date('Y-m-d H:i:s'),
-                'Log Path' => $path,
-                'Start' => $start_loop,
-                'Finish' => $finish_loop,
-                'Duration min:sec' => (($finish_loop - $start_loop) > 60) ? (floor(($finish_loop - $start_loop) / 60)).':'.(($finish_loop - $start_loop) % 60) : '0:'.(($finish_loop - $start_loop) % 60),
-                'Duration sec.microseconds' => $finish_loop - $start_loop,
-            ];
-
-            print_r(json_encode($result, JSON_PRETTY_PRINT).PHP_EOL);
         }
     }
 
