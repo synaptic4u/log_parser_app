@@ -2,7 +2,9 @@
 
 namespace Synaptic4UParser\Tree;
 
-use Synaptic4UParser\Core\Log;
+use Synaptic4UParser\Logs\Activity;
+use Synaptic4UParser\Logs\Error;
+use Synaptic4UParser\Logs\Log;
 
 /**
  * Class::Tree :
@@ -13,6 +15,13 @@ use Synaptic4UParser\Core\Log;
  */
 class Tree
 {
+    protected $file_exclude_types;
+
+    public function __construct($file_exclude_types)
+    {
+        $this->file_exclude_types = $file_exclude_types;
+    }
+
     /**
      * Recursive method : Cycles through children directories to build multi-dimensional array of file paths.
      * Need to update it to have an ignore list set out in the main config.json,
@@ -36,15 +45,18 @@ class Tree
                             if (is_dir($newpath)) {
                                 $tree[$path][$file] = $this->buildTree($newpath, []);
                             } else {
-                                if (0 === substr_count($newfile, '.xz') && '.xz' != substr($newfile, strripos($newfile, '.'))) {
-                                    if (0 === substr_count($newfile, '.gz') && '.gz' != substr($newfile, strripos($newfile, '.'))) {
-                                        if (0 === substr_count($newfile, '.tar') && '.tar' != substr($newfile, strripos($newfile, '.'))) {
-                                            if (0 === substr_count($newfile, '.zip') && '.zip' != substr($newfile, strripos($newfile, '.'))) {
-                                                $tree[$path][$file] = $newfile;
-                                            }
-                                        }
-                                    }
+                                if (!in_array(substr($newfile, strripos($newfile, '.')), $this->file_exclude_types)) {
+                                    $tree[$path][$file] = $newfile;
                                 }
+                                // if (0 === substr_count($newfile, '.xz') && '.xz' != substr($newfile, strripos($newfile, '.'))) {
+                                //     if (0 === substr_count($newfile, '.gz') && '.gz' != substr($newfile, strripos($newfile, '.'))) {
+                                //         if (0 === substr_count($newfile, '.tar') && '.tar' != substr($newfile, strripos($newfile, '.'))) {
+                                //             if (0 === substr_count($newfile, '.zip') && '.zip' != substr($newfile, strripos($newfile, '.'))) {
+                                //                 $tree[$path][$file] = $newfile;
+                                //             }
+                                //         }
+                                //     }
+                                // }
                             }
                         }
                     }
@@ -75,22 +87,22 @@ class Tree
     }
 
     /**
-     * Prepped to later introduce error logging. Not functional in this version.
+     * Error logging.
      *
      * @param array $msg : Error message
      */
-    protected function error(array $msg): void
+    protected function error($msg)
     {
-        new Log($msg, 'error');
+        new Log($msg, new Error());
     }
 
     /**
-     * Prepped to later introduce logging. Not functional in this version.
+     * Activity logging.
      *
      * @param array $msg : Message
      */
     protected function log($msg)
     {
-        new Log($msg, 'activity');
+        new Log($msg, new Activity());
     }
 }

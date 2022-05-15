@@ -3,6 +3,9 @@
 namespace Synaptic4UParser\Core;
 
 use Exception;
+use Synaptic4UParser\Logs\Activity;
+use Synaptic4UParser\Logs\Error;
+use Synaptic4UParser\Logs\Log;
 
 /**
  * Class : Template.
@@ -138,7 +141,7 @@ class Template
      */
     protected function error($msg)
     {
-        new Log($msg, 'error');
+        new Log($msg, new Error());
     }
 
     /**
@@ -148,6 +151,6 @@ class Template
      */
     protected function log($msg)
     {
-        new Log($msg, 'activity');
+        new Log($msg, new Activity());
     }
 }

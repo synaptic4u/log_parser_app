@@ -1,13 +1,17 @@
 <?php
 
-namespace Synaptic4UParser\DB\SQLITE;
+namespace Synaptic4UParser\DB;
 
 use Exception;
 use PDO;
-use Synaptic4UParser\Core\Log;
-use Synaptic4UParser\DB\IDBInterface;
+use Synaptic4UParser\Logs\Activity;
+use Synaptic4UParser\Logs\Error;
+use Synaptic4UParser\Logs\Log;
 
-class SQLITE implements IDBInterface
+/**
+ * NOT IN USE - WILL DEVELOP IT STILL. JUST COPIED THE MySQL Class content.
+ */
+class POSTGRESQL implements IDBInterface
 {
     protected $lastinsertid = -1;
     protected $rowcount = -1;
@@ -18,7 +22,7 @@ class SQLITE implements IDBInterface
     public function __construct()
     {
         try {
-            $filepath = dirname(__FILE__, 5).'/db_config.json';
+            $filepath = dirname(__FILE__, 4).'/db_postgresql_config.json';
 
             //  Returns associative array.
             $this->conn = json_decode(file_get_contents($filepath), true);
@@ -33,10 +37,6 @@ class SQLITE implements IDBInterface
                 'error' => $e->__toString(),
             ]);
 
-            exit(json_encode([
-                'error' => $e->__toString(),
-            ], JSON_PRETTY_PRINT));
-
             $result = null;
         }
     }
@@ -44,6 +44,7 @@ class SQLITE implements IDBInterface
     public function query($params, $sql): mixed
     {
         try {
+            $result = [];
             $this->pdo->beginTransaction();
 
             $stmt = $this->pdo->prepare($sql);
@@ -71,14 +72,6 @@ class SQLITE implements IDBInterface
                 'params' => $params,
             ]);
 
-            exit(json_encode([
-                'pdo->errorInfo' => $this->pdo->errorInfo(),
-                'error' => $e->__toString(),
-                'stmt' => $stmt,
-                'sql' => $sql,
-                'params' => $params,
-            ], JSON_PRETTY_PRINT));
-
             $result = null;
             $stmt = null;
             $this->pdo = null;
@@ -102,8 +95,23 @@ class SQLITE implements IDBInterface
         return $this->status;
     }
 
+    /**
+     * Error logging.
+     *
+     * @param array $msg : Error message
+     */
     public function error($msg)
     {
-        new Log($msg, 'error');
+        new Log($msg, new Error());
+    }
+
+    /**
+     * Activity logging.
+     *
+     * @param array $msg : Message
+     */
+    protected function log($msg)
+    {
+        new Log($msg, new Activity());
     }
 }

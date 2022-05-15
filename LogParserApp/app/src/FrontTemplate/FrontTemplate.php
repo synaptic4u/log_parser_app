@@ -18,4 +18,9 @@ class FrontTemplate
     {
         return $this->ui->finished();
     }
+
+    public function timeReport(array $result): mixed
+    {
+        return $this->ui->timeReport($result);
+    }
 }

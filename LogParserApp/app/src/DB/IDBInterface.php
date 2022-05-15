@@ -11,6 +11,4 @@ interface IDBInterface
     public function getrowCount(): int;
 
     public function getStatus(): mixed;
-
-    public function error($msg);
 }

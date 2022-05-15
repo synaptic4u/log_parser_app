@@ -1,9 +1,11 @@
 <?php
 
-namespace Synaptic4UParser\Files;
+namespace Synaptic4UParser\Files\Reader;
 
 use Exception;
-use Synaptic4UParser\Core\Log;
+use Synaptic4UParser\Logs\Activity;
+use Synaptic4UParser\Logs\Error;
+use Synaptic4UParser\Logs\Log;
 
 /**
  * Class::FileReader :
@@ -50,7 +52,7 @@ class FileReader
         if (0 === $dir_include) {
             // Must accept the directory beginning with a "/".
             // Travels 2 directories up.
-            $file = dirname(__FILE__, 2).$file;
+            $file = dirname(__FILE__, 3).$file;
         }
 
         return json_decode(file_get_contents($file));
@@ -78,10 +80,10 @@ class FileReader
                         '  ',
                         ' ',
                         str_replace(
-                                    ' :',
-                                    ':',
-                                    str_replace(' ;', ';', $string)
-                                )
+                            ' :',
+                            ':',
+                            str_replace(' ;', ';', $string)
+                        )
                     )
                 )
             )
@@ -113,13 +115,23 @@ class FileReader
         }
     }
 
+    /**
+     * Error logging.
+     *
+     * @param array $msg : Error message
+     */
     protected function error($msg)
     {
-        new Log($msg, 'error');
+        new Log($msg, new Error());
     }
 
+    /**
+     * Activity logging.
+     *
+     * @param array $msg : Message
+     */
     protected function log($msg)
     {
-        new Log($msg, 'activity');
+        new Log($msg, new Activity());
     }
 }

@@ -18,9 +18,10 @@ use Synaptic4UParser\DB\DB;
  *
  * @return $table_report object - each row in object has row count
  */
-function getCount(): mixed
+function getCount()
 {
-    $db = new DB();
+    $db = '\\Synaptic4UParser\\DB\\MYSQL';
+    $db = new DB(new $db());
 
     $table_list = [];
     $table_report = [];

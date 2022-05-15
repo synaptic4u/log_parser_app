@@ -3,9 +3,13 @@
 namespace Synaptic4UParser\Core;
 
 use Exception;
-use Synaptic4UParser\Files\FileReader;
-use Synaptic4UParser\Files\FileWriter;
+use Synaptic4UParser\Files\Reader\FileReader;
+use Synaptic4UParser\Files\Writer\FileWriter;
+use Synaptic4UParser\Files\Writer\FileWriterArray;
 use Synaptic4UParser\FrontTemplate\FrontTemplate;
+use Synaptic4UParser\Logs\Activity;
+use Synaptic4UParser\Logs\Error;
+use Synaptic4UParser\Logs\Log;
 use Synaptic4UParser\Parser\Parser;
 use Synaptic4UParser\Structure\Structure;
 use Synaptic4UParser\Tree\Tree;
@@ -22,7 +26,7 @@ use Synaptic4UParser\Tree\Tree;
  * Creates the FileReader, FileWriter & Parser instances.
  * Calls the main Parser::loadLogs to run the log parsing.
  *
- * App::showReport() :
+ * App::finalReport() :
  * Writes the final result to file and prints to screen.
  *
  * App::readConfig() :
@@ -89,9 +93,7 @@ class App
 
             $this->options = $this->buildOptions();
 
-            $full_class = '\\Synaptic4UParser\\FrontTemplate\\Views\\'.$this->options['UI'];
-
-            $this->front_template = new FrontTemplate(new $full_class());
+            $this->front_template = new FrontTemplate(new ('\\Synaptic4UParser\\FrontTemplate\\Views\\'.$this->options['UI'])());
 
             $this->displayInit();
 
@@ -103,11 +105,11 @@ class App
                 'date_time' => date('Y-m-d H:i:s'),
                 'start' => $start,
                 'finish' => $finish,
-                'duration min:sec' => (($finish - $start) > 60) ? (floor(($finish - $start) / 60)).':'.(($finish - $start) % 60) : '0:'.(($finish - $start) % 60),
-                'duration sec.microseconds' => $finish - $start,
+                'duration_min_sec' => (($finish - $start) > 60) ? (floor(($finish - $start) / 60)).':'.(($finish - $start) % 60) : '0:'.(($finish - $start) % 60),
+                'duration_sec_microseconds' => $finish - $start,
             ];
 
-            $this->showReport();
+            $this->timeReport();
 
             $this->displayComplete();
 
@@ -126,13 +128,21 @@ class App
 
     /**
      * Writes the final result to file: result.txt.
-     * Calls FileWriter::appendArrayToFile()
+     * Calls FileWriter::appendToFile() -> passes FileWriterArray for FileWriter interface.
      * Prints the final result to the screen.
      */
-    public function showReport()
+    public function timeReport()
     {
-        $this->file_writer->appendArrayToFile('/structure_files/result.txt', $this->result);
-        print_r(json_encode($this->result, JSON_PRETTY_PRINT).PHP_EOL);
+        $this->file_writer->appendToFile(new FileWriterArray(), '/structure_files/result.txt', $this->result);
+
+        $this->log([
+            'Location' => __METHOD__.'()',
+            'time_report' => json_encode($this->result, JSON_PRETTY_PRINT),
+        ]);
+
+        $check = $this->front_template->timeReport($this->result);
+
+        (0 === (int) $check) ? throw new Exception('Cannot print time report.') : '';
     }
 
     /**
@@ -154,7 +164,7 @@ class App
 
             $this->buildStructure();
 
-            $this->parser = new Parser($this->config, $path);
+            $this->parser = new Parser($this->config, $path, $this->options);
 
             $this->result['log_files'] = $this->loadLogs();
             $finish_loop = microtime(true);
@@ -174,31 +184,55 @@ class App
 
     protected function displayComplete()
     {
-        $this->front_template->finished();
+        $check = $this->front_template->finished();
+
+        (0 === (int) $check) ? throw new Exception('Cannot print successfully completed message.') : '';
     }
 
+    /**
+     * Calls FrontTemplate::display()
+     * Returns the loading display for app.
+     */
     protected function displayInit()
     {
-        $this->front_template->display();
+        $check = $this->front_template->display();
+
+        (0 === (int) $check) ? throw new Exception('Cannot print introduction.') : '';
     }
 
+    /**
+     * Cylces through options from setup.json.
+     * Stores selected options in options array.
+     *
+     * @return array $options : Associative array of selected options
+     */
     protected function buildOptions(): array
     {
         $options = [];
 
-        foreach ($this->setup->options as $option => $type) {
-            foreach ($type as $key => $value) {
-                if (1 === (int) $value) {
-                    $class = strtoupper($key);
+        try {
+            foreach ($this->setup->options as $option => $type) {
+                foreach ($type as $key => $value) {
+                    if (1 === (int) $value) {
+                        $class = strtoupper($key);
 
-                    $full_class = '\Synaptic4UParser\\'.$option.'\\'.$class.'\\'.$class;
-                    print_r('Class: '.$class.PHP_EOL);
-                    $options[$option] = $class;
+                        $options[$option] = $class;
+                    }
                 }
             }
-        }
 
-        return $options;
+            return $options;
+        } catch (Exception $e) {
+            $this->error([
+                'Location' => __METHOD__.'()',
+                'error' => $e->__toString(),
+            ]);
+
+            exit(
+                'Location: '.__METHOD__.'()'.PHP_EOL.
+                'error: '.$e->__toString().PHP_EOL.PHP_EOL
+            );
+        }
     }
 
     /**
@@ -218,7 +252,7 @@ class App
      */
     protected function getTree($path)
     {
-        $tree = new Tree();
+        $tree = new Tree($this->config->file_exclude_types);
 
         $this->tree = $tree->buildTree($path, []);
 
@@ -230,9 +264,9 @@ class App
      */
     protected function writeTree()
     {
-        $this->file_writer->writeArrayToFile('/structure_files/tree.txt', $this->tree);
+        $this->file_writer->writeToFile(new FileWriterArray(), '/structure_files/tree.txt', $this->tree);
 
-        $this->file_writer->writeArrayToFile('/structure_files/flattened.txt', $this->flat_tree);
+        $this->file_writer->writeToFile(new FileWriterArray(), '/structure_files/flattened.txt', $this->flat_tree);
     }
 
     /**
@@ -242,7 +276,7 @@ class App
      */
     protected function buildStructure()
     {
-        $structure = new Structure($this->config);
+        $structure = new Structure($this->config, $this->options);
         $structure->parse();
     }
 
@@ -263,7 +297,7 @@ class App
      */
     protected function error($msg)
     {
-        new Log($msg, 'error');
+        new Log($msg, new Error());
     }
 
     /**
@@ -273,6 +307,6 @@ class App
      */
     protected function log($msg)
     {
-        new Log($msg, 'activity');
+        new Log($msg, new Activity());
     }
 }
