@@ -97,7 +97,7 @@ class MYSQL implements IDBInterface
      *
      * @param array $msg : Error message
      */
-    protected function error($msg)
+    public function error($msg)
     {
         new Log($msg, new Error());
     }

@@ -4,7 +4,15 @@ namespace Synaptic4UParser\Tables\Models;
 
 interface ITablesDB
 {
-    public function getRowCount($table): int;
+    public function readTablesList(): mixed;
 
-    public function getMaxLogID($table): mixed;
+    public function readTableColumns($table): mixed;
+
+    public function createTable($table): array;
+
+    public function insertLog(array $columns, string $alias): int;
+
+    public function dumpLog(string $line, string $file): int;
+
+    public function createLogDump(): mixed;
 }

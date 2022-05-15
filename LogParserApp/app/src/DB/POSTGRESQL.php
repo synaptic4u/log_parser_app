@@ -8,6 +8,9 @@ use Synaptic4UParser\Logs\Activity;
 use Synaptic4UParser\Logs\Error;
 use Synaptic4UParser\Logs\Log;
 
+/**
+ * NOT IN USE - WILL DEVELOP IT STILL. JUST COPIED THE MySQL Class content.
+ */
 class POSTGRESQL implements IDBInterface
 {
     protected $lastinsertid = -1;
@@ -97,7 +100,7 @@ class POSTGRESQL implements IDBInterface
      *
      * @param array $msg : Error message
      */
-    protected function error($msg)
+    public function error($msg)
     {
         new Log($msg, new Error());
     }

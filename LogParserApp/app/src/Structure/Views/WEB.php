@@ -6,9 +6,22 @@ use Synaptic4UParser\Logs\Activity;
 use Synaptic4UParser\Logs\Error;
 use Synaptic4UParser\Logs\Log;
 
+/**
+ * NOT IN USE - Will still develop it.
+ */
 class WEB implements IStructureUI
 {
     public function exists(array $params = []): int
+    {
+        return 0;
+    }
+
+    public function created(array $params = []): int
+    {
+        return 0;
+    }
+
+    public function processing(): int
     {
         return 0;
     }

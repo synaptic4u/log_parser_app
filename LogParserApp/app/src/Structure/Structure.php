@@ -87,7 +87,7 @@ class Structure
                 ]);
 
                 $this->view->exists($diff[$key]);
-                print_r($diff[$key].PHP_EOL);
+            // print_r($diff[$key].PHP_EOL);
             } else {
                 $create[$key] = $this->tables->createTable($table);
 
@@ -99,10 +99,13 @@ class Structure
                     'message' => $create[$key],
                 ]);
 
-                print_r($create[$key].PHP_EOL);
+                $this->view->created($create[$key]);
+                // print_r($create[$key].PHP_EOL);
             }
             ++$cnt;
         }
+
+        $this->view->processing();
         // print_r(json_encode($this->config->log_include, JSON_PRETTY_PRINT));
         // print_r(json_encode($this->config->log_exclude, JSON_PRETTY_PRINT));
     }

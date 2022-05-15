@@ -89,7 +89,9 @@ class Parser
             $alias = $table->alias;
             array_walk($names, function ($value, $key, $table) use (&$accept) {
                 if (substr_count($value, $table->name) > 0) {
-                    $accept[$value] = $table->alias;
+                    if (0 === substr_count($value, '_')) {
+                        $accept[$value] = $table->alias;
+                    }
                 }
             }, $table);
         }
@@ -204,34 +206,6 @@ class Parser
         ]);
 
         return $result;
-    }
-
-    /**
-     * Cleans the array of extra lines and into the expected log format.
-     * Some error messages contain multiple lines.
-     * Method not working!!!
-     * Fail2ban log file, logs the email error on multiple lines and it's a problem to parse.
-     *
-     * @return array : Returns a cleaned array
-     */
-    protected function cleanFile(array $rows): array
-    {
-        $rows_result = [];
-        $rows_reverse = [];
-        $buffer = '';
-
-        $rows_reverse = array_reverse($rows);
-
-        foreach ($rows_reverse as $key => $row) {
-            $line = $this->file_reader->stringClear($row);
-
-            if ('22' !== substr($line, 0, 2)) {
-                $buffer .= $line.' '.$buffer;
-            }
-            $rows_result[] = $line.' '.$buffer;
-        }
-
-        return $rows_result;
     }
 
     /**
@@ -439,7 +413,7 @@ class Parser
 
         $rows = $this->file_reader->parseFile($file);
 
-        if (substr_count($file, 'apache2/audit/www-data') > 0) {
+        if ((substr_count($file, 'apache2/audit/www-data') > 0) || (substr_count($file, 'apt/') > 0)) {
             $blob = $this->blobClean(implode(' ', $rows));
 
             $id = $this->insertDump($blob, $file);

@@ -252,7 +252,7 @@ class App
      */
     protected function getTree($path)
     {
-        $tree = new Tree();
+        $tree = new Tree($this->config->file_exclude_types);
 
         $this->tree = $tree->buildTree($path, []);
 

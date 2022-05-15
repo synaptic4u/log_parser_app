@@ -23,7 +23,7 @@ class Error implements ILog
     public function __construct()
     {
         try {
-            $this->path = '/logs/activity.txt';
+            $this->path = '/logs/error.txt';
 
             $this->file_writer = new FileWriter();
         } catch (Exception $e) {

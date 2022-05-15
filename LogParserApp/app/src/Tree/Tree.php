@@ -15,6 +15,13 @@ use Synaptic4UParser\Logs\Log;
  */
 class Tree
 {
+    protected $file_exclude_types;
+
+    public function __construct($file_exclude_types)
+    {
+        $this->file_exclude_types = $file_exclude_types;
+    }
+
     /**
      * Recursive method : Cycles through children directories to build multi-dimensional array of file paths.
      * Need to update it to have an ignore list set out in the main config.json,
@@ -38,15 +45,18 @@ class Tree
                             if (is_dir($newpath)) {
                                 $tree[$path][$file] = $this->buildTree($newpath, []);
                             } else {
-                                if (0 === substr_count($newfile, '.xz') && '.xz' != substr($newfile, strripos($newfile, '.'))) {
-                                    if (0 === substr_count($newfile, '.gz') && '.gz' != substr($newfile, strripos($newfile, '.'))) {
-                                        if (0 === substr_count($newfile, '.tar') && '.tar' != substr($newfile, strripos($newfile, '.'))) {
-                                            if (0 === substr_count($newfile, '.zip') && '.zip' != substr($newfile, strripos($newfile, '.'))) {
-                                                $tree[$path][$file] = $newfile;
-                                            }
-                                        }
-                                    }
+                                if (!in_array(substr($newfile, strripos($newfile, '.')), $this->file_exclude_types)) {
+                                    $tree[$path][$file] = $newfile;
                                 }
+                                // if (0 === substr_count($newfile, '.xz') && '.xz' != substr($newfile, strripos($newfile, '.'))) {
+                                //     if (0 === substr_count($newfile, '.gz') && '.gz' != substr($newfile, strripos($newfile, '.'))) {
+                                //         if (0 === substr_count($newfile, '.tar') && '.tar' != substr($newfile, strripos($newfile, '.'))) {
+                                //             if (0 === substr_count($newfile, '.zip') && '.zip' != substr($newfile, strripos($newfile, '.'))) {
+                                //                 $tree[$path][$file] = $newfile;
+                                //             }
+                                //         }
+                                //     }
+                                // }
                             }
                         }
                     }

@@ -196,7 +196,7 @@
         }
 
     },
-    "log_exclude" : ["btmp","wtmp", "cloud-init.log", "cloud-init-output.log", "faillog", "lastlog", "lynis.log", "lynis-report.dat", "wtmp", "access.log", "error.log", "other_vhostsaccess.log", "www-data-global", "www-data-global.dir", "www-data-global.pag", "www-data-ip", "www-data-ip.dir", "www-data-ip.pag", "pacct", "sa", "sar"],
+    "log_exclude" : ["btmp","wtmp", "cloud-init-output.log", "faillog", "lastlog", "lynis.log", "lynis-report.dat", "access.log",  "other_vhostsaccess.log", "www-data-global", "www-data-global.dir", "www-data-global.pag", "www-data-ip", "www-data-ip.dir", "www-data-ip.pag", "pacct", "sa", "sar"],
     "log_dump" : [],
     "file_exclude_types" : [".zip", ".tar", ".gz", ".xz"]
 }
