@@ -2,13 +2,18 @@
 NOTA BENA!!!
 -----------------------------------------------------------------------------------------------
 
-        NB! -> 
+        NB! -> Refactored UI & DB. 
+                Doing a test run, should work, no errors so far!
+                Merged "dev" to "master".
+                Will look at the behavioural next.
             Developing in "dev" branch, will merge "dev" to "master" periodically. 
             Refactoring in "dev" -> Do NOT use; It will break!!!
             Decoupling my presentation layer and database layer.
             First just for the CLI & MySQL, once that is purring like a lion...
                 then I'll do the rest, but completing the database abstraction
                 and then to the presentation.
+            
+
             
 
 -----------------------------------------------------------------------------------------------
