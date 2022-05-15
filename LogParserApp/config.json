@@ -42,7 +42,7 @@
             "loggedon_format" : "MMM DD HH:mm:ss",
             "field_encapsulated" : "",
             "field_delimiter" : "space",
-            "quirk" : "Gets a false positive for apache modsec_debug.log then breaks. Will still need to programmatically fix it."
+            "quirk" : ""
         },
         "dpkg" : {
             "alias" : "dpkg",

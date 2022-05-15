@@ -19,7 +19,7 @@ class WEB implements IUserInterface
         return 1;
     }
 
-    public function timeReport(array $result)
+    public function fullReport(array $result)
     {
         return 1;
     }

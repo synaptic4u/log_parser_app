@@ -109,7 +109,7 @@ class App
                 'duration_sec_microseconds' => $finish - $start,
             ];
 
-            $this->timeReport();
+            $this->fullReport();
 
             $this->displayComplete();
 
@@ -131,16 +131,16 @@ class App
      * Calls FileWriter::appendToFile() -> passes FileWriterArray for FileWriter interface.
      * Prints the final result to the screen.
      */
-    public function timeReport()
+    public function fullReport()
     {
         $this->file_writer->appendToFile(new FileWriterArray(), '/structure_files/result.txt', $this->result);
 
         $this->log([
             'Location' => __METHOD__.'()',
-            'time_report' => json_encode($this->result, JSON_PRETTY_PRINT),
+            'full_report' => json_encode($this->result, JSON_PRETTY_PRINT),
         ]);
 
-        $check = $this->front_template->timeReport($this->result);
+        $check = $this->front_template->fullReport($this->result);
 
         (0 === (int) $check) ? throw new Exception('Cannot print time report.') : '';
     }
@@ -154,8 +154,6 @@ class App
     protected function cyclePathList()
     {
         foreach ($this->config_path_list->log_path as $path) {
-            $start_loop = microtime(true);
-
             print_r($path.PHP_EOL);
 
             $this->getTree($path);
@@ -167,18 +165,6 @@ class App
             $this->parser = new Parser($this->config, $path, $this->options);
 
             $this->result['log_files'] = $this->loadLogs();
-            $finish_loop = microtime(true);
-
-            $result['app_timer'] = [
-                'Date & Time' => date('Y-m-d H:i:s'),
-                'Log Path' => $path,
-                'Start' => $start_loop,
-                'Finish' => $finish_loop,
-                'Duration min:sec' => (($finish_loop - $start_loop) > 60) ? (floor(($finish_loop - $start_loop) / 60)).':'.(($finish_loop - $start_loop) % 60) : '0:'.(($finish_loop - $start_loop) % 60),
-                'Duration sec.microseconds' => $finish_loop - $start_loop,
-            ];
-
-            print_r(json_encode($result, JSON_PRETTY_PRINT).PHP_EOL);
         }
     }
 
