@@ -4,7 +4,7 @@ NOTA BENA!!!
 
         Working on the issue I mentioned previously with false positives.
         I had one file always being written to the wrong place. 
-        Changing how I sort to files: included, rejected adn log dumped.
+        Changing how I sort to files: included, rejected and log dumped.
                
         Refactored UI & DB. 
           Doing a test run, should work, no errors so far!
