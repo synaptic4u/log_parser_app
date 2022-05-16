@@ -42,7 +42,7 @@ Log Parser App Setup & Usage
     Setup:
     ------
         The setup is comprised of 3 configuration files:
-            1   Database - db_config.json
+            1   Database - db_mysql_config.json, db_postgresql_config.json, db_sqlite_config.json
             2   Log Directories - config_path_list.json
             3   Log Structure - config.json
 
@@ -65,6 +65,7 @@ Database
 -----------------------------------------------------------------------------------------------
 
     This file contains the connection settings required for a MySQL database connection.
+    I will be adding the necessary configuration for the other 2 databases at a later point.
     
     The host setting is the name of your server.
     "host": "localhost",
@@ -130,7 +131,7 @@ Log Structure
     3   Dump - log_dump.
     4   File Exclude - file_exclude_types.
 
-    Log Include
+    Log Include -> "log_include"
         Please read through the config.json file to see how I setup mine. My Apache2 log files are custom log files.
         Some of my log files have a different formatting, I have changed the formatting a number of times. 
         It's noticeable in my Apache logs, I implement web server firewalls and auditing, so it writes lots of entries.
@@ -187,23 +188,29 @@ Log Structure
                             I also experienced quirks when some applications would write their own errors to the log file, which used a different format,
                             like Fail2Ban for example.
 
-    Log Exclude
+    Log Exclude -> "log_eclude"
         This is a list of files that are on your server that you do not want to parse.
         In my list, I include files that are not UTF8 encoded, such as binary and database files.
         The app will break on these file types. Open a file and if it looks like gobbly-gook, 
         then add it to the exclude list.
 
-    Dump
-        You can specify files that you want to be dumped. 
+    Dump -> "log_dump"
+        You can specify files that you want to be dumped as a whole file. 
+        I will update the application to use this array to dump the whole log file in a single entry.
+
+        As a default, any files that are not in the log_include and log_exclude will be parsed into the log_dump.
+        With a single row as a single entry.
+
         This is useful for log files whose structure is not consistent and may change.
-        I find it useful for concurrent logging, where my auditing system will make an individual file for a single log.
-        A log file can be parsed in two ways, where each line is inserted into a single field 
-        in the database or where the whole file is in a single column.
+        A log file can be parsed in two ways, where each line is inserted into a single entry 
+        into the database or where the whole file is in a single entry.
         With the dump functionality, the file name is included into the row in another fieild.
         Further then that the file is not parsed.
         Line by line parsing uses the "\n" to extract lines.
 
-    File Exclude
+        I find it useful for concurrent logging, where my auditing system will make an individual file for a single log.
+
+    File Exclude -> "file_exclude_types"
         Some files will be ignored automatically; like compressed archive files.
         Namely: ".zip", ".tar", ".gz", ".xz".
         The four types previously mentioned are hard coded to be ignored.
