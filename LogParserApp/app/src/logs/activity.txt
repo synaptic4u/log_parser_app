@@ -6885,3 +6885,2240 @@ result: {
 2022-05-17 20:55:06
 Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/ufw.log-20220220
 alias: ufw
+
+2022-05-17 21:04:10
+Location: Synaptic4UParser\Parser\Parser::parseLog(): ufw.log-20220220
+alias: ufw
+result: {
+    "ufw.log-20220220": {
+        "start": 1652813706.955183,
+        "finish": 1652814250.965849,
+        "duration_min_sec": "9:4",
+        "duration_sec_microseconds": 544.0106658935547,
+        "nu_rows": 34955,
+        "nu_result": 34955
+    }
+}
+
+2022-05-17 21:04:10
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/user.log
+alias: user
+
+2022-05-17 21:04:10
+Location: Synaptic4UParser\Parser\Parser::parseLog(): user.log
+alias: user
+result: {
+    "user.log": {
+        "start": 1652814250.968394,
+        "finish": 1652814250.96932,
+        "duration_min_sec": "0:0",
+        "duration_sec_microseconds": 0.0009260177612304688,
+        "nu_rows": "File is empty or the row length is less then 10 charachters.",
+        "nu_result": 0
+    }
+}
+
+2022-05-17 21:04:10
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/daemon-access.log-20220227
+alias: daemon_access
+
+2022-05-17 21:04:12
+Location: Synaptic4UParser\Parser\Parser::parseLog(): daemon-access.log-20220227
+alias: daemon_access
+result: {
+    "daemon-access.log-20220227": {
+        "start": 1652814250.969904,
+        "finish": 1652814252.437084,
+        "duration_min_sec": "0:1",
+        "duration_sec_microseconds": 1.4671800136566162,
+        "nu_rows": 88,
+        "nu_result": 88
+    }
+}
+
+2022-05-17 21:04:12
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/daemon-access.log-20220306
+alias: daemon_access
+
+2022-05-17 21:04:14
+Location: Synaptic4UParser\Parser\Parser::parseLog(): daemon-access.log-20220306
+alias: daemon_access
+result: {
+    "daemon-access.log-20220306": {
+        "start": 1652814252.437947,
+        "finish": 1652814254.576803,
+        "duration_min_sec": "0:2",
+        "duration_sec_microseconds": 2.1388559341430664,
+        "nu_rows": 115,
+        "nu_result": 115
+    }
+}
+
+2022-05-17 21:04:14
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/daemon-access.log-20220307
+alias: daemon_access
+
+2022-05-17 21:04:17
+Location: Synaptic4UParser\Parser\Parser::parseLog(): daemon-access.log-20220307
+alias: daemon_access
+result: {
+    "daemon-access.log-20220307": {
+        "start": 1652814254.577473,
+        "finish": 1652814257.38558,
+        "duration_min_sec": "0:2",
+        "duration_sec_microseconds": 2.8081071376800537,
+        "nu_rows": 148,
+        "nu_result": 148
+    }
+}
+
+2022-05-17 21:04:17
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/daemon-access.log
+alias: daemon_access
+
+2022-05-17 21:04:19
+Location: Synaptic4UParser\Parser\Parser::parseLog(): daemon-access.log
+alias: daemon_access
+result: {
+    "daemon-access.log": {
+        "start": 1652814257.386191,
+        "finish": 1652814259.708801,
+        "duration_min_sec": "0:2",
+        "duration_sec_microseconds": 2.3226101398468018,
+        "nu_rows": 131,
+        "nu_result": 131
+    }
+}
+
+2022-05-17 21:04:19
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/daemon-access.log-20220225
+alias: daemon_access
+
+2022-05-17 21:04:20
+Location: Synaptic4UParser\Parser\Parser::parseLog(): daemon-access.log-20220225
+alias: daemon_access
+result: {
+    "daemon-access.log-20220225": {
+        "start": 1652814259.709377,
+        "finish": 1652814260.776383,
+        "duration_min_sec": "0:1",
+        "duration_sec_microseconds": 1.0670058727264404,
+        "nu_rows": 88,
+        "nu_result": 88
+    }
+}
+
+2022-05-17 21:04:20
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/daemon-access.log-20220226
+alias: daemon_access
+
+2022-05-17 21:04:22
+Location: Synaptic4UParser\Parser\Parser::parseLog(): daemon-access.log-20220226
+alias: daemon_access
+result: {
+    "daemon-access.log-20220226": {
+        "start": 1652814260.777033,
+        "finish": 1652814262.28282,
+        "duration_min_sec": "0:1",
+        "duration_sec_microseconds": 1.5057868957519531,
+        "nu_rows": 100,
+        "nu_result": 100
+    }
+}
+
+2022-05-17 21:04:22
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/daemon-access.log-20220309
+alias: daemon_access
+
+2022-05-17 21:04:23
+Location: Synaptic4UParser\Parser\Parser::parseLog(): daemon-access.log-20220309
+alias: daemon_access
+result: {
+    "daemon-access.log-20220309": {
+        "start": 1652814262.283427,
+        "finish": 1652814263.696732,
+        "duration_min_sec": "0:1",
+        "duration_sec_microseconds": 1.4133050441741943,
+        "nu_rows": 88,
+        "nu_result": 88
+    }
+}
+
+2022-05-17 21:04:23
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/daemon-access.log-20220302
+alias: daemon_access
+
+2022-05-17 21:04:25
+Location: Synaptic4UParser\Parser\Parser::parseLog(): daemon-access.log-20220302
+alias: daemon_access
+result: {
+    "daemon-access.log-20220302": {
+        "start": 1652814263.697522,
+        "finish": 1652814265.214793,
+        "duration_min_sec": "0:1",
+        "duration_sec_microseconds": 1.5172710418701172,
+        "nu_rows": 111,
+        "nu_result": 111
+    }
+}
+
+2022-05-17 21:04:25
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/daemon-access.log-20220224
+alias: daemon_access
+
+2022-05-17 21:04:27
+Location: Synaptic4UParser\Parser\Parser::parseLog(): daemon-access.log-20220224
+alias: daemon_access
+result: {
+    "daemon-access.log-20220224": {
+        "start": 1652814265.215872,
+        "finish": 1652814267.06727,
+        "duration_min_sec": "0:1",
+        "duration_sec_microseconds": 1.85139799118042,
+        "nu_rows": 109,
+        "nu_result": 109
+    }
+}
+
+2022-05-17 21:04:27
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/daemon-access.log-20220308
+alias: daemon_access
+
+2022-05-17 21:04:28
+Location: Synaptic4UParser\Parser\Parser::parseLog(): daemon-access.log-20220308
+alias: daemon_access
+result: {
+    "daemon-access.log-20220308": {
+        "start": 1652814267.068022,
+        "finish": 1652814268.684132,
+        "duration_min_sec": "0:1",
+        "duration_sec_microseconds": 1.61611008644104,
+        "nu_rows": 109,
+        "nu_result": 109
+    }
+}
+
+2022-05-17 21:04:28
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/daemon-access.log-20220305
+alias: daemon_access
+
+2022-05-17 21:04:45
+Location: Synaptic4UParser\Parser\Parser::parseLog(): daemon-access.log-20220305
+alias: daemon_access
+result: {
+    "daemon-access.log-20220305": {
+        "start": 1652814268.688776,
+        "finish": 1652814285.79462,
+        "duration_min_sec": "0:17",
+        "duration_sec_microseconds": 17.105844020843506,
+        "nu_rows": 1096,
+        "nu_result": 1096
+    }
+}
+
+2022-05-17 21:04:45
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/daemon-access.log-20220301
+alias: daemon_access
+
+2022-05-17 21:04:47
+Location: Synaptic4UParser\Parser\Parser::parseLog(): daemon-access.log-20220301
+alias: daemon_access
+result: {
+    "daemon-access.log-20220301": {
+        "start": 1652814285.795441,
+        "finish": 1652814287.261054,
+        "duration_min_sec": "0:1",
+        "duration_sec_microseconds": 1.4656131267547607,
+        "nu_rows": 108,
+        "nu_result": 108
+    }
+}
+
+2022-05-17 21:04:47
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/daemon-access.log-20220303
+alias: daemon_access
+
+2022-05-17 21:04:47
+Location: Synaptic4UParser\Parser\Parser::parseLog(): daemon-access.log-20220303
+alias: daemon_access
+result: {
+    "daemon-access.log-20220303": {
+        "start": 1652814287.261669,
+        "finish": 1652814287.800378,
+        "duration_min_sec": "0:0",
+        "duration_sec_microseconds": 0.5387091636657715,
+        "nu_rows": 34,
+        "nu_result": 34
+    }
+}
+
+2022-05-17 21:04:47
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/daemon-access.log-20220228
+alias: daemon_access
+
+2022-05-17 21:04:49
+Location: Synaptic4UParser\Parser\Parser::parseLog(): daemon-access.log-20220228
+alias: daemon_access
+result: {
+    "daemon-access.log-20220228": {
+        "start": 1652814287.801241,
+        "finish": 1652814289.137689,
+        "duration_min_sec": "0:1",
+        "duration_sec_microseconds": 1.3364481925964355,
+        "nu_rows": 114,
+        "nu_result": 114
+    }
+}
+
+2022-05-17 21:04:49
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/daemon-access.log-20220304
+alias: daemon_access
+
+2022-05-17 21:04:49
+Location: Synaptic4UParser\Parser\Parser::parseLog(): daemon-access.log-20220304
+alias: daemon_access
+result: {
+    "daemon-access.log-20220304": {
+        "start": 1652814289.13836,
+        "finish": 1652814289.462515,
+        "duration_min_sec": "0:0",
+        "duration_sec_microseconds": 0.3241550922393799,
+        "nu_rows": 18,
+        "nu_result": 18
+    }
+}
+
+2022-05-17 21:04:49
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/daemon-error.log-20220226
+alias: daemon_error
+
+2022-05-17 21:04:52
+Location: Synaptic4UParser\Parser\Parser::parseLog(): daemon-error.log-20220226
+alias: daemon_error
+result: {
+    "daemon-error.log-20220226": {
+        "start": 1652814289.463274,
+        "finish": 1652814292.94455,
+        "duration_min_sec": "0:3",
+        "duration_sec_microseconds": 3.481276035308838,
+        "nu_rows": 219,
+        "nu_result": 219
+    }
+}
+
+2022-05-17 21:04:52
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/daemon-error.log-20220225
+alias: daemon_error
+
+2022-05-17 21:04:55
+Location: Synaptic4UParser\Parser\Parser::parseLog(): daemon-error.log-20220225
+alias: daemon_error
+result: {
+    "daemon-error.log-20220225": {
+        "start": 1652814292.945438,
+        "finish": 1652814295.474633,
+        "duration_min_sec": "0:2",
+        "duration_sec_microseconds": 2.5291950702667236,
+        "nu_rows": 172,
+        "nu_result": 172
+    }
+}
+
+2022-05-17 21:04:55
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/daemon-error.log-20220304
+alias: daemon_error
+
+2022-05-17 21:04:56
+Location: Synaptic4UParser\Parser\Parser::parseLog(): daemon-error.log-20220304
+alias: daemon_error
+result: {
+    "daemon-error.log-20220304": {
+        "start": 1652814295.47522,
+        "finish": 1652814296.294036,
+        "duration_min_sec": "0:0",
+        "duration_sec_microseconds": 0.8188159465789795,
+        "nu_rows": 42,
+        "nu_result": 42
+    }
+}
+
+2022-05-17 21:04:56
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/daemon-error.log-20220305
+alias: daemon_error
+
+2022-05-17 21:05:41
+Location: Synaptic4UParser\Parser\Parser::parseLog(): daemon-error.log-20220305
+alias: daemon_error
+result: {
+    "daemon-error.log-20220305": {
+        "start": 1652814296.295204,
+        "finish": 1652814341.219305,
+        "duration_min_sec": "0:44",
+        "duration_sec_microseconds": 44.92410111427307,
+        "nu_rows": 3204,
+        "nu_result": 3204
+    }
+}
+
+2022-05-17 21:05:41
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/daemon-error.log-20220228
+alias: daemon_error
+
+2022-05-17 21:05:45
+Location: Synaptic4UParser\Parser\Parser::parseLog(): daemon-error.log-20220228
+alias: daemon_error
+result: {
+    "daemon-error.log-20220228": {
+        "start": 1652814341.219955,
+        "finish": 1652814345.666825,
+        "duration_min_sec": "0:4",
+        "duration_sec_microseconds": 4.4468700885772705,
+        "nu_rows": 243,
+        "nu_result": 243
+    }
+}
+
+2022-05-17 21:05:45
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/daemon-error.log
+alias: daemon_error
+
+2022-05-17 21:05:50
+Location: Synaptic4UParser\Parser\Parser::parseLog(): daemon-error.log
+alias: daemon_error
+result: {
+    "daemon-error.log": {
+        "start": 1652814345.667397,
+        "finish": 1652814350.7768,
+        "duration_min_sec": "0:5",
+        "duration_sec_microseconds": 5.109402894973755,
+        "nu_rows": 319,
+        "nu_result": 319
+    }
+}
+
+2022-05-17 21:05:50
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/daemon-error.log-20220301
+alias: daemon_error
+
+2022-05-17 21:05:53
+Location: Synaptic4UParser\Parser\Parser::parseLog(): daemon-error.log-20220301
+alias: daemon_error
+result: {
+    "daemon-error.log-20220301": {
+        "start": 1652814350.780023,
+        "finish": 1652814353.905412,
+        "duration_min_sec": "0:3",
+        "duration_sec_microseconds": 3.1253888607025146,
+        "nu_rows": 227,
+        "nu_result": 227
+    }
+}
+
+2022-05-17 21:05:53
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/daemon-error.log-20220307
+alias: daemon_error
+
+2022-05-17 21:05:58
+Location: Synaptic4UParser\Parser\Parser::parseLog(): daemon-error.log-20220307
+alias: daemon_error
+result: {
+    "daemon-error.log-20220307": {
+        "start": 1652814353.906074,
+        "finish": 1652814358.425025,
+        "duration_min_sec": "0:4",
+        "duration_sec_microseconds": 4.518950939178467,
+        "nu_rows": 332,
+        "nu_result": 332
+    }
+}
+
+2022-05-17 21:05:58
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/daemon-error.log-20220309
+alias: daemon_error
+
+2022-05-17 21:06:01
+Location: Synaptic4UParser\Parser\Parser::parseLog(): daemon-error.log-20220309
+alias: daemon_error
+result: {
+    "daemon-error.log-20220309": {
+        "start": 1652814358.425795,
+        "finish": 1652814361.926264,
+        "duration_min_sec": "0:3",
+        "duration_sec_microseconds": 3.5004689693450928,
+        "nu_rows": 206,
+        "nu_result": 206
+    }
+}
+
+2022-05-17 21:06:01
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/daemon-error.log-20220303
+alias: daemon_error
+
+2022-05-17 21:06:03
+Location: Synaptic4UParser\Parser\Parser::parseLog(): daemon-error.log-20220303
+alias: daemon_error
+result: {
+    "daemon-error.log-20220303": {
+        "start": 1652814361.927056,
+        "finish": 1652814363.483125,
+        "duration_min_sec": "0:1",
+        "duration_sec_microseconds": 1.5560688972473145,
+        "nu_rows": 94,
+        "nu_result": 94
+    }
+}
+
+2022-05-17 21:06:03
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/daemon-error.log-20220306
+alias: daemon_error
+
+2022-05-17 21:06:07
+Location: Synaptic4UParser\Parser\Parser::parseLog(): daemon-error.log-20220306
+alias: daemon_error
+result: {
+    "daemon-error.log-20220306": {
+        "start": 1652814363.483673,
+        "finish": 1652814367.29079,
+        "duration_min_sec": "0:3",
+        "duration_sec_microseconds": 3.807116985321045,
+        "nu_rows": 297,
+        "nu_result": 297
+    }
+}
+
+2022-05-17 21:06:07
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/daemon-error.log-20220308
+alias: daemon_error
+
+2022-05-17 21:06:10
+Location: Synaptic4UParser\Parser\Parser::parseLog(): daemon-error.log-20220308
+alias: daemon_error
+result: {
+    "daemon-error.log-20220308": {
+        "start": 1652814367.291497,
+        "finish": 1652814370.570561,
+        "duration_min_sec": "0:3",
+        "duration_sec_microseconds": 3.2790639400482178,
+        "nu_rows": 247,
+        "nu_result": 247
+    }
+}
+
+2022-05-17 21:06:10
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/daemon-error.log-20220227
+alias: daemon_error
+
+2022-05-17 21:06:14
+Location: Synaptic4UParser\Parser\Parser::parseLog(): daemon-error.log-20220227
+alias: daemon_error
+result: {
+    "daemon-error.log-20220227": {
+        "start": 1652814370.571153,
+        "finish": 1652814374.368822,
+        "duration_min_sec": "0:3",
+        "duration_sec_microseconds": 3.7976691722869873,
+        "nu_rows": 218,
+        "nu_result": 218
+    }
+}
+
+2022-05-17 21:06:14
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/daemon-error.log-20220224
+alias: daemon_error
+
+2022-05-17 21:06:18
+Location: Synaptic4UParser\Parser\Parser::parseLog(): daemon-error.log-20220224
+alias: daemon_error
+result: {
+    "daemon-error.log-20220224": {
+        "start": 1652814374.369713,
+        "finish": 1652814378.078962,
+        "duration_min_sec": "0:3",
+        "duration_sec_microseconds": 3.7092490196228027,
+        "nu_rows": 238,
+        "nu_result": 238
+    }
+}
+
+2022-05-17 21:06:18
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/daemon-error.log-20220302
+alias: daemon_error
+
+2022-05-17 21:06:22
+Location: Synaptic4UParser\Parser\Parser::parseLog(): daemon-error.log-20220302
+alias: daemon_error
+result: {
+    "daemon-error.log-20220302": {
+        "start": 1652814378.07958,
+        "finish": 1652814382.21648,
+        "duration_min_sec": "0:4",
+        "duration_sec_microseconds": 4.136899948120117,
+        "nu_rows": 255,
+        "nu_result": 255
+    }
+}
+
+2022-05-17 21:06:22
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/daemon-perf.log
+alias: daemon_perf
+
+2022-05-17 21:06:22
+Location: Synaptic4UParser\Parser\Parser::parseLog(): daemon-perf.log
+alias: daemon_perf
+result: {
+    "daemon-perf.log": {
+        "start": 1652814382.21717,
+        "finish": 1652814382.217763,
+        "duration_min_sec": "0:0",
+        "duration_sec_microseconds": 0.0005929470062255859,
+        "nu_rows": "File is empty or the row length is less then 10 charachters.",
+        "nu_result": 0
+    }
+}
+
+2022-05-17 21:06:22
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/modsec-perf.log-20220228
+alias: modsec_perf
+
+2022-05-17 21:06:23
+Location: Synaptic4UParser\Parser\Parser::parseLog(): modsec-perf.log-20220228
+alias: modsec_perf
+result: {
+    "modsec-perf.log-20220228": {
+        "start": 1652814382.218417,
+        "finish": 1652814383.660234,
+        "duration_min_sec": "0:1",
+        "duration_sec_microseconds": 1.441817045211792,
+        "nu_rows": 89,
+        "nu_result": 89
+    }
+}
+
+2022-05-17 21:06:23
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/modsec-perf.log-20220307
+alias: modsec_perf
+
+2022-05-17 21:06:25
+Location: Synaptic4UParser\Parser\Parser::parseLog(): modsec-perf.log-20220307
+alias: modsec_perf
+result: {
+    "modsec-perf.log-20220307": {
+        "start": 1652814383.660959,
+        "finish": 1652814385.617453,
+        "duration_min_sec": "0:1",
+        "duration_sec_microseconds": 1.9564940929412842,
+        "nu_rows": 135,
+        "nu_result": 135
+    }
+}
+
+2022-05-17 21:06:25
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/modsec-perf.log-20220304
+alias: modsec_perf
+
+2022-05-17 21:06:25
+Location: Synaptic4UParser\Parser\Parser::parseLog(): modsec-perf.log-20220304
+alias: modsec_perf
+result: {
+    "modsec-perf.log-20220304": {
+        "start": 1652814385.618011,
+        "finish": 1652814385.964182,
+        "duration_min_sec": "0:0",
+        "duration_sec_microseconds": 0.34617090225219727,
+        "nu_rows": 18,
+        "nu_result": 18
+    }
+}
+
+2022-05-17 21:06:25
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/modsec-perf.log-20220306
+alias: modsec_perf
+
+2022-05-17 21:06:27
+Location: Synaptic4UParser\Parser\Parser::parseLog(): modsec-perf.log-20220306
+alias: modsec_perf
+result: {
+    "modsec-perf.log-20220306": {
+        "start": 1652814385.965002,
+        "finish": 1652814387.422119,
+        "duration_min_sec": "0:1",
+        "duration_sec_microseconds": 1.4571168422698975,
+        "nu_rows": 110,
+        "nu_result": 110
+    }
+}
+
+2022-05-17 21:06:27
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/modsec-perf.log-20220309
+alias: modsec_perf
+
+2022-05-17 21:06:28
+Location: Synaptic4UParser\Parser\Parser::parseLog(): modsec-perf.log-20220309
+alias: modsec_perf
+result: {
+    "modsec-perf.log-20220309": {
+        "start": 1652814387.422714,
+        "finish": 1652814388.591452,
+        "duration_min_sec": "0:1",
+        "duration_sec_microseconds": 1.1687378883361816,
+        "nu_rows": 81,
+        "nu_result": 81
+    }
+}
+
+2022-05-17 21:06:28
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/modsec-perf.log-20220305
+alias: modsec_perf
+
+2022-05-17 21:06:44
+Location: Synaptic4UParser\Parser\Parser::parseLog(): modsec-perf.log-20220305
+alias: modsec_perf
+result: {
+    "modsec-perf.log-20220305": {
+        "start": 1652814388.592128,
+        "finish": 1652814404.15862,
+        "duration_min_sec": "0:15",
+        "duration_sec_microseconds": 15.566492080688477,
+        "nu_rows": 1087,
+        "nu_result": 1087
+    }
+}
+
+2022-05-17 21:06:44
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/modsec-perf.log-20220302
+alias: modsec_perf
+
+2022-05-17 21:06:45
+Location: Synaptic4UParser\Parser\Parser::parseLog(): modsec-perf.log-20220302
+alias: modsec_perf
+result: {
+    "modsec-perf.log-20220302": {
+        "start": 1652814404.1592,
+        "finish": 1652814405.696873,
+        "duration_min_sec": "0:1",
+        "duration_sec_microseconds": 1.537672996520996,
+        "nu_rows": 109,
+        "nu_result": 109
+    }
+}
+
+2022-05-17 21:06:45
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/modsec-perf.log-20220224
+alias: modsec_perf
+
+2022-05-17 21:06:47
+Location: Synaptic4UParser\Parser\Parser::parseLog(): modsec-perf.log-20220224
+alias: modsec_perf
+result: {
+    "modsec-perf.log-20220224": {
+        "start": 1652814405.69749,
+        "finish": 1652814407.93291,
+        "duration_min_sec": "0:2",
+        "duration_sec_microseconds": 2.235419988632202,
+        "nu_rows": 93,
+        "nu_result": 93
+    }
+}
+
+2022-05-17 21:06:47
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/modsec-perf.log-20220303
+alias: modsec_perf
+
+2022-05-17 21:06:48
+Location: Synaptic4UParser\Parser\Parser::parseLog(): modsec-perf.log-20220303
+alias: modsec_perf
+result: {
+    "modsec-perf.log-20220303": {
+        "start": 1652814407.93352,
+        "finish": 1652814408.327089,
+        "duration_min_sec": "0:0",
+        "duration_sec_microseconds": 0.3935689926147461,
+        "nu_rows": 33,
+        "nu_result": 33
+    }
+}
+
+2022-05-17 21:06:48
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/modsec-perf.log-20220226
+alias: modsec_perf
+
+2022-05-17 21:06:49
+Location: Synaptic4UParser\Parser\Parser::parseLog(): modsec-perf.log-20220226
+alias: modsec_perf
+result: {
+    "modsec-perf.log-20220226": {
+        "start": 1652814408.327663,
+        "finish": 1652814409.549136,
+        "duration_min_sec": "0:1",
+        "duration_sec_microseconds": 1.221472978591919,
+        "nu_rows": 92,
+        "nu_result": 92
+    }
+}
+
+2022-05-17 21:06:49
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/modsec-perf.log-20220301
+alias: modsec_perf
+
+2022-05-17 21:06:50
+Location: Synaptic4UParser\Parser\Parser::parseLog(): modsec-perf.log-20220301
+alias: modsec_perf
+result: {
+    "modsec-perf.log-20220301": {
+        "start": 1652814409.549687,
+        "finish": 1652814410.861576,
+        "duration_min_sec": "0:1",
+        "duration_sec_microseconds": 1.3118891716003418,
+        "nu_rows": 93,
+        "nu_result": 93
+    }
+}
+
+2022-05-17 21:06:50
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/modsec-perf.log-20220308
+alias: modsec_perf
+
+2022-05-17 21:06:52
+Location: Synaptic4UParser\Parser\Parser::parseLog(): modsec-perf.log-20220308
+alias: modsec_perf
+result: {
+    "modsec-perf.log-20220308": {
+        "start": 1652814410.862168,
+        "finish": 1652814412.177556,
+        "duration_min_sec": "0:1",
+        "duration_sec_microseconds": 1.3153879642486572,
+        "nu_rows": 105,
+        "nu_result": 105
+    }
+}
+
+2022-05-17 21:06:52
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/modsec-perf.log-20220225
+alias: modsec_perf
+
+2022-05-17 21:06:53
+Location: Synaptic4UParser\Parser\Parser::parseLog(): modsec-perf.log-20220225
+alias: modsec_perf
+result: {
+    "modsec-perf.log-20220225": {
+        "start": 1652814412.178532,
+        "finish": 1652814413.186189,
+        "duration_min_sec": "0:1",
+        "duration_sec_microseconds": 1.0076570510864258,
+        "nu_rows": 75,
+        "nu_result": 75
+    }
+}
+
+2022-05-17 21:06:53
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/modsec-perf.log
+alias: modsec_perf
+
+2022-05-17 21:06:54
+Location: Synaptic4UParser\Parser\Parser::parseLog(): modsec-perf.log
+alias: modsec_perf
+result: {
+    "modsec-perf.log": {
+        "start": 1652814413.186759,
+        "finish": 1652814414.793052,
+        "duration_min_sec": "0:1",
+        "duration_sec_microseconds": 1.606292963027954,
+        "nu_rows": 118,
+        "nu_result": 118
+    }
+}
+
+2022-05-17 21:06:54
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/modsec-perf.log-20220227
+alias: modsec_perf
+
+2022-05-17 21:06:55
+Location: Synaptic4UParser\Parser\Parser::parseLog(): modsec-perf.log-20220227
+alias: modsec_perf
+result: {
+    "modsec-perf.log-20220227": {
+        "start": 1652814414.7952,
+        "finish": 1652814415.81523,
+        "duration_min_sec": "0:1",
+        "duration_sec_microseconds": 1.0200297832489014,
+        "nu_rows": 81,
+        "nu_result": 81
+    }
+}
+
+2022-05-17 21:06:55
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/modsec_audit.log-20220306
+alias: modsec_audit
+
+2022-05-17 21:06:57
+Location: Synaptic4UParser\Parser\Parser::parseLog(): modsec_audit.log-20220306
+alias: modsec_audit
+result: {
+    "modsec_audit.log-20220306": {
+        "start": 1652814415.816133,
+        "finish": 1652814417.724318,
+        "duration_min_sec": "0:1",
+        "duration_sec_microseconds": 1.9081850051879883,
+        "nu_rows": 110,
+        "nu_result": 110
+    }
+}
+
+2022-05-17 21:06:57
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/modsec_audit.log-20220303
+alias: modsec_audit
+
+2022-05-17 21:06:58
+Location: Synaptic4UParser\Parser\Parser::parseLog(): modsec_audit.log-20220303
+alias: modsec_audit
+result: {
+    "modsec_audit.log-20220303": {
+        "start": 1652814417.725018,
+        "finish": 1652814418.186328,
+        "duration_min_sec": "0:0",
+        "duration_sec_microseconds": 0.46130990982055664,
+        "nu_rows": 33,
+        "nu_result": 33
+    }
+}
+
+2022-05-17 21:06:58
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/modsec_audit.log-20220308
+alias: modsec_audit
+
+2022-05-17 21:06:59
+Location: Synaptic4UParser\Parser\Parser::parseLog(): modsec_audit.log-20220308
+alias: modsec_audit
+result: {
+    "modsec_audit.log-20220308": {
+        "start": 1652814418.187002,
+        "finish": 1652814419.691665,
+        "duration_min_sec": "0:1",
+        "duration_sec_microseconds": 1.5046629905700684,
+        "nu_rows": 105,
+        "nu_result": 105
+    }
+}
+
+2022-05-17 21:06:59
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/modsec_audit.log
+alias: modsec_audit
+
+2022-05-17 21:07:01
+Location: Synaptic4UParser\Parser\Parser::parseLog(): modsec_audit.log
+alias: modsec_audit
+result: {
+    "modsec_audit.log": {
+        "start": 1652814419.692261,
+        "finish": 1652814421.558546,
+        "duration_min_sec": "0:1",
+        "duration_sec_microseconds": 1.8662850856781006,
+        "nu_rows": 119,
+        "nu_result": 119
+    }
+}
+
+2022-05-17 21:07:01
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/modsec_audit.log-20220307
+alias: modsec_audit
+
+2022-05-17 21:07:03
+Location: Synaptic4UParser\Parser\Parser::parseLog(): modsec_audit.log-20220307
+alias: modsec_audit
+result: {
+    "modsec_audit.log-20220307": {
+        "start": 1652814421.559357,
+        "finish": 1652814423.795499,
+        "duration_min_sec": "0:2",
+        "duration_sec_microseconds": 2.236142158508301,
+        "nu_rows": 135,
+        "nu_result": 135
+    }
+}
+
+2022-05-17 21:07:03
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/modsec_audit.log-20220304
+alias: modsec_audit
+
+2022-05-17 21:07:04
+Location: Synaptic4UParser\Parser\Parser::parseLog(): modsec_audit.log-20220304
+alias: modsec_audit
+result: {
+    "modsec_audit.log-20220304": {
+        "start": 1652814423.796283,
+        "finish": 1652814424.05316,
+        "duration_min_sec": "0:0",
+        "duration_sec_microseconds": 0.25687694549560547,
+        "nu_rows": 18,
+        "nu_result": 18
+    }
+}
+
+2022-05-17 21:07:04
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/modsec_audit.log-20220302
+alias: modsec_audit
+
+2022-05-17 21:07:05
+Location: Synaptic4UParser\Parser\Parser::parseLog(): modsec_audit.log-20220302
+alias: modsec_audit
+result: {
+    "modsec_audit.log-20220302": {
+        "start": 1652814424.053806,
+        "finish": 1652814425.836739,
+        "duration_min_sec": "0:1",
+        "duration_sec_microseconds": 1.782932996749878,
+        "nu_rows": 109,
+        "nu_result": 109
+    }
+}
+
+2022-05-17 21:07:05
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/modsec_audit.log-20220228
+alias: modsec_audit
+
+2022-05-17 21:07:07
+Location: Synaptic4UParser\Parser\Parser::parseLog(): modsec_audit.log-20220228
+alias: modsec_audit
+result: {
+    "modsec_audit.log-20220228": {
+        "start": 1652814425.837556,
+        "finish": 1652814427.026865,
+        "duration_min_sec": "0:1",
+        "duration_sec_microseconds": 1.1893091201782227,
+        "nu_rows": 90,
+        "nu_result": 90
+    }
+}
+
+2022-05-17 21:07:07
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/modsec_audit.log-20220226
+alias: modsec_audit
+
+2022-05-17 21:07:08
+Location: Synaptic4UParser\Parser\Parser::parseLog(): modsec_audit.log-20220226
+alias: modsec_audit
+result: {
+    "modsec_audit.log-20220226": {
+        "start": 1652814427.027654,
+        "finish": 1652814428.250712,
+        "duration_min_sec": "0:1",
+        "duration_sec_microseconds": 1.2230579853057861,
+        "nu_rows": 92,
+        "nu_result": 92
+    }
+}
+
+2022-05-17 21:07:08
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/modsec_audit.log-20220225
+alias: modsec_audit
+
+2022-05-17 21:07:09
+Location: Synaptic4UParser\Parser\Parser::parseLog(): modsec_audit.log-20220225
+alias: modsec_audit
+result: {
+    "modsec_audit.log-20220225": {
+        "start": 1652814428.251319,
+        "finish": 1652814429.116525,
+        "duration_min_sec": "0:0",
+        "duration_sec_microseconds": 0.8652060031890869,
+        "nu_rows": 75,
+        "nu_result": 75
+    }
+}
+
+2022-05-17 21:07:09
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/modsec_audit.log-20220224
+alias: modsec_audit
+
+2022-05-17 21:07:10
+Location: Synaptic4UParser\Parser\Parser::parseLog(): modsec_audit.log-20220224
+alias: modsec_audit
+result: {
+    "modsec_audit.log-20220224": {
+        "start": 1652814429.117169,
+        "finish": 1652814430.418261,
+        "duration_min_sec": "0:1",
+        "duration_sec_microseconds": 1.3010921478271484,
+        "nu_rows": 93,
+        "nu_result": 93
+    }
+}
+
+2022-05-17 21:07:10
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/modsec_audit.log-20220305
+alias: modsec_audit
+
+2022-05-17 21:07:26
+Location: Synaptic4UParser\Parser\Parser::parseLog(): modsec_audit.log-20220305
+alias: modsec_audit
+result: {
+    "modsec_audit.log-20220305": {
+        "start": 1652814430.419019,
+        "finish": 1652814446.984374,
+        "duration_min_sec": "0:16",
+        "duration_sec_microseconds": 16.56535506248474,
+        "nu_rows": 1087,
+        "nu_result": 1087
+    }
+}
+
+2022-05-17 21:07:26
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/modsec_audit.log-20220227
+alias: modsec_audit
+
+2022-05-17 21:07:27
+Location: Synaptic4UParser\Parser\Parser::parseLog(): modsec_audit.log-20220227
+alias: modsec_audit
+result: {
+    "modsec_audit.log-20220227": {
+        "start": 1652814446.985059,
+        "finish": 1652814447.961969,
+        "duration_min_sec": "0:0",
+        "duration_sec_microseconds": 0.976909875869751,
+        "nu_rows": 82,
+        "nu_result": 82
+    }
+}
+
+2022-05-17 21:07:27
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/modsec_audit.log-20220301
+alias: modsec_audit
+
+2022-05-17 21:07:29
+Location: Synaptic4UParser\Parser\Parser::parseLog(): modsec_audit.log-20220301
+alias: modsec_audit
+result: {
+    "modsec_audit.log-20220301": {
+        "start": 1652814447.962538,
+        "finish": 1652814449.220101,
+        "duration_min_sec": "0:1",
+        "duration_sec_microseconds": 1.2575631141662598,
+        "nu_rows": 97,
+        "nu_result": 97
+    }
+}
+
+2022-05-17 21:07:29
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/apache2/modsec_audit.log-20220309
+alias: modsec_audit
+
+2022-05-17 21:07:30
+Location: Synaptic4UParser\Parser\Parser::parseLog(): modsec_audit.log-20220309
+alias: modsec_audit
+result: {
+    "modsec_audit.log-20220309": {
+        "start": 1652814449.220762,
+        "finish": 1652814450.30892,
+        "duration_min_sec": "0:1",
+        "duration_sec_microseconds": 1.0881578922271729,
+        "nu_rows": 81,
+        "nu_result": 81
+    }
+}
+
+2022-05-17 21:07:30
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/rkhunter.log
+
+2022-05-17 21:07:30
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): rkhunter.log
+result: {
+    "rkhunter.log": {
+        "nu_rows": 1,
+        "nu_result": 0
+    }
+}
+start: 1652814450.3097
+finish: 1652814450.3099
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.00016617774963379
+
+2022-05-17 21:07:30
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/rkhunter.log.old
+
+2022-05-17 21:07:31
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): rkhunter.log.old
+result: {
+    "rkhunter.log.old": {
+        "nu_rows": 67,
+        "nu_result": 66
+    }
+}
+start: 1652814450.3106
+finish: 1652814451.4653
+duration_min_sec: 0:1
+duration_sec_microseconds: 1.1546969413757
+
+2022-05-17 21:07:31
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/letsencrypt/letsencrypt.log.18
+
+2022-05-17 21:07:31
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.18
+result: {
+    "letsencrypt.log.18": {
+        "nu_rows": 28,
+        "nu_result": 26
+    }
+}
+start: 1652814451.4663
+finish: 1652814451.7687
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.30240392684937
+
+2022-05-17 21:07:31
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/letsencrypt/letsencrypt.log.32
+
+2022-05-17 21:07:32
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.32
+result: {
+    "letsencrypt.log.32": {
+        "nu_rows": 28,
+        "nu_result": 26
+    }
+}
+start: 1652814451.7697
+finish: 1652814452.2745
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.5048348903656
+
+2022-05-17 21:07:32
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/letsencrypt/letsencrypt.log.19
+
+2022-05-17 21:07:32
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.19
+result: {
+    "letsencrypt.log.19": {
+        "nu_rows": 28,
+        "nu_result": 26
+    }
+}
+start: 1652814452.2756
+finish: 1652814452.6454
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.36974501609802
+
+2022-05-17 21:07:32
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/letsencrypt/letsencrypt.log.16
+
+2022-05-17 21:07:32
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.16
+result: {
+    "letsencrypt.log.16": {
+        "nu_rows": 28,
+        "nu_result": 26
+    }
+}
+start: 1652814452.6465
+finish: 1652814452.9484
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.30191898345947
+
+2022-05-17 21:07:32
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/letsencrypt/letsencrypt.log.17
+
+2022-05-17 21:07:33
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.17
+result: {
+    "letsencrypt.log.17": {
+        "nu_rows": 28,
+        "nu_result": 26
+    }
+}
+start: 1652814452.9494
+finish: 1652814453.3209
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.37144899368286
+
+2022-05-17 21:07:33
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/letsencrypt/letsencrypt.log.7
+
+2022-05-17 21:07:33
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.7
+result: {
+    "letsencrypt.log.7": {
+        "nu_rows": 28,
+        "nu_result": 26
+    }
+}
+start: 1652814453.3219
+finish: 1652814453.6239
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.30205392837524
+
+2022-05-17 21:07:33
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/letsencrypt/letsencrypt.log.41
+
+2022-05-17 21:07:34
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.41
+result: {
+    "letsencrypt.log.41": {
+        "nu_rows": 28,
+        "nu_result": 26
+    }
+}
+start: 1652814453.625
+finish: 1652814454.0716
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.44661498069763
+
+2022-05-17 21:07:34
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/letsencrypt/letsencrypt.log.28
+
+2022-05-17 21:07:34
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.28
+result: {
+    "letsencrypt.log.28": {
+        "nu_rows": 28,
+        "nu_result": 26
+    }
+}
+start: 1652814454.0728
+finish: 1652814454.455
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.38221311569214
+
+2022-05-17 21:07:34
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/letsencrypt/letsencrypt.log.27
+
+2022-05-17 21:07:34
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.27
+result: {
+    "letsencrypt.log.27": {
+        "nu_rows": 28,
+        "nu_result": 26
+    }
+}
+start: 1652814454.4559
+finish: 1652814454.8256
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.36978697776794
+
+2022-05-17 21:07:34
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/letsencrypt/letsencrypt.log.10
+
+2022-05-17 21:07:35
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.10
+result: {
+    "letsencrypt.log.10": {
+        "nu_rows": 28,
+        "nu_result": 26
+    }
+}
+start: 1652814454.8265
+finish: 1652814455.2187
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.39221501350403
+
+2022-05-17 21:07:35
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/letsencrypt/letsencrypt.log.36
+
+2022-05-17 21:07:35
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.36
+result: {
+    "letsencrypt.log.36": {
+        "nu_rows": 28,
+        "nu_result": 26
+    }
+}
+start: 1652814455.2196
+finish: 1652814455.6678
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.44817519187927
+
+2022-05-17 21:07:35
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/letsencrypt/letsencrypt.log.24
+
+2022-05-17 21:07:36
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.24
+result: {
+    "letsencrypt.log.24": {
+        "nu_rows": 28,
+        "nu_result": 26
+    }
+}
+start: 1652814455.6688
+finish: 1652814456.0494
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.38055896759033
+
+2022-05-17 21:07:36
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/letsencrypt/letsencrypt.log.13
+
+2022-05-17 21:07:36
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.13
+result: {
+    "letsencrypt.log.13": {
+        "nu_rows": 28,
+        "nu_result": 26
+    }
+}
+start: 1652814456.0505
+finish: 1652814456.4203
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.36983394622803
+
+2022-05-17 21:07:36
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/letsencrypt/letsencrypt.log.35
+
+2022-05-17 21:07:36
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.35
+result: {
+    "letsencrypt.log.35": {
+        "nu_rows": 28,
+        "nu_result": 26
+    }
+}
+start: 1652814456.4218
+finish: 1652814456.7702
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.34837293624878
+
+2022-05-17 21:07:36
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/letsencrypt/letsencrypt.log
+
+2022-05-17 21:07:37
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log
+result: {
+    "letsencrypt.log": {
+        "nu_rows": 28,
+        "nu_result": 26
+    }
+}
+start: 1652814456.7712
+finish: 1652814457.2743
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.50311493873596
+
+2022-05-17 21:07:37
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/letsencrypt/letsencrypt.log.11
+
+2022-05-17 21:07:37
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.11
+result: {
+    "letsencrypt.log.11": {
+        "nu_rows": 28,
+        "nu_result": 26
+    }
+}
+start: 1652814457.2755
+finish: 1652814457.5775
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.30202507972717
+
+2022-05-17 21:07:37
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/letsencrypt/letsencrypt.log.23
+
+2022-05-17 21:07:37
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.23
+result: {
+    "letsencrypt.log.23": {
+        "nu_rows": 28,
+        "nu_result": 26
+    }
+}
+start: 1652814457.5787
+finish: 1652814457.9269
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.34815812110901
+
+2022-05-17 21:07:37
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/letsencrypt/letsencrypt.log.38
+
+2022-05-17 21:07:38
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.38
+result: {
+    "letsencrypt.log.38": {
+        "nu_rows": 28,
+        "nu_result": 26
+    }
+}
+start: 1652814457.9281
+finish: 1652814458.2863
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.35823392868042
+
+2022-05-17 21:07:38
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/letsencrypt/letsencrypt.log.3
+
+2022-05-17 21:07:38
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.3
+result: {
+    "letsencrypt.log.3": {
+        "nu_rows": 28,
+        "nu_result": 26
+    }
+}
+start: 1652814458.2875
+finish: 1652814458.6231
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.33565902709961
+
+2022-05-17 21:07:38
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/letsencrypt/letsencrypt.log.30
+
+2022-05-17 21:07:39
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.30
+result: {
+    "letsencrypt.log.30": {
+        "nu_rows": 28,
+        "nu_result": 26
+    }
+}
+start: 1652814458.6241
+finish: 1652814459.0838
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.45971298217773
+
+2022-05-17 21:07:39
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/letsencrypt/letsencrypt.log.1
+
+2022-05-17 21:07:39
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.1
+result: {
+    "letsencrypt.log.1": {
+        "nu_rows": 28,
+        "nu_result": 26
+    }
+}
+start: 1652814459.0848
+finish: 1652814459.5437
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.45887279510498
+
+2022-05-17 21:07:39
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/letsencrypt/letsencrypt.log.26
+
+2022-05-17 21:07:39
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.26
+result: {
+    "letsencrypt.log.26": {
+        "nu_rows": 28,
+        "nu_result": 26
+    }
+}
+start: 1652814459.5446
+finish: 1652814459.8468
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.30220890045166
+
+2022-05-17 21:07:39
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/letsencrypt/letsencrypt.log.9
+
+2022-05-17 21:07:40
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.9
+result: {
+    "letsencrypt.log.9": {
+        "nu_rows": 28,
+        "nu_result": 26
+    }
+}
+start: 1652814459.8477
+finish: 1652814460.2643
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.41663193702698
+
+2022-05-17 21:07:40
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/letsencrypt/letsencrypt.log.12
+
+2022-05-17 21:07:40
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.12
+result: {
+    "letsencrypt.log.12": {
+        "nu_rows": 28,
+        "nu_result": 26
+    }
+}
+start: 1652814460.2655
+finish: 1652814460.6784
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.41293811798096
+
+2022-05-17 21:07:40
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/letsencrypt/letsencrypt.log.2
+
+2022-05-17 21:07:41
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.2
+result: {
+    "letsencrypt.log.2": {
+        "nu_rows": 28,
+        "nu_result": 26
+    }
+}
+start: 1652814460.68
+finish: 1652814461.0153
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.33532190322876
+
+2022-05-17 21:07:41
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/letsencrypt/letsencrypt.log.5
+
+2022-05-17 21:07:41
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.5
+result: {
+    "letsencrypt.log.5": {
+        "nu_rows": 28,
+        "nu_result": 26
+    }
+}
+start: 1652814461.0162
+finish: 1652814461.3651
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.34890985488892
+
+2022-05-17 21:07:41
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/letsencrypt/letsencrypt.log.25
+
+2022-05-17 21:07:41
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.25
+result: {
+    "letsencrypt.log.25": {
+        "nu_rows": 28,
+        "nu_result": 26
+    }
+}
+start: 1652814461.366
+finish: 1652814461.7359
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.36990404129028
+
+2022-05-17 21:07:41
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/letsencrypt/letsencrypt.log.15
+
+2022-05-17 21:07:42
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.15
+result: {
+    "letsencrypt.log.15": {
+        "nu_rows": 28,
+        "nu_result": 26
+    }
+}
+start: 1652814461.7368
+finish: 1652814462.15
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.41319489479065
+
+2022-05-17 21:07:42
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/letsencrypt/letsencrypt.log.37
+
+2022-05-17 21:07:42
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.37
+result: {
+    "letsencrypt.log.37": {
+        "nu_rows": 28,
+        "nu_result": 26
+    }
+}
+start: 1652814462.1508
+finish: 1652814462.4881
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.33728909492493
+
+2022-05-17 21:07:42
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/letsencrypt/letsencrypt.log.40
+
+2022-05-17 21:07:42
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.40
+result: {
+    "letsencrypt.log.40": {
+        "nu_rows": 28,
+        "nu_result": 26
+    }
+}
+start: 1652814462.4893
+finish: 1652814462.8701
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.38081312179565
+
+2022-05-17 21:07:42
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/letsencrypt/letsencrypt.log.31
+
+2022-05-17 21:07:43
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.31
+result: {
+    "letsencrypt.log.31": {
+        "nu_rows": 28,
+        "nu_result": 26
+    }
+}
+start: 1652814462.8713
+finish: 1652814463.3642
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.49290490150452
+
+2022-05-17 21:07:43
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/letsencrypt/letsencrypt.log.42
+
+2022-05-17 21:07:43
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.42
+result: {
+    "letsencrypt.log.42": {
+        "nu_rows": 28,
+        "nu_result": 26
+    }
+}
+start: 1652814463.3652
+finish: 1652814463.7911
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.42589688301086
+
+2022-05-17 21:07:43
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/letsencrypt/letsencrypt.log.21
+
+2022-05-17 21:07:44
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.21
+result: {
+    "letsencrypt.log.21": {
+        "nu_rows": 28,
+        "nu_result": 26
+    }
+}
+start: 1652814463.792
+finish: 1652814464.1166
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.32461500167847
+
+2022-05-17 21:07:44
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/letsencrypt/letsencrypt.log.22
+
+2022-05-17 21:07:44
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.22
+result: {
+    "letsencrypt.log.22": {
+        "nu_rows": 28,
+        "nu_result": 26
+    }
+}
+start: 1652814464.1175
+finish: 1652814464.4422
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.32465314865112
+
+2022-05-17 21:07:44
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/letsencrypt/letsencrypt.log.39
+
+2022-05-17 21:07:44
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.39
+result: {
+    "letsencrypt.log.39": {
+        "nu_rows": 28,
+        "nu_result": 26
+    }
+}
+start: 1652814464.4431
+finish: 1652814464.7577
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.31453800201416
+
+2022-05-17 21:07:44
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/letsencrypt/letsencrypt.log.6
+
+2022-05-17 21:07:45
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.6
+result: {
+    "letsencrypt.log.6": {
+        "nu_rows": 28,
+        "nu_result": 26
+    }
+}
+start: 1652814464.7588
+finish: 1652814465.172
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.41326785087585
+
+2022-05-17 21:07:45
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/letsencrypt/letsencrypt.log.4
+
+2022-05-17 21:07:45
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.4
+result: {
+    "letsencrypt.log.4": {
+        "nu_rows": 28,
+        "nu_result": 26
+    }
+}
+start: 1652814465.173
+finish: 1652814465.6083
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.43529796600342
+
+2022-05-17 21:07:45
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/letsencrypt/letsencrypt.log.34
+
+2022-05-17 21:07:45
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.34
+result: {
+    "letsencrypt.log.34": {
+        "nu_rows": 28,
+        "nu_result": 26
+    }
+}
+start: 1652814465.6094
+finish: 1652814465.9227
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.31325507164001
+
+2022-05-17 21:07:45
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/letsencrypt/letsencrypt.log.33
+
+2022-05-17 21:07:46
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.33
+result: {
+    "letsencrypt.log.33": {
+        "nu_rows": 28,
+        "nu_result": 26
+    }
+}
+start: 1652814465.9235
+finish: 1652814466.2271
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.30360102653503
+
+2022-05-17 21:07:46
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/letsencrypt/letsencrypt.log.8
+
+2022-05-17 21:07:46
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.8
+result: {
+    "letsencrypt.log.8": {
+        "nu_rows": 28,
+        "nu_result": 26
+    }
+}
+start: 1652814466.2282
+finish: 1652814466.6193
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.39108991622925
+
+2022-05-17 21:07:46
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/letsencrypt/letsencrypt.log.29
+
+2022-05-17 21:07:46
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.29
+result: {
+    "letsencrypt.log.29": {
+        "nu_rows": 28,
+        "nu_result": 26
+    }
+}
+start: 1652814466.6203
+finish: 1652814466.9332
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.31298112869263
+
+2022-05-17 21:07:46
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/letsencrypt/letsencrypt.log.20
+
+2022-05-17 21:07:47
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.20
+result: {
+    "letsencrypt.log.20": {
+        "nu_rows": 28,
+        "nu_result": 26
+    }
+}
+start: 1652814466.9343
+finish: 1652814467.3711
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.43673014640808
+
+2022-05-17 21:07:47
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/letsencrypt/letsencrypt.log.14
+
+2022-05-17 21:07:47
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): letsencrypt.log.14
+result: {
+    "letsencrypt.log.14": {
+        "nu_rows": 28,
+        "nu_result": 26
+    }
+}
+start: 1652814467.3722
+finish: 1652814467.6964
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.32422208786011
+
+2022-05-17 21:07:47
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/unattended-upgrades/unattended-upgrades-shutdown.log
+
+2022-05-17 21:07:47
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): unattended-upgrades-shutdown.log
+result: {
+    "unattended-upgrades-shutdown.log": {
+        "nu_rows": 1,
+        "nu_result": 0
+    }
+}
+start: 1652814467.6973
+finish: 1652814467.6975
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.00017285346984863
+
+2022-05-17 21:07:47
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/unattended-upgrades/unattended-upgrades-dpkg.log-20220301
+
+2022-05-17 21:07:47
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): unattended-upgrades-dpkg.log-20220301
+result: {
+    "unattended-upgrades-dpkg.log-20220301": {
+        "nu_rows": 21,
+        "nu_result": 16
+    }
+}
+start: 1652814467.698
+finish: 1652814467.8762
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.17814898490906
+
+2022-05-17 21:07:47
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/unattended-upgrades/unattended-upgrades-shutdown.log-20220303
+
+2022-05-17 21:07:47
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): unattended-upgrades-shutdown.log-20220303
+result: {
+    "unattended-upgrades-shutdown.log-20220303": {
+        "nu_rows": 2,
+        "nu_result": 1
+    }
+}
+start: 1652814467.8771
+finish: 1652814467.8873
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.010229825973511
+
+2022-05-17 21:07:47
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/unattended-upgrades/unattended-upgrades.log-20220301
+
+2022-05-17 21:07:50
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): unattended-upgrades.log-20220301
+result: {
+    "unattended-upgrades.log-20220301": {
+        "nu_rows": 185,
+        "nu_result": 184
+    }
+}
+start: 1652814467.8881
+finish: 1652814470.325
+duration_min_sec: 0:2
+duration_sec_microseconds: 2.4369158744812
+
+2022-05-17 21:07:50
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/unattended-upgrades/unattended-upgrades.log
+
+2022-05-17 21:07:51
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): unattended-upgrades.log
+result: {
+    "unattended-upgrades.log": {
+        "nu_rows": 59,
+        "nu_result": 58
+    }
+}
+start: 1652814470.326
+finish: 1652814471.1222
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.79627108573914
+
+2022-05-17 21:07:51
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/unattended-upgrades/unattended-upgrades-dpkg.log
+
+2022-05-17 21:07:51
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): unattended-upgrades-dpkg.log
+result: {
+    "unattended-upgrades-dpkg.log": {
+        "nu_rows": 1,
+        "nu_result": 0
+    }
+}
+start: 1652814471.1231
+finish: 1652814471.1232
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.00018000602722168
+
+2022-05-17 21:07:51
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/ossec/active-responses.log
+
+2022-05-17 21:07:51
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): active-responses.log
+result: {
+    "active-responses.log": {
+        "nu_rows": 41,
+        "nu_result": 40
+    }
+}
+start: 1652814471.1239
+finish: 1652814471.6824
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.55848503112793
+
+2022-05-17 21:07:51
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/ossec/firewall/2022/Feb/ossec-firewall-04.log
+
+2022-05-17 21:07:51
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): ossec-firewall-04.log
+result: {
+    "ossec-firewall-04.log": {
+        "nu_rows": 1,
+        "nu_result": 0
+    }
+}
+start: 1652814471.6836
+finish: 1652814471.6839
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.00029087066650391
+
+2022-05-17 21:07:51
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/ossec/firewall/2022/Feb/ossec-firewall-02.log.sum
+
+2022-05-17 21:07:51
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): ossec-firewall-02.log.sum
+result: {
+    "ossec-firewall-02.log.sum": {
+        "nu_rows": 9,
+        "nu_result": 6
+    }
+}
+start: 1652814471.6848
+finish: 1652814471.7498
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.065026998519897
+
+2022-05-17 21:07:51
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/ossec/firewall/2022/Feb/ossec-firewall-08.log.sum
+
+2022-05-17 21:07:51
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): ossec-firewall-08.log.sum
+result: {
+    "ossec-firewall-08.log.sum": {
+        "nu_rows": 9,
+        "nu_result": 6
+    }
+}
+start: 1652814471.7509
+finish: 1652814471.8772
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.12633013725281
+
+2022-05-17 21:07:51
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/ossec/firewall/2022/Feb/ossec-firewall-05.log.sum
+
+2022-05-17 21:07:52
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): ossec-firewall-05.log.sum
+result: {
+    "ossec-firewall-05.log.sum": {
+        "nu_rows": 9,
+        "nu_result": 6
+    }
+}
+start: 1652814471.8783
+finish: 1652814472.0244
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.14605784416199
+
+2022-05-17 21:07:52
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/ossec/firewall/2022/Feb/ossec-firewall-06.log.sum
+
+2022-05-17 21:07:52
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): ossec-firewall-06.log.sum
+result: {
+    "ossec-firewall-06.log.sum": {
+        "nu_rows": 9,
+        "nu_result": 6
+    }
+}
+start: 1652814472.0256
+finish: 1652814472.1153
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.089754104614258
+
+2022-05-17 21:07:52
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/ossec/firewall/2022/Feb/ossec-firewall-09.log
+
+2022-05-17 21:07:52
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): ossec-firewall-09.log
+result: {
+    "ossec-firewall-09.log": {
+        "nu_rows": 1,
+        "nu_result": 0
+    }
+}
+start: 1652814472.1165
+finish: 1652814472.1175
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.00093698501586914
+
+2022-05-17 21:07:52
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/ossec/firewall/2022/Feb/ossec-firewall-07.log.sum
+
+2022-05-17 21:07:52
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): ossec-firewall-07.log.sum
+result: {
+    "ossec-firewall-07.log.sum": {
+        "nu_rows": 9,
+        "nu_result": 6
+    }
+}
+start: 1652814472.1187
+finish: 1652814472.2933
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.17460799217224
+
+2022-05-17 21:07:52
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/ossec/firewall/2022/Feb/ossec-firewall-03.log.sum
+
+2022-05-17 21:07:52
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): ossec-firewall-03.log.sum
+result: {
+    "ossec-firewall-03.log.sum": {
+        "nu_rows": 9,
+        "nu_result": 6
+    }
+}
+start: 1652814472.2943
+finish: 1652814472.3828
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.088533878326416
+
+2022-05-17 21:07:52
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/ossec/firewall/2022/Feb/ossec-firewall-01.log.sum
+
+2022-05-17 21:07:52
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): ossec-firewall-01.log.sum
+result: {
+    "ossec-firewall-01.log.sum": {
+        "nu_rows": 9,
+        "nu_result": 6
+    }
+}
+start: 1652814472.3839
+finish: 1652814472.4503
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.066365003585815
+
+2022-05-17 21:07:52
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/ossec/firewall/2022/Jan/ossec-firewall-26.log.sum
+
+2022-05-17 21:07:52
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): ossec-firewall-26.log.sum
+result: {
+    "ossec-firewall-26.log.sum": {
+        "nu_rows": 9,
+        "nu_result": 6
+    }
+}
+start: 1652814472.4514
+finish: 1652814472.5179
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.066536903381348
+
+2022-05-17 21:07:52
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/ossec/firewall/2022/Jan/ossec-firewall-29.log.sum
+
+2022-05-17 21:07:52
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): ossec-firewall-29.log.sum
+result: {
+    "ossec-firewall-29.log.sum": {
+        "nu_rows": 9,
+        "nu_result": 6
+    }
+}
+start: 1652814472.519
+finish: 1652814472.585
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.0660080909729
+
+2022-05-17 21:07:52
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/ossec/firewall/2022/Jan/ossec-firewall-27.log.sum
+
+2022-05-17 21:07:52
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): ossec-firewall-27.log.sum
+result: {
+    "ossec-firewall-27.log.sum": {
+        "nu_rows": 9,
+        "nu_result": 6
+    }
+}
+start: 1652814472.5861
+finish: 1652814472.6635
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.077363967895508
+
+2022-05-17 21:07:52
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/ossec/firewall/2022/Jan/ossec-firewall-30.log.sum
+
+2022-05-17 21:07:52
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): ossec-firewall-30.log.sum
+result: {
+    "ossec-firewall-30.log.sum": {
+        "nu_rows": 9,
+        "nu_result": 6
+    }
+}
+start: 1652814472.6645
+finish: 1652814472.742
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.077446937561035
+
+2022-05-17 21:07:52
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/ossec/firewall/2022/Jan/ossec-firewall-28.log.sum
+
+2022-05-17 21:07:52
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): ossec-firewall-28.log.sum
+result: {
+    "ossec-firewall-28.log.sum": {
+        "nu_rows": 9,
+        "nu_result": 6
+    }
+}
+start: 1652814472.7431
+finish: 1652814472.8093
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.066233158111572
+
+2022-05-17 21:07:52
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/ossec/firewall/2022/Jan/ossec-firewall-31.log.sum
+
+2022-05-17 21:07:52
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): ossec-firewall-31.log.sum
+result: {
+    "ossec-firewall-31.log.sum": {
+        "nu_rows": 9,
+        "nu_result": 6
+    }
+}
+start: 1652814472.8104
+finish: 1652814472.8768
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.06641697883606
+
+2022-05-17 21:07:52
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/ossec/firewall/firewall.log
+
+2022-05-17 21:07:52
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): firewall.log
+result: {
+    "firewall.log": {
+        "nu_rows": 1,
+        "nu_result": 0
+    }
+}
+start: 1652814472.8776
+finish: 1652814472.8777
+duration_min_sec: 0:0
+duration_sec_microseconds: 0.00016093254089355
+
+2022-05-17 21:07:52
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/ossec/alerts/alerts.log
+
+2022-05-17 21:08:07
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): alerts.log
+result: {
+    "alerts.log": {
+        "nu_rows": 1610,
+        "nu_result": 969
+    }
+}
+start: 1652814472.8786
+finish: 1652814487.2141
+duration_min_sec: 0:14
+duration_sec_microseconds: 14.335524082184
+
+2022-05-17 21:08:07
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /media/mila/data/linode_logs/20220309_1/log/ossec/ossec.log
