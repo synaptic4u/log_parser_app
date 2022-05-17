@@ -46,11 +46,11 @@ class CLI implements IUserInterface
         return 0;
     }
 
-    public function timeReport(array $template): mixed
+    public function fullReport(array $template): mixed
     {
         $template['eol'] = PHP_EOL;
 
-        if (print_r($this->template->build('time_report', $template))) {
+        if (print_r($this->template->build('full_report', $template))) {
             return 1;
         }
 

@@ -6,7 +6,7 @@
     "log_include" : {
         "auth" : {
             "alias" : "auth",
-            "directory" :"/var/log",
+            "directory" :"/log",
             "name" : "auth.log",
             "columns" : ["loggedon", "server", "session", "user", "command_action"],
             "loggedon_format" : "MMM DD HH:mm:ss",
@@ -16,7 +16,7 @@
         },
         "alternatives" : {
             "alias" : "alternatives",
-            "directory" :"/var/log",
+            "directory" :"/log",
             "name" : "alternatives.log",
             "columns" : ["update_alternatives", "loggedon", "log"],
             "loggedon_format" : "YYYY-MM-DD HH:mm:ss",
@@ -26,7 +26,7 @@
         },
         "daemon" : {
             "alias" : "daemon",
-            "directory" :"/var/log",
+            "directory" :"/log",
             "name" : "daemon.log",
             "columns" : ["loggedon", "server", "application", "log"],
             "loggedon_format" : "MMM DD HH:mm:ss",
@@ -36,17 +36,17 @@
         },
         "debug" : {
             "alias" : "debug",
-            "directory" :"/var/log",
+            "directory" :"/log",
             "name" : "debug",
             "columns" : ["loggedon", "server", "application", "log"],
             "loggedon_format" : "MMM DD HH:mm:ss",
             "field_encapsulated" : "",
             "field_delimiter" : "space",
-            "quirk" : "Gets a false positive for apache modsec_debug.log then breaks. Will still need to programmatically fix it."
+            "quirk" : ""
         },
         "dpkg" : {
             "alias" : "dpkg",
-            "directory" :"/var/log",
+            "directory" :"/log",
             "name" : "dpkg.log",
             "columns" : ["loggedon", "process", "log"],
             "loggedon_format" : "YYYY-MM-DD HH:mm:ss",
@@ -56,7 +56,7 @@
         },
         "fail2ban" : {
             "alias" : "fail2ban",
-            "directory" :"/var/log",
+            "directory" :"/log",
             "name" : "fail2ban.log",
             "columns" : ["loggedon", "process", "id", "type", "log"],
             "loggedon_format" : "YYYY-MM-DD HH:mm:ss,m-3",
@@ -66,7 +66,7 @@
         },
         "kern" : {
             "alias" : "kern",
-            "directory" :"/var/log",
+            "directory" :"/log",
             "name" : "kern.log",
             "columns" : ["loggedon", "server", "process", "id", "application", "log"],
             "loggedon_format" : "MMM DD HH:mm:ss",
@@ -76,7 +76,7 @@
         },
         "mail_info" : {
             "alias" : "mail_info",
-            "directory" :"/var/log",
+            "directory" :"/log",
             "name" : "mail.info",
             "columns" : ["loggedon", "server", "process", "log"],
             "loggedon_format" : "MMM DD HH:mm:ss",
@@ -86,7 +86,7 @@
         },
         "mail_log" : {
             "alias" : "mail_log",
-            "directory" :"/var/log",
+            "directory" :"/log",
             "name" : "mail.log",
             "columns" : ["loggedon", "server", "process", "log"],
             "loggedon_format" : "MMM DD HH:mm:ss",
@@ -96,7 +96,7 @@
         },
         "mail_warn" : {
             "alias" : "mail_warn",
-            "directory" :"/var/log",
+            "directory" :"/log",
             "name" : "mail.warn",
             "columns" : ["loggedon", "server", "process", "log"],
             "loggedon_format" : "MMM DD HH:mm:ss",
@@ -106,7 +106,7 @@
         },
         "messages" : {
             "alias" : "messages",
-            "directory" :"/var/log",
+            "directory" :"/log",
             "name" : "messages",
             "columns" : ["loggedon", "server", "process", "id", "application", "log"],
             "loggedon_format" : "MMM DD HH:mm:ss",
@@ -116,7 +116,7 @@
         },
         "syslog" : {
             "alias" : "syslog",
-            "directory" :"/var/log",
+            "directory" :"/log",
             "name" : "syslog",
             "columns" : ["loggedon", "server", "process", "log"],
             "loggedon_format" : "MMM DD HH:mm:ss",
@@ -126,7 +126,7 @@
         },
         "ufw" : {
             "alias" : "ufw",
-            "directory" :"/var/log",
+            "directory" :"/log",
             "name" : "ufw.log",
             "columns" : ["loggedon", "server", "process", "id", "ufw", "in", "out", "mac", "src", "dst", "len", "tos", "prec", "ttl", "id2", "prot", "spt", "dpt", "window", "res", "syn", "urgp", "hoplimit", "flowlbl"],
             "loggedon_format" : "MMM DD HH:mm:ss",
@@ -136,7 +136,7 @@
         },
         "user" : {
             "alias" : "user",
-            "directory" :"/var/log",
+            "directory" :"/log",
             "name" : "user.log",
             "columns" : ["loggedon", "server", "process", "log"],
             "loggedon_format" : "MMM DD HH:mm:ss",
@@ -146,7 +146,7 @@
         },
         "daemon_access" : {
             "alias" : "daemon_access",
-            "directory" :"/var/log/apache2",
+            "directory" :"/log/apache2",
             "name" : "daemon-access.log",
             "columns" : ["ip", "logname", "country_code", "loggedon", "method_params", "http_response", "calculated_bytes", "referer", "user_agent", "content_type", "client_port", "canonical_host_name", "server_IP", "server_port", "handler", "forward_requests", "tcp_connection", "cookie", "unique_id", "SSL_PROTOCOL", "SSL_CIPHER", "in_bytes_tot", "out_bytes_tot", "compression_ratio", "duration_micro_sec", "modsec_time_in", "app_time", "modsec_time_out", "modsec_anomaly_in_pls", "modsec_anomaly_out_pls", "modsec_anomaly_in", "modsec_anomaly_out"],
             "loggedon_format" : "YYYY-MM-DD HH:mm:ss.m-6",
@@ -156,7 +156,7 @@
         },
         "daemon_error" : {
             "alias" : "daemon_error",
-            "directory" :"/var/log/apache2",
+            "directory" :"/log/apache2",
             "name" : "daemon-error.log",
             "columns" : ["loggedon", "error", "client_ip", "unique_id", "log"],
             "loggedon_format" : "YYYY-MM-DD HH:mm:ss.m-6",
@@ -166,7 +166,7 @@
         },
         "daemon_perf" : {
             "alias" : "daemon_perf",
-            "directory" :"/var/log/apache2",
+            "directory" :"/log/apache2",
             "name" : "daemon-perf.log",
             "columns" : ["loggedon", "unique_id", "duration_microsec", "PerfModSecInbound", "PerfAppl", "PerfModSecOutbound", "TS_Phase1", "TS_Phase2", "TS_Phase3", "TS_Phase4", "TS_Phase5", "Perf_Phase1", "Perf_Phase2", "Perf_Phase3", "Perf_Phase4", "Perf_Phase5", "Perf_ReadingStorage", "Perf_WritingStorage", "Perf_GarbageCollection", "Perf_ModSecLogging", "Perf_ModSecCombined"],
             "loggedon_format" : "YYYY-MM-DD HH:mm:ss.m-6",
@@ -176,7 +176,7 @@
         },
         "modsec_perf" : {
             "alias" : "modsec_perf",
-            "directory" :"/var/log/apache2",
+            "directory" :"/log/apache2",
             "name" : "modsec-perf.log",
             "columns" : ["loggedon", "unique_id", "duration_microsec", "PerfModSecInbound", "PerfAppl", "PerfModSecOutbound", "TS_Phase1", "TS_Phase2", "TS_Phase3", "TS_Phase4", "TS_Phase5", "Perf_Phase1", "Perf_Phase2", "Perf_Phase3", "Perf_Phase4", "Perf_Phase5", "Perf_ReadingStorage", "Perf_WritingStorage", "Perf_GarbageCollection", "Perf_ModSecLogging", "Perf_ModSecCombined"],
             "loggedon_format" : "YYYY-MM-DD HH:mm:ss.m-6",
@@ -186,7 +186,7 @@
         },
         "modsec_audit" : {
             "alias" : "modsec_audit",
-            "directory" :"/var/log/apache2",
+            "directory" :"/log/apache2",
             "name" : "modsec_audit.log",
             "columns" : ["modsecurity", "client_ip", "domain_ip", "https_response", "audit_file", "log"],
             "loggedon_format" : "null",
@@ -196,7 +196,29 @@
         }
 
     },
-    "log_exclude" : ["btmp","wtmp", "cloud-init-output.log", "faillog", "lastlog", "lynis.log", "lynis-report.dat", "access.log",  "other_vhostsaccess.log", "www-data-global", "www-data-global.dir", "www-data-global.pag", "www-data-ip", "www-data-ip.dir", "www-data-ip.pag", "pacct", "sa", "sar"],
-    "log_dump" : [],
-    "file_exclude_types" : [".zip", ".tar", ".gz", ".xz"]
+    "log_exclude" : [
+        "btmp",
+        "wtmp",
+        "cloud-init-output.log",
+        "faillog",
+        "lastlog",
+        "lynis.log",
+        "lynis-report.dat",
+        "access.log",
+         "other_vhostsaccess.log",
+        "www-data-global",
+        "www-data-global.dir",
+        "www-data-global.pag",
+        "www-data-ip",
+        "www-data-ip.dir",
+        "www-data-ip.pag",
+        "pacct",
+        "sa",
+        "sar"],
+    "log_dump" : ["apache2/audit/www-data",
+        "apt/"],
+    "file_exclude_types" : [".zip",
+        ".tar",
+        ".gz",
+        ".xz"]
 }

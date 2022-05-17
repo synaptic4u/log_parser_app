@@ -19,8 +19,8 @@ class FrontTemplate
         return $this->ui->finished();
     }
 
-    public function timeReport(array $result): mixed
+    public function fullReport(array $result): mixed
     {
-        return $this->ui->timeReport($result);
+        return $this->ui->fullReport($result);
     }
 }

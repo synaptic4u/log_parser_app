@@ -8,5 +8,5 @@ interface IUserInterface
 
     public function finished(array $params = []);
 
-    public function timeReport(array $result);
+    public function fullReport(array $result);
 }
