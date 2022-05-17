@@ -4,8 +4,9 @@ NOTA BENA!!!
 
         Working on the issue I mentioned previously with false positives.
         I had one file always being written to the wrong place. 
-        Changing how I sort to files: included, rejected and log dumped.
-        Testing the change in "dev" branch.
+        Changed how I sort to files: included, rejected and log dumped.
+        Testing the change in "dev" branch. So far after testing, it seems to be sorting correctly.
+        -> Will confirm changes are working with the next test batch.
                
         Refactored UI & DB. 
         Developing in "dev" branch, will merge "dev" to "master" periodically. 
