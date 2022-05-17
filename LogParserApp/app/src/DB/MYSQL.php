@@ -41,6 +41,7 @@ class MYSQL implements IDBInterface
     public function query($params, $sql): mixed
     {
         try {
+            $stmt = null;
             $result = [];
             $this->pdo->beginTransaction();
 

@@ -1,233 +1,233 @@
 
-2022-05-17 12:54:00
+2022-05-17 19:25:09
 Location: Synaptic4UParser\Structure\Structure::parse()
 message: {
     "nu": 0,
     "exists": "auth",
     "alias": "auth",
-    "nu_of_ows": 287309,
-    "max_logid": 287309,
+    "nu_of_ows": 0,
+    "max_logid": null,
     "config_structure_variance": "None",
     "database_structure_variance": "None"
 }
 
-2022-05-17 12:54:00
+2022-05-17 19:25:09
 Location: Synaptic4UParser\Structure\Structure::parse()
 message: {
     "nu": 1,
     "exists": "alternatives",
     "alias": "alternatives",
-    "nu_of_ows": 352,
-    "max_logid": 352,
+    "nu_of_ows": 0,
+    "max_logid": null,
     "config_structure_variance": "None",
     "database_structure_variance": "None"
 }
 
-2022-05-17 12:54:01
+2022-05-17 19:25:09
 Location: Synaptic4UParser\Structure\Structure::parse()
 message: {
     "nu": 2,
     "exists": "daemon",
     "alias": "daemon",
-    "nu_of_ows": 119837,
-    "max_logid": 119837,
+    "nu_of_ows": 0,
+    "max_logid": null,
     "config_structure_variance": "None",
     "database_structure_variance": "None"
 }
 
-2022-05-17 12:54:01
+2022-05-17 19:25:09
 Location: Synaptic4UParser\Structure\Structure::parse()
 message: {
     "nu": 3,
     "exists": "debug",
     "alias": "debug",
-    "nu_of_ows": 365028,
-    "max_logid": 365028,
+    "nu_of_ows": 0,
+    "max_logid": null,
     "config_structure_variance": "None",
     "database_structure_variance": "None"
 }
 
-2022-05-17 12:54:01
+2022-05-17 19:25:09
 Location: Synaptic4UParser\Structure\Structure::parse()
 message: {
     "nu": 4,
     "exists": "dpkg",
     "alias": "dpkg",
-    "nu_of_ows": 18451,
-    "max_logid": 18451,
+    "nu_of_ows": 0,
+    "max_logid": null,
     "config_structure_variance": "None",
     "database_structure_variance": "None"
 }
 
-2022-05-17 12:54:02
+2022-05-17 19:25:09
 Location: Synaptic4UParser\Structure\Structure::parse()
 message: {
     "nu": 5,
     "exists": "fail2ban",
     "alias": "fail2ban",
-    "nu_of_ows": 41468,
-    "max_logid": 41468,
+    "nu_of_ows": 0,
+    "max_logid": null,
     "config_structure_variance": "None",
     "database_structure_variance": "None"
 }
 
-2022-05-17 12:54:03
+2022-05-17 19:25:09
 Location: Synaptic4UParser\Structure\Structure::parse()
 message: {
     "nu": 6,
     "exists": "kern",
     "alias": "kern",
-    "nu_of_ows": 659317,
-    "max_logid": 659318,
+    "nu_of_ows": 0,
+    "max_logid": null,
     "config_structure_variance": "None",
     "database_structure_variance": "None"
 }
 
-2022-05-17 12:54:03
+2022-05-17 19:25:09
 Location: Synaptic4UParser\Structure\Structure::parse()
 message: {
     "nu": 7,
     "exists": "mail_info",
     "alias": "mail_info",
-    "nu_of_ows": 78009,
-    "max_logid": 78009,
+    "nu_of_ows": 0,
+    "max_logid": null,
     "config_structure_variance": "None",
     "database_structure_variance": "None"
 }
 
-2022-05-17 12:54:04
+2022-05-17 19:25:09
 Location: Synaptic4UParser\Structure\Structure::parse()
 message: {
     "nu": 8,
     "exists": "mail_log",
     "alias": "mail_log",
-    "nu_of_ows": 78009,
-    "max_logid": 78009,
+    "nu_of_ows": 0,
+    "max_logid": null,
     "config_structure_variance": "None",
     "database_structure_variance": "None"
 }
 
-2022-05-17 12:54:04
+2022-05-17 19:25:09
 Location: Synaptic4UParser\Structure\Structure::parse()
 message: {
     "nu": 9,
     "exists": "mail_warn",
     "alias": "mail_warn",
-    "nu_of_ows": 18007,
-    "max_logid": 18007,
+    "nu_of_ows": 0,
+    "max_logid": null,
     "config_structure_variance": "None",
     "database_structure_variance": "None"
 }
 
-2022-05-17 12:54:05
+2022-05-17 19:25:09
 Location: Synaptic4UParser\Structure\Structure::parse()
 message: {
     "nu": 10,
     "exists": "messages",
     "alias": "messages",
-    "nu_of_ows": 607234,
-    "max_logid": 607234,
+    "nu_of_ows": 0,
+    "max_logid": null,
     "config_structure_variance": "None",
     "database_structure_variance": "None"
 }
 
-2022-05-17 12:54:07
+2022-05-17 19:25:09
 Location: Synaptic4UParser\Structure\Structure::parse()
 message: {
     "nu": 11,
     "exists": "syslog",
     "alias": "syslog",
-    "nu_of_ows": 567381,
-    "max_logid": 567381,
+    "nu_of_ows": 0,
+    "max_logid": null,
     "config_structure_variance": "None",
     "database_structure_variance": "None"
 }
 
-2022-05-17 12:54:08
+2022-05-17 19:25:09
 Location: Synaptic4UParser\Structure\Structure::parse()
 message: {
     "nu": 12,
     "exists": "ufw",
     "alias": "ufw",
-    "nu_of_ows": 500948,
-    "max_logid": 500948,
+    "nu_of_ows": 0,
+    "max_logid": null,
     "config_structure_variance": "None",
     "database_structure_variance": "None"
 }
 
-2022-05-17 12:54:08
+2022-05-17 19:25:09
 Location: Synaptic4UParser\Structure\Structure::parse()
 message: {
     "nu": 13,
     "exists": "user",
     "alias": "user",
-    "nu_of_ows": 45,
-    "max_logid": 45,
+    "nu_of_ows": 0,
+    "max_logid": null,
     "config_structure_variance": "None",
     "database_structure_variance": "None"
 }
 
-2022-05-17 12:54:10
+2022-05-17 19:25:09
 Location: Synaptic4UParser\Structure\Structure::parse()
 message: {
     "nu": 14,
     "exists": "daemon_access",
     "alias": "daemon_access",
-    "nu_of_ows": 536184,
-    "max_logid": 536184,
+    "nu_of_ows": 0,
+    "max_logid": null,
     "config_structure_variance": "None",
     "database_structure_variance": "None"
 }
 
-2022-05-17 12:54:12
+2022-05-17 19:25:09
 Location: Synaptic4UParser\Structure\Structure::parse()
 message: {
     "nu": 15,
     "exists": "daemon_error",
     "alias": "daemon_error",
-    "nu_of_ows": 667408,
-    "max_logid": 667408,
+    "nu_of_ows": 0,
+    "max_logid": null,
     "config_structure_variance": "None",
     "database_structure_variance": "None"
 }
 
-2022-05-17 12:54:12
+2022-05-17 19:25:09
 Location: Synaptic4UParser\Structure\Structure::parse()
 message: {
     "nu": 16,
     "exists": "daemon_perf",
     "alias": "daemon_perf",
-    "nu_of_ows": 7500,
-    "max_logid": 7500,
+    "nu_of_ows": 0,
+    "max_logid": null,
     "config_structure_variance": "None",
     "database_structure_variance": "None"
 }
 
-2022-05-17 12:54:13
+2022-05-17 19:25:09
 Location: Synaptic4UParser\Structure\Structure::parse()
 message: {
     "nu": 17,
     "exists": "modsec_perf",
     "alias": "modsec_perf",
-    "nu_of_ows": 497071,
-    "max_logid": 497071,
+    "nu_of_ows": 0,
+    "max_logid": null,
     "config_structure_variance": "None",
     "database_structure_variance": "None"
 }
 
-2022-05-17 12:54:21
+2022-05-17 19:25:09
 Location: Synaptic4UParser\Structure\Structure::parse()
 message: {
     "nu": 18,
     "exists": "modsec_audit",
     "alias": "modsec_audit",
-    "nu_of_ows": 495862,
-    "max_logid": 495862,
+    "nu_of_ows": 0,
+    "max_logid": null,
     "config_structure_variance": "None",
     "database_structure_variance": "None"
 }
 
-2022-05-17 12:54:21
+2022-05-17 19:25:09
 Location: Synaptic4UParser\Parser\Parser::loadLogs() : /media/mila/data/linode_logs/20220309_1/
 Accepted log files parsed to own tables: {
     "\/media\/mila\/data\/linode_logs\/20220309_1\/log\/auth.log-20220227": "auth",
@@ -5964,24 +5964,924 @@ Tree: {
     "auth.log": null
 }
 
-2022-05-17 12:54:21
+2022-05-17 19:25:09
 Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/auth.log-20220227
 alias: auth
 
-2022-05-17 12:57:45
+2022-05-17 19:26:56
 Location: Synaptic4UParser\Parser\Parser::parseLog(): auth.log-20220227
 alias: auth
 result: {
     "auth.log-20220227": {
-        "start": 1652784861.327022,
-        "finish": 1652785065.19815,
-        "duration_min_sec": "3:23",
-        "duration_sec_microseconds": 203.8711278438568,
+        "start": 1652808309.643603,
+        "finish": 1652808416.719803,
+        "duration_min_sec": "1:47",
+        "duration_sec_microseconds": 107.07620000839233,
         "nu_rows": 8547,
         "nu_result": 8547
     }
 }
 
-2022-05-17 12:57:45
+2022-05-17 19:26:56
 Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/auth.log-20220220
 alias: auth
+
+2022-05-17 19:28:55
+Location: Synaptic4UParser\Parser\Parser::parseLog(): auth.log-20220220
+alias: auth
+result: {
+    "auth.log-20220220": {
+        "start": 1652808416.72026,
+        "finish": 1652808535.173757,
+        "duration_min_sec": "1:58",
+        "duration_sec_microseconds": 118.45349717140198,
+        "nu_rows": 9605,
+        "nu_result": 9605
+    }
+}
+
+2022-05-17 19:28:55
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/auth.log-20220306
+alias: auth
+
+2022-05-17 19:30:30
+Location: Synaptic4UParser\Parser\Parser::parseLog(): auth.log-20220306
+alias: auth
+result: {
+    "auth.log-20220306": {
+        "start": 1652808535.174224,
+        "finish": 1652808630.955585,
+        "duration_min_sec": "1:35",
+        "duration_sec_microseconds": 95.78136110305786,
+        "nu_rows": 7783,
+        "nu_result": 7783
+    }
+}
+
+2022-05-17 19:30:30
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/auth.log
+alias: auth
+
+2022-05-17 19:31:33
+Location: Synaptic4UParser\Parser\Parser::parseLog(): auth.log
+alias: auth
+result: {
+    "auth.log": {
+        "start": 1652808630.956051,
+        "finish": 1652808693.439919,
+        "duration_min_sec": "1:2",
+        "duration_sec_microseconds": 62.48386788368225,
+        "nu_rows": 5093,
+        "nu_result": 5093
+    }
+}
+
+2022-05-17 19:31:33
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/alternatives.log-20220301
+alias: alternatives
+
+2022-05-17 19:31:33
+Location: Synaptic4UParser\Parser\Parser::parseLog(): alternatives.log-20220301
+alias: alternatives
+result: {
+    "alternatives.log-20220301": {
+        "start": 1652808693.440405,
+        "finish": 1652808693.484646,
+        "duration_min_sec": "0:0",
+        "duration_sec_microseconds": 0.04424118995666504,
+        "nu_rows": 3,
+        "nu_result": 3
+    }
+}
+
+2022-05-17 19:31:33
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/alternatives.log
+alias: alternatives
+
+2022-05-17 19:31:33
+Location: Synaptic4UParser\Parser\Parser::parseLog(): alternatives.log
+alias: alternatives
+result: {
+    "alternatives.log": {
+        "start": 1652808693.48511,
+        "finish": 1652808693.529311,
+        "duration_min_sec": "0:0",
+        "duration_sec_microseconds": 0.044200897216796875,
+        "nu_rows": 4,
+        "nu_result": 4
+    }
+}
+
+2022-05-17 19:31:33
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/daemon.log-20220306
+alias: daemon
+
+2022-05-17 19:31:56
+Location: Synaptic4UParser\Parser\Parser::parseLog(): daemon.log-20220306
+alias: daemon
+result: {
+    "daemon.log-20220306": {
+        "start": 1652808693.529544,
+        "finish": 1652808716.922725,
+        "duration_min_sec": "0:23",
+        "duration_sec_microseconds": 23.39318084716797,
+        "nu_rows": 1856,
+        "nu_result": 1856
+    }
+}
+
+2022-05-17 19:31:56
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/daemon.log
+alias: daemon
+
+2022-05-17 19:32:06
+Location: Synaptic4UParser\Parser\Parser::parseLog(): daemon.log
+alias: daemon
+result: {
+    "daemon.log": {
+        "start": 1652808716.92316,
+        "finish": 1652808726.261823,
+        "duration_min_sec": "0:9",
+        "duration_sec_microseconds": 9.33866286277771,
+        "nu_rows": 735,
+        "nu_result": 735
+    }
+}
+
+2022-05-17 19:32:06
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/daemon.log-20220227
+alias: daemon
+
+2022-05-17 19:32:30
+Location: Synaptic4UParser\Parser\Parser::parseLog(): daemon.log-20220227
+alias: daemon
+result: {
+    "daemon.log-20220227": {
+        "start": 1652808726.262617,
+        "finish": 1652808750.115189,
+        "duration_min_sec": "0:23",
+        "duration_sec_microseconds": 23.852571964263916,
+        "nu_rows": 1904,
+        "nu_result": 1904
+    }
+}
+
+2022-05-17 19:32:30
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/daemon.log-20220220
+alias: daemon
+
+2022-05-17 19:33:02
+Location: Synaptic4UParser\Parser\Parser::parseLog(): daemon.log-20220220
+alias: daemon
+result: {
+    "daemon.log-20220220": {
+        "start": 1652808750.115552,
+        "finish": 1652808782.965076,
+        "duration_min_sec": "0:32",
+        "duration_sec_microseconds": 32.84952402114868,
+        "nu_rows": 2661,
+        "nu_result": 2661
+    }
+}
+
+2022-05-17 19:33:02
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/debug-20220220
+alias: debug
+
+2022-05-17 19:33:06
+Location: Synaptic4UParser\Parser\Parser::parseLog(): debug-20220220
+alias: debug
+result: {
+    "debug-20220220": {
+        "start": 1652808782.965466,
+        "finish": 1652808786.53855,
+        "duration_min_sec": "0:3",
+        "duration_sec_microseconds": 3.5730838775634766,
+        "nu_rows": 275,
+        "nu_result": 275
+    }
+}
+
+2022-05-17 19:33:06
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/debug-20220306
+alias: debug
+
+2022-05-17 19:33:10
+Location: Synaptic4UParser\Parser\Parser::parseLog(): debug-20220306
+alias: debug
+result: {
+    "debug-20220306": {
+        "start": 1652808786.539006,
+        "finish": 1652808790.876186,
+        "duration_min_sec": "0:4",
+        "duration_sec_microseconds": 4.337179899215698,
+        "nu_rows": 354,
+        "nu_result": 354
+    }
+}
+
+2022-05-17 19:33:10
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/debug-20220227
+alias: debug
+
+2022-05-17 19:33:14
+Location: Synaptic4UParser\Parser\Parser::parseLog(): debug-20220227
+alias: debug
+result: {
+    "debug-20220227": {
+        "start": 1652808790.876724,
+        "finish": 1652808794.8992,
+        "duration_min_sec": "0:4",
+        "duration_sec_microseconds": 4.022475957870483,
+        "nu_rows": 304,
+        "nu_result": 304
+    }
+}
+
+2022-05-17 19:33:14
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/debug
+alias: debug
+
+2022-05-17 19:33:14
+Location: Synaptic4UParser\Parser\Parser::parseLog(): debug
+alias: debug
+result: {
+    "debug": {
+        "start": 1652808794.899571,
+        "finish": 1652808794.993429,
+        "duration_min_sec": "0:0",
+        "duration_sec_microseconds": 0.09385800361633301,
+        "nu_rows": 8,
+        "nu_result": 8
+    }
+}
+
+2022-05-17 19:33:14
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/dpkg.log
+alias: dpkg
+
+2022-05-17 19:33:16
+Location: Synaptic4UParser\Parser\Parser::parseLog(): dpkg.log
+alias: dpkg
+result: {
+    "dpkg.log": {
+        "start": 1652808794.999453,
+        "finish": 1652808796.912701,
+        "duration_min_sec": "0:1",
+        "duration_sec_microseconds": 1.91324782371521,
+        "nu_rows": 155,
+        "nu_result": 155
+    }
+}
+
+2022-05-17 19:33:16
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/dpkg.log-20220301
+alias: dpkg
+
+2022-05-17 19:33:23
+Location: Synaptic4UParser\Parser\Parser::parseLog(): dpkg.log-20220301
+alias: dpkg
+result: {
+    "dpkg.log-20220301": {
+        "start": 1652808796.913034,
+        "finish": 1652808803.442205,
+        "duration_min_sec": "0:6",
+        "duration_sec_microseconds": 6.529170989990234,
+        "nu_rows": 523,
+        "nu_result": 523
+    }
+}
+
+2022-05-17 19:33:23
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/fail2ban.log-20220220
+alias: fail2ban
+
+2022-05-17 19:33:39
+Location: Synaptic4UParser\Parser\Parser::parseLog(): fail2ban.log-20220220
+alias: fail2ban
+result: {
+    "fail2ban.log-20220220": {
+        "start": 1652808803.442591,
+        "finish": 1652808819.483832,
+        "duration_min_sec": "0:16",
+        "duration_sec_microseconds": 16.04124093055725,
+        "nu_rows": 1274,
+        "nu_result": 1274
+    }
+}
+
+2022-05-17 19:33:39
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/fail2ban.log-20220227
+alias: fail2ban
+
+2022-05-17 19:33:57
+Location: Synaptic4UParser\Parser\Parser::parseLog(): fail2ban.log-20220227
+alias: fail2ban
+result: {
+    "fail2ban.log-20220227": {
+        "start": 1652808819.484259,
+        "finish": 1652808837.789916,
+        "duration_min_sec": "0:18",
+        "duration_sec_microseconds": 18.305657148361206,
+        "nu_rows": 1439,
+        "nu_result": 1439
+    }
+}
+
+2022-05-17 19:33:57
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/fail2ban.log
+alias: fail2ban
+
+2022-05-17 19:33:59
+Location: Synaptic4UParser\Parser\Parser::parseLog(): fail2ban.log
+alias: fail2ban
+result: {
+    "fail2ban.log": {
+        "start": 1652808837.790296,
+        "finish": 1652808839.97798,
+        "duration_min_sec": "0:2",
+        "duration_sec_microseconds": 2.1876838207244873,
+        "nu_rows": 173,
+        "nu_result": 173
+    }
+}
+
+2022-05-17 19:33:59
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/fail2ban.log-20220306
+alias: fail2ban
+
+2022-05-17 19:34:34
+Location: Synaptic4UParser\Parser\Parser::parseLog(): fail2ban.log-20220306
+alias: fail2ban
+result: {
+    "fail2ban.log-20220306": {
+        "start": 1652808839.978313,
+        "finish": 1652808874.819889,
+        "duration_min_sec": "0:34",
+        "duration_sec_microseconds": 34.84157609939575,
+        "nu_rows": 2807,
+        "nu_result": 2807
+    }
+}
+
+2022-05-17 19:34:34
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/kern.log-20220220
+alias: kern
+
+2022-05-17 19:42:13
+Location: Synaptic4UParser\Parser\Parser::parseLog(): kern.log-20220220
+alias: kern
+result: {
+    "kern.log-20220220": {
+        "start": 1652808874.820308,
+        "finish": 1652809333.756606,
+        "duration_min_sec": "7:38",
+        "duration_sec_microseconds": 458.93629813194275,
+        "nu_rows": 36644,
+        "nu_result": 36644
+    }
+}
+
+2022-05-17 19:42:13
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/kern.log-20220306
+alias: kern
+
+2022-05-17 19:48:00
+Location: Synaptic4UParser\Parser\Parser::parseLog(): kern.log-20220306
+alias: kern
+result: {
+    "kern.log-20220306": {
+        "start": 1652809333.757366,
+        "finish": 1652809680.051894,
+        "duration_min_sec": "5:46",
+        "duration_sec_microseconds": 346.2945280075073,
+        "nu_rows": 28156,
+        "nu_result": 28156
+    }
+}
+
+2022-05-17 19:48:00
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/kern.log
+alias: kern
+
+2022-05-17 19:51:56
+Location: Synaptic4UParser\Parser\Parser::parseLog(): kern.log
+alias: kern
+result: {
+    "kern.log": {
+        "start": 1652809680.05252,
+        "finish": 1652809916.915589,
+        "duration_min_sec": "3:56",
+        "duration_sec_microseconds": 236.8630690574646,
+        "nu_rows": 17638,
+        "nu_result": 17638
+    }
+}
+
+2022-05-17 19:51:56
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/kern.log-20220227
+alias: kern
+
+2022-05-17 19:58:59
+Location: Synaptic4UParser\Parser\Parser::parseLog(): kern.log-20220227
+alias: kern
+result: {
+    "kern.log-20220227": {
+        "start": 1652809916.916201,
+        "finish": 1652810339.917479,
+        "duration_min_sec": "7:3",
+        "duration_sec_microseconds": 423.001277923584,
+        "nu_rows": 29832,
+        "nu_result": 29832
+    }
+}
+
+2022-05-17 19:58:59
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/mail.info-20220306
+alias: mail_info
+
+2022-05-17 19:59:12
+Location: Synaptic4UParser\Parser\Parser::parseLog(): mail.info-20220306
+alias: mail_info
+result: {
+    "mail.info-20220306": {
+        "start": 1652810339.918185,
+        "finish": 1652810352.132505,
+        "duration_min_sec": "0:12",
+        "duration_sec_microseconds": 12.214319944381714,
+        "nu_rows": 925,
+        "nu_result": 925
+    }
+}
+
+2022-05-17 19:59:12
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/mail.info-20220220
+alias: mail_info
+
+2022-05-17 20:00:21
+Location: Synaptic4UParser\Parser\Parser::parseLog(): mail.info-20220220
+alias: mail_info
+result: {
+    "mail.info-20220220": {
+        "start": 1652810352.132906,
+        "finish": 1652810421.819146,
+        "duration_min_sec": "1:9",
+        "duration_sec_microseconds": 69.68623995780945,
+        "nu_rows": 4564,
+        "nu_result": 4564
+    }
+}
+
+2022-05-17 20:00:21
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/mail.info
+alias: mail_info
+
+2022-05-17 20:00:27
+Location: Synaptic4UParser\Parser\Parser::parseLog(): mail.info
+alias: mail_info
+result: {
+    "mail.info": {
+        "start": 1652810421.819645,
+        "finish": 1652810427.627018,
+        "duration_min_sec": "0:5",
+        "duration_sec_microseconds": 5.807373046875,
+        "nu_rows": 413,
+        "nu_result": 413
+    }
+}
+
+2022-05-17 20:00:27
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/mail.info-20220227
+alias: mail_info
+
+2022-05-17 20:00:38
+Location: Synaptic4UParser\Parser\Parser::parseLog(): mail.info-20220227
+alias: mail_info
+result: {
+    "mail.info-20220227": {
+        "start": 1652810427.627397,
+        "finish": 1652810438.273674,
+        "duration_min_sec": "0:10",
+        "duration_sec_microseconds": 10.646276950836182,
+        "nu_rows": 819,
+        "nu_result": 819
+    }
+}
+
+2022-05-17 20:00:38
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/mail.log-20220227
+alias: mail_log
+
+2022-05-17 20:00:49
+Location: Synaptic4UParser\Parser\Parser::parseLog(): mail.log-20220227
+alias: mail_log
+result: {
+    "mail.log-20220227": {
+        "start": 1652810438.273999,
+        "finish": 1652810449.042395,
+        "duration_min_sec": "0:10",
+        "duration_sec_microseconds": 10.768396139144897,
+        "nu_rows": 819,
+        "nu_result": 819
+    }
+}
+
+2022-05-17 20:00:49
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/mail.log
+alias: mail_log
+
+2022-05-17 20:00:55
+Location: Synaptic4UParser\Parser\Parser::parseLog(): mail.log
+alias: mail_log
+result: {
+    "mail.log": {
+        "start": 1652810449.042772,
+        "finish": 1652810455.677657,
+        "duration_min_sec": "0:6",
+        "duration_sec_microseconds": 6.634884834289551,
+        "nu_rows": 413,
+        "nu_result": 413
+    }
+}
+
+2022-05-17 20:00:55
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/mail.log-20220306
+alias: mail_log
+
+2022-05-17 20:01:11
+Location: Synaptic4UParser\Parser\Parser::parseLog(): mail.log-20220306
+alias: mail_log
+result: {
+    "mail.log-20220306": {
+        "start": 1652810455.678025,
+        "finish": 1652810471.478913,
+        "duration_min_sec": "0:15",
+        "duration_sec_microseconds": 15.800888061523438,
+        "nu_rows": 925,
+        "nu_result": 925
+    }
+}
+
+2022-05-17 20:01:11
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/mail.log-20220220
+alias: mail_log
+
+2022-05-17 20:02:17
+Location: Synaptic4UParser\Parser\Parser::parseLog(): mail.log-20220220
+alias: mail_log
+result: {
+    "mail.log-20220220": {
+        "start": 1652810471.479288,
+        "finish": 1652810537.225177,
+        "duration_min_sec": "1:5",
+        "duration_sec_microseconds": 65.74588894844055,
+        "nu_rows": 4564,
+        "nu_result": 4564
+    }
+}
+
+2022-05-17 20:02:17
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/mail.warn-20220227
+alias: mail_warn
+
+2022-05-17 20:02:17
+Location: Synaptic4UParser\Parser\Parser::parseLog(): mail.warn-20220227
+alias: mail_warn
+result: {
+    "mail.warn-20220227": {
+        "start": 1652810537.225767,
+        "finish": 1652810537.404387,
+        "duration_min_sec": "0:0",
+        "duration_sec_microseconds": 0.1786201000213623,
+        "nu_rows": 14,
+        "nu_result": 14
+    }
+}
+
+2022-05-17 20:02:17
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/mail.warn-20220306
+alias: mail_warn
+
+2022-05-17 20:02:17
+Location: Synaptic4UParser\Parser\Parser::parseLog(): mail.warn-20220306
+alias: mail_warn
+result: {
+    "mail.warn-20220306": {
+        "start": 1652810537.404648,
+        "finish": 1652810537.730103,
+        "duration_min_sec": "0:0",
+        "duration_sec_microseconds": 0.3254549503326416,
+        "nu_rows": 28,
+        "nu_result": 28
+    }
+}
+
+2022-05-17 20:02:17
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/mail.warn
+alias: mail_warn
+
+2022-05-17 20:02:17
+Location: Synaptic4UParser\Parser\Parser::parseLog(): mail.warn
+alias: mail_warn
+result: {
+    "mail.warn": {
+        "start": 1652810537.730453,
+        "finish": 1652810537.887484,
+        "duration_min_sec": "0:0",
+        "duration_sec_microseconds": 0.15703105926513672,
+        "nu_rows": 13,
+        "nu_result": 13
+    }
+}
+
+2022-05-17 20:02:17
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/mail.warn-20220220
+alias: mail_warn
+
+2022-05-17 20:02:23
+Location: Synaptic4UParser\Parser\Parser::parseLog(): mail.warn-20220220
+alias: mail_warn
+result: {
+    "mail.warn-20220220": {
+        "start": 1652810537.887597,
+        "finish": 1652810543.817137,
+        "duration_min_sec": "0:5",
+        "duration_sec_microseconds": 5.929539918899536,
+        "nu_rows": 439,
+        "nu_result": 439
+    }
+}
+
+2022-05-17 20:02:23
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/messages-20220306
+alias: messages
+
+2022-05-17 20:08:41
+Location: Synaptic4UParser\Parser\Parser::parseLog(): messages-20220306
+alias: messages
+result: {
+    "messages-20220306": {
+        "start": 1652810543.817597,
+        "finish": 1652810921.954744,
+        "duration_min_sec": "6:18",
+        "duration_sec_microseconds": 378.13714718818665,
+        "nu_rows": 27942,
+        "nu_result": 27942
+    }
+}
+
+2022-05-17 20:08:41
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/messages
+alias: messages
+
+2022-05-17 20:12:41
+Location: Synaptic4UParser\Parser\Parser::parseLog(): messages
+alias: messages
+result: {
+    "messages": {
+        "start": 1652810921.955336,
+        "finish": 1652811161.82832,
+        "duration_min_sec": "3:59",
+        "duration_sec_microseconds": 239.87298393249512,
+        "nu_rows": 17642,
+        "nu_result": 17642
+    }
+}
+
+2022-05-17 20:12:41
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/messages-20220220
+alias: messages
+
+2022-05-17 20:23:41
+Location: Synaptic4UParser\Parser\Parser::parseLog(): messages-20220220
+alias: messages
+result: {
+    "messages-20220220": {
+        "start": 1652811161.829377,
+        "finish": 1652811821.764029,
+        "duration_min_sec": "10:59",
+        "duration_sec_microseconds": 659.9346520900726,
+        "nu_rows": 36424,
+        "nu_result": 36424
+    }
+}
+
+2022-05-17 20:23:41
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/messages-20220227
+alias: messages
+
+2022-05-17 20:30:07
+Location: Synaptic4UParser\Parser\Parser::parseLog(): messages-20220227
+alias: messages
+result: {
+    "messages-20220227": {
+        "start": 1652811821.765178,
+        "finish": 1652812207.446449,
+        "duration_min_sec": "6:25",
+        "duration_sec_microseconds": 385.6812710762024,
+        "nu_rows": 29692,
+        "nu_result": 29692
+    }
+}
+
+2022-05-17 20:30:07
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/syslog-20220308
+alias: syslog
+
+2022-05-17 20:31:34
+Location: Synaptic4UParser\Parser\Parser::parseLog(): syslog-20220308
+alias: syslog
+result: {
+    "syslog-20220308": {
+        "start": 1652812207.448175,
+        "finish": 1652812294.283922,
+        "duration_min_sec": "1:26",
+        "duration_sec_microseconds": 86.8357470035553,
+        "nu_rows": 5823,
+        "nu_result": 5823
+    }
+}
+
+2022-05-17 20:31:34
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/syslog-20220306
+alias: syslog
+
+2022-05-17 20:32:54
+Location: Synaptic4UParser\Parser\Parser::parseLog(): syslog-20220306
+alias: syslog
+result: {
+    "syslog-20220306": {
+        "start": 1652812294.284757,
+        "finish": 1652812374.947194,
+        "duration_min_sec": "1:20",
+        "duration_sec_microseconds": 80.66243720054626,
+        "nu_rows": 6026,
+        "nu_result": 6026
+    }
+}
+
+2022-05-17 20:32:54
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/syslog-20220307
+alias: syslog
+
+2022-05-17 20:34:12
+Location: Synaptic4UParser\Parser\Parser::parseLog(): syslog-20220307
+alias: syslog
+result: {
+    "syslog-20220307": {
+        "start": 1652812374.948039,
+        "finish": 1652812452.437451,
+        "duration_min_sec": "1:17",
+        "duration_sec_microseconds": 77.4894118309021,
+        "nu_rows": 5907,
+        "nu_result": 5907
+    }
+}
+
+2022-05-17 20:34:12
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/syslog-20220304
+alias: syslog
+
+2022-05-17 20:34:33
+Location: Synaptic4UParser\Parser\Parser::parseLog(): syslog-20220304
+alias: syslog
+result: {
+    "syslog-20220304": {
+        "start": 1652812452.438139,
+        "finish": 1652812473.487607,
+        "duration_min_sec": "0:21",
+        "duration_sec_microseconds": 21.04946804046631,
+        "nu_rows": 1447,
+        "nu_result": 1447
+    }
+}
+
+2022-05-17 20:34:33
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/syslog-20220309
+alias: syslog
+
+2022-05-17 20:36:03
+Location: Synaptic4UParser\Parser\Parser::parseLog(): syslog-20220309
+alias: syslog
+result: {
+    "syslog-20220309": {
+        "start": 1652812473.488224,
+        "finish": 1652812563.330518,
+        "duration_min_sec": "1:29",
+        "duration_sec_microseconds": 89.84229397773743,
+        "nu_rows": 5800,
+        "nu_result": 5800
+    }
+}
+
+2022-05-17 20:36:03
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/syslog-20220303
+alias: syslog
+
+2022-05-17 20:36:57
+Location: Synaptic4UParser\Parser\Parser::parseLog(): syslog-20220303
+alias: syslog
+result: {
+    "syslog-20220303": {
+        "start": 1652812563.331587,
+        "finish": 1652812617.0994,
+        "duration_min_sec": "0:53",
+        "duration_sec_microseconds": 53.767812967300415,
+        "nu_rows": 3773,
+        "nu_result": 3773
+    }
+}
+
+2022-05-17 20:36:57
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/syslog-20220305
+alias: syslog
+
+2022-05-17 20:38:12
+Location: Synaptic4UParser\Parser\Parser::parseLog(): syslog-20220305
+alias: syslog
+result: {
+    "syslog-20220305": {
+        "start": 1652812617.100145,
+        "finish": 1652812692.914884,
+        "duration_min_sec": "1:15",
+        "duration_sec_microseconds": 75.81473898887634,
+        "nu_rows": 5859,
+        "nu_result": 5859
+    }
+}
+
+2022-05-17 20:38:12
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/syslog
+alias: syslog
+
+2022-05-17 20:39:04
+Location: Synaptic4UParser\Parser\Parser::parseLog(): syslog
+alias: syslog
+result: {
+    "syslog": {
+        "start": 1652812692.915846,
+        "finish": 1652812744.887827,
+        "duration_min_sec": "0:51",
+        "duration_sec_microseconds": 51.971980810165405,
+        "nu_rows": 3796,
+        "nu_result": 3796
+    }
+}
+
+2022-05-17 20:39:04
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/ufw.log-20220227
+alias: ufw
+
+2022-05-17 20:45:12
+Location: Synaptic4UParser\Parser\Parser::parseLog(): ufw.log-20220227
+alias: ufw
+result: {
+    "ufw.log-20220227": {
+        "start": 1652812744.888483,
+        "finish": 1652813112.082021,
+        "duration_min_sec": "6:7",
+        "duration_sec_microseconds": 367.19353795051575,
+        "nu_rows": 28962,
+        "nu_result": 28962
+    }
+}
+
+2022-05-17 20:45:12
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/ufw.log
+alias: ufw
+
+2022-05-17 20:49:08
+Location: Synaptic4UParser\Parser\Parser::parseLog(): ufw.log
+alias: ufw
+result: {
+    "ufw.log": {
+        "start": 1652813112.083,
+        "finish": 1652813348.969712,
+        "duration_min_sec": "3:56",
+        "duration_sec_microseconds": 236.88671207427979,
+        "nu_rows": 17634,
+        "nu_result": 17634
+    }
+}
+
+2022-05-17 20:49:08
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/ufw.log-20220306
+alias: ufw
+
+2022-05-17 20:55:06
+Location: Synaptic4UParser\Parser\Parser::parseLog(): ufw.log-20220306
+alias: ufw
+result: {
+    "ufw.log-20220306": {
+        "start": 1652813348.970801,
+        "finish": 1652813706.953858,
+        "duration_min_sec": "5:57",
+        "duration_sec_microseconds": 357.98305678367615,
+        "nu_rows": 26849,
+        "nu_result": 26849
+    }
+}
+
+2022-05-17 20:55:06
+Location: Synaptic4UParser\Parser\Parser::parseLog(): /media/mila/data/linode_logs/20220309_1/log/ufw.log-20220220
+alias: ufw

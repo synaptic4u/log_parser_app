@@ -106,7 +106,6 @@ class Parser
                          && (0 === substr_count($value, '_'.$name))
                          && (0 === substr_count($value, '-'.$name))
                         ) {
-                        // print_r('Name: '.$name.PHP_EOL.' Value: '.$value.PHP_EOL);
                         $reject[$value] = $name;
                         $tree[$key] = null;
                     }
@@ -246,8 +245,15 @@ class Parser
         $blob = str_replace(',', '~~~comma~~~', $blob);
         $blob = str_replace('`', '~~~backtick~~~', $blob);
         $blob = str_replace('\\', '~~~backslash~~~', $blob);
+        $blob = str_replace(';', '~~~semicolon~~~', $blob);
+        $blob = str_replace(':', '~~~colon~~~', $blob);
+        $blob = str_replace('{', '~~~lbraces~~~', $blob);
+        $blob = str_replace('}', '~~~rbraces~~~', $blob);
+        $blob = str_replace('(', '~~~lparenthesis~~~', $blob);
+        $blob = str_replace(')', '~~~rparenthesis~~~', $blob);
+        $blob = str_replace('[', '~~~lbracket~~~', $blob);
 
-        return str_replace('[', '~~~lbracket~~~', str_replace(']', '~~~rbracket~~~', $blob));
+        return str_replace(']', '~~~rbracket~~~', $blob);
     }
 
     /**
@@ -410,6 +416,7 @@ class Parser
         ]);
 
         $start = microtime(true);
+        $result = [];
 
         $rows = $this->file_reader->parseFile($file);
 
@@ -419,13 +426,18 @@ class Parser
 
                 $id = $this->insertDump($blob, $file);
 
+                $finish = microtime(true);
+
                 $result = [
                     substr($file, strripos($file, '/') + 1) => [
                         'id' => $id,
                         'special_log_type' => $path,
                     ],
                 ];
-            } else {
+
+                break;
+            }
+            if (0 === substr_count($file, $path)) {
                 $nu_rows = sizeof($rows);
                 $list = [];
                 $columns = [];
@@ -445,6 +457,8 @@ class Parser
                         'nu_result' => sizeof($list),
                     ],
                 ];
+
+                break;
             }
         }
 
