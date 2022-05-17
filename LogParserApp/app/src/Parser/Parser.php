@@ -80,43 +80,44 @@ class Parser
         $accept = [];
         $reject = [];
         $dump = [];
-        $config_dump = [];
-
-        $names = array_keys($tree);
 
         foreach ($this->config->log_include as $table) {
-            $name = $table->name;
-            $alias = $table->alias;
-            array_walk($names, function ($value, $key, $table) use (&$accept) {
-                if (substr_count($value, $table->name) > 0) {
-                    if (0 === substr_count($value, '_')) {
+            $path = $table->directory.'/'.$table->name;
+
+            foreach ($tree as $key => $value) {
+                if (substr_count($value, $path) > 0) {
+                    if (
+                         (0 === substr_count($value, $path.'_'))
+                         && (0 === substr_count($value, '_'.$path))
+                         && (0 === substr_count($value, '-'.$path))
+                        ) {
                         $accept[$value] = $table->alias;
+                        $tree[$key] = null;
                     }
                 }
-            }, $table);
+            }
         }
 
-        // Result contains false positives - need to clean it after.
         foreach ($this->config->log_exclude as $name) {
-            array_walk($names, function ($value, $key, $name) use (&$reject) {
-                if (substr_count($value, $name) > 0) {
-                    $reject[$value] = $name;
+            foreach ($tree as $key => $value) {
+                if (substr_count($value, '/'.$name) > 0) {
+                    if (
+                         (0 === substr_count($value, $name.'_'))
+                         && (0 === substr_count($value, '_'.$name))
+                         && (0 === substr_count($value, '-'.$name))
+                        ) {
+                        // print_r('Name: '.$name.PHP_EOL.' Value: '.$value.PHP_EOL);
+                        $reject[$value] = $name;
+                        $tree[$key] = null;
+                    }
                 }
-            }, $name);
+            }
         }
 
-        $reject = array_diff_key($reject, $accept);
-
-        // Array of logs that haven't been assigned
-        $dump = array_diff_key($tree, $accept, $reject);
-
-        if (sizeof($this->config->log_dump) > 0) {
-            foreach ($this->config->log_dump as $name) {
-                array_walk($names, function ($value, $key, $name) use (&$config_dump) {
-                    if (substr_count($value, $name) > 0) {
-                        $config_dump[$value] = $name;
-                    }
-                }, $name);
+        foreach ($tree as $key => $value) {
+            if (null !== $value) {
+                $dump[$key] = $value;
+                $tree[$key] = null;
             }
         }
 
@@ -125,18 +126,17 @@ class Parser
             'Accepted log files parsed to own tables' => (sizeof($accept) > 0) ? $accept : 'No files to log',
             'Log files to be rejected:' => (sizeof($reject) > 0) ? $reject : 'No files to log',
             'Log files parsed to log_dump' => (sizeof($dump) > 0) ? $dump : 'No files to log',
+            'Tree' => $tree,
         ]);
 
         (sizeof($dump) > 0) ? $this->tables->createLogDump() : '';
 
         foreach ($accept as $key => $alias) {
-            $result[$key] = $this->parseLog($tree[$key], $alias);
+            $result[$key] = $this->parseLog($key, $alias);
         }
 
-        $dump = array_merge($dump, $config_dump);
-
         foreach ($dump as $key => $name) {
-            $result[$key] = $this->dumpLog($tree[$key]);
+            $result[$key] = $this->dumpLog($name);
         }
 
         return $result;
@@ -159,7 +159,7 @@ class Parser
         $start = microtime(true);
 
         $this->log([
-            'Location' => __METHOD__.'(): '.substr($file, strripos($file, '/') + 1),
+            'Location' => __METHOD__.'(): '.$file,
             'alias' => $alias,
         ]);
 
@@ -406,45 +406,48 @@ class Parser
     protected function dumpLog(string $file): array
     {
         $this->log([
-            'Location' => __METHOD__.'(): '.substr($file, strripos($file, '/') + 1),
+            'Location' => __METHOD__.'(): '.$file,
         ]);
 
         $start = microtime(true);
 
         $rows = $this->file_reader->parseFile($file);
 
-        if ((substr_count($file, 'apache2/audit/www-data') > 0) || (substr_count($file, 'apt/') > 0)) {
-            $blob = $this->blobClean(implode(' ', $rows));
+        foreach ($this->config->log_dump as $path) {
+            if (substr_count($file, $path) > 0) {
+                $blob = $this->blobClean(implode(' ', $rows));
 
-            $id = $this->insertDump($blob, $file);
+                $id = $this->insertDump($blob, $file);
 
-            $result = [
-                substr($file, strripos($file, '/') + 1) => [
-                    'id' => $id,
-                    'special_log_type' => 'audit/www-data',
-                ],
-            ];
-        } else {
-            $nu_rows = sizeof($rows);
-            $list = [];
-            $columns = [];
+                $result = [
+                    substr($file, strripos($file, '/') + 1) => [
+                        'id' => $id,
+                        'special_log_type' => $path,
+                    ],
+                ];
+            } else {
+                $nu_rows = sizeof($rows);
+                $list = [];
+                $columns = [];
 
-            foreach ($rows as $row) {
-                if (strlen($row > 10)) {
-                    $line = $this->blobClean($this->file_reader->stringClear($row));
+                foreach ($rows as $row) {
+                    if (strlen($row > 10)) {
+                        $line = $this->blobClean($this->file_reader->stringClear($row));
 
-                    $id = $this->insertDump($line, $file);
-                    array_push($list, $id);
+                        $id = $this->insertDump($line, $file);
+                        array_push($list, $id);
+                    }
                 }
-            }
 
-            $result = [
-                substr($file, strripos($file, '/') + 1) => [
-                    'nu_rows' => $nu_rows,
-                    'nu_result' => sizeof($list),
-                ],
-            ];
+                $result = [
+                    substr($file, strripos($file, '/') + 1) => [
+                        'nu_rows' => $nu_rows,
+                        'nu_result' => sizeof($list),
+                    ],
+                ];
+            }
         }
+
         $rows = null;
 
         $finish = microtime(true);
