@@ -13,7 +13,9 @@ NOTA BENA!!!
         Decoupling my presentation layer and database layer.
         First just for the CLI & MySQL, once that is purring like a lion...
         then I'll do the rest, but completing the database abstraction
-        and then to the presentation.
+        and then to the presentation. I'll also be giving my error catching a going over,
+        I'll be able to introduce a roll back or re-commit with a mysql already active transaction error.
+        Want to solve the mysql already active transaction error.
             
 
             
