@@ -420,46 +420,56 @@ class Parser
 
         $rows = $this->file_reader->parseFile($file);
 
+        $id = 0;
+        $check = 0;
+        $path_check = null;
+
         foreach ($this->config->log_dump as $path) {
             if (substr_count($file, $path) > 0) {
-                $blob = $this->blobClean(implode(' ', $rows));
-
-                $id = $this->insertDump($blob, $file);
-
-                $finish = microtime(true);
-
-                $result = [
-                    substr($file, strripos($file, '/') + 1) => [
-                        'id' => $id,
-                        'special_log_type' => $path,
-                    ],
-                ];
+                $check = 1;
+                $path_check = $path;
 
                 break;
             }
-            if (0 === substr_count($file, $path)) {
-                $nu_rows = sizeof($rows);
-                $list = [];
-                $columns = [];
+        }
 
-                foreach ($rows as $row) {
-                    if (strlen($row > 10)) {
-                        $line = $this->blobClean($this->file_reader->stringClear($row));
+        if (1 === $check) {
+            $blob = $this->blobClean(implode(' ', $rows));
 
-                        $id = $this->insertDump($line, $file);
-                        array_push($list, $id);
-                    }
+            $id = $this->insertDump($blob, $file);
+
+            // print_r('XXX Path: '.$path_check.' File: '.$file.PHP_EOL);
+            $finish = microtime(true);
+
+            $result = [
+                substr($file, strripos($file, '/') + 1) => [
+                    'id' => $id,
+                    'special_log_type' => $path_check,
+                ],
+            ];
+        }
+
+        if (0 === $check) {
+            $nu_rows = sizeof($rows);
+            $list = [];
+            $columns = [];
+
+            // print_r('File: '.$file.PHP_EOL);
+            foreach ($rows as $row) {
+                if (strlen($row > 10)) {
+                    $line = $this->blobClean($this->file_reader->stringClear($row));
+
+                    $id = $this->insertDump($line, $file);
+                    array_push($list, $id);
                 }
-
-                $result = [
-                    substr($file, strripos($file, '/') + 1) => [
-                        'nu_rows' => $nu_rows,
-                        'nu_result' => sizeof($list),
-                    ],
-                ];
-
-                break;
             }
+
+            $result = [
+                substr($file, strripos($file, '/') + 1) => [
+                    'nu_rows' => $nu_rows,
+                    'nu_result' => sizeof($list),
+                ],
+            ];
         }
 
         $rows = null;
