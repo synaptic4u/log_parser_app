@@ -34,7 +34,11 @@ function getCount()
     }
 
     foreach ($table_list as $table) {
-        $sql = 'select count(*) as num from '.$table.' where 1=?;';
+        $sql = 'select count(logid) as num from '.$table.' where 1=?;';
+        if ('log_dump' == $table) {
+            $sql = 'select count(dumpid) as num from '.$table.' where 1=?;';
+        }
+
         $result = $db->query([1], $sql);
         $table_report[$table] = $result[0]['num'];
     }
