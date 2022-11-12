@@ -2,7 +2,7 @@
 NOTA BENA!!!
 -----------------------------------------------------------------------------------------------
 
-        Link to log files: https://drive.google.com/drive/folders/11OJmwjU3UFvt9EwQoMUmwp6979IQxfZK?usp=share_link
+        Link to log files: https://drive.google.com/drive/folders/1DbjBlJAHV8bEJofzUOoKtcmTbp90FXCj?usp=share_link
         Working on the issue I mentioned previously with false positives.
         I had one file always being written to the wrong place. 
         Changed how I sort to files: included, rejected and log dumped.
