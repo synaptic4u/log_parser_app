@@ -1,0 +1,54 @@
+
+2024-01-24 15:00:46
+Location: Synaptic4UParser\DB\MYSQL::query()
+pdo->errorInfo: [
+    "00000",
+    null,
+    null
+]
+error: PDOException: There is already an active transaction in /home/bongi/Downloads/LogParserApp/app/src/DB/MYSQL.php:46
+Stack trace:
+#0 /home/bongi/Downloads/LogParserApp/app/src/DB/MYSQL.php(46): PDO->beginTransaction()
+#1 /home/bongi/Downloads/LogParserApp/app/src/DB/DB.php(16): Synaptic4UParser\DB\MYSQL->query()
+#2 /home/bongi/Downloads/LogParserApp/app/src/Tables/Models/MYSQL.php(101): Synaptic4UParser\DB\DB->query()
+#3 /home/bongi/Downloads/LogParserApp/app/src/Tables/Tables.php(89): Synaptic4UParser\Tables\Models\MYSQL->createTable()
+#4 /home/bongi/Downloads/LogParserApp/app/src/Structure/Structure.php(92): Synaptic4UParser\Tables\Tables->createTable()
+#5 /home/bongi/Downloads/LogParserApp/app/src/Core/App.php(266): Synaptic4UParser\Structure\Structure->parse()
+#6 /home/bongi/Downloads/LogParserApp/app/src/Core/App.php(163): Synaptic4UParser\Core\App->buildStructure()
+#7 /home/bongi/Downloads/LogParserApp/app/src/Core/App.php(100): Synaptic4UParser\Core\App->cyclePathList()
+#8 /home/bongi/Downloads/LogParserApp/app.php(21): Synaptic4UParser\Core\App->__construct()
+#9 {main}
+stmt: 
+sql: CREATE TABLE IF NOT EXISTS alternatives( `logid` int(11) auto_increment primary key,`update_alternatives` longtext default null, index `update_alternatives`(`update_alternatives`),`loggedon` datetime(6) default null, index `loggedon`(`loggedon`),`log` longtext default null, index `log`(`log`));
+params: []
+
+2024-01-24 15:00:46
+Location: Synaptic4UParser\DB\MYSQL::query()
+pdo->errorInfo: [
+    "00000",
+    null,
+    null
+]
+error: PDOException: There is already an active transaction in /home/bongi/Downloads/LogParserApp/app/src/DB/MYSQL.php:46
+Stack trace:
+#0 /home/bongi/Downloads/LogParserApp/app/src/DB/MYSQL.php(46): PDO->beginTransaction()
+#1 /home/bongi/Downloads/LogParserApp/app/src/DB/DB.php(16): Synaptic4UParser\DB\MYSQL->query()
+#2 /home/bongi/Downloads/LogParserApp/app/src/Tables/Models/MYSQL.php(140): Synaptic4UParser\DB\DB->query()
+#3 /home/bongi/Downloads/LogParserApp/app/src/Tables/Tables.php(102): Synaptic4UParser\Tables\Models\MYSQL->insertLog()
+#4 /home/bongi/Downloads/LogParserApp/app/src/Parser/Parser.php(503): Synaptic4UParser\Tables\Tables->insertLog()
+#5 /home/bongi/Downloads/LogParserApp/app/src/Parser/Parser.php(178): Synaptic4UParser\Parser\Parser->insertLog()
+#6 /home/bongi/Downloads/LogParserApp/app/src/Parser/Parser.php(134): Synaptic4UParser\Parser\Parser->parseLog()
+#7 /home/bongi/Downloads/LogParserApp/app/src/Core/App.php(276): Synaptic4UParser\Parser\Parser->loadLogs()
+#8 /home/bongi/Downloads/LogParserApp/app/src/Core/App.php(167): Synaptic4UParser\Core\App->loadLogs()
+#9 /home/bongi/Downloads/LogParserApp/app/src/Core/App.php(100): Synaptic4UParser\Core\App->cyclePathList()
+#10 /home/bongi/Downloads/LogParserApp/app.php(21): Synaptic4UParser\Core\App->__construct()
+#11 {main}
+stmt: 
+sql: insert into auth( `loggedon`,`server`,`session`,`user`,`command_action`)values(?,?,?,?,?);
+params: [
+    "2024-01-25 12:24:16",
+    "localhost",
+    "systemd-logind446:",
+    "Watching",
+    "system buttons on \/dev\/input\/event3 (Power Button)"
+]
