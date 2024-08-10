@@ -283,7 +283,7 @@ Side Note
 Contact
 -----------------------------------------------------------------------------------------------
 
-    If you have feedback; drop me a mail at emile@synaptic4u.co.za or emiledewilde2@gmail.com
+    If you have feedback; drop me a mail at synaptic4u@gmail.com or emiledewilde2@gmail.com
 
     Thanks
     Emile De Wilde
