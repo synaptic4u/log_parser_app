@@ -2,11 +2,7 @@
 NOTA BENA!!!
 -----------------------------------------------------------------------------------------------
 
-        Link to log files:
-        https://drive.google.com/drive/folders/1DbjBlJAHV8bEJofzUOoKtcmTbp90FXCj?usp=share_link
-        Link to how I planb to update this work:
-        https://docs.google.com/document/d/1A8HEq1WCUubcOholYtcpvFLvD0aFzHSYiLS3WYPS534/edit?usp=sharing
-        
+        Link to log files: https://drive.google.com/drive/folders/1DbjBlJAHV8bEJofzUOoKtcmTbp90FXCj?usp=share_link
         Working on the issue I mentioned previously with false positives.
         I had one file always being written to the wrong place. 
         Changed how I sort to files: included, rejected and log dumped.
@@ -287,7 +283,7 @@ Side Note
 Contact
 -----------------------------------------------------------------------------------------------
 
-    If you have feedback; drop me a mail at synaptic4u@gmail.com or emiledewilde2@gmail.com
+    If you have feedback; drop me a mail at emile@synaptic4u.co.za or emiledewilde2@gmail.com
 
     Thanks
     Emile De Wilde

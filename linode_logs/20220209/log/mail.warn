@@ -1,5 +1,0 @@
-Feb  7 19:18:13 daemon postfix/postfix-script[999]: warning: symlink leaves directory: /etc/postfix/./makedefs.out
-Feb  8 01:49:43 daemon postfix/smtpd[5487]: warning: hostname mx131.getcoopers.com does not resolve to address 212.192.241.131: Name or service not known
-Feb  8 03:25:28 daemon postfix/smtpd[5892]: warning: hostname 199.167.123.148.hvdata.net does not resolve to address 199.167.123.148: Name or service not known
-Feb  8 18:56:52 daemon postfix/smtpd[12519]: warning: hostname 178-73-215-171-static.glesys.net does not resolve to address 178.73.215.171: Name or service not known
-Feb  9 00:46:00 daemon postfix/smtpd[14412]: warning: hostname no-reverse-dns-configured.com does not resolve to address 31.210.20.127

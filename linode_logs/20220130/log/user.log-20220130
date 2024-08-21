@@ -1,9 +1,0 @@
-Jan 25 12:24:17 localhost ec2: 
-Jan 25 12:24:17 localhost ec2: #############################################################
-Jan 25 12:24:17 localhost ec2: -----BEGIN SSH HOST KEY FINGERPRINTS-----
-Jan 25 12:24:17 localhost ec2: 1024 SHA256:XKgFsM8lmZdkI4v+5kZfficCU/naf0afY60yGF1UeSk root@localhost (DSA)
-Jan 25 12:24:17 localhost ec2: 256 SHA256:Wzby5WlGXUzE/6om1jCGBgXr5YTPO0lCW68ex4w8lsE root@localhost (ECDSA)
-Jan 25 12:24:17 localhost ec2: 256 SHA256:dVxhSwhdYq9FCDQn7Z3qQAe0m6i6IfJxFQ20KdZ/QZQ root@localhost (ED25519)
-Jan 25 12:24:17 localhost ec2: 2048 SHA256:wj83hPttTVgaHpI44c8wJjU79xBB8PMUjLiXIAHeAHw root@localhost (RSA)
-Jan 25 12:24:17 localhost ec2: -----END SSH HOST KEY FINGERPRINTS-----
-Jan 25 12:24:17 localhost ec2: #############################################################

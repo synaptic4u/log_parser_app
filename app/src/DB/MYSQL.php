@@ -19,15 +19,10 @@ class MYSQL implements IDBInterface
     public function __construct()
     {
         try {
-            $filepath = dirname(__FILE__, 4).'/db_config.json';
+            $filepath = dirname(__FILE__, 4).'/db_mysql_config.json';
 
             //  Returns associative array.
             $this->conn = json_decode(file_get_contents($filepath), true);
-
-            $this->log([
-                'Location' => __METHOD__.'()',
-                'conn' => $this->conn,
-            ]);
 
             $dsn = 'mysql:host='.$this->conn['host'].';dbname='.$this->conn['dbname'];
 
@@ -36,7 +31,6 @@ class MYSQL implements IDBInterface
         } catch (Exception $e) {
             $this->error([
                 'Location' => __METHOD__.'()',
-                'conn' => $this->conn['host'],
                 'error' => $e->__toString(),
             ]);
 

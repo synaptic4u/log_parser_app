@@ -1,2 +1,0 @@
-[Wed Feb 09 00:00:03.237268 2022] [mpm_prefork:notice] [pid 1003] AH00163: Apache/2.4.38 (Debian) OpenSSL/1.1.1d configured -- resuming normal operations
-[Wed Feb 09 00:00:03.237305 2022] [core:notice] [pid 1003] AH00094: Command line: '/usr/sbin/apache2'

@@ -1,0 +1,7 @@
+1.  Need to add in config.json: specialised log_dump files to be parsed as whole file.
+    Having it hard coded is wrong.
+
+2.  Work through whole application and comment.
+
+3.  Look at behavioural design patterns and continue working to SOLID
+
