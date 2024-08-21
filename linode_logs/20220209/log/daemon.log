@@ -1,0 +1,691 @@
+Feb  7 18:53:28 daemon systemd[1]: Reloading The Apache HTTP Server.
+Feb  7 18:53:28 daemon systemd[1]: Reloaded The Apache HTTP Server.
+Feb  7 19:09:01 daemon systemd[1]: Starting Clean php session files...
+Feb  7 19:09:02 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  7 19:09:02 daemon systemd[1]: Started Clean php session files.
+Feb  7 19:12:24 daemon systemd[1]: session-c1.scope: Succeeded.
+Feb  7 19:12:34 daemon systemd[1]: Stopping User Manager for UID 0...
+Feb  7 19:12:34 daemon systemd[1909]: Stopped target Default.
+Feb  7 19:12:34 daemon systemd[1909]: Stopped target Basic System.
+Feb  7 19:12:34 daemon systemd[1909]: Stopped target Timers.
+Feb  7 19:12:34 daemon systemd[1909]: Stopped target Paths.
+Feb  7 19:12:34 daemon systemd[1909]: Stopped target Sockets.
+Feb  7 19:12:34 daemon systemd[1909]: gpg-agent-ssh.socket: Succeeded.
+Feb  7 19:12:34 daemon systemd[1909]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Feb  7 19:12:34 daemon systemd[1909]: gpg-agent-browser.socket: Succeeded.
+Feb  7 19:12:34 daemon systemd[1909]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Feb  7 19:12:34 daemon systemd[1909]: gpg-agent-extra.socket: Succeeded.
+Feb  7 19:12:34 daemon systemd[1909]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Feb  7 19:12:34 daemon systemd[1909]: dirmngr.socket: Succeeded.
+Feb  7 19:12:34 daemon systemd[1909]: Closed GnuPG network certificate management daemon.
+Feb  7 19:12:34 daemon systemd[1909]: gpg-agent.socket: Succeeded.
+Feb  7 19:12:34 daemon systemd[1909]: Closed GnuPG cryptographic agent and passphrase cache.
+Feb  7 19:12:34 daemon systemd[1909]: Reached target Shutdown.
+Feb  7 19:12:34 daemon systemd[1909]: systemd-exit.service: Succeeded.
+Feb  7 19:12:34 daemon systemd[1909]: Started Exit the Session.
+Feb  7 19:12:34 daemon systemd[1909]: Reached target Exit the Session.
+Feb  7 19:12:34 daemon systemd[1]: user@0.service: Succeeded.
+Feb  7 19:12:34 daemon systemd[1]: Stopped User Manager for UID 0.
+Feb  7 19:12:34 daemon systemd[1]: Stopping User Runtime Directory /run/user/0...
+Feb  7 19:12:34 daemon systemd[1]: run-user-0.mount: Succeeded.
+Feb  7 19:12:34 daemon systemd[1]: user-runtime-dir@0.service: Succeeded.
+Feb  7 19:12:34 daemon systemd[1]: Stopped User Runtime Directory /run/user/0.
+Feb  7 19:12:34 daemon systemd[1]: Removed slice User Slice of UID 0.
+Feb  7 19:17:02 daemon dbus-daemon[489]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.125' (uid=0 pid=2990 comm="/usr/bin/gdbus call --system --dest org.freedeskto")
+Feb  7 19:17:02 daemon systemd[1]: Starting PackageKit Daemon...
+Feb  7 19:17:02 daemon PackageKit: daemon start
+Feb  7 19:17:02 daemon dbus-daemon[489]: [system] Activating via systemd: service name='org.freedesktop.PolicyKit1' unit='polkit.service' requested by ':1.126' (uid=0 pid=2993 comm="/usr/lib/packagekit/packagekitd ")
+Feb  7 19:17:02 daemon systemd[1]: Starting Authorization Manager...
+Feb  7 19:17:02 daemon polkitd[2997]: started daemon version 0.105 using authority implementation `local' version `0.105'
+Feb  7 19:17:02 daemon dbus-daemon[489]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+Feb  7 19:17:02 daemon systemd[1]: Started Authorization Manager.
+Feb  7 19:17:02 daemon dbus-daemon[489]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Feb  7 19:17:02 daemon systemd[1]: Started PackageKit Daemon.
+Feb  7 19:17:41 daemon systemd[1]: unattended-upgrades.service: Succeeded.
+Feb  7 19:17:41 daemon systemd[1]: Stopped Unattended Upgrades Shutdown.
+Feb  7 19:17:41 daemon systemd[1]: Stopped target Timers.
+Feb  7 19:17:41 daemon systemd[1]: snap.certbot.renew.timer: Succeeded.
+Feb  7 19:17:41 daemon systemd[1]: Stopped Timer renew for snap application certbot.renew.
+Feb  7 19:17:41 daemon systemd[1]: Stopped target Multi-User System.
+Feb  7 19:17:41 daemon systemd[1]: systemd-tmpfiles-clean.timer: Succeeded.
+Feb  7 19:17:41 daemon systemd[1]: Stopped Daily Cleanup of Temporary Directories.
+Feb  7 19:17:41 daemon systemd[1]: snapd.seeded.service: Succeeded.
+Feb  7 19:17:41 daemon systemd[1]: Stopped Wait until snapd is fully seeded.
+Feb  7 19:17:41 daemon systemd[1]: Stopping MariaDB 10.3.31 database server...
+Feb  7 19:17:41 daemon systemd[1]: postfix.service: Succeeded.
+Feb  7 19:17:41 daemon systemd[1]: Stopped Postfix Mail Transport Agent.
+Feb  7 19:17:41 daemon systemd[1]: logrotate.timer: Succeeded.
+Feb  7 19:17:41 daemon systemd[1]: Stopped Daily rotation of log files.
+Feb  7 19:17:41 daemon systemd[1]: man-db.timer: Succeeded.
+Feb  7 19:17:41 daemon systemd[1]: Stopped Daily man-db regeneration.
+Feb  7 19:17:41 daemon systemd[1]: Stopping Postfix Mail Transport Agent (instance -)...
+Feb  7 19:17:41 daemon systemd[1]: Stopped target Login Prompts.
+Feb  7 19:17:41 daemon systemd[1]: Stopping Getty on tty1...
+Feb  7 19:17:41 daemon systemd[1]: Stopping PackageKit Daemon...
+Feb  7 19:17:41 daemon systemd[1]: Stopping The Apache HTTP Server...
+Feb  7 19:17:41 daemon systemd[1]: Stopping LSB: Start and stop OSSEC HIDS...
+Feb  7 19:17:41 daemon systemd[1]: apt-daily-upgrade.timer: Succeeded.
+Feb  7 19:17:41 daemon systemd[1]: Stopped Daily apt upgrade and clean activities.
+Feb  7 19:17:41 daemon systemd[1]: Stopping Snappy daemon...
+Feb  7 19:17:41 daemon systemd[1]: Stopping Serial Getty on ttyS0...
+Feb  7 19:17:41 daemon systemd[1]: phpsessionclean.timer: Succeeded.
+Feb  7 19:17:41 daemon systemd[1]: Stopped Clean PHP session files every 30 mins.
+Feb  7 19:17:41 daemon systemd[1]: Stopping Authorization Manager...
+Feb  7 19:18:09 daemon systemd-sysctl[254]: Couldn't write '1' to 'net/ipv6/conf/tun0/disable_ipv6', ignoring: No such file or directory
+Feb  7 19:18:09 daemon systemd[1]: Starting Flush Journal to Persistent Storage...
+Feb  7 19:18:09 daemon systemd[1]: Started Create System Users.
+Feb  7 19:18:09 daemon systemd[1]: Starting Create Static Device Nodes in /dev...
+Feb  7 19:18:09 daemon systemd-fsck[246]: linode-root: clean, 75456/1505280 files, 1034429/6400000 blocks
+Feb  7 19:18:09 daemon systemd[1]: Started Set the console keyboard layout.
+Feb  7 19:18:09 daemon systemd-tmpfiles[279]: [/usr/lib/tmpfiles.d/fail2ban-tmpfiles.conf:1] Line references path below legacy directory /var/run/, updating /var/run/fail2ban → /run/fail2ban; please update the tmpfiles.d/ drop-in file accordingly.
+Feb  7 19:18:09 daemon systemd[1]: Started Create Static Device Nodes in /dev.
+Feb  7 19:18:09 daemon systemd[1]: Reached target Local File Systems (Pre).
+Feb  7 19:18:09 daemon systemd[1]: Mounting Mount unit for core20, revision 1328...
+Feb  7 19:18:09 daemon systemd[1]: Mounting Mount unit for core, revision 12603...
+Feb  7 19:18:09 daemon systemd[1]: Mounting Mount unit for core20, revision 1270...
+Feb  7 19:18:09 daemon systemd[1]: Mounting Mount unit for certbot, revision 1670...
+Feb  7 19:18:09 daemon systemd[1]: Starting udev Kernel Device Manager...
+Feb  7 19:18:09 daemon systemd[1]: Started Flush Journal to Persistent Storage.
+Feb  7 19:18:09 daemon systemd-udevd[293]: Network interface NamePolicy= disabled on kernel command line, ignoring.
+Feb  7 19:18:09 daemon systemd[1]: Started udev Kernel Device Manager.
+Feb  7 19:18:09 daemon systemd[1]: Mounted Mount unit for core20, revision 1328.
+Feb  7 19:18:09 daemon systemd[1]: Mounted Mount unit for core20, revision 1270.
+Feb  7 19:18:09 daemon systemd[1]: Mounted Mount unit for certbot, revision 1670.
+Feb  7 19:18:09 daemon systemd[1]: Mounted Mount unit for core, revision 12603.
+Feb  7 19:18:09 daemon systemd[1]: Reached target Local File Systems.
+Feb  7 19:18:09 daemon systemd[1]: Starting Create Volatile Files and Directories...
+Feb  7 19:18:09 daemon systemd[1]: Starting Set console font and keymap...
+Feb  7 19:18:09 daemon systemd[1]: Condition check resulted in Commit a transient machine-id on disk being skipped.
+Feb  7 19:18:09 daemon systemd[1]: Starting Load AppArmor profiles...
+Feb  7 19:18:09 daemon systemd-tmpfiles[330]: [/usr/lib/tmpfiles.d/fail2ban-tmpfiles.conf:1] Line references path below legacy directory /var/run/, updating /var/run/fail2ban → /run/fail2ban; please update the tmpfiles.d/ drop-in file accordingly.
+Feb  7 19:18:09 daemon systemd[1]: Started Set console font and keymap.
+Feb  7 19:18:09 daemon systemd[1]: Started Create Volatile Files and Directories.
+Feb  7 19:18:09 daemon systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Feb  7 19:18:09 daemon systemd[1]: Starting Network Time Synchronization...
+Feb  7 19:18:09 daemon systemd-udevd[318]: Using default interface naming scheme 'v240'.
+Feb  7 19:18:09 daemon systemd[1]: Found device /dev/ttyS0.
+Feb  7 19:18:09 daemon apparmor.systemd[336]: Restarting AppArmor
+Feb  7 19:18:09 daemon apparmor.systemd[336]: Reloading AppArmor profiles
+Feb  7 19:18:09 daemon systemd[1]: Started Update UTMP about System Boot/Shutdown.
+Feb  7 19:18:09 daemon systemd[1]: Found device QEMU_HARDDISK.
+Feb  7 19:18:09 daemon systemd[1]: Started Network Time Synchronization.
+Feb  7 19:18:09 daemon systemd[1]: Condition check resulted in Virtio network device being skipped.
+Feb  7 19:18:09 daemon systemd[1]: Reached target System Time Synchronized.
+Feb  7 19:18:09 daemon systemd[1]: Activating swap /dev/sdb...
+Feb  7 19:18:09 daemon systemd[1]: Started Load AppArmor profiles.
+Feb  7 19:18:09 daemon systemd[1]: Started Entropy daemon using the HAVEGE algorithm.
+Feb  7 19:18:09 daemon systemd[1]: Started ifup for eth0.
+Feb  7 19:18:09 daemon systemd[1]: Activated swap /dev/sdb.
+Feb  7 19:18:09 daemon systemd[1]: Reached target Swap.
+Feb  7 19:18:09 daemon systemd[1]: Reached target System Initialization.
+Feb  7 19:18:09 daemon systemd[1]: Started Daily Cleanup of Temporary Directories.
+Feb  7 19:18:09 daemon systemd[1]: Started Timer renew for snap application certbot.renew.
+Feb  7 19:18:09 daemon systemd[1]: Listening on D-Bus System Message Bus Socket.
+Feb  7 19:18:09 daemon systemd[1]: Started Daily man-db regeneration.
+Feb  7 19:18:09 daemon systemd[1]: Started Daily rotation of log files.
+Feb  7 19:18:09 daemon systemd[1]: Started Daily apt download activities.
+Feb  7 19:18:09 daemon systemd[1]: Started Daily apt upgrade and clean activities.
+Feb  7 19:18:09 daemon systemd[1]: Started Clean PHP session files every 30 mins.
+Feb  7 19:18:09 daemon systemd[1]: Reached target Timers.
+Feb  7 19:18:09 daemon systemd[1]: Starting Socket activation for snappy daemon.
+Feb  7 19:18:09 daemon systemd[1]: Listening on Socket activation for snappy daemon.
+Feb  7 19:18:09 daemon systemd[1]: Reached target Sockets.
+Feb  7 19:18:09 daemon systemd[1]: Reached target Basic System.
+Feb  7 19:18:09 daemon systemd[1]: Starting System Logging Service...
+Feb  7 19:18:09 daemon systemd[1]: Starting Login Service...
+Feb  7 19:18:09 daemon systemd[1]: Started D-Bus System Message Bus.
+Feb  7 19:18:09 daemon systemd[1]: Condition check resulted in getty on tty2-tty6 if dbus and logind are not available being skipped.
+Feb  7 19:18:09 daemon systemd[1]: Started Regular background program processing daemon.
+Feb  7 19:18:09 daemon systemd[1]: Starting Resets System Activity Data Collector...
+Feb  7 19:18:09 daemon systemd[1]: Starting Snappy daemon...
+Feb  7 19:18:09 daemon systemd[1]: Started System Logging Service.
+Feb  7 19:18:09 daemon systemd[1]: Started Resets System Activity Data Collector.
+Feb  7 19:18:09 daemon systemd[1]: Started Login Service.
+Feb  7 19:18:09 daemon systemd[1]: Started Uncomplicated firewall.
+Feb  7 19:18:09 daemon snapd[486]: AppArmor status: apparmor is enabled but some kernel features are missing: dbus, network
+Feb  7 19:18:09 daemon sh[451]: eth0=eth0
+Feb  7 19:18:10 daemon haveged[450]: haveged: ver: 1.9.1; arch: x86; vend: ; build: (gcc 8.3.0 ITV); collect: 128K
+Feb  7 19:18:10 daemon haveged[450]: haveged: cpu: (VC); data: 64K (V); inst: 64K (V); idx: 39/40; sz: 52825/52825
+Feb  7 19:18:10 daemon haveged[450]: haveged: tot tests(BA8): A:1/1 B:1/1 continuous tests(B):  last entropy estimate 8.0037
+Feb  7 19:18:10 daemon haveged[450]: haveged: fills: 0, generated: 0
+Feb  7 19:18:10 daemon systemd[1]: Started Helper to synchronize boot up for ifupdown.
+Feb  7 19:18:10 daemon systemd[1]: Starting Raise network interfaces...
+Feb  7 19:18:10 daemon systemd[1]: Started Raise network interfaces.
+Feb  7 19:18:10 daemon systemd[1]: Reached target Network.
+Feb  7 19:18:10 daemon systemd[1]: Condition check resulted in fast remote file copy program daemon being skipped.
+Feb  7 19:18:10 daemon systemd[1]: Starting Fail2Ban Service...
+Feb  7 19:18:10 daemon systemd[1]: Starting OpenBSD Secure Shell server...
+Feb  7 19:18:10 daemon systemd[1]: Starting MariaDB 10.3.31 database server...
+Feb  7 19:18:10 daemon systemd[1]: Starting Permit User Sessions...
+Feb  7 19:18:10 daemon systemd[1]: Started Unattended Upgrades Shutdown.
+Feb  7 19:18:10 daemon systemd[1]: Starting The Apache HTTP Server...
+Feb  7 19:18:10 daemon systemd[1]: Reached target Network is Online.
+Feb  7 19:18:10 daemon systemd[1]: Starting Postfix Mail Transport Agent (instance -)...
+Feb  7 19:18:10 daemon systemd[1]: Starting LSB: Start and stop OSSEC HIDS...
+Feb  7 19:18:10 daemon systemd[1]: Started Fail2Ban Service.
+Feb  7 19:18:10 daemon systemd[1]: Started Permit User Sessions.
+Feb  7 19:18:10 daemon systemd[1]: Started Serial Getty on ttyS0.
+Feb  7 19:18:10 daemon ossec[594]: Starting OSSEC HIDS v3.6.0...
+Feb  7 19:18:10 daemon systemd[1]: Started Getty on tty1.
+Feb  7 19:18:11 daemon systemd[1]: Reached target Login Prompts.
+Feb  7 19:18:11 daemon systemd[1]: Started OpenBSD Secure Shell server.
+Feb  7 19:18:11 daemon snapd[486]: AppArmor status: apparmor is enabled but some kernel features are missing: dbus, network
+Feb  7 19:18:11 daemon mysqld[694]: 2022-02-07 19:18:11 0 [Note] /usr/sbin/mysqld (mysqld 10.3.31-MariaDB-0+deb10u1) starting as process 694 ...
+Feb  7 19:18:11 daemon snapd[486]: daemon.go:246: started snapd/2.54.2 (series 16; classic; devmode) debian/10 (amd64) linux/4.19.0-18-amd64.
+Feb  7 19:18:11 daemon systemd[1]: tmp-sanity\x2dmountpoint\x2d116233736.mount: Succeeded.
+Feb  7 19:18:11 daemon snapd[486]: daemon.go:339: adjusting startup timeout by 45s (pessimistic estimate of 30s plus 5s per snap)
+Feb  7 19:18:12 daemon systemd[1]: Started Snappy daemon.
+Feb  7 19:18:12 daemon dbus-daemon[475]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.8' (uid=0 pid=486 comm="/usr/lib/snapd/snapd ")
+Feb  7 19:18:12 daemon systemd[1]: Starting Time & Date Service...
+Feb  7 19:18:12 daemon systemd[1]: Starting Wait until snapd is fully seeded...
+Feb  7 19:18:12 daemon dbus-daemon[475]: [system] Successfully activated service 'org.freedesktop.timedate1'
+Feb  7 19:18:12 daemon systemd[1]: Started Time & Date Service.
+Feb  7 19:18:12 daemon systemd[1]: Reloading.
+Feb  7 19:18:12 daemon fail2ban-server[595]: Server ready
+Feb  7 19:18:12 daemon systemd[1]: /lib/systemd/system/fail2ban.service:12: PIDFile= references path below legacy directory /var/run/, updating /var/run/fail2ban/fail2ban.pid → /run/fail2ban/fail2ban.pid; please update the unit file accordingly.
+Feb  7 19:18:12 daemon systemd[1]: serial-getty@ttyS0.service: Current command vanished from the unit file, execution of the command list won't be resumed.
+Feb  7 19:18:12 daemon systemd[1]: getty@tty1.service: Current command vanished from the unit file, execution of the command list won't be resumed.
+Feb  7 19:18:12 daemon ossec[594]: Started ossec-maild...
+Feb  7 19:18:12 daemon ossec[594]: Started ossec-execd...
+Feb  7 19:18:12 daemon ossec[594]: Started ossec-analysisd...
+Feb  7 19:18:12 daemon ossec[594]: Started ossec-logcollector...
+Feb  7 19:18:13 daemon ossec[594]: Started ossec-remoted...
+Feb  7 19:18:13 daemon systemd[1]: Started MariaDB 10.3.31 database server.
+Feb  7 19:18:13 daemon /etc/mysql/debian-start[933]: Upgrading MySQL tables if necessary.
+Feb  7 19:18:13 daemon /etc/mysql/debian-start[936]: /usr/bin/mysql_upgrade: the '--basedir' option is always ignored
+Feb  7 19:18:13 daemon /etc/mysql/debian-start[936]: Looking for 'mysql' as: /usr/bin/mysql
+Feb  7 19:18:13 daemon /etc/mysql/debian-start[936]: Looking for 'mysqlcheck' as: /usr/bin/mysqlcheck
+Feb  7 19:18:13 daemon /etc/mysql/debian-start[936]: This installation of MySQL is already upgraded to 10.3.31-MariaDB, use --force if you still need to run mysql_upgrade
+Feb  7 19:18:13 daemon /etc/mysql/debian-start[960]: Checking for insecure root accounts.
+Feb  7 19:18:13 daemon /etc/mysql/debian-start[969]: Triggering myisam-recover for all MyISAM tables and aria-recover for all Aria tables
+Feb  7 19:18:13 daemon systemd[1]: Started The Apache HTTP Server.
+Feb  7 19:18:13 daemon systemd[1]: Started Postfix Mail Transport Agent (instance -).
+Feb  7 19:18:13 daemon systemd[1]: Starting Postfix Mail Transport Agent...
+Feb  7 19:18:13 daemon systemd[1]: Started Postfix Mail Transport Agent.
+Feb  7 19:18:14 daemon ossec[594]: Started ossec-syscheckd...
+Feb  7 19:18:14 daemon ossec[594]: Started ossec-monitord...
+Feb  7 19:18:14 daemon systemd[1]: Started Wait until snapd is fully seeded.
+Feb  7 19:18:16 daemon ossec[594]: Completed.
+Feb  7 19:18:16 daemon systemd[1]: Started LSB: Start and stop OSSEC HIDS.
+Feb  7 19:18:16 daemon systemd[1]: Reached target Multi-User System.
+Feb  7 19:18:16 daemon systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Feb  7 19:18:16 daemon systemd[1]: systemd-update-utmp-runlevel.service: Succeeded.
+Feb  7 19:18:16 daemon systemd[1]: Started Update UTMP about System Runlevel Changes.
+Feb  7 19:18:16 daemon systemd[1]: Startup finished in 1.623s (kernel) + 7.955s (userspace) = 9.579s.
+Feb  7 19:18:38 daemon systemd[1]: systemd-fsckd.service: Succeeded.
+Feb  7 19:18:43 daemon systemd[1]: systemd-timedated.service: Succeeded.
+Feb  7 19:23:13 daemon dbus-daemon[475]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.8' (uid=0 pid=486 comm="/usr/lib/snapd/snapd ")
+Feb  7 19:23:13 daemon systemd[1]: Starting Time & Date Service...
+Feb  7 19:23:13 daemon dbus-daemon[475]: [system] Successfully activated service 'org.freedesktop.timedate1'
+Feb  7 19:23:13 daemon systemd[1]: Started Time & Date Service.
+Feb  7 19:23:43 daemon systemd[1]: systemd-timedated.service: Succeeded.
+Feb  7 19:28:12 daemon snapd[486]: devicemgr.go:1761: no NTP sync after 10m0s, trying auto-refresh anyway
+Feb  7 19:33:11 daemon systemd[1]: Starting Cleanup of Temporary Directories...
+Feb  7 19:33:11 daemon systemd-tmpfiles[1284]: [/usr/lib/tmpfiles.d/fail2ban-tmpfiles.conf:1] Line references path below legacy directory /var/run/, updating /var/run/fail2ban → /run/fail2ban; please update the tmpfiles.d/ drop-in file accordingly.
+Feb  7 19:33:11 daemon systemd[1]: systemd-tmpfiles-clean.service: Succeeded.
+Feb  7 19:33:11 daemon systemd[1]: Started Cleanup of Temporary Directories.
+Feb  7 19:36:44 daemon systemd[1]: Stopping Fail2Ban Service...
+Feb  7 19:36:45 daemon fail2ban-client[1471]: Shutdown successful
+Feb  7 19:36:45 daemon systemd[1]: fail2ban.service: Main process exited, code=killed, status=15/TERM
+Feb  7 19:36:45 daemon systemd[1]: fail2ban.service: Succeeded.
+Feb  7 19:36:45 daemon systemd[1]: Stopped Fail2Ban Service.
+Feb  7 19:36:45 daemon systemd[1]: Starting Fail2Ban Service...
+Feb  7 19:36:45 daemon systemd[1]: Started Fail2Ban Service.
+Feb  7 19:36:46 daemon fail2ban-server[1587]:  Found no accessible config files for 'action.d/postfix-whois' under /etc/fail2ban
+Feb  7 19:36:46 daemon fail2ban-server[1587]:  Unable to read action 'postfix-whois'
+Feb  7 19:36:46 daemon fail2ban-server[1587]:  Errors in jail 'sshd'. Skipping...
+Feb  7 19:36:46 daemon fail2ban-server[1587]:  Unable to read action 'postfix-whois'
+Feb  7 19:36:46 daemon fail2ban-server[1587]:  Errors in jail 'apache-auth'. Skipping...
+Feb  7 19:36:46 daemon fail2ban-server[1587]:  Unable to read action 'postfix-whois'
+Feb  7 19:36:46 daemon fail2ban-server[1587]:  Errors in jail 'apache-badbots'. Skipping...
+Feb  7 19:36:46 daemon fail2ban-server[1587]:  Unable to read action 'postfix-whois'
+Feb  7 19:36:46 daemon fail2ban-server[1587]:  Errors in jail 'apache-botsearch'. Skipping...
+Feb  7 19:36:46 daemon fail2ban-server[1587]:  Unable to read action 'postfix-whois'
+Feb  7 19:36:46 daemon fail2ban-server[1587]:  Errors in jail 'apache-fakegooglebot'. Skipping...
+Feb  7 19:36:46 daemon fail2ban-server[1587]:  Unable to read action 'postfix-whois'
+Feb  7 19:36:46 daemon fail2ban-server[1587]:  Errors in jail 'apache-modsecurity'. Skipping...
+Feb  7 19:36:46 daemon fail2ban-server[1587]:  Async configuration of server failed
+Feb  7 19:36:46 daemon systemd[1]: fail2ban.service: Main process exited, code=exited, status=255/EXCEPTION
+Feb  7 19:36:46 daemon systemd[1]: fail2ban.service: Failed with result 'exit-code'.
+Feb  7 19:38:36 daemon systemd[1]: Starting Fail2Ban Service...
+Feb  7 19:38:36 daemon systemd[1]: Started Fail2Ban Service.
+Feb  7 19:38:36 daemon fail2ban-server[1711]: Server ready
+Feb  7 19:39:01 daemon systemd[1]: Starting Clean php session files...
+Feb  7 19:39:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  7 19:39:01 daemon systemd[1]: Started Clean php session files.
+Feb  7 19:40:55 daemon systemd[1]: Starting Daily apt download activities...
+Feb  7 19:40:55 daemon systemd[1]: apt-daily.service: Succeeded.
+Feb  7 19:40:55 daemon systemd[1]: Started Daily apt download activities.
+Feb  7 19:44:43 daemon systemd[1]: Stopping Fail2Ban Service...
+Feb  7 19:44:45 daemon fail2ban-client[2390]: Shutdown successful
+Feb  7 19:44:45 daemon systemd[1]: fail2ban.service: Succeeded.
+Feb  7 19:44:45 daemon systemd[1]: Stopped Fail2Ban Service.
+Feb  7 19:44:45 daemon systemd[1]: Starting Fail2Ban Service...
+Feb  7 19:44:45 daemon systemd[1]: Started Fail2Ban Service.
+Feb  7 19:44:45 daemon fail2ban-server[2688]: Server ready
+Feb  7 20:09:01 daemon systemd[1]: Starting Clean php session files...
+Feb  7 20:09:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  7 20:09:01 daemon systemd[1]: Started Clean php session files.
+Feb  7 20:37:25 daemon dbus-daemon[475]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.134' (uid=0 pid=4029 comm="/usr/bin/gdbus call --system --dest org.freedeskto")
+Feb  7 20:37:25 daemon systemd[1]: Starting PackageKit Daemon...
+Feb  7 20:37:25 daemon PackageKit: daemon start
+Feb  7 20:37:25 daemon dbus-daemon[475]: [system] Activating via systemd: service name='org.freedesktop.PolicyKit1' unit='polkit.service' requested by ':1.135' (uid=0 pid=4032 comm="/usr/lib/packagekit/packagekitd ")
+Feb  7 20:37:25 daemon systemd[1]: Starting Authorization Manager...
+Feb  7 20:37:25 daemon polkitd[4036]: started daemon version 0.105 using authority implementation `local' version `0.105'
+Feb  7 20:37:25 daemon dbus-daemon[475]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+Feb  7 20:37:25 daemon systemd[1]: Started Authorization Manager.
+Feb  7 20:37:25 daemon dbus-daemon[475]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Feb  7 20:37:25 daemon systemd[1]: Started PackageKit Daemon.
+Feb  7 20:39:01 daemon systemd[1]: Starting Clean php session files...
+Feb  7 20:39:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  7 20:39:01 daemon systemd[1]: Started Clean php session files.
+Feb  7 20:42:30 daemon PackageKit: daemon quit
+Feb  7 20:42:30 daemon systemd[1]: packagekit.service: Main process exited, code=killed, status=15/TERM
+Feb  7 20:42:30 daemon systemd[1]: packagekit.service: Succeeded.
+Feb  7 21:09:01 daemon systemd[1]: Starting Clean php session files...
+Feb  7 21:09:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  7 21:09:01 daemon systemd[1]: Started Clean php session files.
+Feb  7 21:39:01 daemon systemd[1]: Starting Clean php session files...
+Feb  7 21:39:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  7 21:39:01 daemon systemd[1]: Started Clean php session files.
+Feb  7 22:09:01 daemon systemd[1]: Starting Clean php session files...
+Feb  7 22:09:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  7 22:09:01 daemon systemd[1]: Started Clean php session files.
+Feb  7 22:39:01 daemon systemd[1]: Starting Clean php session files...
+Feb  7 22:39:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  7 22:39:01 daemon systemd[1]: Started Clean php session files.
+Feb  7 23:09:01 daemon systemd[1]: Starting Clean php session files...
+Feb  7 23:09:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  7 23:09:01 daemon systemd[1]: Started Clean php session files.
+Feb  7 23:39:01 daemon systemd[1]: Starting Clean php session files...
+Feb  7 23:39:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  7 23:39:01 daemon systemd[1]: Started Clean php session files.
+Feb  8 00:00:01 daemon systemd[1]: Starting Rotate log files...
+Feb  8 00:00:01 daemon systemd[1]: Starting Daily man-db regeneration...
+Feb  8 00:00:01 daemon systemd[1]: Reloading The Apache HTTP Server.
+Feb  8 00:00:02 daemon systemd[1]: Reloaded The Apache HTTP Server.
+Feb  8 00:00:02 daemon systemd[1]: logrotate.service: Succeeded.
+Feb  8 00:00:02 daemon systemd[1]: Started Rotate log files.
+Feb  8 00:00:02 daemon systemd[1]: man-db.service: Succeeded.
+Feb  8 00:00:02 daemon systemd[1]: Started Daily man-db regeneration.
+Feb  8 00:09:01 daemon systemd[1]: Starting Clean php session files...
+Feb  8 00:09:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  8 00:09:01 daemon systemd[1]: Started Clean php session files.
+Feb  8 00:39:01 daemon systemd[1]: Starting Clean php session files...
+Feb  8 00:39:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  8 00:39:01 daemon systemd[1]: Started Clean php session files.
+Feb  8 01:09:01 daemon systemd[1]: Starting Clean php session files...
+Feb  8 01:09:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  8 01:09:01 daemon systemd[1]: Started Clean php session files.
+Feb  8 01:39:01 daemon systemd[1]: Starting Clean php session files...
+Feb  8 01:39:02 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  8 01:39:02 daemon systemd[1]: Started Clean php session files.
+Feb  8 01:58:12 daemon snapd[486]: storehelpers.go:721: cannot refresh: snap has no updates available: "certbot", "core", "core20"
+Feb  8 01:58:12 daemon snapd[486]: autorefresh.go:536: auto-refresh: all snaps are up-to-date
+Feb  8 02:09:01 daemon systemd[1]: Starting Clean php session files...
+Feb  8 02:09:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  8 02:09:01 daemon systemd[1]: Started Clean php session files.
+Feb  8 02:39:01 daemon systemd[1]: Starting Clean php session files...
+Feb  8 02:39:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  8 02:39:01 daemon systemd[1]: Started Clean php session files.
+Feb  8 03:09:01 daemon systemd[1]: Starting Clean php session files...
+Feb  8 03:09:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  8 03:09:01 daemon systemd[1]: Started Clean php session files.
+Feb  8 03:39:01 daemon systemd[1]: Starting Clean php session files...
+Feb  8 03:39:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  8 03:39:01 daemon systemd[1]: Started Clean php session files.
+Feb  8 04:09:01 daemon systemd[1]: Starting Clean php session files...
+Feb  8 04:09:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  8 04:09:01 daemon systemd[1]: Started Clean php session files.
+Feb  8 04:39:01 daemon systemd[1]: Starting Clean php session files...
+Feb  8 04:39:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  8 04:39:01 daemon systemd[1]: Started Clean php session files.
+Feb  8 05:09:01 daemon systemd[1]: Starting Clean php session files...
+Feb  8 05:09:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  8 05:09:01 daemon systemd[1]: Started Clean php session files.
+Feb  8 05:39:01 daemon systemd[1]: Starting Clean php session files...
+Feb  8 05:39:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  8 05:39:01 daemon systemd[1]: Started Clean php session files.
+Feb  8 06:09:01 daemon systemd[1]: Starting Clean php session files...
+Feb  8 06:09:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  8 06:09:01 daemon systemd[1]: Started Clean php session files.
+Feb  8 06:12:55 daemon systemd[1]: Starting Daily apt upgrade and clean activities...
+Feb  8 06:12:56 daemon systemd[1]: apt-daily-upgrade.service: Succeeded.
+Feb  8 06:12:56 daemon systemd[1]: Started Daily apt upgrade and clean activities.
+Feb  8 06:39:01 daemon systemd[1]: Starting Clean php session files...
+Feb  8 06:39:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  8 06:39:01 daemon systemd[1]: Started Clean php session files.
+Feb  8 07:09:01 daemon systemd[1]: Starting Clean php session files...
+Feb  8 07:09:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  8 07:09:01 daemon systemd[1]: Started Clean php session files.
+Feb  8 07:39:01 daemon systemd[1]: Starting Clean php session files...
+Feb  8 07:39:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  8 07:39:01 daemon systemd[1]: Started Clean php session files.
+Feb  8 08:09:01 daemon systemd[1]: Starting Clean php session files...
+Feb  8 08:09:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  8 08:09:01 daemon systemd[1]: Started Clean php session files.
+Feb  8 08:39:01 daemon systemd[1]: Starting Clean php session files...
+Feb  8 08:39:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  8 08:39:01 daemon systemd[1]: Started Clean php session files.
+Feb  8 09:08:12 daemon snapd[486]: storehelpers.go:721: cannot refresh: snap has no updates available: "certbot", "core", "core20"
+Feb  8 09:08:12 daemon snapd[486]: autorefresh.go:536: auto-refresh: all snaps are up-to-date
+Feb  8 09:09:01 daemon systemd[1]: Starting Clean php session files...
+Feb  8 09:09:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  8 09:09:01 daemon systemd[1]: Started Clean php session files.
+Feb  8 09:29:01 daemon systemd[1]: Starting Service for snap application certbot.renew...
+Feb  8 09:29:05 daemon systemd[1]: snap.certbot.renew.service: Succeeded.
+Feb  8 09:29:05 daemon systemd[1]: Started Service for snap application certbot.renew.
+Feb  8 09:39:01 daemon systemd[1]: Starting Clean php session files...
+Feb  8 09:39:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  8 09:39:01 daemon systemd[1]: Started Clean php session files.
+Feb  8 10:09:01 daemon systemd[1]: Starting Clean php session files...
+Feb  8 10:09:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  8 10:09:01 daemon systemd[1]: Started Clean php session files.
+Feb  8 10:39:01 daemon systemd[1]: Starting Clean php session files...
+Feb  8 10:39:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  8 10:39:01 daemon systemd[1]: Started Clean php session files.
+Feb  8 11:09:01 daemon systemd[1]: Starting Clean php session files...
+Feb  8 11:09:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  8 11:09:01 daemon systemd[1]: Started Clean php session files.
+Feb  8 11:39:01 daemon systemd[1]: Starting Clean php session files...
+Feb  8 11:39:02 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  8 11:39:02 daemon systemd[1]: Started Clean php session files.
+Feb  8 12:09:01 daemon systemd[1]: Starting Clean php session files...
+Feb  8 12:09:02 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  8 12:09:02 daemon systemd[1]: Started Clean php session files.
+Feb  8 12:09:55 daemon systemd[1]: Starting Daily apt download activities...
+Feb  8 12:09:56 daemon dbus-daemon[475]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.391' (uid=0 pid=8772 comm="/usr/bin/gdbus call --system --dest org.freedeskto")
+Feb  8 12:09:56 daemon systemd[1]: Starting PackageKit Daemon...
+Feb  8 12:09:56 daemon PackageKit: daemon start
+Feb  8 12:09:56 daemon dbus-daemon[475]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Feb  8 12:09:56 daemon systemd[1]: Started PackageKit Daemon.
+Feb  8 12:09:58 daemon systemd[1]: apt-daily.service: Succeeded.
+Feb  8 12:09:58 daemon systemd[1]: Started Daily apt download activities.
+Feb  8 12:15:01 daemon PackageKit: daemon quit
+Feb  8 12:15:01 daemon systemd[1]: packagekit.service: Main process exited, code=killed, status=15/TERM
+Feb  8 12:15:01 daemon systemd[1]: packagekit.service: Succeeded.
+Feb  8 12:39:01 daemon systemd[1]: Starting Clean php session files...
+Feb  8 12:39:02 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  8 12:39:02 daemon systemd[1]: Started Clean php session files.
+Feb  8 13:09:01 daemon systemd[1]: Starting Clean php session files...
+Feb  8 13:09:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  8 13:09:01 daemon systemd[1]: Started Clean php session files.
+Feb  8 13:39:01 daemon systemd[1]: Starting Clean php session files...
+Feb  8 13:39:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  8 13:39:01 daemon systemd[1]: Started Clean php session files.
+Feb  8 14:09:01 daemon systemd[1]: Starting Clean php session files...
+Feb  8 14:09:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  8 14:09:01 daemon systemd[1]: Started Clean php session files.
+Feb  8 14:39:01 daemon systemd[1]: Starting Clean php session files...
+Feb  8 14:39:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  8 14:39:01 daemon systemd[1]: Started Clean php session files.
+Feb  8 15:09:01 daemon systemd[1]: Starting Clean php session files...
+Feb  8 15:09:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  8 15:09:01 daemon systemd[1]: Started Clean php session files.
+Feb  8 15:39:01 daemon systemd[1]: Starting Clean php session files...
+Feb  8 15:39:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  8 15:39:01 daemon systemd[1]: Started Clean php session files.
+Feb  8 16:09:01 daemon systemd[1]: Starting Clean php session files...
+Feb  8 16:09:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  8 16:09:01 daemon systemd[1]: Started Clean php session files.
+Feb  8 16:23:13 daemon snapd[486]: storehelpers.go:721: cannot refresh: snap has no updates available: "certbot", "core", "core20"
+Feb  8 16:23:13 daemon snapd[486]: autorefresh.go:536: auto-refresh: all snaps are up-to-date
+Feb  8 16:39:01 daemon systemd[1]: Starting Clean php session files...
+Feb  8 16:39:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  8 16:39:01 daemon systemd[1]: Started Clean php session files.
+Feb  8 16:55:15 daemon dbus-daemon[475]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.457' (uid=0 pid=10838 comm="/usr/bin/gdbus call --system --dest org.freedeskto")
+Feb  8 16:55:15 daemon systemd[1]: Starting PackageKit Daemon...
+Feb  8 16:55:15 daemon PackageKit: daemon start
+Feb  8 16:55:15 daemon dbus-daemon[475]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Feb  8 16:55:15 daemon systemd[1]: Started PackageKit Daemon.
+Feb  8 16:55:24 daemon systemd[1]: Created slice User Slice of UID 0.
+Feb  8 16:55:24 daemon systemd[1]: Starting User Runtime Directory /run/user/0...
+Feb  8 16:55:24 daemon systemd[1]: Started User Runtime Directory /run/user/0.
+Feb  8 16:55:24 daemon systemd[1]: Starting User Manager for UID 0...
+Feb  8 16:55:24 daemon systemd[10857]: Listening on GnuPG cryptographic agent and passphrase cache.
+Feb  8 16:55:24 daemon systemd[10857]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Feb  8 16:55:24 daemon systemd[10857]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Feb  8 16:55:24 daemon systemd[10857]: Reached target Paths.
+Feb  8 16:55:24 daemon systemd[10857]: Reached target Timers.
+Feb  8 16:55:24 daemon systemd[10857]: Listening on GnuPG network certificate management daemon.
+Feb  8 16:55:24 daemon systemd[10857]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Feb  8 16:55:24 daemon systemd[10857]: Reached target Sockets.
+Feb  8 16:55:24 daemon systemd[10857]: Reached target Basic System.
+Feb  8 16:55:24 daemon systemd[1]: Started User Manager for UID 0.
+Feb  8 16:55:24 daemon systemd[1]: Started Session c1 of user root.
+Feb  8 16:55:24 daemon systemd[10857]: Reached target Default.
+Feb  8 16:55:24 daemon systemd[10857]: Startup finished in 35ms.
+Feb  8 17:00:21 daemon PackageKit: daemon quit
+Feb  8 17:00:21 daemon systemd[1]: packagekit.service: Main process exited, code=killed, status=15/TERM
+Feb  8 17:00:21 daemon systemd[1]: packagekit.service: Succeeded.
+Feb  8 17:09:01 daemon systemd[1]: Starting Clean php session files...
+Feb  8 17:09:02 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  8 17:09:02 daemon systemd[1]: Started Clean php session files.
+Feb  8 17:39:01 daemon systemd[1]: Starting Clean php session files...
+Feb  8 17:39:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  8 17:39:01 daemon systemd[1]: Started Clean php session files.
+Feb  8 17:52:52 daemon systemd[1]: session-c1.scope: Succeeded.
+Feb  8 17:53:03 daemon systemd[1]: Stopping User Manager for UID 0...
+Feb  8 17:53:03 daemon systemd[10857]: Stopped target Default.
+Feb  8 17:53:03 daemon systemd[10857]: Stopped target Basic System.
+Feb  8 17:53:03 daemon systemd[10857]: Stopped target Timers.
+Feb  8 17:53:03 daemon systemd[10857]: Stopped target Sockets.
+Feb  8 17:53:03 daemon systemd[10857]: dirmngr.socket: Succeeded.
+Feb  8 17:53:03 daemon systemd[10857]: Closed GnuPG network certificate management daemon.
+Feb  8 17:53:03 daemon systemd[10857]: gpg-agent-browser.socket: Succeeded.
+Feb  8 17:53:03 daemon systemd[10857]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Feb  8 17:53:03 daemon systemd[10857]: gpg-agent-extra.socket: Succeeded.
+Feb  8 17:53:03 daemon systemd[10857]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Feb  8 17:53:03 daemon systemd[10857]: gpg-agent-ssh.socket: Succeeded.
+Feb  8 17:53:03 daemon systemd[10857]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Feb  8 17:53:03 daemon systemd[10857]: gpg-agent.socket: Succeeded.
+Feb  8 17:53:03 daemon systemd[10857]: Closed GnuPG cryptographic agent and passphrase cache.
+Feb  8 17:53:03 daemon systemd[10857]: Stopped target Paths.
+Feb  8 17:53:03 daemon systemd[10857]: Reached target Shutdown.
+Feb  8 17:53:03 daemon systemd[10857]: systemd-exit.service: Succeeded.
+Feb  8 17:53:03 daemon systemd[10857]: Started Exit the Session.
+Feb  8 17:53:03 daemon systemd[10857]: Reached target Exit the Session.
+Feb  8 17:53:03 daemon systemd[1]: user@0.service: Succeeded.
+Feb  8 17:53:03 daemon systemd[1]: Stopped User Manager for UID 0.
+Feb  8 17:53:03 daemon systemd[1]: Stopping User Runtime Directory /run/user/0...
+Feb  8 17:53:03 daemon systemd[1]: run-user-0.mount: Succeeded.
+Feb  8 17:53:03 daemon systemd[1]: user-runtime-dir@0.service: Succeeded.
+Feb  8 17:53:03 daemon systemd[1]: Stopped User Runtime Directory /run/user/0.
+Feb  8 17:53:03 daemon systemd[1]: Removed slice User Slice of UID 0.
+Feb  8 18:09:01 daemon systemd[1]: Starting Clean php session files...
+Feb  8 18:09:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  8 18:09:01 daemon systemd[1]: Started Clean php session files.
+Feb  8 18:11:02 daemon dbus-daemon[475]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.493' (uid=0 pid=12338 comm="/usr/bin/gdbus call --system --dest org.freedeskto")
+Feb  8 18:11:02 daemon systemd[1]: Starting PackageKit Daemon...
+Feb  8 18:11:02 daemon PackageKit: daemon start
+Feb  8 18:11:02 daemon dbus-daemon[475]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Feb  8 18:11:02 daemon systemd[1]: Started PackageKit Daemon.
+Feb  8 18:16:01 daemon systemd[1]: Starting Service for snap application certbot.renew...
+Feb  8 18:16:05 daemon systemd[1]: snap.certbot.renew.service: Succeeded.
+Feb  8 18:16:05 daemon systemd[1]: Started Service for snap application certbot.renew.
+Feb  8 18:16:07 daemon PackageKit: daemon quit
+Feb  8 18:16:07 daemon systemd[1]: packagekit.service: Main process exited, code=killed, status=15/TERM
+Feb  8 18:16:07 daemon systemd[1]: packagekit.service: Succeeded.
+Feb  8 18:39:01 daemon systemd[1]: Starting Clean php session files...
+Feb  8 18:39:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  8 18:39:01 daemon systemd[1]: Started Clean php session files.
+Feb  8 19:09:01 daemon systemd[1]: Starting Clean php session files...
+Feb  8 19:09:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  8 19:09:01 daemon systemd[1]: Started Clean php session files.
+Feb  8 19:33:12 daemon systemd[1]: Starting Cleanup of Temporary Directories...
+Feb  8 19:33:12 daemon systemd-tmpfiles[12654]: [/usr/lib/tmpfiles.d/fail2ban-tmpfiles.conf:1] Line references path below legacy directory /var/run/, updating /var/run/fail2ban → /run/fail2ban; please update the tmpfiles.d/ drop-in file accordingly.
+Feb  8 19:33:12 daemon systemd[1]: systemd-tmpfiles-clean.service: Succeeded.
+Feb  8 19:33:12 daemon systemd[1]: Started Cleanup of Temporary Directories.
+Feb  8 19:39:01 daemon systemd[1]: Starting Clean php session files...
+Feb  8 19:39:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  8 19:39:01 daemon systemd[1]: Started Clean php session files.
+Feb  8 20:09:01 daemon systemd[1]: Starting Clean php session files...
+Feb  8 20:09:02 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  8 20:09:02 daemon systemd[1]: Started Clean php session files.
+Feb  8 20:39:01 daemon systemd[1]: Starting Clean php session files...
+Feb  8 20:39:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  8 20:39:01 daemon systemd[1]: Started Clean php session files.
+Feb  8 21:09:01 daemon systemd[1]: Starting Clean php session files...
+Feb  8 21:09:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  8 21:09:01 daemon systemd[1]: Started Clean php session files.
+Feb  8 21:39:01 daemon systemd[1]: Starting Clean php session files...
+Feb  8 21:39:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  8 21:39:01 daemon systemd[1]: Started Clean php session files.
+Feb  8 22:09:01 daemon systemd[1]: Starting Clean php session files...
+Feb  8 22:09:02 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  8 22:09:02 daemon systemd[1]: Started Clean php session files.
+Feb  8 22:13:12 daemon snapd[486]: storehelpers.go:721: cannot refresh: snap has no updates available: "core", "core20"
+Feb  8 22:13:14 daemon systemd[1]: Reloading.
+Feb  8 22:13:14 daemon systemd[1]: /lib/systemd/system/fail2ban.service:12: PIDFile= references path below legacy directory /var/run/, updating /var/run/fail2ban/fail2ban.pid → /run/fail2ban/fail2ban.pid; please update the unit file accordingly.
+Feb  8 22:13:14 daemon systemd[1]: Reloading.
+Feb  8 22:13:14 daemon systemd[1]: /lib/systemd/system/fail2ban.service:12: PIDFile= references path below legacy directory /var/run/, updating /var/run/fail2ban/fail2ban.pid → /run/fail2ban/fail2ban.pid; please update the unit file accordingly.
+Feb  8 22:13:14 daemon systemd[1]: Starting Daily apt download activities...
+Feb  8 22:13:14 daemon systemd[1]: Mounting Mount unit for certbot, revision 1788...
+Feb  8 22:13:14 daemon systemd[1]: Mounted Mount unit for certbot, revision 1788.
+Feb  8 22:13:14 daemon systemd[1]: snap.certbot.renew.timer: Succeeded.
+Feb  8 22:13:14 daemon systemd[1]: Stopped Timer renew for snap application certbot.renew.
+Feb  8 22:13:15 daemon systemd[1]: Reloading.
+Feb  8 22:13:15 daemon systemd[1]: /lib/systemd/system/fail2ban.service:12: PIDFile= references path below legacy directory /var/run/, updating /var/run/fail2ban/fail2ban.pid → /run/fail2ban/fail2ban.pid; please update the unit file accordingly.
+Feb  8 22:13:15 daemon systemd[1]: apt-daily.service: Succeeded.
+Feb  8 22:13:15 daemon systemd[1]: Started Daily apt download activities.
+Feb  8 22:13:15 daemon systemd[1]: Reloading.
+Feb  8 22:13:15 daemon systemd[1]: /lib/systemd/system/fail2ban.service:12: PIDFile= references path below legacy directory /var/run/, updating /var/run/fail2ban/fail2ban.pid → /run/fail2ban/fail2ban.pid; please update the unit file accordingly.
+Feb  8 22:13:15 daemon systemd[1]: Reloading.
+Feb  8 22:13:15 daemon systemd[1]: /lib/systemd/system/fail2ban.service:12: PIDFile= references path below legacy directory /var/run/, updating /var/run/fail2ban/fail2ban.pid → /run/fail2ban/fail2ban.pid; please update the unit file accordingly.
+Feb  8 22:13:16 daemon systemd[1]: Reloading.
+Feb  8 22:13:16 daemon systemd[1]: /lib/systemd/system/fail2ban.service:12: PIDFile= references path below legacy directory /var/run/, updating /var/run/fail2ban/fail2ban.pid → /run/fail2ban/fail2ban.pid; please update the unit file accordingly.
+Feb  8 22:13:16 daemon systemd[1]: Reloading.
+Feb  8 22:13:16 daemon systemd[1]: /lib/systemd/system/fail2ban.service:12: PIDFile= references path below legacy directory /var/run/, updating /var/run/fail2ban/fail2ban.pid → /run/fail2ban/fail2ban.pid; please update the unit file accordingly.
+Feb  8 22:13:16 daemon systemd[1]: Started Timer renew for snap application certbot.renew.
+Feb  8 22:13:17 daemon systemd[1]: Started snap.certbot.hook.configure.0523bc0c-fb34-4e43-9fb1-d6a413c9fb78.scope.
+Feb  8 22:13:17 daemon systemd[1]: snap.certbot.hook.configure.0523bc0c-fb34-4e43-9fb1-d6a413c9fb78.scope: Succeeded.
+Feb  8 22:13:18 daemon snapd[486]: storehelpers.go:721: cannot refresh snap "certbot": snap has no updates available
+Feb  8 22:39:01 daemon systemd[1]: Starting Clean php session files...
+Feb  8 22:39:02 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  8 22:39:02 daemon systemd[1]: Started Clean php session files.
+Feb  8 23:04:55 daemon systemd[1]: Starting Service for snap application certbot.renew...
+Feb  8 23:04:57 daemon systemd[1]: snap.certbot.renew.service: Succeeded.
+Feb  8 23:04:57 daemon systemd[1]: Started Service for snap application certbot.renew.
+Feb  8 23:09:01 daemon systemd[1]: Starting Clean php session files...
+Feb  8 23:09:02 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  8 23:09:02 daemon systemd[1]: Started Clean php session files.
+Feb  8 23:39:01 daemon systemd[1]: Starting Clean php session files...
+Feb  8 23:39:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  8 23:39:01 daemon systemd[1]: Started Clean php session files.
+Feb  9 00:00:01 daemon systemd[1]: Starting Rotate log files...
+Feb  9 00:00:01 daemon systemd[1]: Starting Daily man-db regeneration...
+Feb  9 00:00:01 daemon systemd[1]: Reloading The Apache HTTP Server.
+Feb  9 00:00:02 daemon systemd[1]: Reloaded The Apache HTTP Server.
+Feb  9 00:00:02 daemon systemd[1]: logrotate.service: Succeeded.
+Feb  9 00:00:02 daemon systemd[1]: Started Rotate log files.
+Feb  9 00:00:02 daemon systemd[1]: man-db.service: Succeeded.
+Feb  9 00:00:02 daemon systemd[1]: Started Daily man-db regeneration.
+Feb  9 00:09:01 daemon systemd[1]: Starting Clean php session files...
+Feb  9 00:09:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  9 00:09:01 daemon systemd[1]: Started Clean php session files.
+Feb  9 00:33:12 daemon snapd[486]: storehelpers.go:721: cannot refresh: snap has no updates available: "certbot", "core", "core20"
+Feb  9 00:33:12 daemon snapd[486]: autorefresh.go:536: auto-refresh: all snaps are up-to-date
+Feb  9 00:39:01 daemon systemd[1]: Starting Clean php session files...
+Feb  9 00:39:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  9 00:39:01 daemon systemd[1]: Started Clean php session files.
+Feb  9 01:09:01 daemon systemd[1]: Starting Clean php session files...
+Feb  9 01:09:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  9 01:09:01 daemon systemd[1]: Started Clean php session files.
+Feb  9 01:39:01 daemon systemd[1]: Starting Clean php session files...
+Feb  9 01:39:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  9 01:39:01 daemon systemd[1]: Started Clean php session files.
+Feb  9 02:09:01 daemon systemd[1]: Starting Clean php session files...
+Feb  9 02:09:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  9 02:09:01 daemon systemd[1]: Started Clean php session files.
+Feb  9 02:39:01 daemon systemd[1]: Starting Clean php session files...
+Feb  9 02:39:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  9 02:39:01 daemon systemd[1]: Started Clean php session files.
+Feb  9 03:09:01 daemon systemd[1]: Starting Clean php session files...
+Feb  9 03:09:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  9 03:09:01 daemon systemd[1]: Started Clean php session files.
+Feb  9 03:39:01 daemon systemd[1]: Starting Clean php session files...
+Feb  9 03:39:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  9 03:39:01 daemon systemd[1]: Started Clean php session files.
+Feb  9 04:09:01 daemon systemd[1]: Starting Clean php session files...
+Feb  9 04:09:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  9 04:09:01 daemon systemd[1]: Started Clean php session files.
+Feb  9 04:39:01 daemon systemd[1]: Starting Clean php session files...
+Feb  9 04:39:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  9 04:39:01 daemon systemd[1]: Started Clean php session files.
+Feb  9 05:09:01 daemon systemd[1]: Starting Clean php session files...
+Feb  9 05:09:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  9 05:09:01 daemon systemd[1]: Started Clean php session files.
+Feb  9 05:39:01 daemon systemd[1]: Starting Clean php session files...
+Feb  9 05:39:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  9 05:39:01 daemon systemd[1]: Started Clean php session files.
+Feb  9 06:09:01 daemon systemd[1]: Starting Clean php session files...
+Feb  9 06:09:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  9 06:09:01 daemon systemd[1]: Started Clean php session files.
+Feb  9 06:27:55 daemon systemd[1]: Starting Daily apt download activities...
+Feb  9 06:27:57 daemon dbus-daemon[475]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.701' (uid=0 pid=16457 comm="/usr/bin/gdbus call --system --dest org.freedeskto")
+Feb  9 06:27:57 daemon systemd[1]: Starting PackageKit Daemon...
+Feb  9 06:27:57 daemon PackageKit: daemon start
+Feb  9 06:27:57 daemon dbus-daemon[475]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Feb  9 06:27:57 daemon systemd[1]: Started PackageKit Daemon.
+Feb  9 06:27:59 daemon systemd[1]: apt-daily.service: Succeeded.
+Feb  9 06:27:59 daemon systemd[1]: Started Daily apt download activities.
+Feb  9 06:33:02 daemon PackageKit: daemon quit
+Feb  9 06:33:02 daemon systemd[1]: packagekit.service: Main process exited, code=killed, status=15/TERM
+Feb  9 06:33:02 daemon systemd[1]: packagekit.service: Succeeded.
+Feb  9 06:39:01 daemon systemd[1]: Starting Clean php session files...
+Feb  9 06:39:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  9 06:39:01 daemon systemd[1]: Started Clean php session files.
+Feb  9 06:56:29 daemon systemd[1]: Starting Daily apt upgrade and clean activities...
+Feb  9 06:56:31 daemon systemd[1]: apt-daily-upgrade.service: Succeeded.
+Feb  9 06:56:31 daemon systemd[1]: Started Daily apt upgrade and clean activities.
+Feb  9 07:08:12 daemon snapd[486]: storehelpers.go:721: cannot refresh: snap has no updates available: "certbot", "core", "core20"
+Feb  9 07:08:12 daemon snapd[486]: autorefresh.go:536: auto-refresh: all snaps are up-to-date
+Feb  9 07:09:01 daemon systemd[1]: Starting Clean php session files...
+Feb  9 07:09:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  9 07:09:01 daemon systemd[1]: Started Clean php session files.
+Feb  9 07:39:01 daemon systemd[1]: Starting Clean php session files...
+Feb  9 07:39:02 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  9 07:39:02 daemon systemd[1]: Started Clean php session files.
+Feb  9 08:09:01 daemon systemd[1]: Starting Clean php session files...
+Feb  9 08:09:02 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  9 08:09:02 daemon systemd[1]: Started Clean php session files.
+Feb  9 08:39:01 daemon systemd[1]: Starting Clean php session files...
+Feb  9 08:39:02 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  9 08:39:02 daemon systemd[1]: Started Clean php session files.
+Feb  9 09:09:01 daemon systemd[1]: Starting Clean php session files...
+Feb  9 09:09:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  9 09:09:01 daemon systemd[1]: Started Clean php session files.
+Feb  9 09:17:01 daemon systemd[1]: Starting Service for snap application certbot.renew...
+Feb  9 09:17:03 daemon systemd[1]: snap.certbot.renew.service: Succeeded.
+Feb  9 09:17:03 daemon systemd[1]: Started Service for snap application certbot.renew.
+Feb  9 09:39:01 daemon systemd[1]: Starting Clean php session files...
+Feb  9 09:39:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  9 09:39:01 daemon systemd[1]: Started Clean php session files.
+Feb  9 10:09:01 daemon systemd[1]: Starting Clean php session files...
+Feb  9 10:09:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  9 10:09:01 daemon systemd[1]: Started Clean php session files.
+Feb  9 10:39:01 daemon systemd[1]: Starting Clean php session files...
+Feb  9 10:39:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Feb  9 10:39:01 daemon systemd[1]: Started Clean php session files.
+Feb  9 11:06:31 daemon dbus-daemon[475]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.785' (uid=0 pid=18534 comm="/usr/bin/gdbus call --system --dest org.freedeskto")
+Feb  9 11:06:31 daemon systemd[1]: Starting PackageKit Daemon...
+Feb  9 11:06:31 daemon PackageKit: daemon start
+Feb  9 11:06:31 daemon dbus-daemon[475]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Feb  9 11:06:32 daemon systemd[1]: Started PackageKit Daemon.
+Feb  9 11:07:10 daemon systemd[1]: Created slice User Slice of UID 0.
+Feb  9 11:07:10 daemon systemd[1]: Starting User Runtime Directory /run/user/0...
+Feb  9 11:07:10 daemon systemd[1]: Started User Runtime Directory /run/user/0.
+Feb  9 11:07:10 daemon systemd[1]: Starting User Manager for UID 0...
+Feb  9 11:07:10 daemon systemd[18553]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Feb  9 11:07:10 daemon systemd[18553]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Feb  9 11:07:10 daemon systemd[18553]: Listening on GnuPG network certificate management daemon.
+Feb  9 11:07:10 daemon systemd[18553]: Reached target Timers.
+Feb  9 11:07:10 daemon systemd[18553]: Reached target Paths.
+Feb  9 11:07:10 daemon systemd[18553]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Feb  9 11:07:10 daemon systemd[18553]: Listening on GnuPG cryptographic agent and passphrase cache.
+Feb  9 11:07:10 daemon systemd[18553]: Reached target Sockets.
+Feb  9 11:07:10 daemon systemd[18553]: Reached target Basic System.
+Feb  9 11:07:10 daemon systemd[1]: Started User Manager for UID 0.
+Feb  9 11:07:10 daemon systemd[1]: Started Session c2 of user root.
+Feb  9 11:07:10 daemon systemd[18553]: Reached target Default.
+Feb  9 11:07:10 daemon systemd[18553]: Startup finished in 37ms.

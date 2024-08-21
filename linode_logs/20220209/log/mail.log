@@ -1,0 +1,522 @@
+Feb  7 19:18:13 daemon postfix/postfix-script[999]: warning: symlink leaves directory: /etc/postfix/./makedefs.out
+Feb  7 19:18:13 daemon postfix/postfix-script[1062]: starting the Postfix mail system
+Feb  7 19:18:13 daemon postfix/master[1073]: daemon started -- version 3.4.14, configuration /etc/postfix
+Feb  7 19:18:14 daemon postfix/pickup[1079]: 0BF9F3D7E1: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  7 19:18:14 daemon postfix/cleanup[1082]: 0BF9F3D7E1: message-id=<20220207171814.0BF9F3D7E1@daemon.synaptic4u.co.za>
+Feb  7 19:18:14 daemon postfix/qmgr[1080]: 0BF9F3D7E1: from=<daemon@synaptic4u.co.za>, size=460, nrcpt=1 (queue active)
+Feb  7 19:18:14 daemon postfix/pickup[1079]: 1473D3D6FC: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  7 19:18:14 daemon postfix/cleanup[1082]: 1473D3D6FC: message-id=<20220207171814.1473D3D6FC@daemon.synaptic4u.co.za>
+Feb  7 19:18:14 daemon postfix/qmgr[1080]: 1473D3D6FC: from=<daemon@synaptic4u.co.za>, size=447, nrcpt=1 (queue active)
+Feb  7 19:18:14 daemon postfix/pickup[1079]: 15F3C3D5B3: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  7 19:18:14 daemon postfix/cleanup[1082]: 15F3C3D5B3: message-id=<20220207171814.15F3C3D5B3@daemon.synaptic4u.co.za>
+Feb  7 19:18:14 daemon postfix/qmgr[1080]: 15F3C3D5B3: from=<daemon@synaptic4u.co.za>, size=436, nrcpt=1 (queue active)
+Feb  7 19:18:14 daemon postfix/pickup[1079]: 167573D636: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  7 19:18:14 daemon postfix/cleanup[1082]: 167573D636: message-id=<20220207171814.167573D636@daemon.synaptic4u.co.za>
+Feb  7 19:18:14 daemon postfix/qmgr[1080]: 167573D636: from=<daemon@synaptic4u.co.za>, size=455, nrcpt=1 (queue active)
+Feb  7 19:18:14 daemon postfix/pickup[1079]: 1720A3D5D5: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  7 19:18:14 daemon postfix/cleanup[1082]: 1720A3D5D5: message-id=<20220207171814.1720A3D5D5@daemon.synaptic4u.co.za>
+Feb  7 19:18:14 daemon postfix/qmgr[1080]: 1720A3D5D5: from=<daemon@synaptic4u.co.za>, size=423, nrcpt=1 (queue active)
+Feb  7 19:18:14 daemon postfix/pickup[1079]: 17A823D59F: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  7 19:18:14 daemon postfix/cleanup[1082]: 17A823D59F: message-id=<20220207171814.17A823D59F@daemon.synaptic4u.co.za>
+Feb  7 19:18:14 daemon postfix/qmgr[1080]: 17A823D59F: from=<daemon@synaptic4u.co.za>, size=464, nrcpt=1 (queue active)
+Feb  7 19:18:14 daemon postfix/pickup[1079]: 1814F3D784: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  7 19:18:14 daemon postfix/cleanup[1082]: 1814F3D784: message-id=<20220207171814.1814F3D784@daemon.synaptic4u.co.za>
+Feb  7 19:18:14 daemon postfix/qmgr[1080]: 1814F3D784: from=<daemon@synaptic4u.co.za>, size=456, nrcpt=1 (queue active)
+Feb  7 19:18:14 daemon postfix/pickup[1079]: 191183D6D3: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  7 19:18:14 daemon postfix/cleanup[1082]: 191183D6D3: message-id=<20220207171814.191183D6D3@daemon.synaptic4u.co.za>
+Feb  7 19:18:14 daemon postfix/qmgr[1080]: 191183D6D3: from=<daemon@synaptic4u.co.za>, size=437, nrcpt=1 (queue active)
+Feb  7 19:18:14 daemon postfix/pickup[1079]: 19A923D5C2: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  7 19:18:14 daemon postfix/cleanup[1082]: 19A923D5C2: message-id=<20220207171814.19A923D5C2@daemon.synaptic4u.co.za>
+Feb  7 19:18:14 daemon postfix/qmgr[1080]: 19A923D5C2: from=<daemon@synaptic4u.co.za>, size=451, nrcpt=1 (queue active)
+Feb  7 19:18:14 daemon postfix/pickup[1079]: 1A18E3D580: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  7 19:18:14 daemon postfix/cleanup[1082]: 1A18E3D580: message-id=<20220207171814.1A18E3D580@daemon.synaptic4u.co.za>
+Feb  7 19:18:14 daemon postfix/qmgr[1080]: 1A18E3D580: from=<daemon@synaptic4u.co.za>, size=468, nrcpt=1 (queue active)
+Feb  7 19:18:14 daemon postfix/pickup[1079]: 1A81D3D783: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  7 19:18:14 daemon postfix/cleanup[1082]: 1A81D3D783: message-id=<20220207171814.1A81D3D783@daemon.synaptic4u.co.za>
+Feb  7 19:18:14 daemon postfix/qmgr[1080]: 1A81D3D783: from=<daemon@synaptic4u.co.za>, size=443, nrcpt=1 (queue active)
+Feb  7 19:18:14 daemon postfix/pickup[1079]: 1AEFD3D5A0: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  7 19:18:14 daemon postfix/cleanup[1082]: 1AEFD3D5A0: message-id=<20220207171814.1AEFD3D5A0@daemon.synaptic4u.co.za>
+Feb  7 19:18:14 daemon postfix/qmgr[1080]: 1AEFD3D5A0: from=<daemon@synaptic4u.co.za>, size=450, nrcpt=1 (queue active)
+Feb  7 19:18:16 daemon postfix/smtp[1107]: 15F3C3D5B3: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=3.4, delays=1.3/0.17/1.2/0.68, dsn=2.0.0, status=sent (250 OK id=1nH7ea-000MbC-PU)
+Feb  7 19:18:16 daemon postfix/qmgr[1080]: 15F3C3D5B3: removed
+Feb  7 19:18:16 daemon postfix/smtp[1105]: 1473D3D6FC: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=34, delays=32/0.15/1.2/0.71, dsn=2.0.0, status=sent (250 OK id=1nH7ea-000Mav-PT)
+Feb  7 19:18:16 daemon postfix/qmgr[1080]: 1473D3D6FC: removed
+Feb  7 19:18:16 daemon postfix/smtp[1109]: 167573D636: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=34, delays=32/0.2/1.4/0.69, dsn=2.0.0, status=sent (250 OK id=1nH7ea-000Mb6-W1)
+Feb  7 19:18:16 daemon postfix/qmgr[1080]: 167573D636: removed
+Feb  7 19:18:16 daemon postfix/smtp[1088]: 0BF9F3D7E1: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=3.5, delays=1.1/0.12/1.4/0.86, dsn=2.0.0, status=sent (250 OK id=1nH7eb-000Map-3J)
+Feb  7 19:18:16 daemon postfix/qmgr[1080]: 0BF9F3D7E1: removed
+Feb  7 19:18:16 daemon postfix/smtp[1110]: 1720A3D5D5: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=34, delays=32/0.22/1.3/0.82, dsn=2.0.0, status=sent (250 OK id=1nH7eb-000MbI-3A)
+Feb  7 19:18:16 daemon postfix/qmgr[1080]: 1720A3D5D5: removed
+Feb  7 19:18:17 daemon postfix/smtp[1152]: 1814F3D784: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=4.4, delays=1.2/2/0.74/0.41, dsn=2.0.0, status=sent (250 OK id=1nH7eb-000Mci-VW)
+Feb  7 19:18:17 daemon postfix/qmgr[1080]: 1814F3D784: removed
+Feb  7 19:18:17 daemon postfix/smtp[1105]: 191183D6D3: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=35, delays=32/2/0.81/0.49, dsn=2.0.0, status=sent (250 OK id=1nH7ec-000Mcq-2a)
+Feb  7 19:18:17 daemon postfix/qmgr[1080]: 191183D6D3: removed
+Feb  7 19:18:17 daemon postfix/smtp[1156]: 19A923D5C2: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=35, delays=32/2.1/0.82/0.52, dsn=2.0.0, status=sent (250 OK id=1nH7ec-000Mcr-3L)
+Feb  7 19:18:17 daemon postfix/qmgr[1080]: 19A923D5C2: removed
+Feb  7 19:18:17 daemon postfix/smtp[1107]: 17A823D59F: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=4.2, delays=0.83/2/0.84/0.54, dsn=2.0.0, status=sent (250 OK id=1nH7ec-000Mcp-39)
+Feb  7 19:18:17 daemon postfix/qmgr[1080]: 17A823D59F: removed
+Feb  7 19:18:17 daemon postfix/smtp[1109]: 1A18E3D580: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=4.4, delays=0.94/2.2/0.74/0.45, dsn=2.0.0, status=sent (250 OK id=1nH7ec-000Md1-6a)
+Feb  7 19:18:17 daemon postfix/qmgr[1080]: 1A18E3D580: removed
+Feb  7 19:18:17 daemon postfix/smtp[1159]: 1A81D3D783: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=35, delays=32/2.2/0.74/0.45, dsn=2.0.0, status=sent (250 OK id=1nH7ec-000Md8-6Z)
+Feb  7 19:18:17 daemon postfix/qmgr[1080]: 1A81D3D783: removed
+Feb  7 19:18:17 daemon postfix/smtp[1088]: 1AEFD3D5A0: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=5, delays=1.5/2.3/0.73/0.51, dsn=2.0.0, status=sent (250 OK id=1nH7ec-000MdO-Bs)
+Feb  7 19:18:17 daemon postfix/qmgr[1080]: 1AEFD3D5A0: removed
+Feb  7 19:21:37 daemon postfix/scache[1153]: statistics: start interval Feb  7 19:18:16
+Feb  7 19:21:37 daemon postfix/scache[1153]: statistics: domain lookup hits=0 miss=7 success=0%
+Feb  7 19:21:37 daemon postfix/scache[1153]: statistics: address lookup hits=0 miss=7 success=0%
+Feb  7 19:25:44 daemon postfix/pickup[1079]: 294273CB1A: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  7 19:25:44 daemon postfix/cleanup[1246]: 294273CB1A: message-id=<20220207172544.294273CB1A@daemon.synaptic4u.co.za>
+Feb  7 19:25:44 daemon postfix/qmgr[1080]: 294273CB1A: from=<daemon@synaptic4u.co.za>, size=600, nrcpt=1 (queue active)
+Feb  7 19:25:45 daemon postfix/smtp[1248]: 294273CB1A: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=53, delays=52/0.01/0.74/0.62, dsn=2.0.0, status=sent (250 OK id=1nH7lq-000Udy-89)
+Feb  7 19:25:45 daemon postfix/qmgr[1080]: 294273CB1A: removed
+Feb  7 19:28:52 daemon postfix/pickup[1079]: 4D4DB3CF53: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  7 19:28:52 daemon postfix/cleanup[1279]: 4D4DB3CF53: message-id=<20220207172852.4D4DB3CF53@daemon.synaptic4u.co.za>
+Feb  7 19:28:52 daemon postfix/qmgr[1080]: 4D4DB3CF53: from=<daemon@synaptic4u.co.za>, size=597, nrcpt=1 (queue active)
+Feb  7 19:28:53 daemon postfix/smtp[1281]: 4D4DB3CF53: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=33, delays=32/0.01/0.74/0.64, dsn=2.0.0, status=sent (250 OK id=1nH7os-000XLp-D4)
+Feb  7 19:28:53 daemon postfix/qmgr[1080]: 4D4DB3CF53: removed
+Feb  7 19:36:44 daemon postfix/pickup[1079]: C49F13CF53: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  7 19:36:44 daemon postfix/cleanup[1477]: C49F13CF53: message-id=<20220207173644.C49F13CF53@daemon.synaptic4u.co.za>
+Feb  7 19:36:44 daemon postfix/qmgr[1080]: C49F13CF53: from=<daemon@synaptic4u.co.za>, size=455, nrcpt=1 (queue active)
+Feb  7 19:36:44 daemon postfix/pickup[1079]: CFD403CF61: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  7 19:36:44 daemon postfix/cleanup[1477]: CFD403CF61: message-id=<20220207173644.CFD403CF61@daemon.synaptic4u.co.za>
+Feb  7 19:36:44 daemon postfix/qmgr[1080]: CFD403CF61: from=<daemon@synaptic4u.co.za>, size=443, nrcpt=1 (queue active)
+Feb  7 19:36:45 daemon postfix/pickup[1079]: 537683CF62: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  7 19:36:45 daemon postfix/cleanup[1477]: 537683CF62: message-id=<20220207173645.537683CF62@daemon.synaptic4u.co.za>
+Feb  7 19:36:45 daemon postfix/qmgr[1080]: 537683CF62: from=<daemon@synaptic4u.co.za>, size=451, nrcpt=1 (queue active)
+Feb  7 19:36:45 daemon postfix/pickup[1079]: 584A93D28E: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  7 19:36:45 daemon postfix/cleanup[1477]: 584A93D28E: message-id=<20220207173645.584A93D28E@daemon.synaptic4u.co.za>
+Feb  7 19:36:45 daemon postfix/qmgr[1080]: 584A93D28E: from=<daemon@synaptic4u.co.za>, size=423, nrcpt=1 (queue active)
+Feb  7 19:36:45 daemon postfix/pickup[1079]: 5E2CF3D580: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  7 19:36:45 daemon postfix/cleanup[1477]: 5E2CF3D580: message-id=<20220207173645.5E2CF3D580@daemon.synaptic4u.co.za>
+Feb  7 19:36:45 daemon postfix/qmgr[1080]: 5E2CF3D580: from=<daemon@synaptic4u.co.za>, size=437, nrcpt=1 (queue active)
+Feb  7 19:36:45 daemon postfix/pickup[1079]: 63A403D582: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  7 19:36:45 daemon postfix/cleanup[1477]: 63A403D582: message-id=<20220207173645.63A403D582@daemon.synaptic4u.co.za>
+Feb  7 19:36:45 daemon postfix/qmgr[1080]: 63A403D582: from=<daemon@synaptic4u.co.za>, size=447, nrcpt=1 (queue active)
+Feb  7 19:36:46 daemon postfix/smtp[1479]: C49F13CF53: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=1.5, delays=0.02/0.01/0.81/0.66, dsn=2.0.0, status=sent (250 OK id=1nH7wU-000gsO-Un)
+Feb  7 19:36:46 daemon postfix/qmgr[1080]: C49F13CF53: removed
+Feb  7 19:36:46 daemon postfix/smtp[1487]: CFD403CF61: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=1.5, delays=0/0.01/0.81/0.67, dsn=2.0.0, status=sent (250 OK id=1nH7wU-000gsP-Vg)
+Feb  7 19:36:46 daemon postfix/qmgr[1080]: CFD403CF61: removed
+Feb  7 19:36:46 daemon postfix/smtp[1569]: 537683CF62: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=1.2, delays=0.01/0.01/0.73/0.43, dsn=2.0.0, status=sent (250 OK id=1nH7wV-000gsT-6w)
+Feb  7 19:36:46 daemon postfix/qmgr[1080]: 537683CF62: removed
+Feb  7 19:36:46 daemon postfix/smtp[1581]: 5E2CF3D580: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=1.2, delays=0/0.01/0.73/0.45, dsn=2.0.0, status=sent (250 OK id=1nH7wV-000gsU-8I)
+Feb  7 19:36:46 daemon postfix/qmgr[1080]: 5E2CF3D580: removed
+Feb  7 19:36:46 daemon postfix/smtp[1574]: 584A93D28E: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=1.3, delays=0/0.01/0.82/0.47, dsn=2.0.0, status=sent (250 OK id=1nH7wV-000gsV-Am)
+Feb  7 19:36:46 daemon postfix/qmgr[1080]: 584A93D28E: removed
+Feb  7 19:36:47 daemon postfix/smtp[1479]: 63A403D582: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=2.1, delays=0/0.89/0.76/0.41, dsn=2.0.0, status=sent (250 OK id=1nH7wW-000gtC-5v)
+Feb  7 19:36:47 daemon postfix/qmgr[1080]: 63A403D582: removed
+Feb  7 19:38:36 daemon postfix/pickup[1079]: C8DAB3CF53: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  7 19:38:36 daemon postfix/cleanup[1737]: C8DAB3CF53: message-id=<20220207173836.C8DAB3CF53@daemon.synaptic4u.co.za>
+Feb  7 19:38:36 daemon postfix/qmgr[1080]: C8DAB3CF53: from=<daemon@synaptic4u.co.za>, size=436, nrcpt=1 (queue active)
+Feb  7 19:38:36 daemon postfix/pickup[1079]: CD8753CF61: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  7 19:38:36 daemon postfix/cleanup[1737]: CD8753CF61: message-id=<20220207173836.CD8753CF61@daemon.synaptic4u.co.za>
+Feb  7 19:38:36 daemon postfix/qmgr[1080]: CD8753CF61: from=<daemon@synaptic4u.co.za>, size=450, nrcpt=1 (queue active)
+Feb  7 19:38:36 daemon postfix/pickup[1079]: D43923CF62: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  7 19:38:36 daemon postfix/cleanup[1737]: D43923CF62: message-id=<20220207173836.D43923CF62@daemon.synaptic4u.co.za>
+Feb  7 19:38:36 daemon postfix/qmgr[1080]: D43923CF62: from=<daemon@synaptic4u.co.za>, size=456, nrcpt=1 (queue active)
+Feb  7 19:38:36 daemon postfix/pickup[1079]: D9F2C3D28E: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  7 19:38:36 daemon postfix/cleanup[1737]: D9F2C3D28E: message-id=<20220207173836.D9F2C3D28E@daemon.synaptic4u.co.za>
+Feb  7 19:38:36 daemon postfix/qmgr[1080]: D9F2C3D28E: from=<daemon@synaptic4u.co.za>, size=460, nrcpt=1 (queue active)
+Feb  7 19:38:36 daemon postfix/pickup[1079]: DF5263D580: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  7 19:38:36 daemon postfix/cleanup[1737]: DF5263D580: message-id=<20220207173836.DF5263D580@daemon.synaptic4u.co.za>
+Feb  7 19:38:36 daemon postfix/qmgr[1080]: DF5263D580: from=<daemon@synaptic4u.co.za>, size=468, nrcpt=1 (queue active)
+Feb  7 19:38:36 daemon postfix/pickup[1079]: E52E23D582: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  7 19:38:36 daemon postfix/cleanup[1737]: E52E23D582: message-id=<20220207173836.E52E23D582@daemon.synaptic4u.co.za>
+Feb  7 19:38:36 daemon postfix/qmgr[1080]: E52E23D582: from=<daemon@synaptic4u.co.za>, size=464, nrcpt=1 (queue active)
+Feb  7 19:38:38 daemon postfix/smtp[1758]: D9F2C3D28E: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=1.3, delays=0/0.01/0.81/0.45, dsn=2.0.0, status=sent (250 OK id=1nH7yI-000irs-R5)
+Feb  7 19:38:38 daemon postfix/qmgr[1080]: D9F2C3D28E: removed
+Feb  7 19:38:38 daemon postfix/smtp[1748]: CD8753CF61: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=1.3, delays=0.01/0.02/0.85/0.46, dsn=2.0.0, status=sent (250 OK id=1nH7yI-000irq-R6)
+Feb  7 19:38:38 daemon postfix/qmgr[1080]: CD8753CF61: removed
+Feb  7 19:38:38 daemon postfix/smtp[1764]: DF5263D580: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=1.3, delays=0.01/0.01/0.82/0.44, dsn=2.0.0, status=sent (250 OK id=1nH7yI-000irt-Rv)
+Feb  7 19:38:38 daemon postfix/qmgr[1080]: DF5263D580: removed
+Feb  7 19:38:38 daemon postfix/smtp[1744]: C8DAB3CF53: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=1.4, delays=0.02/0.02/0.77/0.58, dsn=2.0.0, status=sent (250 OK id=1nH7yI-000irM-TJ)
+Feb  7 19:38:38 daemon postfix/qmgr[1080]: C8DAB3CF53: removed
+Feb  7 19:38:38 daemon postfix/smtp[1751]: D43923CF62: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=1.3, delays=0/0.01/0.77/0.55, dsn=2.0.0, status=sent (250 OK id=1nH7yI-000irp-TI)
+Feb  7 19:38:38 daemon postfix/qmgr[1080]: D43923CF62: removed
+Feb  7 19:38:39 daemon postfix/smtp[1758]: E52E23D582: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=2.4, delays=0.01/1.2/0.76/0.4, dsn=2.0.0, status=sent (250 OK id=1nH7yK-000iwQ-1Q)
+Feb  7 19:38:39 daemon postfix/qmgr[1080]: E52E23D582: removed
+Feb  7 19:41:58 daemon postfix/scache[1590]: statistics: start interval Feb  7 19:36:46
+Feb  7 19:41:58 daemon postfix/scache[1590]: statistics: domain lookup hits=0 miss=2 success=0%
+Feb  7 19:41:58 daemon postfix/scache[1590]: statistics: address lookup hits=0 miss=2 success=0%
+Feb  7 19:44:43 daemon postfix/pickup[1079]: 55BF93CF53: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  7 19:44:43 daemon postfix/cleanup[2397]: 55BF93CF53: message-id=<20220207174443.55BF93CF53@daemon.synaptic4u.co.za>
+Feb  7 19:44:43 daemon postfix/qmgr[1080]: 55BF93CF53: from=<daemon@synaptic4u.co.za>, size=447, nrcpt=1 (queue active)
+Feb  7 19:44:43 daemon postfix/pickup[1079]: 5A0E73CF61: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  7 19:44:43 daemon postfix/cleanup[2397]: 5A0E73CF61: message-id=<20220207174443.5A0E73CF61@daemon.synaptic4u.co.za>
+Feb  7 19:44:43 daemon postfix/qmgr[1080]: 5A0E73CF61: from=<daemon@synaptic4u.co.za>, size=443, nrcpt=1 (queue active)
+Feb  7 19:44:43 daemon postfix/pickup[1079]: 624993CF62: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  7 19:44:43 daemon postfix/cleanup[2397]: 624993CF62: message-id=<20220207174443.624993CF62@daemon.synaptic4u.co.za>
+Feb  7 19:44:43 daemon postfix/qmgr[1080]: 624993CF62: from=<daemon@synaptic4u.co.za>, size=455, nrcpt=1 (queue active)
+Feb  7 19:44:43 daemon postfix/pickup[1079]: 75B773D28E: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  7 19:44:43 daemon postfix/cleanup[2397]: 75B773D28E: message-id=<20220207174443.75B773D28E@daemon.synaptic4u.co.za>
+Feb  7 19:44:43 daemon postfix/qmgr[1080]: 75B773D28E: from=<daemon@synaptic4u.co.za>, size=423, nrcpt=1 (queue active)
+Feb  7 19:44:43 daemon postfix/pickup[1079]: 7E8FD3D580: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  7 19:44:43 daemon postfix/cleanup[2397]: 7E8FD3D580: message-id=<20220207174443.7E8FD3D580@daemon.synaptic4u.co.za>
+Feb  7 19:44:43 daemon postfix/qmgr[1080]: 7E8FD3D580: from=<daemon@synaptic4u.co.za>, size=437, nrcpt=1 (queue active)
+Feb  7 19:44:44 daemon postfix/smtp[2411]: 624993CF62: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=1.2, delays=0.01/0.01/0.74/0.47, dsn=2.0.0, status=sent (250 OK id=1nH84D-000qpO-96)
+Feb  7 19:44:44 daemon postfix/qmgr[1080]: 624993CF62: removed
+Feb  7 19:44:44 daemon postfix/smtp[2423]: 7E8FD3D580: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=1.3, delays=0.01/0.01/0.81/0.49, dsn=2.0.0, status=sent (250 OK id=1nH84D-000qpT-9u)
+Feb  7 19:44:44 daemon postfix/qmgr[1080]: 7E8FD3D580: removed
+Feb  7 19:44:44 daemon postfix/smtp[2404]: 55BF93CF53: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=1.6, delays=0.02/0.02/0.73/0.87, dsn=2.0.0, status=sent (250 OK id=1nH84D-000qpM-7s)
+Feb  7 19:44:44 daemon postfix/qmgr[1080]: 55BF93CF53: removed
+Feb  7 19:44:45 daemon postfix/smtp[2406]: 5A0E73CF61: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=1.6, delays=0/0.02/0.74/0.88, dsn=2.0.0, status=sent (250 OK id=1nH84D-000qpN-8Y)
+Feb  7 19:44:45 daemon postfix/qmgr[1080]: 5A0E73CF61: removed
+Feb  7 19:44:45 daemon postfix/pickup[1079]: 4231C3CF53: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  7 19:44:45 daemon postfix/cleanup[2397]: 4231C3CF53: message-id=<20220207174445.4231C3CF53@daemon.synaptic4u.co.za>
+Feb  7 19:44:45 daemon postfix/qmgr[1080]: 4231C3CF53: from=<daemon@synaptic4u.co.za>, size=451, nrcpt=1 (queue active)
+Feb  7 19:44:45 daemon postfix/pickup[1079]: 775913CF61: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  7 19:44:45 daemon postfix/cleanup[2397]: 775913CF61: message-id=<20220207174445.775913CF61@daemon.synaptic4u.co.za>
+Feb  7 19:44:45 daemon postfix/qmgr[1080]: 775913CF61: from=<daemon@synaptic4u.co.za>, size=436, nrcpt=1 (queue active)
+Feb  7 19:44:45 daemon postfix/pickup[1079]: 7B82D3CF62: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  7 19:44:45 daemon postfix/cleanup[2397]: 7B82D3CF62: message-id=<20220207174445.7B82D3CF62@daemon.synaptic4u.co.za>
+Feb  7 19:44:45 daemon postfix/qmgr[1080]: 7B82D3CF62: from=<daemon@synaptic4u.co.za>, size=450, nrcpt=1 (queue active)
+Feb  7 19:44:45 daemon postfix/pickup[1079]: 804C13D580: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  7 19:44:45 daemon postfix/cleanup[2397]: 804C13D580: message-id=<20220207174445.804C13D580@daemon.synaptic4u.co.za>
+Feb  7 19:44:45 daemon postfix/qmgr[1080]: 804C13D580: from=<daemon@synaptic4u.co.za>, size=456, nrcpt=1 (queue active)
+Feb  7 19:44:45 daemon postfix/pickup[1079]: 84D753D582: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  7 19:44:45 daemon postfix/cleanup[2397]: 84D753D582: message-id=<20220207174445.84D753D582@daemon.synaptic4u.co.za>
+Feb  7 19:44:45 daemon postfix/qmgr[1080]: 84D753D582: from=<daemon@synaptic4u.co.za>, size=460, nrcpt=1 (queue active)
+Feb  7 19:44:45 daemon postfix/pickup[1079]: 8B5D93D587: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  7 19:44:45 daemon postfix/cleanup[2397]: 8B5D93D587: message-id=<20220207174445.8B5D93D587@daemon.synaptic4u.co.za>
+Feb  7 19:44:45 daemon postfix/qmgr[1080]: 8B5D93D587: from=<daemon@synaptic4u.co.za>, size=468, nrcpt=1 (queue active)
+Feb  7 19:44:45 daemon postfix/pickup[1079]: 915E13D588: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  7 19:44:45 daemon postfix/cleanup[2397]: 915E13D588: message-id=<20220207174445.915E13D588@daemon.synaptic4u.co.za>
+Feb  7 19:44:45 daemon postfix/qmgr[1080]: 915E13D588: from=<daemon@synaptic4u.co.za>, size=464, nrcpt=1 (queue active)
+Feb  7 19:44:45 daemon postfix/smtp[2417]: 75B773D28E: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=2.2, delays=0/0.01/0.75/1.4, dsn=2.0.0, status=sent (250 OK id=1nH84D-000qpQ-MD)
+Feb  7 19:44:45 daemon postfix/qmgr[1080]: 75B773D28E: removed
+Feb  7 19:44:46 daemon postfix/smtp[2411]: 4231C3CF53: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=1.2, delays=0.01/0/0.74/0.48, dsn=2.0.0, status=sent (250 OK id=1nH84E-000qrb-Vi)
+Feb  7 19:44:46 daemon postfix/qmgr[1080]: 4231C3CF53: removed
+Feb  7 19:44:46 daemon postfix/smtp[2423]: 775913CF61: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=1.2, delays=0.01/0/0.73/0.43, dsn=2.0.0, status=sent (250 OK id=1nH84F-000qsH-6E)
+Feb  7 19:44:46 daemon postfix/qmgr[1080]: 775913CF61: removed
+Feb  7 19:44:46 daemon postfix/smtp[2404]: 7B82D3CF62: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=1.2, delays=0.01/0/0.72/0.44, dsn=2.0.0, status=sent (250 OK id=1nH84F-000qsJ-6P)
+Feb  7 19:44:46 daemon postfix/qmgr[1080]: 7B82D3CF62: removed
+Feb  7 19:44:46 daemon postfix/smtp[2406]: 804C13D580: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=1.2, delays=0/0/0.72/0.44, dsn=2.0.0, status=sent (250 OK id=1nH84F-000qsL-78)
+Feb  7 19:44:46 daemon postfix/qmgr[1080]: 804C13D580: removed
+Feb  7 19:44:46 daemon postfix/smtp[2730]: 84D753D582: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=1.2, delays=0.01/0.02/0.72/0.45, dsn=2.0.0, status=sent (250 OK id=1nH84F-000qsT-8e)
+Feb  7 19:44:46 daemon postfix/qmgr[1080]: 84D753D582: removed
+Feb  7 19:44:46 daemon postfix/smtp[2736]: 8B5D93D587: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=1.2, delays=0.01/0.01/0.73/0.45, dsn=2.0.0, status=sent (250 OK id=1nH84F-000qsa-9I)
+Feb  7 19:44:46 daemon postfix/qmgr[1080]: 8B5D93D587: removed
+Feb  7 19:44:46 daemon postfix/smtp[2742]: 915E13D588: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=1.2, delays=0.01/0.01/0.73/0.44, dsn=2.0.0, status=sent (250 OK id=1nH84F-000qsu-A6)
+Feb  7 19:44:46 daemon postfix/qmgr[1080]: 915E13D588: removed
+Feb  7 19:48:06 daemon postfix/scache[2686]: statistics: start interval Feb  7 19:44:45
+Feb  7 19:48:06 daemon postfix/scache[2686]: statistics: domain lookup hits=0 miss=7 success=0%
+Feb  7 19:48:06 daemon postfix/scache[2686]: statistics: address lookup hits=0 miss=7 success=0%
+Feb  7 19:49:45 daemon postfix/pickup[1079]: 6A6D33D5D2: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  7 19:49:45 daemon postfix/cleanup[3149]: 6A6D33D5D2: message-id=<20220207174945.6A6D33D5D2@daemon.synaptic4u.co.za>
+Feb  7 19:49:45 daemon postfix/qmgr[1080]: 6A6D33D5D2: from=<daemon@synaptic4u.co.za>, size=600, nrcpt=1 (queue active)
+Feb  7 19:49:46 daemon postfix/smtp[3151]: 6A6D33D5D2: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=33, delays=31/0.01/0.73/0.72, dsn=2.0.0, status=sent (250 OK id=1nH895-000xKk-E8)
+Feb  7 19:49:46 daemon postfix/qmgr[1080]: 6A6D33D5D2: removed
+Feb  7 21:23:37 daemon postfix/pickup[3365]: C27AF3D5F1: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  7 21:23:37 daemon postfix/cleanup[4271]: C27AF3D5F1: message-id=<20220207192337.C27AF3D5F1@daemon.synaptic4u.co.za>
+Feb  7 21:23:37 daemon postfix/qmgr[1080]: C27AF3D5F1: from=<daemon@synaptic4u.co.za>, size=1835, nrcpt=1 (queue active)
+Feb  7 21:23:39 daemon postfix/smtp[4273]: C27AF3D5F1: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=2.5, delays=0.59/0.02/1.2/0.65, dsn=2.0.0, status=sent (250 OK id=1nH9bw-000c3n-C5)
+Feb  7 21:23:39 daemon postfix/qmgr[1080]: C27AF3D5F1: removed
+Feb  7 21:41:16 daemon postfix/pickup[3365]: 66CB43D5FE: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  7 21:41:16 daemon postfix/cleanup[4399]: 66CB43D5FE: message-id=<20220207194116.66CB43D5FE@daemon.synaptic4u.co.za>
+Feb  7 21:41:16 daemon postfix/qmgr[1080]: 66CB43D5FE: from=<daemon@synaptic4u.co.za>, size=2731, nrcpt=1 (queue active)
+Feb  7 21:41:17 daemon postfix/smtp[4401]: 66CB43D5FE: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=1.5, delays=0.04/0.01/0.82/0.67, dsn=2.0.0, status=sent (250 OK id=1nH9t0-000wz8-Jm)
+Feb  7 21:41:17 daemon postfix/qmgr[1080]: 66CB43D5FE: removed
+Feb  7 21:49:35 daemon postfix/pickup[3365]: AC7793D60D: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  7 21:49:35 daemon postfix/cleanup[4443]: AC7793D60D: message-id=<20220207194935.AC7793D60D@daemon.synaptic4u.co.za>
+Feb  7 21:49:35 daemon postfix/qmgr[1080]: AC7793D60D: from=<daemon@synaptic4u.co.za>, size=2554, nrcpt=1 (queue active)
+Feb  7 21:49:37 daemon postfix/smtp[4445]: AC7793D60D: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=33, delays=32/0.01/0.73/0.6, dsn=2.0.0, status=sent (250 OK id=1nHA13-00050H-Ph)
+Feb  7 21:49:37 daemon postfix/qmgr[1080]: AC7793D60D: removed
+Feb  7 22:00:16 daemon postfix/pickup[3365]: F1AE03D622: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  7 22:00:16 daemon postfix/cleanup[4498]: F1AE03D622: message-id=<20220207200016.F1AE03D622@daemon.synaptic4u.co.za>
+Feb  7 22:00:17 daemon postfix/qmgr[1080]: F1AE03D622: from=<daemon@synaptic4u.co.za>, size=4162, nrcpt=1 (queue active)
+Feb  7 22:00:18 daemon postfix/smtp[4500]: F1AE03D622: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=34, delays=32/0.01/0.72/0.94, dsn=2.0.0, status=sent (250 OK id=1nHABP-000Hg2-9U)
+Feb  7 22:00:18 daemon postfix/qmgr[1080]: F1AE03D622: removed
+Feb  7 22:13:49 daemon postfix/pickup[4504]: 0D4AC3D624: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  7 22:13:49 daemon postfix/cleanup[4619]: 0D4AC3D624: message-id=<20220207201349.0D4AC3D624@daemon.synaptic4u.co.za>
+Feb  7 22:13:49 daemon postfix/qmgr[1080]: 0D4AC3D624: from=<daemon@synaptic4u.co.za>, size=2526, nrcpt=1 (queue active)
+Feb  7 22:13:50 daemon postfix/smtp[4621]: 0D4AC3D624: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=1.7, delays=0.05/0.01/0.98/0.66, dsn=2.0.0, status=sent (250 OK id=1nHAOV-000XiA-Ek)
+Feb  7 22:13:50 daemon postfix/qmgr[1080]: 0D4AC3D624: removed
+Feb  7 22:18:35 daemon postfix/pickup[4504]: D723E3D626: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  7 22:18:35 daemon postfix/cleanup[4659]: D723E3D626: message-id=<20220207201835.D723E3D626@daemon.synaptic4u.co.za>
+Feb  7 22:18:35 daemon postfix/qmgr[1080]: D723E3D626: from=<daemon@synaptic4u.co.za>, size=3617, nrcpt=1 (queue active)
+Feb  7 22:18:37 daemon postfix/smtp[4661]: D723E3D626: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=1.5, delays=0.37/0.01/0.74/0.43, dsn=2.0.0, status=sent (250 OK id=1nHAT7-000dqW-RL)
+Feb  7 22:18:37 daemon postfix/qmgr[1080]: D723E3D626: removed
+Feb  7 23:49:42 daemon postfix/pickup[4975]: CDBB83D63D: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  7 23:49:42 daemon postfix/cleanup[5004]: CDBB83D63D: message-id=<20220207214942.CDBB83D63D@daemon.synaptic4u.co.za>
+Feb  7 23:49:42 daemon postfix/qmgr[1080]: CDBB83D63D: from=<daemon@synaptic4u.co.za>, size=3149, nrcpt=1 (queue active)
+Feb  7 23:49:45 daemon postfix/smtp[5006]: CDBB83D63D: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=2.4, delays=0.04/0.01/1.4/0.92, dsn=2.0.0, status=sent (250 OK id=1nHBtK-000PD2-1a)
+Feb  7 23:49:45 daemon postfix/qmgr[1080]: CDBB83D63D: removed
+Feb  8 01:09:01 daemon postfix/pickup[4975]: 7759C3D676: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  8 01:09:01 daemon postfix/cleanup[5303]: 7759C3D676: message-id=<20220207230901.7759C3D676@daemon.synaptic4u.co.za>
+Feb  8 01:09:01 daemon postfix/qmgr[1080]: 7759C3D676: from=<daemon@synaptic4u.co.za>, size=2969, nrcpt=1 (queue active)
+Feb  8 01:09:03 daemon postfix/smtp[5310]: 7759C3D676: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=2.4, delays=0.34/0.01/1.4/0.69, dsn=2.0.0, status=sent (250 OK id=1nHD84-000z7f-JK)
+Feb  8 01:09:03 daemon postfix/qmgr[1080]: 7759C3D676: removed
+Feb  8 01:49:43 daemon postfix/smtpd[5487]: warning: hostname mx131.getcoopers.com does not resolve to address 212.192.241.131: Name or service not known
+Feb  8 01:49:43 daemon postfix/smtpd[5487]: connect from unknown[212.192.241.131]
+Feb  8 01:49:43 daemon postfix/smtpd[5487]: NOQUEUE: reject: RCPT from unknown[212.192.241.131]: 454 4.7.1 <spameri@tiscali.it>: Relay access denied; from=<spameri@tiscali.it> to=<spameri@tiscali.it> proto=ESMTP helo=<WIN-CLJ1B0GQ6JP>
+Feb  8 01:49:43 daemon postfix/smtpd[5487]: disconnect from unknown[212.192.241.131] ehlo=1 mail=1 rcpt=0/1 rset=1 quit=1 commands=4/5
+Feb  8 01:53:03 daemon postfix/anvil[5489]: statistics: max connection rate 1/60s for (smtp:212.192.241.131) at Feb  8 01:49:43
+Feb  8 01:53:03 daemon postfix/anvil[5489]: statistics: max connection count 1 for (smtp:212.192.241.131) at Feb  8 01:49:43
+Feb  8 01:53:03 daemon postfix/anvil[5489]: statistics: max cache size 1 at Feb  8 01:49:43
+Feb  8 02:26:41 daemon postfix/pickup[5396]: C83D03D67A: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  8 02:26:41 daemon postfix/cleanup[5618]: C83D03D67A: message-id=<20220208002641.C83D03D67A@daemon.synaptic4u.co.za>
+Feb  8 02:26:41 daemon postfix/qmgr[1080]: C83D03D67A: from=<daemon@synaptic4u.co.za>, size=2605, nrcpt=1 (queue active)
+Feb  8 02:26:43 daemon postfix/smtp[5620]: C83D03D67A: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=2.6, delays=0.49/0.01/1.1/1, dsn=2.0.0, status=sent (250 OK id=1nHELF-000PtK-1H)
+Feb  8 02:26:43 daemon postfix/qmgr[1080]: C83D03D67A: removed
+Feb  8 02:39:55 daemon postfix/pickup[5396]: 5E26C3D681: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  8 02:39:55 daemon postfix/cleanup[5750]: 5E26C3D681: message-id=<20220208003955.5E26C3D681@daemon.synaptic4u.co.za>
+Feb  8 02:39:55 daemon postfix/qmgr[1080]: 5E26C3D681: from=<daemon@synaptic4u.co.za>, size=2349, nrcpt=1 (queue active)
+Feb  8 02:39:57 daemon postfix/smtp[5752]: 5E26C3D681: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=1.7, delays=0.08/0.01/0.75/0.87, dsn=2.0.0, status=sent (250 OK id=1nHEY2-000gHG-55)
+Feb  8 02:39:57 daemon postfix/qmgr[1080]: 5E26C3D681: removed
+Feb  8 02:43:57 daemon postfix/pickup[5396]: 3185B3D685: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  8 02:43:57 daemon postfix/cleanup[5784]: 3185B3D685: message-id=<20220208004357.3185B3D685@daemon.synaptic4u.co.za>
+Feb  8 02:43:57 daemon postfix/qmgr[1080]: 3185B3D685: from=<daemon@synaptic4u.co.za>, size=3799, nrcpt=1 (queue active)
+Feb  8 02:43:58 daemon postfix/smtp[5786]: 3185B3D685: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=1.5, delays=0.2/0.01/0.73/0.58, dsn=2.0.0, status=sent (250 OK id=1nHEbv-000lDG-Mq)
+Feb  8 02:43:58 daemon postfix/qmgr[1080]: 3185B3D685: removed
+Feb  8 03:25:28 daemon postfix/smtpd[5892]: warning: hostname 199.167.123.148.hvdata.net does not resolve to address 199.167.123.148: Name or service not known
+Feb  8 03:25:28 daemon postfix/smtpd[5892]: connect from unknown[199.167.123.148]
+Feb  8 03:25:28 daemon postfix/smtpd[5892]: lost connection after CONNECT from unknown[199.167.123.148]
+Feb  8 03:25:28 daemon postfix/smtpd[5892]: disconnect from unknown[199.167.123.148] commands=0/0
+Feb  8 03:28:48 daemon postfix/anvil[5894]: statistics: max connection rate 1/60s for (smtp:199.167.123.148) at Feb  8 03:25:28
+Feb  8 03:28:48 daemon postfix/anvil[5894]: statistics: max connection count 1 for (smtp:199.167.123.148) at Feb  8 03:25:28
+Feb  8 03:28:48 daemon postfix/anvil[5894]: statistics: max cache size 1 at Feb  8 03:25:28
+Feb  8 04:14:04 daemon postfix/smtpd[6071]: connect from unknown[43.131.66.209]
+Feb  8 04:14:06 daemon postfix/smtpd[6071]: lost connection after CONNECT from unknown[43.131.66.209]
+Feb  8 04:14:06 daemon postfix/smtpd[6071]: disconnect from unknown[43.131.66.209] commands=0/0
+Feb  8 04:17:26 daemon postfix/anvil[6073]: statistics: max connection rate 1/60s for (smtp:43.131.66.209) at Feb  8 04:14:04
+Feb  8 04:17:26 daemon postfix/anvil[6073]: statistics: max connection count 1 for (smtp:43.131.66.209) at Feb  8 04:14:04
+Feb  8 04:17:26 daemon postfix/anvil[6073]: statistics: max cache size 1 at Feb  8 04:14:04
+Feb  8 04:58:53 daemon postfix/smtpd[6175]: connect from scan-15.shadowserver.org[184.105.247.196]
+Feb  8 04:58:53 daemon postfix/smtpd[6175]: lost connection after CONNECT from scan-15.shadowserver.org[184.105.247.196]
+Feb  8 04:58:53 daemon postfix/smtpd[6175]: disconnect from scan-15.shadowserver.org[184.105.247.196] commands=0/0
+Feb  8 05:02:14 daemon postfix/anvil[6177]: statistics: max connection rate 1/60s for (smtp:184.105.247.196) at Feb  8 04:58:53
+Feb  8 05:02:14 daemon postfix/anvil[6177]: statistics: max connection count 1 for (smtp:184.105.247.196) at Feb  8 04:58:53
+Feb  8 05:02:14 daemon postfix/anvil[6177]: statistics: max cache size 1 at Feb  8 04:58:53
+Feb  8 06:27:50 daemon postfix/pickup[6523]: 8156D3D6A2: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  8 06:27:50 daemon postfix/cleanup[6626]: 8156D3D6A2: message-id=<20220208042750.8156D3D6A2@daemon.synaptic4u.co.za>
+Feb  8 06:27:50 daemon postfix/qmgr[1080]: 8156D3D6A2: from=<daemon@synaptic4u.co.za>, size=2388, nrcpt=1 (queue active)
+Feb  8 06:27:52 daemon postfix/smtp[6628]: 8156D3D6A2: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=2.1, delays=0.04/0.01/1.3/0.73, dsn=2.0.0, status=sent (250 OK id=1nHI6c-0011vj-2r)
+Feb  8 06:27:52 daemon postfix/qmgr[1080]: 8156D3D6A2: removed
+Feb  8 06:31:07 daemon postfix/pickup[6523]: E45F53D6A4: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  8 06:31:07 daemon postfix/cleanup[6660]: E45F53D6A4: message-id=<20220208043107.E45F53D6A4@daemon.synaptic4u.co.za>
+Feb  8 06:31:07 daemon postfix/qmgr[1080]: E45F53D6A4: from=<daemon@synaptic4u.co.za>, size=2966, nrcpt=1 (queue active)
+Feb  8 06:31:09 daemon postfix/smtp[6662]: E45F53D6A4: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=2.4, delays=0.45/0.02/1.2/0.65, dsn=2.0.0, status=sent (250 OK id=1nHI9n-0002gb-BR)
+Feb  8 06:31:09 daemon postfix/qmgr[1080]: E45F53D6A4: removed
+Feb  8 06:31:17 daemon postfix/pickup[6523]: 8D1093D6A5: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  8 06:31:17 daemon postfix/cleanup[6660]: 8D1093D6A5: message-id=<20220208043117.8D1093D6A5@daemon.synaptic4u.co.za>
+Feb  8 06:31:17 daemon postfix/qmgr[1080]: 8D1093D6A5: from=<daemon@synaptic4u.co.za>, size=2969, nrcpt=1 (queue active)
+Feb  8 06:31:18 daemon postfix/smtp[6662]: 8D1093D6A5: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=1.6, delays=0.32/0/0.82/0.45, dsn=2.0.0, status=sent (250 OK id=1nHI9w-0002jq-A8)
+Feb  8 06:31:18 daemon postfix/qmgr[1080]: 8D1093D6A5: removed
+Feb  8 06:32:56 daemon postfix/pickup[6523]: 207B93D6A7: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  8 06:32:56 daemon postfix/cleanup[6660]: 207B93D6A7: message-id=<20220208043256.207B93D6A7@daemon.synaptic4u.co.za>
+Feb  8 06:32:56 daemon postfix/qmgr[1080]: 207B93D6A7: from=<daemon@synaptic4u.co.za>, size=2966, nrcpt=1 (queue active)
+Feb  8 06:32:57 daemon postfix/smtp[6662]: 207B93D6A7: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=1.7, delays=0.31/0/0.74/0.64, dsn=2.0.0, status=sent (250 OK id=1nHIBW-0003rm-Vs)
+Feb  8 06:32:57 daemon postfix/qmgr[1080]: 207B93D6A7: removed
+Feb  8 08:54:01 daemon postfix/pickup[7037]: 6240B3D6B7: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  8 08:54:01 daemon postfix/cleanup[7246]: 6240B3D6B7: message-id=<20220208065401.6240B3D6B7@daemon.synaptic4u.co.za>
+Feb  8 08:54:01 daemon postfix/qmgr[1080]: 6240B3D6B7: from=<daemon@synaptic4u.co.za>, size=2604, nrcpt=1 (queue active)
+Feb  8 08:54:03 daemon postfix/smtp[7248]: 6240B3D6B7: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=2.4, delays=0.32/0.01/1.6/0.55, dsn=2.0.0, status=sent (250 OK id=1nHKO5-000bF2-6Y)
+Feb  8 08:54:03 daemon postfix/qmgr[1080]: 6240B3D6B7: removed
+Feb  8 09:01:14 daemon postfix/smtpd[7256]: connect from scan-57-26.security.ipip.net[103.203.57.26]
+Feb  8 09:01:14 daemon postfix/smtpd[7256]: lost connection after CONNECT from scan-57-26.security.ipip.net[103.203.57.26]
+Feb  8 09:01:14 daemon postfix/smtpd[7256]: disconnect from scan-57-26.security.ipip.net[103.203.57.26] commands=0/0
+Feb  8 09:04:34 daemon postfix/anvil[7258]: statistics: max connection rate 1/60s for (smtp:103.203.57.26) at Feb  8 09:01:14
+Feb  8 09:04:34 daemon postfix/anvil[7258]: statistics: max connection count 1 for (smtp:103.203.57.26) at Feb  8 09:01:14
+Feb  8 09:04:34 daemon postfix/anvil[7258]: statistics: max cache size 1 at Feb  8 09:01:14
+Feb  8 09:29:05 daemon postfix/pickup[7037]: 5A9CA3D6B9: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  8 09:29:05 daemon postfix/cleanup[7440]: 5A9CA3D6B9: message-id=<20220208072905.5A9CA3D6B9@daemon.synaptic4u.co.za>
+Feb  8 09:29:05 daemon postfix/qmgr[1080]: 5A9CA3D6B9: from=<daemon@synaptic4u.co.za>, size=3121, nrcpt=1 (queue active)
+Feb  8 09:29:07 daemon postfix/smtp[7442]: 5A9CA3D6B9: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=34, delays=32/0.01/0.88/0.82, dsn=2.0.0, status=sent (250 OK id=1nHKw0-000Adc-Pa)
+Feb  8 09:29:07 daemon postfix/qmgr[1080]: 5A9CA3D6B9: removed
+Feb  8 10:04:22 daemon postfix/pickup[7444]: 369823D6C6: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  8 10:04:22 daemon postfix/cleanup[7583]: 369823D6C6: message-id=<20220208080422.369823D6C6@daemon.synaptic4u.co.za>
+Feb  8 10:04:22 daemon postfix/qmgr[1080]: 369823D6C6: from=<daemon@synaptic4u.co.za>, size=2488, nrcpt=1 (queue active)
+Feb  8 10:04:24 daemon postfix/smtp[7585]: 369823D6C6: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=2.4, delays=0.05/0.01/1.6/0.77, dsn=2.0.0, status=sent (250 OK id=1nHLUA-000pZh-9N)
+Feb  8 10:04:24 daemon postfix/qmgr[1080]: 369823D6C6: removed
+Feb  8 10:14:36 daemon postfix/pickup[7444]: 5D9853D6CA: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  8 10:14:36 daemon postfix/cleanup[7702]: 5D9853D6CA: message-id=<20220208081436.5D9853D6CA@daemon.synaptic4u.co.za>
+Feb  8 10:14:36 daemon postfix/qmgr[1080]: 5D9853D6CA: from=<daemon@synaptic4u.co.za>, size=2485, nrcpt=1 (queue active)
+Feb  8 10:14:37 daemon postfix/smtp[7704]: 5D9853D6CA: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=1.4, delays=0.06/0.01/0.74/0.63, dsn=2.0.0, status=sent (250 OK id=1nHLe3-0000MF-IS)
+Feb  8 10:14:37 daemon postfix/qmgr[1080]: 5D9853D6CA: removed
+Feb  8 12:44:55 daemon postfix/pickup[7896]: 260933D6D4: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  8 12:44:55 daemon postfix/cleanup[8934]: 260933D6D4: message-id=<20220208104455.260933D6D4@daemon.synaptic4u.co.za>
+Feb  8 12:44:55 daemon postfix/qmgr[1080]: 260933D6D4: from=<daemon@synaptic4u.co.za>, size=2482, nrcpt=1 (queue active)
+Feb  8 12:44:56 daemon postfix/smtp[8936]: 260933D6D4: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=1.8, delays=0.04/0.01/1.1/0.63, dsn=2.0.0, status=sent (250 OK id=1nHNzW-000cc7-US)
+Feb  8 12:44:56 daemon postfix/qmgr[1080]: 260933D6D4: removed
+Feb  8 13:46:02 daemon postfix/pickup[8943]: 317393D6D6: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  8 13:46:02 daemon postfix/cleanup[9175]: 317393D6D6: message-id=<20220208114602.317393D6D6@daemon.synaptic4u.co.za>
+Feb  8 13:46:02 daemon postfix/qmgr[1080]: 317393D6D6: from=<daemon@synaptic4u.co.za>, size=2969, nrcpt=1 (queue active)
+Feb  8 13:46:04 daemon postfix/smtp[9177]: 317393D6D6: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=2.5, delays=0.22/0.01/1.5/0.77, dsn=2.0.0, status=sent (250 OK id=1nHOwg-000dvI-Lx)
+Feb  8 13:46:04 daemon postfix/qmgr[1080]: 317393D6D6: removed
+Feb  8 14:25:00 daemon postfix/pickup[8943]: 884203D6E0: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  8 14:25:00 daemon postfix/cleanup[9307]: 884203D6E0: message-id=<20220208122500.884203D6E0@daemon.synaptic4u.co.za>
+Feb  8 14:25:00 daemon postfix/qmgr[1080]: 884203D6E0: from=<daemon@synaptic4u.co.za>, size=2485, nrcpt=1 (queue active)
+Feb  8 14:25:02 daemon postfix/smtp[9309]: 884203D6E0: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=2, delays=0.07/0.01/1.2/0.68, dsn=2.0.0, status=sent (250 OK id=1nHPYO-000FjZ-LM)
+Feb  8 14:25:02 daemon postfix/qmgr[1080]: 884203D6E0: removed
+Feb  8 15:28:08 daemon postfix/pickup[9316]: 9AD3B3D6E7: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  8 15:28:08 daemon postfix/cleanup[9533]: 9AD3B3D6E7: message-id=<20220208132808.9AD3B3D6E7@daemon.synaptic4u.co.za>
+Feb  8 15:28:08 daemon postfix/qmgr[1080]: 9AD3B3D6E7: from=<daemon@synaptic4u.co.za>, size=3666, nrcpt=1 (queue active)
+Feb  8 15:28:10 daemon postfix/smtp[9535]: 9AD3B3D6E7: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=2, delays=0.05/0.01/1.3/0.66, dsn=2.0.0, status=sent (250 OK id=1nHQXU-000Lx0-SL)
+Feb  8 15:28:10 daemon postfix/qmgr[1080]: 9AD3B3D6E7: removed
+Feb  8 17:30:30 daemon postfix/pickup[9990]: 6AA284104A: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  8 17:30:30 daemon postfix/cleanup[11409]: 6AA284104A: message-id=<20220208153030.6AA284104A@daemon.synaptic4u.co.za>
+Feb  8 17:30:30 daemon postfix/qmgr[1080]: 6AA284104A: from=<daemon@synaptic4u.co.za>, size=2687, nrcpt=1 (queue active)
+Feb  8 17:30:32 daemon postfix/smtp[11411]: 6AA284104A: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=2, delays=0.06/0.03/1.1/0.79, dsn=2.0.0, status=sent (250 OK id=1nHSRu-000MtE-MS)
+Feb  8 17:30:32 daemon postfix/qmgr[1080]: 6AA284104A: removed
+Feb  8 18:11:06 daemon postfix/pickup[11540]: 2AD573D6F6: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  8 18:11:06 daemon postfix/cleanup[12377]: 2AD573D6F6: message-id=<20220208161106.2AD573D6F6@daemon.synaptic4u.co.za>
+Feb  8 18:11:06 daemon postfix/qmgr[1080]: 2AD573D6F6: from=<daemon@synaptic4u.co.za>, size=2969, nrcpt=1 (queue active)
+Feb  8 18:11:08 daemon postfix/smtp[12379]: 2AD573D6F6: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=3, delays=0.32/0.01/2.1/0.61, dsn=2.0.0, status=sent (250 OK id=1nHT5D-0011Bn-C7)
+Feb  8 18:11:08 daemon postfix/qmgr[1080]: 2AD573D6F6: removed
+Feb  8 18:15:21 daemon postfix/smtpd[12393]: connect from scanner-26.ch1.censys-scanner.com[167.248.133.117]
+Feb  8 18:15:22 daemon postfix/smtpd[12393]: lost connection after STARTTLS from scanner-26.ch1.censys-scanner.com[167.248.133.117]
+Feb  8 18:15:22 daemon postfix/smtpd[12393]: disconnect from scanner-26.ch1.censys-scanner.com[167.248.133.117] ehlo=1 starttls=1 commands=2
+Feb  8 18:18:42 daemon postfix/anvil[12395]: statistics: max connection rate 1/60s for (smtp:167.248.133.117) at Feb  8 18:15:21
+Feb  8 18:18:42 daemon postfix/anvil[12395]: statistics: max connection count 1 for (smtp:167.248.133.117) at Feb  8 18:15:21
+Feb  8 18:18:42 daemon postfix/anvil[12395]: statistics: max cache size 1 at Feb  8 18:15:21
+Feb  8 18:56:52 daemon postfix/smtpd[12519]: warning: hostname 178-73-215-171-static.glesys.net does not resolve to address 178.73.215.171: Name or service not known
+Feb  8 18:56:52 daemon postfix/smtpd[12519]: connect from unknown[178.73.215.171]
+Feb  8 18:57:02 daemon postfix/smtpd[12519]: lost connection after CONNECT from unknown[178.73.215.171]
+Feb  8 18:57:02 daemon postfix/smtpd[12519]: disconnect from unknown[178.73.215.171] commands=0/0
+Feb  8 19:00:22 daemon postfix/anvil[12521]: statistics: max connection rate 1/60s for (smtp:178.73.215.171) at Feb  8 18:56:52
+Feb  8 19:00:22 daemon postfix/anvil[12521]: statistics: max connection count 1 for (smtp:178.73.215.171) at Feb  8 18:56:52
+Feb  8 19:00:22 daemon postfix/anvil[12521]: statistics: max cache size 1 at Feb  8 18:56:52
+Feb  8 19:46:37 daemon postfix/smtpd[12743]: connect from scanner-07.ch1.censys-scanner.com[167.94.138.61]
+Feb  8 19:46:37 daemon postfix/smtpd[12743]: lost connection after STARTTLS from scanner-07.ch1.censys-scanner.com[167.94.138.61]
+Feb  8 19:46:37 daemon postfix/smtpd[12743]: disconnect from scanner-07.ch1.censys-scanner.com[167.94.138.61] ehlo=1 starttls=1 commands=2
+Feb  8 19:49:57 daemon postfix/anvil[12745]: statistics: max connection rate 1/60s for (smtp:167.94.138.61) at Feb  8 19:46:37
+Feb  8 19:49:57 daemon postfix/anvil[12745]: statistics: max connection count 1 for (smtp:167.94.138.61) at Feb  8 19:46:37
+Feb  8 19:49:57 daemon postfix/anvil[12745]: statistics: max cache size 1 at Feb  8 19:46:37
+Feb  8 19:58:50 daemon postfix/smtpd[12767]: connect from unknown[2.57.122.18]
+Feb  8 19:58:50 daemon postfix/smtpd[12767]: lost connection after CONNECT from unknown[2.57.122.18]
+Feb  8 19:58:50 daemon postfix/smtpd[12767]: disconnect from unknown[2.57.122.18] commands=0/0
+Feb  8 19:58:50 daemon postfix/smtpd[12767]: connect from unknown[2.57.122.18]
+Feb  8 19:58:50 daemon postfix/smtpd[12767]: lost connection after STARTTLS from unknown[2.57.122.18]
+Feb  8 19:58:50 daemon postfix/smtpd[12767]: disconnect from unknown[2.57.122.18] starttls=1 commands=1
+Feb  8 20:02:10 daemon postfix/anvil[12769]: statistics: max connection rate 2/60s for (smtp:2.57.122.18) at Feb  8 19:58:50
+Feb  8 20:02:10 daemon postfix/anvil[12769]: statistics: max connection count 1 for (smtp:2.57.122.18) at Feb  8 19:58:50
+Feb  8 20:02:10 daemon postfix/anvil[12769]: statistics: max cache size 1 at Feb  8 19:58:50
+Feb  8 22:09:17 daemon postfix/pickup[12962]: 0A76E3D71C: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  8 22:09:17 daemon postfix/cleanup[13331]: 0A76E3D71C: message-id=<20220208200917.0A76E3D71C@daemon.synaptic4u.co.za>
+Feb  8 22:09:17 daemon postfix/qmgr[1080]: 0A76E3D71C: from=<daemon@synaptic4u.co.za>, size=2607, nrcpt=1 (queue active)
+Feb  8 22:09:18 daemon postfix/smtp[13333]: 0A76E3D71C: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=1.7, delays=0.22/0.03/0.81/0.67, dsn=2.0.0, status=sent (250 OK id=1nHWnh-000NLY-DQ)
+Feb  8 22:09:18 daemon postfix/qmgr[1080]: 0A76E3D71C: removed
+Feb  8 22:20:54 daemon postfix/smtpd[13677]: connect from unknown[45.83.64.2]
+Feb  8 22:20:54 daemon postfix/smtpd[13677]: lost connection after STARTTLS from unknown[45.83.64.2]
+Feb  8 22:20:54 daemon postfix/smtpd[13677]: disconnect from unknown[45.83.64.2] starttls=1 commands=1
+Feb  8 22:24:14 daemon postfix/anvil[13679]: statistics: max connection rate 1/60s for (smtp:45.83.64.2) at Feb  8 22:20:54
+Feb  8 22:24:14 daemon postfix/anvil[13679]: statistics: max connection count 1 for (smtp:45.83.64.2) at Feb  8 22:20:54
+Feb  8 22:24:14 daemon postfix/anvil[13679]: statistics: max cache size 1 at Feb  8 22:20:54
+Feb  8 22:32:39 daemon postfix/pickup[12962]: 126DA3D721: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  8 22:32:39 daemon postfix/cleanup[13711]: 126DA3D721: message-id=<20220208203239.126DA3D721@daemon.synaptic4u.co.za>
+Feb  8 22:32:39 daemon postfix/qmgr[1080]: 126DA3D721: from=<daemon@synaptic4u.co.za>, size=2750, nrcpt=1 (queue active)
+Feb  8 22:32:40 daemon postfix/smtp[13713]: 126DA3D721: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=1.9, delays=0.05/0.01/1.2/0.62, dsn=2.0.0, status=sent (250 OK id=1nHXAJ-000sLy-Qo)
+Feb  8 22:32:40 daemon postfix/qmgr[1080]: 126DA3D721: removed
+Feb  8 22:41:49 daemon postfix/pickup[12962]: E7E493D725: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  8 22:41:49 daemon postfix/cleanup[13831]: E7E493D725: message-id=<20220208204149.E7E493D725@daemon.synaptic4u.co.za>
+Feb  8 22:41:49 daemon postfix/qmgr[1080]: E7E493D725: from=<daemon@synaptic4u.co.za>, size=3257, nrcpt=1 (queue active)
+Feb  8 22:41:51 daemon postfix/smtp[13833]: E7E493D725: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=1.7, delays=0.06/0.01/0.96/0.63, dsn=2.0.0, status=sent (250 OK id=1nHXJC-00014J-Dv)
+Feb  8 22:41:51 daemon postfix/qmgr[1080]: E7E493D725: removed
+Feb  8 23:43:12 daemon postfix/pickup[13837]: AC0ED3D729: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  8 23:43:12 daemon postfix/cleanup[14075]: AC0ED3D729: message-id=<20220208214312.AC0ED3D729@daemon.synaptic4u.co.za>
+Feb  8 23:43:12 daemon postfix/qmgr[1080]: AC0ED3D729: from=<daemon@synaptic4u.co.za>, size=2803, nrcpt=1 (queue active)
+Feb  8 23:43:14 daemon postfix/smtp[14077]: AC0ED3D729: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=1.8, delays=0.05/0.01/1.2/0.59, dsn=2.0.0, status=sent (250 OK id=1nHYGb-0009Fs-Fi)
+Feb  8 23:43:14 daemon postfix/qmgr[1080]: AC0ED3D729: removed
+Feb  8 23:45:13 daemon postfix/pickup[13837]: 98C013D72B: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  8 23:45:13 daemon postfix/cleanup[14112]: 98C013D72B: message-id=<20220208214513.98C013D72B@daemon.synaptic4u.co.za>
+Feb  8 23:45:13 daemon postfix/qmgr[1080]: 98C013D72B: from=<daemon@synaptic4u.co.za>, size=1919, nrcpt=1 (queue active)
+Feb  8 23:45:15 daemon postfix/smtp[14114]: 98C013D72B: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=1.5, delays=0.05/0.01/0.8/0.67, dsn=2.0.0, status=sent (250 OK id=1nHYIY-000BbK-2K)
+Feb  8 23:45:15 daemon postfix/qmgr[1080]: 98C013D72B: removed
+Feb  9 00:01:49 daemon postfix/pickup[13837]: 6D0063D737: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  9 00:01:49 daemon postfix/cleanup[14225]: 6D0063D737: message-id=<20220208220149.6D0063D737@daemon.synaptic4u.co.za>
+Feb  9 00:01:49 daemon postfix/qmgr[1080]: 6D0063D737: from=<daemon@synaptic4u.co.za>, size=2855, nrcpt=1 (queue active)
+Feb  9 00:01:51 daemon postfix/smtp[14227]: 6D0063D737: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=2.3, delays=0.35/0.01/1.1/0.85, dsn=2.0.0, status=sent (250 OK id=1nHYYc-000UiF-D9)
+Feb  9 00:01:51 daemon postfix/qmgr[1080]: 6D0063D737: removed
+Feb  9 00:46:00 daemon postfix/smtpd[14412]: warning: hostname no-reverse-dns-configured.com does not resolve to address 31.210.20.127
+Feb  9 00:46:00 daemon postfix/smtpd[14412]: connect from unknown[31.210.20.127]
+Feb  9 00:46:01 daemon postfix/smtpd[14412]: NOQUEUE: reject: RCPT from unknown[31.210.20.127]: 454 4.7.1 <spameri@tiscali.it>: Relay access denied; from=<spameri@tiscali.it> to=<spameri@tiscali.it> proto=ESMTP helo=<WIN-HM6FI4VOIEP>
+Feb  9 00:46:02 daemon postfix/smtpd[14412]: disconnect from unknown[31.210.20.127] ehlo=1 mail=1 rcpt=0/1 rset=1 quit=1 commands=4/5
+Feb  9 00:49:22 daemon postfix/anvil[14414]: statistics: max connection rate 1/60s for (smtp:31.210.20.127) at Feb  9 00:46:00
+Feb  9 00:49:22 daemon postfix/anvil[14414]: statistics: max connection count 1 for (smtp:31.210.20.127) at Feb  9 00:46:00
+Feb  9 00:49:22 daemon postfix/anvil[14414]: statistics: max cache size 1 at Feb  9 00:46:00
+Feb  9 01:15:06 daemon postfix/pickup[14320]: 90D4E3D73B: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  9 01:15:06 daemon postfix/cleanup[14551]: 90D4E3D73B: message-id=<20220208231506.90D4E3D73B@daemon.synaptic4u.co.za>
+Feb  9 01:15:06 daemon postfix/qmgr[1080]: 90D4E3D73B: from=<daemon@synaptic4u.co.za>, size=2969, nrcpt=1 (queue active)
+Feb  9 01:15:09 daemon postfix/smtp[14553]: 90D4E3D73B: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=2.7, delays=0.22/0.02/1.6/0.81, dsn=2.0.0, status=sent (250 OK id=1nHZhY-000tif-4q)
+Feb  9 01:15:09 daemon postfix/qmgr[1080]: 90D4E3D73B: removed
+Feb  9 01:46:35 daemon postfix/pickup[14320]: 628DC3D741: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  9 01:46:35 daemon postfix/cleanup[14680]: 628DC3D741: message-id=<20220208234635.628DC3D741@daemon.synaptic4u.co.za>
+Feb  9 01:46:35 daemon postfix/qmgr[1080]: 628DC3D741: from=<daemon@synaptic4u.co.za>, size=2969, nrcpt=1 (queue active)
+Feb  9 01:46:37 daemon postfix/smtp[14682]: 628DC3D741: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=2.2, delays=0.33/0.01/1.2/0.67, dsn=2.0.0, status=sent (250 OK id=1nHaC0-000VS8-CU)
+Feb  9 01:46:37 daemon postfix/qmgr[1080]: 628DC3D741: removed
+Feb  9 01:59:02 daemon postfix/pickup[14717]: 230EB3D743: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  9 01:59:02 daemon postfix/cleanup[14718]: 230EB3D743: message-id=<20220208235902.230EB3D743@daemon.synaptic4u.co.za>
+Feb  9 01:59:02 daemon postfix/qmgr[1080]: 230EB3D743: from=<daemon@synaptic4u.co.za>, size=2969, nrcpt=1 (queue active)
+Feb  9 01:59:03 daemon postfix/smtp[14720]: 230EB3D743: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=1.8, delays=0.47/0.01/0.73/0.63, dsn=2.0.0, status=sent (250 OK id=1nHaO2-000l5N-M6)
+Feb  9 01:59:03 daemon postfix/qmgr[1080]: 230EB3D743: removed
+Feb  9 02:10:42 daemon postfix/pickup[14717]: 6F7D13D748: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  9 02:10:42 daemon postfix/cleanup[14835]: 6F7D13D748: message-id=<20220209001042.6F7D13D748@daemon.synaptic4u.co.za>
+Feb  9 02:10:42 daemon postfix/qmgr[1080]: 6F7D13D748: from=<daemon@synaptic4u.co.za>, size=3303, nrcpt=1 (queue active)
+Feb  9 02:10:44 daemon postfix/smtp[14837]: 6F7D13D748: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=1.7, delays=0.05/0.01/0.91/0.72, dsn=2.0.0, status=sent (250 OK id=1nHaZL-000zp3-8Z)
+Feb  9 02:10:44 daemon postfix/qmgr[1080]: 6F7D13D748: removed
+Feb  9 03:16:35 daemon postfix/smtpd[15083]: connect from unknown[117.50.38.174]
+Feb  9 03:16:36 daemon postfix/smtpd[15083]: lost connection after UNKNOWN from unknown[117.50.38.174]
+Feb  9 03:16:36 daemon postfix/smtpd[15083]: disconnect from unknown[117.50.38.174] ehlo=1 unknown=0/1 commands=1/2
+Feb  9 03:19:56 daemon postfix/anvil[15085]: statistics: max connection rate 1/60s for (smtp:117.50.38.174) at Feb  9 03:16:35
+Feb  9 03:19:56 daemon postfix/anvil[15085]: statistics: max connection count 1 for (smtp:117.50.38.174) at Feb  9 03:16:35
+Feb  9 03:19:56 daemon postfix/anvil[15085]: statistics: max cache size 1 at Feb  9 03:16:35
+Feb  9 05:47:42 daemon postfix/pickup[15456]: CD7EB3D764: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  9 05:47:42 daemon postfix/cleanup[15576]: CD7EB3D764: message-id=<20220209034742.CD7EB3D764@daemon.synaptic4u.co.za>
+Feb  9 05:47:42 daemon postfix/qmgr[1080]: CD7EB3D764: from=<daemon@synaptic4u.co.za>, size=1852, nrcpt=1 (queue active)
+Feb  9 05:47:44 daemon postfix/smtp[15578]: CD7EB3D764: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=1.7, delays=0.05/0.01/0.96/0.66, dsn=2.0.0, status=sent (250 OK id=1nHdxL-0003c6-W0)
+Feb  9 05:47:44 daemon postfix/qmgr[1080]: CD7EB3D764: removed
+Feb  9 07:52:58 daemon postfix/pickup[16633]: 2C1E63D76F: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  9 07:52:58 daemon postfix/cleanup[16913]: 2C1E63D76F: message-id=<20220209055258.2C1E63D76F@daemon.synaptic4u.co.za>
+Feb  9 07:52:58 daemon postfix/qmgr[1080]: 2C1E63D76F: from=<daemon@synaptic4u.co.za>, size=3736, nrcpt=1 (queue active)
+Feb  9 07:52:59 daemon postfix/smtp[16915]: 2C1E63D76F: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=1.8, delays=0.32/0.01/0.81/0.65, dsn=2.0.0, status=sent (250 OK id=1nHfuZ-000WLB-Ao)
+Feb  9 07:52:59 daemon postfix/qmgr[1080]: 2C1E63D76F: removed
+Feb  9 08:11:23 daemon postfix/pickup[16633]: D95D43D774: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  9 08:11:23 daemon postfix/cleanup[17034]: D95D43D774: message-id=<20220209061123.D95D43D774@daemon.synaptic4u.co.za>
+Feb  9 08:11:23 daemon postfix/qmgr[1080]: D95D43D774: from=<daemon@synaptic4u.co.za>, size=2256, nrcpt=1 (queue active)
+Feb  9 08:11:25 daemon postfix/smtp[17036]: D95D43D774: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=1.7, delays=0.05/0.02/1/0.62, dsn=2.0.0, status=sent (250 OK id=1nHgCP-000re1-9h)
+Feb  9 08:11:25 daemon postfix/qmgr[1080]: D95D43D774: removed
+Feb  9 08:17:53 daemon postfix/pickup[16633]: 657C63D776: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  9 08:17:53 daemon postfix/cleanup[17074]: 657C63D776: message-id=<20220209061753.657C63D776@daemon.synaptic4u.co.za>
+Feb  9 08:17:53 daemon postfix/qmgr[1080]: 657C63D776: from=<daemon@synaptic4u.co.za>, size=2969, nrcpt=1 (queue active)
+Feb  9 08:17:55 daemon postfix/smtp[17076]: 657C63D776: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=2.5, delays=0.33/0.01/0.8/1.4, dsn=2.0.0, status=sent (250 OK id=1nHgIg-000wmr-Ju)
+Feb  9 08:17:55 daemon postfix/qmgr[1080]: 657C63D776: removed
+Feb  9 08:18:49 daemon postfix/pickup[16633]: 1B8313D778: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  9 08:18:49 daemon postfix/cleanup[17074]: 1B8313D778: message-id=<20220209061849.1B8313D778@daemon.synaptic4u.co.za>
+Feb  9 08:18:49 daemon postfix/qmgr[1080]: 1B8313D778: from=<daemon@synaptic4u.co.za>, size=2969, nrcpt=1 (queue active)
+Feb  9 08:18:50 daemon postfix/smtp[17076]: 1B8313D778: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=1.5, delays=0.29/0/0.75/0.43, dsn=2.0.0, status=sent (250 OK id=1nHgJa-000xLy-1h)
+Feb  9 08:18:50 daemon postfix/qmgr[1080]: 1B8313D778: removed
+Feb  9 08:21:18 daemon postfix/pickup[16633]: 5C12D3D77A: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  9 08:21:18 daemon postfix/cleanup[17136]: 5C12D3D77A: message-id=<20220209062118.5C12D3D77A@daemon.synaptic4u.co.za>
+Feb  9 08:21:18 daemon postfix/qmgr[1080]: 5C12D3D77A: from=<daemon@synaptic4u.co.za>, size=2969, nrcpt=1 (queue active)
+Feb  9 08:21:19 daemon postfix/smtp[17138]: 5C12D3D77A: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=1.8, delays=0.35/0.01/0.84/0.64, dsn=2.0.0, status=sent (250 OK id=1nHgLz-000zqm-JZ)
+Feb  9 08:21:19 daemon postfix/qmgr[1080]: 5C12D3D77A: removed
+Feb  9 08:23:58 daemon postfix/pickup[16633]: C6B623D77C: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  9 08:23:58 daemon postfix/cleanup[17169]: C6B623D77C: message-id=<20220209062358.C6B623D77C@daemon.synaptic4u.co.za>
+Feb  9 08:23:58 daemon postfix/qmgr[1080]: C6B623D77C: from=<daemon@synaptic4u.co.za>, size=3103, nrcpt=1 (queue active)
+Feb  9 08:24:00 daemon postfix/smtp[17171]: C6B623D77C: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=33, delays=32/0.02/0.78/0.66, dsn=2.0.0, status=sent (250 OK id=1nHgOa-0000zD-0x)
+Feb  9 08:24:00 daemon postfix/qmgr[1080]: C6B623D77C: removed
+Feb  9 09:05:02 daemon postfix/pickup[17178]: 2B3DA3D786: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  9 09:05:02 daemon postfix/cleanup[17318]: 2B3DA3D786: message-id=<20220209070502.2B3DA3D786@daemon.synaptic4u.co.za>
+Feb  9 09:05:02 daemon postfix/qmgr[1080]: 2B3DA3D786: from=<daemon@synaptic4u.co.za>, size=2523, nrcpt=1 (queue active)
+Feb  9 09:05:04 daemon postfix/smtp[17320]: 2B3DA3D786: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=1.9, delays=0.06/0.01/1.2/0.65, dsn=2.0.0, status=sent (250 OK id=1nHh2J-000f39-R5)
+Feb  9 09:05:04 daemon postfix/qmgr[1080]: 2B3DA3D786: removed
+Feb  9 09:11:57 daemon postfix/pickup[17178]: 4B5E43D789: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  9 09:11:57 daemon postfix/cleanup[17433]: 4B5E43D789: message-id=<20220209071157.4B5E43D789@daemon.synaptic4u.co.za>
+Feb  9 09:11:57 daemon postfix/qmgr[1080]: 4B5E43D789: from=<daemon@synaptic4u.co.za>, size=2604, nrcpt=1 (queue active)
+Feb  9 09:11:58 daemon postfix/smtp[17435]: 4B5E43D789: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=1.6, delays=0.21/0.01/0.82/0.61, dsn=2.0.0, status=sent (250 OK id=1nHh90-000k5L-IR)
+Feb  9 09:11:58 daemon postfix/qmgr[1080]: 4B5E43D789: removed
+Feb  9 09:16:03 daemon postfix/pickup[17178]: 4B6553D78B: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  9 09:16:03 daemon postfix/cleanup[17470]: 4B6553D78B: message-id=<20220209071603.4B6553D78B@daemon.synaptic4u.co.za>
+Feb  9 09:16:03 daemon postfix/qmgr[1080]: 4B6553D78B: from=<daemon@synaptic4u.co.za>, size=4023, nrcpt=1 (queue active)
+Feb  9 09:16:04 daemon postfix/smtp[17472]: 4B6553D78B: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=1.7, delays=0.2/0.01/0.8/0.65, dsn=2.0.0, status=sent (250 OK id=1nHhCy-000pFv-IH)
+Feb  9 09:16:04 daemon postfix/qmgr[1080]: 4B6553D78B: removed
+Feb  9 10:56:11 daemon postfix/pickup[17632]: E42893D792: uid=0 from=<daemon@synaptic4u.co.za>
+Feb  9 10:56:11 daemon postfix/cleanup[17857]: E42893D792: message-id=<20220209085611.E42893D792@daemon.synaptic4u.co.za>
+Feb  9 10:56:11 daemon postfix/qmgr[1080]: E42893D792: from=<daemon@synaptic4u.co.za>, size=3799, nrcpt=1 (queue active)
+Feb  9 10:56:13 daemon postfix/smtp[17859]: E42893D792: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=2.5, delays=0.45/0.01/1.5/0.46, dsn=2.0.0, status=sent (250 OK id=1nHilt-000NGE-Uq)
+Feb  9 10:56:13 daemon postfix/qmgr[1080]: E42893D792: removed
+Feb  9 11:05:11 daemon postfix/smtpd[17866]: connect from unknown[77.247.110.188]
+Feb  9 11:05:11 daemon postfix/smtpd[17866]: NOQUEUE: reject: RCPT from unknown[77.247.110.188]: 454 4.7.1 <spameri@tiscali.it>: Relay access denied; from=<spameri@tiscali.it> to=<spameri@tiscali.it> proto=ESMTP helo=<win2008r2RDP>
+Feb  9 11:05:11 daemon postfix/smtpd[17866]: disconnect from unknown[77.247.110.188] ehlo=1 mail=1 rcpt=0/1 rset=1 quit=1 commands=4/5
+Feb  9 11:08:31 daemon postfix/anvil[17868]: statistics: max connection rate 1/60s for (smtp:77.247.110.188) at Feb  9 11:05:11
+Feb  9 11:08:31 daemon postfix/anvil[17868]: statistics: max connection count 1 for (smtp:77.247.110.188) at Feb  9 11:05:11
+Feb  9 11:08:31 daemon postfix/anvil[17868]: statistics: max cache size 1 at Feb  9 11:05:11

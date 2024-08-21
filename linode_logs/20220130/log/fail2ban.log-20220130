@@ -1,0 +1,351 @@
+2022-01-26 14:43:42,583 fail2ban.server         [10028]: INFO    --------------------------------------------------
+2022-01-26 14:43:42,583 fail2ban.server         [10028]: INFO    Starting Fail2ban v0.10.2
+2022-01-26 14:43:42,596 fail2ban.database       [10028]: INFO    Connected to fail2ban persistent database '/var/lib/fail2ban/fail2ban.sqlite3'
+2022-01-26 14:43:42,601 fail2ban.database       [10028]: WARNING New database created. Version '2'
+2022-01-26 14:43:42,602 fail2ban.jail           [10028]: INFO    Creating new jail 'sshd'
+2022-01-26 14:43:42,664 fail2ban.jail           [10028]: INFO    Jail 'sshd' uses pyinotify {}
+2022-01-26 14:43:42,667 fail2ban.jail           [10028]: INFO    Initiated 'pyinotify' backend
+2022-01-26 14:43:42,668 fail2ban.filter         [10028]: INFO      maxLines: 1
+2022-01-26 14:43:42,711 fail2ban.server         [10028]: INFO    Jail sshd is not a JournalFilter instance
+2022-01-26 14:43:42,712 fail2ban.filter         [10028]: INFO    Added logfile: '/var/log/auth.log' (pos = 0, hash = 5e0c83bad6f76cd1f834619decd7526fcff56c7a)
+2022-01-26 14:43:42,722 fail2ban.filter         [10028]: INFO      encoding: UTF-8
+2022-01-26 14:43:42,722 fail2ban.filter         [10028]: INFO      maxRetry: 5
+2022-01-26 14:43:42,722 fail2ban.filter         [10028]: INFO      findtime: 600
+2022-01-26 14:43:42,722 fail2ban.actions        [10028]: INFO      banTime: 600
+2022-01-26 14:43:42,730 fail2ban.jail           [10028]: INFO    Jail 'sshd' started
+2022-01-26 15:22:01,002 fail2ban.server         [10028]: INFO    Shutdown in progress...
+2022-01-26 15:22:01,002 fail2ban.server         [10028]: INFO    Stopping all jails
+2022-01-26 15:22:01,003 fail2ban.filter         [10028]: INFO    Removed logfile: '/var/log/auth.log'
+2022-01-26 15:22:01,735 fail2ban.actions        [10028]: NOTICE  [sshd] Flush ticket(s) with iptables-multiport
+2022-01-26 15:22:01,735 fail2ban.jail           [10028]: INFO    Jail 'sshd' stopped
+2022-01-26 15:22:01,735 fail2ban.database       [10028]: INFO    Connection to database closed.
+2022-01-26 15:22:01,735 fail2ban.server         [10028]: INFO    Exiting Fail2ban
+2022-01-26 15:37:43,497 fail2ban.server         [11468]: INFO    --------------------------------------------------
+2022-01-26 15:37:43,497 fail2ban.server         [11468]: INFO    Starting Fail2ban v0.10.2
+2022-01-26 15:37:43,505 fail2ban.database       [11468]: INFO    Connected to fail2ban persistent database '/var/lib/fail2ban/fail2ban.sqlite3'
+2022-01-26 15:37:43,507 fail2ban.jail           [11468]: INFO    Creating new jail 'sshd'
+2022-01-26 15:37:43,520 fail2ban.jail           [11468]: INFO    Jail 'sshd' uses pyinotify {}
+2022-01-26 15:37:43,523 fail2ban.jail           [11468]: INFO    Initiated 'pyinotify' backend
+2022-01-26 15:37:43,524 fail2ban.filter         [11468]: INFO      maxLines: 1
+2022-01-26 15:37:43,558 fail2ban.server         [11468]: INFO    Jail sshd is not a JournalFilter instance
+2022-01-26 15:37:43,559 fail2ban.filter         [11468]: INFO    Added logfile: '/var/log/auth.log' (pos = 37695, hash = 5e0c83bad6f76cd1f834619decd7526fcff56c7a)
+2022-01-26 15:37:43,563 fail2ban.filter         [11468]: INFO      encoding: UTF-8
+2022-01-26 15:37:43,563 fail2ban.filter         [11468]: INFO      maxRetry: 5
+2022-01-26 15:37:43,563 fail2ban.filter         [11468]: INFO      findtime: 600
+2022-01-26 15:37:43,564 fail2ban.actions        [11468]: INFO      banTime: 600
+2022-01-26 15:37:43,565 fail2ban.jail           [11468]: INFO    Jail 'sshd' started
+2022-01-26 15:41:12,037 fail2ban.server         [11468]: INFO    Shutdown in progress...
+2022-01-26 15:41:12,037 fail2ban.server         [11468]: INFO    Stopping all jails
+2022-01-26 15:41:12,038 fail2ban.filter         [11468]: INFO    Removed logfile: '/var/log/auth.log'
+2022-01-26 15:41:12,431 fail2ban.actions        [11468]: NOTICE  [sshd] Flush ticket(s) with iptables-multiport
+2022-01-26 15:41:12,432 fail2ban.jail           [11468]: INFO    Jail 'sshd' stopped
+2022-01-26 15:41:12,432 fail2ban.database       [11468]: INFO    Connection to database closed.
+2022-01-26 15:41:12,432 fail2ban.server         [11468]: INFO    Exiting Fail2ban
+2022-01-26 15:41:12,592 fail2ban.server         [11504]: INFO    --------------------------------------------------
+2022-01-26 15:41:12,592 fail2ban.server         [11504]: INFO    Starting Fail2ban v0.10.2
+2022-01-26 15:41:12,595 fail2ban.database       [11504]: INFO    Connected to fail2ban persistent database '/var/lib/fail2ban/fail2ban.sqlite3'
+2022-01-26 15:41:12,596 fail2ban.jail           [11504]: INFO    Creating new jail 'sshd'
+2022-01-26 15:41:12,606 fail2ban.jail           [11504]: INFO    Jail 'sshd' uses pyinotify {}
+2022-01-26 15:41:12,608 fail2ban.jail           [11504]: INFO    Initiated 'pyinotify' backend
+2022-01-26 15:41:12,609 fail2ban.filter         [11504]: INFO      maxLines: 1
+2022-01-26 15:41:12,638 fail2ban.server         [11504]: INFO    Jail sshd is not a JournalFilter instance
+2022-01-26 15:41:12,639 fail2ban.filter         [11504]: INFO    Added logfile: '/var/log/auth.log' (pos = 38346, hash = 5e0c83bad6f76cd1f834619decd7526fcff56c7a)
+2022-01-26 15:41:12,640 fail2ban.filter         [11504]: INFO      encoding: UTF-8
+2022-01-26 15:41:12,640 fail2ban.filter         [11504]: INFO      maxRetry: 5
+2022-01-26 15:41:12,640 fail2ban.filter         [11504]: INFO      findtime: 600
+2022-01-26 15:41:12,640 fail2ban.actions        [11504]: INFO      banTime: 600
+2022-01-26 15:41:12,643 fail2ban.jail           [11504]: INFO    Jail 'sshd' started
+2022-01-26 18:26:36,017 fail2ban.server         [11504]: INFO    Shutdown in progress...
+2022-01-26 18:26:36,017 fail2ban.server         [11504]: INFO    Stopping all jails
+2022-01-26 18:26:36,018 fail2ban.filter         [11504]: INFO    Removed logfile: '/var/log/auth.log'
+2022-01-26 18:26:36,265 fail2ban.actions        [11504]: NOTICE  [sshd] Flush ticket(s) with iptables-multiport
+2022-01-26 18:26:37,220 fail2ban.jail           [11504]: INFO    Jail 'sshd' stopped
+2022-01-26 18:26:37,221 fail2ban.database       [11504]: INFO    Connection to database closed.
+2022-01-26 18:26:37,221 fail2ban.server         [11504]: INFO    Exiting Fail2ban
+2022-01-26 18:26:37,384 fail2ban.server         [16528]: INFO    --------------------------------------------------
+2022-01-26 18:26:37,384 fail2ban.server         [16528]: INFO    Starting Fail2ban v0.10.2
+2022-01-26 18:26:37,386 fail2ban.database       [16528]: INFO    Connected to fail2ban persistent database '/var/lib/fail2ban/fail2ban.sqlite3'
+2022-01-26 18:26:37,388 fail2ban.jail           [16528]: INFO    Creating new jail 'sshd'
+2022-01-26 18:26:37,400 fail2ban.jail           [16528]: INFO    Jail 'sshd' uses pyinotify {}
+2022-01-26 18:26:37,403 fail2ban.jail           [16528]: INFO    Initiated 'pyinotify' backend
+2022-01-26 18:26:37,404 fail2ban.filter         [16528]: INFO      maxLines: 1
+2022-01-26 18:26:37,436 fail2ban.server         [16528]: INFO    Jail sshd is not a JournalFilter instance
+2022-01-26 18:26:37,437 fail2ban.filter         [16528]: INFO    Added logfile: '/var/log/auth.log' (pos = 71920, hash = 5e0c83bad6f76cd1f834619decd7526fcff56c7a)
+2022-01-26 18:26:37,441 fail2ban.filter         [16528]: INFO      encoding: UTF-8
+2022-01-26 18:26:37,441 fail2ban.filter         [16528]: INFO      maxRetry: 2
+2022-01-26 18:26:37,442 fail2ban.filter         [16528]: INFO      findtime: 600
+2022-01-26 18:26:37,442 fail2ban.actions        [16528]: INFO      banTime: 3600
+2022-01-26 18:26:37,445 fail2ban.jail           [16528]: INFO    Jail 'sshd' started
+2022-01-27 00:09:21,418 fail2ban.server         [16528]: INFO    Shutdown in progress...
+2022-01-27 00:09:21,420 fail2ban.server         [16528]: INFO    Stopping all jails
+2022-01-27 00:09:21,420 fail2ban.filter         [16528]: INFO    Removed logfile: '/var/log/auth.log'
+2022-01-27 00:09:21,520 fail2ban.actions        [16528]: NOTICE  [sshd] Flush ticket(s) with iptables-multiport
+2022-01-27 00:09:22,023 fail2ban.jail           [16528]: INFO    Jail 'sshd' stopped
+2022-01-27 00:09:22,024 fail2ban.database       [16528]: INFO    Connection to database closed.
+2022-01-27 00:09:22,042 fail2ban.server         [16528]: INFO    Exiting Fail2ban
+2022-01-27 00:09:50,633 fail2ban.server         [492]: INFO    --------------------------------------------------
+2022-01-27 00:09:50,633 fail2ban.server         [492]: INFO    Starting Fail2ban v0.10.2
+2022-01-27 00:09:50,670 fail2ban.database       [492]: INFO    Connected to fail2ban persistent database '/var/lib/fail2ban/fail2ban.sqlite3'
+2022-01-27 00:09:50,693 fail2ban.jail           [492]: INFO    Creating new jail 'sshd'
+2022-01-27 00:09:50,787 fail2ban.jail           [492]: INFO    Jail 'sshd' uses pyinotify {}
+2022-01-27 00:09:50,793 fail2ban.jail           [492]: INFO    Initiated 'pyinotify' backend
+2022-01-27 00:09:50,794 fail2ban.filter         [492]: INFO      maxLines: 1
+2022-01-27 00:09:50,913 fail2ban.server         [492]: INFO    Jail sshd is not a JournalFilter instance
+2022-01-27 00:09:50,918 fail2ban.filter         [492]: INFO    Added logfile: '/var/log/auth.log' (pos = 137058, hash = 5e0c83bad6f76cd1f834619decd7526fcff56c7a)
+2022-01-27 00:09:50,930 fail2ban.filter         [492]: INFO      encoding: UTF-8
+2022-01-27 00:09:50,930 fail2ban.filter         [492]: INFO      maxRetry: 2
+2022-01-27 00:09:50,930 fail2ban.filter         [492]: INFO      findtime: 600
+2022-01-27 00:09:50,931 fail2ban.actions        [492]: INFO      banTime: 3600
+2022-01-27 00:09:50,945 fail2ban.jail           [492]: INFO    Jail 'sshd' started
+2022-01-27 00:43:12,016 fail2ban.server         [492]: INFO    Shutdown in progress...
+2022-01-27 00:43:12,017 fail2ban.server         [492]: INFO    Stopping all jails
+2022-01-27 00:43:12,017 fail2ban.filter         [492]: INFO    Removed logfile: '/var/log/auth.log'
+2022-01-27 00:43:12,244 fail2ban.actions        [492]: NOTICE  [sshd] Flush ticket(s) with iptables-multiport
+2022-01-27 00:43:12,618 fail2ban.jail           [492]: INFO    Jail 'sshd' stopped
+2022-01-27 00:43:12,618 fail2ban.database       [492]: INFO    Connection to database closed.
+2022-01-27 00:43:12,618 fail2ban.server         [492]: INFO    Exiting Fail2ban
+2022-01-27 00:43:41,562 fail2ban.server         [498]: INFO    --------------------------------------------------
+2022-01-27 00:43:41,564 fail2ban.server         [498]: INFO    Starting Fail2ban v0.10.2
+2022-01-27 00:43:41,579 fail2ban.database       [498]: INFO    Connected to fail2ban persistent database '/var/lib/fail2ban/fail2ban.sqlite3'
+2022-01-27 00:43:41,581 fail2ban.jail           [498]: INFO    Creating new jail 'sshd'
+2022-01-27 00:43:41,668 fail2ban.jail           [498]: INFO    Jail 'sshd' uses pyinotify {}
+2022-01-27 00:43:41,682 fail2ban.jail           [498]: INFO    Initiated 'pyinotify' backend
+2022-01-27 00:43:41,682 fail2ban.filter         [498]: INFO      maxLines: 1
+2022-01-27 00:43:41,787 fail2ban.server         [498]: INFO    Jail sshd is not a JournalFilter instance
+2022-01-27 00:43:41,793 fail2ban.filter         [498]: INFO    Added logfile: '/var/log/auth.log' (pos = 142616, hash = 5e0c83bad6f76cd1f834619decd7526fcff56c7a)
+2022-01-27 00:43:41,814 fail2ban.filter         [498]: INFO      encoding: UTF-8
+2022-01-27 00:43:41,814 fail2ban.filter         [498]: INFO      maxRetry: 2
+2022-01-27 00:43:41,814 fail2ban.filter         [498]: INFO      findtime: 600
+2022-01-27 00:43:41,814 fail2ban.actions        [498]: INFO      banTime: 3600
+2022-01-27 00:43:41,833 fail2ban.jail           [498]: INFO    Jail 'sshd' started
+2022-01-27 00:45:09,827 fail2ban.server         [498]: INFO    Shutdown in progress...
+2022-01-27 00:45:09,827 fail2ban.server         [498]: INFO    Stopping all jails
+2022-01-27 00:45:09,827 fail2ban.filter         [498]: INFO    Removed logfile: '/var/log/auth.log'
+2022-01-27 00:45:10,054 fail2ban.actions        [498]: NOTICE  [sshd] Flush ticket(s) with iptables-multiport
+2022-01-27 00:45:10,429 fail2ban.jail           [498]: INFO    Jail 'sshd' stopped
+2022-01-27 00:45:10,429 fail2ban.database       [498]: INFO    Connection to database closed.
+2022-01-27 00:45:10,430 fail2ban.server         [498]: INFO    Exiting Fail2ban
+2022-01-27 00:45:54,986 fail2ban.server         [491]: INFO    --------------------------------------------------
+2022-01-27 00:45:54,987 fail2ban.server         [491]: INFO    Starting Fail2ban v0.10.2
+2022-01-27 00:45:55,010 fail2ban.database       [491]: INFO    Connected to fail2ban persistent database '/var/lib/fail2ban/fail2ban.sqlite3'
+2022-01-27 00:45:55,014 fail2ban.jail           [491]: INFO    Creating new jail 'sshd'
+2022-01-27 00:45:55,111 fail2ban.jail           [491]: INFO    Jail 'sshd' uses pyinotify {}
+2022-01-27 00:45:55,117 fail2ban.jail           [491]: INFO    Initiated 'pyinotify' backend
+2022-01-27 00:45:55,118 fail2ban.filter         [491]: INFO      maxLines: 1
+2022-01-27 00:45:55,280 fail2ban.server         [491]: INFO    Jail sshd is not a JournalFilter instance
+2022-01-27 00:45:55,282 fail2ban.filter         [491]: INFO    Added logfile: '/var/log/auth.log' (pos = 143704, hash = 5e0c83bad6f76cd1f834619decd7526fcff56c7a)
+2022-01-27 00:45:55,304 fail2ban.filter         [491]: INFO      encoding: UTF-8
+2022-01-27 00:45:55,306 fail2ban.filter         [491]: INFO      maxRetry: 2
+2022-01-27 00:45:55,306 fail2ban.filter         [491]: INFO      findtime: 600
+2022-01-27 00:45:55,306 fail2ban.actions        [491]: INFO      banTime: 3600
+2022-01-27 00:45:55,331 fail2ban.jail           [491]: INFO    Jail 'sshd' started
+2022-01-27 00:52:29,925 fail2ban.server         [491]: INFO    Shutdown in progress...
+2022-01-27 00:52:29,925 fail2ban.server         [491]: INFO    Stopping all jails
+2022-01-27 00:52:29,926 fail2ban.filter         [491]: INFO    Removed logfile: '/var/log/auth.log'
+2022-01-27 00:52:30,576 fail2ban.actions        [491]: NOTICE  [sshd] Flush ticket(s) with iptables-multiport
+2022-01-27 00:52:30,627 fail2ban.jail           [491]: INFO    Jail 'sshd' stopped
+2022-01-27 00:52:30,627 fail2ban.database       [491]: INFO    Connection to database closed.
+2022-01-27 00:52:30,628 fail2ban.server         [491]: INFO    Exiting Fail2ban
+2022-01-27 00:52:58,473 fail2ban.server         [496]: INFO    --------------------------------------------------
+2022-01-27 00:52:58,474 fail2ban.server         [496]: INFO    Starting Fail2ban v0.10.2
+2022-01-27 00:52:58,494 fail2ban.database       [496]: INFO    Connected to fail2ban persistent database '/var/lib/fail2ban/fail2ban.sqlite3'
+2022-01-27 00:52:58,497 fail2ban.jail           [496]: INFO    Creating new jail 'sshd'
+2022-01-27 00:52:58,560 fail2ban.jail           [496]: INFO    Jail 'sshd' uses pyinotify {}
+2022-01-27 00:52:58,567 fail2ban.jail           [496]: INFO    Initiated 'pyinotify' backend
+2022-01-27 00:52:58,568 fail2ban.filter         [496]: INFO      maxLines: 1
+2022-01-27 00:52:58,695 fail2ban.server         [496]: INFO    Jail sshd is not a JournalFilter instance
+2022-01-27 00:52:58,701 fail2ban.filter         [496]: INFO    Added logfile: '/var/log/auth.log' (pos = 144712, hash = 5e0c83bad6f76cd1f834619decd7526fcff56c7a)
+2022-01-27 00:52:58,708 fail2ban.filter         [496]: INFO      encoding: UTF-8
+2022-01-27 00:52:58,711 fail2ban.filter         [496]: INFO      maxRetry: 2
+2022-01-27 00:52:58,712 fail2ban.filter         [496]: INFO      findtime: 600
+2022-01-27 00:52:58,712 fail2ban.actions        [496]: INFO      banTime: 3600
+2022-01-27 00:52:58,741 fail2ban.jail           [496]: INFO    Jail 'sshd' started
+2022-01-27 01:06:00,650 fail2ban.server         [496]: INFO    Shutdown in progress...
+2022-01-27 01:06:00,650 fail2ban.server         [496]: INFO    Stopping all jails
+2022-01-27 01:06:00,650 fail2ban.filter         [496]: INFO    Removed logfile: '/var/log/auth.log'
+2022-01-27 01:06:00,969 fail2ban.actions        [496]: NOTICE  [sshd] Flush ticket(s) with iptables-multiport
+2022-01-27 01:06:01,251 fail2ban.jail           [496]: INFO    Jail 'sshd' stopped
+2022-01-27 01:06:01,252 fail2ban.database       [496]: INFO    Connection to database closed.
+2022-01-27 01:06:01,252 fail2ban.server         [496]: INFO    Exiting Fail2ban
+2022-01-27 01:06:30,866 fail2ban.server         [487]: INFO    --------------------------------------------------
+2022-01-27 01:06:30,867 fail2ban.server         [487]: INFO    Starting Fail2ban v0.10.2
+2022-01-27 01:06:30,887 fail2ban.database       [487]: INFO    Connected to fail2ban persistent database '/var/lib/fail2ban/fail2ban.sqlite3'
+2022-01-27 01:06:30,891 fail2ban.jail           [487]: INFO    Creating new jail 'sshd'
+2022-01-27 01:06:30,960 fail2ban.jail           [487]: INFO    Jail 'sshd' uses pyinotify {}
+2022-01-27 01:06:30,977 fail2ban.jail           [487]: INFO    Initiated 'pyinotify' backend
+2022-01-27 01:06:30,978 fail2ban.filter         [487]: INFO      maxLines: 1
+2022-01-27 01:06:31,116 fail2ban.server         [487]: INFO    Jail sshd is not a JournalFilter instance
+2022-01-27 01:06:31,117 fail2ban.filter         [487]: INFO    Added logfile: '/var/log/auth.log' (pos = 147888, hash = 5e0c83bad6f76cd1f834619decd7526fcff56c7a)
+2022-01-27 01:06:31,144 fail2ban.filter         [487]: INFO      encoding: UTF-8
+2022-01-27 01:06:31,145 fail2ban.filter         [487]: INFO      maxRetry: 2
+2022-01-27 01:06:31,145 fail2ban.filter         [487]: INFO      findtime: 600
+2022-01-27 01:06:31,145 fail2ban.actions        [487]: INFO      banTime: 3600
+2022-01-27 01:06:31,163 fail2ban.jail           [487]: INFO    Jail 'sshd' started
+2022-01-27 01:12:49,925 fail2ban.server         [487]: INFO    Shutdown in progress...
+2022-01-27 01:12:49,925 fail2ban.server         [487]: INFO    Stopping all jails
+2022-01-27 01:12:49,925 fail2ban.filter         [487]: INFO    Removed logfile: '/var/log/auth.log'
+2022-01-27 01:12:49,956 fail2ban.actions        [487]: NOTICE  [sshd] Flush ticket(s) with iptables-multiport
+2022-01-27 01:12:50,527 fail2ban.jail           [487]: INFO    Jail 'sshd' stopped
+2022-01-27 01:12:50,527 fail2ban.database       [487]: INFO    Connection to database closed.
+2022-01-27 01:12:50,527 fail2ban.server         [487]: INFO    Exiting Fail2ban
+2022-01-27 01:13:27,568 fail2ban.server         [495]: INFO    --------------------------------------------------
+2022-01-27 01:13:27,572 fail2ban.server         [495]: INFO    Starting Fail2ban v0.10.2
+2022-01-27 01:13:27,596 fail2ban.database       [495]: INFO    Connected to fail2ban persistent database '/var/lib/fail2ban/fail2ban.sqlite3'
+2022-01-27 01:13:27,601 fail2ban.jail           [495]: INFO    Creating new jail 'sshd'
+2022-01-27 01:13:27,697 fail2ban.jail           [495]: INFO    Jail 'sshd' uses pyinotify {}
+2022-01-27 01:13:27,709 fail2ban.jail           [495]: INFO    Initiated 'pyinotify' backend
+2022-01-27 01:13:27,710 fail2ban.filter         [495]: INFO      maxLines: 1
+2022-01-27 01:13:27,895 fail2ban.server         [495]: INFO    Jail sshd is not a JournalFilter instance
+2022-01-27 01:13:27,898 fail2ban.filter         [495]: INFO    Added logfile: '/var/log/auth.log' (pos = 152309, hash = 5e0c83bad6f76cd1f834619decd7526fcff56c7a)
+2022-01-27 01:13:27,916 fail2ban.filter         [495]: INFO      encoding: UTF-8
+2022-01-27 01:13:27,916 fail2ban.filter         [495]: INFO      maxRetry: 2
+2022-01-27 01:13:27,916 fail2ban.filter         [495]: INFO      findtime: 600
+2022-01-27 01:13:27,917 fail2ban.actions        [495]: INFO      banTime: 3600
+2022-01-27 01:13:27,934 fail2ban.jail           [495]: INFO    Jail 'sshd' started
+2022-01-27 01:14:54,849 fail2ban.server         [495]: INFO    Shutdown in progress...
+2022-01-27 01:14:54,850 fail2ban.server         [495]: INFO    Stopping all jails
+2022-01-27 01:14:54,850 fail2ban.filter         [495]: INFO    Removed logfile: '/var/log/auth.log'
+2022-01-27 01:14:54,957 fail2ban.actions        [495]: NOTICE  [sshd] Flush ticket(s) with iptables-multiport
+2022-01-27 01:14:55,451 fail2ban.jail           [495]: INFO    Jail 'sshd' stopped
+2022-01-27 01:14:55,452 fail2ban.database       [495]: INFO    Connection to database closed.
+2022-01-27 01:14:55,452 fail2ban.server         [495]: INFO    Exiting Fail2ban
+2022-01-27 01:15:25,649 fail2ban.server         [487]: INFO    --------------------------------------------------
+2022-01-27 01:15:25,651 fail2ban.server         [487]: INFO    Starting Fail2ban v0.10.2
+2022-01-27 01:15:25,662 fail2ban.database       [487]: INFO    Connected to fail2ban persistent database '/var/lib/fail2ban/fail2ban.sqlite3'
+2022-01-27 01:15:25,669 fail2ban.jail           [487]: INFO    Creating new jail 'sshd'
+2022-01-27 01:15:25,730 fail2ban.jail           [487]: INFO    Jail 'sshd' uses pyinotify {}
+2022-01-27 01:15:25,749 fail2ban.jail           [487]: INFO    Initiated 'pyinotify' backend
+2022-01-27 01:15:25,750 fail2ban.filter         [487]: INFO      maxLines: 1
+2022-01-27 01:15:25,863 fail2ban.server         [487]: INFO    Jail sshd is not a JournalFilter instance
+2022-01-27 01:15:25,869 fail2ban.filter         [487]: INFO    Added logfile: '/var/log/auth.log' (pos = 153283, hash = 5e0c83bad6f76cd1f834619decd7526fcff56c7a)
+2022-01-27 01:15:25,892 fail2ban.filter         [487]: INFO      encoding: UTF-8
+2022-01-27 01:15:25,893 fail2ban.filter         [487]: INFO      maxRetry: 2
+2022-01-27 01:15:25,893 fail2ban.filter         [487]: INFO      findtime: 600
+2022-01-27 01:15:25,893 fail2ban.actions        [487]: INFO      banTime: 3600
+2022-01-27 01:15:25,905 fail2ban.jail           [487]: INFO    Jail 'sshd' started
+2022-01-27 13:53:59,530 fail2ban.server         [487]: INFO    Shutdown in progress...
+2022-01-27 13:53:59,530 fail2ban.server         [487]: INFO    Stopping all jails
+2022-01-27 13:53:59,531 fail2ban.filter         [487]: INFO    Removed logfile: '/var/log/auth.log'
+2022-01-27 13:53:59,602 fail2ban.actions        [487]: NOTICE  [sshd] Flush ticket(s) with iptables-multiport
+2022-01-27 13:53:59,745 fail2ban.jail           [487]: INFO    Jail 'sshd' stopped
+2022-01-27 13:53:59,746 fail2ban.database       [487]: INFO    Connection to database closed.
+2022-01-27 13:53:59,746 fail2ban.server         [487]: INFO    Exiting Fail2ban
+2022-01-27 13:54:33,548 fail2ban.server         [500]: INFO    --------------------------------------------------
+2022-01-27 13:54:33,549 fail2ban.server         [500]: INFO    Starting Fail2ban v0.10.2
+2022-01-27 13:54:33,572 fail2ban.database       [500]: INFO    Connected to fail2ban persistent database '/var/lib/fail2ban/fail2ban.sqlite3'
+2022-01-27 13:54:33,599 fail2ban.jail           [500]: INFO    Creating new jail 'sshd'
+2022-01-27 13:54:33,688 fail2ban.jail           [500]: INFO    Jail 'sshd' uses pyinotify {}
+2022-01-27 13:54:33,700 fail2ban.jail           [500]: INFO    Initiated 'pyinotify' backend
+2022-01-27 13:54:33,701 fail2ban.filter         [500]: INFO      maxLines: 1
+2022-01-27 13:54:33,906 fail2ban.server         [500]: INFO    Jail sshd is not a JournalFilter instance
+2022-01-27 13:54:33,907 fail2ban.filter         [500]: INFO    Added logfile: '/var/log/auth.log' (pos = 199962, hash = 5e0c83bad6f76cd1f834619decd7526fcff56c7a)
+2022-01-27 13:54:33,943 fail2ban.filter         [500]: INFO      encoding: UTF-8
+2022-01-27 13:54:33,943 fail2ban.filter         [500]: INFO      maxRetry: 2
+2022-01-27 13:54:33,943 fail2ban.filter         [500]: INFO      findtime: 600
+2022-01-27 13:54:33,944 fail2ban.actions        [500]: INFO      banTime: 3600
+2022-01-27 13:54:33,973 fail2ban.jail           [500]: INFO    Jail 'sshd' started
+2022-01-27 19:47:55,079 fail2ban.server         [500]: INFO    Shutdown in progress...
+2022-01-27 19:47:55,079 fail2ban.server         [500]: INFO    Stopping all jails
+2022-01-27 19:47:55,080 fail2ban.filter         [500]: INFO    Removed logfile: '/var/log/auth.log'
+2022-01-27 19:47:55,446 fail2ban.actions        [500]: NOTICE  [sshd] Flush ticket(s) with iptables-multiport
+2022-01-27 19:47:56,966 fail2ban.jail           [500]: INFO    Jail 'sshd' stopped
+2022-01-27 19:47:57,051 fail2ban.database       [500]: INFO    Connection to database closed.
+2022-01-27 19:47:57,051 fail2ban.server         [500]: INFO    Exiting Fail2ban
+2022-01-27 19:48:34,815 fail2ban.server         [492]: INFO    --------------------------------------------------
+2022-01-27 19:48:34,822 fail2ban.server         [492]: INFO    Starting Fail2ban v0.10.2
+2022-01-27 19:48:34,843 fail2ban.database       [492]: INFO    Connected to fail2ban persistent database '/var/lib/fail2ban/fail2ban.sqlite3'
+2022-01-27 19:48:34,853 fail2ban.jail           [492]: INFO    Creating new jail 'sshd'
+2022-01-27 19:48:34,963 fail2ban.jail           [492]: INFO    Jail 'sshd' uses pyinotify {}
+2022-01-27 19:48:34,971 fail2ban.jail           [492]: INFO    Initiated 'pyinotify' backend
+2022-01-27 19:48:34,972 fail2ban.filter         [492]: INFO      maxLines: 1
+2022-01-27 19:48:35,177 fail2ban.server         [492]: INFO    Jail sshd is not a JournalFilter instance
+2022-01-27 19:48:35,186 fail2ban.filter         [492]: INFO    Added logfile: '/var/log/auth.log' (pos = 242803, hash = 5e0c83bad6f76cd1f834619decd7526fcff56c7a)
+2022-01-27 19:48:35,217 fail2ban.filter         [492]: INFO      encoding: UTF-8
+2022-01-27 19:48:35,217 fail2ban.filter         [492]: INFO      maxRetry: 2
+2022-01-27 19:48:35,221 fail2ban.filter         [492]: INFO      findtime: 600
+2022-01-27 19:48:35,229 fail2ban.actions        [492]: INFO      banTime: 3600
+2022-01-27 19:48:35,248 fail2ban.jail           [492]: INFO    Jail 'sshd' started
+2022-01-27 22:02:07,598 fail2ban.server         [492]: INFO    Shutdown in progress...
+2022-01-27 22:02:07,599 fail2ban.server         [492]: INFO    Stopping all jails
+2022-01-27 22:02:07,599 fail2ban.filter         [492]: INFO    Removed logfile: '/var/log/auth.log'
+2022-01-27 22:02:08,335 fail2ban.actions        [492]: NOTICE  [sshd] Flush ticket(s) with iptables-multiport
+2022-01-27 22:02:08,359 fail2ban.jail           [492]: INFO    Jail 'sshd' stopped
+2022-01-27 22:02:08,359 fail2ban.database       [492]: INFO    Connection to database closed.
+2022-01-27 22:02:08,359 fail2ban.server         [492]: INFO    Exiting Fail2ban
+2022-01-27 22:02:42,076 fail2ban.server         [503]: INFO    --------------------------------------------------
+2022-01-27 22:02:42,081 fail2ban.server         [503]: INFO    Starting Fail2ban v0.10.2
+2022-01-27 22:02:42,106 fail2ban.database       [503]: INFO    Connected to fail2ban persistent database '/var/lib/fail2ban/fail2ban.sqlite3'
+2022-01-27 22:02:42,112 fail2ban.jail           [503]: INFO    Creating new jail 'sshd'
+2022-01-27 22:02:42,218 fail2ban.jail           [503]: INFO    Jail 'sshd' uses pyinotify {}
+2022-01-27 22:02:42,233 fail2ban.jail           [503]: INFO    Initiated 'pyinotify' backend
+2022-01-27 22:02:42,235 fail2ban.filter         [503]: INFO      maxLines: 1
+2022-01-27 22:02:42,515 fail2ban.server         [503]: INFO    Jail sshd is not a JournalFilter instance
+2022-01-27 22:02:42,517 fail2ban.filter         [503]: INFO    Added logfile: '/var/log/auth.log' (pos = 260406, hash = 5e0c83bad6f76cd1f834619decd7526fcff56c7a)
+2022-01-27 22:02:42,545 fail2ban.filter         [503]: INFO      encoding: UTF-8
+2022-01-27 22:02:42,549 fail2ban.filter         [503]: INFO      maxRetry: 2
+2022-01-27 22:02:42,554 fail2ban.filter         [503]: INFO      findtime: 600
+2022-01-27 22:02:42,555 fail2ban.actions        [503]: INFO      banTime: 3600
+2022-01-27 22:02:42,586 fail2ban.jail           [503]: INFO    Jail 'sshd' started
+2022-01-28 01:02:33,776 fail2ban.server         [503]: INFO    Shutdown in progress...
+2022-01-28 01:02:33,780 fail2ban.server         [503]: INFO    Stopping all jails
+2022-01-28 01:02:33,780 fail2ban.filter         [503]: INFO    Removed logfile: '/var/log/auth.log'
+2022-01-28 01:02:34,104 fail2ban.actions        [503]: NOTICE  [sshd] Flush ticket(s) with iptables-multiport
+2022-01-28 01:02:34,986 fail2ban.jail           [503]: INFO    Jail 'sshd' stopped
+2022-01-28 01:02:34,987 fail2ban.database       [503]: INFO    Connection to database closed.
+2022-01-28 01:02:34,987 fail2ban.server         [503]: INFO    Exiting Fail2ban
+2022-01-28 01:03:03,392 fail2ban.server         [494]: INFO    --------------------------------------------------
+2022-01-28 01:03:03,396 fail2ban.server         [494]: INFO    Starting Fail2ban v0.10.2
+2022-01-28 01:03:03,422 fail2ban.database       [494]: INFO    Connected to fail2ban persistent database '/var/lib/fail2ban/fail2ban.sqlite3'
+2022-01-28 01:03:03,442 fail2ban.jail           [494]: INFO    Creating new jail 'sshd'
+2022-01-28 01:03:03,579 fail2ban.jail           [494]: INFO    Jail 'sshd' uses pyinotify {}
+2022-01-28 01:03:03,597 fail2ban.jail           [494]: INFO    Initiated 'pyinotify' backend
+2022-01-28 01:03:03,598 fail2ban.filter         [494]: INFO      maxLines: 1
+2022-01-28 01:03:03,878 fail2ban.server         [494]: INFO    Jail sshd is not a JournalFilter instance
+2022-01-28 01:03:03,883 fail2ban.filter         [494]: INFO    Added logfile: '/var/log/auth.log' (pos = 277376, hash = 5e0c83bad6f76cd1f834619decd7526fcff56c7a)
+2022-01-28 01:03:03,929 fail2ban.filter         [494]: INFO      encoding: UTF-8
+2022-01-28 01:03:03,938 fail2ban.filter         [494]: INFO      maxRetry: 2
+2022-01-28 01:03:03,939 fail2ban.filter         [494]: INFO      findtime: 600
+2022-01-28 01:03:03,945 fail2ban.actions        [494]: INFO      banTime: 3600
+2022-01-28 01:03:03,982 fail2ban.jail           [494]: INFO    Jail 'sshd' started
+2022-01-28 02:27:54,196 fail2ban.server         [494]: INFO    Shutdown in progress...
+2022-01-28 02:27:54,202 fail2ban.server         [494]: INFO    Stopping all jails
+2022-01-28 02:27:54,203 fail2ban.filter         [494]: INFO    Removed logfile: '/var/log/auth.log'
+2022-01-28 02:27:54,335 fail2ban.actions        [494]: NOTICE  [sshd] Flush ticket(s) with iptables-multiport
+2022-01-28 02:27:54,366 fail2ban.jail           [494]: INFO    Jail 'sshd' stopped
+2022-01-28 02:27:54,368 fail2ban.database       [494]: INFO    Connection to database closed.
+2022-01-28 02:27:54,368 fail2ban.server         [494]: INFO    Exiting Fail2ban
+2022-01-28 15:12:38,442 fail2ban.server         [533]: INFO    --------------------------------------------------
+2022-01-28 15:12:38,446 fail2ban.server         [533]: INFO    Starting Fail2ban v0.10.2
+2022-01-28 15:12:38,465 fail2ban.database       [533]: INFO    Connected to fail2ban persistent database '/var/lib/fail2ban/fail2ban.sqlite3'
+2022-01-28 15:12:38,470 fail2ban.jail           [533]: INFO    Creating new jail 'sshd'
+2022-01-28 15:12:38,607 fail2ban.jail           [533]: INFO    Jail 'sshd' uses pyinotify {}
+2022-01-28 15:12:38,620 fail2ban.jail           [533]: INFO    Initiated 'pyinotify' backend
+2022-01-28 15:12:38,621 fail2ban.filter         [533]: INFO      maxLines: 1
+2022-01-28 15:12:38,866 fail2ban.server         [533]: INFO    Jail sshd is not a JournalFilter instance
+2022-01-28 15:12:38,874 fail2ban.filter         [533]: INFO    Added logfile: '/var/log/auth.log' (pos = 295210, hash = 5e0c83bad6f76cd1f834619decd7526fcff56c7a)
+2022-01-28 15:12:38,911 fail2ban.filter         [533]: INFO      encoding: UTF-8
+2022-01-28 15:12:38,912 fail2ban.filter         [533]: INFO      maxRetry: 2
+2022-01-28 15:12:38,912 fail2ban.filter         [533]: INFO      findtime: 600
+2022-01-28 15:12:38,912 fail2ban.actions        [533]: INFO      banTime: 3600
+2022-01-28 15:12:38,931 fail2ban.jail           [533]: INFO    Jail 'sshd' started
+2022-01-29 15:58:36,409 fail2ban.server         [533]: INFO    Shutdown in progress...
+2022-01-29 15:58:36,414 fail2ban.server         [533]: INFO    Stopping all jails
+2022-01-29 15:58:36,414 fail2ban.filter         [533]: INFO    Removed logfile: '/var/log/auth.log'
+2022-01-29 15:58:36,760 fail2ban.actions        [533]: NOTICE  [sshd] Flush ticket(s) with iptables-multiport
+2022-01-29 15:58:37,015 fail2ban.jail           [533]: INFO    Jail 'sshd' stopped
+2022-01-29 15:58:37,016 fail2ban.database       [533]: INFO    Connection to database closed.
+2022-01-29 15:58:37,016 fail2ban.server         [533]: INFO    Exiting Fail2ban
+2022-01-29 15:59:09,776 fail2ban.server         [491]: INFO    --------------------------------------------------
+2022-01-29 15:59:09,779 fail2ban.server         [491]: INFO    Starting Fail2ban v0.10.2
+2022-01-29 15:59:09,795 fail2ban.database       [491]: INFO    Connected to fail2ban persistent database '/var/lib/fail2ban/fail2ban.sqlite3'
+2022-01-29 15:59:09,809 fail2ban.jail           [491]: INFO    Creating new jail 'sshd'
+2022-01-29 15:59:09,913 fail2ban.jail           [491]: INFO    Jail 'sshd' uses pyinotify {}
+2022-01-29 15:59:09,919 fail2ban.jail           [491]: INFO    Initiated 'pyinotify' backend
+2022-01-29 15:59:09,924 fail2ban.filter         [491]: INFO      maxLines: 1
+2022-01-29 15:59:10,053 fail2ban.server         [491]: INFO    Jail sshd is not a JournalFilter instance
+2022-01-29 15:59:10,059 fail2ban.filter         [491]: INFO    Added logfile: '/var/log/auth.log' (pos = 351155, hash = 5e0c83bad6f76cd1f834619decd7526fcff56c7a)
+2022-01-29 15:59:10,096 fail2ban.filter         [491]: INFO      encoding: UTF-8
+2022-01-29 15:59:10,096 fail2ban.filter         [491]: INFO      maxRetry: 2
+2022-01-29 15:59:10,096 fail2ban.filter         [491]: INFO      findtime: 600
+2022-01-29 15:59:10,097 fail2ban.actions        [491]: INFO      banTime: 3600
+2022-01-29 15:59:10,120 fail2ban.jail           [491]: INFO    Jail 'sshd' started

@@ -1,0 +1,1538 @@
+Jan 29 00:00:11 daemon rsyslogd:  [origin software="rsyslogd" swVersion="8.1901.0" x-pid="414" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
+Jan 29 00:00:11 daemon systemd[1]: logrotate.service: Main process exited, code=exited, status=1/FAILURE
+Jan 29 00:00:11 daemon systemd[1]: logrotate.service: Failed with result 'exit-code'.
+Jan 29 00:00:11 daemon systemd[1]: Failed to start Rotate log files.
+Jan 29 00:00:11 daemon systemd[1]: man-db.service: Succeeded.
+Jan 29 00:00:11 daemon systemd[1]: Started Daily man-db regeneration.
+Jan 29 00:05:01 daemon CRON[4869]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 00:09:01 daemon CRON[4878]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan 29 00:09:01 daemon systemd[1]: Starting Clean php session files...
+Jan 29 00:09:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Jan 29 00:09:01 daemon systemd[1]: Started Clean php session files.
+Jan 29 00:15:01 daemon CRON[4964]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 00:16:48 daemon systemd[1]: session-c1.scope: Succeeded.
+Jan 29 00:16:58 daemon systemd[1]: Stopping User Manager for UID 0...
+Jan 29 00:16:58 daemon systemd[4428]: Stopped target Default.
+Jan 29 00:16:58 daemon systemd[4428]: Stopped target Basic System.
+Jan 29 00:16:58 daemon systemd[4428]: Stopped target Sockets.
+Jan 29 00:16:58 daemon systemd[4428]: gpg-agent.socket: Succeeded.
+Jan 29 00:16:58 daemon systemd[4428]: Closed GnuPG cryptographic agent and passphrase cache.
+Jan 29 00:16:58 daemon systemd[4428]: gpg-agent-browser.socket: Succeeded.
+Jan 29 00:16:58 daemon systemd[4428]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Jan 29 00:16:58 daemon systemd[4428]: gpg-agent-extra.socket: Succeeded.
+Jan 29 00:16:58 daemon systemd[4428]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Jan 29 00:16:58 daemon systemd[4428]: Stopped target Timers.
+Jan 29 00:16:58 daemon systemd[4428]: gpg-agent-ssh.socket: Succeeded.
+Jan 29 00:16:58 daemon systemd[4428]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Jan 29 00:16:58 daemon systemd[4428]: dirmngr.socket: Succeeded.
+Jan 29 00:16:58 daemon systemd[4428]: Closed GnuPG network certificate management daemon.
+Jan 29 00:16:58 daemon systemd[4428]: Stopped target Paths.
+Jan 29 00:16:58 daemon systemd[4428]: Reached target Shutdown.
+Jan 29 00:16:58 daemon systemd[4428]: systemd-exit.service: Succeeded.
+Jan 29 00:16:58 daemon systemd[4428]: Started Exit the Session.
+Jan 29 00:16:58 daemon systemd[4428]: Reached target Exit the Session.
+Jan 29 00:16:58 daemon systemd[1]: user@0.service: Succeeded.
+Jan 29 00:16:58 daemon systemd[1]: Stopped User Manager for UID 0.
+Jan 29 00:16:58 daemon systemd[1]: Stopping User Runtime Directory /run/user/0...
+Jan 29 00:16:58 daemon systemd[1]: run-user-0.mount: Succeeded.
+Jan 29 00:16:58 daemon systemd[1]: user-runtime-dir@0.service: Succeeded.
+Jan 29 00:16:58 daemon systemd[1]: Stopped User Runtime Directory /run/user/0.
+Jan 29 00:16:58 daemon systemd[1]: Removed slice User Slice of UID 0.
+Jan 29 00:17:01 daemon CRON[4970]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 29 00:25:01 daemon CRON[4977]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 00:35:01 daemon CRON[4980]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 00:39:01 daemon CRON[4984]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan 29 00:39:01 daemon systemd[1]: Starting Clean php session files...
+Jan 29 00:39:02 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Jan 29 00:39:02 daemon systemd[1]: Started Clean php session files.
+Jan 29 00:40:56 daemon dbus-daemon[412]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.217' (uid=0 pid=5728 comm="/usr/bin/gdbus call --system --dest org.freedeskto")
+Jan 29 00:40:56 daemon systemd[1]: Starting PackageKit Daemon...
+Jan 29 00:40:56 daemon PackageKit: daemon start
+Jan 29 00:40:56 daemon dbus-daemon[412]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Jan 29 00:40:56 daemon systemd[1]: Started PackageKit Daemon.
+Jan 29 00:45:01 daemon CRON[5741]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 00:46:01 daemon PackageKit: daemon quit
+Jan 29 00:46:01 daemon systemd[1]: packagekit.service: Main process exited, code=killed, status=15/TERM
+Jan 29 00:46:01 daemon systemd[1]: packagekit.service: Succeeded.
+Jan 29 00:55:01 daemon CRON[5745]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 01:05:01 daemon CRON[5748]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 01:09:01 daemon CRON[5751]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan 29 01:09:01 daemon systemd[1]: Starting Clean php session files...
+Jan 29 01:09:02 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Jan 29 01:09:02 daemon systemd[1]: Started Clean php session files.
+Jan 29 01:15:01 daemon CRON[5838]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 01:17:01 daemon CRON[5841]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 29 01:25:02 daemon CRON[5844]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 01:35:01 daemon CRON[5847]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 01:35:46 daemon postfix/smtpd[5849]: connect from unknown[77.81.6.159]
+Jan 29 01:35:47 daemon postfix/smtpd[5849]: NOQUEUE: reject: RCPT from unknown[77.81.6.159]: 454 4.7.1 <spameri@tiscali.it>: Relay access denied; from=<spameri@tiscali.it> to=<spameri@tiscali.it> proto=ESMTP helo=<server-1231-145>
+Jan 29 01:35:47 daemon postfix/smtpd[5849]: disconnect from unknown[77.81.6.159] ehlo=1 mail=1 rcpt=0/1 rset=1 quit=1 commands=4/5
+Jan 29 01:39:01 daemon CRON[5854]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan 29 01:39:01 daemon systemd[1]: Starting Clean php session files...
+Jan 29 01:39:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Jan 29 01:39:01 daemon systemd[1]: Started Clean php session files.
+Jan 29 01:39:07 daemon postfix/anvil[5851]: statistics: max connection rate 1/60s for (smtp:77.81.6.159) at Jan 29 01:35:47
+Jan 29 01:39:07 daemon postfix/anvil[5851]: statistics: max connection count 1 for (smtp:77.81.6.159) at Jan 29 01:35:47
+Jan 29 01:39:07 daemon postfix/anvil[5851]: statistics: max cache size 1 at Jan 29 01:35:47
+Jan 29 01:45:01 daemon CRON[5939]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 01:55:01 daemon CRON[5943]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 02:05:01 daemon CRON[5949]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 02:09:01 daemon CRON[5952]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan 29 02:09:01 daemon systemd[1]: Starting Clean php session files...
+Jan 29 02:09:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Jan 29 02:09:01 daemon systemd[1]: Started Clean php session files.
+Jan 29 02:15:01 daemon CRON[6037]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 02:17:01 daemon CRON[6040]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 29 02:17:47 daemon snapd[419]: storehelpers.go:721: cannot refresh: snap has no updates available: "certbot", "core", "core20"
+Jan 29 02:17:47 daemon snapd[419]: autorefresh.go:536: auto-refresh: all snaps are up-to-date
+Jan 29 02:25:01 daemon CRON[6043]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 02:35:01 daemon CRON[6047]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 02:39:01 daemon CRON[6051]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan 29 02:39:01 daemon systemd[1]: Starting Clean php session files...
+Jan 29 02:39:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Jan 29 02:39:01 daemon systemd[1]: Started Clean php session files.
+Jan 29 02:45:01 daemon CRON[6136]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 02:55:01 daemon CRON[6142]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 03:05:01 daemon CRON[6146]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 03:09:01 daemon CRON[6149]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan 29 03:09:01 daemon systemd[1]: Starting Clean php session files...
+Jan 29 03:09:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Jan 29 03:09:01 daemon systemd[1]: Started Clean php session files.
+Jan 29 03:15:01 daemon CRON[6234]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 03:17:01 daemon CRON[6237]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 29 03:25:01 daemon CRON[6240]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 03:35:01 daemon CRON[6243]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 03:39:01 daemon CRON[6246]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan 29 03:39:01 daemon systemd[1]: Starting Clean php session files...
+Jan 29 03:39:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Jan 29 03:39:01 daemon systemd[1]: Started Clean php session files.
+Jan 29 03:45:01 daemon CRON[6331]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 03:55:01 daemon CRON[6334]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 03:57:22 daemon systemd[1]: Starting Daily apt download activities...
+Jan 29 03:57:24 daemon dbus-daemon[412]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.254' (uid=0 pid=7041 comm="/usr/bin/gdbus call --system --dest org.freedeskto")
+Jan 29 03:57:24 daemon systemd[1]: Starting PackageKit Daemon...
+Jan 29 03:57:24 daemon PackageKit: daemon start
+Jan 29 03:57:24 daemon dbus-daemon[412]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Jan 29 03:57:24 daemon systemd[1]: Started PackageKit Daemon.
+Jan 29 03:57:27 daemon systemd[1]: apt-daily.service: Succeeded.
+Jan 29 03:57:27 daemon systemd[1]: Started Daily apt download activities.
+Jan 29 04:02:29 daemon PackageKit: daemon quit
+Jan 29 04:02:29 daemon systemd[1]: packagekit.service: Main process exited, code=killed, status=15/TERM
+Jan 29 04:02:29 daemon systemd[1]: packagekit.service: Succeeded.
+Jan 29 04:05:01 daemon CRON[7078]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 04:09:01 daemon CRON[7082]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan 29 04:09:01 daemon systemd[1]: Starting Clean php session files...
+Jan 29 04:09:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Jan 29 04:09:01 daemon systemd[1]: Started Clean php session files.
+Jan 29 04:15:01 daemon CRON[7167]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 04:17:01 daemon CRON[7170]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 29 04:25:01 daemon CRON[7173]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 04:33:09 daemon systemd[1]: Starting Service for snap application certbot.renew...
+Jan 29 04:33:11 daemon systemd[1]: snap.certbot.renew.service: Succeeded.
+Jan 29 04:33:11 daemon systemd[1]: Started Service for snap application certbot.renew.
+Jan 29 04:35:01 daemon CRON[7201]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 04:39:01 daemon CRON[7204]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan 29 04:39:01 daemon systemd[1]: Starting Clean php session files...
+Jan 29 04:39:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Jan 29 04:39:01 daemon systemd[1]: Started Clean php session files.
+Jan 29 04:45:01 daemon CRON[7289]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 04:55:01 daemon CRON[7292]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 05:05:01 daemon CRON[7295]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 05:09:01 daemon CRON[7299]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan 29 05:09:01 daemon systemd[1]: Starting Clean php session files...
+Jan 29 05:09:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Jan 29 05:09:01 daemon systemd[1]: Started Clean php session files.
+Jan 29 05:15:01 daemon CRON[7384]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 05:17:01 daemon CRON[7387]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 29 05:25:01 daemon CRON[7390]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 05:25:13 daemon postfix/smtpd[7392]: connect from scan-13o.shadowserver.org[184.105.247.254]
+Jan 29 05:25:13 daemon postfix/smtpd[7392]: lost connection after CONNECT from scan-13o.shadowserver.org[184.105.247.254]
+Jan 29 05:25:13 daemon postfix/smtpd[7392]: disconnect from scan-13o.shadowserver.org[184.105.247.254] commands=0/0
+Jan 29 05:28:33 daemon postfix/anvil[7394]: statistics: max connection rate 1/60s for (smtp:184.105.247.254) at Jan 29 05:25:13
+Jan 29 05:28:33 daemon postfix/anvil[7394]: statistics: max connection count 1 for (smtp:184.105.247.254) at Jan 29 05:25:13
+Jan 29 05:28:33 daemon postfix/anvil[7394]: statistics: max cache size 1 at Jan 29 05:25:13
+Jan 29 05:35:01 daemon CRON[7396]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 05:39:01 daemon CRON[7399]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan 29 05:39:01 daemon systemd[1]: Starting Clean php session files...
+Jan 29 05:39:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Jan 29 05:39:01 daemon systemd[1]: Started Clean php session files.
+Jan 29 05:45:01 daemon CRON[7485]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 05:55:01 daemon CRON[7488]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 06:05:01 daemon CRON[7492]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 06:09:01 daemon CRON[7495]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan 29 06:09:01 daemon systemd[1]: Starting Clean php session files...
+Jan 29 06:09:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Jan 29 06:09:01 daemon systemd[1]: Started Clean php session files.
+Jan 29 06:14:52 daemon systemd[1]: Starting Daily apt upgrade and clean activities...
+Jan 29 06:14:54 daemon systemd[1]: apt-daily-upgrade.service: Succeeded.
+Jan 29 06:14:54 daemon systemd[1]: Started Daily apt upgrade and clean activities.
+Jan 29 06:15:01 daemon CRON[7647]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 06:17:01 daemon CRON[7650]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 29 06:25:01 daemon CRON[7654]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 06:25:01 daemon CRON[7655]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Jan 29 06:35:01 daemon CRON[7728]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 06:39:01 daemon CRON[7731]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan 29 06:39:01 daemon systemd[1]: Starting Clean php session files...
+Jan 29 06:39:02 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Jan 29 06:39:02 daemon systemd[1]: Started Clean php session files.
+Jan 29 06:45:01 daemon CRON[7816]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 06:55:01 daemon CRON[7819]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 07:05:01 daemon CRON[7822]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 07:09:01 daemon CRON[7825]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan 29 07:09:01 daemon systemd[1]: Starting Clean php session files...
+Jan 29 07:09:02 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Jan 29 07:09:02 daemon systemd[1]: Started Clean php session files.
+Jan 29 07:15:01 daemon CRON[7910]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 07:17:01 daemon CRON[7913]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 29 07:25:01 daemon CRON[7918]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 07:35:01 daemon CRON[7924]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 07:38:27 daemon postfix/smtpd[7928]: connect from unknown[5.8.10.202]
+Jan 29 07:38:27 daemon postfix/smtpd[7930]: connect from unknown[5.8.10.202]
+Jan 29 07:38:27 daemon postfix/smtpd[7928]: lost connection after CONNECT from unknown[5.8.10.202]
+Jan 29 07:38:27 daemon postfix/smtpd[7928]: disconnect from unknown[5.8.10.202] commands=0/0
+Jan 29 07:38:27 daemon postfix/smtpd[7930]: lost connection after UNKNOWN from unknown[5.8.10.202]
+Jan 29 07:38:27 daemon postfix/smtpd[7930]: disconnect from unknown[5.8.10.202] unknown=0/1 commands=0/1
+Jan 29 07:38:27 daemon postfix/smtpd[7928]: connect from unknown[5.8.10.202]
+Jan 29 07:38:27 daemon postfix/smtpd[7928]: lost connection after UNKNOWN from unknown[5.8.10.202]
+Jan 29 07:38:27 daemon postfix/smtpd[7928]: disconnect from unknown[5.8.10.202] unknown=0/1 commands=0/1
+Jan 29 07:38:30 daemon postfix/smtpd[7930]: connect from unknown[5.8.10.202]
+Jan 29 07:38:30 daemon postfix/smtpd[7930]: lost connection after UNKNOWN from unknown[5.8.10.202]
+Jan 29 07:38:30 daemon postfix/smtpd[7930]: disconnect from unknown[5.8.10.202] unknown=0/1 commands=0/1
+Jan 29 07:38:30 daemon postfix/smtpd[7928]: connect from unknown[5.8.10.202]
+Jan 29 07:38:30 daemon postfix/smtpd[7928]: warning: non-SMTP command from unknown[5.8.10.202]: GET /aaa9 HTTP/1.1
+Jan 29 07:38:30 daemon postfix/smtpd[7928]: disconnect from unknown[5.8.10.202] unknown=0/1 commands=0/1
+Jan 29 07:38:30 daemon postfix/smtpd[7930]: connect from unknown[5.8.10.202]
+Jan 29 07:38:30 daemon postfix/smtpd[7930]: lost connection after UNKNOWN from unknown[5.8.10.202]
+Jan 29 07:38:30 daemon postfix/smtpd[7930]: disconnect from unknown[5.8.10.202] unknown=0/1 commands=0/1
+Jan 29 07:38:30 daemon postfix/smtpd[7928]: connect from unknown[5.8.10.202]
+Jan 29 07:38:30 daemon postfix/smtpd[7928]: warning: non-SMTP command from unknown[5.8.10.202]: GET /aab9 HTTP/1.1
+Jan 29 07:38:30 daemon postfix/smtpd[7928]: disconnect from unknown[5.8.10.202] unknown=0/1 commands=0/1
+Jan 29 07:39:01 daemon CRON[7933]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan 29 07:39:01 daemon systemd[1]: Starting Clean php session files...
+Jan 29 07:39:02 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Jan 29 07:39:02 daemon systemd[1]: Started Clean php session files.
+Jan 29 07:41:50 daemon postfix/anvil[7931]: statistics: max connection rate 7/60s for (smtp:5.8.10.202) at Jan 29 07:38:30
+Jan 29 07:41:50 daemon postfix/anvil[7931]: statistics: max connection count 2 for (smtp:5.8.10.202) at Jan 29 07:38:27
+Jan 29 07:41:50 daemon postfix/anvil[7931]: statistics: max cache size 1 at Jan 29 07:38:27
+Jan 29 07:45:01 daemon CRON[8018]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 07:55:02 daemon CRON[8022]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 08:05:01 daemon CRON[8026]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 08:09:01 daemon CRON[8029]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan 29 08:09:01 daemon systemd[1]: Starting Clean php session files...
+Jan 29 08:09:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Jan 29 08:09:01 daemon systemd[1]: Started Clean php session files.
+Jan 29 08:15:01 daemon CRON[8114]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 08:17:01 daemon CRON[8118]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 29 08:25:01 daemon CRON[8122]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 08:35:01 daemon CRON[8125]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 08:39:01 daemon CRON[8128]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan 29 08:39:01 daemon systemd[1]: Starting Clean php session files...
+Jan 29 08:39:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Jan 29 08:39:01 daemon systemd[1]: Started Clean php session files.
+Jan 29 08:45:01 daemon CRON[8213]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 08:55:01 daemon CRON[8217]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 09:05:01 daemon CRON[8220]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 09:09:01 daemon CRON[8223]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan 29 09:09:01 daemon systemd[1]: Starting Clean php session files...
+Jan 29 09:09:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Jan 29 09:09:01 daemon systemd[1]: Started Clean php session files.
+Jan 29 09:15:01 daemon CRON[8309]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 09:17:01 daemon CRON[8312]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 29 09:25:01 daemon CRON[8316]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 09:35:01 daemon CRON[8320]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 09:37:42 daemon snapd[419]: storehelpers.go:721: cannot refresh: snap has no updates available: "certbot", "core", "core20"
+Jan 29 09:37:42 daemon snapd[419]: autorefresh.go:536: auto-refresh: all snaps are up-to-date
+Jan 29 09:39:01 daemon CRON[8324]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan 29 09:39:01 daemon systemd[1]: Starting Clean php session files...
+Jan 29 09:39:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Jan 29 09:39:01 daemon systemd[1]: Started Clean php session files.
+Jan 29 09:45:01 daemon CRON[8410]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 09:55:01 daemon CRON[8413]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 10:05:01 daemon CRON[8417]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 10:09:01 daemon CRON[8420]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan 29 10:09:01 daemon systemd[1]: Starting Clean php session files...
+Jan 29 10:09:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Jan 29 10:09:01 daemon systemd[1]: Started Clean php session files.
+Jan 29 10:15:01 daemon CRON[8505]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 10:17:01 daemon CRON[8508]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 29 10:25:01 daemon CRON[8511]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 10:35:01 daemon CRON[8514]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 10:39:01 daemon CRON[8517]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan 29 10:39:01 daemon systemd[1]: Starting Clean php session files...
+Jan 29 10:39:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Jan 29 10:39:01 daemon systemd[1]: Started Clean php session files.
+Jan 29 10:45:01 daemon CRON[8603]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 10:55:01 daemon CRON[8607]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 11:05:01 daemon CRON[8611]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 11:09:01 daemon CRON[8614]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan 29 11:09:01 daemon systemd[1]: Starting Clean php session files...
+Jan 29 11:09:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Jan 29 11:09:01 daemon systemd[1]: Started Clean php session files.
+Jan 29 11:15:01 daemon CRON[8701]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 11:17:01 daemon CRON[8704]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 29 11:25:01 daemon CRON[8707]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 11:35:01 daemon CRON[8810]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 11:39:01 daemon CRON[9055]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan 29 11:39:01 daemon systemd[1]: Starting Clean php session files...
+Jan 29 11:39:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Jan 29 11:39:01 daemon systemd[1]: Started Clean php session files.
+Jan 29 11:45:01 daemon CRON[9140]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 11:47:30 daemon postfix/smtpd[9143]: warning: hostname 199.167.123.148.hvdata.net does not resolve to address 199.167.123.148: Name or service not known
+Jan 29 11:47:30 daemon postfix/smtpd[9143]: connect from unknown[199.167.123.148]
+Jan 29 11:47:30 daemon postfix/smtpd[9143]: lost connection after CONNECT from unknown[199.167.123.148]
+Jan 29 11:47:30 daemon postfix/smtpd[9143]: disconnect from unknown[199.167.123.148] commands=0/0
+Jan 29 11:50:50 daemon postfix/anvil[9145]: statistics: max connection rate 1/60s for (smtp:199.167.123.148) at Jan 29 11:47:30
+Jan 29 11:50:50 daemon postfix/anvil[9145]: statistics: max connection count 1 for (smtp:199.167.123.148) at Jan 29 11:47:30
+Jan 29 11:50:50 daemon postfix/anvil[9145]: statistics: max cache size 1 at Jan 29 11:47:30
+Jan 29 11:51:34 daemon postfix/smtpd[9146]: connect from unknown[45.134.23.247]
+Jan 29 11:51:34 daemon postfix/smtpd[9146]: NOQUEUE: reject: RCPT from unknown[45.134.23.247]: 454 4.7.1 <spameri@tiscali.it>: Relay access denied; from=<spameri@tiscali.it> to=<spameri@tiscali.it> proto=ESMTP helo=<WIN-CLJ1B0GQ6JP>
+Jan 29 11:51:34 daemon postfix/smtpd[9146]: disconnect from unknown[45.134.23.247] ehlo=1 mail=1 rcpt=0/1 rset=1 quit=1 commands=4/5
+Jan 29 11:54:54 daemon postfix/anvil[9148]: statistics: max connection rate 1/60s for (smtp:45.134.23.247) at Jan 29 11:51:34
+Jan 29 11:54:54 daemon postfix/anvil[9148]: statistics: max connection count 1 for (smtp:45.134.23.247) at Jan 29 11:51:34
+Jan 29 11:54:54 daemon postfix/anvil[9148]: statistics: max cache size 1 at Jan 29 11:51:34
+Jan 29 11:55:01 daemon CRON[9151]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 12:05:01 daemon CRON[9154]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 12:09:01 daemon CRON[9157]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan 29 12:09:01 daemon systemd[1]: Starting Clean php session files...
+Jan 29 12:09:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Jan 29 12:09:01 daemon systemd[1]: Started Clean php session files.
+Jan 29 12:15:01 daemon CRON[9243]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 12:17:01 daemon CRON[9246]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 29 12:22:53 daemon postfix/smtpd[9250]: connect from rrcs-67-53-246-130.west.biz.rr.com[67.53.246.130]
+Jan 29 12:22:53 daemon postfix/smtpd[9250]: lost connection after CONNECT from rrcs-67-53-246-130.west.biz.rr.com[67.53.246.130]
+Jan 29 12:22:53 daemon postfix/smtpd[9250]: disconnect from rrcs-67-53-246-130.west.biz.rr.com[67.53.246.130] commands=0/0
+Jan 29 12:25:01 daemon CRON[9254]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 12:26:13 daemon postfix/anvil[9252]: statistics: max connection rate 1/60s for (smtp:67.53.246.130) at Jan 29 12:22:53
+Jan 29 12:26:13 daemon postfix/anvil[9252]: statistics: max connection count 1 for (smtp:67.53.246.130) at Jan 29 12:22:53
+Jan 29 12:26:13 daemon postfix/anvil[9252]: statistics: max cache size 1 at Jan 29 12:22:53
+Jan 29 12:35:01 daemon CRON[9257]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 12:39:01 daemon CRON[9261]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan 29 12:39:01 daemon systemd[1]: Starting Clean php session files...
+Jan 29 12:39:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Jan 29 12:39:01 daemon systemd[1]: Started Clean php session files.
+Jan 29 12:45:01 daemon CRON[9347]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 12:55:01 daemon CRON[9353]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 13:05:01 daemon CRON[9356]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 13:09:01 daemon CRON[9360]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan 29 13:09:01 daemon systemd[1]: Starting Clean php session files...
+Jan 29 13:09:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Jan 29 13:09:01 daemon systemd[1]: Started Clean php session files.
+Jan 29 13:15:01 daemon CRON[9446]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 13:17:01 daemon CRON[9449]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 29 13:25:01 daemon CRON[9453]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 13:34:52 daemon systemd[1]: Starting Daily apt download activities...
+Jan 29 13:34:53 daemon systemd[1]: apt-daily.service: Succeeded.
+Jan 29 13:34:53 daemon systemd[1]: Started Daily apt download activities.
+Jan 29 13:35:01 daemon CRON[9505]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 13:39:01 daemon CRON[9508]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan 29 13:39:01 daemon systemd[1]: Starting Clean php session files...
+Jan 29 13:39:02 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Jan 29 13:39:02 daemon systemd[1]: Started Clean php session files.
+Jan 29 13:45:01 daemon CRON[9594]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 13:55:01 daemon CRON[9598]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 14:05:01 daemon CRON[9602]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 14:09:01 daemon CRON[9605]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan 29 14:09:01 daemon systemd[1]: Starting Clean php session files...
+Jan 29 14:09:02 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Jan 29 14:09:02 daemon systemd[1]: Started Clean php session files.
+Jan 29 14:12:41 daemon snapd[419]: storehelpers.go:721: cannot refresh: snap has no updates available: "certbot", "core", "core20"
+Jan 29 14:12:41 daemon snapd[419]: autorefresh.go:536: auto-refresh: all snaps are up-to-date
+Jan 29 14:15:01 daemon CRON[9690]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 14:17:01 daemon CRON[9693]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 29 14:25:01 daemon CRON[9696]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 14:35:01 daemon CRON[9701]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 14:39:01 daemon CRON[9704]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan 29 14:39:01 daemon systemd[1]: Starting Clean php session files...
+Jan 29 14:39:02 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Jan 29 14:39:02 daemon systemd[1]: Started Clean php session files.
+Jan 29 14:45:01 daemon CRON[9790]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 14:55:02 daemon CRON[9796]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 15:05:01 daemon CRON[9799]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 15:07:55 daemon systemd[1]: Created slice User Slice of UID 0.
+Jan 29 15:07:55 daemon systemd[1]: Starting User Runtime Directory /run/user/0...
+Jan 29 15:07:55 daemon systemd[1]: Started User Runtime Directory /run/user/0.
+Jan 29 15:07:55 daemon systemd[1]: Starting User Manager for UID 0...
+Jan 29 15:07:55 daemon systemd[9811]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Jan 29 15:07:55 daemon systemd[9811]: Listening on GnuPG cryptographic agent and passphrase cache.
+Jan 29 15:07:55 daemon systemd[9811]: Reached target Timers.
+Jan 29 15:07:55 daemon systemd[9811]: Reached target Paths.
+Jan 29 15:07:55 daemon systemd[9811]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Jan 29 15:07:55 daemon systemd[9811]: Listening on GnuPG network certificate management daemon.
+Jan 29 15:07:55 daemon systemd[9811]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Jan 29 15:07:55 daemon systemd[9811]: Reached target Sockets.
+Jan 29 15:07:55 daemon systemd[9811]: Reached target Basic System.
+Jan 29 15:07:55 daemon systemd[1]: Started User Manager for UID 0.
+Jan 29 15:07:55 daemon systemd[1]: Started Session c2 of user root.
+Jan 29 15:07:55 daemon systemd[9811]: Reached target Default.
+Jan 29 15:07:55 daemon systemd[9811]: Startup finished in 53ms.
+Jan 29 15:09:01 daemon CRON[9825]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan 29 15:09:01 daemon systemd[1]: Starting Clean php session files...
+Jan 29 15:09:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Jan 29 15:09:01 daemon systemd[1]: Started Clean php session files.
+Jan 29 15:15:01 daemon CRON[9916]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 15:17:01 daemon CRON[9956]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 29 15:25:01 daemon CRON[9960]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 15:28:12 daemon systemd[1]: Starting Cleanup of Temporary Directories...
+Jan 29 15:28:12 daemon systemd-tmpfiles[9966]: [/usr/lib/tmpfiles.d/fail2ban-tmpfiles.conf:1] Line references path below legacy directory /var/run/, updating /var/run/fail2ban → /run/fail2ban; please update the tmpfiles.d/ drop-in file accordingly.
+Jan 29 15:28:12 daemon systemd[1]: systemd-tmpfiles-clean.service: Succeeded.
+Jan 29 15:28:12 daemon systemd[1]: Started Cleanup of Temporary Directories.
+Jan 29 15:34:13 daemon postfix/smtpd[9991]: warning: hostname advancesmay.earacheevince.com does not resolve to address 212.192.246.242
+Jan 29 15:34:13 daemon postfix/smtpd[9991]: connect from unknown[212.192.246.242]
+Jan 29 15:34:16 daemon postfix/smtpd[9991]: NOQUEUE: reject: RCPT from unknown[212.192.246.242]: 454 4.7.1 <spameri@tiscali.it>: Relay access denied; from=<spameri@tiscali.it> to=<spameri@tiscali.it> proto=ESMTP helo=<WIN-CLJ1B0GQ6JP>
+Jan 29 15:34:18 daemon postfix/smtpd[9991]: disconnect from unknown[212.192.246.242] ehlo=1 mail=1 rcpt=0/1 rset=1 quit=1 commands=4/5
+Jan 29 15:35:01 daemon CRON[9996]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 15:36:14 daemon systemd[1]: session-c2.scope: Succeeded.
+Jan 29 15:36:24 daemon systemd[1]: Stopping User Manager for UID 0...
+Jan 29 15:36:24 daemon systemd[9811]: Stopped target Default.
+Jan 29 15:36:24 daemon systemd[9811]: Stopped target Basic System.
+Jan 29 15:36:24 daemon systemd[9811]: Stopped target Timers.
+Jan 29 15:36:24 daemon systemd[9811]: Stopped target Paths.
+Jan 29 15:36:24 daemon systemd[9811]: Stopped target Sockets.
+Jan 29 15:36:24 daemon systemd[9811]: gpg-agent-browser.socket: Succeeded.
+Jan 29 15:36:24 daemon systemd[9811]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Jan 29 15:36:24 daemon systemd[9811]: gpg-agent-ssh.socket: Succeeded.
+Jan 29 15:36:24 daemon systemd[9811]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Jan 29 15:36:24 daemon systemd[9811]: dirmngr.socket: Succeeded.
+Jan 29 15:36:24 daemon systemd[9811]: Closed GnuPG network certificate management daemon.
+Jan 29 15:36:24 daemon systemd[9811]: gpg-agent.socket: Succeeded.
+Jan 29 15:36:24 daemon systemd[9811]: Closed GnuPG cryptographic agent and passphrase cache.
+Jan 29 15:36:24 daemon systemd[9811]: gpg-agent-extra.socket: Succeeded.
+Jan 29 15:36:24 daemon systemd[9811]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Jan 29 15:36:24 daemon systemd[9811]: Reached target Shutdown.
+Jan 29 15:36:24 daemon systemd[9811]: systemd-exit.service: Succeeded.
+Jan 29 15:36:24 daemon systemd[9811]: Started Exit the Session.
+Jan 29 15:36:24 daemon systemd[9811]: Reached target Exit the Session.
+Jan 29 15:36:24 daemon systemd[1]: user@0.service: Succeeded.
+Jan 29 15:36:24 daemon systemd[1]: Stopped User Manager for UID 0.
+Jan 29 15:36:24 daemon systemd[1]: Stopping User Runtime Directory /run/user/0...
+Jan 29 15:36:24 daemon systemd[1]: run-user-0.mount: Succeeded.
+Jan 29 15:36:24 daemon systemd[1]: user-runtime-dir@0.service: Succeeded.
+Jan 29 15:36:24 daemon systemd[1]: Stopped User Runtime Directory /run/user/0.
+Jan 29 15:36:24 daemon systemd[1]: Removed slice User Slice of UID 0.
+Jan 29 15:37:38 daemon postfix/anvil[9993]: statistics: max connection rate 1/60s for (smtp:212.192.246.242) at Jan 29 15:34:13
+Jan 29 15:37:38 daemon postfix/anvil[9993]: statistics: max connection count 1 for (smtp:212.192.246.242) at Jan 29 15:34:13
+Jan 29 15:37:38 daemon postfix/anvil[9993]: statistics: max cache size 1 at Jan 29 15:34:13
+Jan 29 15:39:01 daemon CRON[10020]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan 29 15:39:01 daemon systemd[1]: Starting Clean php session files...
+Jan 29 15:39:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Jan 29 15:39:01 daemon systemd[1]: Started Clean php session files.
+Jan 29 15:45:01 daemon CRON[10115]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 15:55:01 daemon CRON[10121]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 15:58:35 daemon systemd[1]: unattended-upgrades.service: Succeeded.
+Jan 29 15:58:35 daemon systemd[1]: Stopped Unattended Upgrades Shutdown.
+Jan 29 15:58:35 daemon systemd[1]: Stopped target Multi-User System.
+Jan 29 15:58:35 daemon systemd[1]: postfix.service: Succeeded.
+Jan 29 15:58:35 daemon systemd[1]: Stopped Postfix Mail Transport Agent.
+Jan 29 15:58:35 daemon systemd[1]: Stopping Postfix Mail Transport Agent (instance -)...
+Jan 29 15:58:35 daemon systemd[1]: Stopping MariaDB 10.3.31 database server...
+Jan 29 15:58:35 daemon systemd[1]: Stopping The Apache HTTP Server...
+Jan 29 15:58:35 daemon systemd[1]: Stopping LSB: Start and stop OSSEC HIDS...
+Jan 29 15:58:35 daemon systemd[1]: Stopping Login Service...
+Jan 29 15:58:35 daemon systemd[1]: Stopping Regular background program processing daemon...
+Jan 29 15:58:35 daemon systemd[1]: Stopping D-Bus System Message Bus...
+Jan 29 15:58:35 daemon systemd[1]: Stopping Authorization Manager...
+Jan 29 15:58:35 daemon systemd[1]: Stopping OpenBSD Secure Shell server...
+Jan 29 15:59:07 daemon systemd-tmpfiles[264]: [/usr/lib/tmpfiles.d/fail2ban-tmpfiles.conf:1] Line references path below legacy directory /var/run/, updating /var/run/fail2ban → /run/fail2ban; please update the tmpfiles.d/ drop-in file accordingly.
+Jan 29 15:59:07 daemon systemd-fsck[234]: linode-root: clean, 71375/3041280 files, 1105799/12976128 blocks
+Jan 29 15:59:07 daemon systemd[1]: Starting Flush Journal to Persistent Storage...
+Jan 29 15:59:07 daemon systemd[1]: Started Set the console keyboard layout.
+Jan 29 15:59:07 daemon systemd[1]: Reached target Local File Systems (Pre).
+Jan 29 15:59:07 daemon systemd-udevd[265]: Network interface NamePolicy= disabled on kernel command line, ignoring.
+Jan 29 15:59:07 daemon systemd[1]: Mounting Mount unit for core20, revision 1270...
+Jan 29 15:59:07 daemon systemd[1]: Mounting Mount unit for core, revision 12603...
+Jan 29 15:59:07 daemon systemd[1]: Mounting Mount unit for core20, revision 1328...
+Jan 29 15:59:07 daemon systemd[1]: Mounting Mount unit for certbot, revision 1670...
+Jan 29 15:59:07 daemon systemd[1]: Started udev Kernel Device Manager.
+Jan 29 15:59:07 daemon systemd[1]: Started Flush Journal to Persistent Storage.
+Jan 29 15:59:07 daemon systemd[1]: Mounted Mount unit for certbot, revision 1670.
+Jan 29 15:59:07 daemon systemd[1]: Mounted Mount unit for core20, revision 1328.
+Jan 29 15:59:07 daemon systemd[1]: Mounted Mount unit for core20, revision 1270.
+Jan 29 15:59:07 daemon systemd[1]: Mounted Mount unit for core, revision 12603.
+Jan 29 15:59:07 daemon systemd-udevd[284]: Using default interface naming scheme 'v240'.
+Jan 29 15:59:07 daemon systemd[1]: Reached target Local File Systems.
+Jan 29 15:59:07 daemon systemd[1]: Starting Set console font and keymap...
+Jan 29 15:59:07 daemon systemd[1]: Condition check resulted in Commit a transient machine-id on disk being skipped.
+Jan 29 15:59:07 daemon systemd[1]: Starting Create Volatile Files and Directories...
+Jan 29 15:59:07 daemon systemd[1]: Starting Load AppArmor profiles...
+Jan 29 15:59:07 daemon systemd[1]: Started Set console font and keymap.
+Jan 29 15:59:07 daemon systemd-tmpfiles[306]: [/usr/lib/tmpfiles.d/fail2ban-tmpfiles.conf:1] Line references path below legacy directory /var/run/, updating /var/run/fail2ban → /run/fail2ban; please update the tmpfiles.d/ drop-in file accordingly.
+Jan 29 15:59:07 daemon apparmor.systemd[311]: Restarting AppArmor
+Jan 29 15:59:07 daemon apparmor.systemd[311]: Reloading AppArmor profiles
+Jan 29 15:59:07 daemon systemd[1]: Found device /dev/ttyS0.
+Jan 29 15:59:07 daemon systemd[1]: Started Create Volatile Files and Directories.
+Jan 29 15:59:07 daemon systemd[1]: Found device QEMU_HARDDISK.
+Jan 29 15:59:07 daemon systemd[1]: Condition check resulted in Virtio network device being skipped.
+Jan 29 15:59:07 daemon systemd[1]: Activating swap /dev/sdb...
+Jan 29 15:59:07 daemon systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Jan 29 15:59:07 daemon systemd[1]: Starting Network Time Synchronization...
+Jan 29 15:59:07 daemon systemd[1]: Activated swap /dev/sdb.
+Jan 29 15:59:07 daemon systemd[1]: Reached target Swap.
+Jan 29 15:59:07 daemon systemd[1]: Started Update UTMP about System Boot/Shutdown.
+Jan 29 15:59:07 daemon systemd[1]: Started Network Time Synchronization.
+Jan 29 15:59:07 daemon systemd[1]: Reached target System Time Synchronized.
+Jan 29 15:59:07 daemon systemd[1]: Started Load AppArmor profiles.
+Jan 29 15:59:07 daemon systemd[1]: Started ifup for eth0.
+Jan 29 15:59:07 daemon systemd[1]: Started Entropy daemon using the HAVEGE algorithm.
+Jan 29 15:59:07 daemon systemd[1]: Reached target System Initialization.
+Jan 29 15:59:07 daemon systemd[1]: Listening on D-Bus System Message Bus Socket.
+Jan 29 15:59:07 daemon systemd[1]: Started Daily Cleanup of Temporary Directories.
+Jan 29 15:59:07 daemon systemd[1]: Starting Socket activation for snappy daemon.
+Jan 29 15:59:07 daemon systemd[1]: Started Daily rotation of log files.
+Jan 29 15:59:07 daemon systemd[1]: Started Daily apt download activities.
+Jan 29 15:59:07 daemon systemd[1]: Started Daily apt upgrade and clean activities.
+Jan 29 15:59:07 daemon systemd[1]: Started Clean PHP session files every 30 mins.
+Jan 29 15:59:07 daemon systemd[1]: Started Timer renew for snap application certbot.renew.
+Jan 29 15:59:07 daemon systemd[1]: Started Daily man-db regeneration.
+Jan 29 15:59:07 daemon systemd[1]: Reached target Timers.
+Jan 29 15:59:07 daemon systemd[1]: Started Helper to synchronize boot up for ifupdown.
+Jan 29 15:59:07 daemon systemd[1]: Listening on Socket activation for snappy daemon.
+Jan 29 15:59:07 daemon systemd[1]: Reached target Sockets.
+Jan 29 15:59:07 daemon systemd[1]: Reached target Basic System.
+Jan 29 15:59:07 daemon systemd[1]: Starting System Logging Service...
+Jan 29 15:59:07 daemon systemd[1]: Started D-Bus System Message Bus.
+Jan 29 15:59:07 daemon systemd[1]: Condition check resulted in getty on tty2-tty6 if dbus and logind are not available being skipped.
+Jan 29 15:59:07 daemon systemd[1]: Starting Resets System Activity Data Collector...
+Jan 29 15:59:07 daemon systemd[1]: Starting Login Service...
+Jan 29 15:59:07 daemon systemd[1]: Started Regular background program processing daemon.
+Jan 29 15:59:07 daemon systemd[1]: Starting Snappy daemon...
+Jan 29 15:59:07 daemon cron[409]: (CRON) INFO (pidfile fd = 3)
+Jan 29 15:59:07 daemon rsyslogd: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.1901.0]
+Jan 29 15:59:07 daemon rsyslogd:  [origin software="rsyslogd" swVersion="8.1901.0" x-pid="401" x-info="https://www.rsyslog.com"] start
+Jan 29 15:59:07 daemon systemd[1]: Starting Raise network interfaces...
+Jan 29 15:59:07 daemon cron[409]: (CRON) INFO (Running @reboot jobs)
+Jan 29 15:59:07 daemon systemd[1]: Started System Logging Service.
+Jan 29 15:59:07 daemon kernel: [    0.000000] Linux version 4.19.0-18-amd64 (debian-kernel@lists.debian.org) (gcc version 8.3.0 (Debian 8.3.0-6)) #1 SMP Debian 4.19.208-1 (2021-09-29)
+Jan 29 15:59:07 daemon kernel: [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-4.19.0-18-amd64 root=/dev/sda ro console=ttyS0,19200n8 net.ifnames=0
+Jan 29 15:59:07 daemon kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+Jan 29 15:59:07 daemon kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+Jan 29 15:59:07 daemon kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+Jan 29 15:59:07 daemon kernel: [    0.000000] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+Jan 29 15:59:07 daemon kernel: [    0.000000] x86/fpu: Enabled xstate features 0x7, context size is 832 bytes, using 'compacted' format.
+Jan 29 15:59:07 daemon kernel: [    0.000000] BIOS-provided physical RAM map:
+Jan 29 15:59:07 daemon kernel: [    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+Jan 29 15:59:07 daemon kernel: [    0.000000] BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+Jan 29 15:59:07 daemon kernel: [    0.000000] BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+Jan 29 15:59:07 daemon kernel: [    0.000000] BIOS-e820: [mem 0x0000000000100000-0x000000007ffdbfff] usable
+Jan 29 15:59:07 daemon kernel: [    0.000000] BIOS-e820: [mem 0x000000007ffdc000-0x000000007fffffff] reserved
+Jan 29 15:59:07 daemon kernel: [    0.000000] BIOS-e820: [mem 0x00000000b0000000-0x00000000bfffffff] reserved
+Jan 29 15:59:07 daemon kernel: [    0.000000] BIOS-e820: [mem 0x00000000fed1c000-0x00000000fed1ffff] reserved
+Jan 29 15:59:07 daemon kernel: [    0.000000] BIOS-e820: [mem 0x00000000feffc000-0x00000000feffffff] reserved
+Jan 29 15:59:07 daemon kernel: [    0.000000] BIOS-e820: [mem 0x00000000fffc0000-0x00000000ffffffff] reserved
+Jan 29 15:59:07 daemon kernel: [    0.000000] NX (Execute Disable) protection: active
+Jan 29 15:59:07 daemon kernel: [    0.000000] SMBIOS 2.8 present.
+Jan 29 15:59:07 daemon kernel: [    0.000000] DMI: QEMU Standard PC (Q35 + ICH9, 2009), BIOS rel-1.12.1-0-ga5cab58e9a3f-prebuilt.qemu.org 04/01/2014
+Jan 29 15:59:07 daemon kernel: [    0.000000] Hypervisor detected: KVM
+Jan 29 15:59:07 daemon kernel: [    0.000000] kvm-clock: Using msrs 4b564d01 and 4b564d00
+Jan 29 15:59:07 daemon kernel: [    0.000000] kvm-clock: cpu 0, msr 2d1ec001, primary cpu clock
+Jan 29 15:59:07 daemon kernel: [    0.000000] kvm-clock: using sched offset of 7065582879 cycles
+Jan 29 15:59:07 daemon kernel: [    0.000003] clocksource: kvm-clock: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
+Jan 29 15:59:07 daemon kernel: [    0.000006] tsc: Detected 2199.998 MHz processor
+Jan 29 15:59:07 daemon kernel: [    0.001694] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Jan 29 15:59:07 daemon kernel: [    0.001696] e820: remove [mem 0x000a0000-0x000fffff] usable
+Jan 29 15:59:07 daemon kernel: [    0.001701] last_pfn = 0x7ffdc max_arch_pfn = 0x400000000
+Jan 29 15:59:07 daemon kernel: [    0.001737] MTRR default type: write-back
+Jan 29 15:59:07 daemon kernel: [    0.001738] MTRR fixed ranges enabled:
+Jan 29 15:59:07 daemon kernel: [    0.001739]   00000-9FFFF write-back
+Jan 29 15:59:07 daemon kernel: [    0.001741]   A0000-BFFFF uncachable
+Jan 29 15:59:07 daemon kernel: [    0.001742]   C0000-FFFFF write-protect
+Jan 29 15:59:07 daemon kernel: [    0.001743] MTRR variable ranges enabled:
+Jan 29 15:59:07 daemon kernel: [    0.001744]   0 base 00C0000000 mask FFC0000000 uncachable
+Jan 29 15:59:07 daemon kernel: [    0.001745]   1 disabled
+Jan 29 15:59:07 daemon kernel: [    0.001745]   2 disabled
+Jan 29 15:59:07 daemon kernel: [    0.001746]   3 disabled
+Jan 29 15:59:07 daemon kernel: [    0.001746]   4 disabled
+Jan 29 15:59:07 daemon kernel: [    0.001747]   5 disabled
+Jan 29 15:59:07 daemon kernel: [    0.001747]   6 disabled
+Jan 29 15:59:07 daemon kernel: [    0.001748]   7 disabled
+Jan 29 15:59:07 daemon kernel: [    0.001762] x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  
+Jan 29 15:59:07 daemon kernel: [    0.004622] found SMP MP-table at [mem 0x000f5af0-0x000f5aff]
+Jan 29 15:59:07 daemon kernel: [    0.004898] Using GB pages for direct mapping
+Jan 29 15:59:07 daemon kernel: [    0.004976] RAMDISK: [mem 0x34f6d000-0x367adfff]
+Jan 29 15:59:07 daemon kernel: [    0.004990] ACPI: Early table checksum verification disabled
+Jan 29 15:59:07 daemon kernel: [    0.005039] ACPI: RSDP 0x00000000000F5920 000014 (v00 BOCHS )
+Jan 29 15:59:07 daemon kernel: [    0.005048] ACPI: RSDT 0x000000007FFE20F4 000034 (v01 BOCHS  BXPCRSDT 00000001 BXPC 00000001)
+Jan 29 15:59:07 daemon kernel: [    0.005054] ACPI: FACP 0x000000007FFE1F14 0000F4 (v03 BOCHS  BXPCFACP 00000001 BXPC 00000001)
+Jan 29 15:59:07 daemon kernel: [    0.005060] ACPI: DSDT 0x000000007FFE0040 001ED4 (v01 BOCHS  BXPCDSDT 00000001 BXPC 00000001)
+Jan 29 15:59:07 daemon kernel: [    0.005063] ACPI: FACS 0x000000007FFE0000 000040
+Jan 29 15:59:07 daemon kernel: [    0.005065] ACPI: APIC 0x000000007FFE2008 000078 (v01 BOCHS  BXPCAPIC 00000001 BXPC 00000001)
+Jan 29 15:59:07 daemon kernel: [    0.005068] ACPI: HPET 0x000000007FFE2080 000038 (v01 BOCHS  BXPCHPET 00000001 BXPC 00000001)
+Jan 29 15:59:07 daemon kernel: [    0.005071] ACPI: MCFG 0x000000007FFE20B8 00003C (v01 BOCHS  BXPCMCFG 00000001 BXPC 00000001)
+Jan 29 15:59:07 daemon kernel: [    0.005074] ACPI: Reserving FACP table memory at [mem 0x7ffe1f14-0x7ffe2007]
+Jan 29 15:59:07 daemon kernel: [    0.005075] ACPI: Reserving DSDT table memory at [mem 0x7ffe0040-0x7ffe1f13]
+Jan 29 15:59:07 daemon kernel: [    0.005076] ACPI: Reserving FACS table memory at [mem 0x7ffe0000-0x7ffe003f]
+Jan 29 15:59:07 daemon kernel: [    0.005077] ACPI: Reserving APIC table memory at [mem 0x7ffe2008-0x7ffe207f]
+Jan 29 15:59:07 daemon kernel: [    0.005079] ACPI: Reserving HPET table memory at [mem 0x7ffe2080-0x7ffe20b7]
+Jan 29 15:59:07 daemon kernel: [    0.005080] ACPI: Reserving MCFG table memory at [mem 0x7ffe20b8-0x7ffe20f3]
+Jan 29 15:59:07 daemon kernel: [    0.005118] ACPI: Local APIC address 0xfee00000
+Jan 29 15:59:07 daemon kernel: [    0.005476] No NUMA configuration found
+Jan 29 15:59:07 daemon kernel: [    0.005478] Faking a node at [mem 0x0000000000000000-0x000000007ffdbfff]
+Jan 29 15:59:07 daemon kernel: [    0.005492] NODE_DATA(0) allocated [mem 0x7ffd7000-0x7ffdbfff]
+Jan 29 15:59:07 daemon kernel: [    0.006965] Zone ranges:
+Jan 29 15:59:07 daemon kernel: [    0.006968]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+Jan 29 15:59:07 daemon kernel: [    0.006970]   DMA32    [mem 0x0000000001000000-0x000000007ffdbfff]
+Jan 29 15:59:07 daemon kernel: [    0.006972]   Normal   empty
+Jan 29 15:59:07 daemon kernel: [    0.006973]   Device   empty
+Jan 29 15:59:07 daemon kernel: [    0.006974] Movable zone start for each node
+Jan 29 15:59:07 daemon kernel: [    0.006975] Early memory node ranges
+Jan 29 15:59:07 daemon kernel: [    0.006976]   node   0: [mem 0x0000000000001000-0x000000000009efff]
+Jan 29 15:59:07 daemon kernel: [    0.006977]   node   0: [mem 0x0000000000100000-0x000000007ffdbfff]
+Jan 29 15:59:07 daemon kernel: [    0.009700] Zeroed struct page in unavailable ranges: 134 pages
+Jan 29 15:59:07 daemon kernel: [    0.009703] Initmem setup node 0 [mem 0x0000000000001000-0x000000007ffdbfff]
+Jan 29 15:59:07 daemon kernel: [    0.009708] On node 0 totalpages: 524154
+Jan 29 15:59:07 daemon kernel: [    0.009709]   DMA zone: 64 pages used for memmap
+Jan 29 15:59:07 daemon kernel: [    0.009710]   DMA zone: 21 pages reserved
+Jan 29 15:59:07 daemon kernel: [    0.009711]   DMA zone: 3998 pages, LIFO batch:0
+Jan 29 15:59:07 daemon kernel: [    0.009801]   DMA32 zone: 8128 pages used for memmap
+Jan 29 15:59:07 daemon kernel: [    0.009802]   DMA32 zone: 520156 pages, LIFO batch:63
+Jan 29 15:59:07 daemon kernel: [    0.023152] ACPI: PM-Timer IO Port: 0x608
+Jan 29 15:59:07 daemon kernel: [    0.023158] ACPI: Local APIC address 0xfee00000
+Jan 29 15:59:07 daemon kernel: [    0.023168] ACPI: LAPIC_NMI (acpi_id[0xff] dfl dfl lint[0x1])
+Jan 29 15:59:07 daemon kernel: [    0.023197] IOAPIC[0]: apic_id 0, version 17, address 0xfec00000, GSI 0-23
+Jan 29 15:59:07 daemon kernel: [    0.023200] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Jan 29 15:59:07 daemon kernel: [    0.023202] ACPI: INT_SRC_OVR (bus 0 bus_irq 5 global_irq 5 high level)
+Jan 29 15:59:07 daemon kernel: [    0.023203] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+Jan 29 15:59:07 daemon kernel: [    0.023204] ACPI: INT_SRC_OVR (bus 0 bus_irq 10 global_irq 10 high level)
+Jan 29 15:59:07 daemon kernel: [    0.023205] ACPI: INT_SRC_OVR (bus 0 bus_irq 11 global_irq 11 high level)
+Jan 29 15:59:07 daemon kernel: [    0.023207] ACPI: IRQ0 used by override.
+Jan 29 15:59:07 daemon kernel: [    0.023207] ACPI: IRQ5 used by override.
+Jan 29 15:59:07 daemon kernel: [    0.023208] ACPI: IRQ9 used by override.
+Jan 29 15:59:07 daemon kernel: [    0.023208] ACPI: IRQ10 used by override.
+Jan 29 15:59:07 daemon kernel: [    0.023209] ACPI: IRQ11 used by override.
+Jan 29 15:59:07 daemon kernel: [    0.023210] Using ACPI (MADT) for SMP configuration information
+Jan 29 15:59:07 daemon kernel: [    0.023212] ACPI: HPET id: 0x8086a201 base: 0xfed00000
+Jan 29 15:59:07 daemon kernel: [    0.023216] TSC deadline timer available
+Jan 29 15:59:07 daemon kernel: [    0.023220] smpboot: Allowing 1 CPUs, 0 hotplug CPUs
+Jan 29 15:59:07 daemon kernel: [    0.023242] PM: Registered nosave memory: [mem 0x00000000-0x00000fff]
+Jan 29 15:59:07 daemon kernel: [    0.023244] PM: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+Jan 29 15:59:07 daemon kernel: [    0.023245] PM: Registered nosave memory: [mem 0x000a0000-0x000effff]
+Jan 29 15:59:07 daemon kernel: [    0.023246] PM: Registered nosave memory: [mem 0x000f0000-0x000fffff]
+Jan 29 15:59:07 daemon kernel: [    0.023248] [mem 0xc0000000-0xfed1bfff] available for PCI devices
+Jan 29 15:59:07 daemon kernel: [    0.023249] Booting paravirtualized kernel on KVM
+Jan 29 15:59:07 daemon kernel: [    0.023253] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645519600211568 ns
+Jan 29 15:59:07 daemon kernel: [    0.140557] random: get_random_bytes called from start_kernel+0x93/0x52a with crng_init=0
+Jan 29 15:59:07 daemon kernel: [    0.140569] setup_percpu: NR_CPUS:512 nr_cpumask_bits:512 nr_cpu_ids:1 nr_node_ids:1
+Jan 29 15:59:07 daemon kernel: [    0.140925] percpu: Embedded 45 pages/cpu s144536 r8192 d31592 u2097152
+Jan 29 15:59:07 daemon kernel: [    0.140931] pcpu-alloc: s144536 r8192 d31592 u2097152 alloc=1*2097152
+Jan 29 15:59:07 daemon kernel: [    0.140932] pcpu-alloc: [0] 0 
+Jan 29 15:59:07 daemon kernel: [    0.140955] KVM setup async PF for cpu 0
+Jan 29 15:59:07 daemon kernel: [    0.140961] kvm-stealtime: cpu 0, msr 7da161c0
+Jan 29 15:59:07 daemon kernel: [    0.140969] Built 1 zonelists, mobility grouping on.  Total pages: 515941
+Jan 29 15:59:07 daemon kernel: [    0.140970] Policy zone: DMA32
+Jan 29 15:59:07 daemon kernel: [    0.140972] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-4.19.0-18-amd64 root=/dev/sda ro console=ttyS0,19200n8 net.ifnames=0
+Jan 29 15:59:07 daemon kernel: [    0.141049] Calgary: detecting Calgary via BIOS EBDA area
+Jan 29 15:59:07 daemon kernel: [    0.141051] Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+Jan 29 15:59:07 daemon kernel: [    0.145782] Memory: 2013832K/2096616K available (10252K kernel code, 1242K rwdata, 3332K rodata, 1596K init, 2260K bss, 82784K reserved, 0K cma-reserved)
+Jan 29 15:59:07 daemon kernel: [    0.147278] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+Jan 29 15:59:07 daemon kernel: [    0.147286] ftrace: allocating 32002 entries in 126 pages
+Jan 29 15:59:07 daemon kernel: [    0.161536] rcu: Hierarchical RCU implementation.
+Jan 29 15:59:07 daemon kernel: [    0.161541] rcu: 	RCU restricting CPUs from NR_CPUS=512 to nr_cpu_ids=1.
+Jan 29 15:59:07 daemon kernel: [    0.161543] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=1
+Jan 29 15:59:07 daemon kernel: [    0.164339] NR_IRQS: 33024, nr_irqs: 256, preallocated irqs: 16
+Jan 29 15:59:07 daemon kernel: [    0.181048] Console: colour VGA+ 80x25
+Jan 29 15:59:07 daemon kernel: [    0.271090] console [ttyS0] enabled
+Jan 29 15:59:07 daemon kernel: [    0.271648] ACPI: Core revision 20180810
+Jan 29 15:59:07 daemon kernel: [    0.272529] clocksource: hpet: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604467 ns
+Jan 29 15:59:07 daemon kernel: [    0.274155] hpet clockevent registered
+Jan 29 15:59:07 daemon kernel: [    0.274188] APIC: Switch to symmetric I/O mode setup
+Jan 29 15:59:07 daemon kernel: [    0.275204] x2apic enabled
+Jan 29 15:59:07 daemon kernel: [    0.275840] Switched APIC routing to physical x2apic.
+Jan 29 15:59:07 daemon kernel: [    0.276678] KVM setup pv IPIs
+Jan 29 15:59:07 daemon kernel: [    0.278863] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Jan 29 15:59:07 daemon kernel: [    0.279878] clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x1fb63109b96, max_idle_ns: 440795265316 ns
+Jan 29 15:59:07 daemon kernel: [    0.281590] Calibrating delay loop (skipped) preset value.. 4399.99 BogoMIPS (lpj=8799992)
+Jan 29 15:59:07 daemon kernel: [    0.285583] pid_max: default: 32768 minimum: 301
+Jan 29 15:59:07 daemon kernel: [    0.286383] Security Framework initialized
+Jan 29 15:59:07 daemon kernel: [    0.287039] Yama: disabled by default; enable with sysctl kernel.yama.*
+Jan 29 15:59:07 daemon kernel: [    0.288118] AppArmor: AppArmor initialized
+Jan 29 15:59:07 daemon kernel: [    0.291470] Dentry cache hash table entries: 262144 (order: 9, 2097152 bytes)
+Jan 29 15:59:07 daemon kernel: [    0.293101] Inode-cache hash table entries: 131072 (order: 8, 1048576 bytes)
+Jan 29 15:59:07 daemon kernel: [    0.293609] Mount-cache hash table entries: 4096 (order: 3, 32768 bytes)
+Jan 29 15:59:07 daemon kernel: [    0.294756] Mountpoint-cache hash table entries: 4096 (order: 3, 32768 bytes)
+Jan 29 15:59:07 daemon kernel: [    0.296244] Last level iTLB entries: 4KB 512, 2MB 255, 4MB 127
+Jan 29 15:59:07 daemon kernel: [    0.297583] Last level dTLB entries: 4KB 512, 2MB 255, 4MB 127, 1GB 0
+Jan 29 15:59:07 daemon kernel: [    0.298617] Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+Jan 29 15:59:07 daemon kernel: [    0.300004] Spectre V2 : Mitigation: Full AMD retpoline
+Jan 29 15:59:07 daemon kernel: [    0.300849] Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch
+Jan 29 15:59:07 daemon kernel: [    0.301593] Spectre V2 : mitigation: Enabling conditional Indirect Branch Prediction Barrier
+Jan 29 15:59:07 daemon kernel: [    0.302813] Speculative Store Bypass: Mitigation: Speculative Store Bypass disabled via prctl and seccomp
+Jan 29 15:59:07 daemon kernel: [    0.309496] Freeing SMP alternatives memory: 24K
+Jan 29 15:59:07 daemon kernel: [    0.311440] smpboot: CPU0: AMD EPYC 7601 32-Core Processor (family: 0x17, model: 0x1, stepping: 0x2)
+Jan 29 15:59:07 daemon kernel: [    0.312766] Performance Events: Fam17h core perfctr, AMD PMU driver.
+Jan 29 15:59:07 daemon kernel: [    0.313579] ... version:                0
+Jan 29 15:59:07 daemon kernel: [    0.313579] ... bit width:              48
+Jan 29 15:59:07 daemon kernel: [    0.313579] ... generic registers:      6
+Jan 29 15:59:07 daemon kernel: [    0.313587] ... value mask:             0000ffffffffffff
+Jan 29 15:59:07 daemon kernel: [    0.314291] ... max period:             00007fffffffffff
+Jan 29 15:59:07 daemon kernel: [    0.315032] ... fixed-purpose events:   0
+Jan 29 15:59:07 daemon kernel: [    0.315578] ... event mask:             000000000000003f
+Jan 29 15:59:07 daemon kernel: [    0.316373] rcu: Hierarchical SRCU implementation.
+Jan 29 15:59:07 daemon kernel: [    0.317465] random: crng done (trusting CPU's manufacturer)
+Jan 29 15:59:07 daemon kernel: [    0.317658] smp: Bringing up secondary CPUs ...
+Jan 29 15:59:07 daemon kernel: [    0.318325] smp: Brought up 1 node, 1 CPU
+Jan 29 15:59:07 daemon kernel: [    0.318974] smpboot: Max logical packages: 1
+Jan 29 15:59:07 daemon kernel: [    0.319566] smpboot: Total of 1 processors activated (4399.99 BogoMIPS)
+Jan 29 15:59:07 daemon kernel: [    0.320791] devtmpfs: initialized
+Jan 29 15:59:07 daemon kernel: [    0.321335] x86/mm: Memory block size: 128MB
+Jan 29 15:59:07 daemon kernel: [    0.321896] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+Jan 29 15:59:07 daemon kernel: [    0.323272] futex hash table entries: 256 (order: 2, 16384 bytes)
+Jan 29 15:59:07 daemon kernel: [    0.324159] pinctrl core: initialized pinctrl subsystem
+Jan 29 15:59:07 daemon kernel: [    0.325087] NET: Registered protocol family 16
+Jan 29 15:59:07 daemon kernel: [    0.325668] audit: initializing netlink subsys (disabled)
+Jan 29 15:59:07 daemon kernel: [    0.326510] cpuidle: using governor ladder
+Jan 29 15:59:07 daemon kernel: [    0.327089] cpuidle: using governor menu
+Jan 29 15:59:07 daemon kernel: [    0.328189] KVM setup pv remote TLB flush
+Jan 29 15:59:07 daemon kernel: [    0.328755] ACPI: bus type PCI registered
+Jan 29 15:59:07 daemon kernel: [    0.329311] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Jan 29 15:59:07 daemon kernel: [    0.329592] audit: type=2000 audit(1643464743.541:1): state=initialized audit_enabled=0 res=1
+Jan 29 15:59:07 daemon kernel: [    0.330849] PCI: MMCONFIG for domain 0000 [bus 00-ff] at [mem 0xb0000000-0xbfffffff] (base 0xb0000000)
+Jan 29 15:59:07 daemon kernel: [    0.332024] PCI: MMCONFIG at [mem 0xb0000000-0xbfffffff] reserved in E820
+Jan 29 15:59:07 daemon kernel: [    0.332890] PCI: Using configuration type 1 for base access
+Jan 29 15:59:07 daemon kernel: [    0.334290] HugeTLB registered 1.00 GiB page size, pre-allocated 0 pages
+Jan 29 15:59:07 daemon kernel: [    0.335156] HugeTLB registered 2.00 MiB page size, pre-allocated 0 pages
+Jan 29 15:59:07 daemon kernel: [    0.336181] ACPI: Added _OSI(Module Device)
+Jan 29 15:59:07 daemon kernel: [    0.336794] ACPI: Added _OSI(Processor Device)
+Jan 29 15:59:07 daemon kernel: [    0.337447] ACPI: Added _OSI(3.0 _SCP Extensions)
+Jan 29 15:59:07 daemon kernel: [    0.337592] ACPI: Added _OSI(Processor Aggregator Device)
+Jan 29 15:59:07 daemon kernel: [    0.338387] ACPI: Added _OSI(Linux-Dell-Video)
+Jan 29 15:59:07 daemon kernel: [    0.339040] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+Jan 29 15:59:07 daemon kernel: [    0.340977] ACPI: 1 ACPI AML tables successfully acquired and loaded
+Jan 29 15:59:07 daemon kernel: [    0.343228] ACPI: Interpreter enabled
+Jan 29 15:59:07 daemon kernel: [    0.343801] ACPI: (supports S0 S3 S4 S5)
+Jan 29 15:59:07 daemon kernel: [    0.344380] ACPI: Using IOAPIC for interrupt routing
+Jan 29 15:59:07 daemon kernel: [    0.345146] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Jan 29 15:59:07 daemon kernel: [    0.345712] ACPI: Enabled 1 GPEs in block 00 to 3F
+Jan 29 15:59:07 daemon kernel: [    0.348179] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Jan 29 15:59:07 daemon kernel: [    0.349144] acpi PNP0A08:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI]
+Jan 29 15:59:07 daemon kernel: [    0.349671] acpi PNP0A08:00: _OSC: platform does not support [LTR]
+Jan 29 15:59:07 daemon kernel: [    0.350640] acpi PNP0A08:00: _OSC: OS now controls [PCIeHotplug SHPCHotplug PME AER PCIeCapability]
+Jan 29 15:59:07 daemon kernel: [    0.352093] PCI host bridge to bus 0000:00
+Jan 29 15:59:07 daemon kernel: [    0.352699] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+Jan 29 15:59:07 daemon kernel: [    0.353589] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+Jan 29 15:59:07 daemon kernel: [    0.354571] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+Jan 29 15:59:07 daemon kernel: [    0.355658] pci_bus 0000:00: root bus resource [mem 0x80000000-0xafffffff window]
+Jan 29 15:59:07 daemon kernel: [    0.356777] pci_bus 0000:00: root bus resource [mem 0xc0000000-0xfebfffff window]
+Jan 29 15:59:07 daemon kernel: [    0.357587] pci_bus 0000:00: root bus resource [mem 0x100000000-0x8ffffffff window]
+Jan 29 15:59:07 daemon kernel: [    0.358697] pci_bus 0000:00: root bus resource [bus 00-ff]
+Jan 29 15:59:07 daemon kernel: [    0.359565] pci 0000:00:00.0: [8086:29c0] type 00 class 0x060000
+Jan 29 15:59:07 daemon kernel: [    0.359977] pci 0000:00:01.0: [1234:1111] type 00 class 0x030000
+Jan 29 15:59:07 daemon kernel: [    0.362246] pci 0000:00:01.0: reg 0x10: [mem 0xfd000000-0xfdffffff pref]
+Jan 29 15:59:07 daemon kernel: [    0.364820] pci 0000:00:01.0: reg 0x18: [mem 0xfebd0000-0xfebd0fff]
+Jan 29 15:59:07 daemon kernel: [    0.369588] pci 0000:00:01.0: reg 0x30: [mem 0xfebc0000-0xfebcffff pref]
+Jan 29 15:59:07 daemon kernel: [    0.370751] pci 0000:00:02.0: [1af4:1004] type 00 class 0x010000
+Jan 29 15:59:07 daemon kernel: [    0.372712] pci 0000:00:02.0: reg 0x10: [io  0xc000-0xc03f]
+Jan 29 15:59:07 daemon kernel: [    0.374436] pci 0000:00:02.0: reg 0x14: [mem 0xfebd1000-0xfebd1fff]
+Jan 29 15:59:07 daemon kernel: [    0.379067] pci 0000:00:02.0: reg 0x20: [mem 0xfe000000-0xfe003fff 64bit pref]
+Jan 29 15:59:07 daemon kernel: [    0.382080] pci 0000:00:03.0: [1af4:1004] type 00 class 0x010000
+Jan 29 15:59:07 daemon kernel: [    0.383693] pci 0000:00:03.0: reg 0x10: [io  0xc040-0xc07f]
+Jan 29 15:59:07 daemon kernel: [    0.385320] pci 0000:00:03.0: reg 0x14: [mem 0xfebd2000-0xfebd2fff]
+Jan 29 15:59:07 daemon kernel: [    0.389595] pci 0000:00:03.0: reg 0x20: [mem 0xfe004000-0xfe007fff 64bit pref]
+Jan 29 15:59:07 daemon kernel: [    0.393147] pci 0000:00:04.0: [1af4:1000] type 00 class 0x020000
+Jan 29 15:59:07 daemon kernel: [    0.394214] pci 0000:00:04.0: reg 0x10: [io  0xc080-0xc0bf]
+Jan 29 15:59:07 daemon kernel: [    0.395341] pci 0000:00:04.0: reg 0x14: [mem 0xfebd3000-0xfebd3fff]
+Jan 29 15:59:07 daemon kernel: [    0.398718] pci 0000:00:04.0: reg 0x20: [mem 0xfe008000-0xfe00bfff 64bit pref]
+Jan 29 15:59:07 daemon kernel: [    0.399834] pci 0000:00:04.0: reg 0x30: [mem 0xfeb80000-0xfebbffff pref]
+Jan 29 15:59:07 daemon kernel: [    0.400438] pci 0000:00:1f.0: [8086:2918] type 00 class 0x060100
+Jan 29 15:59:07 daemon kernel: [    0.400807] pci 0000:00:1f.0: quirk: [io  0x0600-0x067f] claimed by ICH6 ACPI/GPIO/TCO
+Jan 29 15:59:07 daemon kernel: [    0.403065] pci 0000:00:1f.2: [8086:2922] type 00 class 0x010601
+Jan 29 15:59:07 daemon kernel: [    0.407314] pci 0000:00:1f.2: reg 0x20: [io  0xc100-0xc11f]
+Jan 29 15:59:07 daemon kernel: [    0.408183] pci 0000:00:1f.2: reg 0x24: [mem 0xfebd4000-0xfebd4fff]
+Jan 29 15:59:07 daemon kernel: [    0.409735] pci 0000:00:1f.3: [8086:2930] type 00 class 0x0c0500
+Jan 29 15:59:07 daemon kernel: [    0.412400] pci 0000:00:1f.3: reg 0x20: [io  0x0700-0x073f]
+Jan 29 15:59:07 daemon kernel: [    0.416741] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 *10 11)
+Jan 29 15:59:07 daemon kernel: [    0.417665] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 *10 11)
+Jan 29 15:59:07 daemon kernel: [    0.418614] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 10 *11)
+Jan 29 15:59:07 daemon kernel: [    0.419513] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 10 *11)
+Jan 29 15:59:07 daemon kernel: [    0.420401] ACPI: PCI Interrupt Link [LNKE] (IRQs 5 *10 11)
+Jan 29 15:59:07 daemon kernel: [    0.421288] ACPI: PCI Interrupt Link [LNKF] (IRQs 5 *10 11)
+Jan 29 15:59:07 daemon kernel: [    0.421657] ACPI: PCI Interrupt Link [LNKG] (IRQs 5 10 *11)
+Jan 29 15:59:07 daemon kernel: [    0.422518] ACPI: PCI Interrupt Link [LNKH] (IRQs 5 10 *11)
+Jan 29 15:59:07 daemon kernel: [    0.423345] ACPI: PCI Interrupt Link [GSIA] (IRQs *16)
+Jan 29 15:59:07 daemon kernel: [    0.424090] ACPI: PCI Interrupt Link [GSIB] (IRQs *17)
+Jan 29 15:59:07 daemon kernel: [    0.424760] ACPI: PCI Interrupt Link [GSIC] (IRQs *18)
+Jan 29 15:59:07 daemon kernel: [    0.425457] ACPI: PCI Interrupt Link [GSID] (IRQs *19)
+Jan 29 15:59:07 daemon kernel: [    0.425596] ACPI: PCI Interrupt Link [GSIE] (IRQs *20)
+Jan 29 15:59:07 daemon kernel: [    0.426258] ACPI: PCI Interrupt Link [GSIF] (IRQs *21)
+Jan 29 15:59:07 daemon kernel: [    0.426916] ACPI: PCI Interrupt Link [GSIG] (IRQs *22)
+Jan 29 15:59:07 daemon kernel: [    0.427578] ACPI: PCI Interrupt Link [GSIH] (IRQs *23)
+Jan 29 15:59:07 daemon kernel: [    0.428708] pci 0000:00:01.0: vgaarb: setting as boot VGA device
+Jan 29 15:59:07 daemon kernel: [    0.429579] pci 0000:00:01.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+Jan 29 15:59:07 daemon kernel: [    0.429591] pci 0000:00:01.0: vgaarb: bridge control possible
+Jan 29 15:59:07 daemon kernel: [    0.430442] vgaarb: loaded
+Jan 29 15:59:07 daemon kernel: [    0.430908] pps_core: LinuxPPS API ver. 1 registered
+Jan 29 15:59:07 daemon kernel: [    0.431675] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+Jan 29 15:59:07 daemon kernel: [    0.432951] PTP clock support registered
+Jan 29 15:59:07 daemon kernel: [    0.433536] EDAC MC: Ver: 3.0.0
+Jan 29 15:59:07 daemon kernel: [    0.433840] PCI: Using ACPI for IRQ routing
+Jan 29 15:59:07 daemon kernel: [    0.481958] PCI: pci_cache_line_size set to 64 bytes
+Jan 29 15:59:07 daemon kernel: [    0.482074] e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+Jan 29 15:59:07 daemon kernel: [    0.482077] e820: reserve RAM buffer [mem 0x7ffdc000-0x7fffffff]
+Jan 29 15:59:07 daemon kernel: [    0.482364] hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0
+Jan 29 15:59:07 daemon kernel: [    0.483151] hpet0: 3 comparators, 64-bit 100.000000 MHz counter
+Jan 29 15:59:07 daemon kernel: [    0.486640] clocksource: Switched to clocksource kvm-clock
+Jan 29 15:59:07 daemon kernel: [    0.497230] VFS: Disk quotas dquot_6.6.0
+Jan 29 15:59:07 daemon kernel: [    0.497897] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Jan 29 15:59:07 daemon kernel: [    0.499037] AppArmor: AppArmor Filesystem Enabled
+Jan 29 15:59:07 daemon kernel: [    0.499750] pnp: PnP ACPI init
+Jan 29 15:59:07 daemon kernel: [    0.500273] pnp 00:00: Plug and Play ACPI device, IDs PNP0b00 (active)
+Jan 29 15:59:07 daemon kernel: [    0.500308] pnp 00:01: Plug and Play ACPI device, IDs PNP0303 (active)
+Jan 29 15:59:07 daemon kernel: [    0.500332] pnp 00:02: Plug and Play ACPI device, IDs PNP0f13 (active)
+Jan 29 15:59:07 daemon kernel: [    0.500407] pnp 00:03: Plug and Play ACPI device, IDs PNP0501 (active)
+Jan 29 15:59:07 daemon kernel: [    0.500639] pnp: PnP ACPI: found 4 devices
+Jan 29 15:59:07 daemon kernel: [    0.506916] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+Jan 29 15:59:07 daemon kernel: [    0.508237] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+Jan 29 15:59:07 daemon kernel: [    0.508238] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+Jan 29 15:59:07 daemon kernel: [    0.508240] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+Jan 29 15:59:07 daemon kernel: [    0.508241] pci_bus 0000:00: resource 7 [mem 0x80000000-0xafffffff window]
+Jan 29 15:59:07 daemon kernel: [    0.508242] pci_bus 0000:00: resource 8 [mem 0xc0000000-0xfebfffff window]
+Jan 29 15:59:07 daemon kernel: [    0.508243] pci_bus 0000:00: resource 9 [mem 0x100000000-0x8ffffffff window]
+Jan 29 15:59:07 daemon kernel: [    0.508301] NET: Registered protocol family 2
+Jan 29 15:59:07 daemon kernel: [    0.509065] IP idents hash table entries: 32768 (order: 6, 262144 bytes)
+Jan 29 15:59:07 daemon kernel: [    0.510405] tcp_listen_portaddr_hash hash table entries: 1024 (order: 2, 16384 bytes)
+Jan 29 15:59:07 daemon kernel: [    0.511582] TCP established hash table entries: 16384 (order: 5, 131072 bytes)
+Jan 29 15:59:07 daemon kernel: [    0.512682] TCP bind hash table entries: 16384 (order: 6, 262144 bytes)
+Jan 29 15:59:07 daemon kernel: [    0.513769] TCP: Hash tables configured (established 16384 bind 16384)
+Jan 29 15:59:07 daemon kernel: [    0.514770] UDP hash table entries: 1024 (order: 3, 32768 bytes)
+Jan 29 15:59:07 daemon kernel: [    0.515672] UDP-Lite hash table entries: 1024 (order: 3, 32768 bytes)
+Jan 29 15:59:07 daemon kernel: [    0.516722] NET: Registered protocol family 1
+Jan 29 15:59:07 daemon kernel: [    0.517378] NET: Registered protocol family 44
+Jan 29 15:59:07 daemon kernel: [    0.518130] pci 0000:00:01.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+Jan 29 15:59:07 daemon kernel: [    0.519534] PCI: CLS 0 bytes, default 64
+Jan 29 15:59:07 daemon kernel: [    0.519589] Unpacking initramfs...
+Jan 29 15:59:07 daemon kernel: [    1.001941] Freeing initrd memory: 24836K
+Jan 29 15:59:07 daemon kernel: [    1.002675] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x1fb63109b96, max_idle_ns: 440795265316 ns
+Jan 29 15:59:07 daemon kernel: [    1.004916] Initialise system trusted keyrings
+Jan 29 15:59:07 daemon kernel: [    1.005729] Key type blacklist registered
+Jan 29 15:59:07 daemon kernel: [    1.006432] workingset: timestamp_bits=40 max_order=19 bucket_order=0
+Jan 29 15:59:07 daemon kernel: [    1.008711] zbud: loaded
+Jan 29 15:59:07 daemon kernel: [    1.141213] Key type asymmetric registered
+Jan 29 15:59:07 daemon kernel: [    1.141855] Asymmetric key parser 'x509' registered
+Jan 29 15:59:07 daemon kernel: [    1.142576] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 247)
+Jan 29 15:59:07 daemon kernel: [    1.143647] io scheduler noop registered
+Jan 29 15:59:07 daemon kernel: [    1.144215] io scheduler deadline registered
+Jan 29 15:59:07 daemon kernel: [    1.144870] io scheduler cfq registered (default)
+Jan 29 15:59:07 daemon kernel: [    1.145551] io scheduler mq-deadline registered
+Jan 29 15:59:07 daemon kernel: [    1.146343] shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+Jan 29 15:59:07 daemon kernel: [    1.147505] Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+Jan 29 15:59:07 daemon kernel: [    1.172342] 00:03: ttyS0 at I/O 0x3f8 (irq = 4, base_baud = 115200) is a 16550A
+Jan 29 15:59:07 daemon kernel: [    1.173829] Linux agpgart interface v0.103
+Jan 29 15:59:07 daemon kernel: [    1.174490] AMD IOMMUv2 driver by Joerg Roedel <jroedel@suse.de>
+Jan 29 15:59:07 daemon kernel: [    1.175322] AMD IOMMUv2 functionality not available on this system
+Jan 29 15:59:07 daemon kernel: [    1.176284] i8042: PNP: PS/2 Controller [PNP0303:KBD,PNP0f13:MOU] at 0x60,0x64 irq 1,12
+Jan 29 15:59:07 daemon kernel: [    1.178080] serio: i8042 KBD port at 0x60,0x64 irq 1
+Jan 29 15:59:07 daemon kernel: [    1.178793] serio: i8042 AUX port at 0x60,0x64 irq 12
+Jan 29 15:59:07 daemon kernel: [    1.179589] mousedev: PS/2 mouse device common for all mice
+Jan 29 15:59:07 daemon kernel: [    1.180620] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input0
+Jan 29 15:59:07 daemon kernel: [    1.182080] rtc_cmos 00:00: RTC can wake from S4
+Jan 29 15:59:07 daemon kernel: [    1.183484] rtc_cmos 00:00: registered as rtc0
+Jan 29 15:59:07 daemon kernel: [    1.184329] rtc_cmos 00:00: alarms up to one day, y3k, 114 bytes nvram, hpet irqs
+Jan 29 15:59:07 daemon kernel: [    1.185539] ledtrig-cpu: registered to indicate activity on CPUs
+Jan 29 15:59:07 daemon kernel: [    1.186931] NET: Registered protocol family 10
+Jan 29 15:59:07 daemon kernel: [    1.194893] Segment Routing with IPv6
+Jan 29 15:59:07 daemon kernel: [    1.195635] mip6: Mobile IPv6
+Jan 29 15:59:07 daemon kernel: [    1.196162] NET: Registered protocol family 17
+Jan 29 15:59:07 daemon kernel: [    1.197001] mpls_gso: MPLS GSO support
+Jan 29 15:59:07 daemon kernel: [    1.197815] mce: Using 10 MCE banks
+Jan 29 15:59:07 daemon kernel: [    1.198489] sched_clock: Marking stable (1084619936, 113062167)->(1210658320, -12976217)
+Jan 29 15:59:07 daemon kernel: [    1.200124] registered taskstats version 1
+Jan 29 15:59:07 daemon kernel: [    1.200845] Loading compiled-in X.509 certificates
+Jan 29 15:59:07 daemon kernel: [    1.239756] Loaded X.509 cert 'Debian Secure Boot CA: 6ccece7e4c6c0d1f6149f3dd27dfcc5cbb419ea1'
+Jan 29 15:59:07 daemon kernel: [    1.241139] Loaded X.509 cert 'Debian Secure Boot Signer 2021 - linux: 4b6ef5abca669825178e052c84667ccbc0531f8c'
+Jan 29 15:59:07 daemon kernel: [    1.242829] zswap: loaded using pool lzo/zbud
+Jan 29 15:59:07 daemon kernel: [    1.243618] AppArmor: AppArmor sha1 policy hashing enabled
+Jan 29 15:59:07 daemon kernel: [    1.244887] rtc_cmos 00:00: setting system clock to 2022-01-29 13:59:04 UTC (1643464744)
+Jan 29 15:59:07 daemon kernel: [    1.248444] Freeing unused kernel image memory: 1596K
+Jan 29 15:59:07 daemon kernel: [    1.257648] Write protecting the kernel read-only data: 16384k
+Jan 29 15:59:07 daemon kernel: [    1.259091] Freeing unused kernel image memory: 2028K
+Jan 29 15:59:07 daemon kernel: [    1.260058] Freeing unused kernel image memory: 764K
+Jan 29 15:59:07 daemon kernel: [    1.270863] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+Jan 29 15:59:07 daemon kernel: [    1.271936] Run /init as init process
+Jan 29 15:59:07 daemon kernel: [    1.363229] PCI Interrupt Link [GSIA] enabled at IRQ 16
+Jan 29 15:59:07 daemon kernel: [    1.364151] i801_smbus 0000:00:1f.3: SMBus using PCI interrupt
+Jan 29 15:59:07 daemon kernel: [    1.375637] cryptd: max_cpu_qlen set to 1000
+Jan 29 15:59:07 daemon kernel: [    1.377545] PCI Interrupt Link [GSIG] enabled at IRQ 22
+Jan 29 15:59:07 daemon kernel: [    1.379869] lpc_ich 0000:00:1f.0: I/O space for GPIO uninitialized
+Jan 29 15:59:07 daemon kernel: [    1.385479] SCSI subsystem initialized
+Jan 29 15:59:07 daemon kernel: [    1.398098] PCI Interrupt Link [GSIH] enabled at IRQ 23
+Jan 29 15:59:07 daemon kernel: [    1.411180] input: VirtualPS/2 VMware VMMouse as /devices/platform/i8042/serio1/input/input3
+Jan 29 15:59:07 daemon kernel: [    1.413147] input: VirtualPS/2 VMware VMMouse as /devices/platform/i8042/serio1/input/input2
+Jan 29 15:59:07 daemon kernel: [    1.423396] AVX2 version of gcm_enc/dec engaged.
+Jan 29 15:59:07 daemon kernel: [    1.424389] AES CTR mode by8 optimization enabled
+Jan 29 15:59:07 daemon kernel: [    1.430320] PCI Interrupt Link [GSIE] enabled at IRQ 20
+Jan 29 15:59:07 daemon kernel: [    1.475867] scsi host0: Virtio SCSI HBA
+Jan 29 15:59:07 daemon kernel: [    1.481927] scsi 0:0:0:0: Direct-Access     QEMU     QEMU HARDDISK    2.5+ PQ: 0 ANSI: 5
+Jan 29 15:59:07 daemon kernel: [    1.484524] libata version 3.00 loaded.
+Jan 29 15:59:07 daemon kernel: [    1.489340] scsi host1: Virtio SCSI HBA
+Jan 29 15:59:07 daemon kernel: [    1.493297] ahci 0000:00:1f.2: version 3.0
+Jan 29 15:59:07 daemon kernel: [    1.497783] scsi 1:0:1:2: Direct-Access     QEMU     QEMU HARDDISK    2.5+ PQ: 0 ANSI: 5
+Jan 29 15:59:07 daemon kernel: [    1.507204] ahci 0000:00:1f.2: AHCI 0001.0000 32 slots 6 ports 1.5 Gbps 0x3f impl SATA mode
+Jan 29 15:59:07 daemon kernel: [    1.508552] ahci 0000:00:1f.2: flags: 64bit ncq only 
+Jan 29 15:59:07 daemon kernel: [    1.528109] scsi host2: ahci
+Jan 29 15:59:07 daemon kernel: [    1.533106] scsi host3: ahci
+Jan 29 15:59:07 daemon kernel: [    1.537512] scsi host4: ahci
+Jan 29 15:59:07 daemon kernel: [    1.543392] scsi host5: ahci
+Jan 29 15:59:07 daemon kernel: [    1.554045] scsi host6: ahci
+Jan 29 15:59:07 daemon kernel: [    1.559637] scsi host7: ahci
+Jan 29 15:59:07 daemon kernel: [    1.560367] ata1: SATA max UDMA/133 abar m4096@0xfebd4000 port 0xfebd4100 irq 32
+Jan 29 15:59:07 daemon kernel: [    1.561573] ata2: SATA max UDMA/133 abar m4096@0xfebd4000 port 0xfebd4180 irq 32
+Jan 29 15:59:07 daemon kernel: [    1.562792] ata3: SATA max UDMA/133 abar m4096@0xfebd4000 port 0xfebd4200 irq 32
+Jan 29 15:59:07 daemon kernel: [    1.563963] ata4: SATA max UDMA/133 abar m4096@0xfebd4000 port 0xfebd4280 irq 32
+Jan 29 15:59:07 daemon kernel: [    1.565108] ata5: SATA max UDMA/133 abar m4096@0xfebd4000 port 0xfebd4300 irq 32
+Jan 29 15:59:07 daemon kernel: [    1.566497] ata6: SATA max UDMA/133 abar m4096@0xfebd4000 port 0xfebd4380 irq 32
+Jan 29 15:59:07 daemon kernel: [    1.658025] sd 0:0:0:0: Power-on or device reset occurred
+Jan 29 15:59:07 daemon kernel: [    1.659354] sd 0:0:0:0: [sda] 103809024 512-byte logical blocks: (53.2 GB/49.5 GiB)
+Jan 29 15:59:07 daemon kernel: [    1.661614] sd 0:0:0:0: [sda] Write Protect is off
+Jan 29 15:59:07 daemon kernel: [    1.662383] sd 0:0:0:0: [sda] Mode Sense: 63 00 00 08
+Jan 29 15:59:07 daemon kernel: [    1.662617] sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Jan 29 15:59:07 daemon kernel: [    1.664010] sd 1:0:1:2: Power-on or device reset occurred
+Jan 29 15:59:07 daemon kernel: [    1.665574] sd 1:0:1:2: [sdb] 1048576 512-byte logical blocks: (537 MB/512 MiB)
+Jan 29 15:59:07 daemon kernel: [    1.666860] sd 1:0:1:2: [sdb] Write Protect is off
+Jan 29 15:59:07 daemon kernel: [    1.667645] sd 1:0:1:2: [sdb] Mode Sense: 63 00 00 08
+Jan 29 15:59:07 daemon kernel: [    1.667730] sd 1:0:1:2: [sdb] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Jan 29 15:59:07 daemon kernel: [    1.673670] sd 0:0:0:0: [sda] Attached SCSI disk
+Jan 29 15:59:07 daemon kernel: [    1.674470] sd 1:0:1:2: [sdb] Attached SCSI disk
+Jan 29 15:59:07 daemon kernel: [    1.880781] ata1: SATA link down (SStatus 0 SControl 300)
+Jan 29 15:59:07 daemon kernel: [    1.884749] ata2: SATA link down (SStatus 0 SControl 300)
+Jan 29 15:59:07 daemon kernel: [    1.888561] ata3: SATA link down (SStatus 0 SControl 300)
+Jan 29 15:59:07 daemon kernel: [    1.892580] ata4: SATA link down (SStatus 0 SControl 300)
+Jan 29 15:59:07 daemon kernel: [    1.897393] ata5: SATA link down (SStatus 0 SControl 300)
+Jan 29 15:59:07 daemon kernel: [    1.898539] ata6: SATA link down (SStatus 0 SControl 300)
+Jan 29 15:59:07 daemon kernel: [    2.045315] EXT4-fs (sda): mounted filesystem with ordered data mode. Opts: (null)
+Jan 29 15:59:07 daemon kernel: [    2.681684] EXT4-fs (sda): re-mounted. Opts: errors=remount-ro
+Jan 29 15:59:07 daemon kernel: [    2.875296] loop: module loaded
+Jan 29 15:59:07 daemon kernel: [    2.936032] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+Jan 29 15:59:07 daemon kernel: [    2.972636] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input4
+Jan 29 15:59:07 daemon kernel: [    2.998120] ACPI: Power Button [PWRF]
+Jan 29 15:59:07 daemon kernel: [    3.027121] iTCO_vendor_support: vendor-support=0
+Jan 29 15:59:07 daemon kernel: [    3.047362] sd 0:0:0:0: Attached scsi generic sg0 type 0
+Jan 29 15:59:07 daemon kernel: [    3.053555] iTCO_wdt: Intel TCO WatchDog Timer Driver v1.11
+Jan 29 15:59:07 daemon kernel: [    3.059958] sd 1:0:1:2: Attached scsi generic sg1 type 0
+Jan 29 15:59:07 daemon kernel: [    3.082808] iTCO_wdt: Found a ICH9 TCO device (Version=2, TCOBASE=0x0660)
+Jan 29 15:59:07 daemon kernel: [    3.095584] input: PC Speaker as /devices/platform/pcspkr/input/input5
+Jan 29 15:59:07 daemon kernel: [    3.109908] iTCO_wdt: initialized. heartbeat=30 sec (nowayout=0)
+Jan 29 15:59:07 daemon kernel: [    3.292688] Decoding supported only on Scalable MCA processors.
+Jan 29 15:59:07 daemon kernel: [    3.447037] [drm] Found bochs VGA, ID 0xb0c0.
+Jan 29 15:59:07 daemon kernel: [    3.447039] [drm] Framebuffer size 16384 kB @ 0xfd000000, mmio @ 0xfebd0000.
+Jan 29 15:59:07 daemon kernel: [    3.449299] [TTM] Zone  kernel: Available graphics memory: 1021540 kiB
+Jan 29 15:59:07 daemon kernel: [    3.449301] [TTM] Initializing pool allocator
+Jan 29 15:59:07 daemon kernel: [    3.449306] [TTM] Initializing DMA pool allocator
+Jan 29 15:59:07 daemon kernel: [    3.550207] fbcon: bochsdrmfb (fb0) is primary device
+Jan 29 15:59:07 daemon kernel: [    3.765959] audit: type=1400 audit(1643464747.020:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/snapd/snap-confine" pid=343 comm="apparmor_parser"
+Jan 29 15:59:07 daemon kernel: [    3.765963] audit: type=1400 audit(1643464747.020:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=343 comm="apparmor_parser"
+Jan 29 15:59:07 daemon kernel: [    3.766792] Console: switching to colour frame buffer device 128x48
+Jan 29 15:59:07 daemon kernel: [    3.934162] bochs-drm 0000:00:01.0: fb0: bochsdrmfb frame buffer device
+Jan 29 15:59:07 daemon kernel: [    3.944088] [drm] Initialized bochs-drm 1.0.0 20130925 for 0000:00:01.0 on minor 0
+Jan 29 15:59:07 daemon kernel: [    3.953178] audit: type=1400 audit(1643464747.204:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe" pid=350 comm="apparmor_parser"
+Jan 29 15:59:07 daemon kernel: [    3.956418] audit: type=1400 audit(1643464747.204:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe//kmod" pid=350 comm="apparmor_parser"
+Jan 29 15:59:07 daemon kernel: [    4.130724] audit: type=1400 audit(1643464747.384:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/man" pid=354 comm="apparmor_parser"
+Jan 29 15:59:07 daemon kernel: [    4.132969] audit: type=1400 audit(1643464747.384:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_filter" pid=354 comm="apparmor_parser"
+Jan 29 15:59:07 daemon kernel: [    4.145650] audit: type=1400 audit(1643464747.384:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_groff" pid=354 comm="apparmor_parser"
+Jan 29 15:59:07 daemon kernel: [    4.148251] Adding 524284k swap on /dev/sdb.  Priority:-2 extents:1 across:524284k FS
+Jan 29 15:59:07 daemon kernel: [    4.162645] audit: type=1400 audit(1643464747.404:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/haveged" pid=357 comm="apparmor_parser"
+Jan 29 15:59:07 daemon kernel: [    4.180149] audit: type=1400 audit(1643464747.432:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.certbot.hook.prepare-plug-plugin" pid=360 comm="apparmor_parser"
+Jan 29 15:59:07 daemon systemd[1]: Started Resets System Activity Data Collector.
+Jan 29 15:59:07 daemon ifup[414]: ifup: waiting for lock on /run/network/ifstate.eth0
+Jan 29 15:59:07 daemon systemd[1]: Started Login Service.
+Jan 29 15:59:08 daemon snapd[412]: AppArmor status: apparmor is enabled but some kernel features are missing: dbus, network
+Jan 29 15:59:08 daemon sh[388]: eth0=eth0
+Jan 29 15:59:08 daemon systemd[1]: Started Raise network interfaces.
+Jan 29 15:59:08 daemon systemd[1]: Reached target Network.
+Jan 29 15:59:08 daemon systemd[1]: Starting MariaDB 10.3.31 database server...
+Jan 29 15:59:08 daemon systemd[1]: Condition check resulted in fast remote file copy program daemon being skipped.
+Jan 29 15:59:08 daemon systemd[1]: Starting Fail2Ban Service...
+Jan 29 15:59:08 daemon systemd[1]: Starting Permit User Sessions...
+Jan 29 15:59:08 daemon systemd[1]: Started Unattended Upgrades Shutdown.
+Jan 29 15:59:08 daemon systemd[1]: Starting OpenBSD Secure Shell server...
+Jan 29 15:59:08 daemon systemd[1]: Starting The Apache HTTP Server...
+Jan 29 15:59:08 daemon systemd[1]: Reached target Network is Online.
+Jan 29 15:59:08 daemon systemd[1]: Starting LSB: Start and stop OSSEC HIDS...
+Jan 29 15:59:08 daemon systemd[1]: Starting Postfix Mail Transport Agent (instance -)...
+Jan 29 15:59:08 daemon systemd[1]: Started Fail2Ban Service.
+Jan 29 15:59:08 daemon ossec[478]: Starting OSSEC HIDS v3.6.0...
+Jan 29 15:59:08 daemon systemd[1]: Started Permit User Sessions.
+Jan 29 15:59:08 daemon systemd[1]: Started Getty on tty1.
+Jan 29 15:59:08 daemon systemd[1]: Started Serial Getty on ttyS0.
+Jan 29 15:59:08 daemon systemd[1]: Reached target Login Prompts.
+Jan 29 15:59:08 daemon systemd[1]: Started OpenBSD Secure Shell server.
+Jan 29 15:59:08 daemon haveged[393]: haveged: ver: 1.9.1; arch: x86; vend: ; build: (gcc 8.3.0 ITV); collect: 128K
+Jan 29 15:59:08 daemon haveged[393]: haveged: cpu: (VC); data: 64K (V); inst: 64K (V); idx: 39/40; sz: 52825/52825
+Jan 29 15:59:08 daemon haveged[393]: haveged: tot tests(BA8): A:1/1 B:1/1 continuous tests(B):  last entropy estimate 8.00167
+Jan 29 15:59:08 daemon haveged[393]: haveged: fills: 0, generated: 0
+Jan 29 15:59:09 daemon mysqld[578]: 2022-01-29 15:59:09 0 [Note] /usr/sbin/mysqld (mysqld 10.3.31-MariaDB-0+deb10u1) starting as process 578 ...
+Jan 29 15:59:09 daemon systemd[1]: Started MariaDB 10.3.31 database server.
+Jan 29 15:59:09 daemon /etc/mysql/debian-start[656]: Upgrading MySQL tables if necessary.
+Jan 29 15:59:10 daemon /etc/mysql/debian-start[659]: /usr/bin/mysql_upgrade: the '--basedir' option is always ignored
+Jan 29 15:59:10 daemon /etc/mysql/debian-start[659]: Looking for 'mysql' as: /usr/bin/mysql
+Jan 29 15:59:10 daemon /etc/mysql/debian-start[659]: Looking for 'mysqlcheck' as: /usr/bin/mysqlcheck
+Jan 29 15:59:10 daemon /etc/mysql/debian-start[659]: This installation of MySQL is already upgraded to 10.3.31-MariaDB, use --force if you still need to run mysql_upgrade
+Jan 29 15:59:10 daemon /etc/mysql/debian-start[681]: Checking for insecure root accounts.
+Jan 29 15:59:10 daemon fail2ban-server[491]: Server ready
+Jan 29 15:59:10 daemon /etc/mysql/debian-start[695]: Triggering myisam-recover for all MyISAM tables and aria-recover for all Aria tables
+Jan 29 15:59:10 daemon ossec[478]: Started ossec-maild...
+Jan 29 15:59:10 daemon ossec[478]: Started ossec-execd...
+Jan 29 15:59:10 daemon ossec[478]: Started ossec-analysisd...
+Jan 29 15:59:10 daemon ossec[478]: Started ossec-logcollector...
+Jan 29 15:59:10 daemon ossec[478]: Started ossec-remoted...
+Jan 29 15:59:10 daemon systemd[1]: Started The Apache HTTP Server.
+Jan 29 15:59:11 daemon postfix/postfix-script[808]: warning: symlink leaves directory: /etc/postfix/./makedefs.out
+Jan 29 15:59:11 daemon snapd[412]: AppArmor status: apparmor is enabled but some kernel features are missing: dbus, network
+Jan 29 15:59:11 daemon ossec[478]: Started ossec-syscheckd...
+Jan 29 15:59:11 daemon snapd[412]: daemon.go:246: started snapd/2.54.2 (series 16; classic; devmode) debian/10 (amd64) linux/4.19.0-18-amd64.
+Jan 29 15:59:11 daemon ossec[478]: Started ossec-monitord...
+Jan 29 15:59:11 daemon postfix/postfix-script[860]: starting the Postfix mail system
+Jan 29 15:59:11 daemon postfix/master[867]: daemon started -- version 3.4.14, configuration /etc/postfix
+Jan 29 15:59:11 daemon systemd[1]: Started Postfix Mail Transport Agent (instance -).
+Jan 29 15:59:11 daemon systemd[1]: tmp-sanity\x2dmountpoint\x2d726613954.mount: Succeeded.
+Jan 29 15:59:11 daemon snapd[412]: daemon.go:339: adjusting startup timeout by 45s (pessimistic estimate of 30s plus 5s per snap)
+Jan 29 15:59:11 daemon systemd[1]: Starting Postfix Mail Transport Agent...
+Jan 29 15:59:11 daemon systemd[1]: Started Postfix Mail Transport Agent.
+Jan 29 15:59:11 daemon postfix/pickup[869]: 9424C3D6F2: uid=0 from=<daemon@synaptic4u.co.za>
+Jan 29 15:59:11 daemon postfix/cleanup[873]: 9424C3D6F2: message-id=<20220129135911.9424C3D6F2@daemon.synaptic4u.co.za>
+Jan 29 15:59:11 daemon postfix/qmgr[870]: 9424C3D6F2: from=<daemon@synaptic4u.co.za>, size=436, nrcpt=1 (queue active)
+Jan 29 15:59:11 daemon postfix/pickup[869]: 98A043D5D7: uid=0 from=<daemon@synaptic4u.co.za>
+Jan 29 15:59:11 daemon postfix/cleanup[873]: 98A043D5D7: message-id=<20220129135911.98A043D5D7@daemon.synaptic4u.co.za>
+Jan 29 15:59:11 daemon postfix/qmgr[870]: 98A043D5D7: from=<daemon@synaptic4u.co.za>, size=423, nrcpt=1 (queue active)
+Jan 29 15:59:11 daemon systemd[1]: Started Snappy daemon.
+Jan 29 15:59:11 daemon dbus-daemon[403]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.22' (uid=0 pid=412 comm="/usr/lib/snapd/snapd ")
+Jan 29 15:59:11 daemon systemd[1]: Starting Time & Date Service...
+Jan 29 15:59:11 daemon systemd[1]: Starting Wait until snapd is fully seeded...
+Jan 29 15:59:11 daemon dbus-daemon[403]: [system] Successfully activated service 'org.freedesktop.timedate1'
+Jan 29 15:59:11 daemon systemd[1]: Started Time & Date Service.
+Jan 29 15:59:12 daemon systemd[1]: Started Wait until snapd is fully seeded.
+Jan 29 15:59:13 daemon systemd[1]: Reloading.
+Jan 29 15:59:13 daemon systemd[1]: /lib/systemd/system/fail2ban.service:12: PIDFile= references path below legacy directory /var/run/, updating /var/run/fail2ban/fail2ban.pid → /run/fail2ban/fail2ban.pid; please update the unit file accordingly.
+Jan 29 15:59:13 daemon ossec[478]: Completed.
+Jan 29 15:59:13 daemon systemd[1]: getty@tty1.service: Current command vanished from the unit file, execution of the command list won't be resumed.
+Jan 29 15:59:13 daemon systemd[1]: serial-getty@ttyS0.service: Current command vanished from the unit file, execution of the command list won't be resumed.
+Jan 29 15:59:13 daemon postfix/smtp[882]: 98A043D5D7: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=37, delays=35/0.15/1.3/0.46, dsn=2.0.0, status=sent (250 OK id=1nDoFx-000S78-9Z)
+Jan 29 15:59:13 daemon postfix/qmgr[870]: 98A043D5D7: removed
+Jan 29 15:59:13 daemon systemd[1]: Started LSB: Start and stop OSSEC HIDS.
+Jan 29 15:59:13 daemon postfix/smtp[875]: 9424C3D6F2: to=<admin@synaptic4u.co.za>, relay=mail.synaptic4u.co.za[154.0.175.57]:465, delay=3.5, delays=1.4/0.13/1.5/0.56, dsn=2.0.0, status=sent (250 OK id=1nDoFx-000S7B-D0)
+Jan 29 15:59:13 daemon postfix/qmgr[870]: 9424C3D6F2: removed
+Jan 29 15:59:13 daemon systemd[1]: Reached target Multi-User System.
+Jan 29 15:59:13 daemon systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Jan 29 15:59:13 daemon systemd[1]: systemd-update-utmp-runlevel.service: Succeeded.
+Jan 29 15:59:13 daemon systemd[1]: Started Update UTMP about System Runlevel Changes.
+Jan 29 15:59:13 daemon systemd[1]: Startup finished in 2.064s (kernel) + 8.379s (userspace) = 10.444s.
+Jan 29 15:59:35 daemon systemd[1]: systemd-fsckd.service: Succeeded.
+Jan 29 15:59:37 daemon systemd-timesyncd[356]: Synchronized to time server for the first time [2a01:4f8:150:60c3::2]:123 (2.debian.pool.ntp.org).
+Jan 29 15:59:44 daemon systemd[1]: systemd-timedated.service: Succeeded.
+Jan 29 16:04:13 daemon dbus-daemon[403]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.22' (uid=0 pid=412 comm="/usr/lib/snapd/snapd ")
+Jan 29 16:04:13 daemon systemd[1]: Starting Time & Date Service...
+Jan 29 16:04:14 daemon dbus-daemon[403]: [system] Successfully activated service 'org.freedesktop.timedate1'
+Jan 29 16:04:14 daemon systemd[1]: Started Time & Date Service.
+Jan 29 16:04:44 daemon systemd[1]: systemd-timedated.service: Succeeded.
+Jan 29 16:05:01 daemon CRON[969]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 16:09:01 daemon CRON[972]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan 29 16:09:01 daemon systemd[1]: Starting Clean php session files...
+Jan 29 16:09:02 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Jan 29 16:09:02 daemon systemd[1]: Started Clean php session files.
+Jan 29 16:14:11 daemon systemd[1]: Starting Cleanup of Temporary Directories...
+Jan 29 16:14:11 daemon systemd-tmpfiles[1091]: [/usr/lib/tmpfiles.d/fail2ban-tmpfiles.conf:1] Line references path below legacy directory /var/run/, updating /var/run/fail2ban → /run/fail2ban; please update the tmpfiles.d/ drop-in file accordingly.
+Jan 29 16:14:11 daemon systemd[1]: systemd-tmpfiles-clean.service: Succeeded.
+Jan 29 16:14:11 daemon systemd[1]: Started Cleanup of Temporary Directories.
+Jan 29 16:15:01 daemon CRON[1143]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 16:17:01 daemon CRON[1264]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 29 16:19:49 daemon systemd[1]: Created slice User Slice of UID 0.
+Jan 29 16:19:49 daemon systemd[1]: Starting User Runtime Directory /run/user/0...
+Jan 29 16:19:49 daemon systemd[1]: Started User Runtime Directory /run/user/0.
+Jan 29 16:19:49 daemon systemd[1]: Starting User Manager for UID 0...
+Jan 29 16:19:49 daemon systemd[1390]: Reached target Paths.
+Jan 29 16:19:49 daemon systemd[1390]: Listening on GnuPG network certificate management daemon.
+Jan 29 16:19:49 daemon systemd[1390]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Jan 29 16:19:49 daemon systemd[1390]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Jan 29 16:19:49 daemon systemd[1390]: Reached target Timers.
+Jan 29 16:19:49 daemon systemd[1390]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Jan 29 16:19:49 daemon systemd[1390]: Listening on GnuPG cryptographic agent and passphrase cache.
+Jan 29 16:19:49 daemon systemd[1390]: Reached target Sockets.
+Jan 29 16:19:49 daemon systemd[1390]: Reached target Basic System.
+Jan 29 16:19:49 daemon systemd[1]: Started User Manager for UID 0.
+Jan 29 16:19:49 daemon systemd[1]: Started Session c1 of user root.
+Jan 29 16:19:49 daemon systemd[1390]: Reached target Default.
+Jan 29 16:19:49 daemon systemd[1390]: Startup finished in 56ms.
+Jan 29 16:25:01 daemon CRON[1449]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 16:25:25 daemon systemd[1]: session-c1.scope: Succeeded.
+Jan 29 16:25:36 daemon systemd[1]: Stopping User Manager for UID 0...
+Jan 29 16:25:36 daemon systemd[1390]: Stopped target Default.
+Jan 29 16:25:36 daemon systemd[1390]: Stopped target Basic System.
+Jan 29 16:25:36 daemon systemd[1390]: Stopped target Timers.
+Jan 29 16:25:36 daemon systemd[1390]: Stopped target Paths.
+Jan 29 16:25:36 daemon systemd[1390]: Stopped target Sockets.
+Jan 29 16:25:36 daemon systemd[1390]: gpg-agent-ssh.socket: Succeeded.
+Jan 29 16:25:36 daemon systemd[1390]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Jan 29 16:25:36 daemon systemd[1390]: gpg-agent.socket: Succeeded.
+Jan 29 16:25:36 daemon systemd[1390]: Closed GnuPG cryptographic agent and passphrase cache.
+Jan 29 16:25:36 daemon systemd[1390]: dirmngr.socket: Succeeded.
+Jan 29 16:25:36 daemon systemd[1390]: Closed GnuPG network certificate management daemon.
+Jan 29 16:25:36 daemon systemd[1390]: gpg-agent-browser.socket: Succeeded.
+Jan 29 16:25:36 daemon systemd[1390]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Jan 29 16:25:36 daemon systemd[1390]: gpg-agent-extra.socket: Succeeded.
+Jan 29 16:25:36 daemon systemd[1390]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Jan 29 16:25:36 daemon systemd[1390]: Reached target Shutdown.
+Jan 29 16:25:36 daemon systemd[1390]: systemd-exit.service: Succeeded.
+Jan 29 16:25:36 daemon systemd[1390]: Started Exit the Session.
+Jan 29 16:25:36 daemon systemd[1390]: Reached target Exit the Session.
+Jan 29 16:25:36 daemon systemd[1]: user@0.service: Succeeded.
+Jan 29 16:25:36 daemon systemd[1]: Stopped User Manager for UID 0.
+Jan 29 16:25:36 daemon systemd[1]: Stopping User Runtime Directory /run/user/0...
+Jan 29 16:25:36 daemon systemd[1]: run-user-0.mount: Succeeded.
+Jan 29 16:25:36 daemon systemd[1]: user-runtime-dir@0.service: Succeeded.
+Jan 29 16:25:36 daemon systemd[1]: Stopped User Runtime Directory /run/user/0.
+Jan 29 16:25:36 daemon systemd[1]: Removed slice User Slice of UID 0.
+Jan 29 16:25:52 daemon systemd[1]: Created slice User Slice of UID 0.
+Jan 29 16:25:52 daemon systemd[1]: Starting User Runtime Directory /run/user/0...
+Jan 29 16:25:52 daemon systemd[1]: Started User Runtime Directory /run/user/0.
+Jan 29 16:25:52 daemon systemd[1]: Starting User Manager for UID 0...
+Jan 29 16:25:52 daemon systemd[1456]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Jan 29 16:25:52 daemon systemd[1456]: Listening on GnuPG cryptographic agent and passphrase cache.
+Jan 29 16:25:52 daemon systemd[1456]: Listening on GnuPG network certificate management daemon.
+Jan 29 16:25:52 daemon systemd[1456]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Jan 29 16:25:52 daemon systemd[1456]: Reached target Paths.
+Jan 29 16:25:52 daemon systemd[1456]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Jan 29 16:25:52 daemon systemd[1456]: Reached target Sockets.
+Jan 29 16:25:52 daemon systemd[1456]: Reached target Timers.
+Jan 29 16:25:52 daemon systemd[1456]: Reached target Basic System.
+Jan 29 16:25:52 daemon systemd[1]: Started User Manager for UID 0.
+Jan 29 16:25:52 daemon systemd[1]: Started Session c2 of user root.
+Jan 29 16:25:52 daemon systemd[1456]: Reached target Default.
+Jan 29 16:25:52 daemon systemd[1456]: Startup finished in 47ms.
+Jan 29 16:27:27 daemon systemd[1]: session-c2.scope: Succeeded.
+Jan 29 16:27:37 daemon systemd[1]: Stopping User Manager for UID 0...
+Jan 29 16:27:37 daemon systemd[1456]: Stopped target Default.
+Jan 29 16:27:37 daemon systemd[1456]: Stopped target Basic System.
+Jan 29 16:27:37 daemon systemd[1456]: Stopped target Sockets.
+Jan 29 16:27:37 daemon systemd[1456]: gpg-agent-ssh.socket: Succeeded.
+Jan 29 16:27:37 daemon systemd[1456]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Jan 29 16:27:37 daemon systemd[1456]: gpg-agent.socket: Succeeded.
+Jan 29 16:27:37 daemon systemd[1456]: Closed GnuPG cryptographic agent and passphrase cache.
+Jan 29 16:27:37 daemon systemd[1456]: Stopped target Timers.
+Jan 29 16:27:37 daemon systemd[1456]: Stopped target Paths.
+Jan 29 16:27:37 daemon systemd[1456]: dirmngr.socket: Succeeded.
+Jan 29 16:27:37 daemon systemd[1456]: Closed GnuPG network certificate management daemon.
+Jan 29 16:27:37 daemon systemd[1456]: gpg-agent-browser.socket: Succeeded.
+Jan 29 16:27:37 daemon systemd[1456]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Jan 29 16:27:37 daemon systemd[1456]: gpg-agent-extra.socket: Succeeded.
+Jan 29 16:27:37 daemon systemd[1456]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Jan 29 16:27:37 daemon systemd[1456]: Reached target Shutdown.
+Jan 29 16:27:37 daemon systemd[1456]: systemd-exit.service: Succeeded.
+Jan 29 16:27:37 daemon systemd[1456]: Started Exit the Session.
+Jan 29 16:27:37 daemon systemd[1456]: Reached target Exit the Session.
+Jan 29 16:27:37 daemon systemd[1]: user@0.service: Succeeded.
+Jan 29 16:27:37 daemon systemd[1]: Stopped User Manager for UID 0.
+Jan 29 16:27:37 daemon systemd[1]: Stopping User Runtime Directory /run/user/0...
+Jan 29 16:27:37 daemon systemd[1]: run-user-0.mount: Succeeded.
+Jan 29 16:27:37 daemon systemd[1]: user-runtime-dir@0.service: Succeeded.
+Jan 29 16:27:37 daemon systemd[1]: Stopped User Runtime Directory /run/user/0.
+Jan 29 16:27:37 daemon systemd[1]: Removed slice User Slice of UID 0.
+Jan 29 16:30:04 daemon systemd[1]: Created slice User Slice of UID 0.
+Jan 29 16:30:04 daemon systemd[1]: Starting User Runtime Directory /run/user/0...
+Jan 29 16:30:04 daemon systemd[1]: Started User Runtime Directory /run/user/0.
+Jan 29 16:30:04 daemon systemd[1]: Starting User Manager for UID 0...
+Jan 29 16:30:04 daemon systemd[1497]: Listening on GnuPG cryptographic agent and passphrase cache.
+Jan 29 16:30:04 daemon systemd[1497]: Reached target Paths.
+Jan 29 16:30:04 daemon systemd[1497]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Jan 29 16:30:04 daemon systemd[1497]: Reached target Timers.
+Jan 29 16:30:04 daemon systemd[1497]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Jan 29 16:30:04 daemon systemd[1497]: Listening on GnuPG network certificate management daemon.
+Jan 29 16:30:04 daemon systemd[1497]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Jan 29 16:30:04 daemon systemd[1497]: Reached target Sockets.
+Jan 29 16:30:04 daemon systemd[1497]: Reached target Basic System.
+Jan 29 16:30:04 daemon systemd[1]: Started User Manager for UID 0.
+Jan 29 16:30:04 daemon systemd[1]: Started Session c3 of user root.
+Jan 29 16:30:04 daemon systemd[1497]: Reached target Default.
+Jan 29 16:30:04 daemon systemd[1497]: Startup finished in 42ms.
+Jan 29 16:30:59 daemon systemd[1]: session-c3.scope: Succeeded.
+Jan 29 16:31:09 daemon systemd[1]: Stopping User Manager for UID 0...
+Jan 29 16:31:09 daemon systemd[1497]: Stopped target Default.
+Jan 29 16:31:09 daemon systemd[1497]: Stopped target Basic System.
+Jan 29 16:31:09 daemon systemd[1497]: Stopped target Sockets.
+Jan 29 16:31:09 daemon systemd[1497]: gpg-agent-ssh.socket: Succeeded.
+Jan 29 16:31:09 daemon systemd[1497]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Jan 29 16:31:09 daemon systemd[1497]: gpg-agent-browser.socket: Succeeded.
+Jan 29 16:31:09 daemon systemd[1497]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Jan 29 16:31:09 daemon systemd[1497]: gpg-agent-extra.socket: Succeeded.
+Jan 29 16:31:09 daemon systemd[1497]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Jan 29 16:31:09 daemon systemd[1497]: Stopped target Paths.
+Jan 29 16:31:09 daemon systemd[1497]: Stopped target Timers.
+Jan 29 16:31:09 daemon systemd[1497]: dirmngr.socket: Succeeded.
+Jan 29 16:31:09 daemon systemd[1497]: Closed GnuPG network certificate management daemon.
+Jan 29 16:31:09 daemon systemd[1497]: gpg-agent.socket: Succeeded.
+Jan 29 16:31:09 daemon systemd[1497]: Closed GnuPG cryptographic agent and passphrase cache.
+Jan 29 16:31:09 daemon systemd[1497]: Reached target Shutdown.
+Jan 29 16:31:09 daemon systemd[1497]: systemd-exit.service: Succeeded.
+Jan 29 16:31:09 daemon systemd[1497]: Started Exit the Session.
+Jan 29 16:31:09 daemon systemd[1497]: Reached target Exit the Session.
+Jan 29 16:31:09 daemon systemd[1]: user@0.service: Succeeded.
+Jan 29 16:31:09 daemon systemd[1]: Stopped User Manager for UID 0.
+Jan 29 16:31:09 daemon systemd[1]: Stopping User Runtime Directory /run/user/0...
+Jan 29 16:31:09 daemon systemd[1]: run-user-0.mount: Succeeded.
+Jan 29 16:31:09 daemon systemd[1]: user-runtime-dir@0.service: Succeeded.
+Jan 29 16:31:09 daemon systemd[1]: Stopped User Runtime Directory /run/user/0.
+Jan 29 16:31:09 daemon systemd[1]: Removed slice User Slice of UID 0.
+Jan 29 16:31:19 daemon dbus-daemon[403]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.79' (uid=0 pid=2169 comm="/usr/bin/gdbus call --system --dest org.freedeskto")
+Jan 29 16:31:19 daemon systemd[1]: Starting PackageKit Daemon...
+Jan 29 16:31:19 daemon PackageKit: daemon start
+Jan 29 16:31:19 daemon dbus-daemon[403]: [system] Activating via systemd: service name='org.freedesktop.PolicyKit1' unit='polkit.service' requested by ':1.80' (uid=0 pid=2172 comm="/usr/lib/packagekit/packagekitd ")
+Jan 29 16:31:19 daemon systemd[1]: Starting Authorization Manager...
+Jan 29 16:31:19 daemon polkitd[2176]: started daemon version 0.105 using authority implementation `local' version `0.105'
+Jan 29 16:31:19 daemon dbus-daemon[403]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+Jan 29 16:31:19 daemon systemd[1]: Started Authorization Manager.
+Jan 29 16:31:19 daemon dbus-daemon[403]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Jan 29 16:31:19 daemon systemd[1]: Started PackageKit Daemon.
+Jan 29 16:31:39 daemon php8.0-common: php_invoke calendar: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:39 daemon php8.0-common: php_invoke calendar: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:39 daemon php8.0-common: php_invoke ctype: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:39 daemon php8.0-common: php_invoke ctype: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:40 daemon php8.0-common: php_invoke exif: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:40 daemon php8.0-common: php_invoke exif: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:40 daemon php8.0-common: php_invoke fileinfo: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:40 daemon php8.0-common: php_invoke fileinfo: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:40 daemon php8.0-common: php_invoke ffi: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:40 daemon php8.0-common: php_invoke ffi: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:41 daemon php8.0-common: php_invoke ftp: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:41 daemon php8.0-common: php_invoke ftp: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:41 daemon php8.0-common: php_invoke gettext: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:41 daemon php8.0-common: php_invoke gettext: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:42 daemon php8.0-common: php_invoke iconv: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:42 daemon php8.0-common: php_invoke iconv: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:42 daemon php8.0-common: php_invoke pdo: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:42 daemon php8.0-common: php_invoke pdo: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:42 daemon php8.0-common: php_invoke phar: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:42 daemon php8.0-common: php_invoke phar: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:43 daemon php8.0-common: php_invoke posix: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:43 daemon php8.0-common: php_invoke posix: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:43 daemon php8.0-common: php_invoke shmop: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:43 daemon php8.0-common: php_invoke shmop: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:43 daemon php8.0-common: php_invoke sockets: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:43 daemon php8.0-common: php_invoke sockets: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:44 daemon php8.0-common: php_invoke sysvmsg: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:44 daemon php8.0-common: php_invoke sysvmsg: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:44 daemon php8.0-common: php_invoke sysvsem: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:44 daemon php8.0-common: php_invoke sysvsem: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:44 daemon php8.0-common: php_invoke sysvshm: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:44 daemon php8.0-common: php_invoke sysvshm: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:45 daemon php8.0-common: php_invoke tokenizer: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:45 daemon php8.0-common: php_invoke tokenizer: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:45 daemon php8.0-xml: php_invoke dom: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:45 daemon php8.0-xml: php_invoke dom: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:45 daemon php8.0-xml: php_invoke simplexml: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:45 daemon php8.0-xml: php_invoke simplexml: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:46 daemon php8.0-xml: php_invoke xml: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:46 daemon php8.0-xml: php_invoke xml: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:46 daemon php8.0-xml: php_invoke xmlreader: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:46 daemon php8.0-xml: php_invoke xmlreader: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:46 daemon php8.0-xml: php_invoke xmlwriter: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:46 daemon php8.0-xml: php_invoke xmlwriter: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:47 daemon php8.0-xml: php_invoke xsl: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:47 daemon php8.0-xml: php_invoke xsl: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:47 daemon php8.0-mysql: php_invoke mysqlnd: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:47 daemon php8.0-mysql: php_invoke mysqlnd: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:48 daemon php8.0-mysql: php_invoke mysqli: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:48 daemon php8.0-mysql: php_invoke mysqli: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:48 daemon php8.0-mysql: php_invoke pdo_mysql: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:48 daemon php8.0-mysql: php_invoke pdo_mysql: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:48 daemon php8.0-mbstring: php_invoke mbstring: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:48 daemon php8.0-mbstring: php_invoke mbstring: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:49 daemon php8.0-zip: php_invoke zip: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:49 daemon php8.0-zip: php_invoke zip: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:49 daemon php8.0-bcmath: php_invoke bcmath: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:49 daemon php8.0-bcmath: php_invoke bcmath: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:50 daemon php8.0-gd: php_invoke gd: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:50 daemon php8.0-gd: php_invoke gd: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:50 daemon php8.0-curl: php_invoke curl: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:50 daemon php8.0-curl: php_invoke curl: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:50 daemon php8.0-readline: php_invoke readline: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:50 daemon php8.0-readline: php_invoke readline: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:51 daemon php8.0-opcache: php_invoke opcache: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:51 daemon php8.0-opcache: php_invoke opcache: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:51 daemon php8.0-cli: php_invoke gd: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:51 daemon php8.0-cli: php_invoke fileinfo: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:51 daemon php8.0-cli: php_invoke exif: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:51 daemon php8.0-cli: php_invoke simplexml: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:51 daemon php8.0-cli: php_invoke phar: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:51 daemon php8.0-cli: php_invoke xmlwriter: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:51 daemon php8.0-cli: php_invoke ftp: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:51 daemon php8.0-cli: php_invoke bcmath: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:51 daemon php8.0-cli: php_invoke tokenizer: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:51 daemon php8.0-cli: php_invoke pdo: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:51 daemon php8.0-cli: php_invoke ffi: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:51 daemon php8.0-cli: php_invoke iconv: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:51 daemon php8.0-cli: php_invoke xmlreader: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:51 daemon php8.0-cli: php_invoke sysvsem: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:51 daemon php8.0-cli: php_invoke readline: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:51 daemon php8.0-cli: php_invoke curl: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:51 daemon php8.0-cli: php_invoke mbstring: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:51 daemon php8.0-cli: php_invoke sysvshm: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:51 daemon php8.0-cli: php_invoke mysqlnd: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:51 daemon php8.0-cli: php_invoke ctype: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:51 daemon php8.0-cli: php_invoke dom: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:51 daemon php8.0-cli: php_invoke mysqli: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:52 daemon php8.0-cli: php_invoke gettext: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:52 daemon php8.0-cli: php_invoke calendar: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:52 daemon php8.0-cli: php_invoke opcache: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:52 daemon php8.0-cli: php_invoke xsl: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:52 daemon php8.0-cli: php_invoke pdo_mysql: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:52 daemon php8.0-cli: php_invoke sockets: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:52 daemon php8.0-cli: php_invoke xml: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:52 daemon php8.0-cli: php_invoke shmop: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:52 daemon php8.0-cli: php_invoke posix: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:52 daemon php8.0-cli: php_invoke sysvmsg: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:52 daemon php8.0-cli: php_invoke zip: already enabled for PHP 8.0 cli sapi
+Jan 29 16:31:52 daemon libapache2-mod-php8.0: php_invoke gd: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:52 daemon libapache2-mod-php8.0: php_invoke fileinfo: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:52 daemon libapache2-mod-php8.0: php_invoke exif: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:52 daemon libapache2-mod-php8.0: php_invoke simplexml: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:52 daemon libapache2-mod-php8.0: php_invoke phar: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:52 daemon libapache2-mod-php8.0: php_invoke xmlwriter: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:52 daemon libapache2-mod-php8.0: php_invoke ftp: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:52 daemon libapache2-mod-php8.0: php_invoke bcmath: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:52 daemon libapache2-mod-php8.0: php_invoke tokenizer: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:52 daemon libapache2-mod-php8.0: php_invoke pdo: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:52 daemon libapache2-mod-php8.0: php_invoke ffi: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:52 daemon libapache2-mod-php8.0: php_invoke iconv: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:52 daemon libapache2-mod-php8.0: php_invoke xmlreader: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:52 daemon libapache2-mod-php8.0: php_invoke sysvsem: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:52 daemon libapache2-mod-php8.0: php_invoke readline: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:52 daemon libapache2-mod-php8.0: php_invoke curl: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:52 daemon libapache2-mod-php8.0: php_invoke mbstring: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:52 daemon libapache2-mod-php8.0: php_invoke sysvshm: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:52 daemon libapache2-mod-php8.0: php_invoke mysqlnd: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:52 daemon libapache2-mod-php8.0: php_invoke ctype: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:52 daemon libapache2-mod-php8.0: php_invoke dom: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:52 daemon libapache2-mod-php8.0: php_invoke mysqli: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:52 daemon libapache2-mod-php8.0: php_invoke gettext: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:53 daemon libapache2-mod-php8.0: php_invoke calendar: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:53 daemon libapache2-mod-php8.0: php_invoke opcache: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:53 daemon libapache2-mod-php8.0: php_invoke xsl: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:53 daemon libapache2-mod-php8.0: php_invoke pdo_mysql: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:53 daemon libapache2-mod-php8.0: php_invoke sockets: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:53 daemon libapache2-mod-php8.0: php_invoke xml: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:53 daemon libapache2-mod-php8.0: php_invoke shmop: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:53 daemon libapache2-mod-php8.0: php_invoke posix: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:53 daemon libapache2-mod-php8.0: php_invoke sysvmsg: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:53 daemon libapache2-mod-php8.0: php_invoke zip: already enabled for PHP 8.0 apache2 sapi
+Jan 29 16:31:53 daemon libapache2-mod-php8.0: libapache2-mod-php8.0: not switching MPM - already enabled
+Jan 29 16:35:01 daemon CRON[15856]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 16:36:59 daemon PackageKit: daemon quit
+Jan 29 16:36:59 daemon systemd[1]: packagekit.service: Main process exited, code=killed, status=15/TERM
+Jan 29 16:36:59 daemon systemd[1]: packagekit.service: Succeeded.
+Jan 29 16:39:01 daemon CRON[15860]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan 29 16:39:01 daemon systemd[1]: Starting Clean php session files...
+Jan 29 16:39:02 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Jan 29 16:39:02 daemon systemd[1]: Started Clean php session files.
+Jan 29 16:45:01 daemon CRON[15938]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 16:55:01 daemon CRON[15943]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 17:05:01 daemon CRON[15949]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 17:09:01 daemon CRON[15952]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan 29 17:09:01 daemon systemd[1]: Starting Clean php session files...
+Jan 29 17:09:02 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Jan 29 17:09:02 daemon systemd[1]: Started Clean php session files.
+Jan 29 17:15:02 daemon CRON[16032]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 17:17:01 daemon CRON[16038]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 29 17:25:01 daemon CRON[16043]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 17:35:01 daemon CRON[16046]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 17:39:01 daemon CRON[16049]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan 29 17:39:01 daemon systemd[1]: Starting Clean php session files...
+Jan 29 17:39:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Jan 29 17:39:01 daemon systemd[1]: Started Clean php session files.
+Jan 29 17:45:01 daemon CRON[16132]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 17:55:01 daemon CRON[16135]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 18:05:01 daemon CRON[16142]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 18:09:01 daemon CRON[16145]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan 29 18:09:01 daemon systemd[1]: Starting Clean php session files...
+Jan 29 18:09:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Jan 29 18:09:01 daemon systemd[1]: Started Clean php session files.
+Jan 29 18:15:01 daemon CRON[16228]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 18:17:01 daemon CRON[16231]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 29 18:25:01 daemon CRON[16234]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 18:35:01 daemon CRON[16237]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 18:39:01 daemon CRON[16240]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan 29 18:39:01 daemon systemd[1]: Starting Clean php session files...
+Jan 29 18:39:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Jan 29 18:39:01 daemon systemd[1]: Started Clean php session files.
+Jan 29 18:45:01 daemon CRON[16323]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 18:50:44 daemon systemd[1]: Starting Service for snap application certbot.renew...
+Jan 29 18:50:48 daemon systemd[1]: snap.certbot.renew.service: Succeeded.
+Jan 29 18:50:48 daemon systemd[1]: Started Service for snap application certbot.renew.
+Jan 29 18:55:01 daemon CRON[16349]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 19:05:01 daemon CRON[16352]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 19:09:01 daemon CRON[16355]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan 29 19:09:01 daemon systemd[1]: Starting Clean php session files...
+Jan 29 19:09:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Jan 29 19:09:01 daemon systemd[1]: Started Clean php session files.
+Jan 29 19:15:01 daemon CRON[16453]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 19:17:01 daemon CRON[16460]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 29 19:25:01 daemon CRON[16472]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 19:35:01 daemon CRON[16505]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 19:39:00 daemon systemd[1]: Starting Clean php session files...
+Jan 29 19:39:00 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Jan 29 19:39:00 daemon systemd[1]: Started Clean php session files.
+Jan 29 19:39:01 daemon CRON[16617]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan 29 19:39:28 daemon systemd[1]: Stopping The Apache HTTP Server...
+Jan 29 19:39:28 daemon systemd[1]: apache2.service: Succeeded.
+Jan 29 19:39:28 daemon systemd[1]: Stopped The Apache HTTP Server.
+Jan 29 19:39:28 daemon systemd[1]: Starting The Apache HTTP Server...
+Jan 29 19:39:29 daemon systemd[1]: Started The Apache HTTP Server.
+Jan 29 19:41:44 daemon systemd[1]: Stopping The Apache HTTP Server...
+Jan 29 19:41:45 daemon systemd[1]: apache2.service: Succeeded.
+Jan 29 19:41:45 daemon systemd[1]: Stopped The Apache HTTP Server.
+Jan 29 19:41:45 daemon systemd[1]: Starting The Apache HTTP Server...
+Jan 29 19:41:46 daemon systemd[1]: Started The Apache HTTP Server.
+Jan 29 19:45:01 daemon CRON[16713]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 19:55:01 daemon CRON[16727]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 20:05:01 daemon CRON[16755]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 20:09:01 daemon CRON[16771]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan 29 20:09:01 daemon systemd[1]: Starting Clean php session files...
+Jan 29 20:09:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Jan 29 20:09:01 daemon systemd[1]: Started Clean php session files.
+Jan 29 20:15:01 daemon CRON[16854]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 20:17:01 daemon CRON[16859]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 29 20:25:01 daemon CRON[16867]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 20:27:13 daemon postfix/smtpd[16875]: warning: hostname cl133-197.invision.com does not resolve to address 68.170.133.197: Name or service not known
+Jan 29 20:27:13 daemon postfix/smtpd[16875]: connect from unknown[68.170.133.197]
+Jan 29 20:27:13 daemon postfix/smtpd[16875]: lost connection after CONNECT from unknown[68.170.133.197]
+Jan 29 20:27:13 daemon postfix/smtpd[16875]: disconnect from unknown[68.170.133.197] commands=0/0
+Jan 29 20:27:44 daemon systemd[1]: Stopping The Apache HTTP Server...
+Jan 29 20:27:45 daemon systemd[1]: apache2.service: Succeeded.
+Jan 29 20:27:45 daemon systemd[1]: Stopped The Apache HTTP Server.
+Jan 29 20:27:45 daemon systemd[1]: Starting The Apache HTTP Server...
+Jan 29 20:27:46 daemon systemd[1]: Started The Apache HTTP Server.
+Jan 29 20:30:33 daemon postfix/anvil[16877]: statistics: max connection rate 1/60s for (smtp:68.170.133.197) at Jan 29 20:27:13
+Jan 29 20:30:33 daemon postfix/anvil[16877]: statistics: max connection count 1 for (smtp:68.170.133.197) at Jan 29 20:27:13
+Jan 29 20:30:33 daemon postfix/anvil[16877]: statistics: max cache size 1 at Jan 29 20:27:13
+Jan 29 20:31:09 daemon systemd[1]: Stopping The Apache HTTP Server...
+Jan 29 20:31:10 daemon systemd[1]: apache2.service: Succeeded.
+Jan 29 20:31:10 daemon systemd[1]: Stopped The Apache HTTP Server.
+Jan 29 20:31:10 daemon systemd[1]: Starting The Apache HTTP Server...
+Jan 29 20:31:10 daemon systemd[1]: Started The Apache HTTP Server.
+Jan 29 20:35:01 daemon CRON[16973]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 20:37:41 daemon systemd[1]: Stopping The Apache HTTP Server...
+Jan 29 20:37:41 daemon systemd[1]: apache2.service: Succeeded.
+Jan 29 20:37:41 daemon systemd[1]: Stopped The Apache HTTP Server.
+Jan 29 20:37:41 daemon systemd[1]: Starting The Apache HTTP Server...
+Jan 29 20:37:43 daemon systemd[1]: Started The Apache HTTP Server.
+Jan 29 20:39:01 daemon CRON[17019]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan 29 20:39:01 daemon systemd[1]: Starting Clean php session files...
+Jan 29 20:39:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Jan 29 20:39:01 daemon systemd[1]: Started Clean php session files.
+Jan 29 20:45:01 daemon CRON[17103]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 20:45:38 daemon systemd[1]: Stopping The Apache HTTP Server...
+Jan 29 20:45:38 daemon systemd[1]: apache2.service: Succeeded.
+Jan 29 20:45:38 daemon systemd[1]: Stopped The Apache HTTP Server.
+Jan 29 20:45:38 daemon systemd[1]: Starting The Apache HTTP Server...
+Jan 29 20:45:40 daemon systemd[1]: Started The Apache HTTP Server.
+Jan 29 20:55:01 daemon CRON[17151]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 21:04:12 daemon snapd[412]: storehelpers.go:721: cannot refresh: snap has no updates available: "certbot", "core", "core20"
+Jan 29 21:04:12 daemon snapd[412]: autorefresh.go:536: auto-refresh: all snaps are up-to-date
+Jan 29 21:05:01 daemon CRON[17164]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 21:09:01 daemon CRON[17171]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan 29 21:09:01 daemon systemd[1]: Starting Clean php session files...
+Jan 29 21:09:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Jan 29 21:09:01 daemon systemd[1]: Started Clean php session files.
+Jan 29 21:09:08 daemon systemd[1]: Stopping The Apache HTTP Server...
+Jan 29 21:09:09 daemon systemd[1]: apache2.service: Succeeded.
+Jan 29 21:09:09 daemon systemd[1]: Stopped The Apache HTTP Server.
+Jan 29 21:09:09 daemon systemd[1]: Starting The Apache HTTP Server...
+Jan 29 21:09:09 daemon systemd[1]: Started The Apache HTTP Server.
+Jan 29 21:15:01 daemon CRON[17301]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 21:17:01 daemon CRON[17305]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 29 21:18:34 daemon systemd[1]: Stopping The Apache HTTP Server...
+Jan 29 21:18:35 daemon systemd[1]: apache2.service: Succeeded.
+Jan 29 21:18:35 daemon systemd[1]: Stopped The Apache HTTP Server.
+Jan 29 21:18:35 daemon systemd[1]: Starting The Apache HTTP Server...
+Jan 29 21:18:36 daemon systemd[1]: Started The Apache HTTP Server.
+Jan 29 21:19:53 daemon systemd[1]: Stopping The Apache HTTP Server...
+Jan 29 21:19:53 daemon systemd[1]: apache2.service: Succeeded.
+Jan 29 21:19:53 daemon systemd[1]: Stopped The Apache HTTP Server.
+Jan 29 21:19:53 daemon systemd[1]: Starting The Apache HTTP Server...
+Jan 29 21:19:56 daemon systemd[1]: Started The Apache HTTP Server.
+Jan 29 21:23:31 daemon systemd[1]: Stopping The Apache HTTP Server...
+Jan 29 21:23:32 daemon systemd[1]: apache2.service: Succeeded.
+Jan 29 21:23:32 daemon systemd[1]: Stopped The Apache HTTP Server.
+Jan 29 21:23:32 daemon systemd[1]: Starting The Apache HTTP Server...
+Jan 29 21:23:32 daemon systemd[1]: Started The Apache HTTP Server.
+Jan 29 21:25:01 daemon CRON[17473]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 21:25:56 daemon systemd[1]: Stopping The Apache HTTP Server...
+Jan 29 21:25:57 daemon systemd[1]: apache2.service: Succeeded.
+Jan 29 21:25:57 daemon systemd[1]: Stopped The Apache HTTP Server.
+Jan 29 21:25:57 daemon systemd[1]: Starting The Apache HTTP Server...
+Jan 29 21:25:58 daemon systemd[1]: Started The Apache HTTP Server.
+Jan 29 21:30:21 daemon systemd[1]: Stopping The Apache HTTP Server...
+Jan 29 21:30:21 daemon systemd[1]: apache2.service: Succeeded.
+Jan 29 21:30:21 daemon systemd[1]: Stopped The Apache HTTP Server.
+Jan 29 21:30:21 daemon systemd[1]: Starting The Apache HTTP Server...
+Jan 29 21:30:22 daemon systemd[1]: Started The Apache HTTP Server.
+Jan 29 21:32:34 daemon systemd[1]: Stopping The Apache HTTP Server...
+Jan 29 21:32:35 daemon systemd[1]: apache2.service: Succeeded.
+Jan 29 21:32:35 daemon systemd[1]: Stopped The Apache HTTP Server.
+Jan 29 21:32:35 daemon systemd[1]: Starting The Apache HTTP Server...
+Jan 29 21:32:35 daemon systemd[1]: Started The Apache HTTP Server.
+Jan 29 21:35:01 daemon CRON[17627]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 21:36:30 daemon systemd[1]: Stopping The Apache HTTP Server...
+Jan 29 21:36:30 daemon systemd[1]: apache2.service: Succeeded.
+Jan 29 21:36:30 daemon systemd[1]: Stopped The Apache HTTP Server.
+Jan 29 21:36:30 daemon systemd[1]: Starting The Apache HTTP Server...
+Jan 29 21:36:31 daemon systemd[1]: Started The Apache HTTP Server.
+Jan 29 21:37:11 daemon systemd[1]: Stopping The Apache HTTP Server...
+Jan 29 21:37:11 daemon systemd[1]: apache2.service: Succeeded.
+Jan 29 21:37:11 daemon systemd[1]: Stopped The Apache HTTP Server.
+Jan 29 21:37:11 daemon systemd[1]: Starting The Apache HTTP Server...
+Jan 29 21:37:12 daemon systemd[1]: Started The Apache HTTP Server.
+Jan 29 21:39:01 daemon CRON[17710]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan 29 21:39:01 daemon systemd[1]: Starting Clean php session files...
+Jan 29 21:39:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Jan 29 21:39:01 daemon systemd[1]: Started Clean php session files.
+Jan 29 21:45:01 daemon CRON[17789]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 21:55:01 daemon CRON[17805]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 22:05:01 daemon CRON[17810]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 22:09:01 daemon CRON[17817]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan 29 22:09:01 daemon systemd[1]: Starting Clean php session files...
+Jan 29 22:09:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Jan 29 22:09:01 daemon systemd[1]: Started Clean php session files.
+Jan 29 22:12:35 daemon systemd[1]: Stopping The Apache HTTP Server...
+Jan 29 22:12:36 daemon systemd[1]: apache2.service: Succeeded.
+Jan 29 22:12:36 daemon systemd[1]: Stopped The Apache HTTP Server.
+Jan 29 22:12:36 daemon systemd[1]: Starting The Apache HTTP Server...
+Jan 29 22:12:37 daemon systemd[1]: Started The Apache HTTP Server.
+Jan 29 22:15:01 daemon CRON[17970]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 22:17:01 daemon CRON[17973]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 29 22:25:01 daemon CRON[17991]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 22:35:01 daemon CRON[18012]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 22:39:01 daemon CRON[18018]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan 29 22:39:01 daemon systemd[1]: Starting Clean php session files...
+Jan 29 22:39:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Jan 29 22:39:01 daemon systemd[1]: Started Clean php session files.
+Jan 29 22:45:01 daemon CRON[18113]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 22:55:01 daemon CRON[18160]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 22:57:48 daemon systemd[1]: Stopping The Apache HTTP Server...
+Jan 29 22:57:49 daemon systemd[1]: apache2.service: Succeeded.
+Jan 29 22:57:49 daemon systemd[1]: Stopped The Apache HTTP Server.
+Jan 29 22:57:49 daemon systemd[1]: Starting The Apache HTTP Server...
+Jan 29 22:57:51 daemon systemd[1]: Started The Apache HTTP Server.
+Jan 29 23:05:01 daemon CRON[18206]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 23:09:01 daemon CRON[18215]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan 29 23:09:01 daemon systemd[1]: Starting Clean php session files...
+Jan 29 23:09:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Jan 29 23:09:01 daemon systemd[1]: Started Clean php session files.
+Jan 29 23:15:01 daemon CRON[18307]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 23:17:01 daemon CRON[18315]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 29 23:25:01 daemon CRON[18330]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 23:35:01 daemon CRON[18398]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 23:39:01 daemon CRON[18425]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan 29 23:39:01 daemon systemd[1]: Starting Clean php session files...
+Jan 29 23:39:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Jan 29 23:39:01 daemon systemd[1]: Started Clean php session files.
+Jan 29 23:45:01 daemon CRON[18543]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 23:55:01 daemon CRON[24033]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 29 23:59:01 daemon CRON[24036]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 60 2)
+Jan 30 00:00:54 daemon systemd[1]: Starting Rotate log files...
+Jan 30 00:00:54 daemon systemd[1]: Starting Daily man-db regeneration...
+Jan 30 00:00:54 daemon logrotate[24038]: error: skipping "/var/log/apache2/access.log" because parent directory has insecure permissions (It's world writable or writable by group which is not "root") Set "su" directive in config file to tell logrotate which user/group should be used for rotation.
+Jan 30 00:00:54 daemon logrotate[24038]: error: skipping "/var/log/apache2/daemon-access.log" because parent directory has insecure permissions (It's world writable or writable by group which is not "root") Set "su" directive in config file to tell logrotate which user/group should be used for rotation.
+Jan 30 00:00:54 daemon logrotate[24038]: error: skipping "/var/log/apache2/daemon-error.log" because parent directory has insecure permissions (It's world writable or writable by group which is not "root") Set "su" directive in config file to tell logrotate which user/group should be used for rotation.
+Jan 30 00:00:54 daemon logrotate[24038]: error: skipping "/var/log/apache2/daemon-perf.log" because parent directory has insecure permissions (It's world writable or writable by group which is not "root") Set "su" directive in config file to tell logrotate which user/group should be used for rotation.
+Jan 30 00:00:54 daemon logrotate[24038]: error: skipping "/var/log/apache2/error.log" because parent directory has insecure permissions (It's world writable or writable by group which is not "root") Set "su" directive in config file to tell logrotate which user/group should be used for rotation.
+Jan 30 00:00:54 daemon logrotate[24038]: error: skipping "/var/log/apache2/modsec_audit.log" because parent directory has insecure permissions (It's world writable or writable by group which is not "root") Set "su" directive in config file to tell logrotate which user/group should be used for rotation.
+Jan 30 00:00:54 daemon logrotate[24038]: error: skipping "/var/log/apache2/modsec_debug.log" because parent directory has insecure permissions (It's world writable or writable by group which is not "root") Set "su" directive in config file to tell logrotate which user/group should be used for rotation.
+Jan 30 00:00:54 daemon logrotate[24038]: error: skipping "/var/log/apache2/modsec-perf.log" because parent directory has insecure permissions (It's world writable or writable by group which is not "root") Set "su" directive in config file to tell logrotate which user/group should be used for rotation.
+Jan 30 00:00:54 daemon logrotate[24038]: error: skipping "/var/log/apache2/modsec-perflog.log" because parent directory has insecure permissions (It's world writable or writable by group which is not "root") Set "su" directive in config file to tell logrotate which user/group should be used for rotation.
+Jan 30 00:00:54 daemon logrotate[24038]: error: skipping "/var/log/apache2/other_vhosts_access.log" because parent directory has insecure permissions (It's world writable or writable by group which is not "root") Set "su" directive in config file to tell logrotate which user/group should be used for rotation.

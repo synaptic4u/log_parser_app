@@ -1,0 +1,39 @@
+--ed13107d-A--
+[28/Jan/2022:01:35:52 +0200] YfMsWPioyZrMb6OVxyeuWgAAAAU 2a01:7e01::f03c:93ff:fe50:a49a 52156 2a01:7e01::f03c:93ff:fe50:a49a 443
+--ed13107d-B--
+GET /server-status?auto HTTP/1.1
+TE: deflate,gzip;q=0.3
+Connection: TE, close
+Host: daemon.synaptic4u.co.za
+User-Agent: Linode Longview 1.1.5 client: 6874FD94-CD5B-425E-A80C13B02F646A12
+
+--ed13107d-F--
+HTTP/1.1 301 Moved Permanently
+Location: https://daemon.synaptic4u.co.za/server-status
+Content-Length: 253
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+--ed13107d-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="https://daemon.synaptic4u.co.za/server-status">here</a>.</p>
+</body></html>
+
+--ed13107d-H--
+Message: collections_remove_stale: Failed to access DBM file "/var/log/apache2/tmp/www-data-global": Permission denied
+Message: collections_remove_stale: Failed to access DBM file "/var/log/apache2/tmp/www-data-ip": Permission denied
+Apache-Error: [file "ssl_engine_kernel.c"] [line 383] [level 7] AH02034: Initial (No.1) HTTPS request received for child 5 (server daemon.synaptic4u.co.za:443)
+Apache-Error: [file "apache2_util.c"] [line 273] [level 3] [client 2a01:7e01::f03c:93ff:fe50:a49a] ModSecurity: collections_remove_stale: Failed to access DBM file "/var/log/apache2/tmp/www-data-global": Permission denied [hostname "daemon.synaptic4u.co.za"] [uri "/server-status"] [unique_id "YfMsWPioyZrMb6OVxyeuWgAAAAU"]
+Apache-Error: [file "apache2_util.c"] [line 273] [level 3] [client 2a01:7e01::f03c:93ff:fe50:a49a] ModSecurity: collections_remove_stale: Failed to access DBM file "/var/log/apache2/tmp/www-data-ip": Permission denied [hostname "daemon.synaptic4u.co.za"] [uri "/server-status"] [unique_id "YfMsWPioyZrMb6OVxyeuWgAAAAU"]
+Stopwatch: 1643326552616634 2230 (- - -)
+Stopwatch2: 1643326552616634 2230; combined=1622, p1=777, p2=0, p3=93, p4=306, p5=332, sr=164, sw=1, l=0, gc=113
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.3 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache
+Engine-Mode: "ENABLED"
+
+--ed13107d-Z--

@@ -1,0 +1,220 @@
+--02602c0c-A--
+[07/Feb/2022:22:39:13 +0200] YgGDcdBSneaPZhmPWJuuxAAAAAg 205.185.117.203 39108 172.104.132.106 80
+--02602c0c-B--
+GET /favicon.ico HTTP/1.1
+Host: daemon.synaptic4u.co.za
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Language: en;q=0.9
+Cache-Control: max-age=0
+Connection: keep-alive
+Dnt: 1
+Sec-Gpc: 1
+Upgrade-Insecure-Requests: 1
+Accept-Encoding: gzip
+
+--02602c0c-F--
+HTTP/1.1 301 Moved Permanently
+Location: https://daemon.synaptic4u.co.za/favicon.ico
+Content-Length: 251
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--02602c0c-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="https://daemon.synaptic4u.co.za/favicon.ico">here</a>.</p>
+</body></html>
+
+--02602c0c-H--
+Message: String match "/" at REQUEST_FILENAME. [file "/etc/modsecurity/modsecurity.conf"] [line "189"] [id "90005"] [tag "ModSec Initial Configuration"]
+Stopwatch: 1644266353278710 1799 (- - -)
+Stopwatch2: 1644266353278710 1799; combined=1267, p1=791, p2=0, p3=66, p4=280, p5=130, sr=78, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.3 (http://www.modsecurity.org/); OWASP_CRS/3.4.0-dev.
+Server: Apache
+Engine-Mode: "ENABLED"
+
+--02602c0c-K--
+SecAction "phase:1,tag:'ModSec Initial Configuration',id:90000,nolog,pass,setvar:TX.ModSecTimestamp1start=%{DURATION}"
+
+SecRule "REQUEST_URI" "!@beginsWith /fun/test" "phase:1,tag:'ModSec Initial Configuration',id:11022,t:lowercase,nolog,skipAfter:END_WHITELIST_test"
+
+SecRule "REQUEST_URI" "!@beginsWith /base" "phase:1,tag:'ModSec Initial Configuration',id:11001,t:lowercase,nolog,skipAfter:END_WHITELIST_base"
+
+SecAction "phase:1,tag:'ModSec Initial Configuration',id:90010,pass,nolog,setvar:TX.ModSecTimestamp1end=%{DURATION}"
+
+SecAction "phase:1,auditlog,id:900000,nolog,pass,t:none,setvar:tx.paranoia_level=4"
+
+SecAction "phase:1,auditlog,id:900990,nolog,pass,t:none,setvar:tx.crs_setup_version=340"
+
+SecRule "&TX:inbound_anomaly_score_threshold" "@eq 0" "phase:1,auditlog,id:901100,pass,nolog,ver:OWASP_CRS/3.4.0-dev,setvar:tx.inbound_anomaly_score_threshold=5"
+
+SecRule "&TX:outbound_anomaly_score_threshold" "@eq 0" "phase:1,auditlog,id:901110,pass,nolog,ver:OWASP_CRS/3.4.0-dev,setvar:tx.outbound_anomaly_score_threshold=4"
+
+SecRule "&TX:blocking_early" "@eq 0" "phase:1,auditlog,id:901115,pass,nolog,ver:OWASP_CRS/3.4.0-dev,setvar:tx.blocking_early=0"
+
+SecRule "&TX:executing_paranoia_level" "@eq 0" "phase:1,auditlog,id:901125,pass,nolog,ver:OWASP_CRS/3.4.0-dev,setvar:tx.executing_paranoia_level=%{TX.PARANOIA_LEVEL}"
+
+SecRule "&TX:sampling_percentage" "@eq 0" "phase:1,auditlog,id:901130,pass,nolog,ver:OWASP_CRS/3.4.0-dev,setvar:tx.sampling_percentage=100"
+
+SecRule "&TX:critical_anomaly_score" "@eq 0" "phase:1,auditlog,id:901140,pass,nolog,ver:OWASP_CRS/3.4.0-dev,setvar:tx.critical_anomaly_score=5"
+
+SecRule "&TX:error_anomaly_score" "@eq 0" "phase:1,auditlog,id:901141,pass,nolog,ver:OWASP_CRS/3.4.0-dev,setvar:tx.error_anomaly_score=4"
+
+SecRule "&TX:warning_anomaly_score" "@eq 0" "phase:1,auditlog,id:901142,pass,nolog,ver:OWASP_CRS/3.4.0-dev,setvar:tx.warning_anomaly_score=3"
+
+SecRule "&TX:notice_anomaly_score" "@eq 0" "phase:1,auditlog,id:901143,pass,nolog,ver:OWASP_CRS/3.4.0-dev,setvar:tx.notice_anomaly_score=2"
+
+SecRule "&TX:do_reput_block" "@eq 0" "phase:1,auditlog,id:901150,pass,nolog,ver:OWASP_CRS/3.4.0-dev,setvar:tx.do_reput_block=0"
+
+SecRule "&TX:reput_block_duration" "@eq 0" "phase:1,auditlog,id:901152,pass,nolog,ver:OWASP_CRS/3.4.0-dev,setvar:tx.reput_block_duration=300"
+
+SecRule "&TX:allowed_methods" "@eq 0" "phase:1,auditlog,id:901160,pass,nolog,ver:OWASP_CRS/3.4.0-dev,setvar:'tx.allowed_methods=GET HEAD POST OPTIONS'"
+
+SecRule "&TX:allowed_request_content_type" "@eq 0" "phase:1,auditlog,id:901162,pass,nolog,ver:OWASP_CRS/3.4.0-dev,setvar:'tx.allowed_request_content_type=|application/x-www-form-urlencoded| |multipart/form-data| |multipart/related| |text/xml| |application/xml| |application/soap+xml| |application/x-amf| |application/json| |application/cloudevents+json| |application/cloudevents-batch+json| |application/octet-stream| |application/csp-report| |application/xss-auditor-report| |text/plain|'"
+
+SecRule "&TX:allowed_request_content_type_charset" "@eq 0" "phase:1,auditlog,id:901168,pass,nolog,ver:OWASP_CRS/3.4.0-dev,setvar:'tx.allowed_request_content_type_charset=|utf-8| |iso-8859-1| |iso-8859-15| |windows-1252|'"
+
+SecRule "&TX:allowed_http_versions" "@eq 0" "phase:1,auditlog,id:901163,pass,nolog,ver:OWASP_CRS/3.4.0-dev,setvar:'tx.allowed_http_versions=HTTP/1.0 HTTP/1.1 HTTP/2 HTTP/2.0'"
+
+SecRule "&TX:restricted_extensions" "@eq 0" "phase:1,auditlog,id:901164,pass,nolog,ver:OWASP_CRS/3.4.0-dev,setvar:'tx.restricted_extensions=.asa/ .asax/ .ascx/ .backup/ .bak/ .bat/ .cdx/ .cer/ .cfg/ .cmd/ .com/ .config/ .conf/ .cs/ .csproj/ .csr/ .dat/ .db/ .dbf/ .dll/ .dos/ .htr/ .htw/ .ida/ .idc/ .idq/ .inc/ .ini/ .key/ .licx/ .lnk/ .log/ .mdb/ .old/ .pass/ .pdb/ .pol/ .printer/ .pwd/ .rdb/ .resources/ .resx/ .sql/ .swp/ .sys/ .vb/ .vbs/ .vbproj/ .vsdisco/ .webinfo/ .xsd/ .xsx/'"
+
+SecRule "&TX:restricted_headers" "@eq 0" "phase:1,auditlog,id:901165,pass,nolog,ver:OWASP_CRS/3.4.0-dev,setvar:'tx.restricted_headers=/proxy/ /lock-token/ /content-range/ /if/ /user-agentt/'"
+
+SecRule "&TX:static_extensions" "@eq 0" "phase:1,auditlog,id:901166,pass,nolog,ver:OWASP_CRS/3.4.0-dev,setvar:'tx.static_extensions=/.jpg/ /.jpeg/ /.png/ /.gif/ /.js/ /.css/ /.ico/ /.svg/ /.webp/'"
+
+SecRule "&TX:enforce_bodyproc_urlencoded" "@eq 0" "phase:1,auditlog,id:901167,pass,nolog,ver:OWASP_CRS/3.4.0-dev,setvar:tx.enforce_bodyproc_urlencoded=0"
+
+SecAction "phase:1,auditlog,id:901200,pass,t:none,nolog,ver:OWASP_CRS/3.4.0-dev,setvar:tx.anomaly_score=0,setvar:tx.anomaly_score_pl1=0,setvar:tx.anomaly_score_pl2=0,setvar:tx.anomaly_score_pl3=0,setvar:tx.anomaly_score_pl4=0,setvar:tx.sql_injection_score=0,setvar:tx.xss_score=0,setvar:tx.rfi_score=0,setvar:tx.lfi_score=0,setvar:tx.rce_score=0,setvar:tx.php_injection_score=0,setvar:tx.http_violation_score=0,setvar:tx.session_fixation_score=0,setvar:tx.inbound_anomaly_score=0,setvar:tx.outbound_anomaly_score=0,setvar:tx.outbound_anomaly_score_pl1=0,setvar:tx.outbound_anomaly_score_pl2=0,setvar:tx.outbound_anomaly_score_pl3=0,setvar:tx.outbound_anomaly_score_pl4=0,setvar:tx.sql_error_match=0"
+
+SecRule "REQUEST_HEADERS:User-Agent" "@rx ^.*$" "phase:1,auditlog,id:901318,pass,t:none,t:sha1,t:hexEncode,nolog,ver:OWASP_CRS/3.4.0-dev,setvar:tx.ua_hash=%{MATCHED_VAR}"
+
+SecAction "phase:1,auditlog,id:901321,pass,t:none,nolog,ver:OWASP_CRS/3.4.0-dev,initcol:global=global,initcol:ip=%{remote_addr}_%{tx.ua_hash},setvar:tx.real_ip=%{remote_addr}"
+
+SecRule "REQBODY_PROCESSOR" "!@rx (?:URLENCODED|MULTIPART|XML|JSON)" "phase:1,id:901340,pass,nolog,noauditlog,msg:'Enabling body inspection',tag:paranoia-level/1,ctl:forceRequestBodyVariable=On,ver:OWASP_CRS/3.4.0-dev"
+
+SecRule "TX:sampling_percentage" "@eq 100" "phase:1,auditlog,id:901400,nolog,ver:OWASP_CRS/3.4.0-dev,skipAfter:END-SAMPLING"
+
+SecRule "&TX:crs_exclusions_drupal|TX:crs_exclusions_drupal" "@eq 0" "phase:1,auditlog,id:9001000,t:none,nolog,ver:OWASP_CRS/3.4.0-dev,skipAfter:END-DRUPAL-RULE-EXCLUSIONS"
+
+SecRule "&TX:crs_exclusions_wordpress|TX:crs_exclusions_wordpress" "@eq 0" "phase:1,auditlog,id:9002000,t:none,nolog,ver:OWASP_CRS/3.4.0-dev,skipAfter:END-WORDPRESS"
+
+SecRule "&TX:crs_exclusions_nextcloud|TX:crs_exclusions_nextcloud" "@eq 0" "phase:1,auditlog,id:9003000,t:none,nolog,ver:OWASP_CRS/3.4.0-dev,skipAfter:END-NEXTCLOUD"
+
+SecRule "&TX:crs_exclusions_dokuwiki|TX:crs_exclusions_dokuwiki" "@eq 0" "phase:1,auditlog,id:9004000,t:none,nolog,ver:OWASP_CRS/3.4.0-dev,skipAfter:END-DOKUWIKI"
+
+SecRule "&TX:crs_exclusions_cpanel|TX:crs_exclusions_cpanel" "@eq 0" "phase:1,auditlog,id:9005000,t:none,nolog,ver:OWASP_CRS/3.4.0-dev,skipAfter:END-CPANEL"
+
+SecRule "&TX:crs_exclusions_xenforo|TX:crs_exclusions_xenforo" "@eq 0" "phase:1,auditlog,id:9006000,t:none,nolog,ver:OWASP_CRS/3.4.0-dev,skipAfter:END-XENFORO"
+
+SecRule "&TX:crs_exclusions_phpbb|TX:crs_exclusions_phpbb" "@eq 0" "phase:1,auditlog,id:9007000,t:none,nolog,ver:OWASP_CRS/3.4.0-dev,skipAfter:END-PHPBB"
+
+SecRule "&TX:crs_exclusions_phpmyadmin|TX:crs_exclusions_phpmyadmin" "@eq 0" "phase:1,auditlog,id:9008000,t:none,nolog,ver:OWASP_CRS/3.4.0-dev,skipAfter:END-PHPMYADMIN"
+
+SecRule "&TX:dos_burst_time_slice" "@eq 0" "phase:1,auditlog,id:912100,t:none,nolog,ver:OWASP_CRS/3.4.0-dev,chain,skipAfter:END-DOS-PROTECTION-CHECKS"
+SecRule "&TX:dos_counter_threshold" "@eq 0" "chain"
+SecRule "&TX:dos_block_timeout" "@eq 0"
+
+SecRule "REQUEST_METHOD" "@rx ^(?:GET|HEAD)$" "phase:1,log,auditlog,id:920170,block,t:none,msg:'GET or HEAD Request with Body Content',logdata:%{MATCHED_VAR},tag:application-multi,tag:language-multi,tag:platform-multi,tag:attack-protocol,tag:paranoia-level/1,tag:OWASP_CRS,tag:capec/1000/210/272,ver:OWASP_CRS/3.4.0-dev,severity:CRITICAL,chain"
+#SecRule "REQUEST_HEADERS:Content-Length" "!@rx ^0?$" "t:none,setvar:tx.anomaly_score_pl1=+%{tx.critical_anomaly_score}"
+
+SecRule "REQUEST_METHOD" "@rx ^(?:GET|HEAD)$" "phase:1,log,auditlog,id:920171,block,t:none,msg:'GET or HEAD Request with Transfer-Encoding',logdata:%{MATCHED_VAR},tag:application-multi,tag:language-multi,tag:platform-multi,tag:attack-protocol,tag:paranoia-level/1,tag:OWASP_CRS,tag:capec/1000/210/272,ver:OWASP_CRS/3.4.0-dev,severity:CRITICAL,chain"
+#SecRule "&REQUEST_HEADERS:Transfer-Encoding" "!@eq 0" "t:none,setvar:tx.anomaly_score_pl1=+%{tx.critical_anomaly_score}"
+
+SecRule "REQUEST_PROTOCOL" "!@within HTTP/2 HTTP/2.0" "phase:1,log,auditlog,id:920180,block,t:none,msg:'POST without Content-Length or Transfer-Encoding headers',logdata:%{MATCHED_VAR},tag:application-multi,tag:language-multi,tag:platform-multi,tag:attack-protocol,tag:paranoia-level/1,tag:OWASP_CRS,tag:capec/1000/210/272,ver:OWASP_CRS/3.4.0-dev,severity:WARNING,chain"
+#SecRule "REQUEST_METHOD" "@streq POST" "chain"
+#SecRule "&REQUEST_HEADERS:Content-Length" "@eq 0" "chain"
+#SecRule "&REQUEST_HEADERS:Transfer-Encoding" "@eq 0" "setvar:tx.anomaly_score_pl1=+%{tx.warning_anomaly_score}"
+
+SecRule "REQUEST_BASENAME" "@rx \\.([^.]+)$" "phase:1,log,auditlog,id:920440,block,capture,t:none,msg:'URL file extension is restricted by policy',logdata:%{TX.0},tag:application-multi,tag:language-multi,tag:platform-multi,tag:attack-protocol,tag:paranoia-level/1,tag:OWASP_CRS,tag:capec/1000/210/272,tag:PCI/6.5.10,ver:OWASP_CRS/3.4.0-dev,severity:CRITICAL,setvar:tx.extension=.%{tx.1}/,chain"
+#SecRule "TX:EXTENSION" "@within %{tx.restricted_extensions}" "t:none,t:urlDecodeUni,t:lowercase,setvar:tx.anomaly_score_pl1=+%{tx.critical_anomaly_score}"
+
+SecRule "REQUEST_HEADERS_NAMES" "@rx ^.*$" "phase:1,log,auditlog,id:920450,block,capture,t:none,t:lowercase,msg:'HTTP header is restricted by policy (%{MATCHED_VAR})',logdata:'Restricted header detected: %{MATCHED_VAR}',tag:application-multi,tag:language-multi,tag:platform-multi,tag:attack-protocol,tag:paranoia-level/1,tag:OWASP_CRS,tag:capec/1000/210/272,tag:PCI/12.1,ver:OWASP_CRS/3.4.0-dev,severity:CRITICAL,setvar:tx.header_name_%{tx.0}=/%{tx.0}/,chain"
+#SecRule "TX:/^header_name_/" "@within %{tx.restricted_headers}" "setvar:tx.anomaly_score_pl1=+%{tx.critical_anomaly_score}"
+
+SecRule "REQUEST_HEADERS_NAMES" "@rx ^.*$" "phase:1,log,auditlog,id:920450,block,capture,t:none,t:lowercase,msg:'HTTP header is restricted by policy (%{MATCHED_VAR})',logdata:'Restricted header detected: %{MATCHED_VAR}',tag:application-multi,tag:language-multi,tag:platform-multi,tag:attack-protocol,tag:paranoia-level/1,tag:OWASP_CRS,tag:capec/1000/210/272,tag:PCI/12.1,ver:OWASP_CRS/3.4.0-dev,severity:CRITICAL,setvar:tx.header_name_%{tx.0}=/%{tx.0}/,chain"
+#SecRule "TX:/^header_name_/" "@within %{tx.restricted_headers}" "setvar:tx.anomaly_score_pl1=+%{tx.critical_anomaly_score}"
+
+SecRule "REQUEST_HEADERS_NAMES" "@rx ^.*$" "phase:1,log,auditlog,id:920450,block,capture,t:none,t:lowercase,msg:'HTTP header is restricted by policy (%{MATCHED_VAR})',logdata:'Restricted header detected: %{MATCHED_VAR}',tag:application-multi,tag:language-multi,tag:platform-multi,tag:attack-protocol,tag:paranoia-level/1,tag:OWASP_CRS,tag:capec/1000/210/272,tag:PCI/12.1,ver:OWASP_CRS/3.4.0-dev,severity:CRITICAL,setvar:tx.header_name_%{tx.0}=/%{tx.0}/,chain"
+#SecRule "TX:/^header_name_/" "@within %{tx.restricted_headers}" "setvar:tx.anomaly_score_pl1=+%{tx.critical_anomaly_score}"
+
+SecRule "REQUEST_HEADERS_NAMES" "@rx ^.*$" "phase:1,log,auditlog,id:920450,block,capture,t:none,t:lowercase,msg:'HTTP header is restricted by policy (%{MATCHED_VAR})',logdata:'Restricted header detected: %{MATCHED_VAR}',tag:application-multi,tag:language-multi,tag:platform-multi,tag:attack-protocol,tag:paranoia-level/1,tag:OWASP_CRS,tag:capec/1000/210/272,tag:PCI/12.1,ver:OWASP_CRS/3.4.0-dev,severity:CRITICAL,setvar:tx.header_name_%{tx.0}=/%{tx.0}/,chain"
+#SecRule "TX:/^header_name_/" "@within %{tx.restricted_headers}" "setvar:tx.anomaly_score_pl1=+%{tx.critical_anomaly_score}"
+
+SecRule "REQUEST_HEADERS_NAMES" "@rx ^.*$" "phase:1,log,auditlog,id:920450,block,capture,t:none,t:lowercase,msg:'HTTP header is restricted by policy (%{MATCHED_VAR})',logdata:'Restricted header detected: %{MATCHED_VAR}',tag:application-multi,tag:language-multi,tag:platform-multi,tag:attack-protocol,tag:paranoia-level/1,tag:OWASP_CRS,tag:capec/1000/210/272,tag:PCI/12.1,ver:OWASP_CRS/3.4.0-dev,severity:CRITICAL,setvar:tx.header_name_%{tx.0}=/%{tx.0}/,chain"
+#SecRule "TX:/^header_name_/" "@within %{tx.restricted_headers}" "setvar:tx.anomaly_score_pl1=+%{tx.critical_anomaly_score}"
+
+SecRule "REQUEST_HEADERS_NAMES" "@rx ^.*$" "phase:1,log,auditlog,id:920450,block,capture,t:none,t:lowercase,msg:'HTTP header is restricted by policy (%{MATCHED_VAR})',logdata:'Restricted header detected: %{MATCHED_VAR}',tag:application-multi,tag:language-multi,tag:platform-multi,tag:attack-protocol,tag:paranoia-level/1,tag:OWASP_CRS,tag:capec/1000/210/272,tag:PCI/12.1,ver:OWASP_CRS/3.4.0-dev,severity:CRITICAL,setvar:tx.header_name_%{tx.0}=/%{tx.0}/,chain"
+#SecRule "TX:/^header_name_/" "@within %{tx.restricted_headers}" "setvar:tx.anomaly_score_pl1=+%{tx.critical_anomaly_score}"
+
+SecRule "REQUEST_HEADERS_NAMES" "@rx ^.*$" "phase:1,log,auditlog,id:920450,block,capture,t:none,t:lowercase,msg:'HTTP header is restricted by policy (%{MATCHED_VAR})',logdata:'Restricted header detected: %{MATCHED_VAR}',tag:application-multi,tag:language-multi,tag:platform-multi,tag:attack-protocol,tag:paranoia-level/1,tag:OWASP_CRS,tag:capec/1000/210/272,tag:PCI/12.1,ver:OWASP_CRS/3.4.0-dev,severity:CRITICAL,setvar:tx.header_name_%{tx.0}=/%{tx.0}/,chain"
+#SecRule "TX:/^header_name_/" "@within %{tx.restricted_headers}" "setvar:tx.anomaly_score_pl1=+%{tx.critical_anomaly_score}"
+
+SecRule "REQUEST_HEADERS_NAMES" "@rx ^.*$" "phase:1,log,auditlog,id:920450,block,capture,t:none,t:lowercase,msg:'HTTP header is restricted by policy (%{MATCHED_VAR})',logdata:'Restricted header detected: %{MATCHED_VAR}',tag:application-multi,tag:language-multi,tag:platform-multi,tag:attack-protocol,tag:paranoia-level/1,tag:OWASP_CRS,tag:capec/1000/210/272,tag:PCI/12.1,ver:OWASP_CRS/3.4.0-dev,severity:CRITICAL,setvar:tx.header_name_%{tx.0}=/%{tx.0}/,chain"
+#SecRule "TX:/^header_name_/" "@within %{tx.restricted_headers}" "setvar:tx.anomaly_score_pl1=+%{tx.critical_anomaly_score}"
+
+SecRule "REQUEST_HEADERS_NAMES" "@rx ^.*$" "phase:1,log,auditlog,id:920450,block,capture,t:none,t:lowercase,msg:'HTTP header is restricted by policy (%{MATCHED_VAR})',logdata:'Restricted header detected: %{MATCHED_VAR}',tag:application-multi,tag:language-multi,tag:platform-multi,tag:attack-protocol,tag:paranoia-level/1,tag:OWASP_CRS,tag:capec/1000/210/272,tag:PCI/12.1,ver:OWASP_CRS/3.4.0-dev,severity:CRITICAL,setvar:tx.header_name_%{tx.0}=/%{tx.0}/,chain"
+#SecRule "TX:/^header_name_/" "@within %{tx.restricted_headers}" "setvar:tx.anomaly_score_pl1=+%{tx.critical_anomaly_score}"
+
+SecRule "REQUEST_HEADERS_NAMES" "@rx ^.*$" "phase:1,log,auditlog,id:920450,block,capture,t:none,t:lowercase,msg:'HTTP header is restricted by policy (%{MATCHED_VAR})',logdata:'Restricted header detected: %{MATCHED_VAR}',tag:application-multi,tag:language-multi,tag:platform-multi,tag:attack-protocol,tag:paranoia-level/1,tag:OWASP_CRS,tag:capec/1000/210/272,tag:PCI/12.1,ver:OWASP_CRS/3.4.0-dev,severity:CRITICAL,setvar:tx.header_name_%{tx.0}=/%{tx.0}/,chain"
+#SecRule "TX:/^header_name_/" "@within %{tx.restricted_headers}" "setvar:tx.anomaly_score_pl1=+%{tx.critical_anomaly_score}"
+
+SecRule "&REQUEST_HEADERS:Cache-Control" "@gt 0" "phase:1,log,auditlog,id:920510,block,t:none,msg:'Invalid Cache-Control request header',logdata:'Invalid Cache-Control value in request found within %{MATCHED_VAR_NAME}: %{MATCHED_VAR}',tag:application-multi,tag:language-multi,tag:platform-multi,tag:attack-protocol,tag:header-allowlist,tag:paranoia-level/3,tag:OWASP_CRS,tag:capec/1000/210/272,ver:OWASP_CRS/3.4.0-dev,severity:CRITICAL,chain"
+#SecRule "REQUEST_HEADERS:Cache-Control" "!@rx ^(?:(?:max-age=[0-9]+|min-fresh=[0-9]+|no-cache|no-store|no-transform|only-if-cached|max-stale(?:=[0-9]+)?)(?:\\s*\\,\\s*|$)){1,7}$" "setvar:tx.anomaly_score_pl3=+%{tx.critical_anomaly_score}"
+
+SecRule "TX:BLOCKING_EARLY" "!@eq 1" "phase:1,auditlog,id:949050,t:none,nolog,skipAfter:BLOCKING_EARLY_ANOMALY_SCORING"
+
+SecAction "phase:3,tag:'ModSec Initial Configuration',id:90002,nolog,pass,setvar:TX.ModSecTimestamp3start=%{DURATION}"
+
+SecAction "phase:3,tag:'ModSec Initial Configuration',id:90012,pass,nolog,setvar:TX.ModSecTimestamp3end=%{DURATION}"
+
+SecRule "TX:BLOCKING_EARLY" "!@eq 1" "phase:3,auditlog,id:959050,t:none,nolog,skipAfter:BLOCKING_EARLY_ANOMALY_SCORING"
+
+SecAction "phase:4,tag:'ModSec Initial Configuration',id:90003,nolog,pass,setvar:TX.ModSecTimestamp4start=%{DURATION}"
+
+SecAction "phase:4,tag:'ModSec Initial Configuration',id:90013,pass,nolog,setvar:TX.ModSecTimestamp4end=%{DURATION}"
+
+SecRule "&TX:crs_exclusions_phpbb|TX:crs_exclusions_phpbb" "@eq 0" "phase:4,auditlog,id:9007003,t:none,nolog,ver:OWASP_CRS/3.4.0-dev,skipAfter:END-PHPBB"
+
+SecRule "RESPONSE_STATUS" "!@rx ^404$" "phase:4,log,auditlog,id:954130,block,capture,t:none,msg:'IIS Information Leakage',logdata:'Matched Data: %{TX.0} found within %{MATCHED_VAR_NAME}',tag:application-multi,tag:language-multi,tag:platform-iis,tag:platform-windows,tag:attack-disclosure,tag:paranoia-level/1,tag:OWASP_CRS,tag:capec/1000/118/116,tag:PCI/6.5.6,ver:OWASP_CRS/3.4.0-dev,severity:ERROR,chain"
+#SecRule "RESPONSE_BODY" "@rx \\bServer Error in.{0,50}?\\bApplication\\b" "capture,t:none,ctl:auditLogParts=+E,setvar:tx.outbound_anomaly_score_pl1=+%{tx.error_anomaly_score},setvar:tx.anomaly_score_pl1=+%{tx.error_anomaly_score}"
+
+SecRule "TX:BLOCKING_EARLY" "!@eq 1" "phase:4,auditlog,id:959051,t:none,nolog,skipAfter:BLOCKING_EARLY_ANOMALY_SCORING"
+
+SecRule "TX:PARANOIA_LEVEL" "@ge 1" "phase:4,auditlog,id:959060,pass,t:none,nolog,setvar:tx.outbound_anomaly_score=+%{tx.outbound_anomaly_score_pl1}"
+
+SecRule "TX:PARANOIA_LEVEL" "@ge 2" "phase:4,auditlog,id:959061,pass,t:none,nolog,setvar:tx.outbound_anomaly_score=+%{tx.outbound_anomaly_score_pl2}"
+
+SecRule "TX:PARANOIA_LEVEL" "@ge 3" "phase:4,auditlog,id:959062,pass,t:none,nolog,setvar:tx.outbound_anomaly_score=+%{tx.outbound_anomaly_score_pl3}"
+
+SecRule "TX:PARANOIA_LEVEL" "@ge 4" "phase:4,auditlog,id:959063,pass,t:none,nolog,setvar:tx.outbound_anomaly_score=+%{tx.outbound_anomaly_score_pl4}"
+
+SecAction "phase:5,tag:'ModSec Initial Configuration',id:90004,nolog,pass,setvar:TX.ModSecTimestamp5start=%{DURATION}"
+
+SecRule "REQUEST_FILENAME" "@beginsWith /" "phase:5,tag:'ModSec Initial Configuration',id:90005,t:none,nolog,auditlog,pass,setenv:write_perflog"
+
+SecAction "phase:5,tag:'ModSec Initial Configuration',id:90014,pass,nolog,setvar:TX.ModSecTimestamp5end=%{DURATION}"
+
+SecAction "phase:5,tag:'ModSec Initial Configuration',id:90100,pass,nolog,setvar:TX.perf_modsecinbound=%{PERF_PHASE1},setvar:TX.perf_modsecinbound=+%{PERF_PHASE2},setvar:TX.perf_application=%{TX.ModSecTimestamp3start},setvar:TX.perf_application=-%{TX.ModSecTimestamp2end},setvar:TX.perf_modsecoutbound=%{PERF_PHASE3},setvar:TX.perf_modsecoutbound=+%{PERF_PHASE4},setenv:ModSecTimeIn=%{TX.perf_modsecinbound},setenv:ApplicationTime=%{TX.perf_application},setenv:ModSecTimeOut=%{TX.perf_modsecoutbound},setenv:ModSecAnomalyScoreInPLs=%{tx.anomaly_score_pl1}-%{tx.anomaly_score_pl2}-%{tx.anomaly_score_pl3}-%{tx.anomaly_score_pl4},setenv:ModSecAnomalyScoreOutPLs=%{tx.outbound_anomaly_score_pl1}-%{tx.outbound_anomaly_score_pl2}-%{tx.outbound_anomaly_score_pl3}-%{tx.outbound_anomaly_score_pl4},setenv:ModSecAnomalyScoreIn=%{TX.anomaly_score},setenv:ModSecAnomalyScoreOut=%{TX.outbound_anomaly_score}"
+
+SecRule "&TX:dos_burst_time_slice" "@eq 0" "phase:5,auditlog,id:912110,t:none,nolog,ver:OWASP_CRS/3.4.0-dev,chain,skipAfter:END-DOS-PROTECTION-CHECKS"
+SecRule "&TX:dos_counter_threshold" "@eq 0" "chain"
+SecRule "&TX:dos_block_timeout" "@eq 0"
+
+SecAction "phase:5,id:980115,pass,t:none,nolog,noauditlog,ver:OWASP_CRS/3.4.0-dev,setvar:tx.executing_anomaly_score=%{tx.anomaly_score_pl1},setvar:tx.executing_anomaly_score=+%{tx.anomaly_score_pl2},setvar:tx.executing_anomaly_score=+%{tx.anomaly_score_pl3},setvar:tx.executing_anomaly_score=+%{tx.anomaly_score_pl4}"
+
+SecRule "TX:INBOUND_ANOMALY_SCORE" "@lt %{tx.inbound_anomaly_score_threshold}" "phase:5,log,id:980120,pass,t:none,noauditlog,msg:'Inbound Anomaly Score (Total Inbound Score: %{TX.INBOUND_ANOMALY_SCORE} - SQLI=%{tx.sql_injection_score},XSS=%{tx.xss_score},RFI=%{tx.rfi_score},LFI=%{tx.lfi_score},RCE=%{tx.rce_score},PHPI=%{tx.php_injection_score},HTTP=%{tx.http_violation_score},SESS=%{tx.session_fixation_score}): individual paranoia level scores: %{TX.ANOMALY_SCORE_PL1}, %{TX.ANOMALY_SCORE_PL2}, %{TX.ANOMALY_SCORE_PL3}, %{TX.ANOMALY_SCORE_PL4}',tag:event-correlation,ver:OWASP_CRS/3.4.0-dev,chain"
+#SecRule "TX:EXECUTING_ANOMALY_SCORE" "@gt 1"
+
+SecAction "phase:5,id:980145,pass,t:none,nolog,noauditlog,ver:OWASP_CRS/3.4.0-dev,setvar:tx.executing_anomaly_score=%{tx.outbound_anomaly_score_pl1},setvar:tx.executing_anomaly_score=+%{tx.outbound_anomaly_score_pl2},setvar:tx.executing_anomaly_score=+%{tx.outbound_anomaly_score_pl3},setvar:tx.executing_anomaly_score=+%{tx.outbound_anomaly_score_pl4}"
+
+SecRule "TX:OUTBOUND_ANOMALY_SCORE" "@lt %{tx.outbound_anomaly_score_threshold}" "phase:5,log,id:980150,pass,t:none,noauditlog,msg:'Outbound Anomaly Score (Total Outbound Score: %{TX.OUTBOUND_ANOMALY_SCORE}): individual paranoia level scores: %{TX.OUTBOUND_ANOMALY_SCORE_PL1}, %{TX.OUTBOUND_ANOMALY_SCORE_PL2}, %{TX.OUTBOUND_ANOMALY_SCORE_PL3}, %{TX.OUTBOUND_ANOMALY_SCORE_PL4}',tag:event-correlation,ver:OWASP_CRS/3.4.0-dev,chain"
+#SecRule "TX:EXECUTING_ANOMALY_SCORE" "@gt 1"
+
+
+--02602c0c-Z--

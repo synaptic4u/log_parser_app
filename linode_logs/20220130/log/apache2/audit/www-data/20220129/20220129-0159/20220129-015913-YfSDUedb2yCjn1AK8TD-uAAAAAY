@@ -1,0 +1,58 @@
+--bbe40f35-A--
+[29/Jan/2022:01:59:13 +0200] YfSDUedb2yCjn1AK8TD-uAAAAAY 167.94.138.45 43232 172.104.132.106 443
+--bbe40f35-B--
+GET / HTTP/1.1
+Host: 172.104.132.106
+User-Agent: Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+Accept: */*
+Accept-Encoding: gzip
+
+--bbe40f35-F--
+HTTP/1.1 200 OK
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Access-Control-Allow-Origin: https://app.synaptic4u.co.za
+Content-Length: 215
+Content-Type: text/html; charset=UTF-8
+
+--bbe40f35-E--
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Welcome to Daemon</title>
+  </head>
+  <body>
+    <center>
+      <h4>Daemon Services</h4>
+        <h5>
+	Live with no regrets.<br>Be merciful.<br>Love unashamedly!      </h5>
+    </center>
+  </body>
+</html>
+
+--bbe40f35-H--
+Message:  [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "172.104.132.106"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"] Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host.
+Apache-Error: [file "ssl_engine_kernel.c"] [line 383] [level 7] AH02034: Initial (No.1) HTTPS request received for child 6 (server daemon.synaptic4u.co.za:443)
+Apache-Error: [file "mod_authz_core.c"] [line 820] [level 7] AH01626: authorization result of Require all granted: granted
+Apache-Error: [file "mod_authz_core.c"] [line 820] [level 7] AH01626: authorization result of <RequireAny>: granted
+Apache-Error: [file "apache2_util.c"] [line 273] [level 3] [client 167.94.138.45] ModSecurity:  [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "172.104.132.106"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"] Warning. Pattern match "^[\\\\\\\\d.:]+$" at REQUEST_HEADERS:Host. [hostname "172.104.132.106"] [uri "/"] [unique_id "YfSDUedb2yCjn1AK8TD-uAAAAAY"]
+Apache-Error: [file "mod_authz_core.c"] [line 820] [level 7] AH01626: authorization result of Require all granted: granted
+Apache-Error: [file "mod_authz_core.c"] [line 820] [level 7] AH01626: authorization result of <RequireAny>: granted
+Apache-Error: [file "mod_authz_core.c"] [line 820] [level 7] AH01626: authorization result of Require all granted: granted
+Apache-Error: [file "mod_authz_core.c"] [line 820] [level 7] AH01626: authorization result of <RequireAny>: granted
+Apache-Error: [file "mod_authz_core.c"] [line 820] [level 7] AH01626: authorization result of Require all granted: granted
+Apache-Error: [file "mod_authz_core.c"] [line 820] [level 7] AH01626: authorization result of <RequireAny>: granted
+Apache-Error: [file "mod_authz_core.c"] [line 820] [level 7] AH01626: authorization result of Require all granted: granted
+Apache-Error: [file "mod_authz_core.c"] [line 820] [level 7] AH01626: authorization result of <RequireAny>: granted
+Apache-Error: [file "mod_deflate.c"] [line 856] [level 7] AH01384: Zlib: Compressed 296 to 197 : URL /index.php
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1643414353970423 5736 (- - -)
+Stopwatch2: 1643414353970423 5736; combined=2289, p1=701, p2=793, p3=152, p4=367, p5=275, sr=136, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.3 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache
+Engine-Mode: "ENABLED"
+
+--bbe40f35-Z--

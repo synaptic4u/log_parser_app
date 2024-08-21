@@ -1,0 +1,38 @@
+--574a9b0e-A--
+[29/Jan/2022:00:01:52 +0200] YfRn0PdXLiLNhC@TomPzHwAAAAQ 192.241.206.21 33034 172.104.132.106 443
+--574a9b0e-B--
+GET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application HTTP/1.1
+Host: 172.104.132.106
+User-Agent: Mozilla/5.0 zgrab/0.x
+Accept: */*
+Accept-Encoding: gzip
+
+--574a9b0e-F--
+HTTP/1.1 404 Not Found
+Content-Length: 196
+Content-Type: text/html; charset=iso-8859-1
+
+--574a9b0e-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL was not found on this server.</p>
+</body></html>
+
+--574a9b0e-H--
+Message:  [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "172.104.132.106"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"] Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host.
+Apache-Error: [file "ssl_engine_kernel.c"] [line 383] [level 7] AH02034: Initial (No.1) HTTPS request received for child 4 (server daemon.synaptic4u.co.za:443)
+Apache-Error: [file "mod_authz_core.c"] [line 820] [level 7] AH01626: authorization result of Require all granted: granted
+Apache-Error: [file "mod_authz_core.c"] [line 820] [level 7] AH01626: authorization result of <RequireAny>: granted
+Apache-Error: [file "apache2_util.c"] [line 273] [level 3] [client 192.241.206.21] ModSecurity:  [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "172.104.132.106"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"] Warning. Pattern match "^[\\\\\\\\d.:]+$" at REQUEST_HEADERS:Host. [hostname "172.104.132.106"] [uri "/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application"] [unique_id "YfRn0PdXLiLNhC@TomPzHwAAAAQ"]
+Apache-Error: [file "core.c"] [line 4752] [level 6] AH00128: File does not exist: /var/www/daemon.synaptic4u.co.za/public_html/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application
+Stopwatch: 1643407312545403 2757 (- - -)
+Stopwatch2: 1643407312545403 2757; combined=1795, p1=575, p2=754, p3=67, p4=210, p5=189, sr=88, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.3 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache
+Engine-Mode: "ENABLED"
+
+--574a9b0e-Z--

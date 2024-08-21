@@ -1,0 +1,66 @@
+update-alternatives 2022-01-26 14:43:53: run with --install /usr/sbin/sendmail-mta sendmail-mta /usr/lib/sm.bin/sendmail 25 --slave /usr/share/man/man8/sendmail-mta.8.gz sendmail-mta.8.gz /usr/share/man/man8/sendmail.sendmail.8.gz --slave /usr/sbin/runq runq /usr/share/sendmail/runq --slave /usr/share/man/man8/runq.8.gz runq.8.gz /usr/share/man/man8/runq.sendmail.8.gz --slave /usr/sbin/newaliases newaliases /usr/share/sendmail/newaliases --slave /usr/share/man/man8/newaliases.8.gz newaliases.8.gz /usr/share/man/man8/newaliases.sendmail.8.gz --slave /usr/bin/mailq mailq /usr/share/sendmail/mailq --slave /usr/share/man/man1/mailq.1.gz mailq.1.gz /usr/share/man/man1/mailq.sendmail.1.gz --slave /usr/share/man/man5/aliases.5.gz aliases.5.gz /usr/share/man/man5/aliases.sendmail.5.gz
+update-alternatives 2022-01-26 14:43:53: link group sendmail-mta updated to point to /usr/lib/sm.bin/sendmail
+update-alternatives 2022-01-26 14:43:53: run with --install /usr/sbin/sendmail-msp sendmail-msp /usr/lib/sm.bin/sendmail 25 --slave /usr/share/man/man8/sendmail-msp.8.gz sendmail-msp.8.gz /usr/share/man/man8/sendmail.sendmail.8.gz --slave /usr/sbin/sendmail sendmail /usr/lib/sm.bin/sendmail --slave /usr/lib/sendmail lib.sendmail /usr/lib/sm.bin/sendmail --slave /usr/share/man/man8/sendmail.8.gz sendmail.8.gz /usr/share/man/man8/sendmail.sendmail.8.gz
+update-alternatives 2022-01-26 14:43:53: link group sendmail-msp updated to point to /usr/lib/sm.bin/sendmail
+update-alternatives 2022-01-26 15:52:47: run with --remove sendmail-mta /usr/lib/sm.bin/sendmail
+update-alternatives 2022-01-26 15:52:47: link group sendmail-mta fully removed
+update-alternatives 2022-01-26 15:52:47: run with --remove sendmail-msp /usr/lib/sm.bin/sendmail
+update-alternatives 2022-01-26 15:52:47: link group sendmail-msp fully removed
+update-alternatives 2022-01-26 16:03:30: run with --install /etc/mysql/my.cnf my.cnf /etc/mysql/my.cnf.fallback 100
+update-alternatives 2022-01-26 16:03:30: link group my.cnf updated to point to /etc/mysql/my.cnf.fallback
+update-alternatives 2022-01-26 16:03:30: run with --install /etc/mysql/my.cnf my.cnf /etc/mysql/mariadb.cnf 200
+update-alternatives 2022-01-26 16:03:30: link group my.cnf updated to point to /etc/mysql/mariadb.cnf
+update-alternatives 2022-01-26 16:03:30: run with --install /usr/bin/frm frm /usr/bin/frm.mailutils 20 --slave /usr/share/man/man1/frm.1.gz frm.1.gz /usr/share/man/man1/frm.mailutils.1.gz
+update-alternatives 2022-01-26 16:03:30: link group frm updated to point to /usr/bin/frm.mailutils
+update-alternatives 2022-01-26 16:03:30: run with --install /usr/bin/from from /usr/bin/from.mailutils 20 --slave /usr/share/man/man1/from.1.gz from.1.gz /usr/share/man/man1/from.mailutils.1.gz
+update-alternatives 2022-01-26 16:03:30: link group from updated to point to /usr/bin/from.mailutils
+update-alternatives 2022-01-26 16:03:30: run with --install /usr/bin/messages messages /usr/bin/messages.mailutils 20 --slave /usr/share/man/man1/messages.1.gz messages.1.gz /usr/share/man/man1/messages.mailutils.1.gz
+update-alternatives 2022-01-26 16:03:30: link group messages updated to point to /usr/bin/messages.mailutils
+update-alternatives 2022-01-26 16:03:30: run with --install /usr/bin/movemail movemail /usr/bin/movemail.mailutils 20 --slave /usr/share/man/man1/movemail.1.gz movemail.1.gz /usr/share/man/man1/movemail.mailutils.1.gz
+update-alternatives 2022-01-26 16:03:30: link group movemail updated to point to /usr/bin/movemail.mailutils
+update-alternatives 2022-01-26 16:03:30: run with --install /usr/bin/readmsg readmsg /usr/bin/readmsg.mailutils 20 --slave /usr/share/man/man1/readmsg.1.gz readmsg.1.gz /usr/share/man/man1/readmsg.mailutils.1.gz
+update-alternatives 2022-01-26 16:03:30: link group readmsg updated to point to /usr/bin/readmsg.mailutils
+update-alternatives 2022-01-26 16:03:30: run with --install /usr/bin/dotlock dotlock /usr/bin/dotlock.mailutils 4 --slave /usr/share/man/man1/dotlock.1.gz dotlock.1.gz /usr/share/man/man1/dotlock.mailutils.1.gz
+update-alternatives 2022-01-26 16:03:30: link group dotlock updated to point to /usr/bin/dotlock.mailutils
+update-alternatives 2022-01-26 16:03:30: run with --install /usr/bin/mailx mailx /usr/bin/mail.mailutils 30 --slave /usr/share/man/man1/mailx.1.gz mailx.1.gz /usr/share/man/man1/mail.mailutils.1.gz --slave /usr/bin/mail mail /usr/bin/mail.mailutils --slave /usr/share/man/man1/mail.1.gz mail.1.gz /usr/share/man/man1/mail.mailutils.1.gz
+update-alternatives 2022-01-26 16:03:30: link group mailx updated to point to /usr/bin/mail.mailutils
+update-alternatives 2022-01-26 19:18:28: run with --quiet --install /usr/bin/awk awk /usr/bin/gawk 10 --slave /usr/share/man/man1/awk.1.gz awk.1.gz /usr/share/man/man1/gawk.1.gz --slave /usr/bin/nawk nawk /usr/bin/gawk --slave /usr/share/man/man1/nawk.1.gz nawk.1.gz /usr/share/man/man1/gawk.1.gz
+update-alternatives 2022-01-26 19:18:28: link group awk updated to point to /usr/bin/gawk
+update-alternatives 2022-01-26 19:27:57: run with --quiet --install /usr/bin/pinentry pinentry /usr/bin/pinentry-curses 50 --slave /usr/share/man/man1/pinentry.1.gz pinentry.1.gz /usr/share/man/man1/pinentry-curses.1.gz
+update-alternatives 2022-01-26 19:27:57: link group pinentry updated to point to /usr/bin/pinentry-curses
+update-alternatives 2022-01-26 19:35:04: run with --install /usr/bin/php php /usr/bin/php8.0 80 --slave /usr/share/man/man1/php.1.gz php.1.gz /usr/share/man/man1/php8.0.1.gz
+update-alternatives 2022-01-26 19:35:04: link group php updated to point to /usr/bin/php8.0
+update-alternatives 2022-01-26 19:35:04: run with --install /usr/bin/phar phar /usr/bin/phar8.0 80 --slave /usr/share/man/man1/phar.1.gz phar.1.gz /usr/share/man/man1/phar8.0.1.gz
+update-alternatives 2022-01-26 19:35:04: link group phar updated to point to /usr/bin/phar8.0
+update-alternatives 2022-01-26 19:35:04: run with --install /usr/bin/phar.phar phar.phar /usr/bin/phar.phar8.0 80 --slave /usr/share/man/man1/phar.phar.1.gz phar.phar.1.gz /usr/share/man/man1/phar.phar8.0.1.gz
+update-alternatives 2022-01-26 19:35:04: link group phar.phar updated to point to /usr/bin/phar.phar8.0
+update-alternatives 2022-01-26 19:40:57: run with --install /usr/bin/php php /usr/bin/php8.1 81 --slave /usr/share/man/man1/php.1.gz php.1.gz /usr/share/man/man1/php8.1.1.gz
+update-alternatives 2022-01-26 19:40:57: link group php updated to point to /usr/bin/php8.1
+update-alternatives 2022-01-26 19:40:57: run with --install /usr/bin/phar phar /usr/bin/phar8.1 81 --slave /usr/share/man/man1/phar.1.gz phar.1.gz /usr/share/man/man1/phar8.1.1.gz
+update-alternatives 2022-01-26 19:40:57: link group phar updated to point to /usr/bin/phar8.1
+update-alternatives 2022-01-26 19:40:57: run with --install /usr/bin/phar.phar phar.phar /usr/bin/phar.phar8.1 81 --slave /usr/share/man/man1/phar.phar.1.gz phar.phar.1.gz /usr/share/man/man1/phar.phar8.1.1.gz
+update-alternatives 2022-01-26 19:40:57: link group phar.phar updated to point to /usr/bin/phar.phar8.1
+update-alternatives 2022-01-26 19:40:58: run with --install /usr/bin/phpdbg phpdbg /usr/bin/phpdbg8.1 81 --slave /usr/share/man/man1/phpdbg.1.gz phpdbg.1.gz /usr/share/man/man1/phpdbg8.1.1.gz
+update-alternatives 2022-01-26 19:40:58: link group phpdbg updated to point to /usr/bin/phpdbg8.1
+update-alternatives 2022-01-26 22:36:16: run with --install /usr/bin/fakeroot fakeroot /usr/bin/fakeroot-sysv 50 --slave /usr/share/man/man1/fakeroot.1.gz fakeroot.1.gz /usr/share/man/man1/fakeroot-sysv.1.gz --slave /usr/share/man/man1/faked.1.gz faked.1.gz /usr/share/man/man1/faked-sysv.1.gz --slave /usr/share/man/es/man1/fakeroot.1.gz fakeroot.es.1.gz /usr/share/man/es/man1/fakeroot-sysv.1.gz --slave /usr/share/man/es/man1/faked.1.gz faked.es.1.gz /usr/share/man/es/man1/faked-sysv.1.gz --slave /usr/share/man/fr/man1/fakeroot.1.gz fakeroot.fr.1.gz /usr/share/man/fr/man1/fakeroot-sysv.1.gz --slave /usr/share/man/fr/man1/faked.1.gz faked.fr.1.gz /usr/share/man/fr/man1/faked-sysv.1.gz --slave /usr/share/man/sv/man1/fakeroot.1.gz fakeroot.sv.1.gz /usr/share/man/sv/man1/fakeroot-sysv.1.gz --slave /usr/share/man/sv/man1/faked.1.gz faked.sv.1.gz /usr/share/man/sv/man1/faked-sysv.1.gz
+update-alternatives 2022-01-26 22:36:16: link group fakeroot updated to point to /usr/bin/fakeroot-sysv
+update-alternatives 2022-01-26 22:36:16: run with --install /usr/bin/fakeroot fakeroot /usr/bin/fakeroot-tcp 30 --slave /usr/share/man/man1/fakeroot.1.gz fakeroot.1.gz /usr/share/man/man1/fakeroot-tcp.1.gz --slave /usr/share/man/man1/faked.1.gz faked.1.gz /usr/share/man/man1/faked-tcp.1.gz --slave /usr/share/man/es/man1/fakeroot.1.gz fakeroot.es.1.gz /usr/share/man/es/man1/fakeroot-tcp.1.gz --slave /usr/share/man/es/man1/faked.1.gz faked.es.1.gz /usr/share/man/es/man1/faked-tcp.1.gz --slave /usr/share/man/fr/man1/fakeroot.1.gz fakeroot.fr.1.gz /usr/share/man/fr/man1/fakeroot-tcp.1.gz --slave /usr/share/man/fr/man1/faked.1.gz faked.fr.1.gz /usr/share/man/fr/man1/faked-tcp.1.gz --slave /usr/share/man/sv/man1/fakeroot.1.gz fakeroot.sv.1.gz /usr/share/man/sv/man1/fakeroot-tcp.1.gz --slave /usr/share/man/sv/man1/faked.1.gz faked.sv.1.gz /usr/share/man/sv/man1/faked-tcp.1.gz
+update-alternatives 2022-01-26 22:36:16: run with --quiet --install /lib/cpp cpp /usr/bin/cpp 10
+update-alternatives 2022-01-26 22:36:16: link group cpp updated to point to /usr/bin/cpp
+update-alternatives 2022-01-26 22:36:16: run with --quiet --install /usr/bin/cc cc /usr/bin/gcc 20
+update-alternatives 2022-01-26 22:36:16: link group cc updated to point to /usr/bin/gcc
+update-alternatives 2022-01-26 22:36:16: run with --quiet --install /usr/bin/c89 c89 /usr/bin/c89-gcc 20 --slave /usr/share/man/man1/c89.1.gz c89.1.gz /usr/share/man/man1/c89-gcc.1.gz
+update-alternatives 2022-01-26 22:36:16: link group c89 updated to point to /usr/bin/c89-gcc
+update-alternatives 2022-01-26 22:36:16: run with --quiet --install /usr/bin/c99 c99 /usr/bin/c99-gcc 20 --slave /usr/share/man/man1/c99.1.gz c99.1.gz /usr/share/man/man1/c99-gcc.1.gz
+update-alternatives 2022-01-26 22:36:16: link group c99 updated to point to /usr/bin/c99-gcc
+update-alternatives 2022-01-26 22:36:16: run with --install /usr/bin/c++ c++ /usr/bin/g++ 20
+update-alternatives 2022-01-26 22:36:16: link group c++ updated to point to /usr/bin/g++
+update-alternatives 2022-01-26 22:55:11: run with --quiet --install /usr/bin/locate locate /usr/bin/locate.findutils 20 --slave /usr/share/man/man1/locate.1.gz locate.1.gz /usr/share/man/man1/locate.findutils.1.gz --slave /usr/bin/updatedb updatedb /usr/bin/updatedb.findutils --slave /usr/share/man/man1/updatedb.1.gz updatedb.1.gz /usr/share/man/man1/updatedb.findutils.1.gz
+update-alternatives 2022-01-26 22:55:11: link group locate updated to point to /usr/bin/locate.findutils
+update-alternatives 2022-01-27 17:46:13: run with --install /usr/bin/php php /usr/bin/php8.1 81 --slave /usr/share/man/man1/php.1.gz php.1.gz /usr/share/man/man1/php8.1.1.gz
+update-alternatives 2022-01-27 17:46:13: run with --install /usr/bin/phar phar /usr/bin/phar8.1 81 --slave /usr/share/man/man1/phar.1.gz phar.1.gz /usr/share/man/man1/phar8.1.1.gz
+update-alternatives 2022-01-27 17:46:13: run with --install /usr/bin/phar.phar phar.phar /usr/bin/phar.phar8.1 81 --slave /usr/share/man/man1/phar.phar.1.gz phar.phar.1.gz /usr/share/man/man1/phar.phar8.1.1.gz
+update-alternatives 2022-01-27 17:46:14: run with --install /usr/bin/phpdbg phpdbg /usr/bin/phpdbg8.1 81 --slave /usr/share/man/man1/phpdbg.1.gz phpdbg.1.gz /usr/share/man/man1/phpdbg8.1.1.gz
+update-alternatives 2022-01-29 16:31:51: run with --install /usr/bin/php php /usr/bin/php8.0 80 --slave /usr/share/man/man1/php.1.gz php.1.gz /usr/share/man/man1/php8.0.1.gz
+update-alternatives 2022-01-29 16:31:51: run with --install /usr/bin/phar phar /usr/bin/phar8.0 80 --slave /usr/share/man/man1/phar.1.gz phar.1.gz /usr/share/man/man1/phar8.0.1.gz
+update-alternatives 2022-01-29 16:31:51: run with --install /usr/bin/phar.phar phar.phar /usr/bin/phar.phar8.0 80 --slave /usr/share/man/man1/phar.phar.1.gz phar.phar.1.gz /usr/share/man/man1/phar.phar8.0.1.gz
