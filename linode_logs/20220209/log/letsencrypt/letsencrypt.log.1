@@ -1,0 +1,27 @@
+2022-02-08 23:04:56,559:DEBUG:urllib3.connectionpool:http://localhost:None "GET /v2/connections?snap=certbot&interface=content HTTP/1.1" 200 97
+2022-02-08 23:04:57,110:DEBUG:certbot._internal.main:certbot version: 1.23.0
+2022-02-08 23:04:57,111:DEBUG:certbot._internal.main:Location of certbot entry point: /snap/certbot/1788/bin/certbot
+2022-02-08 23:04:57,111:DEBUG:certbot._internal.main:Arguments: ['-q', '--preconfigured-renewal']
+2022-02-08 23:04:57,111:DEBUG:certbot._internal.main:Discovered plugins: PluginsRegistry(PluginEntryPoint#apache,PluginEntryPoint#manual,PluginEntryPoint#nginx,PluginEntryPoint#null,PluginEntryPoint#standalone,PluginEntryPoint#webroot)
+2022-02-08 23:04:57,123:DEBUG:certbot._internal.log:Root logging level set at 40
+2022-02-08 23:04:57,124:DEBUG:certbot._internal.display.obj:Notifying user: Processing /etc/letsencrypt/renewal/daemon.synaptic4u.co.za.conf
+2022-02-08 23:04:57,146:DEBUG:certbot._internal.plugins.selection:Requested authenticator <certbot._internal.cli.cli_utils._Default object at 0x7f8c70be8220> and installer <certbot._internal.cli.cli_utils._Default object at 0x7f8c70be8220>
+2022-02-08 23:04:57,197:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): r3.o.lencr.org:80
+2022-02-08 23:04:57,342:DEBUG:urllib3.connectionpool:http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+2022-02-08 23:04:57,343:DEBUG:certbot.ocsp:OCSP response for certificate /etc/letsencrypt/archive/daemon.synaptic4u.co.za/cert1.pem is signed by the certificate's issuer.
+2022-02-08 23:04:57,343:DEBUG:certbot.ocsp:OCSP certificate status for /etc/letsencrypt/archive/daemon.synaptic4u.co.za/cert1.pem is: OCSPCertStatus.GOOD
+2022-02-08 23:04:57,346:DEBUG:certbot._internal.display.obj:Notifying user: Certificate not yet due for renewal
+2022-02-08 23:04:57,347:DEBUG:certbot._internal.plugins.selection:Requested authenticator apache and installer apache
+2022-02-08 23:04:57,372:DEBUG:certbot._internal.plugins.selection:Selecting plugin: * apache
+Description: Apache Web Server plugin
+Interfaces: Installer, Authenticator, Plugin
+Entry point: apache = certbot_apache._internal.entrypoint:ENTRYPOINT
+Initialized: <certbot_apache._internal.override_debian.DebianConfigurator object at 0x7f8c70da8f40>
+2022-02-08 23:04:57,372:DEBUG:certbot.plugins.storage:Plugin storage file /etc/letsencrypt/.pluginstorage.json was empty, no values loaded
+2022-02-08 23:04:57,372:DEBUG:certbot._internal.display.obj:Notifying user: 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+2022-02-08 23:04:57,372:DEBUG:certbot._internal.display.obj:Notifying user: The following certificates are not due for renewal yet:
+2022-02-08 23:04:57,372:DEBUG:certbot._internal.display.obj:Notifying user:   /etc/letsencrypt/live/daemon.synaptic4u.co.za/fullchain.pem expires on 2022-04-26 (skipped)
+2022-02-08 23:04:57,372:DEBUG:certbot._internal.display.obj:Notifying user: No renewals were attempted.
+2022-02-08 23:04:57,373:DEBUG:certbot._internal.display.obj:Notifying user: - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+2022-02-08 23:04:57,373:DEBUG:certbot._internal.renewal:no renewal failures

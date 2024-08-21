@@ -1,0 +1,32 @@
+--2355415c-A--
+[29/Jan/2022:09:38:53 +0200] YfTvDWn5bboX4n22DJTKJgAAABc 5.188.210.227 40221 172.104.132.106 443
+--2355415c-B--
+GET / HTTP/1.0
+
+--2355415c-F--
+HTTP/1.1 400 Bad Request
+Content-Length: 362
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+--2355415c-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>Your browser sent a request that this server could not understand.<br />
+Reason: You're speaking plain HTTP to an SSL-enabled server port.<br />
+ Instead use the HTTPS scheme to access this URL, please.<br />
+</p>
+</body></html>
+
+--2355415c-H--
+Stopwatch: 1643441933711385 1628 (- - -)
+Stopwatch2: 1643441933711385 1628; combined=1188, p1=703, p2=0, p3=58, p4=257, p5=170, sr=119, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.3 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache
+Engine-Mode: "ENABLED"
+
+--2355415c-Z--

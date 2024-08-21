@@ -1,0 +1,88 @@
+Feb  7 19:17:02 daemon PackageKit: daemon start
+Feb  7 19:18:09 daemon kernel: [    0.001254] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Feb  7 19:18:09 daemon kernel: [    0.001255] e820: remove [mem 0x000a0000-0x000fffff] usable
+Feb  7 19:18:09 daemon kernel: [    0.001287] MTRR default type: write-back
+Feb  7 19:18:09 daemon kernel: [    0.001287] MTRR fixed ranges enabled:
+Feb  7 19:18:09 daemon kernel: [    0.001288]   00000-9FFFF write-back
+Feb  7 19:18:09 daemon kernel: [    0.001289]   A0000-BFFFF uncachable
+Feb  7 19:18:09 daemon kernel: [    0.001290]   C0000-FFFFF write-protect
+Feb  7 19:18:09 daemon kernel: [    0.001290] MTRR variable ranges enabled:
+Feb  7 19:18:09 daemon kernel: [    0.001291]   0 base 00C0000000 mask FFC0000000 uncachable
+Feb  7 19:18:09 daemon kernel: [    0.001291]   1 disabled
+Feb  7 19:18:09 daemon kernel: [    0.001292]   2 disabled
+Feb  7 19:18:09 daemon kernel: [    0.001292]   3 disabled
+Feb  7 19:18:09 daemon kernel: [    0.001292]   4 disabled
+Feb  7 19:18:09 daemon kernel: [    0.001293]   5 disabled
+Feb  7 19:18:09 daemon kernel: [    0.001293]   6 disabled
+Feb  7 19:18:09 daemon kernel: [    0.001293]   7 disabled
+Feb  7 19:18:09 daemon kernel: [    0.003992] ACPI: Local APIC address 0xfee00000
+Feb  7 19:18:09 daemon kernel: [    0.004333] On node 0 totalpages: 262010
+Feb  7 19:18:09 daemon kernel: [    0.004334]   DMA zone: 64 pages used for memmap
+Feb  7 19:18:09 daemon kernel: [    0.004335]   DMA zone: 21 pages reserved
+Feb  7 19:18:09 daemon kernel: [    0.004336]   DMA zone: 3998 pages, LIFO batch:0
+Feb  7 19:18:09 daemon kernel: [    0.004412]   DMA32 zone: 4032 pages used for memmap
+Feb  7 19:18:09 daemon kernel: [    0.004413]   DMA32 zone: 258012 pages, LIFO batch:63
+Feb  7 19:18:09 daemon kernel: [    0.009391] ACPI: Local APIC address 0xfee00000
+Feb  7 19:18:09 daemon kernel: [    0.009431] ACPI: IRQ0 used by override.
+Feb  7 19:18:09 daemon kernel: [    0.009432] ACPI: IRQ5 used by override.
+Feb  7 19:18:09 daemon kernel: [    0.009433] ACPI: IRQ9 used by override.
+Feb  7 19:18:09 daemon kernel: [    0.009433] ACPI: IRQ10 used by override.
+Feb  7 19:18:09 daemon kernel: [    0.009433] ACPI: IRQ11 used by override.
+Feb  7 19:18:09 daemon kernel: [    0.091792] pcpu-alloc: s144536 r8192 d31592 u2097152 alloc=1*2097152
+Feb  7 19:18:09 daemon kernel: [    0.091793] pcpu-alloc: [0] 0 
+Feb  7 19:18:09 daemon kernel: [    0.091910] Calgary: detecting Calgary via BIOS EBDA area
+Feb  7 19:18:09 daemon kernel: [    0.091911] Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+Feb  7 19:18:09 daemon kernel: [    0.190700] hpet clockevent registered
+Feb  7 19:18:09 daemon kernel: [    0.253719] pci 0000:00:00.0: [8086:29c0] type 00 class 0x060000
+Feb  7 19:18:09 daemon kernel: [    0.254003] pci 0000:00:01.0: [1234:1111] type 00 class 0x030000
+Feb  7 19:18:09 daemon kernel: [    0.255863] pci 0000:00:01.0: reg 0x10: [mem 0xfd000000-0xfdffffff pref]
+Feb  7 19:18:09 daemon kernel: [    0.257277] pci 0000:00:01.0: reg 0x18: [mem 0xfebd0000-0xfebd0fff]
+Feb  7 19:18:09 daemon kernel: [    0.260848] pci 0000:00:01.0: reg 0x30: [mem 0xfebc0000-0xfebcffff pref]
+Feb  7 19:18:09 daemon kernel: [    0.261797] pci 0000:00:02.0: [1af4:1004] type 00 class 0x010000
+Feb  7 19:18:09 daemon kernel: [    0.263009] pci 0000:00:02.0: reg 0x10: [io  0xc000-0xc03f]
+Feb  7 19:18:09 daemon kernel: [    0.264163] pci 0000:00:02.0: reg 0x14: [mem 0xfebd1000-0xfebd1fff]
+Feb  7 19:18:09 daemon kernel: [    0.267338] pci 0000:00:02.0: reg 0x20: [mem 0xfe000000-0xfe003fff 64bit pref]
+Feb  7 19:18:09 daemon kernel: [    0.268759] pci 0000:00:03.0: [1af4:1004] type 00 class 0x010000
+Feb  7 19:18:09 daemon kernel: [    0.270217] pci 0000:00:03.0: reg 0x10: [io  0xc040-0xc07f]
+Feb  7 19:18:09 daemon kernel: [    0.271599] pci 0000:00:03.0: reg 0x14: [mem 0xfebd2000-0xfebd2fff]
+Feb  7 19:18:09 daemon kernel: [    0.275608] pci 0000:00:03.0: reg 0x20: [mem 0xfe004000-0xfe007fff 64bit pref]
+Feb  7 19:18:09 daemon kernel: [    0.276780] pci 0000:00:04.0: [1af4:1000] type 00 class 0x020000
+Feb  7 19:18:09 daemon kernel: [    0.277800] pci 0000:00:04.0: reg 0x10: [io  0xc080-0xc0bf]
+Feb  7 19:18:09 daemon kernel: [    0.278720] pci 0000:00:04.0: reg 0x14: [mem 0xfebd3000-0xfebd3fff]
+Feb  7 19:18:09 daemon kernel: [    0.281356] pci 0000:00:04.0: reg 0x20: [mem 0xfe008000-0xfe00bfff 64bit pref]
+Feb  7 19:18:09 daemon kernel: [    0.282574] pci 0000:00:04.0: reg 0x30: [mem 0xfeb80000-0xfebbffff pref]
+Feb  7 19:18:09 daemon kernel: [    0.284384] pci 0000:00:1f.0: [8086:2918] type 00 class 0x060100
+Feb  7 19:18:09 daemon kernel: [    0.285614] pci 0000:00:1f.2: [8086:2922] type 00 class 0x010601
+Feb  7 19:18:09 daemon kernel: [    0.288696] pci 0000:00:1f.2: reg 0x20: [io  0xc100-0xc11f]
+Feb  7 19:18:09 daemon kernel: [    0.289298] pci 0000:00:1f.2: reg 0x24: [mem 0xfebd4000-0xfebd4fff]
+Feb  7 19:18:09 daemon kernel: [    0.290133] pci 0000:00:1f.3: [8086:2930] type 00 class 0x0c0500
+Feb  7 19:18:09 daemon kernel: [    0.291829] pci 0000:00:1f.3: reg 0x20: [io  0x0700-0x073f]
+Feb  7 19:18:09 daemon kernel: [    0.343028] PCI: pci_cache_line_size set to 64 bytes
+Feb  7 19:18:09 daemon kernel: [    0.343108] e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+Feb  7 19:18:09 daemon kernel: [    0.343110] e820: reserve RAM buffer [mem 0x3ffdc000-0x3fffffff]
+Feb  7 19:18:09 daemon kernel: [    0.359688] pnp 00:00: Plug and Play ACPI device, IDs PNP0b00 (active)
+Feb  7 19:18:09 daemon kernel: [    0.359711] pnp 00:01: Plug and Play ACPI device, IDs PNP0303 (active)
+Feb  7 19:18:09 daemon kernel: [    0.359729] pnp 00:02: Plug and Play ACPI device, IDs PNP0f13 (active)
+Feb  7 19:18:09 daemon kernel: [    0.359771] pnp 00:03: Plug and Play ACPI device, IDs PNP0501 (active)
+Feb  7 19:18:09 daemon kernel: [    0.366596] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+Feb  7 19:18:09 daemon kernel: [    0.366597] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+Feb  7 19:18:09 daemon kernel: [    0.366598] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+Feb  7 19:18:09 daemon kernel: [    0.366599] pci_bus 0000:00: resource 7 [mem 0x40000000-0xafffffff window]
+Feb  7 19:18:09 daemon kernel: [    0.366599] pci_bus 0000:00: resource 8 [mem 0xc0000000-0xfebfffff window]
+Feb  7 19:18:09 daemon kernel: [    0.366600] pci_bus 0000:00: resource 9 [mem 0x100000000-0x8ffffffff window]
+Feb  7 19:18:09 daemon kernel: [    0.374001] PCI: CLS 0 bytes, default 64
+Feb  7 19:18:09 daemon kernel: [    1.146005] libata version 3.00 loaded.
+Feb  7 19:18:09 daemon kernel: [    1.151097] ahci 0000:00:1f.2: version 3.0
+Feb  7 19:18:09 daemon kernel: [    1.205318] sd 1:0:1:2: [sdb] Mode Sense: 63 00 00 08
+Feb  7 19:18:09 daemon kernel: [    1.213991] sd 0:0:0:0: [sda] Mode Sense: 63 00 00 08
+Feb  7 20:37:25 daemon PackageKit: daemon start
+Feb  7 20:42:30 daemon PackageKit: daemon quit
+Feb  8 12:09:56 daemon PackageKit: daemon start
+Feb  8 12:15:01 daemon PackageKit: daemon quit
+Feb  8 16:55:15 daemon PackageKit: daemon start
+Feb  8 17:00:21 daemon PackageKit: daemon quit
+Feb  8 18:11:02 daemon PackageKit: daemon start
+Feb  8 18:16:07 daemon PackageKit: daemon quit
+Feb  9 06:27:57 daemon PackageKit: daemon start
+Feb  9 06:33:02 daemon PackageKit: daemon quit
+Feb  9 11:06:31 daemon PackageKit: daemon start

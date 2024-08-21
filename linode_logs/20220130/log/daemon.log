@@ -1,0 +1,205 @@
+Jan 30 00:00:55 daemon systemd[1]: logrotate.service: Main process exited, code=exited, status=1/FAILURE
+Jan 30 00:00:55 daemon systemd[1]: logrotate.service: Failed with result 'exit-code'.
+Jan 30 00:00:55 daemon systemd[1]: Failed to start Rotate log files.
+Jan 30 00:00:55 daemon systemd[1]: man-db.service: Succeeded.
+Jan 30 00:00:55 daemon systemd[1]: Started Daily man-db regeneration.
+Jan 30 00:09:01 daemon systemd[1]: Starting Clean php session files...
+Jan 30 00:09:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Jan 30 00:09:01 daemon systemd[1]: Started Clean php session files.
+Jan 30 00:15:18 daemon systemd[1]: Stopping The Apache HTTP Server...
+Jan 30 00:15:18 daemon systemd[1]: apache2.service: Succeeded.
+Jan 30 00:15:18 daemon systemd[1]: Stopped The Apache HTTP Server.
+Jan 30 00:15:18 daemon systemd[1]: Starting The Apache HTTP Server...
+Jan 30 00:15:19 daemon systemd[1]: Started The Apache HTTP Server.
+Jan 30 00:39:01 daemon systemd[1]: Starting Clean php session files...
+Jan 30 00:39:02 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Jan 30 00:39:02 daemon systemd[1]: Started Clean php session files.
+Jan 30 01:08:00 daemon systemd[1]: Stopping The Apache HTTP Server...
+Jan 30 01:08:00 daemon systemd[1]: apache2.service: Succeeded.
+Jan 30 01:08:00 daemon systemd[1]: Stopped The Apache HTTP Server.
+Jan 30 01:08:00 daemon systemd[1]: Starting The Apache HTTP Server...
+Jan 30 01:08:01 daemon systemd[1]: Started The Apache HTTP Server.
+Jan 30 01:09:01 daemon systemd[1]: Starting Clean php session files...
+Jan 30 01:09:02 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Jan 30 01:09:02 daemon systemd[1]: Started Clean php session files.
+Jan 30 01:16:19 daemon systemd[1]: Created slice User Slice of UID 0.
+Jan 30 01:16:19 daemon systemd[1]: Starting User Runtime Directory /run/user/0...
+Jan 30 01:16:19 daemon systemd[1]: Started User Runtime Directory /run/user/0.
+Jan 30 01:16:19 daemon systemd[1]: Starting User Manager for UID 0...
+Jan 30 01:16:19 daemon systemd[24516]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Jan 30 01:16:19 daemon systemd[24516]: Reached target Timers.
+Jan 30 01:16:19 daemon systemd[24516]: Listening on GnuPG network certificate management daemon.
+Jan 30 01:16:19 daemon systemd[24516]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Jan 30 01:16:19 daemon systemd[24516]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Jan 30 01:16:19 daemon systemd[24516]: Reached target Paths.
+Jan 30 01:16:19 daemon systemd[24516]: Listening on GnuPG cryptographic agent and passphrase cache.
+Jan 30 01:16:19 daemon systemd[24516]: Reached target Sockets.
+Jan 30 01:16:19 daemon systemd[24516]: Reached target Basic System.
+Jan 30 01:16:19 daemon systemd[1]: Started User Manager for UID 0.
+Jan 30 01:16:19 daemon systemd[1]: Started Session c4 of user root.
+Jan 30 01:16:19 daemon systemd[24516]: Reached target Default.
+Jan 30 01:16:19 daemon systemd[24516]: Startup finished in 50ms.
+Jan 30 01:34:49 daemon systemd[1]: Stopping The Apache HTTP Server...
+Jan 30 01:34:50 daemon systemd[1]: apache2.service: Succeeded.
+Jan 30 01:34:50 daemon systemd[1]: Stopped The Apache HTTP Server.
+Jan 30 01:34:50 daemon systemd[1]: Starting The Apache HTTP Server...
+Jan 30 01:34:51 daemon systemd[1]: Started The Apache HTTP Server.
+Jan 30 01:39:01 daemon systemd[1]: Starting Clean php session files...
+Jan 30 01:39:02 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Jan 30 01:39:02 daemon systemd[1]: Started Clean php session files.
+Jan 30 02:09:01 daemon systemd[1]: Starting Clean php session files...
+Jan 30 02:09:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Jan 30 02:09:01 daemon systemd[1]: Started Clean php session files.
+Jan 30 02:09:09 daemon systemd[1]: Stopping The Apache HTTP Server...
+Jan 30 02:09:10 daemon systemd[1]: apache2.service: Succeeded.
+Jan 30 02:09:10 daemon systemd[1]: Stopped The Apache HTTP Server.
+Jan 30 02:09:10 daemon systemd[1]: Starting The Apache HTTP Server...
+Jan 30 02:09:11 daemon systemd[1]: Started The Apache HTTP Server.
+Jan 30 02:09:24 daemon systemd[1]: Stopping The Apache HTTP Server...
+Jan 30 02:09:24 daemon systemd[1]: apache2.service: Succeeded.
+Jan 30 02:09:24 daemon systemd[1]: Stopped The Apache HTTP Server.
+Jan 30 02:09:24 daemon systemd[1]: Starting The Apache HTTP Server...
+Jan 30 02:09:25 daemon systemd[1]: Started The Apache HTTP Server.
+Jan 30 02:20:55 daemon systemd[1]: Stopping The Apache HTTP Server...
+Jan 30 02:20:55 daemon systemd[1]: apache2.service: Succeeded.
+Jan 30 02:20:55 daemon systemd[1]: Stopped The Apache HTTP Server.
+Jan 30 02:20:55 daemon systemd[1]: Starting The Apache HTTP Server...
+Jan 30 02:20:56 daemon systemd[1]: Started The Apache HTTP Server.
+Jan 30 02:31:41 daemon systemd[1]: Starting Daily apt download activities...
+Jan 30 02:31:43 daemon dbus-daemon[403]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.1279' (uid=0 pid=25633 comm="/usr/bin/gdbus call --system --dest org.freedeskto")
+Jan 30 02:31:43 daemon systemd[1]: Starting PackageKit Daemon...
+Jan 30 02:31:43 daemon PackageKit: daemon start
+Jan 30 02:31:43 daemon dbus-daemon[403]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Jan 30 02:31:43 daemon systemd[1]: Started PackageKit Daemon.
+Jan 30 02:31:45 daemon systemd[1]: apt-daily.service: Succeeded.
+Jan 30 02:31:45 daemon systemd[1]: Started Daily apt download activities.
+Jan 30 02:36:48 daemon PackageKit: daemon quit
+Jan 30 02:36:48 daemon systemd[1]: packagekit.service: Main process exited, code=killed, status=15/TERM
+Jan 30 02:36:48 daemon systemd[1]: packagekit.service: Succeeded.
+Jan 30 02:38:28 daemon systemd[1]: Stopping The Apache HTTP Server...
+Jan 30 02:38:29 daemon systemd[1]: apache2.service: Succeeded.
+Jan 30 02:38:29 daemon systemd[1]: Stopped The Apache HTTP Server.
+Jan 30 02:38:29 daemon systemd[1]: Starting The Apache HTTP Server...
+Jan 30 02:38:30 daemon systemd[1]: Started The Apache HTTP Server.
+Jan 30 02:39:01 daemon systemd[1]: Starting Clean php session files...
+Jan 30 02:39:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Jan 30 02:39:01 daemon systemd[1]: Started Clean php session files.
+Jan 30 03:05:08 daemon systemd[1]: Stopping The Apache HTTP Server...
+Jan 30 03:05:08 daemon systemd[1]: apache2.service: Succeeded.
+Jan 30 03:05:08 daemon systemd[1]: Stopped The Apache HTTP Server.
+Jan 30 03:05:08 daemon systemd[1]: Starting The Apache HTTP Server...
+Jan 30 03:05:09 daemon systemd[1]: Started The Apache HTTP Server.
+Jan 30 03:09:01 daemon systemd[1]: Starting Clean php session files...
+Jan 30 03:09:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Jan 30 03:09:01 daemon systemd[1]: Started Clean php session files.
+Jan 30 03:09:07 daemon systemd[1]: session-c4.scope: Succeeded.
+Jan 30 03:09:17 daemon systemd[1]: Stopping User Manager for UID 0...
+Jan 30 03:09:17 daemon systemd[24516]: Stopped target Default.
+Jan 30 03:09:17 daemon systemd[24516]: Stopped target Basic System.
+Jan 30 03:09:17 daemon systemd[24516]: Stopped target Timers.
+Jan 30 03:09:17 daemon systemd[24516]: Stopped target Paths.
+Jan 30 03:09:17 daemon systemd[24516]: Stopped target Sockets.
+Jan 30 03:09:17 daemon systemd[24516]: gpg-agent-extra.socket: Succeeded.
+Jan 30 03:09:17 daemon systemd[24516]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Jan 30 03:09:17 daemon systemd[24516]: gpg-agent.socket: Succeeded.
+Jan 30 03:09:17 daemon systemd[24516]: Closed GnuPG cryptographic agent and passphrase cache.
+Jan 30 03:09:17 daemon systemd[24516]: gpg-agent-browser.socket: Succeeded.
+Jan 30 03:09:17 daemon systemd[24516]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Jan 30 03:09:17 daemon systemd[24516]: gpg-agent-ssh.socket: Succeeded.
+Jan 30 03:09:17 daemon systemd[24516]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Jan 30 03:09:17 daemon systemd[24516]: dirmngr.socket: Succeeded.
+Jan 30 03:09:17 daemon systemd[24516]: Closed GnuPG network certificate management daemon.
+Jan 30 03:09:17 daemon systemd[24516]: Reached target Shutdown.
+Jan 30 03:09:17 daemon systemd[24516]: systemd-exit.service: Succeeded.
+Jan 30 03:09:17 daemon systemd[24516]: Started Exit the Session.
+Jan 30 03:09:17 daemon systemd[24516]: Reached target Exit the Session.
+Jan 30 03:09:17 daemon systemd[1]: user@0.service: Succeeded.
+Jan 30 03:09:17 daemon systemd[1]: Stopped User Manager for UID 0.
+Jan 30 03:09:17 daemon systemd[1]: Stopping User Runtime Directory /run/user/0...
+Jan 30 03:09:17 daemon systemd[1]: run-user-0.mount: Succeeded.
+Jan 30 03:09:17 daemon systemd[1]: user-runtime-dir@0.service: Succeeded.
+Jan 30 03:09:17 daemon systemd[1]: Stopped User Runtime Directory /run/user/0.
+Jan 30 03:09:17 daemon systemd[1]: Removed slice User Slice of UID 0.
+Jan 30 03:09:59 daemon dbus-daemon[403]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.1334' (uid=0 pid=26635 comm="/usr/bin/gdbus call --system --dest org.freedeskto")
+Jan 30 03:09:59 daemon systemd[1]: Starting PackageKit Daemon...
+Jan 30 03:09:59 daemon PackageKit: daemon start
+Jan 30 03:09:59 daemon dbus-daemon[403]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Jan 30 03:09:59 daemon systemd[1]: Started PackageKit Daemon.
+Jan 30 03:10:05 daemon systemd[1]: Created slice User Slice of UID 0.
+Jan 30 03:10:05 daemon systemd[1]: Starting User Runtime Directory /run/user/0...
+Jan 30 03:10:05 daemon systemd[1]: Started User Runtime Directory /run/user/0.
+Jan 30 03:10:05 daemon systemd[1]: Starting User Manager for UID 0...
+Jan 30 03:10:05 daemon systemd[26649]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Jan 30 03:10:05 daemon systemd[26649]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Jan 30 03:10:05 daemon systemd[26649]: Reached target Paths.
+Jan 30 03:10:05 daemon systemd[26649]: Listening on GnuPG network certificate management daemon.
+Jan 30 03:10:05 daemon systemd[26649]: Listening on GnuPG cryptographic agent and passphrase cache.
+Jan 30 03:10:05 daemon systemd[26649]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Jan 30 03:10:05 daemon systemd[26649]: Reached target Sockets.
+Jan 30 03:10:05 daemon systemd[26649]: Reached target Timers.
+Jan 30 03:10:05 daemon systemd[26649]: Reached target Basic System.
+Jan 30 03:10:05 daemon systemd[1]: Started User Manager for UID 0.
+Jan 30 03:10:05 daemon systemd[1]: Started Session c5 of user root.
+Jan 30 03:10:05 daemon systemd[26649]: Reached target Default.
+Jan 30 03:10:05 daemon systemd[26649]: Startup finished in 39ms.
+Jan 30 03:15:05 daemon PackageKit: daemon quit
+Jan 30 03:15:05 daemon systemd[1]: packagekit.service: Main process exited, code=killed, status=15/TERM
+Jan 30 03:15:05 daemon systemd[1]: packagekit.service: Succeeded.
+Jan 30 03:17:43 daemon systemd[1]: Stopping The Apache HTTP Server...
+Jan 30 03:17:44 daemon systemd[1]: apache2.service: Succeeded.
+Jan 30 03:17:44 daemon systemd[1]: Stopped The Apache HTTP Server.
+Jan 30 03:17:44 daemon systemd[1]: Starting The Apache HTTP Server...
+Jan 30 03:17:46 daemon systemd[1]: Started The Apache HTTP Server.
+Jan 30 03:39:01 daemon systemd[1]: Starting Clean php session files...
+Jan 30 03:39:01 daemon systemd[1]: phpsessionclean.service: Succeeded.
+Jan 30 03:39:01 daemon systemd[1]: Started Clean php session files.
+Jan 30 03:49:00 daemon systemd[1]: Stopping The Apache HTTP Server...
+Jan 30 03:49:01 daemon systemd[1]: apache2.service: Succeeded.
+Jan 30 03:49:01 daemon systemd[1]: Stopped The Apache HTTP Server.
+Jan 30 03:49:01 daemon systemd[1]: Starting The Apache HTTP Server...
+Jan 30 03:49:02 daemon systemd[1]: Started The Apache HTTP Server.
+Jan 30 03:49:06 daemon systemd[1]: session-c5.scope: Succeeded.
+Jan 30 03:49:16 daemon systemd[1]: Stopping User Manager for UID 0...
+Jan 30 03:49:16 daemon systemd[26649]: Stopped target Default.
+Jan 30 03:49:16 daemon systemd[26649]: Stopped target Basic System.
+Jan 30 03:49:16 daemon systemd[26649]: Stopped target Timers.
+Jan 30 03:49:16 daemon systemd[26649]: Stopped target Sockets.
+Jan 30 03:49:16 daemon systemd[26649]: gpg-agent-ssh.socket: Succeeded.
+Jan 30 03:49:16 daemon systemd[26649]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Jan 30 03:49:16 daemon systemd[26649]: dirmngr.socket: Succeeded.
+Jan 30 03:49:16 daemon systemd[26649]: Closed GnuPG network certificate management daemon.
+Jan 30 03:49:16 daemon systemd[26649]: gpg-agent-extra.socket: Succeeded.
+Jan 30 03:49:16 daemon systemd[26649]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Jan 30 03:49:16 daemon systemd[26649]: Stopped target Paths.
+Jan 30 03:49:16 daemon systemd[26649]: gpg-agent.socket: Succeeded.
+Jan 30 03:49:16 daemon systemd[26649]: Closed GnuPG cryptographic agent and passphrase cache.
+Jan 30 03:49:16 daemon systemd[26649]: gpg-agent-browser.socket: Succeeded.
+Jan 30 03:49:16 daemon systemd[26649]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Jan 30 03:49:16 daemon systemd[26649]: Reached target Shutdown.
+Jan 30 03:49:16 daemon systemd[26649]: systemd-exit.service: Succeeded.
+Jan 30 03:49:16 daemon systemd[26649]: Started Exit the Session.
+Jan 30 03:49:16 daemon systemd[26649]: Reached target Exit the Session.
+Jan 30 03:49:16 daemon systemd[1]: user@0.service: Succeeded.
+Jan 30 03:49:16 daemon systemd[1]: Stopped User Manager for UID 0.
+Jan 30 03:49:16 daemon systemd[1]: Stopping User Runtime Directory /run/user/0...
+Jan 30 03:49:16 daemon systemd[1]: run-user-0.mount: Succeeded.
+Jan 30 03:49:16 daemon systemd[1]: user-runtime-dir@0.service: Succeeded.
+Jan 30 03:49:16 daemon systemd[1]: Stopped User Runtime Directory /run/user/0.
+Jan 30 03:49:16 daemon systemd[1]: Removed slice User Slice of UID 0.
+Jan 30 03:49:53 daemon systemd[1]: Created slice User Slice of UID 0.
+Jan 30 03:49:53 daemon systemd[1]: Starting User Runtime Directory /run/user/0...
+Jan 30 03:49:53 daemon systemd[1]: Started User Runtime Directory /run/user/0.
+Jan 30 03:49:53 daemon systemd[1]: Starting User Manager for UID 0...
+Jan 30 03:49:53 daemon systemd[26882]: Listening on GnuPG cryptographic agent and passphrase cache.
+Jan 30 03:49:53 daemon systemd[26882]: Reached target Paths.
+Jan 30 03:49:53 daemon systemd[26882]: Listening on GnuPG network certificate management daemon.
+Jan 30 03:49:53 daemon systemd[26882]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Jan 30 03:49:53 daemon systemd[26882]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Jan 30 03:49:53 daemon systemd[26882]: Reached target Timers.
+Jan 30 03:49:53 daemon systemd[26882]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Jan 30 03:49:53 daemon systemd[26882]: Reached target Sockets.
+Jan 30 03:49:53 daemon systemd[26882]: Reached target Basic System.
+Jan 30 03:49:53 daemon systemd[1]: Started User Manager for UID 0.
+Jan 30 03:49:53 daemon systemd[1]: Started Session c6 of user root.
+Jan 30 03:49:53 daemon systemd[26882]: Reached target Default.
+Jan 30 03:49:53 daemon systemd[26882]: Startup finished in 49ms.

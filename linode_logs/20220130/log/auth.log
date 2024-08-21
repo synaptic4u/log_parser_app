@@ -1,0 +1,201 @@
+Jan 30 00:05:01 daemon CRON[24060]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 30 00:05:01 daemon CRON[24060]: pam_unix(cron:session): session closed for user root
+Jan 30 00:09:01 daemon CRON[24063]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 30 00:09:01 daemon CRON[24063]: pam_unix(cron:session): session closed for user root
+Jan 30 00:11:38 daemon sudo:     mila : TTY=pts/0 ; PWD=/home/mila ; USER=root ; COMMAND=/usr/bin/nano /var/log/apache2/modsec_audit.log
+Jan 30 00:11:38 daemon sudo: pam_unix(sudo:session): session opened for user root by mila(uid=0)
+Jan 30 00:12:13 daemon sudo: pam_unix(sudo:session): session closed for user root
+Jan 30 00:12:31 daemon sudo:     mila : TTY=pts/0 ; PWD=/home/mila ; USER=root ; COMMAND=/usr/bin/nano /etc/modsecurity/modsecurity.conf
+Jan 30 00:12:31 daemon sudo: pam_unix(sudo:session): session opened for user root by mila(uid=0)
+Jan 30 00:14:58 daemon sudo: pam_unix(sudo:session): session closed for user root
+Jan 30 00:15:01 daemon CRON[24159]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 30 00:15:01 daemon CRON[24159]: pam_unix(cron:session): session closed for user root
+Jan 30 00:15:05 daemon sudo:     mila : TTY=pts/0 ; PWD=/home/mila ; USER=root ; COMMAND=/usr/sbin/apachectl -t
+Jan 30 00:15:05 daemon sudo: pam_unix(sudo:session): session opened for user root by mila(uid=0)
+Jan 30 00:15:05 daemon sudo: pam_unix(sudo:session): session closed for user root
+Jan 30 00:15:18 daemon sudo:     mila : TTY=pts/0 ; PWD=/home/mila ; USER=root ; COMMAND=/usr/bin/systemctl restart apache2
+Jan 30 00:15:18 daemon sudo: pam_unix(sudo:session): session opened for user root by mila(uid=0)
+Jan 30 00:15:19 daemon sudo: pam_unix(sudo:session): session closed for user root
+Jan 30 00:15:35 daemon sudo:     mila : TTY=pts/0 ; PWD=/home/mila ; USER=root ; COMMAND=/usr/bin/ls -l /var/log/apache2
+Jan 30 00:15:35 daemon sudo: pam_unix(sudo:session): session opened for user root by mila(uid=0)
+Jan 30 00:15:35 daemon sudo: pam_unix(sudo:session): session closed for user root
+Jan 30 00:15:53 daemon sudo:     mila : TTY=pts/0 ; PWD=/home/mila ; USER=root ; COMMAND=/usr/bin/nano /etc/modsecurity/modsecurity.conf
+Jan 30 00:15:53 daemon sudo: pam_unix(sudo:session): session opened for user root by mila(uid=0)
+Jan 30 00:16:37 daemon sudo: pam_unix(sudo:session): session closed for user root
+Jan 30 00:17:01 daemon CRON[24205]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 30 00:17:01 daemon CRON[24205]: pam_unix(cron:session): session closed for user root
+Jan 30 00:18:40 daemon sudo:     mila : TTY=pts/0 ; PWD=/home/mila ; USER=root ; COMMAND=/usr/bin/nano /etc/modsecurity/modsecurity.conf
+Jan 30 00:18:40 daemon sudo: pam_unix(sudo:session): session opened for user root by mila(uid=0)
+Jan 30 00:25:01 daemon CRON[24217]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 30 00:25:01 daemon CRON[24217]: pam_unix(cron:session): session closed for user root
+Jan 30 00:35:01 daemon CRON[24220]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 30 00:35:01 daemon CRON[24220]: pam_unix(cron:session): session closed for user root
+Jan 30 00:39:01 daemon CRON[24223]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 30 00:39:01 daemon CRON[24223]: pam_unix(cron:session): session closed for user root
+Jan 30 00:45:01 daemon CRON[24302]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 30 00:45:01 daemon CRON[24302]: pam_unix(cron:session): session closed for user root
+Jan 30 00:51:14 daemon sudo: pam_unix(sudo:session): session closed for user root
+Jan 30 00:54:46 daemon sudo:     mila : TTY=pts/0 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/bin/nano /etc/apache2/mods-available/security2.conf
+Jan 30 00:54:46 daemon sudo: pam_unix(sudo:session): session opened for user root by mila(uid=0)
+Jan 30 00:55:01 daemon CRON[24313]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 30 00:55:01 daemon CRON[24313]: pam_unix(cron:session): session closed for user root
+Jan 30 00:56:48 daemon sudo: pam_unix(sudo:session): session closed for user root
+Jan 30 00:57:25 daemon sudo:     mila : TTY=pts/0 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/bin/nano /etc/modsecurity/crs-setup.conf
+Jan 30 00:57:25 daemon sudo: pam_unix(sudo:session): session opened for user root by mila(uid=0)
+Jan 30 00:59:07 daemon sudo: pam_unix(sudo:session): session closed for user root
+Jan 30 00:59:43 daemon sudo:     mila : TTY=pts/0 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/bin/nano /etc/apache2/mods-available/security2.conf
+Jan 30 00:59:43 daemon sudo: pam_unix(sudo:session): session opened for user root by mila(uid=0)
+Jan 30 01:00:02 daemon sudo: pam_unix(sudo:session): session closed for user root
+Jan 30 01:00:10 daemon sudo:     mila : TTY=pts/0 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/sbin/apachectl -t
+Jan 30 01:00:10 daemon sudo: pam_unix(sudo:session): session opened for user root by mila(uid=0)
+Jan 30 01:00:10 daemon sudo: pam_unix(sudo:session): session closed for user root
+Jan 30 01:00:33 daemon sudo:     mila : TTY=pts/0 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/bin/nano /etc/apache2/mods-available/security2.conf
+Jan 30 01:00:33 daemon sudo: pam_unix(sudo:session): session opened for user root by mila(uid=0)
+Jan 30 01:00:44 daemon sudo: pam_unix(sudo:session): session closed for user root
+Jan 30 01:00:53 daemon sudo:     mila : TTY=pts/0 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/bin/nano /etc/modsecurity/crs-setup.conf
+Jan 30 01:00:53 daemon sudo: pam_unix(sudo:session): session opened for user root by mila(uid=0)
+Jan 30 01:01:03 daemon sudo: pam_unix(sudo:session): session closed for user root
+Jan 30 01:01:35 daemon sudo:     mila : TTY=pts/0 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/bin/nano /etc/apche2/apache2.conf
+Jan 30 01:01:35 daemon sudo: pam_unix(sudo:session): session opened for user root by mila(uid=0)
+Jan 30 01:01:41 daemon sudo: pam_unix(sudo:session): session closed for user root
+Jan 30 01:01:46 daemon sudo:     mila : TTY=pts/0 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/bin/nano /etc/apache2/apache2.conf
+Jan 30 01:01:46 daemon sudo: pam_unix(sudo:session): session opened for user root by mila(uid=0)
+Jan 30 01:02:24 daemon sudo: pam_unix(sudo:session): session closed for user root
+Jan 30 01:02:46 daemon sudo:     mila : TTY=pts/0 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/bin/nano /etc/apache2/sites-available/daemon.synaptic4u.co.za.conf
+Jan 30 01:02:46 daemon sudo: pam_unix(sudo:session): session opened for user root by mila(uid=0)
+Jan 30 01:02:55 daemon sudo: pam_unix(sudo:session): session closed for user root
+Jan 30 01:03:09 daemon sudo:     mila : TTY=pts/0 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/bin/nano /etc/apache2/mods-available/security2.conf
+Jan 30 01:03:09 daemon sudo: pam_unix(sudo:session): session opened for user root by mila(uid=0)
+Jan 30 01:03:21 daemon sudo: pam_unix(sudo:session): session closed for user root
+Jan 30 01:03:53 daemon sudo:     mila : TTY=pts/0 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/bin/nano /etc/modsecurity/modsecurity.conf
+Jan 30 01:03:53 daemon sudo: pam_unix(sudo:session): session opened for user root by mila(uid=0)
+Jan 30 01:04:58 daemon sudo: pam_unix(sudo:session): session closed for user root
+Jan 30 01:05:01 daemon CRON[24364]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 30 01:05:01 daemon CRON[24364]: pam_unix(cron:session): session closed for user root
+Jan 30 01:05:54 daemon sudo:     mila : TTY=pts/0 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/bin/nano /etc/apache2/mods-available/security2.conf
+Jan 30 01:05:54 daemon sudo: pam_unix(sudo:session): session opened for user root by mila(uid=0)
+Jan 30 01:06:15 daemon sudo: pam_unix(sudo:session): session closed for user root
+Jan 30 01:06:21 daemon sudo:     mila : TTY=pts/0 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/sbin/apachectl -t
+Jan 30 01:06:21 daemon sudo: pam_unix(sudo:session): session opened for user root by mila(uid=0)
+Jan 30 01:06:21 daemon sudo: pam_unix(sudo:session): session closed for user root
+Jan 30 01:06:44 daemon sudo:     mila : TTY=pts/0 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/bin/ls -la /etc/modsecurity/
+Jan 30 01:06:44 daemon sudo: pam_unix(sudo:session): session opened for user root by mila(uid=0)
+Jan 30 01:06:44 daemon sudo: pam_unix(sudo:session): session closed for user root
+Jan 30 01:07:15 daemon sudo:     mila : TTY=pts/0 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/bin/nano /etc/apache2/mods-available/security2.conf
+Jan 30 01:07:15 daemon sudo: pam_unix(sudo:session): session opened for user root by mila(uid=0)
+Jan 30 01:07:43 daemon sudo: pam_unix(sudo:session): session closed for user root
+Jan 30 01:07:48 daemon sudo:     mila : TTY=pts/0 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/sbin/apachectl -t
+Jan 30 01:07:48 daemon sudo: pam_unix(sudo:session): session opened for user root by mila(uid=0)
+Jan 30 01:07:48 daemon sudo: pam_unix(sudo:session): session closed for user root
+Jan 30 01:08:00 daemon sudo:     mila : TTY=pts/0 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/bin/systemctl restart apache2
+Jan 30 01:08:00 daemon sudo: pam_unix(sudo:session): session opened for user root by mila(uid=0)
+Jan 30 01:08:01 daemon sudo: pam_unix(sudo:session): session closed for user root
+Jan 30 01:09:01 daemon CRON[24429]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 30 01:09:01 daemon CRON[24429]: pam_unix(cron:session): session closed for user root
+Jan 30 01:15:01 daemon CRON[24509]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 30 01:15:01 daemon CRON[24509]: pam_unix(cron:session): session closed for user root
+Jan 30 01:16:19 daemon sudo:     mila : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/su
+Jan 30 01:16:19 daemon sudo: pam_unix(sudo:session): session opened for user root by mila(uid=0)
+Jan 30 01:16:19 daemon su: (to root) root on pts/0
+Jan 30 01:16:19 daemon su: pam_unix(su:session): session opened for user root by mila(uid=0)
+Jan 30 01:16:19 daemon systemd-logind[408]: New session c4 of user root.
+Jan 30 01:16:19 daemon systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Jan 30 01:17:01 daemon CRON[24528]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 30 01:17:01 daemon CRON[24528]: pam_unix(cron:session): session closed for user root
+Jan 30 01:25:01 daemon CRON[24547]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 30 01:25:01 daemon CRON[24547]: pam_unix(cron:session): session closed for user root
+Jan 30 01:35:01 daemon CRON[24610]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 30 01:35:01 daemon CRON[24610]: pam_unix(cron:session): session closed for user root
+Jan 30 01:39:01 daemon CRON[24615]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 30 01:39:01 daemon CRON[24615]: pam_unix(cron:session): session closed for user root
+Jan 30 01:45:01 daemon CRON[24693]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 30 01:45:01 daemon CRON[24693]: pam_unix(cron:session): session closed for user root
+Jan 30 01:55:02 daemon CRON[24696]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 30 01:55:02 daemon CRON[24696]: pam_unix(cron:session): session closed for user root
+Jan 30 02:05:01 daemon CRON[24711]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 30 02:05:01 daemon CRON[24711]: pam_unix(cron:session): session closed for user root
+Jan 30 02:09:01 daemon CRON[24714]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 30 02:09:01 daemon CRON[24714]: pam_unix(cron:session): session closed for user root
+Jan 30 02:15:01 daemon CRON[24873]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 30 02:15:01 daemon CRON[24873]: pam_unix(cron:session): session closed for user root
+Jan 30 02:17:01 daemon CRON[24877]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 30 02:17:01 daemon CRON[24877]: pam_unix(cron:session): session closed for user root
+Jan 30 02:25:01 daemon CRON[24924]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 30 02:25:01 daemon CRON[24924]: pam_unix(cron:session): session closed for user root
+Jan 30 02:35:01 daemon CRON[25668]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 30 02:35:01 daemon CRON[25668]: pam_unix(cron:session): session closed for user root
+Jan 30 02:39:01 daemon CRON[25715]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 30 02:39:01 daemon CRON[25715]: pam_unix(cron:session): session closed for user root
+Jan 30 02:45:01 daemon CRON[25793]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 30 02:45:01 daemon CRON[25793]: pam_unix(cron:session): session closed for user root
+Jan 30 02:55:01 daemon CRON[25811]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 30 02:55:01 daemon CRON[25811]: pam_unix(cron:session): session closed for user root
+Jan 30 03:05:01 daemon CRON[25823]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 30 03:05:01 daemon CRON[25823]: pam_unix(cron:session): session closed for user root
+Jan 30 03:09:01 daemon CRON[25893]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 30 03:09:01 daemon CRON[25893]: pam_unix(cron:session): session closed for user root
+Jan 30 03:09:07 daemon su: pam_unix(su:session): session closed for user root
+Jan 30 03:09:07 daemon sudo: pam_unix(sudo:session): session closed for user root
+Jan 30 03:09:07 daemon systemd-logind[408]: Session c4 logged out. Waiting for processes to exit.
+Jan 30 03:09:07 daemon systemd-logind[408]: Removed session c4.
+Jan 30 03:09:17 daemon systemd: pam_unix(systemd-user:session): session closed for user root
+Jan 30 03:09:23 daemon sshd[16438]: Received disconnect from 104.223.93.206 port 49526:11: disconnected by user
+Jan 30 03:09:23 daemon sshd[16438]: Disconnected from user mila 104.223.93.206 port 49526
+Jan 30 03:09:26 daemon sshd[25975]: Connection from 104.223.93.206 port 49530 on 172.104.132.106 port 22023
+Jan 30 03:09:28 daemon sshd[25975]: Accepted key ED25519 SHA256:j90dNr2pzNbzKMy3ySDvQ/pK96O93Z7doCAJ+eKMYSU found at /home/mila/.ssh/authorized_keys:1
+Jan 30 03:09:28 daemon sshd[25975]: Postponed publickey for mila from 104.223.93.206 port 49530 ssh2 [preauth]
+Jan 30 03:09:36 daemon sshd[25975]: Accepted key ED25519 SHA256:j90dNr2pzNbzKMy3ySDvQ/pK96O93Z7doCAJ+eKMYSU found at /home/mila/.ssh/authorized_keys:1
+Jan 30 03:09:36 daemon sshd[25975]: Accepted publickey for mila from 104.223.93.206 port 49530 ssh2: ED25519 SHA256:j90dNr2pzNbzKMy3ySDvQ/pK96O93Z7doCAJ+eKMYSU
+Jan 30 03:09:36 daemon sshd[25975]: User child is on pid 25977
+Jan 30 03:09:37 daemon sshd[25977]: Starting session: shell on pts/0 for mila from 104.223.93.206 port 49530 id 0
+Jan 30 03:09:57 daemon sudo:     mila : TTY=pts/0 ; PWD=/home/mila ; USER=root ; COMMAND=/usr/bin/apt-get update -y
+Jan 30 03:09:57 daemon sudo: pam_unix(sudo:session): session opened for user root by mila(uid=0)
+Jan 30 03:10:00 daemon sudo: pam_unix(sudo:session): session closed for user root
+Jan 30 03:10:05 daemon sudo:     mila : TTY=pts/0 ; PWD=/home/mila ; USER=root ; COMMAND=/usr/bin/su
+Jan 30 03:10:05 daemon sudo: pam_unix(sudo:session): session opened for user root by mila(uid=0)
+Jan 30 03:10:05 daemon su: (to root) root on pts/0
+Jan 30 03:10:05 daemon su: pam_unix(su:session): session opened for user root by mila(uid=0)
+Jan 30 03:10:05 daemon systemd-logind[408]: New session c5 of user root.
+Jan 30 03:10:05 daemon systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Jan 30 03:15:01 daemon CRON[26672]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 30 03:15:01 daemon CRON[26672]: pam_unix(cron:session): session closed for user root
+Jan 30 03:17:01 daemon CRON[26680]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 30 03:17:01 daemon CRON[26680]: pam_unix(cron:session): session closed for user root
+Jan 30 03:25:01 daemon CRON[26724]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 30 03:25:01 daemon CRON[26724]: pam_unix(cron:session): session closed for user root
+Jan 30 03:35:01 daemon CRON[26731]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 30 03:35:01 daemon CRON[26731]: pam_unix(cron:session): session closed for user root
+Jan 30 03:39:01 daemon CRON[26736]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 30 03:39:01 daemon CRON[26736]: pam_unix(cron:session): session closed for user root
+Jan 30 03:45:01 daemon CRON[26825]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 30 03:45:01 daemon CRON[26825]: pam_unix(cron:session): session closed for user root
+Jan 30 03:49:06 daemon su: pam_unix(su:session): session closed for user root
+Jan 30 03:49:06 daemon sudo: pam_unix(sudo:session): session closed for user root
+Jan 30 03:49:06 daemon systemd-logind[408]: Session c5 logged out. Waiting for processes to exit.
+Jan 30 03:49:06 daemon systemd-logind[408]: Removed session c5.
+Jan 30 03:49:12 daemon sshd[25977]: Received disconnect from 104.223.93.206 port 49530:11: disconnected by user
+Jan 30 03:49:12 daemon sshd[25977]: Disconnected from user mila 104.223.93.206 port 49530
+Jan 30 03:49:20 daemon sshd[26872]: Connection from 104.223.93.206 port 49532 on 172.104.132.106 port 22023
+Jan 30 03:49:22 daemon sshd[26872]: Accepted key ED25519 SHA256:j90dNr2pzNbzKMy3ySDvQ/pK96O93Z7doCAJ+eKMYSU found at /home/mila/.ssh/authorized_keys:1
+Jan 30 03:49:22 daemon sshd[26872]: Postponed publickey for mila from 104.223.93.206 port 49532 ssh2 [preauth]
+Jan 30 03:49:35 daemon sshd[26872]: Accepted key ED25519 SHA256:j90dNr2pzNbzKMy3ySDvQ/pK96O93Z7doCAJ+eKMYSU found at /home/mila/.ssh/authorized_keys:1
+Jan 30 03:49:35 daemon sshd[26872]: Accepted publickey for mila from 104.223.93.206 port 49532 ssh2: ED25519 SHA256:j90dNr2pzNbzKMy3ySDvQ/pK96O93Z7doCAJ+eKMYSU
+Jan 30 03:49:35 daemon sshd[26872]: User child is on pid 26874
+Jan 30 03:49:36 daemon sshd[26874]: Starting session: shell on pts/0 for mila from 104.223.93.206 port 49532 id 0
+Jan 30 03:49:53 daemon sudo:     mila : TTY=pts/0 ; PWD=/home/mila ; USER=root ; COMMAND=/usr/bin/su
+Jan 30 03:49:53 daemon sudo: pam_unix(sudo:session): session opened for user root by mila(uid=0)
+Jan 30 03:49:53 daemon su: (to root) root on pts/0
+Jan 30 03:49:53 daemon su: pam_unix(su:session): session opened for user root by mila(uid=0)
+Jan 30 03:49:53 daemon systemd-logind[408]: New session c6 of user root.
+Jan 30 03:49:53 daemon systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Jan 30 03:53:15 daemon sudo:     root : TTY=pts/0 ; PWD=/home/mila ; USER=root ; COMMAND=/usr/bin/rsync -axHAWXS --numeric-ids --info=progress2 /home/mila/.apache-modsec.alias /home/mila/linode_backup/mila_home/
+Jan 30 03:53:15 daemon sudo: pam_unix(sudo:session): session opened for user root by mila(uid=0)
+Jan 30 03:53:15 daemon sudo: pam_unix(sudo:session): session closed for user root
+Jan 30 03:53:17 daemon sudo:     root : TTY=pts/0 ; PWD=/home/mila ; USER=root ; COMMAND=/usr/bin/rsync -axHAWXS --numeric-ids --info=progress2 /home/mila/bin/ /home/mila/linode_backup/mila_home/bin/
+Jan 30 03:53:17 daemon sudo: pam_unix(sudo:session): session opened for user root by mila(uid=0)
+Jan 30 03:53:17 daemon sudo: pam_unix(sudo:session): session closed for user root
+Jan 30 03:54:34 daemon sudo:     root : TTY=pts/0 ; PWD=/home/mila ; USER=root ; COMMAND=/usr/bin/rsync -axHAWXS --numeric-ids --info=progress2 /home/mila/.apache-modsec.alias /home/mila/linode_backup/mila_home/.apache-modsec.alias
+Jan 30 03:54:34 daemon sudo: pam_unix(sudo:session): session opened for user root by mila(uid=0)
+Jan 30 03:54:34 daemon sudo: pam_unix(sudo:session): session closed for user root
+Jan 30 03:55:01 daemon CRON[26911]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 30 03:55:01 daemon CRON[26911]: pam_unix(cron:session): session closed for user root

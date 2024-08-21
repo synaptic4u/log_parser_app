@@ -1,0 +1,478 @@
+2022-02-07 18:45:04,516 fail2ban.server         [1325]: INFO    rollover performed on /var/log/fail2ban.log
+2022-02-07 19:17:41,795 fail2ban.server         [1325]: INFO    Shutdown in progress...
+2022-02-07 19:17:41,801 fail2ban.server         [1325]: INFO    Stopping all jails
+2022-02-07 19:17:41,801 fail2ban.filter         [1325]: INFO    Removed logfile: '/var/log/auth.log'
+2022-02-07 19:17:41,808 fail2ban.filter         [1325]: INFO    Removed logfile: '/var/log/apache2/error.log'
+2022-02-07 19:17:41,808 fail2ban.filter         [1325]: INFO    Removed logfile: '/var/log/apache2/daemon-error.log'
+2022-02-07 19:17:41,808 fail2ban.filter         [1325]: INFO    Removed logfile: '/var/log/apache2/access.log'
+2022-02-07 19:17:41,808 fail2ban.filter         [1325]: INFO    Removed logfile: '/var/log/apache2/daemon-access.log'
+2022-02-07 19:17:41,808 fail2ban.filter         [1325]: INFO    Removed logfile: '/var/log/apache2/other_vhosts_access.log'
+2022-02-07 19:17:41,808 fail2ban.filter         [1325]: INFO    Removed logfile: '/var/log/apache2/error.log'
+2022-02-07 19:17:41,808 fail2ban.filter         [1325]: INFO    Removed logfile: '/var/log/apache2/daemon-error.log'
+2022-02-07 19:17:41,809 fail2ban.filter         [1325]: INFO    Removed logfile: '/var/log/apache2/access.log'
+2022-02-07 19:17:41,809 fail2ban.filter         [1325]: INFO    Removed logfile: '/var/log/apache2/daemon-access.log'
+2022-02-07 19:17:41,809 fail2ban.filter         [1325]: INFO    Removed logfile: '/var/log/apache2/other_vhosts_access.log'
+2022-02-07 19:17:41,809 fail2ban.filter         [1325]: INFO    Removed logfile: '/var/log/apache2/error.log'
+2022-02-07 19:17:41,809 fail2ban.filter         [1325]: INFO    Removed logfile: '/var/log/apache2/daemon-error.log'
+2022-02-07 19:17:41,910 fail2ban.actions        [1325]: NOTICE  [apache-modsecurity] Unban 167.248.133.60
+2022-02-07 19:17:42,135 fail2ban.actions        [1325]: NOTICE  [apache-modsecurity] Unban 192.241.204.90
+2022-02-07 19:17:42,217 fail2ban.actions        [1325]: NOTICE  [apache-modsecurity] Unban 45.146.165.37
+2022-02-07 19:17:42,427 fail2ban.jail           [1325]: INFO    Jail 'sshd' stopped
+2022-02-07 19:17:42,469 fail2ban.jail           [1325]: INFO    Jail 'apache-auth' stopped
+2022-02-07 19:17:42,470 fail2ban.jail           [1325]: INFO    Jail 'apache-badbots' stopped
+2022-02-07 19:17:42,470 fail2ban.jail           [1325]: INFO    Jail 'apache-botsearch' stopped
+2022-02-07 19:17:42,482 fail2ban.jail           [1325]: INFO    Jail 'apache-fakegooglebot' stopped
+2022-02-07 19:17:42,482 fail2ban.jail           [1325]: INFO    Jail 'apache-modsecurity' stopped
+2022-02-07 19:17:42,482 fail2ban.database       [1325]: INFO    Connection to database closed.
+2022-02-07 19:17:42,482 fail2ban.server         [1325]: INFO    Exiting Fail2ban
+2022-02-07 19:18:12,102 fail2ban.server         [595]: INFO    --------------------------------------------------
+2022-02-07 19:18:12,103 fail2ban.server         [595]: INFO    Starting Fail2ban v0.10.2
+2022-02-07 19:18:12,117 fail2ban.database       [595]: INFO    Connected to fail2ban persistent database '/var/lib/fail2ban/fail2ban.sqlite3'
+2022-02-07 19:18:12,119 fail2ban.jail           [595]: INFO    Creating new jail 'sshd'
+2022-02-07 19:18:12,177 fail2ban.jail           [595]: INFO    Jail 'sshd' uses pyinotify {}
+2022-02-07 19:18:12,184 fail2ban.jail           [595]: INFO    Initiated 'pyinotify' backend
+2022-02-07 19:18:12,185 fail2ban.filter         [595]: INFO      maxLines: 1
+2022-02-07 19:18:12,248 fail2ban.server         [595]: INFO    Jail sshd is not a JournalFilter instance
+2022-02-07 19:18:12,261 fail2ban.filter         [595]: INFO    Added logfile: '/var/log/auth.log' (pos = 5551, hash = 12836d28c23d2bb62441a5a1b2896dbce83408d8)
+2022-02-07 19:18:12,265 fail2ban.filter         [595]: INFO      encoding: UTF-8
+2022-02-07 19:18:12,265 fail2ban.filter         [595]: INFO      maxRetry: 2
+2022-02-07 19:18:12,265 fail2ban.filter         [595]: INFO      findtime: 3600
+2022-02-07 19:18:12,265 fail2ban.actions        [595]: INFO      banTime: 10800
+2022-02-07 19:18:12,266 fail2ban.jail           [595]: INFO    Creating new jail 'apache-auth'
+2022-02-07 19:18:12,266 fail2ban.jail           [595]: INFO    Jail 'apache-auth' uses pyinotify {}
+2022-02-07 19:18:12,282 fail2ban.jail           [595]: INFO    Initiated 'pyinotify' backend
+2022-02-07 19:18:12,300 fail2ban.filter         [595]: INFO    Added logfile: '/var/log/apache2/error.log' (pos = 256, hash = 5ff145254d8bd6416e246292f7167687101bfc6d)
+2022-02-07 19:18:12,302 fail2ban.filter         [595]: INFO    Added logfile: '/var/log/apache2/daemon-error.log' (pos = 0, hash = da39a3ee5e6b4b0d3255bfef95601890afd80709)
+2022-02-07 19:18:12,307 fail2ban.filter         [595]: INFO      encoding: UTF-8
+2022-02-07 19:18:12,307 fail2ban.filter         [595]: INFO      maxRetry: 2
+2022-02-07 19:18:12,307 fail2ban.filter         [595]: INFO      findtime: 3600
+2022-02-07 19:18:12,307 fail2ban.actions        [595]: INFO      banTime: 10800
+2022-02-07 19:18:12,308 fail2ban.jail           [595]: INFO    Creating new jail 'apache-badbots'
+2022-02-07 19:18:12,308 fail2ban.jail           [595]: INFO    Jail 'apache-badbots' uses pyinotify {}
+2022-02-07 19:18:12,321 fail2ban.jail           [595]: INFO    Initiated 'pyinotify' backend
+2022-02-07 19:18:12,349 fail2ban.filter         [595]: INFO    Added logfile: '/var/log/apache2/access.log' (pos = 0, hash = da39a3ee5e6b4b0d3255bfef95601890afd80709)
+2022-02-07 19:18:12,352 fail2ban.filter         [595]: INFO    Added logfile: '/var/log/apache2/daemon-access.log' (pos = 0, hash = da39a3ee5e6b4b0d3255bfef95601890afd80709)
+2022-02-07 19:18:12,353 fail2ban.filter         [595]: INFO    Added logfile: '/var/log/apache2/other_vhosts_access.log' (pos = 0, hash = da39a3ee5e6b4b0d3255bfef95601890afd80709)
+2022-02-07 19:18:12,353 fail2ban.filter         [595]: INFO      encoding: UTF-8
+2022-02-07 19:18:12,354 fail2ban.filter         [595]: INFO      maxRetry: 1
+2022-02-07 19:18:12,354 fail2ban.filter         [595]: INFO      findtime: 3600
+2022-02-07 19:18:12,354 fail2ban.actions        [595]: INFO      banTime: 172800
+2022-02-07 19:18:12,360 fail2ban.jail           [595]: INFO    Creating new jail 'apache-botsearch'
+2022-02-07 19:18:12,361 fail2ban.jail           [595]: INFO    Jail 'apache-botsearch' uses pyinotify {}
+2022-02-07 19:18:12,369 fail2ban.jail           [595]: INFO    Initiated 'pyinotify' backend
+2022-02-07 19:18:12,376 fail2ban.filter         [595]: INFO    Added logfile: '/var/log/apache2/error.log' (pos = 256, hash = 5ff145254d8bd6416e246292f7167687101bfc6d)
+2022-02-07 19:18:12,381 fail2ban.filter         [595]: INFO    Added logfile: '/var/log/apache2/daemon-error.log' (pos = 0, hash = da39a3ee5e6b4b0d3255bfef95601890afd80709)
+2022-02-07 19:18:12,383 fail2ban.filter         [595]: INFO      encoding: UTF-8
+2022-02-07 19:18:12,383 fail2ban.filter         [595]: INFO      maxRetry: 2
+2022-02-07 19:18:12,383 fail2ban.filter         [595]: INFO      findtime: 3600
+2022-02-07 19:18:12,383 fail2ban.actions        [595]: INFO      banTime: 10800
+2022-02-07 19:18:12,384 fail2ban.jail           [595]: INFO    Creating new jail 'apache-fakegooglebot'
+2022-02-07 19:18:12,384 fail2ban.jail           [595]: INFO    Jail 'apache-fakegooglebot' uses pyinotify {}
+2022-02-07 19:18:12,406 fail2ban.jail           [595]: INFO    Initiated 'pyinotify' backend
+2022-02-07 19:18:12,410 fail2ban.filter         [595]: INFO    Added logfile: '/var/log/apache2/access.log' (pos = 0, hash = da39a3ee5e6b4b0d3255bfef95601890afd80709)
+2022-02-07 19:18:12,411 fail2ban.filter         [595]: INFO    Added logfile: '/var/log/apache2/daemon-access.log' (pos = 0, hash = da39a3ee5e6b4b0d3255bfef95601890afd80709)
+2022-02-07 19:18:12,411 fail2ban.filter         [595]: INFO    Added logfile: '/var/log/apache2/other_vhosts_access.log' (pos = 0, hash = da39a3ee5e6b4b0d3255bfef95601890afd80709)
+2022-02-07 19:18:12,415 fail2ban.filter         [595]: INFO      encoding: UTF-8
+2022-02-07 19:18:12,419 fail2ban.filter         [595]: INFO      maxRetry: 1
+2022-02-07 19:18:12,420 fail2ban.filter         [595]: INFO      findtime: 3600
+2022-02-07 19:18:12,420 fail2ban.actions        [595]: INFO      banTime: 10800
+2022-02-07 19:18:12,422 fail2ban.jail           [595]: INFO    Creating new jail 'apache-modsecurity'
+2022-02-07 19:18:12,422 fail2ban.jail           [595]: INFO    Jail 'apache-modsecurity' uses pyinotify {}
+2022-02-07 19:18:12,444 fail2ban.jail           [595]: INFO    Initiated 'pyinotify' backend
+2022-02-07 19:18:12,449 fail2ban.filter         [595]: INFO    Added logfile: '/var/log/apache2/error.log' (pos = 256, hash = 5ff145254d8bd6416e246292f7167687101bfc6d)
+2022-02-07 19:18:12,453 fail2ban.filter         [595]: INFO    Added logfile: '/var/log/apache2/daemon-error.log' (pos = 0, hash = da39a3ee5e6b4b0d3255bfef95601890afd80709)
+2022-02-07 19:18:12,455 fail2ban.filter         [595]: INFO      encoding: UTF-8
+2022-02-07 19:18:12,459 fail2ban.filter         [595]: INFO      maxRetry: 1
+2022-02-07 19:18:12,460 fail2ban.filter         [595]: INFO      findtime: 3600
+2022-02-07 19:18:12,461 fail2ban.actions        [595]: INFO      banTime: 10800
+2022-02-07 19:18:12,485 fail2ban.jail           [595]: INFO    Jail 'sshd' started
+2022-02-07 19:18:12,507 fail2ban.jail           [595]: INFO    Jail 'apache-auth' started
+2022-02-07 19:18:12,586 fail2ban.jail           [595]: INFO    Jail 'apache-badbots' started
+2022-02-07 19:18:12,598 fail2ban.jail           [595]: INFO    Jail 'apache-botsearch' started
+2022-02-07 19:18:12,613 fail2ban.jail           [595]: INFO    Jail 'apache-fakegooglebot' started
+2022-02-07 19:18:12,628 fail2ban.jail           [595]: INFO    Jail 'apache-modsecurity' started
+2022-02-07 19:18:13,274 fail2ban.actions        [595]: NOTICE  [apache-modsecurity] Restore Ban 167.248.133.60
+2022-02-07 19:18:14,019 fail2ban.actions        [595]: NOTICE  [apache-modsecurity] Restore Ban 192.241.204.90
+2022-02-07 19:18:14,503 fail2ban.actions        [595]: NOTICE  [apache-modsecurity] Restore Ban 45.146.165.37
+2022-02-07 19:24:51,862 fail2ban.filter         [595]: INFO    [apache-modsecurity] Found 167.248.133.44 - 2022-02-07 19:24:51
+2022-02-07 19:24:52,308 fail2ban.actions        [595]: NOTICE  [apache-modsecurity] Ban 167.248.133.44
+2022-02-07 19:24:53,718 fail2ban.filter         [595]: INFO    [apache-modsecurity] Found 167.248.133.44 - 2022-02-07 19:24:53
+2022-02-07 19:28:20,404 fail2ban.filter         [595]: INFO    [apache-modsecurity] Found 111.13.63.107 - 2022-02-07 19:28:20
+2022-02-07 19:28:20,575 fail2ban.actions        [595]: NOTICE  [apache-modsecurity] Ban 111.13.63.107
+2022-02-07 19:28:20,676 fail2ban.filter         [595]: INFO    [apache-modsecurity] Found 111.13.63.107 - 2022-02-07 19:28:20
+2022-02-07 19:28:21,617 fail2ban.filter         [595]: INFO    [apache-modsecurity] Found 111.13.63.107 - 2022-02-07 19:28:21
+2022-02-07 19:36:44,741 fail2ban.server         [595]: INFO    Shutdown in progress...
+2022-02-07 19:36:44,744 fail2ban.server         [595]: INFO    Stopping all jails
+2022-02-07 19:36:44,744 fail2ban.filter         [595]: INFO    Removed logfile: '/var/log/auth.log'
+2022-02-07 19:36:44,746 fail2ban.filter         [595]: INFO    Removed logfile: '/var/log/apache2/error.log'
+2022-02-07 19:36:44,747 fail2ban.filter         [595]: INFO    Removed logfile: '/var/log/apache2/daemon-error.log'
+2022-02-07 19:36:44,747 fail2ban.filter         [595]: INFO    Removed logfile: '/var/log/apache2/access.log'
+2022-02-07 19:36:44,747 fail2ban.filter         [595]: INFO    Removed logfile: '/var/log/apache2/daemon-access.log'
+2022-02-07 19:36:44,747 fail2ban.filter         [595]: INFO    Removed logfile: '/var/log/apache2/other_vhosts_access.log'
+2022-02-07 19:36:44,748 fail2ban.filter         [595]: INFO    Removed logfile: '/var/log/apache2/error.log'
+2022-02-07 19:36:44,748 fail2ban.filter         [595]: INFO    Removed logfile: '/var/log/apache2/daemon-error.log'
+2022-02-07 19:36:44,748 fail2ban.filter         [595]: INFO    Removed logfile: '/var/log/apache2/access.log'
+2022-02-07 19:36:44,748 fail2ban.filter         [595]: INFO    Removed logfile: '/var/log/apache2/daemon-access.log'
+2022-02-07 19:36:44,749 fail2ban.filter         [595]: INFO    Removed logfile: '/var/log/apache2/other_vhosts_access.log'
+2022-02-07 19:36:44,749 fail2ban.filter         [595]: INFO    Removed logfile: '/var/log/apache2/error.log'
+2022-02-07 19:36:44,749 fail2ban.filter         [595]: INFO    Removed logfile: '/var/log/apache2/daemon-error.log'
+2022-02-07 19:36:44,915 fail2ban.actions        [595]: NOTICE  [apache-modsecurity] Unban 167.248.133.60
+2022-02-07 19:36:45,005 fail2ban.actions        [595]: NOTICE  [apache-modsecurity] Unban 192.241.204.90
+2022-02-07 19:36:45,089 fail2ban.actions        [595]: NOTICE  [apache-modsecurity] Unban 45.146.165.37
+2022-02-07 19:36:45,168 fail2ban.actions        [595]: NOTICE  [apache-modsecurity] Unban 167.248.133.44
+2022-02-07 19:36:45,246 fail2ban.actions        [595]: NOTICE  [apache-modsecurity] Unban 111.13.63.107
+2022-02-07 19:36:45,951 fail2ban.jail           [595]: INFO    Jail 'sshd' stopped
+2022-02-07 19:36:45,952 fail2ban.jail           [595]: INFO    Jail 'apache-auth' stopped
+2022-02-07 19:36:45,952 fail2ban.jail           [595]: INFO    Jail 'apache-badbots' stopped
+2022-02-07 19:36:45,952 fail2ban.jail           [595]: INFO    Jail 'apache-botsearch' stopped
+2022-02-07 19:36:45,952 fail2ban.jail           [595]: INFO    Jail 'apache-fakegooglebot' stopped
+2022-02-07 19:36:45,953 fail2ban.jail           [595]: INFO    Jail 'apache-modsecurity' stopped
+2022-02-07 19:36:45,954 fail2ban.database       [595]: INFO    Connection to database closed.
+2022-02-07 19:36:45,955 fail2ban.server         [595]: INFO    Exiting Fail2ban
+2022-02-07 19:38:36,712 fail2ban.server         [1711]: INFO    --------------------------------------------------
+2022-02-07 19:38:36,713 fail2ban.server         [1711]: INFO    Starting Fail2ban v0.10.2
+2022-02-07 19:38:36,716 fail2ban.database       [1711]: INFO    Connected to fail2ban persistent database '/var/lib/fail2ban/fail2ban.sqlite3'
+2022-02-07 19:38:36,717 fail2ban.jail           [1711]: INFO    Creating new jail 'sshd'
+2022-02-07 19:38:36,727 fail2ban.jail           [1711]: INFO    Jail 'sshd' uses pyinotify {}
+2022-02-07 19:38:36,729 fail2ban.jail           [1711]: INFO    Initiated 'pyinotify' backend
+2022-02-07 19:38:36,729 fail2ban.filter         [1711]: INFO      maxLines: 1
+2022-02-07 19:38:36,747 fail2ban.server         [1711]: INFO    Jail sshd is not a JournalFilter instance
+2022-02-07 19:38:36,748 fail2ban.filter         [1711]: INFO    Added logfile: '/var/log/auth.log' (pos = 9588, hash = 12836d28c23d2bb62441a5a1b2896dbce83408d8)
+2022-02-07 19:38:36,750 fail2ban.filter         [1711]: INFO      encoding: UTF-8
+2022-02-07 19:38:36,750 fail2ban.filter         [1711]: INFO      maxRetry: 1
+2022-02-07 19:38:36,750 fail2ban.filter         [1711]: INFO      findtime: 3600
+2022-02-07 19:38:36,751 fail2ban.actions        [1711]: INFO      banTime: 86400
+2022-02-07 19:38:36,751 fail2ban.jail           [1711]: INFO    Creating new jail 'apache-auth'
+2022-02-07 19:38:36,751 fail2ban.jail           [1711]: INFO    Jail 'apache-auth' uses pyinotify {}
+2022-02-07 19:38:36,753 fail2ban.jail           [1711]: INFO    Initiated 'pyinotify' backend
+2022-02-07 19:38:36,758 fail2ban.filter         [1711]: INFO    Added logfile: '/var/log/apache2/error.log' (pos = 1701, hash = 5ff145254d8bd6416e246292f7167687101bfc6d)
+2022-02-07 19:38:36,758 fail2ban.filter         [1711]: INFO    Added logfile: '/var/log/apache2/daemon-error.log' (pos = 11844, hash = 6defc965652ddcfc61b2b301cc5d779a929bd2cf)
+2022-02-07 19:38:36,758 fail2ban.filter         [1711]: INFO      encoding: UTF-8
+2022-02-07 19:38:36,758 fail2ban.filter         [1711]: INFO      maxRetry: 1
+2022-02-07 19:38:36,758 fail2ban.filter         [1711]: INFO      findtime: 3600
+2022-02-07 19:38:36,759 fail2ban.actions        [1711]: INFO      banTime: 86400
+2022-02-07 19:38:36,759 fail2ban.jail           [1711]: INFO    Creating new jail 'apache-badbots'
+2022-02-07 19:38:36,759 fail2ban.jail           [1711]: INFO    Jail 'apache-badbots' uses pyinotify {}
+2022-02-07 19:38:36,761 fail2ban.jail           [1711]: INFO    Initiated 'pyinotify' backend
+2022-02-07 19:38:36,769 fail2ban.filter         [1711]: INFO    Added logfile: '/var/log/apache2/access.log' (pos = 0, hash = da39a3ee5e6b4b0d3255bfef95601890afd80709)
+2022-02-07 19:38:36,769 fail2ban.filter         [1711]: INFO    Added logfile: '/var/log/apache2/daemon-access.log' (pos = 3175, hash = f1ce8a536af7c2514e0422d9c56b2e09784f4e5b)
+2022-02-07 19:38:36,770 fail2ban.filter         [1711]: INFO    Added logfile: '/var/log/apache2/other_vhosts_access.log' (pos = 0, hash = da39a3ee5e6b4b0d3255bfef95601890afd80709)
+2022-02-07 19:38:36,770 fail2ban.filter         [1711]: INFO      encoding: UTF-8
+2022-02-07 19:38:36,770 fail2ban.filter         [1711]: INFO      maxRetry: 1
+2022-02-07 19:38:36,770 fail2ban.filter         [1711]: INFO      findtime: 3600
+2022-02-07 19:38:36,770 fail2ban.actions        [1711]: INFO      banTime: 172800
+2022-02-07 19:38:36,771 fail2ban.jail           [1711]: INFO    Creating new jail 'apache-botsearch'
+2022-02-07 19:38:36,771 fail2ban.jail           [1711]: INFO    Jail 'apache-botsearch' uses pyinotify {}
+2022-02-07 19:38:36,774 fail2ban.jail           [1711]: INFO    Initiated 'pyinotify' backend
+2022-02-07 19:38:36,776 fail2ban.filter         [1711]: INFO    Added logfile: '/var/log/apache2/error.log' (pos = 1701, hash = 5ff145254d8bd6416e246292f7167687101bfc6d)
+2022-02-07 19:38:36,777 fail2ban.filter         [1711]: INFO    Added logfile: '/var/log/apache2/daemon-error.log' (pos = 11844, hash = 6defc965652ddcfc61b2b301cc5d779a929bd2cf)
+2022-02-07 19:38:36,777 fail2ban.filter         [1711]: INFO      encoding: UTF-8
+2022-02-07 19:38:36,777 fail2ban.filter         [1711]: INFO      maxRetry: 2
+2022-02-07 19:38:36,777 fail2ban.filter         [1711]: INFO      findtime: 3600
+2022-02-07 19:38:36,777 fail2ban.actions        [1711]: INFO      banTime: 86400
+2022-02-07 19:38:36,778 fail2ban.jail           [1711]: INFO    Creating new jail 'apache-fakegooglebot'
+2022-02-07 19:38:36,778 fail2ban.jail           [1711]: INFO    Jail 'apache-fakegooglebot' uses pyinotify {}
+2022-02-07 19:38:36,780 fail2ban.jail           [1711]: INFO    Initiated 'pyinotify' backend
+2022-02-07 19:38:36,781 fail2ban.filter         [1711]: INFO    Added logfile: '/var/log/apache2/access.log' (pos = 0, hash = da39a3ee5e6b4b0d3255bfef95601890afd80709)
+2022-02-07 19:38:36,781 fail2ban.filter         [1711]: INFO    Added logfile: '/var/log/apache2/daemon-access.log' (pos = 3175, hash = f1ce8a536af7c2514e0422d9c56b2e09784f4e5b)
+2022-02-07 19:38:36,782 fail2ban.filter         [1711]: INFO    Added logfile: '/var/log/apache2/other_vhosts_access.log' (pos = 0, hash = da39a3ee5e6b4b0d3255bfef95601890afd80709)
+2022-02-07 19:38:36,782 fail2ban.filter         [1711]: INFO      encoding: UTF-8
+2022-02-07 19:38:36,782 fail2ban.filter         [1711]: INFO      maxRetry: 1
+2022-02-07 19:38:36,782 fail2ban.filter         [1711]: INFO      findtime: 3600
+2022-02-07 19:38:36,782 fail2ban.actions        [1711]: INFO      banTime: 86400
+2022-02-07 19:38:36,783 fail2ban.jail           [1711]: INFO    Creating new jail 'apache-modsecurity'
+2022-02-07 19:38:36,783 fail2ban.jail           [1711]: INFO    Jail 'apache-modsecurity' uses pyinotify {}
+2022-02-07 19:38:36,784 fail2ban.jail           [1711]: INFO    Initiated 'pyinotify' backend
+2022-02-07 19:38:36,786 fail2ban.filter         [1711]: INFO    Added logfile: '/var/log/apache2/error.log' (pos = 1701, hash = 5ff145254d8bd6416e246292f7167687101bfc6d)
+2022-02-07 19:38:36,787 fail2ban.filter         [1711]: INFO    Added logfile: '/var/log/apache2/daemon-error.log' (pos = 11844, hash = 6defc965652ddcfc61b2b301cc5d779a929bd2cf)
+2022-02-07 19:38:36,787 fail2ban.filter         [1711]: INFO      encoding: UTF-8
+2022-02-07 19:38:36,787 fail2ban.filter         [1711]: INFO      maxRetry: 1
+2022-02-07 19:38:36,787 fail2ban.filter         [1711]: INFO      findtime: 3600
+2022-02-07 19:38:36,787 fail2ban.actions        [1711]: INFO      banTime: 86400
+2022-02-07 19:38:36,788 fail2ban.jail           [1711]: INFO    Jail 'sshd' started
+2022-02-07 19:38:36,789 fail2ban.jail           [1711]: INFO    Jail 'apache-auth' started
+2022-02-07 19:38:36,797 fail2ban.jail           [1711]: INFO    Jail 'apache-badbots' started
+2022-02-07 19:38:36,799 fail2ban.jail           [1711]: INFO    Jail 'apache-botsearch' started
+2022-02-07 19:38:36,803 fail2ban.jail           [1711]: INFO    Jail 'apache-fakegooglebot' started
+2022-02-07 19:38:36,806 fail2ban.jail           [1711]: INFO    Jail 'apache-modsecurity' started
+2022-02-07 19:38:36,940 fail2ban.actions        [1711]: NOTICE  [apache-modsecurity] Restore Ban 103.133.105.127
+2022-02-07 19:38:37,036 fail2ban.actions        [1711]: NOTICE  [apache-modsecurity] Restore Ban 103.153.76.212
+2022-02-07 19:38:37,129 fail2ban.actions        [1711]: NOTICE  [apache-modsecurity] Restore Ban 109.237.103.123
+2022-02-07 19:38:37,217 fail2ban.actions        [1711]: NOTICE  [apache-modsecurity] Restore Ban 109.237.103.9
+2022-02-07 19:38:37,321 fail2ban.actions        [1711]: NOTICE  [apache-modsecurity] Restore Ban 111.13.63.107
+2022-02-07 19:38:37,419 fail2ban.actions        [1711]: NOTICE  [apache-modsecurity] Restore Ban 148.251.173.52
+2022-02-07 19:38:37,516 fail2ban.actions        [1711]: NOTICE  [apache-modsecurity] Restore Ban 161.35.86.181
+2022-02-07 19:38:37,615 fail2ban.actions        [1711]: NOTICE  [apache-modsecurity] Restore Ban 167.248.133.44
+2022-02-07 19:38:37,707 fail2ban.actions        [1711]: NOTICE  [apache-modsecurity] Restore Ban 167.248.133.60
+2022-02-07 19:38:37,798 fail2ban.actions        [1711]: NOTICE  [apache-modsecurity] Restore Ban 184.105.139.68
+2022-02-07 19:38:37,898 fail2ban.actions        [1711]: NOTICE  [apache-modsecurity] Restore Ban 185.100.87.136
+2022-02-07 19:38:37,990 fail2ban.actions        [1711]: NOTICE  [apache-modsecurity] Restore Ban 192.241.204.90
+2022-02-07 19:38:38,081 fail2ban.actions        [1711]: NOTICE  [apache-modsecurity] Restore Ban 192.241.208.5
+2022-02-07 19:38:38,180 fail2ban.actions        [1711]: NOTICE  [apache-modsecurity] Restore Ban 222.186.138.137
+2022-02-07 19:38:38,275 fail2ban.actions        [1711]: NOTICE  [apache-modsecurity] Restore Ban 34.140.248.32
+2022-02-07 19:38:38,367 fail2ban.actions        [1711]: NOTICE  [apache-modsecurity] Restore Ban 45.146.165.37
+2022-02-07 19:38:38,463 fail2ban.actions        [1711]: NOTICE  [apache-modsecurity] Restore Ban 86.5.55.145
+2022-02-07 19:44:43,311 fail2ban.server         [1711]: INFO    Shutdown in progress...
+2022-02-07 19:44:43,312 fail2ban.server         [1711]: INFO    Stopping all jails
+2022-02-07 19:44:43,312 fail2ban.filter         [1711]: INFO    Removed logfile: '/var/log/auth.log'
+2022-02-07 19:44:43,313 fail2ban.filter         [1711]: INFO    Removed logfile: '/var/log/apache2/error.log'
+2022-02-07 19:44:43,313 fail2ban.filter         [1711]: INFO    Removed logfile: '/var/log/apache2/daemon-error.log'
+2022-02-07 19:44:43,313 fail2ban.filter         [1711]: INFO    Removed logfile: '/var/log/apache2/access.log'
+2022-02-07 19:44:43,313 fail2ban.filter         [1711]: INFO    Removed logfile: '/var/log/apache2/daemon-access.log'
+2022-02-07 19:44:43,314 fail2ban.filter         [1711]: INFO    Removed logfile: '/var/log/apache2/other_vhosts_access.log'
+2022-02-07 19:44:43,314 fail2ban.filter         [1711]: INFO    Removed logfile: '/var/log/apache2/error.log'
+2022-02-07 19:44:43,314 fail2ban.filter         [1711]: INFO    Removed logfile: '/var/log/apache2/daemon-error.log'
+2022-02-07 19:44:43,314 fail2ban.filter         [1711]: INFO    Removed logfile: '/var/log/apache2/access.log'
+2022-02-07 19:44:43,314 fail2ban.filter         [1711]: INFO    Removed logfile: '/var/log/apache2/daemon-access.log'
+2022-02-07 19:44:43,314 fail2ban.filter         [1711]: INFO    Removed logfile: '/var/log/apache2/other_vhosts_access.log'
+2022-02-07 19:44:43,328 fail2ban.filter         [1711]: INFO    Removed logfile: '/var/log/apache2/error.log'
+2022-02-07 19:44:43,328 fail2ban.filter         [1711]: INFO    Removed logfile: '/var/log/apache2/daemon-error.log'
+2022-02-07 19:44:43,625 fail2ban.actions        [1711]: NOTICE  [apache-modsecurity] Unban 103.133.105.127
+2022-02-07 19:44:43,739 fail2ban.actions        [1711]: NOTICE  [apache-modsecurity] Unban 103.153.76.212
+2022-02-07 19:44:43,829 fail2ban.actions        [1711]: NOTICE  [apache-modsecurity] Unban 109.237.103.123
+2022-02-07 19:44:43,912 fail2ban.actions        [1711]: NOTICE  [apache-modsecurity] Unban 109.237.103.9
+2022-02-07 19:44:44,001 fail2ban.actions        [1711]: NOTICE  [apache-modsecurity] Unban 111.13.63.107
+2022-02-07 19:44:44,091 fail2ban.actions        [1711]: NOTICE  [apache-modsecurity] Unban 148.251.173.52
+2022-02-07 19:44:44,179 fail2ban.actions        [1711]: NOTICE  [apache-modsecurity] Unban 161.35.86.181
+2022-02-07 19:44:44,274 fail2ban.actions        [1711]: NOTICE  [apache-modsecurity] Unban 167.248.133.44
+2022-02-07 19:44:44,366 fail2ban.actions        [1711]: NOTICE  [apache-modsecurity] Unban 167.248.133.60
+2022-02-07 19:44:44,452 fail2ban.actions        [1711]: NOTICE  [apache-modsecurity] Unban 184.105.139.68
+2022-02-07 19:44:44,533 fail2ban.actions        [1711]: NOTICE  [apache-modsecurity] Unban 185.100.87.136
+2022-02-07 19:44:44,545 fail2ban.jail           [1711]: INFO    Jail 'sshd' stopped
+2022-02-07 19:44:44,546 fail2ban.jail           [1711]: INFO    Jail 'apache-auth' stopped
+2022-02-07 19:44:44,546 fail2ban.jail           [1711]: INFO    Jail 'apache-badbots' stopped
+2022-02-07 19:44:44,546 fail2ban.jail           [1711]: INFO    Jail 'apache-botsearch' stopped
+2022-02-07 19:44:44,546 fail2ban.jail           [1711]: INFO    Jail 'apache-fakegooglebot' stopped
+2022-02-07 19:44:44,647 fail2ban.actions        [1711]: NOTICE  [apache-modsecurity] Unban 192.241.204.90
+2022-02-07 19:44:44,758 fail2ban.actions        [1711]: NOTICE  [apache-modsecurity] Unban 192.241.208.5
+2022-02-07 19:44:44,934 fail2ban.actions        [1711]: NOTICE  [apache-modsecurity] Unban 222.186.138.137
+2022-02-07 19:44:45,016 fail2ban.actions        [1711]: NOTICE  [apache-modsecurity] Unban 34.140.248.32
+2022-02-07 19:44:45,096 fail2ban.actions        [1711]: NOTICE  [apache-modsecurity] Unban 45.146.165.37
+2022-02-07 19:44:45,173 fail2ban.actions        [1711]: NOTICE  [apache-modsecurity] Unban 86.5.55.145
+2022-02-07 19:44:45,274 fail2ban.jail           [1711]: INFO    Jail 'apache-modsecurity' stopped
+2022-02-07 19:44:45,274 fail2ban.database       [1711]: INFO    Connection to database closed.
+2022-02-07 19:44:45,274 fail2ban.server         [1711]: INFO    Exiting Fail2ban
+2022-02-07 19:44:45,390 fail2ban.server         [2688]: INFO    --------------------------------------------------
+2022-02-07 19:44:45,390 fail2ban.server         [2688]: INFO    Starting Fail2ban v0.10.2
+2022-02-07 19:44:45,397 fail2ban.database       [2688]: INFO    Connected to fail2ban persistent database '/var/lib/fail2ban/fail2ban.sqlite3'
+2022-02-07 19:44:45,398 fail2ban.jail           [2688]: INFO    Creating new jail 'sshd'
+2022-02-07 19:44:45,408 fail2ban.jail           [2688]: INFO    Jail 'sshd' uses pyinotify {}
+2022-02-07 19:44:45,409 fail2ban.jail           [2688]: INFO    Initiated 'pyinotify' backend
+2022-02-07 19:44:45,409 fail2ban.filter         [2688]: INFO      maxLines: 1
+2022-02-07 19:44:45,427 fail2ban.server         [2688]: INFO    Jail sshd is not a JournalFilter instance
+2022-02-07 19:44:45,428 fail2ban.filter         [2688]: INFO    Added logfile: '/var/log/auth.log' (pos = 14343, hash = 12836d28c23d2bb62441a5a1b2896dbce83408d8)
+2022-02-07 19:44:45,430 fail2ban.filter         [2688]: INFO      encoding: UTF-8
+2022-02-07 19:44:45,430 fail2ban.filter         [2688]: INFO      maxRetry: 1
+2022-02-07 19:44:45,430 fail2ban.filter         [2688]: INFO      findtime: 3600
+2022-02-07 19:44:45,430 fail2ban.actions        [2688]: INFO      banTime: 86400
+2022-02-07 19:44:45,431 fail2ban.jail           [2688]: INFO    Creating new jail 'apache-auth'
+2022-02-07 19:44:45,431 fail2ban.jail           [2688]: INFO    Jail 'apache-auth' uses pyinotify {}
+2022-02-07 19:44:45,433 fail2ban.jail           [2688]: INFO    Initiated 'pyinotify' backend
+2022-02-07 19:44:45,437 fail2ban.filter         [2688]: INFO    Added logfile: '/var/log/apache2/error.log' (pos = 1701, hash = 5ff145254d8bd6416e246292f7167687101bfc6d)
+2022-02-07 19:44:45,438 fail2ban.filter         [2688]: INFO    Added logfile: '/var/log/apache2/daemon-error.log' (pos = 11844, hash = 6defc965652ddcfc61b2b301cc5d779a929bd2cf)
+2022-02-07 19:44:45,438 fail2ban.filter         [2688]: INFO      encoding: UTF-8
+2022-02-07 19:44:45,438 fail2ban.filter         [2688]: INFO      maxRetry: 1
+2022-02-07 19:44:45,438 fail2ban.filter         [2688]: INFO      findtime: 3600
+2022-02-07 19:44:45,438 fail2ban.actions        [2688]: INFO      banTime: 86400
+2022-02-07 19:44:45,439 fail2ban.jail           [2688]: INFO    Creating new jail 'apache-badbots'
+2022-02-07 19:44:45,439 fail2ban.jail           [2688]: INFO    Jail 'apache-badbots' uses pyinotify {}
+2022-02-07 19:44:45,440 fail2ban.jail           [2688]: INFO    Initiated 'pyinotify' backend
+2022-02-07 19:44:45,447 fail2ban.filter         [2688]: INFO    Added logfile: '/var/log/apache2/access.log' (pos = 0, hash = da39a3ee5e6b4b0d3255bfef95601890afd80709)
+2022-02-07 19:44:45,447 fail2ban.filter         [2688]: INFO    Added logfile: '/var/log/apache2/daemon-access.log' (pos = 3175, hash = f1ce8a536af7c2514e0422d9c56b2e09784f4e5b)
+2022-02-07 19:44:45,448 fail2ban.filter         [2688]: INFO    Added logfile: '/var/log/apache2/other_vhosts_access.log' (pos = 0, hash = da39a3ee5e6b4b0d3255bfef95601890afd80709)
+2022-02-07 19:44:45,448 fail2ban.filter         [2688]: INFO      encoding: UTF-8
+2022-02-07 19:44:45,448 fail2ban.filter         [2688]: INFO      maxRetry: 1
+2022-02-07 19:44:45,448 fail2ban.filter         [2688]: INFO      findtime: 3600
+2022-02-07 19:44:45,448 fail2ban.actions        [2688]: INFO      banTime: 172800
+2022-02-07 19:44:45,449 fail2ban.jail           [2688]: INFO    Creating new jail 'apache-botsearch'
+2022-02-07 19:44:45,449 fail2ban.jail           [2688]: INFO    Jail 'apache-botsearch' uses pyinotify {}
+2022-02-07 19:44:45,450 fail2ban.jail           [2688]: INFO    Initiated 'pyinotify' backend
+2022-02-07 19:44:45,453 fail2ban.filter         [2688]: INFO    Added logfile: '/var/log/apache2/error.log' (pos = 1701, hash = 5ff145254d8bd6416e246292f7167687101bfc6d)
+2022-02-07 19:44:45,453 fail2ban.filter         [2688]: INFO    Added logfile: '/var/log/apache2/daemon-error.log' (pos = 11844, hash = 6defc965652ddcfc61b2b301cc5d779a929bd2cf)
+2022-02-07 19:44:45,453 fail2ban.filter         [2688]: INFO      encoding: UTF-8
+2022-02-07 19:44:45,453 fail2ban.filter         [2688]: INFO      maxRetry: 2
+2022-02-07 19:44:45,454 fail2ban.filter         [2688]: INFO      findtime: 3600
+2022-02-07 19:44:45,454 fail2ban.actions        [2688]: INFO      banTime: 86400
+2022-02-07 19:44:45,454 fail2ban.jail           [2688]: INFO    Creating new jail 'apache-fakegooglebot'
+2022-02-07 19:44:45,454 fail2ban.jail           [2688]: INFO    Jail 'apache-fakegooglebot' uses pyinotify {}
+2022-02-07 19:44:45,456 fail2ban.jail           [2688]: INFO    Initiated 'pyinotify' backend
+2022-02-07 19:44:45,457 fail2ban.filter         [2688]: INFO    Added logfile: '/var/log/apache2/access.log' (pos = 0, hash = da39a3ee5e6b4b0d3255bfef95601890afd80709)
+2022-02-07 19:44:45,457 fail2ban.filter         [2688]: INFO    Added logfile: '/var/log/apache2/daemon-access.log' (pos = 3175, hash = f1ce8a536af7c2514e0422d9c56b2e09784f4e5b)
+2022-02-07 19:44:45,458 fail2ban.filter         [2688]: INFO    Added logfile: '/var/log/apache2/other_vhosts_access.log' (pos = 0, hash = da39a3ee5e6b4b0d3255bfef95601890afd80709)
+2022-02-07 19:44:45,458 fail2ban.filter         [2688]: INFO      encoding: UTF-8
+2022-02-07 19:44:45,458 fail2ban.filter         [2688]: INFO      maxRetry: 1
+2022-02-07 19:44:45,458 fail2ban.filter         [2688]: INFO      findtime: 3600
+2022-02-07 19:44:45,458 fail2ban.actions        [2688]: INFO      banTime: 86400
+2022-02-07 19:44:45,459 fail2ban.jail           [2688]: INFO    Creating new jail 'apache-modsecurity'
+2022-02-07 19:44:45,459 fail2ban.jail           [2688]: INFO    Jail 'apache-modsecurity' uses pyinotify {}
+2022-02-07 19:44:45,461 fail2ban.jail           [2688]: INFO    Initiated 'pyinotify' backend
+2022-02-07 19:44:45,463 fail2ban.filter         [2688]: INFO    Added logfile: '/var/log/apache2/error.log' (pos = 1701, hash = 5ff145254d8bd6416e246292f7167687101bfc6d)
+2022-02-07 19:44:45,463 fail2ban.filter         [2688]: INFO    Added logfile: '/var/log/apache2/daemon-error.log' (pos = 11844, hash = 6defc965652ddcfc61b2b301cc5d779a929bd2cf)
+2022-02-07 19:44:45,463 fail2ban.filter         [2688]: INFO      encoding: UTF-8
+2022-02-07 19:44:45,463 fail2ban.filter         [2688]: INFO      maxRetry: 1
+2022-02-07 19:44:45,464 fail2ban.filter         [2688]: INFO      findtime: 3600
+2022-02-07 19:44:45,464 fail2ban.actions        [2688]: INFO      banTime: 86400
+2022-02-07 19:44:45,465 fail2ban.jail           [2688]: INFO    Jail 'sshd' started
+2022-02-07 19:44:45,473 fail2ban.jail           [2688]: INFO    Jail 'apache-auth' started
+2022-02-07 19:44:45,476 fail2ban.jail           [2688]: INFO    Jail 'apache-badbots' started
+2022-02-07 19:44:45,479 fail2ban.jail           [2688]: INFO    Jail 'apache-botsearch' started
+2022-02-07 19:44:45,484 fail2ban.jail           [2688]: INFO    Jail 'apache-fakegooglebot' started
+2022-02-07 19:44:45,486 fail2ban.jail           [2688]: INFO    Jail 'apache-modsecurity' started
+2022-02-07 19:44:45,598 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Restore Ban 103.133.105.127
+2022-02-07 19:44:45,700 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Restore Ban 103.153.76.212
+2022-02-07 19:44:45,876 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Restore Ban 109.237.103.123
+2022-02-07 19:44:45,970 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Restore Ban 109.237.103.9
+2022-02-07 19:44:46,078 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Restore Ban 111.13.63.107
+2022-02-07 19:44:46,178 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Restore Ban 148.251.173.52
+2022-02-07 19:44:46,268 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Restore Ban 161.35.86.181
+2022-02-07 19:44:46,360 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Restore Ban 167.248.133.44
+2022-02-07 19:44:46,454 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Restore Ban 167.248.133.60
+2022-02-07 19:44:46,541 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Restore Ban 184.105.139.68
+2022-02-07 19:44:46,634 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Restore Ban 185.100.87.136
+2022-02-07 19:44:46,725 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Restore Ban 192.241.204.90
+2022-02-07 19:44:46,959 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Restore Ban 192.241.208.5
+2022-02-07 19:44:47,051 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Restore Ban 222.186.138.137
+2022-02-07 19:44:47,140 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Restore Ban 34.140.248.32
+2022-02-07 19:44:47,227 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Restore Ban 45.146.165.37
+2022-02-07 19:44:47,317 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Restore Ban 86.5.55.145
+2022-02-07 19:49:13,918 fail2ban.filter         [2688]: INFO    [apache-modsecurity] Found 217.138.254.70 - 2022-02-07 19:49:13
+2022-02-07 19:49:13,931 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Ban 217.138.254.70
+2022-02-07 19:58:48,125 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Unban 185.100.87.136
+2022-02-07 20:10:01,066 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Unban 86.5.55.145
+2022-02-07 20:20:25,951 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Unban 45.146.165.37
+2022-02-07 21:23:37,089 fail2ban.filter         [2688]: INFO    [apache-modsecurity] Found 164.160.27.223 - 2022-02-07 21:23:37
+2022-02-07 21:23:37,093 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Ban 164.160.27.223
+2022-02-07 21:41:15,770 fail2ban.filter         [2688]: INFO    [apache-modsecurity] Found 175.100.20.226 - 2022-02-07 21:41:15
+2022-02-07 21:41:16,276 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Ban 175.100.20.226
+2022-02-07 21:41:16,780 fail2ban.filter         [2688]: INFO    [apache-modsecurity] Found 175.100.20.226 - 2022-02-07 21:41:16
+2022-02-07 21:49:03,420 fail2ban.filter         [2688]: INFO    [apache-modsecurity] Found 162.222.198.8 - 2022-02-07 21:49:03
+2022-02-07 21:49:03,634 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Ban 162.222.198.8
+2022-02-07 21:57:34,308 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Unban 109.237.103.123
+2022-02-07 21:59:44,357 fail2ban.filter         [2688]: INFO    [apache-auth] Found 155.94.216.11 - 2022-02-07 21:59:44
+2022-02-07 21:59:44,872 fail2ban.actions        [2688]: NOTICE  [apache-auth] Ban 155.94.216.11
+2022-02-07 22:13:48,425 fail2ban.filter         [2688]: INFO    [apache-modsecurity] Found 45.146.165.37 - 2022-02-07 22:13:48
+2022-02-07 22:13:48,902 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Ban 45.146.165.37
+2022-02-07 22:18:35,171 fail2ban.filter         [2688]: INFO    [apache-modsecurity] Found 216.131.111.131 - 2022-02-07 22:18:35
+2022-02-07 22:18:35,398 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Ban 216.131.111.131
+2022-02-07 23:38:17,751 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Unban 109.237.103.9
+2022-02-07 23:49:41,965 fail2ban.filter         [2688]: INFO    [apache-modsecurity] Found 115.56.142.234 - 2022-02-07 23:49:41
+2022-02-07 23:49:42,687 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Ban 115.56.142.234
+2022-02-08 00:13:06,561 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Unban 161.35.86.181
+2022-02-08 01:09:00,866 fail2ban.filter         [2688]: INFO    [apache-modsecurity] Found 192.241.211.155 - 2022-02-08 01:09:00
+2022-02-08 01:09:01,033 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Ban 192.241.211.155
+2022-02-08 02:26:40,701 fail2ban.filter         [2688]: INFO    [apache-modsecurity] Found 167.248.133.118 - 2022-02-08 02:26:40
+2022-02-08 02:26:41,224 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Ban 167.248.133.118
+2022-02-08 02:39:54,817 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Unban 148.251.173.52
+2022-02-08 02:39:55,051 fail2ban.filter         [2688]: INFO    [apache-modsecurity] Found 2.57.122.80 - 2022-02-08 02:39:55
+2022-02-08 02:39:55,197 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Ban 2.57.122.80
+2022-02-08 02:43:56,478 fail2ban.filter         [2688]: INFO    [apache-modsecurity] Found 20.114.57.162 - 2022-02-08 02:43:56
+2022-02-08 02:43:56,885 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Ban 20.114.57.162
+2022-02-08 02:43:58,430 fail2ban.filter         [2688]: INFO    [apache-modsecurity] Found 20.114.57.162 - 2022-02-08 02:43:58
+2022-02-08 06:27:50,182 fail2ban.filter         [2688]: INFO    [apache-modsecurity] Found 103.41.36.214 - 2022-02-08 06:27:50
+2022-02-08 06:27:50,381 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Ban 103.41.36.214
+2022-02-08 06:31:07,285 fail2ban.filter         [2688]: INFO    [apache-modsecurity] Found 192.241.211.11 - 2022-02-08 06:31:06
+2022-02-08 06:31:07,373 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Ban 192.241.211.11
+2022-02-08 06:31:16,925 fail2ban.filter         [2688]: INFO    [apache-modsecurity] Found 192.241.211.143 - 2022-02-08 06:31:16
+2022-02-08 06:31:17,137 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Ban 192.241.211.143
+2022-02-08 06:32:54,910 fail2ban.filter         [2688]: INFO    [apache-modsecurity] Found 192.241.210.61 - 2022-02-08 06:32:54
+2022-02-08 06:32:55,710 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Ban 192.241.210.61
+2022-02-08 06:37:32,488 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Unban 222.186.138.137
+2022-02-08 07:22:15,953 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Unban 103.133.105.127
+2022-02-08 08:54:00,499 fail2ban.filter         [2688]: INFO    [apache-modsecurity] Found 162.142.125.10 - 2022-02-08 08:54:00
+2022-02-08 08:54:00,821 fail2ban.filter         [2688]: INFO    [apache-modsecurity] Found 162.142.125.10 - 2022-02-08 08:54:00
+2022-02-08 08:54:00,928 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Ban 162.142.125.10
+2022-02-08 09:25:25,775 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Unban 103.153.76.212
+2022-02-08 09:27:14,013 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Unban 34.140.248.32
+2022-02-08 09:28:33,352 fail2ban.filter         [2688]: INFO    [apache-modsecurity] Found 216.218.206.68 - 2022-02-08 09:28:32
+2022-02-08 09:28:33,411 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Ban 216.218.206.68
+2022-02-08 09:54:05,215 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Unban 184.105.139.68
+2022-02-08 10:04:21,789 fail2ban.filter         [2688]: INFO    [apache-modsecurity] Found 109.237.103.118 - 2022-02-08 10:04:21
+2022-02-08 10:04:22,064 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Ban 109.237.103.118
+2022-02-08 10:14:35,936 fail2ban.filter         [2688]: INFO    [apache-modsecurity] Found 109.237.103.123 - 2022-02-08 10:14:35
+2022-02-08 10:14:36,198 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Ban 109.237.103.123
+2022-02-08 12:44:54,133 fail2ban.filter         [2688]: INFO    [apache-modsecurity] Found 109.237.103.9 - 2022-02-08 12:44:53
+2022-02-08 12:44:54,802 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Ban 109.237.103.9
+2022-02-08 13:25:34,178 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Unban 192.241.208.5
+2022-02-08 13:46:01,711 fail2ban.filter         [2688]: INFO    [apache-modsecurity] Found 192.241.211.126 - 2022-02-08 13:46:01
+2022-02-08 13:46:01,862 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Ban 192.241.211.126
+2022-02-08 14:25:00,321 fail2ban.filter         [2688]: INFO    [apache-modsecurity] Found 109.237.103.38 - 2022-02-08 14:25:00
+2022-02-08 14:25:00,378 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Ban 109.237.103.38
+2022-02-08 15:28:08,168 fail2ban.filter         [2688]: INFO    [apache-modsecurity] Found 222.186.19.207 - 2022-02-08 15:28:07
+2022-02-08 15:28:08,168 fail2ban.filter         [2688]: INFO    [apache-modsecurity] Found 222.186.19.207 - 2022-02-08 15:28:08
+2022-02-08 15:28:08,467 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Ban 222.186.19.207
+2022-02-08 17:30:29,702 fail2ban.filter         [2688]: INFO    [apache-modsecurity] Found 103.133.110.114 - 2022-02-08 17:30:29
+2022-02-08 17:30:29,900 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Ban 103.133.110.114
+2022-02-08 17:30:31,155 fail2ban.filter         [2688]: INFO    [apache-modsecurity] Found 103.133.110.114 - 2022-02-08 17:30:31
+2022-02-08 18:00:38,698 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Unban 167.248.133.60
+2022-02-08 18:07:35,369 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Unban 192.241.204.90
+2022-02-08 18:11:05,690 fail2ban.filter         [2688]: INFO    [apache-modsecurity] Found 192.241.208.247 - 2022-02-08 18:11:05
+2022-02-08 18:11:05,740 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Ban 192.241.208.247
+2022-02-08 19:24:51,723 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Unban 167.248.133.44
+2022-02-08 19:28:20,135 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Unban 111.13.63.107
+2022-02-08 19:49:13,841 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Unban 217.138.254.70
+2022-02-08 21:23:37,005 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Unban 164.160.27.223
+2022-02-08 21:41:16,461 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Unban 175.100.20.226
+2022-02-08 21:49:03,162 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Unban 162.222.198.8
+2022-02-08 21:59:45,829 fail2ban.actions        [2688]: NOTICE  [apache-auth] Unban 155.94.216.11
+2022-02-08 22:09:16,019 fail2ban.filter         [2688]: INFO    [apache-modsecurity] Found 162.142.125.212 - 2022-02-08 22:09:15
+2022-02-08 22:09:16,343 fail2ban.filter         [2688]: INFO    [apache-modsecurity] Found 162.142.125.212 - 2022-02-08 22:09:16
+2022-02-08 22:09:16,728 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Ban 162.142.125.212
+2022-02-08 22:13:49,361 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Unban 45.146.165.37
+2022-02-08 22:18:35,818 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Unban 216.131.111.131
+2022-02-08 22:32:38,546 fail2ban.filter         [2688]: INFO    [apache-modsecurity] Found 83.143.86.62 - 2022-02-08 22:32:38
+2022-02-08 22:32:38,652 fail2ban.filter         [2688]: INFO    [apache-modsecurity] Found 83.143.86.62 - 2022-02-08 22:32:38
+2022-02-08 22:32:38,919 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Ban 83.143.86.62
+2022-02-08 22:41:49,091 fail2ban.filter         [2688]: INFO    [apache-modsecurity] Found 86.5.55.145 - 2022-02-08 22:41:48
+2022-02-08 22:41:49,785 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Ban 86.5.55.145
+2022-02-08 23:43:11,983 fail2ban.filter         [2688]: INFO    [apache-modsecurity] Found 45.9.20.65 - 2022-02-08 23:43:11
+2022-02-08 23:43:12,551 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Ban 45.9.20.65
+2022-02-08 23:45:13,281 fail2ban.filter         [2688]: INFO    [apache-modsecurity] Found 92.118.161.29 - 2022-02-08 23:45:13
+2022-02-08 23:45:13,451 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Ban 92.118.161.29
+2022-02-08 23:49:41,976 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Unban 115.56.142.234
+2022-02-09 00:01:48,752 fail2ban.filter         [2688]: INFO    [apache-modsecurity] Found 209.160.119.247 - 2022-02-09 00:01:48
+2022-02-09 00:01:48,988 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Ban 209.160.119.247
+2022-02-09 01:09:00,485 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Unban 192.241.211.155
+2022-02-09 01:15:05,812 fail2ban.filter         [2688]: INFO    [apache-modsecurity] Found 192.241.210.231 - 2022-02-09 01:15:05
+2022-02-09 01:15:06,267 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Ban 192.241.210.231
+2022-02-09 01:46:34,889 fail2ban.filter         [2688]: INFO    [apache-modsecurity] Found 192.241.211.107 - 2022-02-09 01:46:34
+2022-02-09 01:46:34,961 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Ban 192.241.211.107
+2022-02-09 01:59:00,957 fail2ban.filter         [2688]: INFO    [apache-modsecurity] Found 192.241.206.204 - 2022-02-09 01:59:00
+2022-02-09 01:59:01,557 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Ban 192.241.206.204
+2022-02-09 02:10:41,733 fail2ban.filter         [2688]: INFO    [apache-modsecurity] Found 45.87.63.167 - 2022-02-09 02:10:41
+2022-02-09 02:10:42,198 fail2ban.filter         [2688]: INFO    [apache-modsecurity] Found 45.87.63.167 - 2022-02-09 02:10:42
+2022-02-09 02:10:42,299 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Ban 45.87.63.167
+2022-02-09 02:26:41,628 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Unban 167.248.133.118
+2022-02-09 02:39:56,700 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Unban 2.57.122.80
+2022-02-09 02:43:59,082 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Unban 20.114.57.162
+2022-02-09 05:47:42,575 fail2ban.filter         [2688]: INFO    [apache-modsecurity] Found 46.101.61.245 - 2022-02-09 05:47:42
+2022-02-09 05:47:42,691 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Ban 46.101.61.245
+2022-02-09 06:27:51,819 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Unban 103.41.36.214
+2022-02-09 06:31:06,169 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Unban 192.241.211.11
+2022-02-09 06:31:16,292 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Unban 192.241.211.143
+2022-02-09 06:32:54,508 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Unban 192.241.210.61
+2022-02-09 07:52:57,651 fail2ban.filter         [2688]: INFO    [apache-modsecurity] Found 20.151.225.227 - 2022-02-09 07:52:57
+2022-02-09 07:52:57,747 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Ban 20.151.225.227
+2022-02-09 08:11:22,962 fail2ban.filter         [2688]: INFO    [apache-modsecurity] Found 185.222.57.249 - 2022-02-09 08:11:22
+2022-02-09 08:11:23,140 fail2ban.filter         [2688]: INFO    [apache-modsecurity] Found 185.222.57.249 - 2022-02-09 08:11:23
+2022-02-09 08:11:23,567 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Ban 185.222.57.249
+2022-02-09 08:17:52,941 fail2ban.filter         [2688]: INFO    [apache-modsecurity] Found 192.241.211.189 - 2022-02-09 08:17:52
+2022-02-09 08:17:52,967 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Ban 192.241.211.189
+2022-02-09 08:18:48,249 fail2ban.filter         [2688]: INFO    [apache-modsecurity] Found 192.241.211.165 - 2022-02-09 08:18:48
+2022-02-09 08:18:48,675 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Ban 192.241.211.165
+2022-02-09 08:21:17,792 fail2ban.filter         [2688]: INFO    [apache-modsecurity] Found 192.241.209.199 - 2022-02-09 08:21:17
+2022-02-09 08:21:17,905 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Ban 192.241.209.199
+2022-02-09 08:23:26,701 fail2ban.filter         [2688]: INFO    [apache-modsecurity] Found 64.62.197.62 - 2022-02-09 08:23:26
+2022-02-09 08:23:26,735 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Ban 64.62.197.62
+2022-02-09 08:54:01,042 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Unban 162.142.125.10
+2022-02-09 09:05:01,911 fail2ban.filter         [2688]: INFO    [apache-modsecurity] Found 45.146.165.37 - 2022-02-09 09:05:01
+2022-02-09 09:05:02,000 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Ban 45.146.165.37
+2022-02-09 09:11:56,874 fail2ban.filter         [2688]: INFO    [apache-modsecurity] Found 167.248.133.47 - 2022-02-09 09:11:56
+2022-02-09 09:11:56,904 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Ban 167.248.133.47
+2022-02-09 09:11:57,097 fail2ban.filter         [2688]: INFO    [apache-modsecurity] Found 167.248.133.47 - 2022-02-09 09:11:57
+2022-02-09 09:16:02,267 fail2ban.filter         [2688]: INFO    [apache-modsecurity] Found 35.233.62.116 - 2022-02-09 09:16:01
+2022-02-09 09:16:02,837 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Ban 35.233.62.116
+2022-02-09 09:28:32,242 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Unban 216.218.206.68
+2022-02-09 10:04:21,018 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Unban 109.237.103.118
+2022-02-09 10:14:35,913 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Unban 109.237.103.123
+2022-02-09 10:56:11,196 fail2ban.filter         [2688]: INFO    [apache-modsecurity] Found 20.114.57.162 - 2022-02-09 10:56:10
+2022-02-09 10:56:11,362 fail2ban.actions        [2688]: NOTICE  [apache-modsecurity] Ban 20.114.57.162

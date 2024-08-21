@@ -1,0 +1,7 @@
+Jan 30 03:32:15 daemon postfix/smtpd[26727]: warning: hostname slot0.cimd1.com does not resolve to address 212.193.30.120
+Jan 30 03:32:15 daemon postfix/smtpd[26727]: connect from unknown[212.193.30.120]
+Jan 30 03:32:18 daemon postfix/smtpd[26727]: NOQUEUE: reject: RCPT from unknown[212.193.30.120]: 454 4.7.1 <spameri@tiscali.it>: Relay access denied; from=<spameri@tiscali.it> to=<spameri@tiscali.it> proto=ESMTP helo=<WIN-CLJ1B0GQ6JP>
+Jan 30 03:32:22 daemon postfix/smtpd[26727]: disconnect from unknown[212.193.30.120] ehlo=1 mail=1 rcpt=0/1 rset=1 quit=1 commands=4/5
+Jan 30 03:35:42 daemon postfix/anvil[26729]: statistics: max connection rate 1/60s for (smtp:212.193.30.120) at Jan 30 03:32:15
+Jan 30 03:35:42 daemon postfix/anvil[26729]: statistics: max connection count 1 for (smtp:212.193.30.120) at Jan 30 03:32:15
+Jan 30 03:35:42 daemon postfix/anvil[26729]: statistics: max cache size 1 at Jan 30 03:32:15

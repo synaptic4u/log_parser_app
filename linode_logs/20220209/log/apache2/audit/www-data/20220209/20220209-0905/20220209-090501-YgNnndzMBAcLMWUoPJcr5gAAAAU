@@ -1,0 +1,59 @@
+--4716ad6d-A--
+[09/Feb/2022:09:05:01 +0200] YgNnndzMBAcLMWUoPJcr5gAAAAU 45.146.165.37 59472 172.104.132.106 80
+--4716ad6d-B--
+GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP21 HTTP/1.1
+Host: 172.104.132.106:80
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+Accept-Encoding: gzip
+Connection: close
+
+--4716ad6d-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 199
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+--4716ad6d-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access this resource.</p>
+</body></html>
+
+--4716ad6d-H--
+Message:  [file "/etc/modsecurity/modsecurity.conf"] [line "258"] [id "11021"] [msg "URI evasion attempt"] [tag "ModSec Initial Configuration"] Access denied with code 403 (phase 1). Match of "streq %{REQUEST_URI_RAW}" against "REQUEST_URI" required.
+Message: String match "/" at REQUEST_FILENAME. [file "/etc/modsecurity/modsecurity.conf"] [line "189"] [id "90005"] [tag "ModSec Initial Configuration"]
+Apache-Error: [file "apache2_util.c"] [line 273] [level 3] [client 45.146.165.37] ModSecurity:  [file "/etc/modsecurity/modsecurity.conf"] [line "258"] [id "11021"] [msg "URI evasion attempt"] [tag "ModSec Initial Configuration"] Access denied with code 403 (phase 1). Match of "streq %{REQUEST_URI_RAW}" against "REQUEST_URI" required. [hostname "172.104.132.106"] [uri "/index.php"] [unique_id "YgNnndzMBAcLMWUoPJcr5gAAAAU"]
+Action: Intercepted (phase 1)
+Stopwatch: 1644390301908174 4573 (- - -)
+Stopwatch2: 1644390301908174 4573; combined=434, p1=144, p2=0, p3=0, p4=0, p5=290, sr=0, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.3 (http://www.modsecurity.org/); OWASP_CRS/3.4.0-dev.
+Server: Apache
+Engine-Mode: "ENABLED"
+
+--4716ad6d-K--
+SecAction "phase:1,tag:'ModSec Initial Configuration',id:90000,nolog,pass,setvar:TX.ModSecTimestamp1start=%{DURATION}"
+
+SecRule "REQUEST_URI" "!@streq %{REQUEST_URI_RAW}" "phase:1,tag:'ModSec Initial Configuration',id:11021,deny,t:normalizePathWin,log,msg:'URI evasion attempt'"
+
+SecAction "phase:5,tag:'ModSec Initial Configuration',id:90004,nolog,pass,setvar:TX.ModSecTimestamp5start=%{DURATION}"
+
+SecRule "REQUEST_FILENAME" "@beginsWith /" "phase:5,tag:'ModSec Initial Configuration',id:90005,t:none,nolog,auditlog,pass,setenv:write_perflog"
+
+SecAction "phase:5,tag:'ModSec Initial Configuration',id:90014,pass,nolog,setvar:TX.ModSecTimestamp5end=%{DURATION}"
+
+SecAction "phase:5,tag:'ModSec Initial Configuration',id:90100,pass,nolog,setvar:TX.perf_modsecinbound=%{PERF_PHASE1},setvar:TX.perf_modsecinbound=+%{PERF_PHASE2},setvar:TX.perf_application=%{TX.ModSecTimestamp3start},setvar:TX.perf_application=-%{TX.ModSecTimestamp2end},setvar:TX.perf_modsecoutbound=%{PERF_PHASE3},setvar:TX.perf_modsecoutbound=+%{PERF_PHASE4},setenv:ModSecTimeIn=%{TX.perf_modsecinbound},setenv:ApplicationTime=%{TX.perf_application},setenv:ModSecTimeOut=%{TX.perf_modsecoutbound},setenv:ModSecAnomalyScoreInPLs=%{tx.anomaly_score_pl1}-%{tx.anomaly_score_pl2}-%{tx.anomaly_score_pl3}-%{tx.anomaly_score_pl4},setenv:ModSecAnomalyScoreOutPLs=%{tx.outbound_anomaly_score_pl1}-%{tx.outbound_anomaly_score_pl2}-%{tx.outbound_anomaly_score_pl3}-%{tx.outbound_anomaly_score_pl4},setenv:ModSecAnomalyScoreIn=%{TX.anomaly_score},setenv:ModSecAnomalyScoreOut=%{TX.outbound_anomaly_score}"
+
+SecRule "&TX:dos_burst_time_slice" "@eq 0" "phase:5,auditlog,id:912110,t:none,nolog,ver:OWASP_CRS/3.4.0-dev,chain,skipAfter:END-DOS-PROTECTION-CHECKS"
+SecRule "&TX:dos_counter_threshold" "@eq 0" "chain"
+SecRule "&TX:dos_block_timeout" "@eq 0"
+
+SecAction "phase:5,id:980115,pass,t:none,nolog,noauditlog,ver:OWASP_CRS/3.4.0-dev,setvar:tx.executing_anomaly_score=%{tx.anomaly_score_pl1},setvar:tx.executing_anomaly_score=+%{tx.anomaly_score_pl2},setvar:tx.executing_anomaly_score=+%{tx.anomaly_score_pl3},setvar:tx.executing_anomaly_score=+%{tx.anomaly_score_pl4}"
+
+SecAction "phase:5,id:980145,pass,t:none,nolog,noauditlog,ver:OWASP_CRS/3.4.0-dev,setvar:tx.executing_anomaly_score=%{tx.outbound_anomaly_score_pl1},setvar:tx.executing_anomaly_score=+%{tx.outbound_anomaly_score_pl2},setvar:tx.executing_anomaly_score=+%{tx.outbound_anomaly_score_pl3},setvar:tx.executing_anomaly_score=+%{tx.outbound_anomaly_score_pl4}"
+
+
+--4716ad6d-Z--

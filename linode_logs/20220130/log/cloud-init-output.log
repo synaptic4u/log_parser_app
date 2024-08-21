@@ -1,0 +1,96 @@
+Cloud-init v. 20.2 running 'init-local' at Tue, 25 Jan 2022 12:24:15 +0000. Up 3.83 seconds.
+Cloud-init v. 20.2 running 'init' at Tue, 25 Jan 2022 12:24:15 +0000. Up 4.39 seconds.
+ci-info: +++++++++++++++++++++++++++++++++++++++Net device info+++++++++++++++++++++++++++++++++++++++
+ci-info: +--------+------+------------------------------+---------------+--------+-------------------+
+ci-info: | Device |  Up  |           Address            |      Mask     | Scope  |     Hw-Address    |
+ci-info: +--------+------+------------------------------+---------------+--------+-------------------+
+ci-info: |  eth0  | True |       172.104.132.106        | 255.255.255.0 | global | f2:3c:93:50:a4:9a |
+ci-info: |  eth0  | True | fe80::f03c:93ff:fe50:a49a/64 |       .       |  link  | f2:3c:93:50:a4:9a |
+ci-info: |   lo   | True |          127.0.0.1           |   255.0.0.0   |  host  |         .         |
+ci-info: |   lo   | True |           ::1/128            |       .       |  host  |         .         |
+ci-info: +--------+------+------------------------------+---------------+--------+-------------------+
+ci-info: +++++++++++++++++++++++++++++++Route IPv4 info+++++++++++++++++++++++++++++++
+ci-info: +-------+---------------+---------------+---------------+-----------+-------+
+ci-info: | Route |  Destination  |    Gateway    |    Genmask    | Interface | Flags |
+ci-info: +-------+---------------+---------------+---------------+-----------+-------+
+ci-info: |   0   |    0.0.0.0    | 172.104.132.1 |    0.0.0.0    |    eth0   |   UG  |
+ci-info: |   1   | 172.104.132.0 |    0.0.0.0    | 255.255.255.0 |    eth0   |   U   |
+ci-info: +-------+---------------+---------------+---------------+-----------+-------+
+ci-info: +++++++++++++++++++Route IPv6 info+++++++++++++++++++
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: | Route | Destination | Gateway | Interface | Flags |
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: |   1   |  fe80::/64  |    ::   |    eth0   |   U   |
+ci-info: |   3   |  multicast  |    ::   |    eth0   |   U   |
+ci-info: +-------+-------------+---------+-----------+-------+
+Generating public/private rsa key pair.
+Your identification has been saved in /etc/ssh/ssh_host_rsa_key.
+Your public key has been saved in /etc/ssh/ssh_host_rsa_key.pub.
+The key fingerprint is:
+SHA256:wj83hPttTVgaHpI44c8wJjU79xBB8PMUjLiXIAHeAHw root@localhost
+The key's randomart image is:
++---[RSA 2048]----+
+| ...o....+o+.    |
+|  ..Eo. *.o ..   |
+|   .. .+ Bo+.    |
+|     .. @.B+o .  |
+|      ooSX.=.*   |
+|       o oo = .  |
+|        + o  o   |
+|         + o. .  |
+|          ...    |
++----[SHA256]-----+
+Generating public/private dsa key pair.
+Your identification has been saved in /etc/ssh/ssh_host_dsa_key.
+Your public key has been saved in /etc/ssh/ssh_host_dsa_key.pub.
+The key fingerprint is:
+SHA256:XKgFsM8lmZdkI4v+5kZfficCU/naf0afY60yGF1UeSk root@localhost
+The key's randomart image is:
++---[DSA 1024]----+
+|    ..o +      .+|
+|     o O +   E.o.|
+|    o = * .. .. .|
+|   . o B .o   .  |
+|    . + S. o .   |
+|     .. o o o   .|
+|     .o. = =   .+|
+|     o. . = * .+=|
+|     ..    o *++.|
++----[SHA256]-----+
+Generating public/private ecdsa key pair.
+Your identification has been saved in /etc/ssh/ssh_host_ecdsa_key.
+Your public key has been saved in /etc/ssh/ssh_host_ecdsa_key.pub.
+The key fingerprint is:
+SHA256:Wzby5WlGXUzE/6om1jCGBgXr5YTPO0lCW68ex4w8lsE root@localhost
+The key's randomart image is:
++---[ECDSA 256]---+
+|      ..       oo|
+|       o.      o.|
+|      +.+       +|
+|     o.X .   . ..|
+|      +.E.= o . .|
+|       +o/+= .  .|
+|       .&.=+=  . |
+|       o =ooo .  |
+|        .. o..   |
++----[SHA256]-----+
+Generating public/private ed25519 key pair.
+Your identification has been saved in /etc/ssh/ssh_host_ed25519_key.
+Your public key has been saved in /etc/ssh/ssh_host_ed25519_key.pub.
+The key fingerprint is:
+SHA256:dVxhSwhdYq9FCDQn7Z3qQAe0m6i6IfJxFQ20KdZ/QZQ root@localhost
+The key's randomart image is:
++--[ED25519 256]--+
+|     .o  +X*++B. |
+|     . = .EB=B . |
+|    o = . +oo.+. |
+|   . . o o.=ooo  |
+|      . S.+...   |
+|     . . .. .    |
+|. o o .    o     |
+| o + o      .    |
+|  . o.           |
++----[SHA256]-----+
+Cloud-init v. 20.2 running 'modules:config' at Tue, 25 Jan 2022 12:24:16 +0000. Up 5.50 seconds.
+Cloud-init v. 20.2 running 'modules:final' at Tue, 25 Jan 2022 12:24:17 +0000. Up 6.15 seconds.
+Cloud-init v. 20.2 finished at Tue, 25 Jan 2022 12:24:17 +0000. Datasource DataSourceNoCloud [seed=/var/lib/cloud/seed/nocloud][dsmode=net].  Up 6.27 seconds
