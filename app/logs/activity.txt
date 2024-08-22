@@ -1,0 +1,3978 @@
+
+2024-08-22 11:29:34
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 0,
+    "exists": "auth",
+    "alias": "auth",
+    "nu_of_ows": 38548,
+    "max_logid": 38548,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:29:34
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 1,
+    "exists": "alternatives",
+    "alias": "alternatives",
+    "nu_of_ows": 396,
+    "max_logid": 396,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:29:34
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 2,
+    "exists": "daemon",
+    "alias": "daemon",
+    "nu_of_ows": 43726,
+    "max_logid": 43726,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:29:34
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 3,
+    "exists": "debug",
+    "alias": "debug",
+    "nu_of_ows": 11162,
+    "max_logid": 11162,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:29:34
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 4,
+    "exists": "dpkg",
+    "alias": "dpkg",
+    "nu_of_ows": 15231,
+    "max_logid": 15231,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:29:34
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 5,
+    "exists": "fail2ban",
+    "alias": "fail2ban",
+    "nu_of_ows": 2460,
+    "max_logid": 2460,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:29:34
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 6,
+    "exists": "kern",
+    "alias": "kern",
+    "nu_of_ows": 47498,
+    "max_logid": 47498,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:29:34
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 7,
+    "exists": "mail_info",
+    "alias": "mail_info",
+    "nu_of_ows": 8120,
+    "max_logid": 8120,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:29:34
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 8,
+    "exists": "mail_log",
+    "alias": "mail_log",
+    "nu_of_ows": 8120,
+    "max_logid": 8120,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:29:34
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 9,
+    "exists": "mail_warn",
+    "alias": "mail_warn",
+    "nu_of_ows": 4035,
+    "max_logid": 4035,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:29:34
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 10,
+    "exists": "messages",
+    "alias": "messages",
+    "nu_of_ows": 39957,
+    "max_logid": 39957,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:29:34
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 11,
+    "exists": "syslog",
+    "alias": "syslog",
+    "nu_of_ows": 115746,
+    "max_logid": 115746,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:29:34
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 12,
+    "exists": "ufw",
+    "alias": "ufw",
+    "nu_of_ows": 19565,
+    "max_logid": 19565,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:29:34
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 13,
+    "exists": "user",
+    "alias": "user",
+    "nu_of_ows": 45,
+    "max_logid": 45,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:29:35
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 14,
+    "exists": "daemon_access",
+    "alias": "daemon_access",
+    "nu_of_ows": 217731,
+    "max_logid": 217731,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:29:35
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 15,
+    "exists": "daemon_error",
+    "alias": "daemon_error",
+    "nu_of_ows": 181820,
+    "max_logid": 181820,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:29:35
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 16,
+    "exists": "daemon_perf",
+    "alias": "daemon_perf",
+    "nu_of_ows": 5000,
+    "max_logid": 5000,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:29:35
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 17,
+    "exists": "modsec_perf",
+    "alias": "modsec_perf",
+    "nu_of_ows": 95339,
+    "max_logid": 95339,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:29:35
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 18,
+    "exists": "modsec_audit",
+    "alias": "modsec_audit",
+    "nu_of_ows": 95609,
+    "max_logid": 95609,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:29:35
+Location: Synaptic4UParser\Parser\Parser::loadLogs() : /synaptic4u/REPOS/LogParserRepo/linode_logs/
+Accepted log files parsed to own tables: No files to log
+Log files to be rejected:: No files to log
+Log files parsed to log_dump: No files to log
+Tree: []
+
+2024-08-22 11:29:35
+Location: Synaptic4UParser\Core\App::fullReport()
+full_report: {
+    "app_timer": {
+        "date_time": "2024-08-22 11:29:35",
+        "start": 1724318974.890418,
+        "finish": 1724318975.090124,
+        "duration_min_sec": "0:0",
+        "duration_sec_microseconds": 0.1997058391571045
+    },
+    "log_files": []
+}
+
+2024-08-22 11:29:35
+Location: Synaptic4UParser\Core\App::__construct()
+config: {
+    "IMPORTANT_NOTE_alias": "alias must be one word, no hyphens or spaces. Accepted values: tree or tree_log",
+    "IMPORTANT_NOTE for Parser::parseLine() method": "Some of the logs are so custom, I couldn't catch everything with generic program logic without doing extensive checking in the parsing.",
+    "IMPORTANT_NOTE_database_primary_key": "A auto_increment primary key is automatically named logid (int) auto_increment primary key",
+    "IMPORTANT_NOTE_columns_date_variables": "columns: date variable for database table must be named: loggedon.",
+    "log_include": {
+        "auth": {
+            "alias": "auth",
+            "directory": "\/log",
+            "name": "auth.log",
+            "columns": [
+                "loggedon",
+                "server",
+                "session",
+                "user",
+                "command_action"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "alternatives": {
+            "alias": "alternatives",
+            "directory": "\/log",
+            "name": "alternatives.log",
+            "columns": [
+                "update_alternatives",
+                "loggedon",
+                "log"
+            ],
+            "loggedon_format": "YYYY-MM-DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "daemon": {
+            "alias": "daemon",
+            "directory": "\/log",
+            "name": "daemon.log",
+            "columns": [
+                "loggedon",
+                "server",
+                "application",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "debug": {
+            "alias": "debug",
+            "directory": "\/log",
+            "name": "debug",
+            "columns": [
+                "loggedon",
+                "server",
+                "application",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "dpkg": {
+            "alias": "dpkg",
+            "directory": "\/log",
+            "name": "dpkg.log",
+            "columns": [
+                "loggedon",
+                "process",
+                "log"
+            ],
+            "loggedon_format": "YYYY-MM-DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "fail2ban": {
+            "alias": "fail2ban",
+            "directory": "\/log",
+            "name": "fail2ban.log",
+            "columns": [
+                "loggedon",
+                "process",
+                "id",
+                "type",
+                "log"
+            ],
+            "loggedon_format": "YYYY-MM-DD HH:mm:ss,m-3",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": "Some files have the emails logged to them so it messes everything up! Occaisonal occurence, I just deleted the few offenders manually in the file."
+        },
+        "kern": {
+            "alias": "kern",
+            "directory": "\/log",
+            "name": "kern.log",
+            "columns": [
+                "loggedon",
+                "server",
+                "process",
+                "id",
+                "application",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "mail_info": {
+            "alias": "mail_info",
+            "directory": "\/log",
+            "name": "mail.info",
+            "columns": [
+                "loggedon",
+                "server",
+                "process",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "mail_log": {
+            "alias": "mail_log",
+            "directory": "\/log",
+            "name": "mail.log",
+            "columns": [
+                "loggedon",
+                "server",
+                "process",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "mail_warn": {
+            "alias": "mail_warn",
+            "directory": "\/log",
+            "name": "mail.warn",
+            "columns": [
+                "loggedon",
+                "server",
+                "process",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "messages": {
+            "alias": "messages",
+            "directory": "\/log",
+            "name": "messages",
+            "columns": [
+                "loggedon",
+                "server",
+                "process",
+                "id",
+                "application",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "syslog": {
+            "alias": "syslog",
+            "directory": "\/log",
+            "name": "syslog",
+            "columns": [
+                "loggedon",
+                "server",
+                "process",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "ufw": {
+            "alias": "ufw",
+            "directory": "\/log",
+            "name": "ufw.log",
+            "columns": [
+                "loggedon",
+                "server",
+                "process",
+                "id",
+                "ufw",
+                "in",
+                "out",
+                "mac",
+                "src",
+                "dst",
+                "len",
+                "tos",
+                "prec",
+                "ttl",
+                "id2",
+                "prot",
+                "spt",
+                "dpt",
+                "window",
+                "res",
+                "syn",
+                "urgp",
+                "hoplimit",
+                "flowlbl"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": "Fields are not in a unified order, need to match!"
+        },
+        "user": {
+            "alias": "user",
+            "directory": "\/log",
+            "name": "user.log",
+            "columns": [
+                "loggedon",
+                "server",
+                "process",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "daemon_access": {
+            "alias": "daemon_access",
+            "directory": "\/log\/apache2",
+            "name": "daemon-access.log",
+            "columns": [
+                "ip",
+                "logname",
+                "country_code",
+                "loggedon",
+                "method_params",
+                "http_response",
+                "calculated_bytes",
+                "referer",
+                "user_agent",
+                "content_type",
+                "client_port",
+                "canonical_host_name",
+                "server_IP",
+                "server_port",
+                "handler",
+                "forward_requests",
+                "tcp_connection",
+                "cookie",
+                "unique_id",
+                "SSL_PROTOCOL",
+                "SSL_CIPHER",
+                "in_bytes_tot",
+                "out_bytes_tot",
+                "compression_ratio",
+                "duration_micro_sec",
+                "modsec_time_in",
+                "app_time",
+                "modsec_time_out",
+                "modsec_anomaly_in_pls",
+                "modsec_anomaly_out_pls",
+                "modsec_anomaly_in",
+                "modsec_anomaly_out"
+            ],
+            "loggedon_format": "YYYY-MM-DD HH:mm:ss.m-6",
+            "field_encapsulated": "double quotes",
+            "field_delimiter": "space",
+            "quirk": "The column: method_params was changed in the program to a text field in the DB, MySQL was truncating the column. This is my apache virtualhost log. Variations of different date formats in logs: DD\/MMM\/YYYY:HH:mm:ss +d-4 || YYYY-MM-DD HH:mm:ss.m-6"
+        },
+        "daemon_error": {
+            "alias": "daemon_error",
+            "directory": "\/log\/apache2",
+            "name": "daemon-error.log",
+            "columns": [
+                "loggedon",
+                "error",
+                "client_ip",
+                "unique_id",
+                "log"
+            ],
+            "loggedon_format": "YYYY-MM-DD HH:mm:ss.m-6",
+            "field_encapsulated": "brackets or double quotes",
+            "field_delimiter": "space",
+            "quirk": "Unique_id & client_ip_port could be anywhere, we'll just search for those values after error column. Date formatted as either: [Day MMM DD HH:mm:ss.m-6 YYYY] || [Day MMM DD HH:mm:ss.m-6 YYYY]"
+        },
+        "daemon_perf": {
+            "alias": "daemon_perf",
+            "directory": "\/log\/apache2",
+            "name": "daemon-perf.log",
+            "columns": [
+                "loggedon",
+                "unique_id",
+                "duration_microsec",
+                "PerfModSecInbound",
+                "PerfAppl",
+                "PerfModSecOutbound",
+                "TS_Phase1",
+                "TS_Phase2",
+                "TS_Phase3",
+                "TS_Phase4",
+                "TS_Phase5",
+                "Perf_Phase1",
+                "Perf_Phase2",
+                "Perf_Phase3",
+                "Perf_Phase4",
+                "Perf_Phase5",
+                "Perf_ReadingStorage",
+                "Perf_WritingStorage",
+                "Perf_GarbageCollection",
+                "Perf_ModSecLogging",
+                "Perf_ModSecCombined"
+            ],
+            "loggedon_format": "YYYY-MM-DD HH:mm:ss.m-6",
+            "field_encapsulated": "brackets sometimes",
+            "field_delimiter": "space",
+            "quirk": "after PerfModSecInbound every second field is part of the previous so I join those two fields together when parsing. Fields can be encapsulated with brackets sometimes - do my best to parse them out"
+        },
+        "modsec_perf": {
+            "alias": "modsec_perf",
+            "directory": "\/log\/apache2",
+            "name": "modsec-perf.log",
+            "columns": [
+                "loggedon",
+                "unique_id",
+                "duration_microsec",
+                "PerfModSecInbound",
+                "PerfAppl",
+                "PerfModSecOutbound",
+                "TS_Phase1",
+                "TS_Phase2",
+                "TS_Phase3",
+                "TS_Phase4",
+                "TS_Phase5",
+                "Perf_Phase1",
+                "Perf_Phase2",
+                "Perf_Phase3",
+                "Perf_Phase4",
+                "Perf_Phase5",
+                "Perf_ReadingStorage",
+                "Perf_WritingStorage",
+                "Perf_GarbageCollection",
+                "Perf_ModSecLogging",
+                "Perf_ModSecCombined"
+            ],
+            "loggedon_format": "YYYY-MM-DD HH:mm:ss.m-6",
+            "field_encapsulated": "brackets",
+            "field_delimiter": "space",
+            "quirk": "after PerfModSecInbound every second field is part of the previous so I join those two fields together when parsing. Fields can be encapsulated with brackets sometimes - do my best to parse them out"
+        },
+        "modsec_audit": {
+            "alias": "modsec_audit",
+            "directory": "\/log\/apache2",
+            "name": "modsec_audit.log",
+            "columns": [
+                "modsecurity",
+                "client_ip",
+                "domain_ip",
+                "https_response",
+                "audit_file",
+                "log"
+            ],
+            "loggedon_format": "null",
+            "field_encapsulated": "brackets",
+            "field_delimiter": "space",
+            "quirk": ""
+        }
+    },
+    "log_exclude": [
+        "btmp",
+        "wtmp",
+        "cloud-init-output.log",
+        "faillog",
+        "lastlog",
+        "lynis.log",
+        "lynis-report.dat",
+        "access.log",
+        "other_vhostsaccess.log",
+        "www-data-global",
+        "www-data-global.dir",
+        "www-data-global.pag",
+        "www-data-ip",
+        "www-data-ip.dir",
+        "www-data-ip.pag",
+        "pacct",
+        "sa",
+        "sar"
+    ],
+    "log_dump": [
+        "apache2\/audit\/www-data",
+        "\/apt\/"
+    ],
+    "file_exclude_types": [
+        ".zip",
+        ".tar",
+        ".gz",
+        ".xz"
+    ]
+}
+
+2024-08-22 11:32:26
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 0,
+    "exists": "auth",
+    "alias": "auth",
+    "nu_of_ows": 38548,
+    "max_logid": 38548,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:32:26
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 1,
+    "exists": "alternatives",
+    "alias": "alternatives",
+    "nu_of_ows": 396,
+    "max_logid": 396,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:32:26
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 2,
+    "exists": "daemon",
+    "alias": "daemon",
+    "nu_of_ows": 43726,
+    "max_logid": 43726,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:32:26
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 3,
+    "exists": "debug",
+    "alias": "debug",
+    "nu_of_ows": 11162,
+    "max_logid": 11162,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:32:26
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 4,
+    "exists": "dpkg",
+    "alias": "dpkg",
+    "nu_of_ows": 15231,
+    "max_logid": 15231,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:32:26
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 5,
+    "exists": "fail2ban",
+    "alias": "fail2ban",
+    "nu_of_ows": 2460,
+    "max_logid": 2460,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:32:26
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 6,
+    "exists": "kern",
+    "alias": "kern",
+    "nu_of_ows": 47498,
+    "max_logid": 47498,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:32:26
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 7,
+    "exists": "mail_info",
+    "alias": "mail_info",
+    "nu_of_ows": 8120,
+    "max_logid": 8120,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:32:26
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 8,
+    "exists": "mail_log",
+    "alias": "mail_log",
+    "nu_of_ows": 8120,
+    "max_logid": 8120,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:32:26
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 9,
+    "exists": "mail_warn",
+    "alias": "mail_warn",
+    "nu_of_ows": 4035,
+    "max_logid": 4035,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:32:26
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 10,
+    "exists": "messages",
+    "alias": "messages",
+    "nu_of_ows": 39957,
+    "max_logid": 39957,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:32:26
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 11,
+    "exists": "syslog",
+    "alias": "syslog",
+    "nu_of_ows": 115746,
+    "max_logid": 115746,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:32:26
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 12,
+    "exists": "ufw",
+    "alias": "ufw",
+    "nu_of_ows": 19565,
+    "max_logid": 19565,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:32:26
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 13,
+    "exists": "user",
+    "alias": "user",
+    "nu_of_ows": 45,
+    "max_logid": 45,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:32:26
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 14,
+    "exists": "daemon_access",
+    "alias": "daemon_access",
+    "nu_of_ows": 217731,
+    "max_logid": 217731,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:32:26
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 15,
+    "exists": "daemon_error",
+    "alias": "daemon_error",
+    "nu_of_ows": 181820,
+    "max_logid": 181820,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:32:26
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 16,
+    "exists": "daemon_perf",
+    "alias": "daemon_perf",
+    "nu_of_ows": 5000,
+    "max_logid": 5000,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:32:26
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 17,
+    "exists": "modsec_perf",
+    "alias": "modsec_perf",
+    "nu_of_ows": 95339,
+    "max_logid": 95339,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:32:26
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 18,
+    "exists": "modsec_audit",
+    "alias": "modsec_audit",
+    "nu_of_ows": 95609,
+    "max_logid": 95609,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:32:26
+Location: Synaptic4UParser\Parser\Parser::loadLogs() : /synaptic4u/REPOS/LogParserRepo/linode_logs/
+Accepted log files parsed to own tables: No files to log
+Log files to be rejected:: No files to log
+Log files parsed to log_dump: No files to log
+Tree: []
+
+2024-08-22 11:32:26
+Location: Synaptic4UParser\Core\App::fullReport()
+full_report: {
+    "app_timer": {
+        "date_time": "2024-08-22 11:32:26",
+        "start": 1724319146.115335,
+        "finish": 1724319146.335537,
+        "duration_min_sec": "0:0",
+        "duration_sec_microseconds": 0.22020196914672852
+    },
+    "log_files": []
+}
+
+2024-08-22 11:32:26
+Location: Synaptic4UParser\Core\App::__construct()
+config: {
+    "IMPORTANT_NOTE_alias": "alias must be one word, no hyphens or spaces. Accepted values: tree or tree_log",
+    "IMPORTANT_NOTE for Parser::parseLine() method": "Some of the logs are so custom, I couldn't catch everything with generic program logic without doing extensive checking in the parsing.",
+    "IMPORTANT_NOTE_database_primary_key": "A auto_increment primary key is automatically named logid (int) auto_increment primary key",
+    "IMPORTANT_NOTE_columns_date_variables": "columns: date variable for database table must be named: loggedon.",
+    "log_include": {
+        "auth": {
+            "alias": "auth",
+            "directory": "\/log",
+            "name": "auth.log",
+            "columns": [
+                "loggedon",
+                "server",
+                "session",
+                "user",
+                "command_action"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "alternatives": {
+            "alias": "alternatives",
+            "directory": "\/log",
+            "name": "alternatives.log",
+            "columns": [
+                "update_alternatives",
+                "loggedon",
+                "log"
+            ],
+            "loggedon_format": "YYYY-MM-DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "daemon": {
+            "alias": "daemon",
+            "directory": "\/log",
+            "name": "daemon.log",
+            "columns": [
+                "loggedon",
+                "server",
+                "application",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "debug": {
+            "alias": "debug",
+            "directory": "\/log",
+            "name": "debug",
+            "columns": [
+                "loggedon",
+                "server",
+                "application",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "dpkg": {
+            "alias": "dpkg",
+            "directory": "\/log",
+            "name": "dpkg.log",
+            "columns": [
+                "loggedon",
+                "process",
+                "log"
+            ],
+            "loggedon_format": "YYYY-MM-DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "fail2ban": {
+            "alias": "fail2ban",
+            "directory": "\/log",
+            "name": "fail2ban.log",
+            "columns": [
+                "loggedon",
+                "process",
+                "id",
+                "type",
+                "log"
+            ],
+            "loggedon_format": "YYYY-MM-DD HH:mm:ss,m-3",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": "Some files have the emails logged to them so it messes everything up! Occaisonal occurence, I just deleted the few offenders manually in the file."
+        },
+        "kern": {
+            "alias": "kern",
+            "directory": "\/log",
+            "name": "kern.log",
+            "columns": [
+                "loggedon",
+                "server",
+                "process",
+                "id",
+                "application",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "mail_info": {
+            "alias": "mail_info",
+            "directory": "\/log",
+            "name": "mail.info",
+            "columns": [
+                "loggedon",
+                "server",
+                "process",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "mail_log": {
+            "alias": "mail_log",
+            "directory": "\/log",
+            "name": "mail.log",
+            "columns": [
+                "loggedon",
+                "server",
+                "process",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "mail_warn": {
+            "alias": "mail_warn",
+            "directory": "\/log",
+            "name": "mail.warn",
+            "columns": [
+                "loggedon",
+                "server",
+                "process",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "messages": {
+            "alias": "messages",
+            "directory": "\/log",
+            "name": "messages",
+            "columns": [
+                "loggedon",
+                "server",
+                "process",
+                "id",
+                "application",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "syslog": {
+            "alias": "syslog",
+            "directory": "\/log",
+            "name": "syslog",
+            "columns": [
+                "loggedon",
+                "server",
+                "process",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "ufw": {
+            "alias": "ufw",
+            "directory": "\/log",
+            "name": "ufw.log",
+            "columns": [
+                "loggedon",
+                "server",
+                "process",
+                "id",
+                "ufw",
+                "in",
+                "out",
+                "mac",
+                "src",
+                "dst",
+                "len",
+                "tos",
+                "prec",
+                "ttl",
+                "id2",
+                "prot",
+                "spt",
+                "dpt",
+                "window",
+                "res",
+                "syn",
+                "urgp",
+                "hoplimit",
+                "flowlbl"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": "Fields are not in a unified order, need to match!"
+        },
+        "user": {
+            "alias": "user",
+            "directory": "\/log",
+            "name": "user.log",
+            "columns": [
+                "loggedon",
+                "server",
+                "process",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "daemon_access": {
+            "alias": "daemon_access",
+            "directory": "\/log\/apache2",
+            "name": "daemon-access.log",
+            "columns": [
+                "ip",
+                "logname",
+                "country_code",
+                "loggedon",
+                "method_params",
+                "http_response",
+                "calculated_bytes",
+                "referer",
+                "user_agent",
+                "content_type",
+                "client_port",
+                "canonical_host_name",
+                "server_IP",
+                "server_port",
+                "handler",
+                "forward_requests",
+                "tcp_connection",
+                "cookie",
+                "unique_id",
+                "SSL_PROTOCOL",
+                "SSL_CIPHER",
+                "in_bytes_tot",
+                "out_bytes_tot",
+                "compression_ratio",
+                "duration_micro_sec",
+                "modsec_time_in",
+                "app_time",
+                "modsec_time_out",
+                "modsec_anomaly_in_pls",
+                "modsec_anomaly_out_pls",
+                "modsec_anomaly_in",
+                "modsec_anomaly_out"
+            ],
+            "loggedon_format": "YYYY-MM-DD HH:mm:ss.m-6",
+            "field_encapsulated": "double quotes",
+            "field_delimiter": "space",
+            "quirk": "The column: method_params was changed in the program to a text field in the DB, MySQL was truncating the column. This is my apache virtualhost log. Variations of different date formats in logs: DD\/MMM\/YYYY:HH:mm:ss +d-4 || YYYY-MM-DD HH:mm:ss.m-6"
+        },
+        "daemon_error": {
+            "alias": "daemon_error",
+            "directory": "\/log\/apache2",
+            "name": "daemon-error.log",
+            "columns": [
+                "loggedon",
+                "error",
+                "client_ip",
+                "unique_id",
+                "log"
+            ],
+            "loggedon_format": "YYYY-MM-DD HH:mm:ss.m-6",
+            "field_encapsulated": "brackets or double quotes",
+            "field_delimiter": "space",
+            "quirk": "Unique_id & client_ip_port could be anywhere, we'll just search for those values after error column. Date formatted as either: [Day MMM DD HH:mm:ss.m-6 YYYY] || [Day MMM DD HH:mm:ss.m-6 YYYY]"
+        },
+        "daemon_perf": {
+            "alias": "daemon_perf",
+            "directory": "\/log\/apache2",
+            "name": "daemon-perf.log",
+            "columns": [
+                "loggedon",
+                "unique_id",
+                "duration_microsec",
+                "PerfModSecInbound",
+                "PerfAppl",
+                "PerfModSecOutbound",
+                "TS_Phase1",
+                "TS_Phase2",
+                "TS_Phase3",
+                "TS_Phase4",
+                "TS_Phase5",
+                "Perf_Phase1",
+                "Perf_Phase2",
+                "Perf_Phase3",
+                "Perf_Phase4",
+                "Perf_Phase5",
+                "Perf_ReadingStorage",
+                "Perf_WritingStorage",
+                "Perf_GarbageCollection",
+                "Perf_ModSecLogging",
+                "Perf_ModSecCombined"
+            ],
+            "loggedon_format": "YYYY-MM-DD HH:mm:ss.m-6",
+            "field_encapsulated": "brackets sometimes",
+            "field_delimiter": "space",
+            "quirk": "after PerfModSecInbound every second field is part of the previous so I join those two fields together when parsing. Fields can be encapsulated with brackets sometimes - do my best to parse them out"
+        },
+        "modsec_perf": {
+            "alias": "modsec_perf",
+            "directory": "\/log\/apache2",
+            "name": "modsec-perf.log",
+            "columns": [
+                "loggedon",
+                "unique_id",
+                "duration_microsec",
+                "PerfModSecInbound",
+                "PerfAppl",
+                "PerfModSecOutbound",
+                "TS_Phase1",
+                "TS_Phase2",
+                "TS_Phase3",
+                "TS_Phase4",
+                "TS_Phase5",
+                "Perf_Phase1",
+                "Perf_Phase2",
+                "Perf_Phase3",
+                "Perf_Phase4",
+                "Perf_Phase5",
+                "Perf_ReadingStorage",
+                "Perf_WritingStorage",
+                "Perf_GarbageCollection",
+                "Perf_ModSecLogging",
+                "Perf_ModSecCombined"
+            ],
+            "loggedon_format": "YYYY-MM-DD HH:mm:ss.m-6",
+            "field_encapsulated": "brackets",
+            "field_delimiter": "space",
+            "quirk": "after PerfModSecInbound every second field is part of the previous so I join those two fields together when parsing. Fields can be encapsulated with brackets sometimes - do my best to parse them out"
+        },
+        "modsec_audit": {
+            "alias": "modsec_audit",
+            "directory": "\/log\/apache2",
+            "name": "modsec_audit.log",
+            "columns": [
+                "modsecurity",
+                "client_ip",
+                "domain_ip",
+                "https_response",
+                "audit_file",
+                "log"
+            ],
+            "loggedon_format": "null",
+            "field_encapsulated": "brackets",
+            "field_delimiter": "space",
+            "quirk": ""
+        }
+    },
+    "log_exclude": [
+        "btmp",
+        "wtmp",
+        "cloud-init-output.log",
+        "faillog",
+        "lastlog",
+        "lynis.log",
+        "lynis-report.dat",
+        "access.log",
+        "other_vhostsaccess.log",
+        "www-data-global",
+        "www-data-global.dir",
+        "www-data-global.pag",
+        "www-data-ip",
+        "www-data-ip.dir",
+        "www-data-ip.pag",
+        "pacct",
+        "sa",
+        "sar"
+    ],
+    "log_dump": [
+        "apache2\/audit\/www-data",
+        "\/apt\/"
+    ],
+    "file_exclude_types": [
+        ".zip",
+        ".tar",
+        ".gz",
+        ".xz"
+    ]
+}
+
+2024-08-22 11:33:14
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 0,
+    "exists": "auth",
+    "alias": "auth",
+    "nu_of_ows": 38548,
+    "max_logid": 38548,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:33:14
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 1,
+    "exists": "alternatives",
+    "alias": "alternatives",
+    "nu_of_ows": 396,
+    "max_logid": 396,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:33:14
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 2,
+    "exists": "daemon",
+    "alias": "daemon",
+    "nu_of_ows": 43726,
+    "max_logid": 43726,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:33:14
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 3,
+    "exists": "debug",
+    "alias": "debug",
+    "nu_of_ows": 11162,
+    "max_logid": 11162,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:33:14
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 4,
+    "exists": "dpkg",
+    "alias": "dpkg",
+    "nu_of_ows": 15231,
+    "max_logid": 15231,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:33:14
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 5,
+    "exists": "fail2ban",
+    "alias": "fail2ban",
+    "nu_of_ows": 2460,
+    "max_logid": 2460,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:33:14
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 6,
+    "exists": "kern",
+    "alias": "kern",
+    "nu_of_ows": 47498,
+    "max_logid": 47498,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:33:14
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 7,
+    "exists": "mail_info",
+    "alias": "mail_info",
+    "nu_of_ows": 8120,
+    "max_logid": 8120,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:33:14
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 8,
+    "exists": "mail_log",
+    "alias": "mail_log",
+    "nu_of_ows": 8120,
+    "max_logid": 8120,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:33:14
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 9,
+    "exists": "mail_warn",
+    "alias": "mail_warn",
+    "nu_of_ows": 4035,
+    "max_logid": 4035,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:33:14
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 10,
+    "exists": "messages",
+    "alias": "messages",
+    "nu_of_ows": 39957,
+    "max_logid": 39957,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:33:14
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 11,
+    "exists": "syslog",
+    "alias": "syslog",
+    "nu_of_ows": 115746,
+    "max_logid": 115746,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:33:14
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 12,
+    "exists": "ufw",
+    "alias": "ufw",
+    "nu_of_ows": 19565,
+    "max_logid": 19565,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:33:14
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 13,
+    "exists": "user",
+    "alias": "user",
+    "nu_of_ows": 45,
+    "max_logid": 45,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:33:15
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 14,
+    "exists": "daemon_access",
+    "alias": "daemon_access",
+    "nu_of_ows": 217731,
+    "max_logid": 217731,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:33:15
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 15,
+    "exists": "daemon_error",
+    "alias": "daemon_error",
+    "nu_of_ows": 181820,
+    "max_logid": 181820,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:33:15
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 16,
+    "exists": "daemon_perf",
+    "alias": "daemon_perf",
+    "nu_of_ows": 5000,
+    "max_logid": 5000,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:33:15
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 17,
+    "exists": "modsec_perf",
+    "alias": "modsec_perf",
+    "nu_of_ows": 95339,
+    "max_logid": 95339,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:33:15
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 18,
+    "exists": "modsec_audit",
+    "alias": "modsec_audit",
+    "nu_of_ows": 95609,
+    "max_logid": 95609,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:33:15
+Location: Synaptic4UParser\Parser\Parser::loadLogs() : /synaptic4u/REPOS/LogParserRepo/linode_logs/
+Accepted log files parsed to own tables: No files to log
+Log files to be rejected:: No files to log
+Log files parsed to log_dump: No files to log
+Tree: []
+
+2024-08-22 11:33:15
+Location: Synaptic4UParser\Core\App::fullReport()
+full_report: {
+    "app_timer": {
+        "date_time": "2024-08-22 11:33:15",
+        "start": 1724319194.893426,
+        "finish": 1724319195.097715,
+        "duration_min_sec": "0:0",
+        "duration_sec_microseconds": 0.20428895950317383
+    },
+    "log_files": []
+}
+
+2024-08-22 11:33:15
+Location: Synaptic4UParser\Core\App::__construct()
+config: {
+    "IMPORTANT_NOTE_alias": "alias must be one word, no hyphens or spaces. Accepted values: tree or tree_log",
+    "IMPORTANT_NOTE for Parser::parseLine() method": "Some of the logs are so custom, I couldn't catch everything with generic program logic without doing extensive checking in the parsing.",
+    "IMPORTANT_NOTE_database_primary_key": "A auto_increment primary key is automatically named logid (int) auto_increment primary key",
+    "IMPORTANT_NOTE_columns_date_variables": "columns: date variable for database table must be named: loggedon.",
+    "log_include": {
+        "auth": {
+            "alias": "auth",
+            "directory": "\/log",
+            "name": "auth.log",
+            "columns": [
+                "loggedon",
+                "server",
+                "session",
+                "user",
+                "command_action"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "alternatives": {
+            "alias": "alternatives",
+            "directory": "\/log",
+            "name": "alternatives.log",
+            "columns": [
+                "update_alternatives",
+                "loggedon",
+                "log"
+            ],
+            "loggedon_format": "YYYY-MM-DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "daemon": {
+            "alias": "daemon",
+            "directory": "\/log",
+            "name": "daemon.log",
+            "columns": [
+                "loggedon",
+                "server",
+                "application",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "debug": {
+            "alias": "debug",
+            "directory": "\/log",
+            "name": "debug",
+            "columns": [
+                "loggedon",
+                "server",
+                "application",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "dpkg": {
+            "alias": "dpkg",
+            "directory": "\/log",
+            "name": "dpkg.log",
+            "columns": [
+                "loggedon",
+                "process",
+                "log"
+            ],
+            "loggedon_format": "YYYY-MM-DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "fail2ban": {
+            "alias": "fail2ban",
+            "directory": "\/log",
+            "name": "fail2ban.log",
+            "columns": [
+                "loggedon",
+                "process",
+                "id",
+                "type",
+                "log"
+            ],
+            "loggedon_format": "YYYY-MM-DD HH:mm:ss,m-3",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": "Some files have the emails logged to them so it messes everything up! Occaisonal occurence, I just deleted the few offenders manually in the file."
+        },
+        "kern": {
+            "alias": "kern",
+            "directory": "\/log",
+            "name": "kern.log",
+            "columns": [
+                "loggedon",
+                "server",
+                "process",
+                "id",
+                "application",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "mail_info": {
+            "alias": "mail_info",
+            "directory": "\/log",
+            "name": "mail.info",
+            "columns": [
+                "loggedon",
+                "server",
+                "process",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "mail_log": {
+            "alias": "mail_log",
+            "directory": "\/log",
+            "name": "mail.log",
+            "columns": [
+                "loggedon",
+                "server",
+                "process",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "mail_warn": {
+            "alias": "mail_warn",
+            "directory": "\/log",
+            "name": "mail.warn",
+            "columns": [
+                "loggedon",
+                "server",
+                "process",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "messages": {
+            "alias": "messages",
+            "directory": "\/log",
+            "name": "messages",
+            "columns": [
+                "loggedon",
+                "server",
+                "process",
+                "id",
+                "application",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "syslog": {
+            "alias": "syslog",
+            "directory": "\/log",
+            "name": "syslog",
+            "columns": [
+                "loggedon",
+                "server",
+                "process",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "ufw": {
+            "alias": "ufw",
+            "directory": "\/log",
+            "name": "ufw.log",
+            "columns": [
+                "loggedon",
+                "server",
+                "process",
+                "id",
+                "ufw",
+                "in",
+                "out",
+                "mac",
+                "src",
+                "dst",
+                "len",
+                "tos",
+                "prec",
+                "ttl",
+                "id2",
+                "prot",
+                "spt",
+                "dpt",
+                "window",
+                "res",
+                "syn",
+                "urgp",
+                "hoplimit",
+                "flowlbl"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": "Fields are not in a unified order, need to match!"
+        },
+        "user": {
+            "alias": "user",
+            "directory": "\/log",
+            "name": "user.log",
+            "columns": [
+                "loggedon",
+                "server",
+                "process",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "daemon_access": {
+            "alias": "daemon_access",
+            "directory": "\/log\/apache2",
+            "name": "daemon-access.log",
+            "columns": [
+                "ip",
+                "logname",
+                "country_code",
+                "loggedon",
+                "method_params",
+                "http_response",
+                "calculated_bytes",
+                "referer",
+                "user_agent",
+                "content_type",
+                "client_port",
+                "canonical_host_name",
+                "server_IP",
+                "server_port",
+                "handler",
+                "forward_requests",
+                "tcp_connection",
+                "cookie",
+                "unique_id",
+                "SSL_PROTOCOL",
+                "SSL_CIPHER",
+                "in_bytes_tot",
+                "out_bytes_tot",
+                "compression_ratio",
+                "duration_micro_sec",
+                "modsec_time_in",
+                "app_time",
+                "modsec_time_out",
+                "modsec_anomaly_in_pls",
+                "modsec_anomaly_out_pls",
+                "modsec_anomaly_in",
+                "modsec_anomaly_out"
+            ],
+            "loggedon_format": "YYYY-MM-DD HH:mm:ss.m-6",
+            "field_encapsulated": "double quotes",
+            "field_delimiter": "space",
+            "quirk": "The column: method_params was changed in the program to a text field in the DB, MySQL was truncating the column. This is my apache virtualhost log. Variations of different date formats in logs: DD\/MMM\/YYYY:HH:mm:ss +d-4 || YYYY-MM-DD HH:mm:ss.m-6"
+        },
+        "daemon_error": {
+            "alias": "daemon_error",
+            "directory": "\/log\/apache2",
+            "name": "daemon-error.log",
+            "columns": [
+                "loggedon",
+                "error",
+                "client_ip",
+                "unique_id",
+                "log"
+            ],
+            "loggedon_format": "YYYY-MM-DD HH:mm:ss.m-6",
+            "field_encapsulated": "brackets or double quotes",
+            "field_delimiter": "space",
+            "quirk": "Unique_id & client_ip_port could be anywhere, we'll just search for those values after error column. Date formatted as either: [Day MMM DD HH:mm:ss.m-6 YYYY] || [Day MMM DD HH:mm:ss.m-6 YYYY]"
+        },
+        "daemon_perf": {
+            "alias": "daemon_perf",
+            "directory": "\/log\/apache2",
+            "name": "daemon-perf.log",
+            "columns": [
+                "loggedon",
+                "unique_id",
+                "duration_microsec",
+                "PerfModSecInbound",
+                "PerfAppl",
+                "PerfModSecOutbound",
+                "TS_Phase1",
+                "TS_Phase2",
+                "TS_Phase3",
+                "TS_Phase4",
+                "TS_Phase5",
+                "Perf_Phase1",
+                "Perf_Phase2",
+                "Perf_Phase3",
+                "Perf_Phase4",
+                "Perf_Phase5",
+                "Perf_ReadingStorage",
+                "Perf_WritingStorage",
+                "Perf_GarbageCollection",
+                "Perf_ModSecLogging",
+                "Perf_ModSecCombined"
+            ],
+            "loggedon_format": "YYYY-MM-DD HH:mm:ss.m-6",
+            "field_encapsulated": "brackets sometimes",
+            "field_delimiter": "space",
+            "quirk": "after PerfModSecInbound every second field is part of the previous so I join those two fields together when parsing. Fields can be encapsulated with brackets sometimes - do my best to parse them out"
+        },
+        "modsec_perf": {
+            "alias": "modsec_perf",
+            "directory": "\/log\/apache2",
+            "name": "modsec-perf.log",
+            "columns": [
+                "loggedon",
+                "unique_id",
+                "duration_microsec",
+                "PerfModSecInbound",
+                "PerfAppl",
+                "PerfModSecOutbound",
+                "TS_Phase1",
+                "TS_Phase2",
+                "TS_Phase3",
+                "TS_Phase4",
+                "TS_Phase5",
+                "Perf_Phase1",
+                "Perf_Phase2",
+                "Perf_Phase3",
+                "Perf_Phase4",
+                "Perf_Phase5",
+                "Perf_ReadingStorage",
+                "Perf_WritingStorage",
+                "Perf_GarbageCollection",
+                "Perf_ModSecLogging",
+                "Perf_ModSecCombined"
+            ],
+            "loggedon_format": "YYYY-MM-DD HH:mm:ss.m-6",
+            "field_encapsulated": "brackets",
+            "field_delimiter": "space",
+            "quirk": "after PerfModSecInbound every second field is part of the previous so I join those two fields together when parsing. Fields can be encapsulated with brackets sometimes - do my best to parse them out"
+        },
+        "modsec_audit": {
+            "alias": "modsec_audit",
+            "directory": "\/log\/apache2",
+            "name": "modsec_audit.log",
+            "columns": [
+                "modsecurity",
+                "client_ip",
+                "domain_ip",
+                "https_response",
+                "audit_file",
+                "log"
+            ],
+            "loggedon_format": "null",
+            "field_encapsulated": "brackets",
+            "field_delimiter": "space",
+            "quirk": ""
+        }
+    },
+    "log_exclude": [
+        "btmp",
+        "wtmp",
+        "cloud-init-output.log",
+        "faillog",
+        "lastlog",
+        "lynis.log",
+        "lynis-report.dat",
+        "access.log",
+        "other_vhostsaccess.log",
+        "www-data-global",
+        "www-data-global.dir",
+        "www-data-global.pag",
+        "www-data-ip",
+        "www-data-ip.dir",
+        "www-data-ip.pag",
+        "pacct",
+        "sa",
+        "sar"
+    ],
+    "log_dump": [
+        "apache2\/audit\/www-data",
+        "\/apt\/"
+    ],
+    "file_exclude_types": [
+        ".zip",
+        ".tar",
+        ".gz",
+        ".xz"
+    ]
+}
+
+2024-08-22 11:37:25
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 0,
+    "exists": "auth",
+    "alias": "auth",
+    "nu_of_ows": 38548,
+    "max_logid": 38548,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:37:25
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 1,
+    "exists": "alternatives",
+    "alias": "alternatives",
+    "nu_of_ows": 396,
+    "max_logid": 396,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:37:25
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 2,
+    "exists": "daemon",
+    "alias": "daemon",
+    "nu_of_ows": 43726,
+    "max_logid": 43726,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:37:25
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 3,
+    "exists": "debug",
+    "alias": "debug",
+    "nu_of_ows": 11162,
+    "max_logid": 11162,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:37:25
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 4,
+    "exists": "dpkg",
+    "alias": "dpkg",
+    "nu_of_ows": 15231,
+    "max_logid": 15231,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:37:25
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 5,
+    "exists": "fail2ban",
+    "alias": "fail2ban",
+    "nu_of_ows": 2460,
+    "max_logid": 2460,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:37:25
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 6,
+    "exists": "kern",
+    "alias": "kern",
+    "nu_of_ows": 47498,
+    "max_logid": 47498,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:37:25
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 7,
+    "exists": "mail_info",
+    "alias": "mail_info",
+    "nu_of_ows": 8120,
+    "max_logid": 8120,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:37:25
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 8,
+    "exists": "mail_log",
+    "alias": "mail_log",
+    "nu_of_ows": 8120,
+    "max_logid": 8120,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:37:25
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 9,
+    "exists": "mail_warn",
+    "alias": "mail_warn",
+    "nu_of_ows": 4035,
+    "max_logid": 4035,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:37:25
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 10,
+    "exists": "messages",
+    "alias": "messages",
+    "nu_of_ows": 39957,
+    "max_logid": 39957,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:37:25
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 11,
+    "exists": "syslog",
+    "alias": "syslog",
+    "nu_of_ows": 115746,
+    "max_logid": 115746,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:37:25
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 12,
+    "exists": "ufw",
+    "alias": "ufw",
+    "nu_of_ows": 19565,
+    "max_logid": 19565,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:37:25
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 13,
+    "exists": "user",
+    "alias": "user",
+    "nu_of_ows": 45,
+    "max_logid": 45,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:37:25
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 14,
+    "exists": "daemon_access",
+    "alias": "daemon_access",
+    "nu_of_ows": 217731,
+    "max_logid": 217731,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:37:25
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 15,
+    "exists": "daemon_error",
+    "alias": "daemon_error",
+    "nu_of_ows": 181820,
+    "max_logid": 181820,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:37:25
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 16,
+    "exists": "daemon_perf",
+    "alias": "daemon_perf",
+    "nu_of_ows": 5000,
+    "max_logid": 5000,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:37:25
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 17,
+    "exists": "modsec_perf",
+    "alias": "modsec_perf",
+    "nu_of_ows": 95339,
+    "max_logid": 95339,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:37:25
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 18,
+    "exists": "modsec_audit",
+    "alias": "modsec_audit",
+    "nu_of_ows": 95609,
+    "max_logid": 95609,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:37:25
+Location: Synaptic4UParser\Parser\Parser::loadLogs() : /synaptic4u/REPOS/LogParserRepo/linode_logs/
+Accepted log files parsed to own tables: No files to log
+Log files to be rejected:: No files to log
+Log files parsed to log_dump: No files to log
+Tree: []
+
+2024-08-22 11:37:25
+Location: Synaptic4UParser\Core\App::fullReport()
+full_report: {
+    "app_timer": {
+        "date_time": "2024-08-22 11:37:25",
+        "start": 1724319445.449237,
+        "finish": 1724319445.654938,
+        "duration_min_sec": "0:0",
+        "duration_sec_microseconds": 0.20570087432861328
+    },
+    "log_files": []
+}
+
+2024-08-22 11:37:25
+Location: Synaptic4UParser\Core\App::__construct()
+config: {
+    "IMPORTANT_NOTE_alias": "alias must be one word, no hyphens or spaces. Accepted values: tree or tree_log",
+    "IMPORTANT_NOTE for Parser::parseLine() method": "Some of the logs are so custom, I couldn't catch everything with generic program logic without doing extensive checking in the parsing.",
+    "IMPORTANT_NOTE_database_primary_key": "A auto_increment primary key is automatically named logid (int) auto_increment primary key",
+    "IMPORTANT_NOTE_columns_date_variables": "columns: date variable for database table must be named: loggedon.",
+    "log_include": {
+        "auth": {
+            "alias": "auth",
+            "directory": "\/log",
+            "name": "auth.log",
+            "columns": [
+                "loggedon",
+                "server",
+                "session",
+                "user",
+                "command_action"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "alternatives": {
+            "alias": "alternatives",
+            "directory": "\/log",
+            "name": "alternatives.log",
+            "columns": [
+                "update_alternatives",
+                "loggedon",
+                "log"
+            ],
+            "loggedon_format": "YYYY-MM-DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "daemon": {
+            "alias": "daemon",
+            "directory": "\/log",
+            "name": "daemon.log",
+            "columns": [
+                "loggedon",
+                "server",
+                "application",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "debug": {
+            "alias": "debug",
+            "directory": "\/log",
+            "name": "debug",
+            "columns": [
+                "loggedon",
+                "server",
+                "application",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "dpkg": {
+            "alias": "dpkg",
+            "directory": "\/log",
+            "name": "dpkg.log",
+            "columns": [
+                "loggedon",
+                "process",
+                "log"
+            ],
+            "loggedon_format": "YYYY-MM-DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "fail2ban": {
+            "alias": "fail2ban",
+            "directory": "\/log",
+            "name": "fail2ban.log",
+            "columns": [
+                "loggedon",
+                "process",
+                "id",
+                "type",
+                "log"
+            ],
+            "loggedon_format": "YYYY-MM-DD HH:mm:ss,m-3",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": "Some files have the emails logged to them so it messes everything up! Occaisonal occurence, I just deleted the few offenders manually in the file."
+        },
+        "kern": {
+            "alias": "kern",
+            "directory": "\/log",
+            "name": "kern.log",
+            "columns": [
+                "loggedon",
+                "server",
+                "process",
+                "id",
+                "application",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "mail_info": {
+            "alias": "mail_info",
+            "directory": "\/log",
+            "name": "mail.info",
+            "columns": [
+                "loggedon",
+                "server",
+                "process",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "mail_log": {
+            "alias": "mail_log",
+            "directory": "\/log",
+            "name": "mail.log",
+            "columns": [
+                "loggedon",
+                "server",
+                "process",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "mail_warn": {
+            "alias": "mail_warn",
+            "directory": "\/log",
+            "name": "mail.warn",
+            "columns": [
+                "loggedon",
+                "server",
+                "process",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "messages": {
+            "alias": "messages",
+            "directory": "\/log",
+            "name": "messages",
+            "columns": [
+                "loggedon",
+                "server",
+                "process",
+                "id",
+                "application",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "syslog": {
+            "alias": "syslog",
+            "directory": "\/log",
+            "name": "syslog",
+            "columns": [
+                "loggedon",
+                "server",
+                "process",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "ufw": {
+            "alias": "ufw",
+            "directory": "\/log",
+            "name": "ufw.log",
+            "columns": [
+                "loggedon",
+                "server",
+                "process",
+                "id",
+                "ufw",
+                "in",
+                "out",
+                "mac",
+                "src",
+                "dst",
+                "len",
+                "tos",
+                "prec",
+                "ttl",
+                "id2",
+                "prot",
+                "spt",
+                "dpt",
+                "window",
+                "res",
+                "syn",
+                "urgp",
+                "hoplimit",
+                "flowlbl"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": "Fields are not in a unified order, need to match!"
+        },
+        "user": {
+            "alias": "user",
+            "directory": "\/log",
+            "name": "user.log",
+            "columns": [
+                "loggedon",
+                "server",
+                "process",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "daemon_access": {
+            "alias": "daemon_access",
+            "directory": "\/log\/apache2",
+            "name": "daemon-access.log",
+            "columns": [
+                "ip",
+                "logname",
+                "country_code",
+                "loggedon",
+                "method_params",
+                "http_response",
+                "calculated_bytes",
+                "referer",
+                "user_agent",
+                "content_type",
+                "client_port",
+                "canonical_host_name",
+                "server_IP",
+                "server_port",
+                "handler",
+                "forward_requests",
+                "tcp_connection",
+                "cookie",
+                "unique_id",
+                "SSL_PROTOCOL",
+                "SSL_CIPHER",
+                "in_bytes_tot",
+                "out_bytes_tot",
+                "compression_ratio",
+                "duration_micro_sec",
+                "modsec_time_in",
+                "app_time",
+                "modsec_time_out",
+                "modsec_anomaly_in_pls",
+                "modsec_anomaly_out_pls",
+                "modsec_anomaly_in",
+                "modsec_anomaly_out"
+            ],
+            "loggedon_format": "YYYY-MM-DD HH:mm:ss.m-6",
+            "field_encapsulated": "double quotes",
+            "field_delimiter": "space",
+            "quirk": "The column: method_params was changed in the program to a text field in the DB, MySQL was truncating the column. This is my apache virtualhost log. Variations of different date formats in logs: DD\/MMM\/YYYY:HH:mm:ss +d-4 || YYYY-MM-DD HH:mm:ss.m-6"
+        },
+        "daemon_error": {
+            "alias": "daemon_error",
+            "directory": "\/log\/apache2",
+            "name": "daemon-error.log",
+            "columns": [
+                "loggedon",
+                "error",
+                "client_ip",
+                "unique_id",
+                "log"
+            ],
+            "loggedon_format": "YYYY-MM-DD HH:mm:ss.m-6",
+            "field_encapsulated": "brackets or double quotes",
+            "field_delimiter": "space",
+            "quirk": "Unique_id & client_ip_port could be anywhere, we'll just search for those values after error column. Date formatted as either: [Day MMM DD HH:mm:ss.m-6 YYYY] || [Day MMM DD HH:mm:ss.m-6 YYYY]"
+        },
+        "daemon_perf": {
+            "alias": "daemon_perf",
+            "directory": "\/log\/apache2",
+            "name": "daemon-perf.log",
+            "columns": [
+                "loggedon",
+                "unique_id",
+                "duration_microsec",
+                "PerfModSecInbound",
+                "PerfAppl",
+                "PerfModSecOutbound",
+                "TS_Phase1",
+                "TS_Phase2",
+                "TS_Phase3",
+                "TS_Phase4",
+                "TS_Phase5",
+                "Perf_Phase1",
+                "Perf_Phase2",
+                "Perf_Phase3",
+                "Perf_Phase4",
+                "Perf_Phase5",
+                "Perf_ReadingStorage",
+                "Perf_WritingStorage",
+                "Perf_GarbageCollection",
+                "Perf_ModSecLogging",
+                "Perf_ModSecCombined"
+            ],
+            "loggedon_format": "YYYY-MM-DD HH:mm:ss.m-6",
+            "field_encapsulated": "brackets sometimes",
+            "field_delimiter": "space",
+            "quirk": "after PerfModSecInbound every second field is part of the previous so I join those two fields together when parsing. Fields can be encapsulated with brackets sometimes - do my best to parse them out"
+        },
+        "modsec_perf": {
+            "alias": "modsec_perf",
+            "directory": "\/log\/apache2",
+            "name": "modsec-perf.log",
+            "columns": [
+                "loggedon",
+                "unique_id",
+                "duration_microsec",
+                "PerfModSecInbound",
+                "PerfAppl",
+                "PerfModSecOutbound",
+                "TS_Phase1",
+                "TS_Phase2",
+                "TS_Phase3",
+                "TS_Phase4",
+                "TS_Phase5",
+                "Perf_Phase1",
+                "Perf_Phase2",
+                "Perf_Phase3",
+                "Perf_Phase4",
+                "Perf_Phase5",
+                "Perf_ReadingStorage",
+                "Perf_WritingStorage",
+                "Perf_GarbageCollection",
+                "Perf_ModSecLogging",
+                "Perf_ModSecCombined"
+            ],
+            "loggedon_format": "YYYY-MM-DD HH:mm:ss.m-6",
+            "field_encapsulated": "brackets",
+            "field_delimiter": "space",
+            "quirk": "after PerfModSecInbound every second field is part of the previous so I join those two fields together when parsing. Fields can be encapsulated with brackets sometimes - do my best to parse them out"
+        },
+        "modsec_audit": {
+            "alias": "modsec_audit",
+            "directory": "\/log\/apache2",
+            "name": "modsec_audit.log",
+            "columns": [
+                "modsecurity",
+                "client_ip",
+                "domain_ip",
+                "https_response",
+                "audit_file",
+                "log"
+            ],
+            "loggedon_format": "null",
+            "field_encapsulated": "brackets",
+            "field_delimiter": "space",
+            "quirk": ""
+        }
+    },
+    "log_exclude": [
+        "btmp",
+        "wtmp",
+        "cloud-init-output.log",
+        "faillog",
+        "lastlog",
+        "lynis.log",
+        "lynis-report.dat",
+        "access.log",
+        "other_vhostsaccess.log",
+        "www-data-global",
+        "www-data-global.dir",
+        "www-data-global.pag",
+        "www-data-ip",
+        "www-data-ip.dir",
+        "www-data-ip.pag",
+        "pacct",
+        "sa",
+        "sar"
+    ],
+    "log_dump": [
+        "apache2\/audit\/www-data",
+        "\/apt\/"
+    ],
+    "file_exclude_types": [
+        ".zip",
+        ".tar",
+        ".gz",
+        ".xz"
+    ]
+}
+
+2024-08-22 11:37:54
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 0,
+    "exists": "auth",
+    "alias": "auth",
+    "nu_of_ows": 38548,
+    "max_logid": 38548,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:37:54
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 1,
+    "exists": "alternatives",
+    "alias": "alternatives",
+    "nu_of_ows": 396,
+    "max_logid": 396,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:37:54
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 2,
+    "exists": "daemon",
+    "alias": "daemon",
+    "nu_of_ows": 43726,
+    "max_logid": 43726,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:37:54
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 3,
+    "exists": "debug",
+    "alias": "debug",
+    "nu_of_ows": 11162,
+    "max_logid": 11162,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:37:54
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 4,
+    "exists": "dpkg",
+    "alias": "dpkg",
+    "nu_of_ows": 15231,
+    "max_logid": 15231,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:37:54
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 5,
+    "exists": "fail2ban",
+    "alias": "fail2ban",
+    "nu_of_ows": 2460,
+    "max_logid": 2460,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:37:54
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 6,
+    "exists": "kern",
+    "alias": "kern",
+    "nu_of_ows": 47498,
+    "max_logid": 47498,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:37:54
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 7,
+    "exists": "mail_info",
+    "alias": "mail_info",
+    "nu_of_ows": 8120,
+    "max_logid": 8120,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:37:54
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 8,
+    "exists": "mail_log",
+    "alias": "mail_log",
+    "nu_of_ows": 8120,
+    "max_logid": 8120,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:37:54
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 9,
+    "exists": "mail_warn",
+    "alias": "mail_warn",
+    "nu_of_ows": 4035,
+    "max_logid": 4035,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:37:54
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 10,
+    "exists": "messages",
+    "alias": "messages",
+    "nu_of_ows": 39957,
+    "max_logid": 39957,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:37:54
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 11,
+    "exists": "syslog",
+    "alias": "syslog",
+    "nu_of_ows": 115746,
+    "max_logid": 115746,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:37:54
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 12,
+    "exists": "ufw",
+    "alias": "ufw",
+    "nu_of_ows": 19565,
+    "max_logid": 19565,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:37:54
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 13,
+    "exists": "user",
+    "alias": "user",
+    "nu_of_ows": 45,
+    "max_logid": 45,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:37:54
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 14,
+    "exists": "daemon_access",
+    "alias": "daemon_access",
+    "nu_of_ows": 217731,
+    "max_logid": 217731,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:37:54
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 15,
+    "exists": "daemon_error",
+    "alias": "daemon_error",
+    "nu_of_ows": 181820,
+    "max_logid": 181820,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:37:54
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 16,
+    "exists": "daemon_perf",
+    "alias": "daemon_perf",
+    "nu_of_ows": 5000,
+    "max_logid": 5000,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:37:54
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 17,
+    "exists": "modsec_perf",
+    "alias": "modsec_perf",
+    "nu_of_ows": 95339,
+    "max_logid": 95339,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:37:54
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 18,
+    "exists": "modsec_audit",
+    "alias": "modsec_audit",
+    "nu_of_ows": 95609,
+    "max_logid": 95609,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:37:54
+Location: Synaptic4UParser\Parser\Parser::loadLogs() : /synaptic4u/REPOS/LogParserRepo/linode_logs/
+Accepted log files parsed to own tables: No files to log
+Log files to be rejected:: No files to log
+Log files parsed to log_dump: No files to log
+Tree: []
+
+2024-08-22 11:37:54
+Location: Synaptic4UParser\Core\App::fullReport()
+full_report: {
+    "app_timer": {
+        "date_time": "2024-08-22 11:37:54",
+        "start": 1724319474.185245,
+        "finish": 1724319474.385014,
+        "duration_min_sec": "0:0",
+        "duration_sec_microseconds": 0.1997690200805664
+    },
+    "log_files": []
+}
+
+2024-08-22 11:37:54
+Location: Synaptic4UParser\Core\App::__construct()
+config: {
+    "IMPORTANT_NOTE_alias": "alias must be one word, no hyphens or spaces. Accepted values: tree or tree_log",
+    "IMPORTANT_NOTE for Parser::parseLine() method": "Some of the logs are so custom, I couldn't catch everything with generic program logic without doing extensive checking in the parsing.",
+    "IMPORTANT_NOTE_database_primary_key": "A auto_increment primary key is automatically named logid (int) auto_increment primary key",
+    "IMPORTANT_NOTE_columns_date_variables": "columns: date variable for database table must be named: loggedon.",
+    "log_include": {
+        "auth": {
+            "alias": "auth",
+            "directory": "\/log",
+            "name": "auth.log",
+            "columns": [
+                "loggedon",
+                "server",
+                "session",
+                "user",
+                "command_action"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "alternatives": {
+            "alias": "alternatives",
+            "directory": "\/log",
+            "name": "alternatives.log",
+            "columns": [
+                "update_alternatives",
+                "loggedon",
+                "log"
+            ],
+            "loggedon_format": "YYYY-MM-DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "daemon": {
+            "alias": "daemon",
+            "directory": "\/log",
+            "name": "daemon.log",
+            "columns": [
+                "loggedon",
+                "server",
+                "application",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "debug": {
+            "alias": "debug",
+            "directory": "\/log",
+            "name": "debug",
+            "columns": [
+                "loggedon",
+                "server",
+                "application",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "dpkg": {
+            "alias": "dpkg",
+            "directory": "\/log",
+            "name": "dpkg.log",
+            "columns": [
+                "loggedon",
+                "process",
+                "log"
+            ],
+            "loggedon_format": "YYYY-MM-DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "fail2ban": {
+            "alias": "fail2ban",
+            "directory": "\/log",
+            "name": "fail2ban.log",
+            "columns": [
+                "loggedon",
+                "process",
+                "id",
+                "type",
+                "log"
+            ],
+            "loggedon_format": "YYYY-MM-DD HH:mm:ss,m-3",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": "Some files have the emails logged to them so it messes everything up! Occaisonal occurence, I just deleted the few offenders manually in the file."
+        },
+        "kern": {
+            "alias": "kern",
+            "directory": "\/log",
+            "name": "kern.log",
+            "columns": [
+                "loggedon",
+                "server",
+                "process",
+                "id",
+                "application",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "mail_info": {
+            "alias": "mail_info",
+            "directory": "\/log",
+            "name": "mail.info",
+            "columns": [
+                "loggedon",
+                "server",
+                "process",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "mail_log": {
+            "alias": "mail_log",
+            "directory": "\/log",
+            "name": "mail.log",
+            "columns": [
+                "loggedon",
+                "server",
+                "process",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "mail_warn": {
+            "alias": "mail_warn",
+            "directory": "\/log",
+            "name": "mail.warn",
+            "columns": [
+                "loggedon",
+                "server",
+                "process",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "messages": {
+            "alias": "messages",
+            "directory": "\/log",
+            "name": "messages",
+            "columns": [
+                "loggedon",
+                "server",
+                "process",
+                "id",
+                "application",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "syslog": {
+            "alias": "syslog",
+            "directory": "\/log",
+            "name": "syslog",
+            "columns": [
+                "loggedon",
+                "server",
+                "process",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "ufw": {
+            "alias": "ufw",
+            "directory": "\/log",
+            "name": "ufw.log",
+            "columns": [
+                "loggedon",
+                "server",
+                "process",
+                "id",
+                "ufw",
+                "in",
+                "out",
+                "mac",
+                "src",
+                "dst",
+                "len",
+                "tos",
+                "prec",
+                "ttl",
+                "id2",
+                "prot",
+                "spt",
+                "dpt",
+                "window",
+                "res",
+                "syn",
+                "urgp",
+                "hoplimit",
+                "flowlbl"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": "Fields are not in a unified order, need to match!"
+        },
+        "user": {
+            "alias": "user",
+            "directory": "\/log",
+            "name": "user.log",
+            "columns": [
+                "loggedon",
+                "server",
+                "process",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "daemon_access": {
+            "alias": "daemon_access",
+            "directory": "\/log\/apache2",
+            "name": "daemon-access.log",
+            "columns": [
+                "ip",
+                "logname",
+                "country_code",
+                "loggedon",
+                "method_params",
+                "http_response",
+                "calculated_bytes",
+                "referer",
+                "user_agent",
+                "content_type",
+                "client_port",
+                "canonical_host_name",
+                "server_IP",
+                "server_port",
+                "handler",
+                "forward_requests",
+                "tcp_connection",
+                "cookie",
+                "unique_id",
+                "SSL_PROTOCOL",
+                "SSL_CIPHER",
+                "in_bytes_tot",
+                "out_bytes_tot",
+                "compression_ratio",
+                "duration_micro_sec",
+                "modsec_time_in",
+                "app_time",
+                "modsec_time_out",
+                "modsec_anomaly_in_pls",
+                "modsec_anomaly_out_pls",
+                "modsec_anomaly_in",
+                "modsec_anomaly_out"
+            ],
+            "loggedon_format": "YYYY-MM-DD HH:mm:ss.m-6",
+            "field_encapsulated": "double quotes",
+            "field_delimiter": "space",
+            "quirk": "The column: method_params was changed in the program to a text field in the DB, MySQL was truncating the column. This is my apache virtualhost log. Variations of different date formats in logs: DD\/MMM\/YYYY:HH:mm:ss +d-4 || YYYY-MM-DD HH:mm:ss.m-6"
+        },
+        "daemon_error": {
+            "alias": "daemon_error",
+            "directory": "\/log\/apache2",
+            "name": "daemon-error.log",
+            "columns": [
+                "loggedon",
+                "error",
+                "client_ip",
+                "unique_id",
+                "log"
+            ],
+            "loggedon_format": "YYYY-MM-DD HH:mm:ss.m-6",
+            "field_encapsulated": "brackets or double quotes",
+            "field_delimiter": "space",
+            "quirk": "Unique_id & client_ip_port could be anywhere, we'll just search for those values after error column. Date formatted as either: [Day MMM DD HH:mm:ss.m-6 YYYY] || [Day MMM DD HH:mm:ss.m-6 YYYY]"
+        },
+        "daemon_perf": {
+            "alias": "daemon_perf",
+            "directory": "\/log\/apache2",
+            "name": "daemon-perf.log",
+            "columns": [
+                "loggedon",
+                "unique_id",
+                "duration_microsec",
+                "PerfModSecInbound",
+                "PerfAppl",
+                "PerfModSecOutbound",
+                "TS_Phase1",
+                "TS_Phase2",
+                "TS_Phase3",
+                "TS_Phase4",
+                "TS_Phase5",
+                "Perf_Phase1",
+                "Perf_Phase2",
+                "Perf_Phase3",
+                "Perf_Phase4",
+                "Perf_Phase5",
+                "Perf_ReadingStorage",
+                "Perf_WritingStorage",
+                "Perf_GarbageCollection",
+                "Perf_ModSecLogging",
+                "Perf_ModSecCombined"
+            ],
+            "loggedon_format": "YYYY-MM-DD HH:mm:ss.m-6",
+            "field_encapsulated": "brackets sometimes",
+            "field_delimiter": "space",
+            "quirk": "after PerfModSecInbound every second field is part of the previous so I join those two fields together when parsing. Fields can be encapsulated with brackets sometimes - do my best to parse them out"
+        },
+        "modsec_perf": {
+            "alias": "modsec_perf",
+            "directory": "\/log\/apache2",
+            "name": "modsec-perf.log",
+            "columns": [
+                "loggedon",
+                "unique_id",
+                "duration_microsec",
+                "PerfModSecInbound",
+                "PerfAppl",
+                "PerfModSecOutbound",
+                "TS_Phase1",
+                "TS_Phase2",
+                "TS_Phase3",
+                "TS_Phase4",
+                "TS_Phase5",
+                "Perf_Phase1",
+                "Perf_Phase2",
+                "Perf_Phase3",
+                "Perf_Phase4",
+                "Perf_Phase5",
+                "Perf_ReadingStorage",
+                "Perf_WritingStorage",
+                "Perf_GarbageCollection",
+                "Perf_ModSecLogging",
+                "Perf_ModSecCombined"
+            ],
+            "loggedon_format": "YYYY-MM-DD HH:mm:ss.m-6",
+            "field_encapsulated": "brackets",
+            "field_delimiter": "space",
+            "quirk": "after PerfModSecInbound every second field is part of the previous so I join those two fields together when parsing. Fields can be encapsulated with brackets sometimes - do my best to parse them out"
+        },
+        "modsec_audit": {
+            "alias": "modsec_audit",
+            "directory": "\/log\/apache2",
+            "name": "modsec_audit.log",
+            "columns": [
+                "modsecurity",
+                "client_ip",
+                "domain_ip",
+                "https_response",
+                "audit_file",
+                "log"
+            ],
+            "loggedon_format": "null",
+            "field_encapsulated": "brackets",
+            "field_delimiter": "space",
+            "quirk": ""
+        }
+    },
+    "log_exclude": [
+        "btmp",
+        "wtmp",
+        "cloud-init-output.log",
+        "faillog",
+        "lastlog",
+        "lynis.log",
+        "lynis-report.dat",
+        "access.log",
+        "other_vhostsaccess.log",
+        "www-data-global",
+        "www-data-global.dir",
+        "www-data-global.pag",
+        "www-data-ip",
+        "www-data-ip.dir",
+        "www-data-ip.pag",
+        "pacct",
+        "sa",
+        "sar"
+    ],
+    "log_dump": [
+        "apache2\/audit\/www-data",
+        "\/apt\/"
+    ],
+    "file_exclude_types": [
+        ".zip",
+        ".tar",
+        ".gz",
+        ".xz"
+    ]
+}
+
+2024-08-22 11:39:40
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 0,
+    "exists": "auth",
+    "alias": "auth",
+    "nu_of_ows": 38548,
+    "max_logid": 38548,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:39:40
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 1,
+    "exists": "alternatives",
+    "alias": "alternatives",
+    "nu_of_ows": 396,
+    "max_logid": 396,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:39:40
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 2,
+    "exists": "daemon",
+    "alias": "daemon",
+    "nu_of_ows": 43726,
+    "max_logid": 43726,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:39:40
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 3,
+    "exists": "debug",
+    "alias": "debug",
+    "nu_of_ows": 11162,
+    "max_logid": 11162,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:39:40
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 4,
+    "exists": "dpkg",
+    "alias": "dpkg",
+    "nu_of_ows": 15231,
+    "max_logid": 15231,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:39:40
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 5,
+    "exists": "fail2ban",
+    "alias": "fail2ban",
+    "nu_of_ows": 2460,
+    "max_logid": 2460,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:39:40
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 6,
+    "exists": "kern",
+    "alias": "kern",
+    "nu_of_ows": 47498,
+    "max_logid": 47498,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:39:40
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 7,
+    "exists": "mail_info",
+    "alias": "mail_info",
+    "nu_of_ows": 8120,
+    "max_logid": 8120,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:39:40
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 8,
+    "exists": "mail_log",
+    "alias": "mail_log",
+    "nu_of_ows": 8120,
+    "max_logid": 8120,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:39:40
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 9,
+    "exists": "mail_warn",
+    "alias": "mail_warn",
+    "nu_of_ows": 4035,
+    "max_logid": 4035,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:39:40
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 10,
+    "exists": "messages",
+    "alias": "messages",
+    "nu_of_ows": 39957,
+    "max_logid": 39957,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:39:40
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 11,
+    "exists": "syslog",
+    "alias": "syslog",
+    "nu_of_ows": 115746,
+    "max_logid": 115746,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:39:40
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 12,
+    "exists": "ufw",
+    "alias": "ufw",
+    "nu_of_ows": 19565,
+    "max_logid": 19565,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:39:40
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 13,
+    "exists": "user",
+    "alias": "user",
+    "nu_of_ows": 45,
+    "max_logid": 45,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:39:40
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 14,
+    "exists": "daemon_access",
+    "alias": "daemon_access",
+    "nu_of_ows": 217731,
+    "max_logid": 217731,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:39:40
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 15,
+    "exists": "daemon_error",
+    "alias": "daemon_error",
+    "nu_of_ows": 181820,
+    "max_logid": 181820,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:39:40
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 16,
+    "exists": "daemon_perf",
+    "alias": "daemon_perf",
+    "nu_of_ows": 5000,
+    "max_logid": 5000,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:39:40
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 17,
+    "exists": "modsec_perf",
+    "alias": "modsec_perf",
+    "nu_of_ows": 95339,
+    "max_logid": 95339,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:39:40
+Location: Synaptic4UParser\Structure\Structure::parse()
+message: {
+    "nu": 18,
+    "exists": "modsec_audit",
+    "alias": "modsec_audit",
+    "nu_of_ows": 95609,
+    "max_logid": 95609,
+    "config_structure_variance": "None",
+    "database_structure_variance": "None"
+}
+
+2024-08-22 11:39:40
+Location: Synaptic4UParser\Parser\Parser::loadLogs() : /synaptic4u/REPOS/LogParserRepo/linode_logs/
+Accepted log files parsed to own tables: No files to log
+Log files to be rejected:: No files to log
+Log files parsed to log_dump: No files to log
+Tree: []
+
+2024-08-22 11:39:40
+Location: Synaptic4UParser\Core\App::fullReport()
+full_report: {
+    "app_timer": {
+        "date_time": "2024-08-22 11:39:40",
+        "start": 1724319580.463268,
+        "finish": 1724319580.682409,
+        "duration_min_sec": "0:0",
+        "duration_sec_microseconds": 0.21914100646972656
+    },
+    "log_files": []
+}
+
+2024-08-22 11:39:40
+Location: Synaptic4UParser\Core\App::__construct()
+config: {
+    "IMPORTANT_NOTE_alias": "alias must be one word, no hyphens or spaces. Accepted values: tree or tree_log",
+    "IMPORTANT_NOTE for Parser::parseLine() method": "Some of the logs are so custom, I couldn't catch everything with generic program logic without doing extensive checking in the parsing.",
+    "IMPORTANT_NOTE_database_primary_key": "A auto_increment primary key is automatically named logid (int) auto_increment primary key",
+    "IMPORTANT_NOTE_columns_date_variables": "columns: date variable for database table must be named: loggedon.",
+    "log_include": {
+        "auth": {
+            "alias": "auth",
+            "directory": "\/log",
+            "name": "auth.log",
+            "columns": [
+                "loggedon",
+                "server",
+                "session",
+                "user",
+                "command_action"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "alternatives": {
+            "alias": "alternatives",
+            "directory": "\/log",
+            "name": "alternatives.log",
+            "columns": [
+                "update_alternatives",
+                "loggedon",
+                "log"
+            ],
+            "loggedon_format": "YYYY-MM-DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "daemon": {
+            "alias": "daemon",
+            "directory": "\/log",
+            "name": "daemon.log",
+            "columns": [
+                "loggedon",
+                "server",
+                "application",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "debug": {
+            "alias": "debug",
+            "directory": "\/log",
+            "name": "debug",
+            "columns": [
+                "loggedon",
+                "server",
+                "application",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "dpkg": {
+            "alias": "dpkg",
+            "directory": "\/log",
+            "name": "dpkg.log",
+            "columns": [
+                "loggedon",
+                "process",
+                "log"
+            ],
+            "loggedon_format": "YYYY-MM-DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "fail2ban": {
+            "alias": "fail2ban",
+            "directory": "\/log",
+            "name": "fail2ban.log",
+            "columns": [
+                "loggedon",
+                "process",
+                "id",
+                "type",
+                "log"
+            ],
+            "loggedon_format": "YYYY-MM-DD HH:mm:ss,m-3",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": "Some files have the emails logged to them so it messes everything up! Occaisonal occurence, I just deleted the few offenders manually in the file."
+        },
+        "kern": {
+            "alias": "kern",
+            "directory": "\/log",
+            "name": "kern.log",
+            "columns": [
+                "loggedon",
+                "server",
+                "process",
+                "id",
+                "application",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "mail_info": {
+            "alias": "mail_info",
+            "directory": "\/log",
+            "name": "mail.info",
+            "columns": [
+                "loggedon",
+                "server",
+                "process",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "mail_log": {
+            "alias": "mail_log",
+            "directory": "\/log",
+            "name": "mail.log",
+            "columns": [
+                "loggedon",
+                "server",
+                "process",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "mail_warn": {
+            "alias": "mail_warn",
+            "directory": "\/log",
+            "name": "mail.warn",
+            "columns": [
+                "loggedon",
+                "server",
+                "process",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "messages": {
+            "alias": "messages",
+            "directory": "\/log",
+            "name": "messages",
+            "columns": [
+                "loggedon",
+                "server",
+                "process",
+                "id",
+                "application",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "syslog": {
+            "alias": "syslog",
+            "directory": "\/log",
+            "name": "syslog",
+            "columns": [
+                "loggedon",
+                "server",
+                "process",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "ufw": {
+            "alias": "ufw",
+            "directory": "\/log",
+            "name": "ufw.log",
+            "columns": [
+                "loggedon",
+                "server",
+                "process",
+                "id",
+                "ufw",
+                "in",
+                "out",
+                "mac",
+                "src",
+                "dst",
+                "len",
+                "tos",
+                "prec",
+                "ttl",
+                "id2",
+                "prot",
+                "spt",
+                "dpt",
+                "window",
+                "res",
+                "syn",
+                "urgp",
+                "hoplimit",
+                "flowlbl"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": "Fields are not in a unified order, need to match!"
+        },
+        "user": {
+            "alias": "user",
+            "directory": "\/log",
+            "name": "user.log",
+            "columns": [
+                "loggedon",
+                "server",
+                "process",
+                "log"
+            ],
+            "loggedon_format": "MMM DD HH:mm:ss",
+            "field_encapsulated": "",
+            "field_delimiter": "space",
+            "quirk": ""
+        },
+        "daemon_access": {
+            "alias": "daemon_access",
+            "directory": "\/log\/apache2",
+            "name": "daemon-access.log",
+            "columns": [
+                "ip",
+                "logname",
+                "country_code",
+                "loggedon",
+                "method_params",
+                "http_response",
+                "calculated_bytes",
+                "referer",
+                "user_agent",
+                "content_type",
+                "client_port",
+                "canonical_host_name",
+                "server_IP",
+                "server_port",
+                "handler",
+                "forward_requests",
+                "tcp_connection",
+                "cookie",
+                "unique_id",
+                "SSL_PROTOCOL",
+                "SSL_CIPHER",
+                "in_bytes_tot",
+                "out_bytes_tot",
+                "compression_ratio",
+                "duration_micro_sec",
+                "modsec_time_in",
+                "app_time",
+                "modsec_time_out",
+                "modsec_anomaly_in_pls",
+                "modsec_anomaly_out_pls",
+                "modsec_anomaly_in",
+                "modsec_anomaly_out"
+            ],
+            "loggedon_format": "YYYY-MM-DD HH:mm:ss.m-6",
+            "field_encapsulated": "double quotes",
+            "field_delimiter": "space",
+            "quirk": "The column: method_params was changed in the program to a text field in the DB, MySQL was truncating the column. This is my apache virtualhost log. Variations of different date formats in logs: DD\/MMM\/YYYY:HH:mm:ss +d-4 || YYYY-MM-DD HH:mm:ss.m-6"
+        },
+        "daemon_error": {
+            "alias": "daemon_error",
+            "directory": "\/log\/apache2",
+            "name": "daemon-error.log",
+            "columns": [
+                "loggedon",
+                "error",
+                "client_ip",
+                "unique_id",
+                "log"
+            ],
+            "loggedon_format": "YYYY-MM-DD HH:mm:ss.m-6",
+            "field_encapsulated": "brackets or double quotes",
+            "field_delimiter": "space",
+            "quirk": "Unique_id & client_ip_port could be anywhere, we'll just search for those values after error column. Date formatted as either: [Day MMM DD HH:mm:ss.m-6 YYYY] || [Day MMM DD HH:mm:ss.m-6 YYYY]"
+        },
+        "daemon_perf": {
+            "alias": "daemon_perf",
+            "directory": "\/log\/apache2",
+            "name": "daemon-perf.log",
+            "columns": [
+                "loggedon",
+                "unique_id",
+                "duration_microsec",
+                "PerfModSecInbound",
+                "PerfAppl",
+                "PerfModSecOutbound",
+                "TS_Phase1",
+                "TS_Phase2",
+                "TS_Phase3",
+                "TS_Phase4",
+                "TS_Phase5",
+                "Perf_Phase1",
+                "Perf_Phase2",
+                "Perf_Phase3",
+                "Perf_Phase4",
+                "Perf_Phase5",
+                "Perf_ReadingStorage",
+                "Perf_WritingStorage",
+                "Perf_GarbageCollection",
+                "Perf_ModSecLogging",
+                "Perf_ModSecCombined"
+            ],
+            "loggedon_format": "YYYY-MM-DD HH:mm:ss.m-6",
+            "field_encapsulated": "brackets sometimes",
+            "field_delimiter": "space",
+            "quirk": "after PerfModSecInbound every second field is part of the previous so I join those two fields together when parsing. Fields can be encapsulated with brackets sometimes - do my best to parse them out"
+        },
+        "modsec_perf": {
+            "alias": "modsec_perf",
+            "directory": "\/log\/apache2",
+            "name": "modsec-perf.log",
+            "columns": [
+                "loggedon",
+                "unique_id",
+                "duration_microsec",
+                "PerfModSecInbound",
+                "PerfAppl",
+                "PerfModSecOutbound",
+                "TS_Phase1",
+                "TS_Phase2",
+                "TS_Phase3",
+                "TS_Phase4",
+                "TS_Phase5",
+                "Perf_Phase1",
+                "Perf_Phase2",
+                "Perf_Phase3",
+                "Perf_Phase4",
+                "Perf_Phase5",
+                "Perf_ReadingStorage",
+                "Perf_WritingStorage",
+                "Perf_GarbageCollection",
+                "Perf_ModSecLogging",
+                "Perf_ModSecCombined"
+            ],
+            "loggedon_format": "YYYY-MM-DD HH:mm:ss.m-6",
+            "field_encapsulated": "brackets",
+            "field_delimiter": "space",
+            "quirk": "after PerfModSecInbound every second field is part of the previous so I join those two fields together when parsing. Fields can be encapsulated with brackets sometimes - do my best to parse them out"
+        },
+        "modsec_audit": {
+            "alias": "modsec_audit",
+            "directory": "\/log\/apache2",
+            "name": "modsec_audit.log",
+            "columns": [
+                "modsecurity",
+                "client_ip",
+                "domain_ip",
+                "https_response",
+                "audit_file",
+                "log"
+            ],
+            "loggedon_format": "null",
+            "field_encapsulated": "brackets",
+            "field_delimiter": "space",
+            "quirk": ""
+        }
+    },
+    "log_exclude": [
+        "btmp",
+        "wtmp",
+        "cloud-init-output.log",
+        "faillog",
+        "lastlog",
+        "lynis.log",
+        "lynis-report.dat",
+        "access.log",
+        "other_vhostsaccess.log",
+        "www-data-global",
+        "www-data-global.dir",
+        "www-data-global.pag",
+        "www-data-ip",
+        "www-data-ip.dir",
+        "www-data-ip.pag",
+        "pacct",
+        "sa",
+        "sar"
+    ],
+    "log_dump": [
+        "apache2\/audit\/www-data",
+        "\/apt\/"
+    ],
+    "file_exclude_types": [
+        ".zip",
+        ".tar",
+        ".gz",
+        ".xz"
+    ]
+}

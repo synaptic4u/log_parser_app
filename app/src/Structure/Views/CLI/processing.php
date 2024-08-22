@@ -1,1 +1,0 @@
-Beginning processing the log files.<?php echo $eol; ?><?php echo $eol; ?>
