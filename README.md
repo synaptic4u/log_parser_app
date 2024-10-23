@@ -2,9 +2,10 @@
 NOTA BENA!!!
 -----------------------------------------------------------------------------------------------
 
+        This has repo has mostly become an exercise in design principles. Thats why with some of it you can see its copied and pasted a little between MySQL, SQLite, T-SQL etc..
         Link to log files:
         https://drive.google.com/drive/folders/1DbjBlJAHV8bEJofzUOoKtcmTbp90FXCj?usp=share_link
-        Link to how I planb to update this work:
+        Link to how I plan to update this work:
         https://docs.google.com/document/d/1A8HEq1WCUubcOholYtcpvFLvD0aFzHSYiLS3WYPS534/edit?usp=sharing
         
         Working on the issue I mentioned previously with false positives.
