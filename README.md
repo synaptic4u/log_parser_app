@@ -1,7 +1,9 @@
 -----------------------------------------------------------------------------------------------
 NOTA BENA!!!
 -----------------------------------------------------------------------------------------------
+        STARTING NEW BRANCH REFACTOR -> Refactor and simplify the code I wrote years ago.
 
+        
         This has repo has mostly become an exercise in design principles. Thats why with some of it you can see its copied and pasted a little between MySQL, SQLite, T-SQL etc..
         Link to log files:
         https://drive.google.com/drive/folders/1DbjBlJAHV8bEJofzUOoKtcmTbp90FXCj?usp=share_link
