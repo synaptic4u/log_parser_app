@@ -32553,3 +32553,835 @@ duration_sec_microseconds: 2.0005831718445
 
 2025-03-31 10:15:46
 Location: Synaptic4UParser\Parser\Parser::dumpLog(): /synaptic4u/REPOS/log_parser_app/linode_logs/20220209/log/apache2/audit/www-data/20220207/20220207-0637/20220207-063732-YgCiDEvH3D3gOna6tc1elwAAABM
+
+2025-03-31 10:15:48
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220207-063732-YgCiDEvH3D3gOna6tc1elwAAABM
+result: {
+    "20220207-063732-YgCiDEvH3D3gOna6tc1elwAAABM": {
+        "id": 1091896,
+        "special_log_type": "apache2\/audit\/www-data"
+    }
+}
+start: 1743416146.7001
+finish: 1743416148.7007
+duration_min_sec: 0:2
+duration_sec_microseconds: 2.0005369186401
+
+2025-03-31 10:15:48
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /synaptic4u/REPOS/log_parser_app/linode_logs/20220209/log/apache2/audit/www-data/20220207/20220207-1644/20220207-164424-YgEwSA8O4rdtTxwcWI2ckQAAABE
+
+2025-03-31 10:15:50
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220207-164424-YgEwSA8O4rdtTxwcWI2ckQAAABE
+result: {
+    "20220207-164424-YgEwSA8O4rdtTxwcWI2ckQAAABE": {
+        "id": 1091896,
+        "special_log_type": "apache2\/audit\/www-data"
+    }
+}
+start: 1743416148.7008
+finish: 1743416150.7014
+duration_min_sec: 0:2
+duration_sec_microseconds: 2.0006539821625
+
+2025-03-31 10:15:50
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /synaptic4u/REPOS/log_parser_app/linode_logs/20220209/log/apache2/audit/www-data/20220207/20220207-1515/20220207-151516-YgEbZJnUuTVMRs36Kp8KNQAAAAU
+
+2025-03-31 10:15:52
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220207-151516-YgEbZJnUuTVMRs36Kp8KNQAAAAU
+result: {
+    "20220207-151516-YgEbZJnUuTVMRs36Kp8KNQAAAAU": {
+        "id": 1091896,
+        "special_log_type": "apache2\/audit\/www-data"
+    }
+}
+start: 1743416150.7016
+finish: 1743416152.7028
+duration_min_sec: 0:2
+duration_sec_microseconds: 2.0011808872223
+
+2025-03-31 10:15:52
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /synaptic4u/REPOS/log_parser_app/linode_logs/20220209/log/apache2/audit/www-data/20220207/20220207-1515/20220207-151517-YgEbZfnj-GfrkFbJPUp9GAAAAAY
+
+2025-03-31 10:15:54
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220207-151517-YgEbZfnj-GfrkFbJPUp9GAAAAAY
+result: {
+    "20220207-151517-YgEbZfnj-GfrkFbJPUp9GAAAAAY": {
+        "id": 1091896,
+        "special_log_type": "apache2\/audit\/www-data"
+    }
+}
+start: 1743416152.7029
+finish: 1743416154.7037
+duration_min_sec: 0:2
+duration_sec_microseconds: 2.0008358955383
+
+2025-03-31 10:15:54
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /synaptic4u/REPOS/log_parser_app/linode_logs/20220209/log/apache2/audit/www-data/20220207/20220207-1549/20220207-154911-YgEjVxBcjTLCtbTzi0VxTwAAAAw
+
+2025-03-31 10:15:56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220207-154911-YgEjVxBcjTLCtbTzi0VxTwAAAAw
+result: {
+    "20220207-154911-YgEjVxBcjTLCtbTzi0VxTwAAAAw": {
+        "id": 1091896,
+        "special_log_type": "apache2\/audit\/www-data"
+    }
+}
+start: 1743416154.7038
+finish: 1743416156.7048
+duration_min_sec: 0:2
+duration_sec_microseconds: 2.0009729862213
+
+2025-03-31 10:15:56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /synaptic4u/REPOS/log_parser_app/linode_logs/20220209/log/apache2/audit/www-data/20220207/20220207-1549/20220207-154911-YgEjV4-xqvi0dgcAetar9AAAAA4
+
+2025-03-31 10:15:58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220207-154911-YgEjV4-xqvi0dgcAetar9AAAAA4
+result: {
+    "20220207-154911-YgEjV4-xqvi0dgcAetar9AAAAA4": {
+        "id": 1091896,
+        "special_log_type": "apache2\/audit\/www-data"
+    }
+}
+start: 1743416156.7049
+finish: 1743416158.7058
+duration_min_sec: 0:2
+duration_sec_microseconds: 2.0008599758148
+
+2025-03-31 10:15:58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /synaptic4u/REPOS/log_parser_app/linode_logs/20220209/log/apache2/audit/www-data/20220207/20220207-1549/20220207-154911-YgEjV7X1c0eezHCl@oDujgAAAA0
+
+2025-03-31 10:16:00
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220207-154911-YgEjV7X1c0eezHCl@oDujgAAAA0
+result: {
+    "20220207-154911-YgEjV7X1c0eezHCl@oDujgAAAA0": {
+        "id": 1091896,
+        "special_log_type": "apache2\/audit\/www-data"
+    }
+}
+start: 1743416158.7059
+finish: 1743416160.7071
+duration_min_sec: 0:2
+duration_sec_microseconds: 2.0012168884277
+
+2025-03-31 10:16:00
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /synaptic4u/REPOS/log_parser_app/linode_logs/20220209/log/apache2/audit/www-data/20220207/20220207-1002/20220207-100234-YgDSGtcUVhAEUi0Vbj8bFQAAAAE
+
+2025-03-31 10:16:02
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220207-100234-YgDSGtcUVhAEUi0Vbj8bFQAAAAE
+result: {
+    "20220207-100234-YgDSGtcUVhAEUi0Vbj8bFQAAAAE": {
+        "id": 1091896,
+        "special_log_type": "apache2\/audit\/www-data"
+    }
+}
+start: 1743416160.7073
+finish: 1743416162.7133
+duration_min_sec: 0:2
+duration_sec_microseconds: 2.0060579776764
+
+2025-03-31 10:16:02
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /synaptic4u/REPOS/log_parser_app/linode_logs/20220209/log/apache2/audit/www-data/20220207/20220207-2349/20220207-234941-YgGT9RRo6f-N2tK6nLgX1wAAAAI
+
+2025-03-31 10:16:04
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220207-234941-YgGT9RRo6f-N2tK6nLgX1wAAAAI
+result: {
+    "20220207-234941-YgGT9RRo6f-N2tK6nLgX1wAAAAI": {
+        "id": 1091896,
+        "special_log_type": "apache2\/audit\/www-data"
+    }
+}
+start: 1743416162.7134
+finish: 1743416164.7141
+duration_min_sec: 0:2
+duration_sec_microseconds: 2.0007090568542
+
+2025-03-31 10:16:04
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /synaptic4u/REPOS/log_parser_app/linode_logs/20220209/log/apache2/audit/www-data/20220207/20220207-2218/20220207-221835-YgF@m7CeiNlOwPNSSplxkQAAAAw
+
+2025-03-31 10:16:06
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220207-221835-YgF@m7CeiNlOwPNSSplxkQAAAAw
+result: {
+    "20220207-221835-YgF@m7CeiNlOwPNSSplxkQAAAAw": {
+        "id": 1091896,
+        "special_log_type": "apache2\/audit\/www-data"
+    }
+}
+start: 1743416164.7143
+finish: 1743416166.715
+duration_min_sec: 0:2
+duration_sec_microseconds: 2.0007469654083
+
+2025-03-31 10:16:06
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /synaptic4u/REPOS/log_parser_app/linode_logs/20220209/log/apache2/audit/www-data/20220207/20220207-1924/20220207-192451-YgFV4xRo6f-N2tK6nLgX1AAAAAI
+
+2025-03-31 10:16:08
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220207-192451-YgFV4xRo6f-N2tK6nLgX1AAAAAI
+result: {
+    "20220207-192451-YgFV4xRo6f-N2tK6nLgX1AAAAAI": {
+        "id": 1091896,
+        "special_log_type": "apache2\/audit\/www-data"
+    }
+}
+start: 1743416166.7152
+finish: 1743416168.7162
+duration_min_sec: 0:2
+duration_sec_microseconds: 2.0010488033295
+
+2025-03-31 10:16:08
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /synaptic4u/REPOS/log_parser_app/linode_logs/20220209/log/apache2/audit/www-data/20220207/20220207-1924/20220207-192450-YgFV4liqj7cGy2JwjU8XFwAAAAA
+
+2025-03-31 10:16:10
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220207-192450-YgFV4liqj7cGy2JwjU8XFwAAAAA
+result: {
+    "20220207-192450-YgFV4liqj7cGy2JwjU8XFwAAAAA": {
+        "id": 1091896,
+        "special_log_type": "apache2\/audit\/www-data"
+    }
+}
+start: 1743416168.7163
+finish: 1743416170.7174
+duration_min_sec: 0:2
+duration_sec_microseconds: 2.0010640621185
+
+2025-03-31 10:16:10
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /synaptic4u/REPOS/log_parser_app/linode_logs/20220209/log/apache2/audit/www-data/20220207/20220207-1924/20220207-192451-YgFV45-i0BgT1UahsgcLjQAAAAE
+
+2025-03-31 10:16:12
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220207-192451-YgFV45-i0BgT1UahsgcLjQAAAAE
+result: {
+    "20220207-192451-YgFV45-i0BgT1UahsgcLjQAAAAE": {
+        "id": 1091896,
+        "special_log_type": "apache2\/audit\/www-data"
+    }
+}
+start: 1743416170.7175
+finish: 1743416172.7182
+duration_min_sec: 0:2
+duration_sec_microseconds: 2.0006189346313
+
+2025-03-31 10:16:12
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /synaptic4u/REPOS/log_parser_app/linode_logs/20220209/log/apache2/audit/www-data/20220207/20220207-1924/20220207-192453-YgFV5a1un5k2SRwRPABKOQAAAAM
+
+2025-03-31 10:16:14
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220207-192453-YgFV5a1un5k2SRwRPABKOQAAAAM
+result: {
+    "20220207-192453-YgFV5a1un5k2SRwRPABKOQAAAAM": {
+        "id": 1091896,
+        "special_log_type": "apache2\/audit\/www-data"
+    }
+}
+start: 1743416172.7183
+finish: 1743416174.7191
+duration_min_sec: 0:2
+duration_sec_microseconds: 2.0008399486542
+
+2025-03-31 10:16:14
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /synaptic4u/REPOS/log_parser_app/linode_logs/20220209/log/apache2/audit/www-data/20220207/20220207-1836/20220207-183605-YgFKdcReIu7Wmfe6SgmbyAAAAAE
+
+2025-03-31 10:16:16
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220207-183605-YgFKdcReIu7Wmfe6SgmbyAAAAAE
+result: {
+    "20220207-183605-YgFKdcReIu7Wmfe6SgmbyAAAAAE": {
+        "id": 1091896,
+        "special_log_type": "apache2\/audit\/www-data"
+    }
+}
+start: 1743416174.7192
+finish: 1743416176.7205
+duration_min_sec: 0:2
+duration_sec_microseconds: 2.0013000965118
+
+2025-03-31 10:16:16
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /synaptic4u/REPOS/log_parser_app/linode_logs/20220209/log/apache2/audit/www-data/20220207/20220207-0142/20220207-014247-YgBc95M-A7JSDV6Xq8MDbwAAABQ
+
+2025-03-31 10:16:18
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220207-014247-YgBc95M-A7JSDV6Xq8MDbwAAABQ
+result: {
+    "20220207-014247-YgBc95M-A7JSDV6Xq8MDbwAAABQ": {
+        "id": 1091896,
+        "special_log_type": "apache2\/audit\/www-data"
+    }
+}
+start: 1743416176.7207
+finish: 1743416178.7225
+duration_min_sec: 0:2
+duration_sec_microseconds: 2.0018889904022
+
+2025-03-31 10:16:18
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /synaptic4u/REPOS/log_parser_app/linode_logs/20220209/log/apache2/audit/www-data/20220207/20220207-2159/20220207-215942-YgF6Lliqj7cGy2JwjU8XGgAAAAA
+
+2025-03-31 10:16:20
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220207-215942-YgF6Lliqj7cGy2JwjU8XGgAAAAA
+result: {
+    "20220207-215942-YgF6Lliqj7cGy2JwjU8XGgAAAAA": {
+        "id": 1091896,
+        "special_log_type": "apache2\/audit\/www-data"
+    }
+}
+start: 1743416178.7227
+finish: 1743416180.7297
+duration_min_sec: 0:2
+duration_sec_microseconds: 2.0070130825043
+
+2025-03-31 10:16:20
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /synaptic4u/REPOS/log_parser_app/linode_logs/20220209/log/apache2/audit/www-data/20220207/20220207-2159/20220207-215926-YgF6HuXQv2EZMJRTjMxiuwAAABE
+
+2025-03-31 10:16:22
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220207-215926-YgF6HuXQv2EZMJRTjMxiuwAAABE
+result: {
+    "20220207-215926-YgF6HuXQv2EZMJRTjMxiuwAAABE": {
+        "id": 1091896,
+        "special_log_type": "apache2\/audit\/www-data"
+    }
+}
+start: 1743416180.7298
+finish: 1743416182.7384
+duration_min_sec: 0:2
+duration_sec_microseconds: 2.0085730552673
+
+2025-03-31 10:16:22
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /synaptic4u/REPOS/log_parser_app/linode_logs/20220209/log/apache2/audit/www-data/20220207/20220207-2159/20220207-215922-YgF6GomvwPrwBv830f4R9AAAABM
+
+2025-03-31 10:16:24
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220207-215922-YgF6GomvwPrwBv830f4R9AAAABM
+result: {
+    "20220207-215922-YgF6GomvwPrwBv830f4R9AAAABM": {
+        "id": 1091896,
+        "special_log_type": "apache2\/audit\/www-data"
+    }
+}
+start: 1743416182.7385
+finish: 1743416184.7451
+duration_min_sec: 0:2
+duration_sec_microseconds: 2.0065340995789
+
+2025-03-31 10:16:24
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /synaptic4u/REPOS/log_parser_app/linode_logs/20220209/log/apache2/audit/www-data/20220207/20220207-2159/20220207-215916-YgF6FDjGWZJRlhMzI6betQAAAA4
+
+2025-03-31 10:16:26
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220207-215916-YgF6FDjGWZJRlhMzI6betQAAAA4
+result: {
+    "20220207-215916-YgF6FDjGWZJRlhMzI6betQAAAA4": {
+        "id": 1091896,
+        "special_log_type": "apache2\/audit\/www-data"
+    }
+}
+start: 1743416184.7453
+finish: 1743416186.7488
+duration_min_sec: 0:2
+duration_sec_microseconds: 2.0035390853882
+
+2025-03-31 10:16:26
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /synaptic4u/REPOS/log_parser_app/linode_logs/20220209/log/apache2/audit/www-data/20220207/20220207-2159/20220207-215923-YgF6G4mvwPrwBv830f4R9wAAABM
+
+2025-03-31 10:16:28
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220207-215923-YgF6G4mvwPrwBv830f4R9wAAABM
+result: {
+    "20220207-215923-YgF6G4mvwPrwBv830f4R9wAAABM": {
+        "id": 1091896,
+        "special_log_type": "apache2\/audit\/www-data"
+    }
+}
+start: 1743416186.7489
+finish: 1743416188.7498
+duration_min_sec: 0:2
+duration_sec_microseconds: 2.0008687973022
+
+2025-03-31 10:16:28
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /synaptic4u/REPOS/log_parser_app/linode_logs/20220209/log/apache2/audit/www-data/20220207/20220207-2159/20220207-215929-YgF6IXSeCVhSFYfHuaXQWAAAABc
+
+2025-03-31 10:16:30
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220207-215929-YgF6IXSeCVhSFYfHuaXQWAAAABc
+result: {
+    "20220207-215929-YgF6IXSeCVhSFYfHuaXQWAAAABc": {
+        "id": 1091896,
+        "special_log_type": "apache2\/audit\/www-data"
+    }
+}
+start: 1743416188.7499
+finish: 1743416190.7511
+duration_min_sec: 0:2
+duration_sec_microseconds: 2.0011670589447
+
+2025-03-31 10:16:30
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /synaptic4u/REPOS/log_parser_app/linode_logs/20220209/log/apache2/audit/www-data/20220207/20220207-2159/20220207-215925-YgF6HZdiFRD1pyzWQ0qjVAAAABA
+
+2025-03-31 10:16:32
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220207-215925-YgF6HZdiFRD1pyzWQ0qjVAAAABA
+result: {
+    "20220207-215925-YgF6HZdiFRD1pyzWQ0qjVAAAABA": {
+        "id": 1091896,
+        "special_log_type": "apache2\/audit\/www-data"
+    }
+}
+start: 1743416190.7512
+finish: 1743416192.7532
+duration_min_sec: 0:2
+duration_sec_microseconds: 2.0019400119781
+
+2025-03-31 10:16:32
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /synaptic4u/REPOS/log_parser_app/linode_logs/20220209/log/apache2/audit/www-data/20220207/20220207-2159/20220207-215922-YgF6GomvwPrwBv830f4R9QAAABM
+
+2025-03-31 10:16:34
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220207-215922-YgF6GomvwPrwBv830f4R9QAAABM
+result: {
+    "20220207-215922-YgF6GomvwPrwBv830f4R9QAAABM": {
+        "id": 1091896,
+        "special_log_type": "apache2\/audit\/www-data"
+    }
+}
+start: 1743416192.7533
+finish: 1743416194.7563
+duration_min_sec: 0:2
+duration_sec_microseconds: 2.0030229091644
+
+2025-03-31 10:16:34
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /synaptic4u/REPOS/log_parser_app/linode_logs/20220209/log/apache2/audit/www-data/20220207/20220207-2159/20220207-215939-YgF6K14-XrTxPcw@M5rOCwAAAAQ
+
+2025-03-31 10:16:36
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220207-215939-YgF6K14-XrTxPcw@M5rOCwAAAAQ
+result: {
+    "20220207-215939-YgF6K14-XrTxPcw@M5rOCwAAAAQ": {
+        "id": 1091896,
+        "special_log_type": "apache2\/audit\/www-data"
+    }
+}
+start: 1743416194.7565
+finish: 1743416196.7578
+duration_min_sec: 0:2
+duration_sec_microseconds: 2.0012760162354
+
+2025-03-31 10:16:36
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /synaptic4u/REPOS/log_parser_app/linode_logs/20220209/log/apache2/audit/www-data/20220207/20220207-2159/20220207-215938-YgF6KhRo6f-N2tK6nLgX1gAAAAI
+
+2025-03-31 10:16:38
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220207-215938-YgF6KhRo6f-N2tK6nLgX1gAAAAI
+result: {
+    "20220207-215938-YgF6KhRo6f-N2tK6nLgX1gAAAAI": {
+        "id": 1091896,
+        "special_log_type": "apache2\/audit\/www-data"
+    }
+}
+start: 1743416196.7579
+finish: 1743416198.7586
+duration_min_sec: 0:2
+duration_sec_microseconds: 2.0006778240204
+
+2025-03-31 10:16:38
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /synaptic4u/REPOS/log_parser_app/linode_logs/20220209/log/apache2/audit/www-data/20220207/20220207-2159/20220207-215944-YgF6MOe7YZTeEus3HScW1gAAABY
+
+2025-03-31 10:16:40
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220207-215944-YgF6MOe7YZTeEus3HScW1gAAABY
+result: {
+    "20220207-215944-YgF6MOe7YZTeEus3HScW1gAAABY": {
+        "id": 1091896,
+        "special_log_type": "apache2\/audit\/www-data"
+    }
+}
+start: 1743416198.7587
+finish: 1743416200.7595
+duration_min_sec: 0:2
+duration_sec_microseconds: 2.000824213028
+
+2025-03-31 10:16:40
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /synaptic4u/REPOS/log_parser_app/linode_logs/20220209/log/apache2/audit/www-data/20220207/20220207-2159/20220207-215919-YgF6F93jUpakuURfp1-LYgAAAA8
+
+2025-03-31 10:16:42
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220207-215919-YgF6F93jUpakuURfp1-LYgAAAA8
+result: {
+    "20220207-215919-YgF6F93jUpakuURfp1-LYgAAAA8": {
+        "id": 1091896,
+        "special_log_type": "apache2\/audit\/www-data"
+    }
+}
+start: 1743416200.7596
+finish: 1743416202.761
+duration_min_sec: 0:2
+duration_sec_microseconds: 2.0014290809631
+
+2025-03-31 10:16:42
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /synaptic4u/REPOS/log_parser_app/linode_logs/20220209/log/apache2/audit/www-data/20220207/20220207-2159/20220207-215942-YgF6LjuKZ@wNjPmZa7oyJQAAAAc
+
+2025-03-31 10:16:44
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220207-215942-YgF6LjuKZ@wNjPmZa7oyJQAAAAc
+result: {
+    "20220207-215942-YgF6LjuKZ@wNjPmZa7oyJQAAAAc": {
+        "id": 1091896,
+        "special_log_type": "apache2\/audit\/www-data"
+    }
+}
+start: 1743416202.7612
+finish: 1743416204.7621
+duration_min_sec: 0:2
+duration_sec_microseconds: 2.0008270740509
+
+2025-03-31 10:16:44
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /synaptic4u/REPOS/log_parser_app/linode_logs/20220209/log/apache2/audit/www-data/20220207/20220207-2159/20220207-215937-YgF6KZ-i0BgT1UahsgcLjwAAAAE
+
+2025-03-31 10:16:46
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220207-215937-YgF6KZ-i0BgT1UahsgcLjwAAAAE
+result: {
+    "20220207-215937-YgF6KZ-i0BgT1UahsgcLjwAAAAE": {
+        "id": 1091896,
+        "special_log_type": "apache2\/audit\/www-data"
+    }
+}
+start: 1743416204.7622
+finish: 1743416206.7697
+duration_min_sec: 0:2
+duration_sec_microseconds: 2.0074760913849
+
+2025-03-31 10:16:46
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /synaptic4u/REPOS/log_parser_app/linode_logs/20220209/log/apache2/audit/www-data/20220207/20220207-2159/20220207-215923-YgF6G4mvwPrwBv830f4R9gAAABM
+
+2025-03-31 10:16:48
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220207-215923-YgF6G4mvwPrwBv830f4R9gAAABM
+result: {
+    "20220207-215923-YgF6G4mvwPrwBv830f4R9gAAABM": {
+        "id": 1091896,
+        "special_log_type": "apache2\/audit\/www-data"
+    }
+}
+start: 1743416206.7698
+finish: 1743416208.7711
+duration_min_sec: 0:2
+duration_sec_microseconds: 2.0013151168823
+
+2025-03-31 10:16:48
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /synaptic4u/REPOS/log_parser_app/linode_logs/20220209/log/apache2/audit/www-data/20220207/20220207-2159/20220207-215927-YgF6H04CMgEuLLA1JrM9awAAABI
+
+2025-03-31 10:16:50
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220207-215927-YgF6H04CMgEuLLA1JrM9awAAABI
+result: {
+    "20220207-215927-YgF6H04CMgEuLLA1JrM9awAAABI": {
+        "id": 1091896,
+        "special_log_type": "apache2\/audit\/www-data"
+    }
+}
+start: 1743416208.7712
+finish: 1743416210.7726
+duration_min_sec: 0:2
+duration_sec_microseconds: 2.0013380050659
+
+2025-03-31 10:16:50
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /synaptic4u/REPOS/log_parser_app/linode_logs/20220209/log/apache2/audit/www-data/20220207/20220207-2159/20220207-215944-YgF6MA2BhvD8VUhlnYD8GAAAAAk
+
+2025-03-31 10:16:52
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220207-215944-YgF6MA2BhvD8VUhlnYD8GAAAAAk
+result: {
+    "20220207-215944-YgF6MA2BhvD8VUhlnYD8GAAAAAk": {
+        "id": 1091896,
+        "special_log_type": "apache2\/audit\/www-data"
+    }
+}
+start: 1743416210.7727
+finish: 1743416212.7737
+duration_min_sec: 0:2
+duration_sec_microseconds: 2.0009410381317
+
+2025-03-31 10:16:52
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /synaptic4u/REPOS/log_parser_app/linode_logs/20220209/log/apache2/audit/www-data/20220207/20220207-2159/20220207-215929-YgF6IR12mtbn7eRTApGVxQAAABQ
+
+2025-03-31 10:16:54
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220207-215929-YgF6IR12mtbn7eRTApGVxQAAABQ
+result: {
+    "20220207-215929-YgF6IR12mtbn7eRTApGVxQAAABQ": {
+        "id": 1091896,
+        "special_log_type": "apache2\/audit\/www-data"
+    }
+}
+start: 1743416212.7738
+finish: 1743416214.7745
+duration_min_sec: 0:2
+duration_sec_microseconds: 2.000776052475
+
+2025-03-31 10:16:54
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /synaptic4u/REPOS/log_parser_app/linode_logs/20220209/log/apache2/audit/www-data/20220207/20220207-2159/20220207-215921-YgF6GL69--0bHKCcyE@LHAAAAA0
+
+2025-03-31 10:16:56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220207-215921-YgF6GL69--0bHKCcyE@LHAAAAA0
+result: {
+    "20220207-215921-YgF6GL69--0bHKCcyE@LHAAAAA0": {
+        "id": 1091896,
+        "special_log_type": "apache2\/audit\/www-data"
+    }
+}
+start: 1743416214.7747
+finish: 1743416216.776
+duration_min_sec: 0:2
+duration_sec_microseconds: 2.0013461112976
+
+2025-03-31 10:16:56
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /synaptic4u/REPOS/log_parser_app/linode_logs/20220209/log/apache2/audit/www-data/20220207/20220207-2159/20220207-215940-YgF6LM3nLGXySCaWwuU@swAAABU
+
+2025-03-31 10:16:58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220207-215940-YgF6LM3nLGXySCaWwuU@swAAABU
+result: {
+    "20220207-215940-YgF6LM3nLGXySCaWwuU@swAAABU": {
+        "id": 1091896,
+        "special_log_type": "apache2\/audit\/www-data"
+    }
+}
+start: 1743416216.7762
+finish: 1743416218.7775
+duration_min_sec: 0:2
+duration_sec_microseconds: 2.0013451576233
+
+2025-03-31 10:16:58
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /synaptic4u/REPOS/log_parser_app/linode_logs/20220209/log/apache2/audit/www-data/20220207/20220207-1349/20220207-134948-YgEHXKIRx5qnpL-dRxH1nAAAAAM
+
+2025-03-31 10:17:00
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220207-134948-YgEHXKIRx5qnpL-dRxH1nAAAAAM
+result: {
+    "20220207-134948-YgEHXKIRx5qnpL-dRxH1nAAAAAM": {
+        "id": 1091896,
+        "special_log_type": "apache2\/audit\/www-data"
+    }
+}
+start: 1743416218.7776
+finish: 1743416220.7784
+duration_min_sec: 0:2
+duration_sec_microseconds: 2.0007929801941
+
+2025-03-31 10:17:00
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /synaptic4u/REPOS/log_parser_app/linode_logs/20220209/log/apache2/audit/www-data/20220207/20220207-1259/20220207-125958-YgD7rp2yBolXwfcxfcfmWgAAACw
+
+2025-03-31 10:17:02
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220207-125958-YgD7rp2yBolXwfcxfcfmWgAAACw
+result: {
+    "20220207-125958-YgD7rp2yBolXwfcxfcfmWgAAACw": {
+        "id": 1091896,
+        "special_log_type": "apache2\/audit\/www-data"
+    }
+}
+start: 1743416220.7786
+finish: 1743416222.78
+duration_min_sec: 0:2
+duration_sec_microseconds: 2.001424074173
+
+2025-03-31 10:17:02
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /synaptic4u/REPOS/log_parser_app/linode_logs/20220209/log/apache2/audit/www-data/20220207/20220207-0243/20220207-024331-YgBrM3d0KWqfL7RKHFXfYwAAAAc
+
+2025-03-31 10:17:04
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220207-024331-YgBrM3d0KWqfL7RKHFXfYwAAAAc
+result: {
+    "20220207-024331-YgBrM3d0KWqfL7RKHFXfYwAAAAc": {
+        "id": 1091896,
+        "special_log_type": "apache2\/audit\/www-data"
+    }
+}
+start: 1743416222.7802
+finish: 1743416224.782
+duration_min_sec: 0:2
+duration_sec_microseconds: 2.0018088817596
+
+2025-03-31 10:17:04
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /synaptic4u/REPOS/log_parser_app/linode_logs/20220209/log/apache2/audit/www-data/20220207/20220207-1807/20220207-180735-YgFDx0zfdoIgc3LJsNRq6gAAACg
+
+2025-03-31 10:17:06
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220207-180735-YgFDx0zfdoIgc3LJsNRq6gAAACg
+result: {
+    "20220207-180735-YgFDx0zfdoIgc3LJsNRq6gAAACg": {
+        "id": 1091896,
+        "special_log_type": "apache2\/audit\/www-data"
+    }
+}
+start: 1743416224.7822
+finish: 1743416226.7846
+duration_min_sec: 0:2
+duration_sec_microseconds: 2.0024960041046
+
+2025-03-31 10:17:06
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /synaptic4u/REPOS/log_parser_app/linode_logs/20220209/log/apache2/audit/www-data/20220207/20220207-2131/20220207-213123-YgFzi5diFRD1pyzWQ0qjUwAAABA
+
+2025-03-31 10:17:08
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220207-213123-YgFzi5diFRD1pyzWQ0qjUwAAABA
+result: {
+    "20220207-213123-YgFzi5diFRD1pyzWQ0qjUwAAABA": {
+        "id": 1091896,
+        "special_log_type": "apache2\/audit\/www-data"
+    }
+}
+start: 1743416226.7848
+finish: 1743416228.7862
+duration_min_sec: 0:2
+duration_sec_microseconds: 2.0014100074768
+
+2025-03-31 10:17:08
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /synaptic4u/REPOS/log_parser_app/linode_logs/20220209/log/apache2/audit/www-data/20220207/20220207-2131/20220207-213119-YgFzh4mvwPrwBv830f4R8wAAABM
+
+2025-03-31 10:17:10
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220207-213119-YgFzh4mvwPrwBv830f4R8wAAABM
+result: {
+    "20220207-213119-YgFzh4mvwPrwBv830f4R8wAAABM": {
+        "id": 1091896,
+        "special_log_type": "apache2\/audit\/www-data"
+    }
+}
+start: 1743416228.7863
+finish: 1743416230.7875
+duration_min_sec: 0:2
+duration_sec_microseconds: 2.0011248588562
+
+2025-03-31 10:17:10
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /synaptic4u/REPOS/log_parser_app/linode_logs/20220209/log/apache2/audit/www-data/20220207/20220207-0232/20220207-023233-YgBooaIRx5qnpL-dRxH1mAAAAAM
+
+2025-03-31 10:17:12
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220207-023233-YgBooaIRx5qnpL-dRxH1mAAAAAM
+result: {
+    "20220207-023233-YgBooaIRx5qnpL-dRxH1mAAAAAM": {
+        "id": 1091896,
+        "special_log_type": "apache2\/audit\/www-data"
+    }
+}
+start: 1743416230.7876
+finish: 1743416232.7896
+duration_min_sec: 0:2
+duration_sec_microseconds: 2.0019950866699
+
+2025-03-31 10:17:12
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /synaptic4u/REPOS/log_parser_app/linode_logs/20220209/log/apache2/audit/www-data/20220207/20220207-0232/20220207-023227-YgBom5-LfQpFI2EogPRjuwAAAAQ
+
+2025-03-31 10:17:14
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220207-023227-YgBom5-LfQpFI2EogPRjuwAAAAQ
+result: {
+    "20220207-023227-YgBom5-LfQpFI2EogPRjuwAAAAQ": {
+        "id": 1091896,
+        "special_log_type": "apache2\/audit\/www-data"
+    }
+}
+start: 1743416232.7897
+finish: 1743416234.7905
+duration_min_sec: 0:2
+duration_sec_microseconds: 2.0008280277252
+
+2025-03-31 10:17:14
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /synaptic4u/REPOS/log_parser_app/linode_logs/20220209/log/apache2/audit/www-data/20220207/20220207-0018/20220207-001819-YgBJK7X1c0eezHCl@oDuigAAAA0
+
+2025-03-31 10:17:16
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220207-001819-YgBJK7X1c0eezHCl@oDuigAAAA0
+result: {
+    "20220207-001819-YgBJK7X1c0eezHCl@oDuigAAAA0": {
+        "id": 1091896,
+        "special_log_type": "apache2\/audit\/www-data"
+    }
+}
+start: 1743416234.7907
+finish: 1743416236.7916
+duration_min_sec: 0:2
+duration_sec_microseconds: 2.0009078979492
+
+2025-03-31 10:17:16
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /synaptic4u/REPOS/log_parser_app/linode_logs/20220209/log/apache2/audit/www-data/20220207/20220207-0018/20220207-001819-YgBJK5plvG4ptMt0Zp1X1wAAABA
+
+2025-03-31 10:17:18
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220207-001819-YgBJK5plvG4ptMt0Zp1X1wAAABA
+result: {
+    "20220207-001819-YgBJK5plvG4ptMt0Zp1X1wAAABA": {
+        "id": 1091896,
+        "special_log_type": "apache2\/audit\/www-data"
+    }
+}
+start: 1743416236.7918
+finish: 1743416238.7932
+duration_min_sec: 0:2
+duration_sec_microseconds: 2.0014081001282
+
+2025-03-31 10:17:18
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /synaptic4u/REPOS/log_parser_app/linode_logs/20220209/log/apache2/audit/www-data/20220207/20220207-0954/20220207-095405-YgDQHfPRzdbrBc9I3P8MNQAAAAA
+
+2025-03-31 10:17:20
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220207-095405-YgDQHfPRzdbrBc9I3P8MNQAAAAA
+result: {
+    "20220207-095405-YgDQHfPRzdbrBc9I3P8MNQAAAAA": {
+        "id": 1091896,
+        "special_log_type": "apache2\/audit\/www-data"
+    }
+}
+start: 1743416238.7933
+finish: 1743416240.7941
+duration_min_sec: 0:2
+duration_sec_microseconds: 2.0007920265198
+
+2025-03-31 10:17:20
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /synaptic4u/REPOS/log_parser_app/linode_logs/20220209/log/apache2/audit/www-data/20220207/20220207-1540/20220207-154028-YgEhTIGP@cUX8tso6jjvGwAAAAk
+
+2025-03-31 10:17:22
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220207-154028-YgEhTIGP@cUX8tso6jjvGwAAAAk
+result: {
+    "20220207-154028-YgEhTIGP@cUX8tso6jjvGwAAAAk": {
+        "id": 1091896,
+        "special_log_type": "apache2\/audit\/www-data"
+    }
+}
+start: 1743416240.7942
+finish: 1743416242.7956
+duration_min_sec: 0:2
+duration_sec_microseconds: 2.0013558864594
+
+2025-03-31 10:17:22
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /synaptic4u/REPOS/log_parser_app/linode_logs/20220209/log/apache2/audit/www-data/20220207/20220207-0255/20220207-025553-YgBuGSF3Tld3Dsn5kIWgrgAAAAs
+
+2025-03-31 10:17:24
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220207-025553-YgBuGSF3Tld3Dsn5kIWgrgAAAAs
+result: {
+    "20220207-025553-YgBuGSF3Tld3Dsn5kIWgrgAAAAs": {
+        "id": 1091896,
+        "special_log_type": "apache2\/audit\/www-data"
+    }
+}
+start: 1743416242.7957
+finish: 1743416244.7977
+duration_min_sec: 0:2
+duration_sec_microseconds: 2.0020041465759
+
+2025-03-31 10:17:24
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /synaptic4u/REPOS/log_parser_app/linode_logs/20220209/log/apache2/audit/www-data/20220207/20220207-0255/20220207-025552-YgBuGIGP@cUX8tso6jjvGAAAAAk
+
+2025-03-31 10:17:26
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220207-025552-YgBuGIGP@cUX8tso6jjvGAAAAAk
+result: {
+    "20220207-025552-YgBuGIGP@cUX8tso6jjvGAAAAAk": {
+        "id": 1091896,
+        "special_log_type": "apache2\/audit\/www-data"
+    }
+}
+start: 1743416244.7979
+finish: 1743416246.7988
+duration_min_sec: 0:2
+duration_sec_microseconds: 2.0008800029755
+
+2025-03-31 10:17:26
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /synaptic4u/REPOS/log_parser_app/linode_logs/20220209/log/apache2/audit/www-data/20220207/20220207-0815/20220207-081525-YgC4-RBcjTLCtbTzi0VxTQAAAAw
+
+2025-03-31 10:17:28
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220207-081525-YgC4-RBcjTLCtbTzi0VxTQAAAAw
+result: {
+    "20220207-081525-YgC4-RBcjTLCtbTzi0VxTQAAAAw": {
+        "id": 1091896,
+        "special_log_type": "apache2\/audit\/www-data"
+    }
+}
+start: 1743416246.7989
+finish: 1743416248.8003
+duration_min_sec: 0:2
+duration_sec_microseconds: 2.001366853714
+
+2025-03-31 10:17:28
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /synaptic4u/REPOS/log_parser_app/linode_logs/20220209/log/apache2/audit/www-data/20220207/20220207-0815/20220207-081538-YgC5CrX1c0eezHCl@oDujAAAAA0
+
+2025-03-31 10:17:30
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): 20220207-081538-YgC5CrX1c0eezHCl@oDujAAAAA0
+result: {
+    "20220207-081538-YgC5CrX1c0eezHCl@oDujAAAAA0": {
+        "id": 1091896,
+        "special_log_type": "apache2\/audit\/www-data"
+    }
+}
+start: 1743416248.8004
+finish: 1743416250.8012
+duration_min_sec: 0:2
+duration_sec_microseconds: 2.0008480548859
+
+2025-03-31 10:17:30
+Location: Synaptic4UParser\Parser\Parser::dumpLog(): /synaptic4u/REPOS/log_parser_app/linode_logs/20220209/log/apache2/audit/www-data/20220207/20220207-1949/20220207-194926-YgFbpt3jUpakuURfp1-LYAAAAA8
