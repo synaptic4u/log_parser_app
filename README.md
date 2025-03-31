@@ -1,6 +1,6 @@
 ## NOTA BENA!!!
 
-        2025/03/31
+        Updates - 2025/03/31
         Looking at changing this and cleaning it all up, so ity installs from a cli prompt that is easy to use and asks the configuration file settings for the app and displays the output in a nice way.
 
         STARTING NEW BRANCH REFACTOR -> Refactor and simplify the code I wrote years ago.
@@ -141,7 +141,7 @@
     3   Dump - log_dump.
     4   File Exclude - file_exclude_types.
 
-    Log Include -> "log_include"
+    # Log Include -> "log_include"
         Please read through the config.json file to see how I setup mine. My Apache2 log files are custom log files.
         Some of my log files have a different formatting, I have changed the formatting a number of times.
         It's noticeable in my Apache logs, I implement web server firewalls and auditing, so it writes lots of entries.
@@ -243,7 +243,7 @@
     I did notice that linux applications do follow their own format, the goal was to provide a generic architecture
     that would parse all variations of log files. At this point that goal is not yet achieved.
 
-    PLEASE NOTE!
+    ### PLEASE NOTE!
     -------------
         Duplicated Data
             This app currently doesn't check for duplications in the database.
@@ -289,7 +289,7 @@
 
 ## Contact
 
-    If you have feedback; drop me a mail at synaptic4u@gmail.com or emiledewilde2@gmail.com
+    If you have feedback; drop me a mail at [synaptic4u@gmail.com](https://synaptic4u@gmail.com)
 
     Thanks
     Emile De Wilde
