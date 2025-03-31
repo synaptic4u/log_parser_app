@@ -11,7 +11,8 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "phpmailer/phpmailer": "6.5.0"
+        "phpmailer/phpmailer": "6.5.0",
+        "laravel/prompts": "^0.3.0@dev"
     },
     "autoload": {
         "psr-4": {
