@@ -1,5 +1,6 @@
-## NOTA BENA!!!
+---
 
+## NOTA BENA!!!
         2025/03/31
         Looking at changing this and cleaning it all up, so ity installs from a cli prompt that is easy to use and asks the configuration file settings for the app and displays the output in a nice way.
 
