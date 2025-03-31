@@ -1,56 +1,55 @@
------------------------------------------------------------------------------------------------
-NOTA BENA!!!
------------------------------------------------------------------------------------------------
+---
+ 
+## NOTA BENA!!!
+        2025/03/31
+        Looking at changing this and cleaning it all up, so ity installs from a cli prompt that is easy to use and asks the configuration file settings for the app and displays the output in a nice way.
+
         STARTING NEW BRANCH REFACTOR -> Refactor and simplify the code I wrote years ago.
 
-        
-        This has repo has mostly become an exercise in design principles. Thats why with some of it you can see its copied and pasted a little between MySQL, SQLite, T-SQL etc..
-        Link to log files:
-        https://drive.google.com/drive/folders/1DbjBlJAHV8bEJofzUOoKtcmTbp90FXCj?usp=share_link
-        Link to how I plan to update this work:
-        https://docs.google.com/document/d/1A8HEq1WCUubcOholYtcpvFLvD0aFzHSYiLS3WYPS534/edit?usp=sharing
-        
+
+
         Working on the issue I mentioned previously with false positives.
-        I had one file always being written to the wrong place. 
+        I had one file always being written to the wrong place.
         Changed how I sort to files: included, rejected and log dumped.
         Testing the change in "dev" branch. So far after testing, it seems to be sorting correctly.
         -> Will confirm changes are working with the next test batch. -> CHanges seem to be working!
-               
-        Refactored UI & DB. 
-        Developing in "dev" branch, will merge "dev" to "master" periodically. 
+
+        Refactored UI & DB.
+        Developing in "dev" branch, will merge "dev" to "master" periodically.
         Decoupling my presentation layer and database layer.
         First just for the CLI & MySQL, once that is purring like a lion...
         then I'll do the rest, but completing the database abstraction
         and then to the presentation. I'll also be giving my error catching a going over,
         I'll be able to introduce a roll back or re-commit with a mysql already active transaction error.
         Want to solve the mysql already active transaction error.
-            
 
-            
 
------------------------------------------------------------------------------------------------
-Log Parser App Setup & Usage
------------------------------------------------------------------------------------------------
+
+
+---
+
+## Log Parser App Setup & Usage
+
     Intro:
     -------
         Please note that there are great log parsing applications, but most will give you a web interface to use.
         I wanted a CLI option.
 
-        I will be updating this when I have the chance to do so. 
+        I will be updating this when I have the chance to do so.
         This is all running on a server where Im practicing my server administration and doing a little pentesting.
 
-        I ended up with thousands of log files with hundreds of thousands of entries while I was testing. 
-        I'm not a regex ninja, so I wrote this to be able to query everything from my DB where I am a ninja. 
-        I have procedures where I clean the data and remove possible duplicates. 
+        I ended up with thousands of log files with hundreds of thousands of entries while I was testing.
+        I'm not a regex ninja, so I wrote this to be able to query everything from my DB where I am a ninja.
+        I have procedures where I clean the data and remove possible duplicates.
 
     Please NB!!!
     ------------
-        IMPORTANT!!! 
+        IMPORTANT!!!
         This will produce duplicates, you will need to clean your data in mysql!!!!
-        This is just something to get it started. My application logic still needs to be polished. 
+        This is just something to get it started. My application logic still needs to be polished.
             ex: in my "debug" log files it is including modsec-debug file, which should be in it's own table.
         I'll let you know when it is finished, hope it helps & have fun.
-    
+
     Setup:
     ------
         The setup is comprised of 3 configuration files:
@@ -72,13 +71,13 @@ Log Parser App Setup & Usage
             /var/www/LogParserApp/app/src/structure_files/tree.txt
         Discrepencies can result in the failing of the parser.
 
------------------------------------------------------------------------------------------------
-Database
------------------------------------------------------------------------------------------------
+---
+
+## Database
 
     This file contains the connection settings required for a MySQL database connection.
     I will be adding the necessary configuration for the other 2 databases at a later point.
-    
+
     The host setting is the name of your server.
     "host": "localhost",
 
@@ -97,7 +96,7 @@ Database
 
 
         CREATE DATABASE IF NOT EXISTS `logs` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
-        CREATE USER 'logs'@'localhost' IDENTIFIED BY 'Peaches_And_Cream_!'; 
+        CREATE USER 'logs'@'localhost' IDENTIFIED BY 'Peaches_And_Cream_!';
         GRANT ALL PRIVILEGES ON `logs`.* TO 'logs'@'localhost' WITH GRANT OPTION;
         FLUSH PRIVILEGES;
 
@@ -109,11 +108,11 @@ Database
     NB! Please note that in each table a primary key with auto incrementing is created.
         It will be named "logid" for all user defined tables or "dumpid" for the generic "log_dump" table.
 
------------------------------------------------------------------------------------------------
-Log Directories
------------------------------------------------------------------------------------------------
+---
 
-    This configuration file tells the application in which directory / directories 
+## Log Directories
+
+    This configuration file tells the application in which directory / directories
     where all the logs reside.
 
         "log_path" : [
@@ -130,9 +129,9 @@ Log Directories
     Then the application attempts to parse each file, either by line or whole file dumps.
     The parsing rules are configured in the Log Structure.
 
------------------------------------------------------------------------------------------------
-Log Structure
------------------------------------------------------------------------------------------------
+---
+
+## Log Structure
 
     This is the main configuration file for the application.
     It is written in JSON formatting, which is read by the app and used as a std object.
@@ -145,10 +144,10 @@ Log Structure
 
     Log Include -> "log_include"
         Please read through the config.json file to see how I setup mine. My Apache2 log files are custom log files.
-        Some of my log files have a different formatting, I have changed the formatting a number of times. 
+        Some of my log files have a different formatting, I have changed the formatting a number of times.
         It's noticeable in my Apache logs, I implement web server firewalls and auditing, so it writes lots of entries.
         I'm still playing with the structures and parsing.
-        
+
         Structure:
             "daemon_error" : {
                 "alias" : "daemon_error",
@@ -158,24 +157,24 @@ Log Structure
                 "loggedon_format" : "YYYY-MM-DD HH:mm:ss.m-6",
                 "field_encapsulated" : "brackets or double quotes",
                 "field_delimiter" : "space",
-                "quirk" : "Unique_id & client_ip_port could be anywhere, we'll search for those values after error column. 
-                           Date formatted as either: [Day MMM DD HH:mm:ss.m-6 YYYY] || [Day MMM DD HH:mm:ss.m-6 YYYY]" 
+                "quirk" : "Unique_id & client_ip_port could be anywhere, we'll search for those values after error column.
+                           Date formatted as either: [Day MMM DD HH:mm:ss.m-6 YYYY] || [Day MMM DD HH:mm:ss.m-6 YYYY]"
             },
-            
+
             -> "daemon_error" -> The name of the log file.
             -> "alias" : "daemon_error" -> This is used as the alias for the database table name.
                     Alias must be one word, no hyphens or spaces!
                     Accepted values: tree or tree_log.
-            -> "directory" :"/var/log/apache2" -> The expected directory. 
+            -> "directory" :"/var/log/apache2" -> The expected directory.
                     I plan to use this to differentiate log files with the same name based upon their directory path.
             ->  "name" : "daemon-error.log" -> The full name of the log file.
             ->  "columns" : ["loggedon", "error", "client_ip", "unique_id", "log"] -> The expected columns.
                     These will become the field names in the database table.
-                    The last column "log" will default to all content in the row of the file as it is parsed. So after the initial named columns, 
+                    The last column "log" will default to all content in the row of the file as it is parsed. So after the initial named columns,
                     all remaining content will be included into the "log" column.
-            ->  "loggedon_format" : "YYYY-MM-DD HH:mm:ss.m-6" -> This is the expected date format in the file. 
-                    Different applications use a different format and it can be problematic. 
-                    I changed the way of creating dates in PHP to be more generic, but couldn't catch all the variances. 
+            ->  "loggedon_format" : "YYYY-MM-DD HH:mm:ss.m-6" -> This is the expected date format in the file.
+                    Different applications use a different format and it can be problematic.
+                    I changed the way of creating dates in PHP to be more generic, but couldn't catch all the variances.
                     If you encounter a different format, please email me and I will adjust the code.
                     So far I've encountered these variations in my log files:
                         "MMM DD HH:mm:ss"
@@ -190,11 +189,11 @@ Log Structure
                         "HH" -> 24 format
                         "ss,m-3" or "ss.m-6" -> Seconds with micro-seconds, deliminited by either a "," or "." and to the 3rd or 6th decimal place
             ->  "field_encapsulated" : "brackets or double quotes" ->   Fields are encapsulated with brackets or double quotes.
-                    Some fields even though the "space" is used to delimit fields can be arranged in a group, 
+                    Some fields even though the "space" is used to delimit fields can be arranged in a group,
                     yet still with spaces used as a delimiter in the group.
             ->  "field_delimiter" : "space" > Fields are normally delimited by a "space"
-            ->  "quirk" : "Unique_id & client_ip_port could be anywhere, we'll search for those values after error column. 
-                           Date formatted as either: [Day MMM DD HH:mm:ss.m-6 YYYY] || [Day MMM DD HH:mm:ss.m-6 YYYY]" 
+            ->  "quirk" : "Unique_id & client_ip_port could be anywhere, we'll search for those values after error column.
+                           Date formatted as either: [Day MMM DD HH:mm:ss.m-6 YYYY] || [Day MMM DD HH:mm:ss.m-6 YYYY]"
                     -> "quirk" helped me to keep track of differences in formatting, which happened when I changed some application's log formatting.
                             Namely Apache2. I experimented with different formats.
                             I also experienced quirks when some applications would write their own errors to the log file, which used a different format,
@@ -203,18 +202,18 @@ Log Structure
     Log Exclude -> "log_eclude"
         This is a list of files that are on your server that you do not want to parse.
         In my list, I include files that are not UTF8 encoded, such as binary and database files.
-        The app will break on these file types. Open a file and if it looks like gobbly-gook, 
+        The app will break on these file types. Open a file and if it looks like gobbly-gook,
         then add it to the exclude list.
 
     Dump -> "log_dump"
-        You can specify files that you want to be dumped as a whole file. 
+        You can specify files that you want to be dumped as a whole file.
         I will update the application to use this array to dump the whole log file in a single entry.
 
         As a default, any files that are not in the log_include and log_exclude will be parsed into the log_dump.
         With a single row as a single entry.
 
         This is useful for log files whose structure is not consistent and may change.
-        A log file can be parsed in two ways, where each line is inserted into a single entry 
+        A log file can be parsed in two ways, where each line is inserted into a single entry
         into the database or where the whole file is in a single entry.
         With the dump functionality, the file name is included into the row in another fieild.
         Further then that the file is not parsed.
@@ -230,9 +229,9 @@ Log Structure
         The code will break if it attempts to parse any other file encoding like binary.
         You can add to the list file types to be excluded.
 
------------------------------------------------------------------------------------------------
-Further Considerations
------------------------------------------------------------------------------------------------
+---
+
+## Further Considerations
 
     You are more then welcome to contribute, provide insight and feedback.
     It's the first time I release something to the public, so be gentle!
@@ -240,55 +239,56 @@ Further Considerations
     The app was primarily developed for the CLI, so it's very simplistic in it's UI,(non-existent).
     I did not have sufficient time to develop it better. Major rush job!
     Proper graceful error handling doesn't exist in it... It breaks and doesn't rollback.
-    My knowledge of linux and logging is limited, some of the system log file columns I couldn't find adequate 
+    My knowledge of linux and logging is limited, some of the system log file columns I couldn't find adequate
     explanations for them, so I guessed.
-    I did notice that linux applications do follow their own format, the goal was to provide a generic architecture 
+    I did notice that linux applications do follow their own format, the goal was to provide a generic architecture
     that would parse all variations of log files. At this point that goal is not yet achieved.
 
     PLEASE NOTE!
     -------------
         Duplicated Data
-            This app currently doesn't check for duplications in the database. 
+            This app currently doesn't check for duplications in the database.
             If you parse the same content twice, take a guess...
             Later I will introduce that.
 
         Error handling
             I will implement this as soon as I can.
             No one likes an app breaking on you and neither do I.
-            Currently; if it breaks? 
-                It's a full start over. 
+            Currently; if it breaks?
+                It's a full start over.
             You can see the last file it was busy with in the activity log and restart from there.
             Edit the config.json accordingly, it's a schlepp!
 
         User Interface
             I will introduce a user interface in time.
             Friendly user experience with the app is a goal for this.
------------------------------------------------------------------------------------------------
-Side Note
------------------------------------------------------------------------------------------------
+
+---
+
+## Side Note
 
     This is my first attempt at programatically parsing log files in PHP.
     It's a little side project I wrote, so that I could make sense of all the log files from my server.
-    
+
     I have thousands of files, with some files having hundreds of thousands of entries.
     The first time I ran this I had 80,000 log files; the largest having 200,000 lines.
     The size of the DB it generated was 4GB more or less.
 
     I have little experience with sysadmin, so I'm not a regex ninja, (which I still need to learn properly).
-    I do have DB experience and my mind thinks in structured sets. 
+    I do have DB experience and my mind thinks in structured sets.
     Tidy little rows and columns.
-    
+
     You will notice that PHPMailer is included in the dependancies. It is depreciated I think...
     I was planning to email reports at a later stage.
     Other dependancy that is used is composer's PSR4 autoloading.
-    
-    I will be maintaining this project and refractoring it. 
+
+    I will be maintaining this project and refractoring it.
     I wanted it to be something useful and something I could share.
     I hope that this is simple for you.
 
------------------------------------------------------------------------------------------------
-Contact
------------------------------------------------------------------------------------------------
+---
+
+## Contact
 
     If you have feedback; drop me a mail at synaptic4u@gmail.com or emiledewilde2@gmail.com
 
