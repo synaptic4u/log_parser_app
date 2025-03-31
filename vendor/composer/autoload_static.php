@@ -6,36 +6,10 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit30de68758f4a5cbcdab6aefd15e18e7b
 {
-    public static $files = array (
-        '6e3fae29631ef280660b3cdad06f25a8' => __DIR__ . '/..' . '/symfony/deprecation-contracts/function.php',
-        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
-        '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
-        '8825ede83f2f289127722d4e842cf7e8' => __DIR__ . '/..' . '/symfony/polyfill-intl-grapheme/bootstrap.php',
-        'e69f7f6ee287b969198c3c9d6777bd38' => __DIR__ . '/..' . '/symfony/polyfill-intl-normalizer/bootstrap.php',
-        'b6b991a57620e2fb6b2f66f03fe9ddc2' => __DIR__ . '/..' . '/symfony/string/Resources/functions.php',
-        '47e1160838b5e5a10346ac4084b58c23' => __DIR__ . '/..' . '/laravel/prompts/src/helpers.php',
-    );
-
     public static $prefixLengthsPsr4 = array (
         'S' => 
         array (
             'Synaptic4UParser\\' => 17,
-            'Symfony\\Polyfill\\Mbstring\\' => 26,
-            'Symfony\\Polyfill\\Intl\\Normalizer\\' => 33,
-            'Symfony\\Polyfill\\Intl\\Grapheme\\' => 31,
-            'Symfony\\Polyfill\\Ctype\\' => 23,
-            'Symfony\\Contracts\\Service\\' => 26,
-            'Symfony\\Component\\String\\' => 25,
-            'Symfony\\Component\\Console\\' => 26,
-        ),
-        'P' => 
-        array (
-            'Psr\\Container\\' => 14,
-            'PHPMailer\\PHPMailer\\' => 20,
-        ),
-        'L' => 
-        array (
-            'Laravel\\Prompts\\' => 16,
         ),
     );
 
@@ -44,51 +18,60 @@ class ComposerStaticInit30de68758f4a5cbcdab6aefd15e18e7b
         array (
             0 => __DIR__ . '/../..' . '/app/src',
         ),
-        'Symfony\\Polyfill\\Mbstring\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
-        ),
-        'Symfony\\Polyfill\\Intl\\Normalizer\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/polyfill-intl-normalizer',
-        ),
-        'Symfony\\Polyfill\\Intl\\Grapheme\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/polyfill-intl-grapheme',
-        ),
-        'Symfony\\Polyfill\\Ctype\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/polyfill-ctype',
-        ),
-        'Symfony\\Contracts\\Service\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/service-contracts',
-        ),
-        'Symfony\\Component\\String\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/string',
-        ),
-        'Symfony\\Component\\Console\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/console',
-        ),
-        'Psr\\Container\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/psr/container/src',
-        ),
-        'PHPMailer\\PHPMailer\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/phpmailer/phpmailer/src',
-        ),
-        'Laravel\\Prompts\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/laravel/prompts/src',
-        ),
     );
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
-        'Normalizer' => __DIR__ . '/..' . '/symfony/polyfill-intl-normalizer/Resources/stubs/Normalizer.php',
+        'Synaptic4UParser\\Core\\App' => __DIR__ . '/../..' . '/app/src/Core/App.php',
+        'Synaptic4UParser\\Core\\Log' => __DIR__ . '/../..' . '/app/src/Core/Log.php',
+        'Synaptic4UParser\\Core\\Template' => __DIR__ . '/../..' . '/app/src/Core/Template.php',
+        'Synaptic4UParser\\DB\\DB' => __DIR__ . '/../..' . '/app/src/DB/DB.php',
+        'Synaptic4UParser\\DB\\IDBInterface' => __DIR__ . '/../..' . '/app/src/DB/IDBInterface.php',
+        'Synaptic4UParser\\DB\\MYSQL' => __DIR__ . '/../..' . '/app/src/DB/MYSQL.php',
+        'Synaptic4UParser\\DB\\POSTGRESQL' => __DIR__ . '/../..' . '/app/src/DB/POSTGRESQL.php',
+        'Synaptic4UParser\\DB\\SQLITE' => __DIR__ . '/../..' . '/app/src/DB/SQLITE.php',
+        'Synaptic4UParser\\Files\\Reader\\FileReader' => __DIR__ . '/../..' . '/app/src/Files/Reader/FileReader.php',
+        'Synaptic4UParser\\Files\\Writer\\FileWriter' => __DIR__ . '/../..' . '/app/src/Files/Writer/FileWriter.php',
+        'Synaptic4UParser\\Files\\Writer\\FileWriterArray' => __DIR__ . '/../..' . '/app/src/Files/Writer/FileWriterArray.php',
+        'Synaptic4UParser\\Files\\Writer\\FileWriterText' => __DIR__ . '/../..' . '/app/src/Files/Writer/FileWriterText.php',
+        'Synaptic4UParser\\Files\\Writer\\IFileWriter' => __DIR__ . '/../..' . '/app/src/Files/Writer/IFileWriter.php',
+        'Synaptic4UParser\\FrontTemplate\\FrontTemplate' => __DIR__ . '/../..' . '/app/src/FrontTemplate/FrontTemplate.php',
+        'Synaptic4UParser\\FrontTemplate\\IUserInterface' => __DIR__ . '/../..' . '/app/src/FrontTemplate/IUserInterface.php',
+        'Synaptic4UParser\\FrontTemplate\\Views\\CLI' => __DIR__ . '/../..' . '/app/src/FrontTemplate/Views/CLI.php',
+        'Synaptic4UParser\\FrontTemplate\\Views\\DESKTOP' => __DIR__ . '/../..' . '/app/src/FrontTemplate/Views/DESKTOP.php',
+        'Synaptic4UParser\\FrontTemplate\\Views\\WEB' => __DIR__ . '/../..' . '/app/src/FrontTemplate/Views/WEB.php',
+        'Synaptic4UParser\\Logs\\Activity' => __DIR__ . '/../..' . '/app/src/Logs/Activity.php',
+        'Synaptic4UParser\\Logs\\Error' => __DIR__ . '/../..' . '/app/src/Logs/Error.php',
+        'Synaptic4UParser\\Logs\\ILog' => __DIR__ . '/../..' . '/app/src/Logs/ILog.php',
+        'Synaptic4UParser\\Logs\\Log' => __DIR__ . '/../..' . '/app/src/Logs/Log.php',
+        'Synaptic4UParser\\Parser\\Parser' => __DIR__ . '/../..' . '/app/src/Parser/Parser.php',
+        'Synaptic4UParser\\Parser\\Views\\CLI' => __DIR__ . '/../..' . '/app/src/Parser/Views/CLI.php',
+        'Synaptic4UParser\\Parser\\Views\\DESKTOP' => __DIR__ . '/../..' . '/app/src/Parser/Views/DESKTOP.php',
+        'Synaptic4UParser\\Parser\\Views\\IParserUI' => __DIR__ . '/../..' . '/app/src/Parser/Views/IParserUI.php',
+        'Synaptic4UParser\\Parser\\Views\\WEB' => __DIR__ . '/../..' . '/app/src/Parser/Views/WEB.php',
+        'Synaptic4UParser\\Structure\\Models\\IStructureDB' => __DIR__ . '/../..' . '/app/src/Structure/Models/IStructureDB.php',
+        'Synaptic4UParser\\Structure\\Models\\MYSQL' => __DIR__ . '/../..' . '/app/src/Structure/Models/MYSQL.php',
+        'Synaptic4UParser\\Structure\\Models\\POSTGRESQL' => __DIR__ . '/../..' . '/app/src/Structure/Models/POSTGRESQL.php',
+        'Synaptic4UParser\\Structure\\Models\\SQLITE' => __DIR__ . '/../..' . '/app/src/Structure/Models/SQLITE.php',
+        'Synaptic4UParser\\Structure\\Structure' => __DIR__ . '/../..' . '/app/src/Structure/Structure.php',
+        'Synaptic4UParser\\Structure\\Views\\CLI' => __DIR__ . '/../..' . '/app/src/Structure/Views/CLI.php',
+        'Synaptic4UParser\\Structure\\Views\\DESKTOP' => __DIR__ . '/../..' . '/app/src/Structure/Views/DESKTOP.php',
+        'Synaptic4UParser\\Structure\\Views\\IStructureUI' => __DIR__ . '/../..' . '/app/src/Structure/Views/IStructureUI.php',
+        'Synaptic4UParser\\Structure\\Views\\WEB' => __DIR__ . '/../..' . '/app/src/Structure/Views/WEB.php',
+        'Synaptic4UParser\\Tables\\Models\\ITablesDB' => __DIR__ . '/../..' . '/app/src/Tables/Models/ITablesDB.php',
+        'Synaptic4UParser\\Tables\\Models\\MYSQL' => __DIR__ . '/../..' . '/app/src/Tables/Models/MYSQL.php',
+        'Synaptic4UParser\\Tables\\Models\\POSTGRESQL' => __DIR__ . '/../..' . '/app/src/Tables/Models/POSTGRESQL.php',
+        'Synaptic4UParser\\Tables\\Models\\SQLITE' => __DIR__ . '/../..' . '/app/src/Tables/Models/SQLITE.php',
+        'Synaptic4UParser\\Tables\\Tables' => __DIR__ . '/../..' . '/app/src/Tables/Tables.php',
+        'Synaptic4UParser\\Tables\\Views\\CLI' => __DIR__ . '/../..' . '/app/src/Tables/Views/CLI.php',
+        'Synaptic4UParser\\Tables\\Views\\DESKTOP' => __DIR__ . '/../..' . '/app/src/Tables/Views/DESKTOP.php',
+        'Synaptic4UParser\\Tables\\Views\\ITablesUI' => __DIR__ . '/../..' . '/app/src/Tables/Views/ITablesUI.php',
+        'Synaptic4UParser\\Tables\\Views\\WEB' => __DIR__ . '/../..' . '/app/src/Tables/Views/WEB.php',
+        'Synaptic4UParser\\Tree\\Tree' => __DIR__ . '/../..' . '/app/src/Tree/Tree.php',
+        'Synaptic4UParser\\Tree\\Views\\CLI' => __DIR__ . '/../..' . '/app/src/Tree/Views/CLI.php',
+        'Synaptic4UParser\\Tree\\Views\\DESKTOP' => __DIR__ . '/../..' . '/app/src/Tree/Views/DESKTOP.php',
+        'Synaptic4UParser\\Tree\\Views\\ITreeUI' => __DIR__ . '/../..' . '/app/src/Tree/Views/ITreeUI.php',
+        'Synaptic4UParser\\Tree\\Views\\WEB' => __DIR__ . '/../..' . '/app/src/Tree/Views/WEB.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

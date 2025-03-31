@@ -47,19 +47,19 @@ use Synaptic4UParser\Tree\Tree;
  */
 class App
 {
-    private $setup;
-    private $setup_path;
-    private $options;
-    private $config_path;
-    private $config_path_list = [];
-    private $config_log_path;
-    private $config;
-    private $tree;
-    private $flat_tree;
-    private $file_reader;
-    private $file_writer;
-    private $parser;
-    private $result;
+    protected $setup;
+    protected $setup_path;
+    protected $options;
+    protected $config_path;
+    protected $config_path_list = [];
+    protected $config_log_path;
+    protected $config;
+    protected $tree;
+    protected $flat_tree;
+    protected $file_reader;
+    protected $file_writer;
+    protected $parser;
+    protected $result;
 
     /**
      * Constructor will load all the config files:

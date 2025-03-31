@@ -17,7 +17,7 @@ use Synaptic4UParser\Logs\Log;
 // declare(strict_types=1);
 
 try {
-    // Initializes Class::App
+    // Initiates Class::App
     $app = new App();
 } catch (Exception $e) {
     new Log([
